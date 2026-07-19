@@ -1,0 +1,20 @@
+# Job Applier Skill Configuration
+
+# IMPORTANT SAFETY WARNING:
+# Some job platforms (e.g., LinkedIn) explicitly prohibit automated applying in their Terms of Service.
+# You are responsible for ensuring compliance with the ToS of any site you target.
+# It is highly recommended to keep dry_run: true for review.
+
+dry_run: true
+match_threshold: 75
+max_applications_per_day: 5
+
+sites:
+  - greenhouse
+  # - lever
+  # - workday
+
+rate_limits:
+  greenhouse:
+    min_sleep_seconds: 2
+    max_sleep_seconds: 5

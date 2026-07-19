@@ -1,0 +1,19 @@
+# Job application task configuration
+# IMPORTANT SAFETY WARNING:
+# Some job platforms explicitly prohibit automated applying in their Terms of Service.
+# You are responsible for ensuring compliance with the ToS of any site you target.
+
+name: "Go to google and find best possible model freely available over nvidia nim to use it for we automation"
+dry_run: true  # Keep true until manually reviewed
+
+# resume_path: "storage/files/input/resume.pdf"
+# target_roles: 
+#   - "Software Engineer"
+#   - "Backend Developer"
+#   - "Full Stack Developer"
+# locations: 
+#   - "Remote"
+#   - "Mumbai"
+
+# sites:
+#   - "greenhouse"

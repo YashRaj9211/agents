@@ -1,0 +1,49 @@
+# OS files
+.DS_Store
+Thumbs.db
+db.sqlite3
+
+# IDEs and editors
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Python / Backend
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables / Secrets
+.env
+.env.local
+.env.*.local
+*.env
+backend/.env
+
+# Local application storage & browser profiles (specific to this project)
+backend/storage/logs/*.jsonl
+backend/storage/browser-profile/
+backend/storage/files/input/*
+!backend/storage/files/input/.gitkeep
+backend/storage/files/output/*
+!backend/storage/files/output/.gitkeep
+backend/.playwright-mcp/
