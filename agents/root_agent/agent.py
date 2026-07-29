@@ -1,9 +1,12 @@
 import os
+from dotenv import load_dotenv
 from google.adk.agents import LlmAgent
+from google.adk.tools.agent_tool import AgentTool
 from google.adk.models.lite_llm import LiteLlm
-import sys
-sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-from mcp_servers.plawright import playwright_toolset
+from tools.utility_tools.getCurrTime import getCurrentTime
+from agents.browser_agent.agent import browser_agent
+
+load_dotenv()
 
 api_base_url = "https://integrate.api.nvidia.com/v1"
 model_name_at_endpoint = "nvidia/nemotron-3-super-120b-a12b"
@@ -36,17 +39,16 @@ Memory rules:
 Output format:
 - Return the final result in markdown format with tag <DONE>
 """
-browser_agent = LlmAgent(
+root_agent = LlmAgent(
     model=LiteLlm(
         model="nvidia/nemotron-3-super-120b-a12b",
         api_base=api_base_url,
         api_key=os.getenv("BROWSER_MODEL_KEY"),
         custom_llm_provider="openai",
     ),
-    name="browser_agent",
+    name="root_agent",
     instruction=prompt,
-    sub_agents=[browser_agent],
-)
-
-root_agent = browser_agent
-print(browser_agent)
+    tools=[
+        getCurrentTime,
+        AgentTool(browser_agent)],
+)

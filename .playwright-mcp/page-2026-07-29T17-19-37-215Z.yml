@@ -1,0 +1,408 @@
+- generic [active] [ref=f37e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f37e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f37e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f37e8]:
+    - search [ref=f37e9]:
+      - generic [ref=f37e11]:
+        - link "Go to Google Home" [ref=f37e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwi9j8HHsviVAxUcT2wGHZoUPSsQPAgI
+        - generic [ref=f37e21]:
+          - generic [ref=f37e22]:
+            - combobox "Search" [ref=f37e25]: AnimateDiff SDXL Turbo ComfyUI Colab free tier AnimateDiff SDXL Turbo ComfyUI Colab free tier
+            - generic [ref=f37e26]:
+              - button "Clear" [ref=f37e28] [cursor=pointer]
+              - generic [ref=f37e33]:
+                - button "Search by voice" [ref=f37e34] [cursor=pointer]
+                - button "Search by image" [ref=f37e37] [cursor=pointer]
+          - button "Search" [ref=f37e40] [cursor=pointer]
+    - generic [ref=f37e45]:
+      - button "Settings" [ref=f37e47] [cursor=pointer]
+      - button "Share" [ref=f37e53] [cursor=pointer]
+      - generic [ref=f37e59]:
+        - button "Google apps" [ref=f37e61] [cursor=pointer]
+        - link "Sign in" [ref=f37e66] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DAnimateDiff%2BSDXL%2BTurbo%2BComfyUI%2BColab%2Bfree%2Btier&ec=futura_srp_og_si_72236_p
+  - generic [ref=f37e68]:
+    - navigation [ref=f37e74]:
+      - generic [ref=f37e80]:
+        - list [ref=f37e81]:
+          - listitem [ref=f37e82]:
+            - link "AI Mode" [ref=f37e85] [cursor=pointer]:
+              - /url: /search?q=AnimateDiff+SDXL+Turbo+ComfyUI+Colab+free+tier&sca_esv=299d7fdae20ad544&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832VstEKsVDqPorK0Gahnm2nrruedQ0d32Et2kDhW_DVrEiVEEKhGMS6J6qOai58Kp-xhksXV28NogeTUukXLA6cErqGvRbRiH7suRTN0y_34V3a_l9_d5vx2BXsNvp3CNaFbjOcCna9jBf_n8HFTuWydDmY1eASGf8xNKp4j1zWBVjs_98w&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwi9j8HHsviVAxUcT2wGHZoUPSsQ2J8OegQIDhAD
+          - listitem [ref=f37e89]:
+            - link "All" [disabled] [ref=f37e90]
+          - listitem [ref=f37e93]:
+            - link "Images" [ref=f37e94] [cursor=pointer]:
+              - /url: /search?sca_esv=299d7fdae20ad544&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832VstEKsVDqPorK0Gahnm2nrruedQ0d32Et2kDhW_DVrEiVEEKhGMS6J6qOai58Kp-xhksXV28NogeTUukXLA6cErqGvRbRiH7suRTN0y_34V3a_l9_d5vx2BXsNvp3CNaFbjOcCna9jBf_n8HFTuWydDmY1eASGf8xNKp4j1zWBVjs_98w&q=AnimateDiff+SDXL+Turbo+ComfyUI+Colab+free+tier&sa=X&ved=2ahUKEwi9j8HHsviVAxUcT2wGHZoUPSsQtKgLegQIFBAB
+          - listitem [ref=f37e97]:
+            - link "Videos" [ref=f37e98] [cursor=pointer]:
+              - /url: /search?sca_esv=299d7fdae20ad544&udm=7&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832VstEKsVDqPorK0Gahnm2nrruedQ0d32Et2kDhW_DVrEiVEEKhGMS6J6qOai58Kp-xhksXV28NogeTUukXLA6cErqGvRbRiH7suRTN0y_34V3a_l9_d5vx2BXsNvp3CNaFbjOcCna9jBf_n8HFTuWydDmY1eASGf8xNKp4j1zWBVjs_98w&q=AnimateDiff+SDXL+Turbo+ComfyUI+Colab+free+tier&sa=X&ved=2ahUKEwi9j8HHsviVAxUcT2wGHZoUPSsQtKgLegQIERAB
+          - listitem [ref=f37e101]:
+            - link "Shopping" [ref=f37e102] [cursor=pointer]:
+              - /url: /search?sca_esv=299d7fdae20ad544&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832VstEKsVDqPorK0Gahnm2nrruedQ0d32Et2kDhW_DVrEiVEEKhGMS6J6qOai58Kp-xhksXV28NogeTUukXLA6cErqGvRbRiH7suRTN0y_34V3a_l9_d5vx2BXsNvp3CNaFbjOcCna9jBf_n8HFTuWydDmY1eASGf8xNKp4j1zWBVjs_98w&q=AnimateDiff+SDXL+Turbo+ComfyUI+Colab+free+tier&ved=1t:220175&ictx=111
+          - listitem [ref=f37e105]:
+            - link "Forums" [ref=f37e106] [cursor=pointer]:
+              - /url: /search?sca_esv=299d7fdae20ad544&udm=18&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832VstEKsVDqPorK0Gahnm2nrruedQ0d32Et2kDhW_DVrEiVEEKhGMS6J6qOai58Kp-xhksXV28NogeTUukXLA6cErqGvRbRiH7suRTN0y_34V3a_l9_d5vx2BXsNvp3CNaFbjOcCna9jBf_n8HFTuWydDmY1eASGf8xNKp4j1zWBVjs_98w&q=AnimateDiff+SDXL+Turbo+ComfyUI+Colab+free+tier&sa=X&ved=2ahUKEwi9j8HHsviVAxUcT2wGHZoUPSsQs6gLegQIEBAB
+          - listitem [ref=f37e109]:
+            - link "Short videos" [ref=f37e110] [cursor=pointer]:
+              - /url: /search?sca_esv=299d7fdae20ad544&udm=39&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832VstEKsVDqPorK0Gahnm2nrruedQ0d32Et2kDhW_DVrEiVEEKhGMS6J6qOai58Kp-xhksXV28NogeTUukXLA6cErqGvRbRiH7suRTN0y_34V3a_l9_d5vx2BXsNvp3CNaFbjOcCna9jBf_n8HFTuWydDmY1eASGf8xNKp4j1zWBVjs_98w&q=AnimateDiff+SDXL+Turbo+ComfyUI+Colab+free+tier&sa=X&ved=2ahUKEwi9j8HHsviVAxUcT2wGHZoUPSsQs6gLegQIExAB
+          - listitem [ref=f37e113]:
+            - button [ref=f37e114] [cursor=pointer]:
+              - generic "More filters" [ref=f37e115]: More
+        - button "Tools" [ref=f37e122] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f37e129]
+    - main [ref=f37e135]:
+      - generic [ref=f37e139]:
+        - generic [ref=f37e143]:
+          - generic [ref=f37e145]:
+            - heading "Videos" [level=2] [ref=f37e146]
+            - button "About this result" [ref=f37e147] [cursor=pointer]
+          - generic [ref=f37e153]:
+            - generic [ref=f37e160]:
+              - generic [ref=f37e161]:
+                - link [ref=f37e163] [cursor=pointer]:
+                  - /url: https://www.youtube.com/watch?v=1Jw17pv_kzk
+                  - heading "Free Google Colab AI Image & Video Generator | SDXL Turbo ... YouTube AI World 1 month ago" [level=3] [ref=f37e164]:
+                    - generic [ref=f37e165]: Free Google Colab AI Image & Video Generator | SDXL Turbo ...
+                    - generic [ref=f37e169]:
+                      - generic [ref=f37e170]:
+                        - text: YouTube
+                        - generic [ref=f37e171]: · AI World
+                      - generic [ref=f37e172]: 1 month ago
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - text: YouTube
+                          - generic: · AI World
+                    - button "About this result" [ref=f37e173] [cursor=pointer]
+              - button "Free Google Colab AI Image & Video Generator | SDXL Turbo ... by AI World on YouTube. Play on Google. 9:33" [ref=f37e178] [cursor=pointer]:
+                - generic [ref=f37e179]: 9:33
+            - generic [ref=f37e200]:
+              - generic [ref=f37e201]:
+                - link [ref=f37e203] [cursor=pointer]:
+                  - /url: https://www.youtube.com/watch?v=vpl_f_Iwj_A
+                  - heading "AI Animation for FREE in ComfyUI | AnimateDiff Tutorial YouTube Software Help Network 1 Apr 2026" [level=3] [ref=f37e204]:
+                    - generic [ref=f37e205]: AI Animation for FREE in ComfyUI | AnimateDiff Tutorial
+                    - generic [ref=f37e209]:
+                      - generic [ref=f37e210]:
+                        - text: YouTube
+                        - generic [ref=f37e211]: · Software Help Network
+                      - generic [ref=f37e212]: 1 Apr 2026
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - text: YouTube
+                          - generic: · Software Help Network
+                    - button "About this result" [ref=f37e213] [cursor=pointer]
+              - button "AI Animation for FREE in ComfyUI | AnimateDiff Tutorial by Software Help Network on YouTube. Play on Google. 4:50" [ref=f37e218] [cursor=pointer]:
+                - generic [ref=f37e219]: 4:50
+            - generic [ref=f37e238]:
+              - generic [ref=f37e239]:
+                - generic [ref=f37e240]:
+                  - link [ref=f37e242] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=5rWcbY01jQM
+                    - 'heading "Comfyui Tutorial: Creating Animation with Animatediff and ... YouTube CG Pixel 14 Jan 2024" [level=3] [ref=f37e243]':
+                      - generic [ref=f37e244]: "Comfyui Tutorial: Creating Animation with Animatediff and ..."
+                      - generic [ref=f37e248]:
+                        - generic [ref=f37e249]:
+                          - text: YouTube
+                          - generic [ref=f37e250]: · CG Pixel
+                        - generic [ref=f37e251]: 14 Jan 2024
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · CG Pixel
+                      - button "About this result" [ref=f37e252] [cursor=pointer]
+                - 'button "Comfyui Tutorial: Creating Animation with Animatediff and ... by CG Pixel on YouTube. Play on Google. 10:54" [ref=f37e257] [cursor=pointer]':
+                  - generic [ref=f37e258]: 10:54
+              - button "Generate 1024x1024 animations in ComfyUI using SDXL models with AnimateDiff, then upscale with Topaz AI." [ref=f37e271] [cursor=pointer]
+            - generic [ref=f37e282]:
+              - generic [ref=f37e283]:
+                - link [ref=f37e285] [cursor=pointer]:
+                  - /url: https://www.youtube.com/watch?v=tCNW1chaEAQ
+                  - heading "ComfyUI Without a GPU – Complete Free Setup Using Google ... YouTube Vladimir Chopine [GeekatPlay] 21 May 2025" [level=3] [ref=f37e286]:
+                    - generic [ref=f37e287]: ComfyUI Without a GPU – Complete Free Setup Using Google ...
+                    - generic [ref=f37e291]:
+                      - generic [ref=f37e292]:
+                        - text: YouTube
+                        - generic [ref=f37e293]: · Vladimir Chopine [GeekatPlay]
+                      - generic [ref=f37e294]: 21 May 2025
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - text: YouTube
+                          - generic: · Vladimir Chopine [GeekatPlay]
+                    - button "About this result" [ref=f37e295] [cursor=pointer]
+              - button "ComfyUI Without a GPU – Complete Free Setup Using Google ... by Vladimir Chopine [GeekatPlay] on YouTube. Play on Google. 14:25" [ref=f37e300] [cursor=pointer]:
+                - generic [ref=f37e301]: 14:25
+          - link "View all videos" [ref=f37e318] [cursor=pointer]:
+            - /url: /search?sca_esv=299d7fdae20ad544&udm=7&q=AnimateDiff+SDXL+Turbo+ComfyUI+Colab+free+tier&sa=X&ved=2ahUKEwi9j8HHsviVAxUcT2wGHZoUPSsQ8ccDKAJ6BAgZEAQ
+            - separator [ref=f37e319]
+            - generic [ref=f37e320]: View all
+        - generic [ref=f37e335]:
+          - heading "Thinking Searching Thinking a little longer" [level=2] [ref=f37e339]:
+            - generic [ref=f37e340]:
+              - generic [ref=f37e341]: Thinking
+              - generic [ref=f37e343]: Searching
+              - generic [ref=f37e353]: Thinking a little longer
+          - progressbar "Generating" [ref=f37e356]
+        - generic [ref=f37e409]:
+          - heading "Web results" [level=2] [ref=f37e410]
+          - generic [ref=f37e411]:
+            - generic [ref=f37e414]:
+              - link "How To Use Stable Diffusion X Large SDXL On Google ... GitHub https://github.com › Stable-Diffusion › wiki › How-To-..." [ref=f37e416] [cursor=pointer]:
+                - /url: https://github.com/FurkanGozukara/Stable-Diffusion/wiki/How-To-Use-Stable-Diffusion-X-Large-SDXL-On-Google-Colab-For-Free
+                - heading "How To Use Stable Diffusion X Large SDXL On Google ..." [level=3] [ref=f37e417]
+                - generic [ref=f37e423]:
+                  - generic [ref=f37e424]: GitHub
+                  - generic [ref=f37e426]: https://github.com › Stable-Diffusion › wiki › How-To-...
+              - button "About this result" [ref=f37e430] [cursor=pointer]
+            - generic [ref=f37e436]:
+              - generic [ref=f37e437]: 23 Oct 2025 —
+              - generic [ref=f37e438]:
+                - text: in this video I will show you how to use it on Google
+                - emphasis [ref=f37e439]: Colab
+                - text: for
+                - emphasis [ref=f37e440]: free
+                - text: . connected and you have GPU. It works with a
+                - emphasis [ref=f37e441]: free
+                - text: GPU. with 50 steps.
+        - generic [ref=f37e445]:
+          - generic [ref=f37e448]:
+            - link "Text to Video with Stable Diffusion | Animatediff Video Maker ... AnimateDiff https://www.animatediff.org" [ref=f37e450] [cursor=pointer]:
+              - /url: https://www.animatediff.org/
+              - heading "Text to Video with Stable Diffusion | Animatediff Video Maker ..." [level=3] [ref=f37e451]
+              - generic [ref=f37e457]:
+                - generic [ref=f37e458]: AnimateDiff
+                - generic [ref=f37e460]: https://www.animatediff.org
+            - button "About this result" [ref=f37e464] [cursor=pointer]
+          - generic [ref=f37e471]:
+            - emphasis [ref=f37e472]: AnimateDiff is a free online video maker
+            - text: that brings motion to AI-generated visuals. Create animations from text prompts or animate existing images. Google ...
+          - generic [ref=f37e474]:
+            - text: "Missing: Turbo ‎| Show results with:"
+            - link "Turbo" [ref=f37e475] [cursor=pointer]:
+              - /url: /search?sca_esv=299d7fdae20ad544&q=AnimateDiff+SDXL+%22Turbo%22+ComfyUI+Colab+free+tier&sa=X&ved=2ahUKEwi9j8HHsviVAxUcT2wGHZoUPSsQ5t4CegQIKRAB
+        - generic [ref=f37e479]:
+          - generic [ref=f37e482]:
+            - link "sdxl turbo and animatediff has anyone managed to make it ... Reddit · r/comfyui 40+ comments · 2 years ago" [ref=f37e484] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/comfyui/comments/1879os5/sdxl_turbo_and_animatediff_has_anyone_managed_to/
+              - heading "sdxl turbo and animatediff has anyone managed to make it ..." [level=3] [ref=f37e485]
+              - generic [ref=f37e491]:
+                - generic [ref=f37e492]: Reddit · r/comfyui
+                - generic [ref=f37e494]: 40+ comments · 2 years ago
+            - button "About this result" [ref=f37e498] [cursor=pointer]
+          - generic [ref=f37e504]:
+            - generic [ref=f37e505]:
+              - text: You can pretty much do a normal animated diff workflow on
+              - emphasis [ref=f37e506]: comfyui
+              - text: with an
+              - emphasis [ref=f37e507]: sdxl
+              - text: model you would use with animated diff, but you merge that model with
+              - emphasis [ref=f37e508]: sdxl
+              - text: turbo.
+            - link "Read more" [ref=f37e509] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/comfyui/comments/1879os5/sdxl_turbo_and_animatediff_has_anyone_managed_to/#:~:text=You%20can%20pretty%20much%20do,that%20model%20with%20sdxl%20turbo.
+          - generic [ref=f37e512]:
+            - generic [ref=f37e513]:
+              - link [ref=f37e516] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/StableDiffusion/comments/1py0cmy/best_free_realistic_image_generation_for_google/
+                - generic [ref=f37e517]:
+                  - text: Best
+                  - emphasis [ref=f37e518]: free
+                  - text: realistic image generation for Google
+                  - emphasis [ref=f37e519]: Colab
+                  - text: in ...
+              - generic [ref=f37e520]: 2 posts
+              - generic [ref=f37e522]: 28 Dec 2025
+            - generic [ref=f37e524]:
+              - link [ref=f37e527] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/StableDiffusion/comments/16td9mo/animatediff_using_colab_only_without_any_ui/
+                - generic [ref=f37e528]:
+                  - emphasis [ref=f37e529]: AnimateDiff
+                  - text: using
+                  - emphasis [ref=f37e530]: Colab
+                  - text: "Only without any UI : r ..."
+              - generic [ref=f37e531]: 12 posts
+              - generic [ref=f37e533]: 27 Sept 2023
+            - link "More results from www.reddit.com" [ref=f37e538] [cursor=pointer]:
+              - /url: /search?q=AnimateDiff+SDXL+Turbo+ComfyUI+Colab+free+tier+site:www.reddit.com&sca_esv=299d7fdae20ad544&sa=X&ved=2ahUKEwi9j8HHsviVAxUcT2wGHZoUPSsQrQIoAnoECCAQAw
+          - generic [ref=f37e539]: "Missing: free ‎tier"
+        - generic [ref=f37e544]:
+          - generic [ref=f37e547]:
+            - 'link "Beginner''s Guide to AnimateDiff: Add Motion to Stable ... Civitai Education https://education.civitai.com › Civitai" [ref=f37e549] [cursor=pointer]':
+              - /url: https://education.civitai.com/beginners-guide-to-animatediff/
+              - 'heading "Beginner''s Guide to AnimateDiff: Add Motion to Stable ..." [level=3] [ref=f37e550]'
+              - generic [ref=f37e556]:
+                - generic [ref=f37e557]: Civitai Education
+                - generic [ref=f37e559]: https://education.civitai.com › Civitai
+            - button "About this result" [ref=f37e563] [cursor=pointer]
+          - generic [ref=f37e570]:
+            - emphasis [ref=f37e571]: They are meant to be runnable on the Free Colab tier
+            - text: . Colab interfaces are limited to 24 frames at 512×512 to try to keep below the Free-tier threshold.
+          - generic [ref=f37e573]:
+            - text: "Missing: Turbo ‎| Show results with:"
+            - link "Turbo" [ref=f37e574] [cursor=pointer]:
+              - /url: /search?sca_esv=299d7fdae20ad544&q=AnimateDiff+SDXL+%22Turbo%22+ComfyUI+Colab+free+tier&sa=X&ved=2ahUKEwi9j8HHsviVAxUcT2wGHZoUPSsQ5t4CegQILxAB
+        - generic [ref=f37e578]:
+          - generic [ref=f37e581]:
+            - link "Stable Diffusion XL Web Demo on Colab Google Colab https://colab.research.google.com › github › blob › main" [ref=f37e583] [cursor=pointer]:
+              - /url: https://colab.research.google.com/github/TonyLianLong/stable-diffusion-xl-demo/blob/main/Stable_Diffusion_XL_Demo.ipynb
+              - heading "Stable Diffusion XL Web Demo on Colab" [level=3] [ref=f37e584]
+              - generic [ref=f37e590]:
+                - generic [ref=f37e591]: Google Colab
+                - generic [ref=f37e593]: https://colab.research.google.com › github › blob › main
+            - button "About this result" [ref=f37e597] [cursor=pointer]
+          - generic [ref=f37e603]:
+            - generic [ref=f37e604]:
+              - text: Stable Diffusion XL Web Demo on Colab.
+              - emphasis [ref=f37e605]: Skip the queue free of charge
+              - text: (the free T4 GPU on Colab works, using high RAM and better GPUs make it more stable and ...
+            - link "Read more" [ref=f37e606] [cursor=pointer]:
+              - /url: https://colab.research.google.com/github/TonyLianLong/stable-diffusion-xl-demo/blob/main/Stable_Diffusion_XL_Demo.ipynb#:~:text=Stable%20Diffusion%20XL%20Web%20Demo,on%20Colab&text=Skip%20the%20queue%20free%20of,it%20more%20stable%20and%20faster)!
+        - generic [ref=f37e610]:
+          - generic [ref=f37e613]:
+            - link "How to run ComfyUI on Google Colab Stable Diffusion Art https://stable-diffusion-art.com › Tutorial" [ref=f37e615] [cursor=pointer]:
+              - /url: https://stable-diffusion-art.com/comfyui-colab/
+              - heading "How to run ComfyUI on Google Colab" [level=3] [ref=f37e616]
+              - generic [ref=f37e622]:
+                - generic [ref=f37e623]: Stable Diffusion Art
+                - generic [ref=f37e625]: https://stable-diffusion-art.com › Tutorial
+            - button "About this result" [ref=f37e629] [cursor=pointer]
+          - generic [ref=f37e635]:
+            - generic [ref=f37e636]: 28 Nov 2025 —
+            - generic [ref=f37e637]:
+              - text: In this article, you will find instructions on
+              - emphasis [ref=f37e638]: how to run ComfyUI on Google Colab
+              - text: . It has a generous free tier.
+        - generic [ref=f37e642]:
+          - generic [ref=f37e645]:
+            - link "ComfyUI on Google Colab (Free Tier) GitHub https://github.com › sayantan-2 › comfyui_colab_Flux" [ref=f37e647] [cursor=pointer]:
+              - /url: https://github.com/sayantan-2/comfyui_colab_Flux
+              - heading "ComfyUI on Google Colab (Free Tier)" [level=3] [ref=f37e648]
+              - generic [ref=f37e654]:
+                - generic [ref=f37e655]: GitHub
+                - generic [ref=f37e657]: https://github.com › sayantan-2 › comfyui_colab_Flux
+            - button "About this result" [ref=f37e661] [cursor=pointer]
+          - generic [ref=f37e667]:
+            - generic [ref=f37e668]:
+              - text: This repository provides a Google Colab notebook to
+              - emphasis [ref=f37e669]: run ComfyUI on the free Google Colab tier
+              - text: (under 15 GB VRAM). The primary focus is to run Flux models ...
+            - link "Read more" [ref=f37e670] [cursor=pointer]:
+              - /url: https://github.com/sayantan-2/comfyui_colab_Flux#:~:text=This%20repository%20provides%20a%20Google,the%20Colab%20free%20tier%20limits.
+        - generic [ref=f37e675]:
+          - heading "People also ask" [level=2] [ref=f37e677]
+          - generic [ref=f37e678]:
+            - generic [ref=f37e682]:
+              - button "Is the L4 GPU free in Colab?" [ref=f37e684] [cursor=pointer]
+              - text: "\"... ...\" \"... ...\""
+            - button "What are the minimum requirements for AnimateDiff?" [ref=f37e698] [cursor=pointer]
+            - button "Can I run ComfyUI on Google Colab?" [ref=f37e712] [cursor=pointer]
+            - generic [ref=f37e723]:
+              - button "How to install AnimateDiff Stable Diffusion?" [ref=f37e726] [cursor=pointer]
+              - text: "\"... ...\" \"... ...\""
+        - generic [ref=f37e737]:
+          - heading "Images" [level=2] [ref=f37e741]
+          - generic [ref=f37e745]:
+            - generic [ref=f37e749] [cursor=pointer]:
+              - link "Free Google Colab AI Image & Video Generator | SDXL Turbo | SDXL Lightning | AnimateDiff | CogVideoX YouTube" [ref=f37e750]:
+                - /url: https://www.youtube.com/watch?v=1Jw17pv_kzk
+              - button [ref=f37e752]:
+                - img "Free Google Colab AI Image & Video Generator | SDXL Turbo | SDXL Lightning | AnimateDiff | CogVideoX" [ref=f37e754]
+              - generic [ref=f37e756]:
+                - generic [ref=f37e757]: Free Google Colab AI Image & Video Generator | SDXL Turbo | SDXL Lightning | AnimateDiff | CogVideoX
+                - generic [ref=f37e759]:
+                  - generic [ref=f37e760]: YouTube
+                  - button "About this result" [ref=f37e769]
+            - generic [ref=f37e777] [cursor=pointer]:
+              - 'link "AnimateDiff Tutorial: Turn Videos to A.I Animation | IPAdapter x ComfyUI YouTube" [ref=f37e778]':
+                - /url: https://www.youtube.com/watch?v=AugFKDGyVuw
+              - button [ref=f37e780]:
+                - 'img "AnimateDiff Tutorial: Turn Videos to A.I Animation | IPAdapter x ComfyUI" [ref=f37e782]'
+              - generic [ref=f37e784]:
+                - generic [ref=f37e785]: "AnimateDiff Tutorial: Turn Videos to A.I Animation | IPAdapter x ComfyUI"
+                - generic [ref=f37e787]:
+                  - generic [ref=f37e788]: YouTube
+                  - button "About this result" [ref=f37e797]
+            - generic [ref=f37e805] [cursor=pointer]:
+              - 'link "Beginner''s Guide to AnimateDiff: Add Motion to Stable Diffusion Civitai Education" [ref=f37e806]':
+                - /url: https://education.civitai.com/beginners-guide-to-animatediff/
+              - button [ref=f37e808]:
+                - 'img "Beginner''s Guide to AnimateDiff: Add Motion to Stable Diffusion" [ref=f37e810]'
+              - generic [ref=f37e812]:
+                - generic [ref=f37e813]: "Beginner's Guide to AnimateDiff: Add Motion to Stable Diffusion"
+                - generic [ref=f37e815]:
+                  - generic [ref=f37e816]: Civitai Education
+                  - button "About this result" [ref=f37e825]
+          - button "Show more images" [ref=f37e831] [cursor=pointer]:
+            - separator [ref=f37e832]
+      - generic [ref=f37e839]:
+        - generic [ref=f37e844]:
+          - heading "People also search for" [level=2] [ref=f37e846]
+          - generic [ref=f37e848]:
+            - generic [ref=f37e849]:
+              - link "Animatediff sdxl turbo comfyui colab free tier download" [ref=f37e853] [cursor=pointer]:
+                - /url: /search?sca_esv=299d7fdae20ad544&q=Animatediff+sdxl+turbo+comfyui+colab+free+tier+download&sa=X&ved=2ahUKEwi9j8HHsviVAxUcT2wGHZoUPSsQ1QJ6BAg_EAE
+              - link "Animatediff colab free" [ref=f37e867] [cursor=pointer]:
+                - /url: /search?sca_esv=299d7fdae20ad544&q=Animatediff+colab+free&sa=X&ved=2ahUKEwi9j8HHsviVAxUcT2wGHZoUPSsQ1QJ6BAhMEAE
+              - link "AnimateDiff ComfyUI" [ref=f37e881] [cursor=pointer]:
+                - /url: /search?sca_esv=299d7fdae20ad544&q=AnimateDiff+ComfyUI&sa=X&ved=2ahUKEwi9j8HHsviVAxUcT2wGHZoUPSsQ1QJ6BAhPEAE
+              - link "AnimateDiff models" [ref=f37e895] [cursor=pointer]:
+                - /url: /search?sca_esv=299d7fdae20ad544&q=AnimateDiff+models&sa=X&ved=2ahUKEwi9j8HHsviVAxUcT2wGHZoUPSsQ1QJ6BAhOEAE
+            - generic [ref=f37e906]:
+              - link "AnimateDiff motion module download" [ref=f37e910] [cursor=pointer]:
+                - /url: /search?sca_esv=299d7fdae20ad544&q=AnimateDiff+motion+module+download&sa=X&ved=2ahUKEwi9j8HHsviVAxUcT2wGHZoUPSsQ1QJ6BAhNEAE
+              - link "Animatediff github" [ref=f37e924] [cursor=pointer]:
+                - /url: /search?sca_esv=299d7fdae20ad544&q=Animatediff+github&sa=X&ved=2ahUKEwi9j8HHsviVAxUcT2wGHZoUPSsQ1QJ6BAhJEAE
+              - link "AnimateDiff motion modules" [ref=f37e938] [cursor=pointer]:
+                - /url: /search?sca_esv=299d7fdae20ad544&q=AnimateDiff+motion+modules&sa=X&ved=2ahUKEwi9j8HHsviVAxUcT2wGHZoUPSsQ1QJ6BAhGEAE
+              - link "AnimateDiff workflow ComfyUI" [ref=f37e952] [cursor=pointer]:
+                - /url: /search?sca_esv=299d7fdae20ad544&q=AnimateDiff+workflow+ComfyUI&sa=X&ved=2ahUKEwi9j8HHsviVAxUcT2wGHZoUPSsQ1QJ6BAhCEAE
+        - navigation [ref=f37e963]:
+          - heading "Page navigation" [level=1] [ref=f37e964]
+          - text: "1"
+          - link "Page 2" [ref=f37e967] [cursor=pointer]:
+            - /url: /search?q=AnimateDiff+SDXL+Turbo+ComfyUI+Colab+free+tier&sca_esv=299d7fdae20ad544&ei=KTZqav3WFJyeseMPmqn02QI&start=10&sa=N&sstk=AU9db-DXBVgyVegLOnBF66tM8WUMpu6ZsnkI_CZJMpKgboIpDmzonehGGNjrk5JtRh2ojYFae3Ry71apGb4EOGYlFKVQCZ-g56xbbw&ved=2ahUKEwi9j8HHsviVAxUcT2wGHZoUPSsQ8tMDegQINRAE
+            - text: "2"
+          - link "Page 3" [ref=f37e969] [cursor=pointer]:
+            - /url: /search?q=AnimateDiff+SDXL+Turbo+ComfyUI+Colab+free+tier&sca_esv=299d7fdae20ad544&ei=KTZqav3WFJyeseMPmqn02QI&start=20&sa=N&sstk=AU9db-DXBVgyVegLOnBF66tM8WUMpu6ZsnkI_CZJMpKgboIpDmzonehGGNjrk5JtRh2ojYFae3Ry71apGb4EOGYlFKVQCZ-g56xbbw&ved=2ahUKEwi9j8HHsviVAxUcT2wGHZoUPSsQ8tMDegQINRAG
+            - text: "3"
+          - heading [level=2] [ref=f37e971]:
+            - link "Next" [ref=f37e972] [cursor=pointer]:
+              - /url: /search?q=AnimateDiff+SDXL+Turbo+ComfyUI+Colab+free+tier&sca_esv=299d7fdae20ad544&ei=KTZqav3WFJyeseMPmqn02QI&start=10&sa=N&sstk=AU9db-DXBVgyVegLOnBF66tM8WUMpu6ZsnkI_CZJMpKgboIpDmzonehGGNjrk5JtRh2ojYFae3Ry71apGb4EOGYlFKVQCZ-g56xbbw&ved=2ahUKEwi9j8HHsviVAxUcT2wGHZoUPSsQ8NMDegQINRAI
+      - navigation
+    - contentinfo [ref=f37e975]:
+      - heading "Footer links" [level=1] [ref=f37e976]
+      - generic [ref=f37e980]:
+        - generic [ref=f37e982]:
+          - text: India
+          - generic [ref=f37e984]:
+            - button "400070, Mumbai, Maharashtra - Based on your past activity" [ref=f37e986] [cursor=pointer]:
+              - generic [ref=f37e987]: 400070, Mumbai, Maharashtra
+              - generic [ref=f37e989]:
+                - text: "-"
+                - generic [ref=f37e990]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=f37e992] [cursor=pointer]
+        - generic [ref=f37e995]:
+          - link "Help" [ref=f37e996] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=f37e997] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f37e998] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f37e999] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1
