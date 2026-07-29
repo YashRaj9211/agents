@@ -45,7 +45,7 @@ browser_agent = LlmAgent(
     ),
     name="browser_agent",
     instruction=prompt,
-    tools=[playwright_toolset],
+    sub_agents=[browser_agent],
 )
 
 root_agent = browser_agent
