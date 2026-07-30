@@ -5,7 +5,6 @@ from google.adk.tools.agent_tool import AgentTool
 from google.adk.models.lite_llm import LiteLlm
 from tools.utility_tools.getCurrTime import getCurrentTime
 from agents.browser_agent.agent import browser_agent
-
 load_dotenv()
 
 api_base_url = "https://integrate.api.nvidia.com/v1"
@@ -51,4 +50,4 @@ root_agent = LlmAgent(
     tools=[
         getCurrentTime,
         AgentTool(browser_agent)],
-)
+)

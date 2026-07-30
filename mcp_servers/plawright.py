@@ -19,11 +19,6 @@ connection_params = StdioServerParameters(
     env=os.environ.copy()
 )
 
-
-print(connection_params)
-
 playwright_toolset = McpToolset(
     connection_params=connection_params,
 )
-
-print(playwright_toolset)
