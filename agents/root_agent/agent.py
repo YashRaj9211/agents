@@ -5,6 +5,7 @@ from google.adk.tools.agent_tool import AgentTool
 from google.adk.models.lite_llm import LiteLlm
 from tools.utility_tools.getCurrTime import getCurrentTime
 from agents.browser_agent.agent import browser_agent
+from mcp_servers.docker_mcp import docker_mcp_toolset
 load_dotenv()
 
 api_base_url = "https://integrate.api.nvidia.com/v1"
@@ -49,5 +50,6 @@ root_agent = LlmAgent(
     instruction=prompt,
     tools=[
         getCurrentTime,
+        docker_mcp_toolset,
         AgentTool(browser_agent)],
 )
