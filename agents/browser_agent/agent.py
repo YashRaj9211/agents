@@ -114,9 +114,3 @@ browser_agent = LlmAgent(
     instruction=prompt,
     tools=[playwright_toolset],
 )
-
-# Note: Run this agent using the ADK CLI:
-# python -m google.adk.cli run .\agents\browser_agent
-
-root_agent = browser_agent
-print(browser_agent)

@@ -1,0 +1,1522 @@
+- generic [ref=f13e1]:
+  - generic [ref=f13e3]:
+    - generic [ref=f13e15]:
+      - link [ref=f13e16] [cursor=pointer]:
+        - /url: https://www.naukri.com
+        - img "Naukri.com" [ref=f13e17]
+      - navigation "Main navigation":
+        - list [ref=f13e18]:
+          - listitem [ref=f13e19]:
+            - link "Jobs" [ref=f13e20] [cursor=pointer]:
+              - /url: https://www.naukri.com
+          - listitem [ref=f13e22]:
+            - link "Companies" [ref=f13e23] [cursor=pointer]:
+              - /url: https://www.naukri.com/companies-hiring-in-india?src=gnbCompanies_homepage_srch
+          - listitem [ref=f13e25]:
+            - link "Services" [ref=f13e26] [cursor=pointer]:
+              - /url: https://resume.naukri.com/?fftid=100001
+      - generic [ref=f13e616] [cursor=pointer]:
+        - button "Search jobs here" [ref=f13e617]
+        - generic "software engineer" [ref=f13e618]
+        - button [ref=f13e619]:
+          - generic [ref=f13e620]: 
+      - generic [ref=f13e621]:
+        - link "Login" [ref=f13e622] [cursor=pointer]:
+          - /url: https://login.naukri.com/nLogin/Login.php
+        - link "Register" [ref=f13e623] [cursor=pointer]:
+          - /url: https://www.naukri.com/registration/createAccount?othersrcp=22636
+        - dialog [ref=f13e624]:
+          - generic [ref=f13e626]:
+            - button "Close" [ref=f13e627] [cursor=pointer]:
+              - generic [ref=f13e628]: 
+            - generic [ref=f13e629]:
+              - generic [ref=f13e630]:
+                - generic [ref=f13e631]: Find more jobs
+                - paragraph [ref=f13e632]: Jobs that help you grow and earn more
+              - generic [ref=f13e633]:
+                - generic [ref=f13e634]:
+                  - generic [ref=f13e636]:
+                    - generic [ref=f13e637]:
+                      - textbox "Mobile Number" [ref=f13e638]:
+                        - /placeholder: Enter your 10 digit mobile number
+                      - generic [ref=f13e639]: +91 -
+                    - generic [ref=f13e640]: You will receive an OTP on this number
+                  - button "Get OTP" [disabled] [ref=f13e642]
+                - generic [ref=f13e643]:
+                  - generic [ref=f13e644]: Or
+                  - generic [ref=f13e647] [cursor=pointer]:
+                    - emphasis [ref=f13e648]
+                    - generic [ref=f13e649]: Continue with Google
+                  - generic [ref=f13e650]: Continue with Email
+                  - paragraph [ref=f13e656]:
+                    - text: Don't have an account?
+                    - link "Register for free" [ref=f13e657] [cursor=pointer]:
+                      - /url: /registration/createAccount?othersrcp=16201&err=1&redirectTo=https%3A%2F%2Fwww.naukri.com%2Fsoftware-engineer-jobs%3Fk%3Dsoftware%2520engineer
+      - list [ref=f13e35]:
+        - listitem [ref=f13e36]:
+          - button [ref=f13e37] [cursor=pointer]:
+            - generic [ref=f13e38]:
+              - text: For employers
+              - generic [ref=f13e39]: 
+    - main [ref=f13e40]:
+      - generic [ref=f13e41]:
+        - generic [ref=f13e44]:
+          - generic [ref=f13e45]: All Filters
+          - generic [ref=f13e47]:
+            - generic [ref=f13e48]:
+              - generic [ref=f13e49] [cursor=pointer]:
+                - generic [ref=f13e50]: Work mode
+                - generic [ref=f13e51]: 
+              - generic [ref=f13e52]:
+                - generic [ref=f13e54] [cursor=pointer]:
+                  - generic [ref=f13e55]: 
+                  - paragraph [ref=f13e56]:
+                    - generic "Work from office" [ref=f13e57]
+                    - generic [ref=f13e58]: (50455)
+                - generic [ref=f13e60] [cursor=pointer]:
+                  - generic [ref=f13e61]: 
+                  - paragraph [ref=f13e62]:
+                    - generic "Hybrid" [ref=f13e63]
+                    - generic [ref=f13e64]: (2081)
+                - generic [ref=f13e66] [cursor=pointer]:
+                  - generic [ref=f13e67]: 
+                  - paragraph [ref=f13e68]:
+                    - generic "Remote" [ref=f13e69]
+                    - generic [ref=f13e70]: (1560)
+            - generic [ref=f13e71]:
+              - generic [ref=f13e72] [cursor=pointer]:
+                - generic [ref=f13e73]: Experience
+                - generic [ref=f13e74]: 
+              - generic [ref=f13e77]:
+                - generic [ref=f13e78]: Any
+                - generic:
+                  - generic [ref=f13e85]: 0 Yrs
+                  - generic [ref=f13e86]: Any
+            - generic [ref=f13e87]:
+              - generic [ref=f13e88] [cursor=pointer]:
+                - generic [ref=f13e89]: Department
+                - generic [ref=f13e90]: 
+              - generic [ref=f13e91]:
+                - generic [ref=f13e93] [cursor=pointer]:
+                  - generic [ref=f13e94]: 
+                  - paragraph [ref=f13e95]:
+                    - generic "Engineering - Software & QA" [ref=f13e96]
+                    - generic [ref=f13e97]: (48205)
+                - generic [ref=f13e99] [cursor=pointer]:
+                  - generic [ref=f13e100]: 
+                  - paragraph [ref=f13e101]:
+                    - generic "Data Science & Analytics" [ref=f13e102]
+                    - generic [ref=f13e103]: (1037)
+                - generic [ref=f13e105] [cursor=pointer]:
+                  - generic [ref=f13e106]: 
+                  - paragraph [ref=f13e107]:
+                    - generic "Production, Manufacturing & Engineering" [ref=f13e108]
+                    - generic [ref=f13e109]: (888)
+                - generic [ref=f13e111] [cursor=pointer]:
+                  - generic [ref=f13e112]: 
+                  - paragraph [ref=f13e113]:
+                    - generic "IT & Information Security" [ref=f13e114]
+                    - generic [ref=f13e115]: (820)
+                - generic [ref=f13e116] [cursor=pointer]: View More
+            - generic [ref=f13e117]:
+              - generic [ref=f13e118] [cursor=pointer]:
+                - generic [ref=f13e119]: Location
+                - generic [ref=f13e120]: 
+              - generic [ref=f13e121]:
+                - generic [ref=f13e123] [cursor=pointer]:
+                  - generic [ref=f13e124]: 
+                  - paragraph [ref=f13e125]:
+                    - generic "Bengaluru" [ref=f13e126]
+                    - generic [ref=f13e127]: (16325)
+                - generic [ref=f13e129] [cursor=pointer]:
+                  - generic [ref=f13e130]: 
+                  - paragraph [ref=f13e131]:
+                    - generic "Hyderabad" [ref=f13e132]
+                    - generic [ref=f13e133]: (7610)
+                - generic [ref=f13e135] [cursor=pointer]:
+                  - generic [ref=f13e136]: 
+                  - paragraph [ref=f13e137]:
+                    - generic "Pune" [ref=f13e138]
+                    - generic [ref=f13e139]: (6887)
+                - generic [ref=f13e141] [cursor=pointer]:
+                  - generic [ref=f13e142]: 
+                  - paragraph [ref=f13e143]:
+                    - generic "Delhi / NCR" [ref=f13e144]
+                    - generic [ref=f13e145]: (6652)
+                - generic [ref=f13e146] [cursor=pointer]: View More
+            - generic [ref=f13e147]:
+              - generic [ref=f13e148] [cursor=pointer]:
+                - generic [ref=f13e149]: Salary
+                - generic [ref=f13e150]: 
+              - generic [ref=f13e151]:
+                - generic [ref=f13e153] [cursor=pointer]:
+                  - generic [ref=f13e154]: 
+                  - paragraph [ref=f13e155]:
+                    - generic "0-3 Lakhs" [ref=f13e156]
+                    - generic [ref=f13e157]: (6346)
+                - generic [ref=f13e159] [cursor=pointer]:
+                  - generic [ref=f13e160]: 
+                  - paragraph [ref=f13e161]:
+                    - generic "3-6 Lakhs" [ref=f13e162]
+                    - generic [ref=f13e163]: (26651)
+                - generic [ref=f13e165] [cursor=pointer]:
+                  - generic [ref=f13e166]: 
+                  - paragraph [ref=f13e167]:
+                    - generic "6-10 Lakhs" [ref=f13e168]
+                    - generic [ref=f13e169]: (33362)
+                - generic [ref=f13e171] [cursor=pointer]:
+                  - generic [ref=f13e172]: 
+                  - paragraph [ref=f13e173]:
+                    - generic "10-15 Lakhs" [ref=f13e174]
+                    - generic [ref=f13e175]: (17028)
+                - generic [ref=f13e176] [cursor=pointer]: View More
+            - generic [ref=f13e177]:
+              - generic [ref=f13e178] [cursor=pointer]:
+                - generic [ref=f13e179]: Company type
+                - generic [ref=f13e180]: 
+              - generic [ref=f13e181]:
+                - generic [ref=f13e183] [cursor=pointer]:
+                  - generic [ref=f13e184]: 
+                  - paragraph [ref=f13e185]:
+                    - generic "Foreign MNC" [ref=f13e186]
+                    - generic [ref=f13e187]: (17865)
+                - generic [ref=f13e189] [cursor=pointer]:
+                  - generic [ref=f13e190]: 
+                  - paragraph [ref=f13e191]:
+                    - generic "Corporate" [ref=f13e192]
+                    - generic [ref=f13e193]: (8579)
+                - generic [ref=f13e195] [cursor=pointer]:
+                  - generic [ref=f13e196]: 
+                  - paragraph [ref=f13e197]:
+                    - generic "Indian MNC" [ref=f13e198]
+                    - generic [ref=f13e199]: (2274)
+                - generic [ref=f13e201] [cursor=pointer]:
+                  - generic [ref=f13e202]: 
+                  - paragraph [ref=f13e203]:
+                    - generic "Startup" [ref=f13e204]
+                    - generic [ref=f13e205]: (1466)
+                - generic [ref=f13e206] [cursor=pointer]: View More
+            - generic [ref=f13e207]:
+              - generic [ref=f13e208] [cursor=pointer]:
+                - generic [ref=f13e209]: Role category
+                - generic [ref=f13e210]: 
+              - generic [ref=f13e211]:
+                - generic [ref=f13e213] [cursor=pointer]:
+                  - generic [ref=f13e214]: 
+                  - paragraph [ref=f13e215]:
+                    - generic "Software Development" [ref=f13e216]
+                    - generic [ref=f13e217]: (39896)
+                - generic [ref=f13e219] [cursor=pointer]:
+                  - generic [ref=f13e220]: 
+                  - paragraph [ref=f13e221]:
+                    - generic "Quality Assurance and Testing" [ref=f13e222]
+                    - generic [ref=f13e223]: (5634)
+                - generic [ref=f13e225] [cursor=pointer]:
+                  - generic [ref=f13e226]: 
+                  - paragraph [ref=f13e227]:
+                    - generic "DBA / Data warehousing" [ref=f13e228]
+                    - generic [ref=f13e229]: (1490)
+                - generic [ref=f13e231] [cursor=pointer]:
+                  - generic [ref=f13e232]: 
+                  - paragraph [ref=f13e233]:
+                    - generic "DevOps" [ref=f13e234]
+                    - generic [ref=f13e235]: (1185)
+                - generic [ref=f13e236] [cursor=pointer]: View More
+            - generic [ref=f13e237]:
+              - generic [ref=f13e238] [cursor=pointer]:
+                - generic [ref=f13e239]: Stipend
+                - generic [ref=f13e240]: 
+              - generic [ref=f13e241]:
+                - generic [ref=f13e243] [cursor=pointer]:
+                  - generic [ref=f13e244]: 
+                  - paragraph [ref=f13e245]:
+                    - generic "Unpaid" [ref=f13e246]
+                    - generic [ref=f13e247]: (438)
+                - generic [ref=f13e249] [cursor=pointer]:
+                  - generic [ref=f13e250]: 
+                  - paragraph [ref=f13e251]:
+                    - generic "0-10k" [ref=f13e252]
+                    - generic [ref=f13e253]: (23)
+                - generic [ref=f13e255] [cursor=pointer]:
+                  - generic [ref=f13e256]: 
+                  - paragraph [ref=f13e257]:
+                    - generic "10k-20k" [ref=f13e258]
+                    - generic [ref=f13e259]: (15)
+                - generic [ref=f13e261] [cursor=pointer]:
+                  - generic [ref=f13e262]: 
+                  - paragraph [ref=f13e263]:
+                    - generic "20k-30k" [ref=f13e264]
+                    - generic [ref=f13e265]: (9)
+                - generic [ref=f13e266] [cursor=pointer]: View More
+            - generic [ref=f13e267]:
+              - generic [ref=f13e268] [cursor=pointer]:
+                - generic [ref=f13e269]: Duration
+                - generic [ref=f13e270]: 
+              - generic [ref=f13e271]:
+                - generic [ref=f13e273] [cursor=pointer]:
+                  - generic [ref=f13e274]: 
+                  - paragraph [ref=f13e275]:
+                    - generic "1 Month" [ref=f13e276]
+                    - generic [ref=f13e277]: (4)
+                - generic [ref=f13e279] [cursor=pointer]:
+                  - generic [ref=f13e280]: 
+                  - paragraph [ref=f13e281]:
+                    - generic "2 Months" [ref=f13e282]
+                    - generic [ref=f13e283]: (5)
+                - generic [ref=f13e285] [cursor=pointer]:
+                  - generic [ref=f13e286]: 
+                  - paragraph [ref=f13e287]:
+                    - generic "3 Months" [ref=f13e288]
+                    - generic [ref=f13e289]: (68)
+                - generic [ref=f13e291] [cursor=pointer]:
+                  - generic [ref=f13e292]: 
+                  - paragraph [ref=f13e293]:
+                    - generic "4 Months" [ref=f13e294]
+                    - generic [ref=f13e295]: (2)
+                - generic [ref=f13e296] [cursor=pointer]: View More
+            - generic [ref=f13e297]:
+              - generic [ref=f13e298] [cursor=pointer]:
+                - generic [ref=f13e299]: Education
+                - generic [ref=f13e300]: 
+              - generic [ref=f13e301]:
+                - generic [ref=f13e303] [cursor=pointer]:
+                  - generic [ref=f13e304]: 
+                  - paragraph [ref=f13e305]:
+                    - generic "Any Postgraduate" [ref=f13e306]
+                    - generic [ref=f13e307]: (41395)
+                - generic [ref=f13e309] [cursor=pointer]:
+                  - generic [ref=f13e310]: 
+                  - paragraph [ref=f13e311]:
+                    - generic "M.Tech" [ref=f13e312]
+                    - generic [ref=f13e313]: (2805)
+                - generic [ref=f13e315] [cursor=pointer]:
+                  - generic [ref=f13e316]: 
+                  - paragraph [ref=f13e317]:
+                    - generic "Any Graduate" [ref=f13e318]
+                    - generic [ref=f13e319]: (42976)
+                - generic [ref=f13e321] [cursor=pointer]:
+                  - generic [ref=f13e322]: 
+                  - paragraph [ref=f13e323]:
+                    - generic "B.Tech / B.E." [ref=f13e324]
+                    - generic [ref=f13e325]: (10956)
+                - generic [ref=f13e326] [cursor=pointer]: View More
+            - generic [ref=f13e327]:
+              - generic [ref=f13e328] [cursor=pointer]:
+                - generic [ref=f13e329]: Posted by
+                - generic [ref=f13e330]: 
+              - generic [ref=f13e331]:
+                - generic [ref=f13e333] [cursor=pointer]:
+                  - generic [ref=f13e334]: 
+                  - paragraph [ref=f13e335]:
+                    - generic "Company Jobs" [ref=f13e336]
+                    - generic [ref=f13e337]: (50793)
+                - generic [ref=f13e339] [cursor=pointer]:
+                  - generic [ref=f13e340]: 
+                  - paragraph [ref=f13e341]:
+                    - generic "Consultant Jobs" [ref=f13e342]
+                    - generic [ref=f13e343]: (3303)
+            - generic [ref=f13e344]:
+              - generic [ref=f13e345] [cursor=pointer]:
+                - generic [ref=f13e346]: Industry
+                - generic [ref=f13e347]: 
+              - generic [ref=f13e348]:
+                - generic [ref=f13e350] [cursor=pointer]:
+                  - generic [ref=f13e351]: 
+                  - paragraph [ref=f13e352]:
+                    - generic "IT Services & Consulting" [ref=f13e353]
+                    - generic [ref=f13e354]: (35081)
+                - generic [ref=f13e356] [cursor=pointer]:
+                  - generic [ref=f13e357]: 
+                  - paragraph [ref=f13e358]:
+                    - generic "Software Product" [ref=f13e359]
+                    - generic [ref=f13e360]: (2229)
+                - generic [ref=f13e362] [cursor=pointer]:
+                  - generic [ref=f13e363]: 
+                  - paragraph [ref=f13e364]:
+                    - generic "Recruitment / Staffing" [ref=f13e365]
+                    - generic [ref=f13e366]: (1679)
+                - generic [ref=f13e368] [cursor=pointer]:
+                  - generic [ref=f13e369]: 
+                  - paragraph [ref=f13e370]:
+                    - generic "Financial Services" [ref=f13e371]
+                    - generic [ref=f13e372]: (1101)
+                - generic [ref=f13e373] [cursor=pointer]: View More
+            - generic [ref=f13e374]:
+              - generic [ref=f13e375] [cursor=pointer]:
+                - generic [ref=f13e376]: Top companies
+                - generic [ref=f13e377]: 
+              - generic [ref=f13e378]:
+                - generic [ref=f13e380] [cursor=pointer]:
+                  - generic [ref=f13e381]: 
+                  - paragraph [ref=f13e382]:
+                    - generic "Accenture" [ref=f13e383]
+                    - generic [ref=f13e384]: (8835)
+                - generic [ref=f13e386] [cursor=pointer]:
+                  - generic [ref=f13e387]: 
+                  - paragraph [ref=f13e388]:
+                    - generic "Tata Consultancy Services" [ref=f13e389]
+                    - generic [ref=f13e390]: (314)
+                - generic [ref=f13e392] [cursor=pointer]:
+                  - generic [ref=f13e393]: 
+                  - paragraph [ref=f13e394]:
+                    - generic "Capgemini" [ref=f13e395]
+                    - generic [ref=f13e396]: (306)
+                - generic [ref=f13e398] [cursor=pointer]:
+                  - generic [ref=f13e399]: 
+                  - paragraph [ref=f13e400]:
+                    - generic "Photon" [ref=f13e401]
+                    - generic [ref=f13e402]: (283)
+                - generic [ref=f13e403] [cursor=pointer]: View More
+            - generic [ref=f13e404]:
+              - generic [ref=f13e405] [cursor=pointer]: Freshness
+              - generic [ref=f13e409] [cursor=pointer]:
+                - button "Select " [active] [ref=f13e410]:
+                  - text: Select
+                  - generic [ref=f13e411]: 
+                - list [ref=f13e658]:
+                  - listitem "Last 30 days" [ref=f13e659]
+                  - listitem "Last 15 days" [ref=f13e661]
+                  - listitem "Last 7 days" [ref=f13e663]
+                  - listitem "Last 3 days" [ref=f13e665]
+                  - listitem "Last 1 day" [ref=f13e667]
+        - generic [ref=f13e412]:
+          - generic [ref=f13e413]:
+            - generic [ref=f13e414]:
+              - generic "1 - 20 of 54096" [ref=f13e415]
+              - heading "Software Engineer Jobs" [level=1] [ref=f13e416]
+            - generic [ref=f13e418]:
+              - generic [ref=f13e419]: "Sort by:"
+              - button "Relevance " [ref=f13e421] [cursor=pointer]:
+                - text: Relevance
+                - generic [ref=f13e422]: 
+          - generic [ref=f13e670]:
+            - generic [ref=f13e672]:
+              - heading [level=2] [ref=f13e674]:
+                - link "Software Engineer Fresher" [ref=f13e675] [cursor=pointer]:
+                  - /url: https://www.naukri.com/job-listings-software-engineer-fresher-reactz-consulting-bengaluru-0-to-1-years-290726022311
+              - generic [ref=f13e678]:
+                - generic "ReactZ Consulting" [ref=f13e680]
+                - link "Posted by Reactz Consulting" [ref=f13e682] [cursor=pointer]:
+                  - /url: https://www.naukri.com/reactz-consulting-jobs-careers-5432702
+              - generic [ref=f13e684]:
+                - generic [ref=f13e686]:
+                  - text: 
+                  - generic "0-1 Yrs" [ref=f13e687]
+                - generic [ref=f13e689]:
+                  - text: 
+                  - generic "3-3.5 Lacs PA" [ref=f13e690]
+                - generic [ref=f13e692]:
+                  - text: 
+                  - generic "Bengaluru" [ref=f13e693]
+              - generic [ref=f13e694]:  Preferred candidate profile . 2023, 2024, 2025 & 2026 Pass outs Good programming fundam...
+              - list [ref=f13e697]:
+                - listitem [ref=f13e698]: Java
+                - listitem [ref=f13e699]: Javascript
+                - listitem [ref=f13e700]: Python
+                - listitem [ref=f13e701]: Golang
+                - listitem [ref=f13e702]: GIT
+                - listitem [ref=f13e703]: Software Engineering
+                - listitem [ref=f13e704]: MySQL
+                - listitem [ref=f13e705]: Node.js
+              - generic [ref=f13e706]:
+                - generic [ref=f13e707]: 1 day ago
+                - generic [ref=f13e708]: save
+            - generic [ref=f13e710]:
+              - heading [level=2] [ref=f13e712]:
+                - link "Software Engineer" [ref=f13e713] [cursor=pointer]:
+                  - /url: https://www.naukri.com/job-listings-software-engineer-capgemini-technology-services-india-limited-bengaluru-0-to-5-years-280726927659
+              - generic [ref=f13e717]:
+                - link "Capgemini" [ref=f13e718] [cursor=pointer]:
+                  - /url: https://www.naukri.com/capgemini-jobs-careers-649
+                - link " 3.6" [ref=f13e719] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/capgemini-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+                  - generic [ref=f13e720]: 
+                  - generic [ref=f13e721]: "3.6"
+                  - text: 
+                - link "55215 Reviews" [ref=f13e722] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/capgemini-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+              - generic [ref=f13e724]:
+                - generic [ref=f13e726]:
+                  - text: 
+                  - generic "0-5 Yrs" [ref=f13e727]
+                - generic [ref=f13e729]:
+                  - text: 
+                  - generic "Bengaluru" [ref=f13e730]
+              - generic [ref=f13e731]:  The software engineer collaborates and acts as team player with other software engineer...
+              - list [ref=f13e734]:
+                - listitem [ref=f13e735]: Programming
+                - listitem [ref=f13e736]: Software Development
+                - listitem [ref=f13e737]: Software Engineering
+                - listitem [ref=f13e738]: Software Engineer
+                - listitem [ref=f13e739]: Research
+                - listitem [ref=f13e740]: Software Design
+                - listitem [ref=f13e741]: Software Solutions
+                - listitem [ref=f13e742]: Program
+              - generic [ref=f13e743]:
+                - generic [ref=f13e744]: 2 days ago
+                - generic [ref=f13e745]: save
+            - generic [ref=f13e750]:
+              - generic [ref=f13e751]:
+                - generic [ref=f13e752]:
+                  - img "amazon_icon" [ref=f13e753]
+                  - img "dell_icon" [ref=f13e754]
+                  - img "skoda_icon" [ref=f13e755]
+                  - img "zoho_icon" [ref=f13e756]
+                  - img "myntra_icon" [ref=f13e757]
+                  - img "amazon_icon" [ref=f13e758]
+                  - img "dell_icon" [ref=f13e759]
+                  - img "skoda_icon" [ref=f13e760]
+                  - img "zoho_icon" [ref=f13e761]
+                  - img "myntra_icon" [ref=f13e762]
+                - generic [ref=f13e763]:
+                  - img "goibibo_icon" [ref=f13e764]
+                  - img "swiggy_icon" [ref=f13e765]
+                  - img "google_icon" [ref=f13e766]
+                  - img "flipkart_icon" [ref=f13e767]
+                  - img "tata_icon" [ref=f13e768]
+                  - img "goibibo_icon" [ref=f13e769]
+                  - img "swiggy_icon" [ref=f13e770]
+                  - img "google_icon" [ref=f13e771]
+                  - img "flipkart_icon" [ref=f13e772]
+                  - img "tata_icon" [ref=f13e773]
+              - generic [ref=f13e774]:
+                - generic [ref=f13e775]: Make the most out of Naukri by registering for free!
+                - generic [ref=f13e776]:
+                  - generic [ref=f13e777]:
+                    - generic [ref=f13e778]:
+                      - img "tick" [ref=f13e779]
+                      - generic [ref=f13e780]: Personalised recommendations
+                    - generic [ref=f13e781]:
+                      - img "tick" [ref=f13e782]
+                      - generic [ref=f13e783]: Recruiters directly reach out
+                  - generic [ref=f13e784]:
+                    - generic [ref=f13e785]:
+                      - img "tick" [ref=f13e786]
+                      - generic [ref=f13e787]: Real-time updates
+                    - generic [ref=f13e788]:
+                      - img "tick" [ref=f13e789]
+                      - generic [ref=f13e790]: Boost visibility
+                - button "Register for free" [ref=f13e791] [cursor=pointer]
+            - generic [ref=f13e793]:
+              - heading [level=2] [ref=f13e795]:
+                - link "Software Engineer" [ref=f13e796] [cursor=pointer]:
+                  - /url: https://www.naukri.com/job-listings-software-engineer-creative-hands-hr-hyderabad-chennai-bengaluru-0-to-2-years-300726013701
+              - generic [ref=f13e799]:
+                - generic "Creative Hands HR" [ref=f13e801]
+                - link "Posted by Creative Hands HR" [ref=f13e803] [cursor=pointer]:
+                  - /url: https://www.naukri.com/creative-hands-hr-jobs-careers-1270772
+              - generic [ref=f13e805]:
+                - generic [ref=f13e807]:
+                  - text: 
+                  - generic "0-2 Yrs" [ref=f13e808]
+                - generic [ref=f13e810]:
+                  - text: 
+                  - generic "1.75-3 Lacs PA" [ref=f13e811]
+                - generic [ref=f13e813]:
+                  - text: 
+                  - generic "Hyderabad, Chennai, Bengaluru" [ref=f13e814]
+              - generic [ref=f13e815]: " Requirements: . Bachelors degree in Computer Science, Information Technology, Engineeri..."
+              - list [ref=f13e818]:
+                - listitem [ref=f13e819]: Java
+                - listitem [ref=f13e820]: C++
+                - listitem [ref=f13e821]: btech
+                - listitem [ref=f13e822]: BE
+                - listitem [ref=f13e823]: Engineering
+                - listitem [ref=f13e824]: Application Programming
+                - listitem [ref=f13e825]: Programming
+                - listitem [ref=f13e826]: AI
+              - generic [ref=f13e827]:
+                - generic [ref=f13e828]: 1 day ago
+                - generic [ref=f13e829]: save
+            - generic [ref=f13e835] [cursor=pointer]:
+              - generic [ref=f13e836]:
+                - img "companyLogo" [ref=f13e838]
+                - generic [ref=f13e839]:
+                  - generic [ref=f13e840]: Start your future now
+                  - generic [ref=f13e842]:
+                    - generic [ref=f13e843]: Wells Fargo
+                    - generic [ref=f13e844]:
+                      - img "rating" [ref=f13e845]
+                      - generic [ref=f13e846]: "3.6"
+                    - generic [ref=f13e848]: 9K Reviews
+              - generic [ref=f13e849]:
+                - generic [ref=f13e850]: Specialty Lead Software Engineer SAP RE-FX (ECC and S/4 HANA)
+                - generic [ref=f13e851]:
+                  - generic [ref=f13e852]:
+                    - img "year-logo" [ref=f13e853]
+                    - generic "4-9 Yrs" [ref=f13e854]
+                    - img "salary" [ref=f13e856]
+                    - generic "Not disclosed" [ref=f13e857]
+                    - img "location-logo" [ref=f13e859]
+                    - generic "Bengaluru" [ref=f13e860]
+                  - generic [ref=f13e861]:
+                    - img "description-logo" [ref=f13e862]
+                    - generic [ref=f13e863]: Develop endtoend solution designs,determining appropriate technologies,defining interface patterns,managing upstream and downstream integrations,architecting business data flow models to support use cases,and producing required documentation and bestpractice guidance. Must have worked on supporting multiple integrated applications,Troubleshoot and resolve integration issues across modules.
+                - generic "Accounting,Administration,Business Unit,Architecture,Coaching,Apis,Analytics,Balance Sheet" [ref=f13e864]:
+                  - generic [ref=f13e865]: Accounting
+                  - generic [ref=f13e866]: Administration
+                  - generic [ref=f13e867]: Business Unit
+                  - generic [ref=f13e868]: Architecture
+                  - generic [ref=f13e869]: Coaching
+                  - generic [ref=f13e870]: Apis
+                  - generic [ref=f13e871]: Analytics
+                  - generic [ref=f13e872]: Balance Sheet
+              - generic [ref=f13e873]:
+                - img "footer-icon" [ref=f13e874]
+                - generic [ref=f13e875]: Matching jobs promoted by companies
+            - generic [ref=f13e877]:
+              - heading [level=2] [ref=f13e879]:
+                - link "Software Engineer – AI" [ref=f13e880] [cursor=pointer]:
+                  - /url: https://www.naukri.com/job-listings-software-engineer-ai-msci-services-mumbai-1-to-4-years-310726009081
+              - generic [ref=f13e884]:
+                - link "MSCI Services" [ref=f13e885] [cursor=pointer]:
+                  - /url: https://www.naukri.com/msci-services-jobs-careers-754894
+                - link " 3.6" [ref=f13e886] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/msci-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+                  - generic [ref=f13e887]: 
+                  - generic [ref=f13e888]: "3.6"
+                  - text: 
+                - link "392 Reviews" [ref=f13e889] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/msci-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+              - generic [ref=f13e891]:
+                - generic [ref=f13e893]:
+                  - text: 
+                  - generic "1-4 Yrs" [ref=f13e894]
+                - generic [ref=f13e896]:
+                  - text: 
+                  - generic "Mumbai" [ref=f13e897]
+              - generic [ref=f13e898]:  OverviewYou will be part of the team building the platforms that power sustainability ...
+              - list [ref=f13e901]:
+                - listitem [ref=f13e902]: Tensorflow
+                - listitem [ref=f13e903]: Automation
+                - listitem [ref=f13e904]: Data Engineering
+                - listitem [ref=f13e905]: Prototype
+                - listitem [ref=f13e906]: Architecture
+                - listitem [ref=f13e907]: Artificial Intelligence
+                - listitem [ref=f13e908]: Web Technologies
+                - listitem [ref=f13e909]: Deployment
+              - generic [ref=f13e910]:
+                - generic [ref=f13e911]: Few hours ago
+                - generic [ref=f13e912]: save
+            - generic [ref=f13e914]:
+              - heading [level=2] [ref=f13e916]:
+                - link "Software Engineer" [ref=f13e917] [cursor=pointer]:
+                  - /url: https://www.naukri.com/job-listings-software-engineer-barclays-shared-services-pune-0-to-7-years-290726501398
+              - generic [ref=f13e921]:
+                - link "Barclays" [ref=f13e922] [cursor=pointer]:
+                  - /url: https://www.naukri.com/barclays-jobs-careers-212359
+                - link " 3.7" [ref=f13e923] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/barclays-shared-services-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+                  - generic [ref=f13e924]: 
+                  - generic [ref=f13e925]: "3.7"
+                  - text: 
+                - link "1170 Reviews" [ref=f13e926] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/barclays-shared-services-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+              - generic [ref=f13e928]:
+                - generic [ref=f13e930]:
+                  - text: 
+                  - generic "0-7 Yrs" [ref=f13e931]
+                - generic [ref=f13e933]:
+                  - text: 
+                  - generic "Pune" [ref=f13e934]
+              - generic [ref=f13e935]:  Join us as Software Engineer at Barclays, where you will spearhead the evolution of our...
+              - list [ref=f13e938]:
+                - listitem [ref=f13e939]: ci/cd pipelines
+                - listitem [ref=f13e940]: bdd
+                - listitem [ref=f13e941]: cucumber
+                - listitem [ref=f13e942]: business strategy
+                - listitem [ref=f13e943]: messaging middleware
+                - listitem [ref=f13e944]: automated test scripts
+                - listitem [ref=f13e945]: code quality
+                - listitem [ref=f13e946]: cypress
+              - generic [ref=f13e947]:
+                - generic [ref=f13e948]: 1 day ago
+                - generic [ref=f13e949]: save
+            - generic [ref=f13e951]:
+              - heading [level=2] [ref=f13e953]:
+                - link "Software Engineer - CarPlay" [ref=f13e954] [cursor=pointer]:
+                  - /url: https://www.naukri.com/job-listings-software-engineer-carplay-harman-india-kalyani-bengaluru-3-to-6-years-290726502505
+              - generic [ref=f13e958]:
+                - link "Harman International" [ref=f13e959] [cursor=pointer]:
+                  - /url: https://www.naukri.com/harman-international-jobs-careers-759091
+                - link " 3.8" [ref=f13e960] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/harman-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+                  - generic [ref=f13e961]: 
+                  - generic [ref=f13e962]: "3.8"
+                  - text: 
+                - link "3412 Reviews" [ref=f13e963] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/harman-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+              - generic [ref=f13e965]:
+                - generic [ref=f13e967]:
+                  - text: 
+                  - generic "3-6 Yrs" [ref=f13e968]
+                - generic [ref=f13e970]:
+                  - text: 
+                  - generic "Kalyani, Bengaluru" [ref=f13e971]
+              - generic [ref=f13e972]:  Job Summary The Senior Software Engineer (3-6 years experience) will design, develop, a...
+              - list [ref=f13e975]:
+                - listitem [ref=f13e976]: ats
+                - listitem [ref=f13e977]: carplay
+                - listitem [ref=f13e978]: cloud services
+                - listitem [ref=f13e979]: android automotive
+                - listitem [ref=f13e980]: aosp
+                - listitem [ref=f13e981]: automotive technology
+                - listitem [ref=f13e982]: android
+                - listitem [ref=f13e983]: android studio
+              - generic [ref=f13e984]:
+                - generic [ref=f13e985]: 1 day ago
+                - generic [ref=f13e986]: save
+            - generic [ref=f13e988]:
+              - heading [level=2] [ref=f13e990]:
+                - link "Custom Software Engineer" [ref=f13e991] [cursor=pointer]:
+                  - /url: https://www.naukri.com/job-listings-custom-software-engineer-accenture-solutions-pvt-ltd-mumbai-2-to-5-years-300726924039
+              - generic [ref=f13e995]:
+                - link "Accenture" [ref=f13e996] [cursor=pointer]:
+                  - /url: https://www.naukri.com/accenture-jobs-careers-7682
+                - link " 3.7" [ref=f13e997] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+                  - generic [ref=f13e998]: 
+                  - generic [ref=f13e999]: "3.7"
+                  - text: 
+                - link "75760 Reviews" [ref=f13e1000] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+              - generic [ref=f13e1002]:
+                - generic [ref=f13e1004]:
+                  - text: 
+                  - generic "2-5 Yrs" [ref=f13e1005]
+                - generic [ref=f13e1007]:
+                  - text: 
+                  - generic "Mumbai" [ref=f13e1008]
+              - generic [ref=f13e1009]: " Project Role : Custom Software EngineerProject Role Description : Develop custom softwa..."
+              - list [ref=f13e1012]:
+                - listitem [ref=f13e1013]: Agile
+                - listitem [ref=f13e1014]: Hcm
+                - listitem [ref=f13e1015]: Workflows
+                - listitem [ref=f13e1016]: Cloud
+                - listitem [ref=f13e1017]: Ai
+                - listitem [ref=f13e1018]: Oracle Hcm
+                - listitem [ref=f13e1019]: Software Engineer
+                - listitem [ref=f13e1020]: Embedded
+              - generic [ref=f13e1021]:
+                - generic [ref=f13e1022]: 1 day ago
+                - generic [ref=f13e1023]: save
+            - generic [ref=f13e1029] [cursor=pointer]:
+              - generic [ref=f13e1030]:
+                - img "companyLogo" [ref=f13e1032]
+                - generic [ref=f13e1033]:
+                  - generic [ref=f13e1034]: Start your future now
+                  - generic [ref=f13e1036]:
+                    - generic [ref=f13e1037]: Wells Fargo
+                    - generic [ref=f13e1038]:
+                      - img "rating" [ref=f13e1039]
+                      - generic [ref=f13e1040]: "3.6"
+                    - generic [ref=f13e1042]: 9K Reviews
+              - generic [ref=f13e1043]:
+                - generic [ref=f13e1044]: Lead Software Engineer- Saviynt IGA
+                - generic [ref=f13e1045]:
+                  - generic [ref=f13e1046]:
+                    - img "year-logo" [ref=f13e1047]
+                    - generic "9-14 Yrs" [ref=f13e1048]
+                    - img "salary" [ref=f13e1050]
+                    - generic "Not disclosed" [ref=f13e1051]
+                    - img "location-logo" [ref=f13e1053]
+                    - generic "Bengaluru" [ref=f13e1054]
+                  - generic [ref=f13e1055]:
+                    - img "description-logo" [ref=f13e1056]
+                    - generic [ref=f13e1057]: "Desired Qualifications: . 5+ years of experience in implementation of Identity and Access Management solution- Saviynt preferrable. 5+ years of experience using Java,JavaScript,XML,SQL. . Should have experience in SCIM and REST APIs. . Ability to design and integrate new IAM solutions with existing infrastructure. . Has good leadership skills"
+                - generic "Software Engineer,Java,Tomcat,Agile Methodologies,Sql Server,Banking,Identity And Access Management,Jira" [ref=f13e1058]:
+                  - generic [ref=f13e1059]: Software Engineer
+                  - generic [ref=f13e1060]: Java
+                  - generic [ref=f13e1061]: Tomcat
+                  - generic [ref=f13e1062]: Agile Methodologies
+                  - generic [ref=f13e1063]: Sql Server
+                  - generic [ref=f13e1064]: Banking
+                  - generic [ref=f13e1065]: Identity And Access Management
+                  - generic [ref=f13e1066]: Jira
+              - generic [ref=f13e1067]:
+                - img "footer-icon" [ref=f13e1068]
+                - generic [ref=f13e1069]: Matching jobs promoted by companies
+            - generic [ref=f13e1070]:
+              - paragraph [ref=f13e1071]:
+                - img "naukri filter icon" [ref=f13e1072]
+                - generic [ref=f13e1073]: Filter jobs by
+                - generic [ref=f13e1074]: salary
+              - generic:
+                - generic [ref=f13e1075] [cursor=pointer]:
+                  - generic [ref=f13e1076]: 
+                  - generic [ref=f13e1078]:
+                    - paragraph [ref=f13e1079]: 0-3 Lakhs
+                    - paragraph [ref=f13e1080]: 6346 Jobs
+                - generic [ref=f13e1081] [cursor=pointer]:
+                  - generic [ref=f13e1082]: 
+                  - generic [ref=f13e1084]:
+                    - paragraph [ref=f13e1085]: 3-6 Lakhs
+                    - paragraph [ref=f13e1086]: 26651 Jobs
+                - generic [ref=f13e1087] [cursor=pointer]:
+                  - generic [ref=f13e1088]: 
+                  - generic [ref=f13e1090]:
+                    - paragraph [ref=f13e1091]: 6-10 Lakhs
+                    - paragraph [ref=f13e1092]: 33362 Jobs
+                - generic [ref=f13e1093] [cursor=pointer]:
+                  - generic [ref=f13e1094]: 
+                  - generic [ref=f13e1096]:
+                    - paragraph [ref=f13e1097]: 10-15 Lakhs
+                    - paragraph [ref=f13e1098]: 17028 Jobs
+            - generic [ref=f13e1100]:
+              - heading [level=2] [ref=f13e1102]:
+                - link "Custom Software Engineer" [ref=f13e1103] [cursor=pointer]:
+                  - /url: https://www.naukri.com/job-listings-custom-software-engineer-accenture-solutions-pvt-ltd-mumbai-5-to-10-years-300726924057
+              - generic [ref=f13e1107]:
+                - link "Accenture" [ref=f13e1108] [cursor=pointer]:
+                  - /url: https://www.naukri.com/accenture-jobs-careers-7682
+                - link " 3.7" [ref=f13e1109] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+                  - generic [ref=f13e1110]: 
+                  - generic [ref=f13e1111]: "3.7"
+                  - text: 
+                - link "75760 Reviews" [ref=f13e1112] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+              - generic [ref=f13e1114]:
+                - generic [ref=f13e1116]:
+                  - text: 
+                  - generic "5-10 Yrs" [ref=f13e1117]
+                - generic [ref=f13e1119]:
+                  - text: 
+                  - generic "Mumbai" [ref=f13e1120]
+              - generic [ref=f13e1121]: " Project Role : Custom Software EngineerProject Role Description : Develop custom softwa..."
+              - list [ref=f13e1124]:
+                - listitem [ref=f13e1125]: Agile
+                - listitem [ref=f13e1126]: Data Validation
+                - listitem [ref=f13e1127]: Automation
+                - listitem [ref=f13e1128]: Cloud Testing
+                - listitem [ref=f13e1129]: Bdd
+                - listitem [ref=f13e1130]: Agile Methodologies
+                - listitem [ref=f13e1131]: Design Patterns
+                - listitem [ref=f13e1132]: Automated Testing
+              - generic [ref=f13e1133]:
+                - generic [ref=f13e1134]: 1 day ago
+                - generic [ref=f13e1135]: save
+            - generic [ref=f13e1137]:
+              - heading [level=2] [ref=f13e1139]:
+                - link "Custom Software Engineer" [ref=f13e1140] [cursor=pointer]:
+                  - /url: https://www.naukri.com/job-listings-custom-software-engineer-accenture-solutions-pvt-ltd-mumbai-5-to-10-years-300726924098
+              - generic [ref=f13e1144]:
+                - link "Accenture" [ref=f13e1145] [cursor=pointer]:
+                  - /url: https://www.naukri.com/accenture-jobs-careers-7682
+                - link " 3.7" [ref=f13e1146] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+                  - generic [ref=f13e1147]: 
+                  - generic [ref=f13e1148]: "3.7"
+                  - text: 
+                - link "75760 Reviews" [ref=f13e1149] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+              - generic [ref=f13e1151]:
+                - generic [ref=f13e1153]:
+                  - text: 
+                  - generic "5-10 Yrs" [ref=f13e1154]
+                - generic [ref=f13e1156]:
+                  - text: 
+                  - generic "Mumbai" [ref=f13e1157]
+              - generic [ref=f13e1158]: " Project Role : Custom Software EngineerProject Role Description : Develop custom softwa..."
+              - list [ref=f13e1161]:
+                - listitem [ref=f13e1162]: Agile
+                - listitem [ref=f13e1163]: Capital Markets
+                - listitem [ref=f13e1164]: Financial Services
+                - listitem [ref=f13e1165]: Agile Methodologies
+                - listitem [ref=f13e1166]: Analytical Skills
+                - listitem [ref=f13e1167]: Programming
+                - listitem [ref=f13e1168]: Jira
+                - listitem [ref=f13e1169]: Business Requirements
+              - generic [ref=f13e1170]:
+                - generic [ref=f13e1171]: 1 day ago
+                - generic [ref=f13e1172]: save
+            - generic [ref=f13e1174]:
+              - heading [level=2] [ref=f13e1176]:
+                - link "Custom Software Engineer" [ref=f13e1177] [cursor=pointer]:
+                  - /url: https://www.naukri.com/job-listings-custom-software-engineer-accenture-solutions-pvt-ltd-mumbai-5-to-10-years-300726924093
+              - generic [ref=f13e1181]:
+                - link "Accenture" [ref=f13e1182] [cursor=pointer]:
+                  - /url: https://www.naukri.com/accenture-jobs-careers-7682
+                - link " 3.7" [ref=f13e1183] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+                  - generic [ref=f13e1184]: 
+                  - generic [ref=f13e1185]: "3.7"
+                  - text: 
+                - link "75760 Reviews" [ref=f13e1186] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+              - generic [ref=f13e1188]:
+                - generic [ref=f13e1190]:
+                  - text: 
+                  - generic "5-10 Yrs" [ref=f13e1191]
+                - generic [ref=f13e1193]:
+                  - text: 
+                  - generic "Mumbai" [ref=f13e1194]
+              - generic [ref=f13e1195]: " Project Role : Custom Software EngineerProject Role Description : Develop custom softwa..."
+              - list [ref=f13e1198]:
+                - listitem [ref=f13e1199]: Agile
+                - listitem [ref=f13e1200]: Agile Methodologies
+                - listitem [ref=f13e1201]: Programming
+                - listitem [ref=f13e1202]: Js
+                - listitem [ref=f13e1203]: Version Control
+                - listitem [ref=f13e1204]: Software Quality
+                - listitem [ref=f13e1205]: React
+                - listitem [ref=f13e1206]: Software Solutions
+              - generic [ref=f13e1207]:
+                - generic [ref=f13e1208]: 1 day ago
+                - generic [ref=f13e1209]: save
+            - generic [ref=f13e1210]:
+              - paragraph [ref=f13e1211]:
+                - img "naukri filter icon" [ref=f13e1212]
+                - generic [ref=f13e1213]: Filter jobs by
+                - generic [ref=f13e1214]: location
+              - generic:
+                - generic [ref=f13e1216] [cursor=pointer]:
+                  - paragraph [ref=f13e1217]: Bengaluru
+                  - paragraph [ref=f13e1218]: 16325 Jobs
+                - generic [ref=f13e1220] [cursor=pointer]:
+                  - paragraph [ref=f13e1221]: Hyderabad
+                  - paragraph [ref=f13e1222]: 7610 Jobs
+                - generic [ref=f13e1224] [cursor=pointer]:
+                  - paragraph [ref=f13e1225]: Pune
+                  - paragraph [ref=f13e1226]: 6887 Jobs
+                - generic [ref=f13e1228] [cursor=pointer]:
+                  - paragraph [ref=f13e1229]: Delhi / NCR
+                  - paragraph [ref=f13e1230]: 6652 Jobs
+            - generic [ref=f13e1232]:
+              - heading [level=2] [ref=f13e1234]:
+                - link "Custom Software Engineer" [ref=f13e1235] [cursor=pointer]:
+                  - /url: https://www.naukri.com/job-listings-custom-software-engineer-accenture-solutions-pvt-ltd-mumbai-5-to-10-years-300726924089
+              - generic [ref=f13e1239]:
+                - link "Accenture" [ref=f13e1240] [cursor=pointer]:
+                  - /url: https://www.naukri.com/accenture-jobs-careers-7682
+                - link " 3.7" [ref=f13e1241] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+                  - generic [ref=f13e1242]: 
+                  - generic [ref=f13e1243]: "3.7"
+                  - text: 
+                - link "75760 Reviews" [ref=f13e1244] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+              - generic [ref=f13e1246]:
+                - generic [ref=f13e1248]:
+                  - text: 
+                  - generic "5-10 Yrs" [ref=f13e1249]
+                - generic [ref=f13e1251]:
+                  - text: 
+                  - generic "Mumbai" [ref=f13e1252]
+              - generic [ref=f13e1253]: " Project Role : Custom Software EngineerProject Role Description : Develop custom softwa..."
+              - list [ref=f13e1256]:
+                - listitem [ref=f13e1257]: Agile
+                - listitem [ref=f13e1258]: Data Validation
+                - listitem [ref=f13e1259]: Java
+                - listitem [ref=f13e1260]: Automation
+                - listitem [ref=f13e1261]: Cloud Testing
+                - listitem [ref=f13e1262]: Bdd
+                - listitem [ref=f13e1263]: Design Patterns
+                - listitem [ref=f13e1264]: Github
+              - generic [ref=f13e1265]:
+                - generic [ref=f13e1266]: 1 day ago
+                - generic [ref=f13e1267]: save
+            - generic [ref=f13e1269]:
+              - heading [level=2] [ref=f13e1271]:
+                - link "Custom Software Engineer" [ref=f13e1272] [cursor=pointer]:
+                  - /url: https://www.naukri.com/job-listings-custom-software-engineer-accenture-solutions-pvt-ltd-mumbai-5-to-10-years-300726924044
+              - generic [ref=f13e1276]:
+                - link "Accenture" [ref=f13e1277] [cursor=pointer]:
+                  - /url: https://www.naukri.com/accenture-jobs-careers-7682
+                - link " 3.7" [ref=f13e1278] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+                  - generic [ref=f13e1279]: 
+                  - generic [ref=f13e1280]: "3.7"
+                  - text: 
+                - link "75760 Reviews" [ref=f13e1281] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+              - generic [ref=f13e1283]:
+                - generic [ref=f13e1285]:
+                  - text: 
+                  - generic "5-10 Yrs" [ref=f13e1286]
+                - generic [ref=f13e1288]:
+                  - text: 
+                  - generic "Mumbai" [ref=f13e1289]
+              - generic [ref=f13e1290]: " Educational Qualification : 15 years full time education. Summary. As a Custom Software..."
+              - list [ref=f13e1293]:
+                - listitem [ref=f13e1294]: Agile
+                - listitem [ref=f13e1295]: Enterprise Applications
+                - listitem [ref=f13e1296]: Data Handling
+                - listitem [ref=f13e1297]: Java
+                - listitem [ref=f13e1298]: Asynchronous
+                - listitem [ref=f13e1299]: Hibernate
+                - listitem [ref=f13e1300]: Financial Services
+                - listitem [ref=f13e1301]: Compliance
+              - generic [ref=f13e1302]:
+                - generic [ref=f13e1303]: 1 day ago
+                - generic [ref=f13e1304]: save
+            - generic [ref=f13e1306]:
+              - heading [level=2] [ref=f13e1308]:
+                - link "Custom Software Engineer" [ref=f13e1309] [cursor=pointer]:
+                  - /url: https://www.naukri.com/job-listings-custom-software-engineer-accenture-solutions-pvt-ltd-navi-mumbai-5-to-10-years-300726921830
+              - generic [ref=f13e1313]:
+                - link "Accenture" [ref=f13e1314] [cursor=pointer]:
+                  - /url: https://www.naukri.com/accenture-jobs-careers-7682
+                - link " 3.7" [ref=f13e1315] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+                  - generic [ref=f13e1316]: 
+                  - generic [ref=f13e1317]: "3.7"
+                  - text: 
+                - link "75760 Reviews" [ref=f13e1318] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+              - generic [ref=f13e1320]:
+                - generic [ref=f13e1322]:
+                  - text: 
+                  - generic "5-10 Yrs" [ref=f13e1323]
+                - generic [ref=f13e1325]:
+                  - text: 
+                  - generic "Navi Mumbai" [ref=f13e1326]
+              - generic [ref=f13e1327]: " Project Role : Custom Software Engineer Project Role Description : Develop custom s..."
+              - list [ref=f13e1330]:
+                - listitem [ref=f13e1331]: software development life cycle
+                - listitem [ref=f13e1332]: sap transportation management
+                - listitem [ref=f13e1333]: languages
+                - listitem [ref=f13e1334]: sap tm
+                - listitem [ref=f13e1335]: coding
+                - listitem [ref=f13e1336]: framework
+                - listitem [ref=f13e1337]: continuous improvement
+                - listitem [ref=f13e1338]: software solutions
+              - generic [ref=f13e1339]:
+                - generic [ref=f13e1340]: 1 day ago
+                - generic [ref=f13e1341]: save
+            - generic [ref=f13e1347]:
+              - generic [ref=f13e1348]: How relevant do you find these jobs?
+              - generic [ref=f13e1349]:
+                - generic [ref=f13e1350] [cursor=pointer]: Not Useful
+                - generic [ref=f13e1353] [cursor=pointer]: Neutral
+                - generic [ref=f13e1356] [cursor=pointer]: Very Useful
+            - generic [ref=f13e1360]:
+              - heading [level=2] [ref=f13e1362]:
+                - link "Custom Software Engineer" [ref=f13e1363] [cursor=pointer]:
+                  - /url: https://www.naukri.com/job-listings-custom-software-engineer-accenture-solutions-pvt-ltd-navi-mumbai-7-to-12-years-300726924107
+              - generic [ref=f13e1367]:
+                - link "Accenture" [ref=f13e1368] [cursor=pointer]:
+                  - /url: https://www.naukri.com/accenture-jobs-careers-7682
+                - link " 3.7" [ref=f13e1369] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+                  - generic [ref=f13e1370]: 
+                  - generic [ref=f13e1371]: "3.7"
+                  - text: 
+                - link "75760 Reviews" [ref=f13e1372] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+              - generic [ref=f13e1374]:
+                - generic [ref=f13e1376]:
+                  - text: 
+                  - generic "7-12 Yrs" [ref=f13e1377]
+                - generic [ref=f13e1379]:
+                  - text: 
+                  - generic "Navi Mumbai" [ref=f13e1380]
+              - generic [ref=f13e1381]: " Project Role : Custom Software EngineerProject Role Description : Develop custom softwa..."
+              - list [ref=f13e1384]:
+                - listitem [ref=f13e1385]: Agile
+                - listitem [ref=f13e1386]: Sap
+                - listitem [ref=f13e1387]: Agile Methodologies
+                - listitem [ref=f13e1388]: System Reliability
+                - listitem [ref=f13e1389]: Programming
+                - listitem [ref=f13e1390]: Maintenance
+                - listitem [ref=f13e1391]: Sap Plant Maintenance
+                - listitem [ref=f13e1392]: Troubleshooting
+              - generic [ref=f13e1393]:
+                - generic [ref=f13e1394]: 1 day ago
+                - generic [ref=f13e1395]: save
+            - generic [ref=f13e1397]:
+              - heading [level=2] [ref=f13e1399]:
+                - link "Custom Software Engineer" [ref=f13e1400] [cursor=pointer]:
+                  - /url: https://www.naukri.com/job-listings-custom-software-engineer-accenture-solutions-pvt-ltd-navi-mumbai-7-to-12-years-300726924036
+              - generic [ref=f13e1404]:
+                - link "Accenture" [ref=f13e1405] [cursor=pointer]:
+                  - /url: https://www.naukri.com/accenture-jobs-careers-7682
+                - link " 3.7" [ref=f13e1406] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+                  - generic [ref=f13e1407]: 
+                  - generic [ref=f13e1408]: "3.7"
+                  - text: 
+                - link "75760 Reviews" [ref=f13e1409] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+              - generic [ref=f13e1411]:
+                - generic [ref=f13e1413]:
+                  - text: 
+                  - generic "7-12 Yrs" [ref=f13e1414]
+                - generic [ref=f13e1416]:
+                  - text: 
+                  - generic "Navi Mumbai" [ref=f13e1417]
+              - generic [ref=f13e1418]: " Project Role : Custom Software EngineerProject Role Description : Develop custom softwa..."
+              - list [ref=f13e1421]:
+                - listitem [ref=f13e1422]: Agile
+                - listitem [ref=f13e1423]: Software Development
+                - listitem [ref=f13e1424]: Sap
+                - listitem [ref=f13e1425]: Sap Fscm
+                - listitem [ref=f13e1426]: Agile Methodologies
+                - listitem [ref=f13e1427]: Fscm
+                - listitem [ref=f13e1428]: Software Engineer
+                - listitem [ref=f13e1429]: Financial Systems
+              - generic [ref=f13e1430]:
+                - generic [ref=f13e1431]: 1 day ago
+                - generic [ref=f13e1432]: save
+            - generic [ref=f13e1434]:
+              - heading [level=2] [ref=f13e1436]:
+                - link "Custom Software Engineer" [ref=f13e1437] [cursor=pointer]:
+                  - /url: https://www.naukri.com/job-listings-custom-software-engineer-accenture-solutions-pvt-ltd-navi-mumbai-7-to-12-years-300726924008
+              - generic [ref=f13e1441]:
+                - link "Accenture" [ref=f13e1442] [cursor=pointer]:
+                  - /url: https://www.naukri.com/accenture-jobs-careers-7682
+                - link " 3.7" [ref=f13e1443] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+                  - generic [ref=f13e1444]: 
+                  - generic [ref=f13e1445]: "3.7"
+                  - text: 
+                - link "75760 Reviews" [ref=f13e1446] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+              - generic [ref=f13e1448]:
+                - generic [ref=f13e1450]:
+                  - text: 
+                  - generic "7-12 Yrs" [ref=f13e1451]
+                - generic [ref=f13e1453]:
+                  - text: 
+                  - generic "Navi Mumbai" [ref=f13e1454]
+              - generic [ref=f13e1455]: " Project Role : Custom Software EngineerProject Role Description : Develop custom softwa..."
+              - list [ref=f13e1458]:
+                - listitem [ref=f13e1459]: Agile
+                - listitem [ref=f13e1460]: Business Requirements
+                - listitem [ref=f13e1461]: Sap Hcm
+                - listitem [ref=f13e1462]: Enterprise Systems
+                - listitem [ref=f13e1463]: Hcm
+                - listitem [ref=f13e1464]: Sap
+                - listitem [ref=f13e1465]: Compliance
+                - listitem [ref=f13e1466]: Agile Methodologies
+              - generic [ref=f13e1467]:
+                - generic [ref=f13e1468]: 1 day ago
+                - generic [ref=f13e1469]: save
+            - generic [ref=f13e1470]:
+              - paragraph [ref=f13e1471]:
+                - img "naukri filter icon" [ref=f13e1472]
+                - generic [ref=f13e1473]: Filter jobs by
+                - generic [ref=f13e1474]: Top Companies
+              - generic:
+                - generic [ref=f13e1475] [cursor=pointer]:
+                  - img "10476" [ref=f13e1477]
+                  - generic [ref=f13e1478]:
+                    - paragraph [ref=f13e1479]: Accenture
+                    - paragraph [ref=f13e1480]: 8835 Jobs
+                - generic [ref=f13e1481] [cursor=pointer]:
+                  - img "223346" [ref=f13e1483]
+                  - generic [ref=f13e1484]:
+                    - paragraph [ref=f13e1485]: Tata Consultancy Services
+                    - paragraph [ref=f13e1486]: 314 Jobs
+                - generic [ref=f13e1487] [cursor=pointer]:
+                  - img "1288" [ref=f13e1489]
+                  - generic [ref=f13e1490]:
+                    - paragraph [ref=f13e1491]: Capgemini
+                    - paragraph [ref=f13e1492]: 306 Jobs
+                - generic [ref=f13e1493] [cursor=pointer]:
+                  - img "4619011" [ref=f13e1495]
+                  - generic [ref=f13e1496]:
+                    - paragraph [ref=f13e1497]: Photon
+                    - paragraph [ref=f13e1498]: 283 Jobs
+            - generic [ref=f13e1500]:
+              - heading [level=2] [ref=f13e1502]:
+                - link "Custom Software Engineer" [ref=f13e1503] [cursor=pointer]:
+                  - /url: https://www.naukri.com/job-listings-custom-software-engineer-accenture-solutions-pvt-ltd-mumbai-8-to-13-years-300726924110
+              - generic [ref=f13e1507]:
+                - link "Accenture" [ref=f13e1508] [cursor=pointer]:
+                  - /url: https://www.naukri.com/accenture-jobs-careers-7682
+                - link " 3.7" [ref=f13e1509] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+                  - generic [ref=f13e1510]: 
+                  - generic [ref=f13e1511]: "3.7"
+                  - text: 
+                - link "75760 Reviews" [ref=f13e1512] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+              - generic [ref=f13e1514]:
+                - generic [ref=f13e1516]:
+                  - text: 
+                  - generic "8-13 Yrs" [ref=f13e1517]
+                - generic [ref=f13e1519]:
+                  - text: 
+                  - generic "Mumbai" [ref=f13e1520]
+              - generic [ref=f13e1521]: " Project Role : Custom Software EngineerProject Role Description : Develop custom softwa..."
+              - list [ref=f13e1524]:
+                - listitem [ref=f13e1525]: Agile
+                - listitem [ref=f13e1526]: Automation
+                - listitem [ref=f13e1527]: Azure
+                - listitem [ref=f13e1528]: Capital Markets
+                - listitem [ref=f13e1529]: Banking
+                - listitem [ref=f13e1530]: Debugging
+                - listitem [ref=f13e1531]: Bash
+                - listitem [ref=f13e1532]: Autosys
+              - generic [ref=f13e1533]:
+                - generic [ref=f13e1534]: 1 day ago
+                - generic [ref=f13e1535]: save
+            - generic [ref=f13e1537]:
+              - heading [level=2] [ref=f13e1539]:
+                - link "Custom Software Engineer" [ref=f13e1540] [cursor=pointer]:
+                  - /url: https://www.naukri.com/job-listings-custom-software-engineer-accenture-solutions-pvt-ltd-mumbai-8-to-13-years-300726924071
+              - generic [ref=f13e1544]:
+                - link "Accenture" [ref=f13e1545] [cursor=pointer]:
+                  - /url: https://www.naukri.com/accenture-jobs-careers-7682
+                - link " 3.7" [ref=f13e1546] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+                  - generic [ref=f13e1547]: 
+                  - generic [ref=f13e1548]: "3.7"
+                  - text: 
+                - link "75760 Reviews" [ref=f13e1549] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+              - generic [ref=f13e1551]:
+                - generic [ref=f13e1553]:
+                  - text: 
+                  - generic "8-13 Yrs" [ref=f13e1554]
+                - generic [ref=f13e1556]:
+                  - text: 
+                  - generic "Mumbai" [ref=f13e1557]
+              - generic [ref=f13e1558]: " Project Role : Custom Software EngineerProject Role Description : Develop custom softwa..."
+              - list [ref=f13e1561]:
+                - listitem [ref=f13e1562]: Agile
+                - listitem [ref=f13e1563]: Azure
+                - listitem [ref=f13e1564]: Banking
+                - listitem [ref=f13e1565]: Database Design
+                - listitem [ref=f13e1566]: Autosys
+                - listitem [ref=f13e1567]: Devops
+                - listitem [ref=f13e1568]: Business Requirements
+                - listitem [ref=f13e1569]: Devops Practices
+              - generic [ref=f13e1570]:
+                - generic [ref=f13e1571]: 1 day ago
+                - generic [ref=f13e1572]: save
+            - generic [ref=f13e1574]:
+              - heading [level=2] [ref=f13e1576]:
+                - link "Custom Software Engineer" [ref=f13e1577] [cursor=pointer]:
+                  - /url: https://www.naukri.com/job-listings-custom-software-engineer-accenture-solutions-pvt-ltd-mumbai-5-to-10-years-300726924007
+              - generic [ref=f13e1581]:
+                - link "Accenture" [ref=f13e1582] [cursor=pointer]:
+                  - /url: https://www.naukri.com/accenture-jobs-careers-7682
+                - link " 3.7" [ref=f13e1583] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+                  - generic [ref=f13e1584]: 
+                  - generic [ref=f13e1585]: "3.7"
+                  - text: 
+                - link "75760 Reviews" [ref=f13e1586] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+              - generic [ref=f13e1588]:
+                - generic [ref=f13e1590]:
+                  - text: 
+                  - generic "5-10 Yrs" [ref=f13e1591]
+                - generic [ref=f13e1593]:
+                  - text: 
+                  - generic "Mumbai" [ref=f13e1594]
+              - generic [ref=f13e1595]: " Project Role : Custom Software EngineerProject Role Description : Develop custom softwa..."
+              - list [ref=f13e1598]:
+                - listitem [ref=f13e1599]: Agile
+                - listitem [ref=f13e1600]: Azure
+                - listitem [ref=f13e1601]: Architecture
+                - listitem [ref=f13e1602]: Aws Cloud
+                - listitem [ref=f13e1603]: Apis
+                - listitem [ref=f13e1604]: Database Design
+                - listitem [ref=f13e1605]: Full Stack
+                - listitem [ref=f13e1606]: Devops
+              - generic [ref=f13e1607]:
+                - generic [ref=f13e1608]: 1 day ago
+                - generic [ref=f13e1609]: save
+            - generic [ref=f13e1611]:
+              - heading [level=2] [ref=f13e1613]:
+                - link "Custom Software Engineer" [ref=f13e1614] [cursor=pointer]:
+                  - /url: https://www.naukri.com/job-listings-custom-software-engineer-accenture-solutions-pvt-ltd-mumbai-4-to-9-years-300726923981
+              - generic [ref=f13e1618]:
+                - link "Accenture" [ref=f13e1619] [cursor=pointer]:
+                  - /url: https://www.naukri.com/accenture-jobs-careers-7682
+                - link " 3.7" [ref=f13e1620] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+                  - generic [ref=f13e1621]: 
+                  - generic [ref=f13e1622]: "3.7"
+                  - text: 
+                - link "75760 Reviews" [ref=f13e1623] [cursor=pointer]:
+                  - /url: https://www.ambitionbox.com/reviews/accenture-reviews?utm_campaign=srp_ratings&utm_medium=desktop&utm_source=naukri
+              - generic [ref=f13e1625]:
+                - generic [ref=f13e1627]:
+                  - text: 
+                  - generic "4-9 Yrs" [ref=f13e1628]
+                - generic [ref=f13e1630]:
+                  - text: 
+                  - generic "Mumbai" [ref=f13e1631]
+              - generic [ref=f13e1632]: " Project Role : Custom Software EngineerProject Role Description : Develop custom softwa..."
+              - list [ref=f13e1635]:
+                - listitem [ref=f13e1636]: Agile
+                - listitem [ref=f13e1637]: Azure
+                - listitem [ref=f13e1638]: Financial Services
+                - listitem [ref=f13e1639]: Navigation
+                - listitem [ref=f13e1640]: Cache Management
+                - listitem [ref=f13e1641]: Banking
+                - listitem [ref=f13e1642]: Metadata
+                - listitem [ref=f13e1643]: Dashboard
+              - generic [ref=f13e1644]:
+                - generic [ref=f13e1645]: 1 day ago
+                - generic [ref=f13e1646]: save
+          - generic [ref=f13e1648]:
+            - generic:
+              - generic: 
+              - generic: Previous
+            - generic [ref=f13e1649]:
+              - link "1" [ref=f13e1650] [cursor=pointer]:
+                - /url: /software-engineer-jobs
+              - link "2" [ref=f13e1651] [cursor=pointer]:
+                - /url: /software-engineer-jobs-2
+              - link "3" [ref=f13e1652] [cursor=pointer]:
+                - /url: /software-engineer-jobs-3
+              - link "4" [ref=f13e1653] [cursor=pointer]:
+                - /url: /software-engineer-jobs-4
+              - link "5" [ref=f13e1654] [cursor=pointer]:
+                - /url: /software-engineer-jobs-5
+              - link "6" [ref=f13e1655] [cursor=pointer]:
+                - /url: /software-engineer-jobs-6
+              - link "7" [ref=f13e1656] [cursor=pointer]:
+                - /url: /software-engineer-jobs-7
+              - link "8" [ref=f13e1657] [cursor=pointer]:
+                - /url: /software-engineer-jobs-8
+              - link "9" [ref=f13e1658] [cursor=pointer]:
+                - /url: /software-engineer-jobs-9
+              - link "10" [ref=f13e1659] [cursor=pointer]:
+                - /url: /software-engineer-jobs-10
+            - link "Next " [ref=f13e1660] [cursor=pointer]:
+              - /url: /software-engineer-jobs-2
+              - generic [ref=f13e1661]: Next
+              - generic [ref=f13e1662]: 
+          - generic [ref=f13e1665]:
+            - heading "Increase your profile visibility up to 3 times" [level=3] [ref=f13e1666]
+            - paragraph [ref=f13e1667]: Become visible to more recruiters with Resume Display Service.
+            - generic [ref=f13e1669]:
+              - button "Yes, I am interested" [ref=f13e1670] [cursor=pointer]
+              - generic [ref=f13e1671]: It's a paid service
+          - generic [ref=f13e1672]:
+            - heading "Apply to 54096 Software Engineer Jobs on Naukri.com" [level=2] [ref=f13e1673]
+            - generic [ref=f13e1674]:
+              - generic [ref=f13e1675]:
+                - generic [ref=f13e1676] [cursor=pointer]: Bangalore
+                - list [ref=f13e1678]:
+                  - listitem [ref=f13e1679]:
+                    - link "• Software Developer Jobs In Bangalore" [ref=f13e1680] [cursor=pointer]:
+                      - /url: https://www.naukri.com/software-developer-jobs-in-bangalore
+                      - generic [ref=f13e1681]: •
+                      - text: Software Developer Jobs In Bangalore
+                  - listitem [ref=f13e1682]:
+                    - link "• Java Developer Jobs In Bangalore" [ref=f13e1683] [cursor=pointer]:
+                      - /url: https://www.naukri.com/java-developer-jobs-in-bangalore
+                      - generic [ref=f13e1684]: •
+                      - text: Java Developer Jobs In Bangalore
+                  - listitem [ref=f13e1685]:
+                    - link "• Fullstack Developer Jobs In Bangalore" [ref=f13e1686] [cursor=pointer]:
+                      - /url: https://www.naukri.com/fullstack-developer-jobs-in-bangalore
+                      - generic [ref=f13e1687]: •
+                      - text: Fullstack Developer Jobs In Bangalore
+                  - listitem [ref=f13e1688]:
+                    - link "• Software Development Engineer Jobs In Bangalore" [ref=f13e1689] [cursor=pointer]:
+                      - /url: https://www.naukri.com/software-development-engineer-jobs-in-bangalore
+                      - generic [ref=f13e1690]: •
+                      - text: Software Development Engineer Jobs In Bangalore
+                  - listitem [ref=f13e1691]:
+                    - link "• Software Engineer 2 Jobs In Bangalore" [ref=f13e1692] [cursor=pointer]:
+                      - /url: https://www.naukri.com/software-engineer-2-jobs-in-bangalore
+                      - generic [ref=f13e1693]: •
+                      - text: Software Engineer 2 Jobs In Bangalore
+                  - listitem [ref=f13e1694]:
+                    - link "• Programmer Analyst Jobs In Bangalore" [ref=f13e1695] [cursor=pointer]:
+                      - /url: https://www.naukri.com/programmer-analyst-jobs-in-bangalore
+                      - generic [ref=f13e1696]: •
+                      - text: Programmer Analyst Jobs In Bangalore
+                  - listitem [ref=f13e1697]:
+                    - link "• Software Test Engineer Jobs In Bangalore" [ref=f13e1698] [cursor=pointer]:
+                      - /url: https://www.naukri.com/software-test-engineer-jobs-in-bangalore
+                      - generic [ref=f13e1699]: •
+                      - text: Software Test Engineer Jobs In Bangalore
+                  - listitem [ref=f13e1700]:
+                    - link "• Technology Analyst Jobs In Bangalore" [ref=f13e1701] [cursor=pointer]:
+                      - /url: https://www.naukri.com/technology-analyst-jobs-in-bangalore
+                      - generic [ref=f13e1702]: •
+                      - text: Technology Analyst Jobs In Bangalore
+                  - listitem [ref=f13e1703]:
+                    - link "• Consultant Jobs In Bangalore" [ref=f13e1704] [cursor=pointer]:
+                      - /url: https://www.naukri.com/consultant-jobs-in-bangalore
+                      - generic [ref=f13e1705]: •
+                      - text: Consultant Jobs In Bangalore
+                  - listitem [ref=f13e1706]:
+                    - link "• Application Developer Jobs In Bangalore" [ref=f13e1707] [cursor=pointer]:
+                      - /url: https://www.naukri.com/application-developer-jobs-in-bangalore
+                      - generic [ref=f13e1708]: •
+                      - text: Application Developer Jobs In Bangalore
+              - generic [ref=f13e1709]: Delhi NCR
+              - generic [ref=f13e1711]: Hyderabad Secunderabad
+              - generic [ref=f13e1713]: Mumbai
+              - generic [ref=f13e1715]: Chennai
+              - generic [ref=f13e1717]: Pune
+              - generic [ref=f13e1719]: Kolkata
+              - generic [ref=f13e1721]: Ahmedabad
+              - generic [ref=f13e1723]: Gurgaon
+              - generic [ref=f13e1725]: Noida
+              - generic [ref=f13e1727]: All Jobs
+              - generic [ref=f13e1729]: Top Companies
+          - list [ref=f13e481]:
+            - listitem [ref=f13e482]:
+              - link "Home" [ref=f13e483] [cursor=pointer]:
+                - /url: https://www.naukri.com
+            - listitem [ref=f13e484]:
+              - generic [ref=f13e485]: 
+            - listitem [ref=f13e486]: software engineer Jobs
+        - generic [ref=f13e487]:
+          - generic [ref=f13e1731]:
+            - paragraph [ref=f13e1733]: See 52 jobs in Featured Companies
+            - list [ref=f13e1735]:
+              - listitem [ref=f13e1736]:
+                - link "The Hackett Group":
+                  - /url: https://www.naukri.com/the-hackett-group-jobs-careers-93084?keyword=software+engineer&src=fcc&companyId=93084
+                  - img "The Hackett Group" [ref=f13e1737] [cursor=pointer]
+              - listitem [ref=f13e1738]:
+                - link "Conduent":
+                  - /url: https://www.naukri.com/conduent-jobs-careers-6762?keyword=software+engineer&src=fcc&companyId=6762
+                  - img "Conduent" [ref=f13e1739] [cursor=pointer]
+              - listitem [ref=f13e1740]:
+                - link "Virtusa":
+                  - /url: https://www.naukri.com/virtusa-jobs-careers-1354?keyword=software+engineer&src=fcc&companyId=1354
+                  - img "Virtusa" [ref=f13e1741] [cursor=pointer]
+              - listitem [ref=f13e1742]:
+                - link "Opentext":
+                  - /url: https://www.naukri.com/opentext-jobs-careers-479215?keyword=software+engineer&src=fcc&companyId=479215
+                  - img "Opentext" [ref=f13e1743] [cursor=pointer]
+              - listitem [ref=f13e1744]:
+                - link "Fiserv":
+                  - /url: https://www.naukri.com/fiserv-jobs-careers-27654?keyword=software+engineer&src=fcc&companyId=29679
+                  - img "Fiserv" [ref=f13e1745] [cursor=pointer]
+          - generic [ref=f13e1746]:
+            - emphasis [ref=f13e1748]
+            - generic [ref=f13e1749]:
+              - heading "Get 3X more profile views from recruiters" [level=4] [ref=f13e1750]
+              - paragraph [ref=f13e1751]:
+                - link "Increase your chances of callback with Naukri FastForward" [ref=f13e1752] [cursor=pointer]:
+                  - /url: https://resume.naukri.com/resume-display?fftid=naukri_srp
+            - link "Know More" [ref=f13e1755] [cursor=pointer]:
+              - /url: https://resume.naukri.com/resume-display?fftid=naukri_srp
+      - status
+    - contentinfo [ref=f13e506]:
+      - generic [ref=f13e509]:
+        - generic [ref=f13e510]:
+          - link [ref=f13e511] [cursor=pointer]:
+            - /url: https://www.naukri.com
+            - img "Naukri.com" [ref=f13e512]
+          - generic [ref=f13e513]:
+            - generic "Connect with us" [ref=f13e514] [cursor=pointer]
+            - link [ref=f13e515] [cursor=pointer]:
+              - /url: https://www.facebook.com/Naukri
+              - img "Follow Naukri.com on Facebook" [ref=f13e516]
+            - link [ref=f13e517] [cursor=pointer]:
+              - /url: https://instagram.com/naukridotcom/
+              - img "Follow Naukri.com on Instagram" [ref=f13e518]
+            - link [ref=f13e519] [cursor=pointer]:
+              - /url: https://twitter.com/naukri
+              - img "Follow Naukri.com on X" [ref=f13e520]
+            - link [ref=f13e521] [cursor=pointer]:
+              - /url: http://www.linkedin.com/company/naukri.com
+              - img "Follow Naukri.com on LinkedIn" [ref=f13e522]
+        - list [ref=f13e524]:
+          - listitem [ref=f13e525]:
+            - link "About us" [ref=f13e526] [cursor=pointer]:
+              - /url: https://infoedge.in
+          - listitem [ref=f13e527]:
+            - link "Careers" [ref=f13e528] [cursor=pointer]:
+              - /url: https://careers.infoedge.com/
+          - listitem [ref=f13e529]:
+            - link "Employer home" [ref=f13e530] [cursor=pointer]:
+              - /url: https://www.naukri.com/recruit/login
+          - listitem [ref=f13e531]:
+            - link "Sitemap" [ref=f13e532] [cursor=pointer]:
+              - /url: https://www.naukri.com/sitemap/sitemap.php
+          - listitem [ref=f13e533]:
+            - link "Credits" [ref=f13e534] [cursor=pointer]:
+              - /url: https://www.naukri.com/credits
+        - list [ref=f13e536]:
+          - listitem [ref=f13e537]:
+            - link "Help center" [ref=f13e538] [cursor=pointer]:
+              - /url: https://www.naukri.com/faq/job-seeker?utm_source=footer
+          - listitem [ref=f13e539]:
+            - link "Summons/Notices" [ref=f13e540] [cursor=pointer]:
+              - /url: https://w5.naukri.com/summons-notices-form/
+          - listitem [ref=f13e541]:
+            - link "Grievances" [ref=f13e542] [cursor=pointer]:
+              - /url: https://w5.naukri.com/grievances-form/
+          - listitem [ref=f13e543]:
+            - link "Report issue" [ref=f13e544] [cursor=pointer]:
+              - /url: https://w5.naukri.com/fdbck/main/feedback.php?app_id=15
+        - list [ref=f13e546]:
+          - listitem [ref=f13e547]:
+            - link "Privacy policy" [ref=f13e548] [cursor=pointer]:
+              - /url: https://www.naukri.com/privacypolicy
+          - listitem [ref=f13e549]:
+            - link "Terms & conditions" [ref=f13e550] [cursor=pointer]:
+              - /url: https://www.naukri.com/termsconditions
+          - listitem [ref=f13e551]:
+            - link "Fraud alert" [ref=f13e552] [cursor=pointer]:
+              - /url: https://www.naukri.com/imposter/report-fake-job-recruiter
+          - listitem [ref=f13e553]:
+            - link "Trust & safety" [ref=f13e554] [cursor=pointer]:
+              - /url: https://www.naukri.com/jobsearch/trust-safety
+        - generic [ref=f13e555]:
+          - generic [ref=f13e556]: Apply on the go
+          - generic [ref=f13e557]: Get real-time job updates on our App
+          - generic [ref=f13e558]:
+            - link [ref=f13e559] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=naukriApp.appModules.login&hl=en&utm_source=naukri&utm_medium=footer
+              - img "naukri app download" [ref=f13e560]
+            - link [ref=f13e561] [cursor=pointer]:
+              - /url: https://itunes.apple.com/in/app/naukri.com-job-search/id482877505?mt=8
+              - img "naukri app download" [ref=f13e562]
+      - generic [ref=f13e564]:
+        - generic [ref=f13e565]:
+          - link [ref=f13e567] [cursor=pointer]:
+            - /url: http://infoedge.in
+            - img "Info Edge (India) Ltd." [ref=f13e568]
+          - generic [ref=f13e569]:
+            - generic [ref=f13e570]: All trademarks are the property of their respective owners
+            - generic [ref=f13e571]: All rights reserved © 2026 Info Edge (India) Ltd.
+        - generic [ref=f13e572]: Our businesses
+        - list [ref=f13e575]:
+          - listitem [ref=f13e576]:
+            - link [ref=f13e578] [cursor=pointer]:
+              - /url: https://www.99acres.com/
+              - img "99acres.com" [ref=f13e579]
+          - listitem [ref=f13e580]:
+            - link [ref=f13e582] [cursor=pointer]:
+              - /url: https://www.jeevansathi.com/
+              - img "Jeevansathi.com" [ref=f13e583]
+          - listitem [ref=f13e584]:
+            - link [ref=f13e586] [cursor=pointer]:
+              - /url: https://www.naukrigulf.com/
+              - img "NaukriGulf.com" [ref=f13e587]
+          - listitem [ref=f13e588]:
+            - link [ref=f13e590] [cursor=pointer]:
+              - /url: https://www.shiksha.com/
+              - img "Shiksha.com" [ref=f13e591]
+          - listitem [ref=f13e592]:
+            - link [ref=f13e594] [cursor=pointer]:
+              - /url: https://www.iimjobs.com
+              - img "IIMJobs.com" [ref=f13e595]
+          - listitem [ref=f13e596]:
+            - link [ref=f13e598] [cursor=pointer]:
+              - /url: https://www.hirist.tech/
+              - img "hirist.tech" [ref=f13e599]
+          - listitem [ref=f13e600]:
+            - link [ref=f13e602] [cursor=pointer]:
+              - /url: https://www.jobhai.com
+              - img "JobHai.com" [ref=f13e603]
+          - listitem [ref=f13e604]:
+            - link [ref=f13e606] [cursor=pointer]:
+              - /url: https://doselect.com/
+              - img "Doselect.com" [ref=f13e607]
+          - listitem [ref=f13e608]:
+            - link [ref=f13e610] [cursor=pointer]:
+              - /url: https://www.naukri.com/minis
+              - img "naukri.com/minis" [ref=f13e611]
+          - listitem [ref=f13e612]:
+            - link [ref=f13e614] [cursor=pointer]:
+              - /url: https://www.codingninjas.com/?utm_source=naukri&utm_medium=desktop-footer
+              - img "codingninjas.com" [ref=f13e615]
+  - alert [ref=f13e12]

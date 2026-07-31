@@ -1,0 +1,315 @@
+- generic [active] [ref=f2e1]:
+  - link "Skip to main content" [ref=f2e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - navigation "Primary" [ref=f2e3]:
+    - link "LinkedIn" [ref=f2e4] [cursor=pointer]:
+      - /url: /?trk=guest_homepage-jobseeker_nav-header-logo
+    - generic [ref=f2e7]:
+      - link "Join now" [ref=f2e8] [cursor=pointer]:
+        - /url: https://www.linkedin.com/signup?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fjobs&trk=guest_homepage-jobseeker_nav-header-join
+      - link "Sign in" [ref=f2e9] [cursor=pointer]:
+        - /url: https://www.linkedin.com/login?fromSignIn=true&session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fjobs&trk=guest_homepage-jobseeker_nav-header-signin
+  - main [ref=f2e10]:
+    - generic [ref=f2e11]:
+      - generic [ref=f2e12]:
+        - heading "Millions of jobs and people hiring" [level=1] [ref=f2e13]
+        - generic [ref=f2e14]:
+          - generic [ref=f2e15]:
+            - generic [ref=f2e16]:
+              - generic [ref=f2e17]:
+                - generic [ref=f2e18]:
+                  - generic [ref=f2e19]: Email or phone
+                  - textbox "Email or phone" [ref=f2e21]
+                - alert
+              - generic [ref=f2e22]:
+                - generic [ref=f2e23]:
+                  - generic [ref=f2e24]: Password
+                  - generic [ref=f2e25]:
+                    - textbox "Password" [ref=f2e26]
+                    - button "Show your LinkedIn password" [ref=f2e27]: Show
+                - alert
+            - generic [ref=f2e28]:
+              - link "Forgot password?" [ref=f2e29] [cursor=pointer]:
+                - /url: https://www.linkedin.com/uas/request-password-reset?trk=homepage-jobseeker_forgot_password
+              - button "Sign in" [ref=f2e30] [cursor=pointer]
+            - paragraph [ref=f2e32]: or
+          - generic [ref=f2e34]:
+            - paragraph [ref=f2e35]:
+              - text: By clicking Continue to join or sign in, you agree to LinkedIn’s
+              - link "User Agreement" [ref=f2e36] [cursor=pointer]:
+                - /url: /legal/user-agreement?trk=homepage-jobseeker_auth-button_user-agreement
+              - text: ","
+              - link "Privacy Policy" [ref=f2e37] [cursor=pointer]:
+                - /url: /legal/privacy-policy?trk=homepage-jobseeker_auth-button_privacy-policy
+              - text: ", and"
+              - link "Cookie Policy" [ref=f2e38] [cursor=pointer]:
+                - /url: /legal/cookie-policy?trk=homepage-jobseeker_auth-button_cookie-policy
+              - text: .
+            - button "Continue with google"
+        - link "New to LinkedIn? Join now" [ref=f2e39] [cursor=pointer]:
+          - /url: https://www.linkedin.com/signup
+      - img "Millions of jobs and people hiring" [ref=f2e40]
+    - generic [ref=f2e41]:
+      - heading "Find the right job or internship for you" [level=2] [ref=f2e43]
+      - generic [ref=f2e45]:
+        - list [ref=f2e46]:
+          - listitem:
+            - link "Engineering" [ref=f2e47] [cursor=pointer]:
+              - /url: https://www.linkedin.com/jobs/engineering-jobs-mumbai?trk=homepage-jobseeker_suggested-search
+          - listitem:
+            - link "Business Development" [ref=f2e48] [cursor=pointer]:
+              - /url: https://www.linkedin.com/jobs/business-development-jobs-mumbai?trk=homepage-jobseeker_suggested-search
+          - listitem:
+            - link "Finance" [ref=f2e49] [cursor=pointer]:
+              - /url: https://www.linkedin.com/jobs/finance-jobs-mumbai?trk=homepage-jobseeker_suggested-search
+          - listitem:
+            - link "Administrative Assistant" [ref=f2e50] [cursor=pointer]:
+              - /url: https://www.linkedin.com/jobs/administrative-assistant-jobs-mumbai?trk=homepage-jobseeker_suggested-search
+          - listitem:
+            - link "Retail Associate" [ref=f2e51] [cursor=pointer]:
+              - /url: https://www.linkedin.com/jobs/retail-associate-jobs-mumbai?trk=homepage-jobseeker_suggested-search
+          - listitem:
+            - link "Customer Service" [ref=f2e52] [cursor=pointer]:
+              - /url: https://www.linkedin.com/jobs/customer-service-jobs-mumbai?trk=homepage-jobseeker_suggested-search
+          - listitem:
+            - link "Operations" [ref=f2e53] [cursor=pointer]:
+              - /url: https://www.linkedin.com/jobs/operations-jobs-mumbai?trk=homepage-jobseeker_suggested-search
+          - listitem:
+            - link "Information Technology" [ref=f2e54] [cursor=pointer]:
+              - /url: https://www.linkedin.com/jobs/information-technology-jobs-mumbai?trk=homepage-jobseeker_suggested-search
+          - listitem:
+            - link "Marketing" [ref=f2e55] [cursor=pointer]:
+              - /url: https://www.linkedin.com/jobs/marketing-jobs-mumbai?trk=homepage-jobseeker_suggested-search
+          - listitem:
+            - link "Human Resources" [ref=f2e56] [cursor=pointer]:
+              - /url: https://www.linkedin.com/jobs/human-resources-jobs-mumbai?trk=homepage-jobseeker_suggested-search
+        - button "Show more" [ref=f2e57] [cursor=pointer]
+    - generic [ref=f2e59]:
+      - generic [ref=f2e60]:
+        - heading "Keep your mind sharp with games" [level=2] [ref=f2e61]
+        - paragraph [ref=f2e62]: Take a break and reconnect with your network through quick daily games.
+      - generic [ref=f2e63]:
+        - list:
+          - listitem:
+            - link "Patches" [ref=f2e64] [cursor=pointer]:
+              - /url: https://www.linkedin.com/games/patches/
+          - listitem:
+            - link "Zip" [ref=f2e65] [cursor=pointer]:
+              - /url: https://www.linkedin.com/games/zip/
+          - listitem:
+            - link "Mini Sudoku" [ref=f2e66] [cursor=pointer]:
+              - /url: https://www.linkedin.com/games/mini-sudoku/
+          - listitem:
+            - link "Queens" [ref=f2e67] [cursor=pointer]:
+              - /url: https://www.linkedin.com/games/queens/
+          - listitem:
+            - link "Tango" [ref=f2e68] [cursor=pointer]:
+              - /url: https://www.linkedin.com/games/tango/
+          - listitem:
+            - link "Pinpoint" [ref=f2e69] [cursor=pointer]:
+              - /url: https://www.linkedin.com/games/pinpoint/
+          - listitem:
+            - link "Crossclimb" [ref=f2e70] [cursor=pointer]:
+              - /url: https://www.linkedin.com/games/crossclimb/
+    - generic [ref=f2e72]:
+      - heading "Post your job for millions of people to see" [level=2] [ref=f2e73]
+      - link "Post a job" [ref=f2e74] [cursor=pointer]:
+        - /url: https://www.linkedin.com/talent/post-a-job?trk=homepage-jobseeker_talent-finder-cta
+    - generic [ref=f2e76]:
+      - list [ref=f2e78]:
+        - listitem [ref=f2e79]:
+          - generic [ref=f2e80]:
+            - heading "Let the right people know you’re open to work" [level=2] [ref=f2e81]
+            - paragraph [ref=f2e82]: With the Open To Work feature, you can privately tell recruiters or publicly share with the LinkedIn community that you are looking for new job opportunities.
+        - listitem [ref=f2e83]:
+          - generic [ref=f2e84]:
+            - heading [level=2] [ref=f2e85]: Conversations today could lead to opportunity tomorrow
+            - paragraph [ref=f2e86]: Sending messages to people you know is a great way to strengthen relationships as you take the next step in your career.
+        - listitem [ref=f2e87]:
+          - generic [ref=f2e88]:
+            - heading [level=2] [ref=f2e89]: Stay up to date on your industry
+            - paragraph [ref=f2e90]: From live videos, to stories, to newsletters and more, LinkedIn is full of ways to stay up to date on the latest discussions in your industry.
+      - button "Next Slide" [ref=f2e92] [cursor=pointer]
+    - generic [ref=f2e95]:
+      - generic [ref=f2e97]:
+        - heading "Connect with people who can help" [level=2] [ref=f2e98]
+        - link "Find people you know" [ref=f2e99] [cursor=pointer]:
+          - /url: https://www.linkedin.com/pub/dir/+/+?trk=homepage-jobseeker
+      - generic [ref=f2e101]:
+        - heading "Learn the skills you need to succeed" [level=2] [ref=f2e102]
+        - button "Choose a topic to learn about" [ref=f2e106] [cursor=pointer]
+    - generic [ref=f2e110]:
+      - generic [ref=f2e111]:
+        - heading "Who is LinkedIn for?" [level=2] [ref=f2e112]
+        - paragraph [ref=f2e113]: Anyone looking to navigate their professional life.
+        - list [ref=f2e115]:
+          - listitem [ref=f2e116]:
+            - link "Find a coworker or classmate" [ref=f2e117] [cursor=pointer]:
+              - /url: https://www.linkedin.com/pub/dir/+/+?trk=homepage-jobseeker_brand-discovery_intent-module-firstBtn
+          - listitem [ref=f2e118]:
+            - link "Find a new job" [ref=f2e119] [cursor=pointer]:
+              - /url: https://www.linkedin.com/jobs/jobs-in-mumbai?trk=homepage-jobseeker_brand-discovery_intent-module-secondBtn
+          - listitem [ref=f2e120]:
+            - link "Find a course or training" [ref=f2e121] [cursor=pointer]:
+              - /url: https://www.linkedin.com/learning/search?trk=homepage-jobseeker_brand-discovery_intent-module-thirdBtn
+      - img "Who is LinkedIn for?" [ref=f2e122]
+    - generic [ref=f2e124]:
+      - iframe [ref=f2e126]:
+        
+      - generic [ref=f2e127]:
+        - heading "3 ways to find your job" [level=2] [ref=f2e128]
+        - heading "Check out these steps to help you get started." [level=3] [ref=f2e129]
+    - generic [ref=f2e131]:
+      - heading "Join your colleagues, classmates, and friends on LinkedIn" [level=2] [ref=f2e132]
+      - link "Get started" [ref=f2e133] [cursor=pointer]:
+        - /url: https://www.linkedin.com/signup?trk=guest_homepage-jobseeker_join-cta
+    - generic [ref=f2e135]:
+      - generic [ref=f2e137]: LinkedIn
+      - generic [ref=f2e138]:
+        - generic [ref=f2e139]:
+          - heading "General" [level=3] [ref=f2e140]
+          - list [ref=f2e141]:
+            - listitem [ref=f2e142]:
+              - link "Sign Up" [ref=f2e143] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup?trk=guest_homepage-jobseeker_directory
+            - listitem [ref=f2e144]:
+              - link "Help Center" [ref=f2e145] [cursor=pointer]:
+                - /url: https://www.linkedin.com/help/linkedin?lang=en&trk=homepage-jobseeker_directory_helpCenterUrl
+            - listitem [ref=f2e146]:
+              - link "About" [ref=f2e147] [cursor=pointer]:
+                - /url: https://about.linkedin.com/?trk=homepage-jobseeker_directory_aboutUrl
+            - listitem [ref=f2e148]:
+              - link "Press" [ref=f2e149] [cursor=pointer]:
+                - /url: https://press.linkedin.com/?trk=homepage-jobseeker_directory_pressMicrositeUrl
+            - listitem [ref=f2e150]:
+              - link "Blog" [ref=f2e151] [cursor=pointer]:
+                - /url: https://blog.linkedin.com/?trk=homepage-jobseeker_directory_blogMicrositeUrl
+            - listitem [ref=f2e152]:
+              - link "Careers" [ref=f2e153] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/linkedin/jobs?trk=homepage-jobseeker_directory_careersUrl
+            - listitem [ref=f2e154]:
+              - link "Developers" [ref=f2e155] [cursor=pointer]:
+                - /url: https://developer.linkedin.com/?trk=homepage-jobseeker_directory_developerMicrositeUrl
+        - generic [ref=f2e156]:
+          - heading "Browse LinkedIn" [level=3] [ref=f2e157]
+          - list [ref=f2e158]:
+            - listitem [ref=f2e159]:
+              - link "Learning" [ref=f2e160] [cursor=pointer]:
+                - /url: https://www.linkedin.com/learning/?trk=homepage-jobseeker_directory_learningHomeUrl
+            - listitem [ref=f2e161]:
+              - link "Jobs" [ref=f2e162] [cursor=pointer]:
+                - /url: https://www.linkedin.com/jobs?trk=homepage-jobseeker_directory_jobsHomeUrl
+            - listitem [ref=f2e163]:
+              - link "Games" [ref=f2e164] [cursor=pointer]:
+                - /url: https://www.linkedin.com/games?trk=homepage-jobseeker_directory_gameHubUrl
+            - listitem [ref=f2e165]:
+              - link "Mobile" [ref=f2e166] [cursor=pointer]:
+                - /url: https://members.linkedin.com/apps?trk=homepage-jobseeker_directory_mobileMicrositeUrl
+            - listitem [ref=f2e167]:
+              - link "Services" [ref=f2e168] [cursor=pointer]:
+                - /url: https://www.linkedin.com/services?trk=homepage-jobseeker_directory_servicesHomeUrl
+            - listitem [ref=f2e169]:
+              - link "Products" [ref=f2e170] [cursor=pointer]:
+                - /url: https://www.linkedin.com/products?trk=homepage-jobseeker_directory_productsHomeUrl
+            - listitem [ref=f2e171]:
+              - link "Top Companies" [ref=f2e172] [cursor=pointer]:
+                - /url: https://www.linkedin.com/hubs/top-companies/?trk=homepage-jobseeker_directory_topCompaniesHubHomeUrl
+            - listitem [ref=f2e173]:
+              - link "Top Startups" [ref=f2e174] [cursor=pointer]:
+                - /url: https://www.linkedin.com/hubs/top-startups/?trk=homepage-jobseeker_directory_topStartupsHubHomeUrl
+            - listitem [ref=f2e175]:
+              - link "Top Colleges" [ref=f2e176] [cursor=pointer]:
+                - /url: https://www.linkedin.com/hubs/top-colleges/?trk=homepage-jobseeker_directory_topCollegesHubHomeUrl
+        - generic [ref=f2e177]:
+          - heading "Business Solutions" [level=3] [ref=f2e178]
+          - list [ref=f2e179]:
+            - listitem [ref=f2e180]:
+              - link "Talent" [ref=f2e181] [cursor=pointer]:
+                - /url: https://business.linkedin.com/talent-solutions?src=li-footer&utm_source=linkedin&utm_medium=footer&trk=homepage-jobseeker_directory_talentSolutionsMicrositeUrl
+            - listitem [ref=f2e182]:
+              - link "Marketing" [ref=f2e183] [cursor=pointer]:
+                - /url: https://business.linkedin.com/marketing-solutions?src=li-footer&utm_source=linkedin&utm_medium=footer&trk=homepage-jobseeker_directory_marketingSolutionsMicrositeUrl
+            - listitem [ref=f2e184]:
+              - link "Sales" [ref=f2e185] [cursor=pointer]:
+                - /url: https://business.linkedin.com/sales-solutions?src=li-footer&utm_source=linkedin&utm_medium=footer&trk=homepage-jobseeker_directory_salesSolutionsMicrositeUrl
+            - listitem [ref=f2e186]:
+              - link "Learning" [ref=f2e187] [cursor=pointer]:
+                - /url: https://learning.linkedin.com/?src=li-footer&trk=homepage-jobseeker_directory_learningMicrositeUrl
+        - generic [ref=f2e188]:
+          - heading "Directories" [level=3] [ref=f2e189]
+          - list [ref=f2e190]:
+            - listitem [ref=f2e191]:
+              - link "Members" [ref=f2e192] [cursor=pointer]:
+                - /url: https://www.linkedin.com/directory/people?trk=homepage-jobseeker_directory_peopleDirectoryUrl
+            - listitem [ref=f2e193]:
+              - link "Jobs" [ref=f2e194] [cursor=pointer]:
+                - /url: https://www.linkedin.com/directory/jobs?trk=homepage-jobseeker_directory_jobSearchDirectoryUrl
+            - listitem [ref=f2e195]:
+              - link "Companies" [ref=f2e196] [cursor=pointer]:
+                - /url: https://www.linkedin.com/directory/companies?trk=homepage-jobseeker_directory_companyDirectoryUrl
+            - listitem [ref=f2e197]:
+              - link "Featured" [ref=f2e198] [cursor=pointer]:
+                - /url: https://www.linkedin.com/directory/featured?trk=homepage-jobseeker_directory_featuredDirectoryUrl
+            - listitem [ref=f2e199]:
+              - link "Learning" [ref=f2e200] [cursor=pointer]:
+                - /url: https://www.linkedin.com/directory/learning?trk=homepage-jobseeker_directory_learningDirectoryUrl
+            - listitem [ref=f2e201]:
+              - link "Posts" [ref=f2e202] [cursor=pointer]:
+                - /url: https://www.linkedin.com/directory/posts?trk=homepage-jobseeker_directory_postsDirectoryUrl
+            - listitem [ref=f2e203]:
+              - link "Articles" [ref=f2e204] [cursor=pointer]:
+                - /url: https://www.linkedin.com/directory/articles?trk=homepage-jobseeker_directory_articlesDirectoryUrl
+            - listitem [ref=f2e205]:
+              - link "Schools" [ref=f2e206] [cursor=pointer]:
+                - /url: https://www.linkedin.com/directory/schools?trk=homepage-jobseeker_directory_schoolsDirectoryUrl
+            - listitem [ref=f2e207]:
+              - link "News" [ref=f2e208] [cursor=pointer]:
+                - /url: https://www.linkedin.com/directory/news?trk=homepage-jobseeker_directory_newsDirectoryUrl
+            - listitem [ref=f2e209]:
+              - link "News Letters" [ref=f2e210] [cursor=pointer]:
+                - /url: https://www.linkedin.com/directory/newsletters?trk=homepage-jobseeker_directory_newslettersDirectoryUrl
+            - listitem [ref=f2e211]:
+              - link "Services" [ref=f2e212] [cursor=pointer]:
+                - /url: https://www.linkedin.com/directory/services?trk=homepage-jobseeker_directory_servicesDirectoryUrl
+            - listitem [ref=f2e213]:
+              - link "Products" [ref=f2e214] [cursor=pointer]:
+                - /url: https://www.linkedin.com/directory/products?trk=homepage-jobseeker_directory_productsDirectoryUrl
+            - listitem [ref=f2e215]:
+              - link "Advice" [ref=f2e216] [cursor=pointer]:
+                - /url: https://www.linkedin.com/directory/advice?trk=homepage-jobseeker_directory_adviceDirectoryUrl
+            - listitem [ref=f2e217]:
+              - link "People Search" [ref=f2e218] [cursor=pointer]:
+                - /url: https://www.linkedin.com/directory/people-search?trk=homepage-jobseeker_directory_peopleSearchDirectoryUrl
+  - contentinfo [ref=f2e219]:
+    - list [ref=f2e220]:
+      - generic [ref=f2e221]: LinkedIn
+      - generic [ref=f2e223]: © 2026
+      - listitem [ref=f2e224]:
+        - link "About" [ref=f2e225] [cursor=pointer]:
+          - /url: https://about.linkedin.com?trk=homepage-jobseeker_footer-about
+      - listitem [ref=f2e226]:
+        - link "Accessibility" [ref=f2e227] [cursor=pointer]:
+          - /url: https://www.linkedin.com/accessibility?trk=homepage-jobseeker_footer-accessibility
+      - listitem [ref=f2e228]:
+        - link "User Agreement" [ref=f2e229] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/user-agreement?trk=homepage-jobseeker_footer-user-agreement
+      - listitem [ref=f2e230]:
+        - link "Privacy Policy" [ref=f2e231] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/privacy-policy?trk=homepage-jobseeker_footer-privacy-policy
+      - listitem [ref=f2e232]:
+        - link "Cookie Policy" [ref=f2e233] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/cookie-policy?trk=homepage-jobseeker_footer-cookie-policy
+      - listitem [ref=f2e234]:
+        - link "Copyright Policy" [ref=f2e235] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/copyright-policy?trk=homepage-jobseeker_footer-copyright-policy
+      - listitem [ref=f2e236]:
+        - link "Brand Policy" [ref=f2e237] [cursor=pointer]:
+          - /url: https://brand.linkedin.com/policies?trk=homepage-jobseeker_footer-brand-policy
+      - listitem [ref=f2e238]:
+        - link "Guest Controls" [ref=f2e239] [cursor=pointer]:
+          - /url: https://www.linkedin.com/psettings/guest-controls?trk=homepage-jobseeker_footer-guest-controls
+      - listitem [ref=f2e240]:
+        - link "Community Guidelines" [ref=f2e241] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/professional-community-policies?trk=homepage-jobseeker_footer-community-guide
+      - listitem [ref=f2e242]:
+        - button "Language" [ref=f2e244]
