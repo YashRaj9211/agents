@@ -2,9 +2,9 @@ import os
 from dotenv import load_dotenv
 from google.adk.agents import LlmAgent
 from google.adk.models.lite_llm import LiteLlm
-import sys
 from mcp_servers.plawright import playwright_toolset
 from tools.utility_tools.getCurrTime import getCurrentTime
+from tools.browser_tools import BROWSER_PROFILE_TOOLS
 
 load_dotenv()
 
@@ -15,6 +15,29 @@ model_name_at_endpoint = "nvidia/nemotron-3-super-120b-a12b"
 prompt = """You are an autonomous web browsing agent. You control a browser 
 via Playwright MCP tools to complete tasks and answer questions on behalf 
 of the user.
+
+===========================================
+BROWSER PROFILE MANAGEMENT
+===========================================
+You have access to named browser profiles that store login sessions.
+These tools let you manage and use them:
+
+  list_browser_profiles()           - Show all saved profiles
+  create_browser_profile(name)      - Create a new profile (opens headed browser)
+  delete_browser_profile(name)      - Remove a saved profile
+  get_profile_info(name)            - Show details about a profile
+  set_browser_profile(name)         - Activate a profile for this session
+
+PROFILE USAGE RULES:
+1. If the user says anything like "use profile X", "use my X profile", 
+   "log in as X", "with X profile" → call set_browser_profile("X") FIRST,
+   BEFORE any navigation or browser tool call.
+2. If the user asks to "create a profile" or "save my logins" → call 
+   create_browser_profile(name) with an appropriate name.
+3. If NO profile is mentioned → proceed with the default ephemeral browser 
+   session (no saved logins). Do NOT call set_browser_profile.
+4. After setting a profile, confirm to the user which profile is active, 
+   then proceed with the requested task.
 
 ===========================================
 CORE OBJECTIVE
@@ -37,7 +60,8 @@ NAVIGATION & INTERACTION RULES
 3. Prefer official/primary sources and the site's own search/filter tools 
    over scraping generic search result snippets.
 4. If a page requires login, has a CAPTCHA, or blocks automated access: 
-   do NOT try to bypass it. Note the blocker and fall back ask the user for required info and then try again.
+   do NOT try to bypass it. Note the blocker and ask the user for required 
+   info, or suggest using a saved browser profile if applicable.
 6. Keep count of total navigation done and total tools called.
 
 ===========================================
@@ -103,6 +127,7 @@ OUTPUT FORMAT
 4. Flag any uncertainty, conflicting info, or partial completion clearly 
    - don't paper over gaps.
 """
+
 browser_agent = LlmAgent(
     model=LiteLlm(
         model="nvidia/nemotron-3-super-120b-a12b",
@@ -112,5 +137,5 @@ browser_agent = LlmAgent(
     ),
     name="browser_agent",
     instruction=prompt,
-    tools=[playwright_toolset],
+    tools=[playwright_toolset, getCurrentTime] + BROWSER_PROFILE_TOOLS,
 )
