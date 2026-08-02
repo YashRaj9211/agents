@@ -28,7 +28,7 @@ from mcp import StdioServerParameters
 
 # ── Headless mode ─────────────────────────────────────────────────────────────
 # Set BROWSER_MODE=headless to run without a visible window.
-HEADLESS = os.getenv("BROWSER_MODE", "").lower() == "headless"
+HEADLESS = False
 
 # ── Project root ──────────────────────────────────────────────────────────────
 _THIS_FILE = Path(__file__).resolve()

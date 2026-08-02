@@ -7,6 +7,7 @@ from tools.utility_tools.getCurrTime import getCurrentTime
 from agents.browser_agent.agent import browser_agent
 from mcp_servers.docker_mcp import docker_mcp_toolset
 from tools.browser_tools import BROWSER_PROFILE_TOOLS
+from tools import FILE_TOOLS, CLI_TOOLS, SCHEDULE_TOOLS
 
 load_dotenv()
 
@@ -85,7 +86,7 @@ root_agent = LlmAgent(
     instruction=prompt,
     tools=[
         getCurrentTime,
-        docker_mcp_toolset,
         AgentTool(browser_agent),
-    ] + BROWSER_PROFILE_TOOLS,
+    ] + BROWSER_PROFILE_TOOLS + FILE_TOOLS + CLI_TOOLS + SCHEDULE_TOOLS,
 )
+
