@@ -5,6 +5,7 @@ from google.adk.models.lite_llm import LiteLlm
 from mcp_servers.plawright import playwright_toolset
 from tools.utility_tools.getCurrTime import getCurrentTime
 from tools.browser_tools import BROWSER_PROFILE_TOOLS
+from mcp_servers.firecrawl import firecrawl_toolset
 
 load_dotenv()
 
@@ -137,5 +138,5 @@ browser_agent = LlmAgent(
     ),
     name="browser_agent",
     instruction=prompt,
-    tools=[playwright_toolset, getCurrentTime] + BROWSER_PROFILE_TOOLS,
+    tools=[playwright_toolset, firecrawl_toolset] + BROWSER_PROFILE_TOOLS,
 )

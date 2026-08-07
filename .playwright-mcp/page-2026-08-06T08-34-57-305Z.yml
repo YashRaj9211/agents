@@ -1,0 +1,340 @@
+- generic [active] [ref=f2971e1]:
+  - link "Skip to content" [ref=f2971e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f2971e3]:
+    - banner [ref=f2971e4]:
+      - generic [ref=f2971e7]:
+        - link [ref=f2971e11] [cursor=pointer]:
+          - /url: https://jobsnet.in/
+          - img "Jobsnet.in" [ref=f2971e12]
+        - generic [ref=f2971e14]:
+          - navigation "Main Menu" [ref=f2971e15]:
+            - list [ref=f2971e16]:
+              - listitem [ref=f2971e17]:
+                - link "Home" [ref=f2971e18] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - listitem [ref=f2971e19]:
+                - link "Internships" [ref=f2971e20] [cursor=pointer]:
+                  - /url: https://jobsnet.in/internships/
+              - listitem [ref=f2971e21]:
+                - link "Off Campus Drives" [ref=f2971e22] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+              - listitem [ref=f2971e23]:
+                - link [ref=f2971e24] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+              - listitem [ref=f2971e28]:
+                - link [ref=f2971e29] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+          - button "Search" [ref=f2971e33] [cursor=pointer]
+    - main [ref=f2971e36]:
+      - insertion [ref=f2971e38]:
+        - iframe [ref=f2971e40]:
+          
+      - generic [ref=f2971e41]:
+        - article [ref=f2971e42]:
+          - generic [ref=f2971e44]:
+            - navigation [ref=f2971e45]:
+              - link "Home" [ref=f2971e47] [cursor=pointer]:
+                - /url: https://jobsnet.in/
+              - link "Off Campus Drive" [ref=f2971e51] [cursor=pointer]:
+                - /url: https://jobsnet.in/off-campus-drive/
+              - generic [ref=f2971e54]: Capgemini Hiring Entry-Level Associate Software Engineers
+            - heading "Capgemini Hiring Entry-Level Associate Software Engineers" [level=1] [ref=f2971e56]
+            - list [ref=f2971e57]:
+              - listitem [ref=f2971e58]:
+                - text: By
+                - link "Anand Kumar" [ref=f2971e59] [cursor=pointer]:
+                  - /url: https://jobsnet.in/author/anand/
+                - text: /
+              - listitem [ref=f2971e60]:
+                - text: "On"
+                - time [ref=f2971e61]: February 17, 2026
+          - figure [ref=f2971e62]
+          - generic [ref=f2971e64]:
+            - paragraph [ref=f2971e65]:
+              - strong [ref=f2971e66]: Capgemini Careers Drive 2026
+              - text: ": Capgemini is looking to hire entry level Associate"
+              - link "Software" [ref=f2971e67] [cursor=pointer]:
+                - /url: "#"
+              - text: Engineers for the across Hyderabad office location.
+              - link "Software" [ref=f2971e70] [cursor=pointer]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - paragraph [ref=f2971e74]: The detailed information about Capgemini Careers opening as follows.
+            - heading "Capgemini Engineering Careers Drive 2026" [level=2] [ref=f2971e75]
+            - paragraph [ref=f2971e76]:
+              - strong [ref=f2971e77]: Job Title
+              - text: ": Associate Software Engineer"
+            - generic [ref=f2971e80]:
+              - generic [ref=f2971e81]:
+                - generic [ref=f2971e82]: WhatsApp Channel
+                - link "Join Now" [ref=f2971e84] [cursor=pointer]:
+                  - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+              - generic [ref=f2971e85]:
+                - generic [ref=f2971e86]: Telegram Channel
+                - link "Join Now" [ref=f2971e88] [cursor=pointer]:
+                  - /url: https://telegram.me/campusdrivejobs
+            - paragraph [ref=f2971e89]:
+              - strong [ref=f2971e90]: "Job Location :"
+              - text: Chennai
+              - link "Engineering & Technology" [ref=f2971e91] [cursor=pointer]
+            - paragraph [ref=f2971e95]:
+              - strong [ref=f2971e96]: "Salary :"
+              - text: Best in Industry
+            - generic [ref=f2971e97]:
+              - insertion:
+                - generic:
+                  - iframe
+            - paragraph [ref=f2971e98]:
+              - strong [ref=f2971e99]: "Experience :"
+              - text: Early Careers…
+            - paragraph [ref=f2971e100]:
+              - strong [ref=f2971e101]: "Qualification :"
+              - text: BE/B.Tech/BSC/MCA/ME/M.Tech/MS or Related
+            - paragraph [ref=f2971e102]:
+              - strong [ref=f2971e103]: "Batch :"
+              - text: Any
+            - insertion [ref=f2971e105]:
+              - iframe [ref=f2971e107]:
+                - iframe [ref=f2989e1]:
+                  - insertion [ref=f2998e2]:
+                    - iframe [ref=f2998e3]:
+                      - link [ref=f3003e4] [cursor=pointer]:
+                        - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstAClew3Q3R7l8Ho318CmtFg383kUv2YPbKmtI1cyNvXvnKHETIv3n5csID4uIQHgJY3PExLqs1MfWrvMvitWoXGugm_owPwOffgKbLewyZmK9w-aQ55PENzGVJ8FsDPtdRFc_EwcFat8w7LJkC92p2ebZ6iUivo1saR7hf_6TWXpcO1LGZwNlecOdhJTALM-4v6_NWwmgnC4E0xb6cOrQuUG50dacWhLQHZPIAcOhSpj6TsuL1ZTgTA0qe78Xb4Aa0Tv0pREy_V5JyLcs8T0Ju8lPIS1WwW5hJUkA8yFOpPuEvBk_l-5w_YIm6UVwEeTj74xVwe68fmaOgGtw45dd3UAXTWZYdor4jD4zy5B0XyZUtzdpOeaRt0S4BUt4dvYg6w_NJzdeIT4aUyLZaFvXG1LPu3OPGXFZ2YNKxEdDGDzTOujU382tQiTmi1HDJxZsvhmbgCIlcy0rnEkvND_FaueZiUDi_YP2U71m5txbaL4jjITJ-VH4rQN96FPb06KUPwv6ppFKHF7JQL5aujwWDuNAVkA-Sfa3gz0NfeXxjo8jOLXBnACxVvSdSiIkvc6Pzv3BoWFpDwuD54Z5xUIA-3faH_hoZA3oh0Kp9GD9P9pFN4AsIHWmafLBZ&sai=AMfl-YQ_dFqsj4vFDMQqW8KmRx7dUhOgwbQcLreCwfiqhsG2NZZn8OkglevcKgZdlVzEEX5wla7Djk_5Lg9j6BfwN_xRrBiVT4Uqd8vNi494kHIIcsOvFZMIWK8uRktzreT5tbOfwk9JIJGM7F1m3I9xIi1BmvIswxG4BqWyXzgexHrbsJtkbKgsBoK0YpugBYM4A8kASfbeDDCBnAV8t-rkBqTIgzrYP9anecA0D_muO6rpZq93NR2KukPP_oDfZ9Y8G0n19PbVpqXRKE0lD6cLog1Map9CjgaycCb8pZ5v5zVUNFT4EgmGLqoIG7niy0pmElnfpPcJunuO9xiGxGK6F-xXRSdA9MO7oVP8FXQ&sig=Cg0ArKJSzO7LQVtgXemb&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://googleads.g.doubleclick.net/dbm/clk%3Fsa%3DL%26ai%3DCgBK7L0d0aq6kKrSQ29gPrrnv4QibjIaSiAHfu8n-mRbwLhABIImC8XRg5Zrpg-AOoAHu5d7iAcgBCakCvws6g5SPRj6oAwHIA5sEqgT9AU_QomRf4Sf8QaMKDAAC7BkUxJT0phj2wnVZEb-C57I6t8f1upWt15uOTq2B1QgW-1nwzCfjygSq2OtjVpKyfi-7G8N23pNQ1a-fwYepILDw-du3meFQHu5DYSQ3wBx7ySpCjmNs5NnHzhxozKRmA2lVeEf4PyCdSQVEIvVBT068adJvpIEHg2My8G99d5j1uY1pkfdNux5fT1f8MH1jVmr0bFHrB6mcy6iJmuaHJ9Ih6f4zw7Pvdse-IIh0owaF_ZfOq9hbog29MHnzCZD-Ieyg70PSj_TH19c9gd-tZjEhlCOeY1MbW45D7oPN5vSmJ0n0phxNpB_FkNVf3BHABMG04OnGBeAEA4gFwJSerFeQBgGgBk2AB_qZoZ0CiAcBkAcCqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAef4bECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrECqAfn17EC2AcA0gg3CAAQAhiaAzIIgICAgICAgAg6FJ_QgICAgASAwICAgKCogAKogYAQSL39wTpY6bDcmcyLlgNgAYAKAZgLAcgLAYAMAaIMDCoKCgiO37ECleKxAqoNAklO6g0TCLT83ZnMi5YDFTTIFgUdrtw7jPANAYgOCbAT9vD_I9gTDdgUAdAVAcoWAgoA-BYBgBcBshcEGAJQBrIYCRIC-lMYTSIBANAZAQ%26ae%3D1%26num%3D1%26cid%3DCAQS-gEAEQoqgcbA8ys2cW8nTW5pneI9QgvXOE5cpHutf15AnYlT93vHjdBQJu_07ZMUXGhNC1g28LA1yec0o_Z39RRT1-sR_kA6kI73Cs7zwAyUswD1nBDMxnbaMY9xfcVLeFyqWihF9UABQtEG9BhR4yOeUbY97YIsxPAVOjQ0Ift_DqlF7p83qwAOHdeet3V9st9FrKazNDCO2DKW2P7DHhGnhhwMXxDOyrYU4TqKvxYUbLHPJYZceK2ySWSESUlm2px2eq7ZfdUrrK7DZdlGpJPCQVtZKNbgFtYGs3OoGoMkN-2zt83GbTZRYxRGDLjVxO4tF1M7iQKHAGSNGAE%26sig%3DAOD64_26cU_FiVZS_hyT9HzbQpPDm9nTcw%26client%3Dca-pub-9713759261380411%26dbm_c%3DAKAmf-DXGyFnz2p31xpgHkm_j5MFrvRySWlAQU6s29hw53bRxm9dvF-28Ctdk1jDO8t1pKU3_0GZZPWVo5pwe_M50et541F4QwfrSAS1q0Y4WHPc-U4VzlGLDz13L1Hw_h3wScQLZkNHh75TkPBJny-P8Ll5IQf2mqfRJpfYB4J5IuD_PEypnmgr3aCy7SL-5RXEuxfKFG8JUzkTC_o8uWme7iFA-78hE5ldSm6y_jNCAH9IU4fItjtV1C-_h91XKY0cResSUMmIOE-PMuThSGZZT1nSmG_TqrPOt7NLRiL_pYs3WpSJCPDD408iroJfL8r2Kp6qFBTi%26cry%3D1%26dbm_d%3DAKAmf-CBdmOI3ssAbdDFUrzgcuHQd-brAjMrL-LgXQgA1EyjdFKkKomd-f2fcoqkk39MZQqzzuWwcrtAroX2W_PZuBWAD2JoSSZoSXtqwCTs4JB2nEXtZxWy-mChnjEGvIAEDEMYOdZCWUoPLqMHpEqlGAAfU9SibeRLwirIEypKByPMjoMr9Dn9hl0VTn3FCiJiY1BVr0DilYeCeviyfMGjiB-RHXFx_Nl9J5aBaxmgRBZyHKpD47eLPSalMf94IWHU_Vlpr6-Dp3JPI91CGZnQsFUnj4Vpe31PReaWUWLvntp1sl1UqUUZnbFzKUBSPwuVrCrBUbNKenJu52Z1O8bBU7qcystNxfai7qWENXE2p37XOjfTA07pk-tjP8jmgrT9VVe7LDwOfaSqQyhZtVwZhjkNqAceym72WZPSUdFu0eUVNMQV0zyFxtm2c1uo93oTRqjQcqY-HWP517mzo6GtLqOV--Dsk5SJzhBwd7sDArTQINBUG3TqAP4EHMs3RtLx785B9P9OkAVxPMyOXhC8uDLzIXsrIstQdIf8ynXxWn8QI3F4nzDe0g-PKadT99jiFJ2_FRmU-N75PaLw0nGl0C3qUcP_4cuCpHdKvaPkIqqfvrZpkMeG4O6H9pnxAU6nF8Ymn8zrWFACbHPGtK0ws0Nzj73YZrebSoIl6ry51gKXo292jqb86mb_MgVAY_bbwqBAZ6zqcvac7Wi1jMttTkjyWcjU5GjzZBSFRVZRLNZM_QTSJADHc_MIuiCs4RUMEdJ0derKBBTIrjhAM8JlQKLlE1ISCbb_v_E8G9qqoQ5gUM9anqQ%26adurl%3Dhttps://careers.unitedhealthgroup.com/search-jobs%253Facm%253D8738624%2526alrpm%253D1269750%2526ascf%253D%255B%25257B%252522key%252522:%252522custom_fields.JobFunction%252522,%252522value%252522:%252522Medical%252BCoding%252522%25257D%255D%2526src%253DUNS-19965%2526utm_source%253Dyoptima.com%2526utm_medium%253Ddisplay%2526utm_campaign%253DIndia%2526utm_content%253Dniche_site%2526utm_term%253D437467431%2526ss%253Dpaid%2526dclid%253D%2525edclid!%2526gad_source%253D7%2526gad_campaignid%253D23406080635
+                        - img "Advertisement" [ref=f3003e5]
+            - heading "Job Description:" [level=3] [ref=f2971e108]
+            - paragraph [ref=f2971e109]:
+              - text: Works in the area of Software Engineering, which encompasses the development, maintenance and optimization of
+              - link "software" [ref=f2971e110] [cursor=pointer]:
+                - /url: "#"
+              - text: solutions/applications.1. Applies
+              - link "scientific" [ref=f2971e113] [cursor=pointer]:
+                - /url: "#"
+              - text: methods to analyse and solve software engineering problems.2. He/she is responsible for the development and application of software engineering practice and knowledge, in research, design, development and maintenance.3. His/her work requires the exercise of original thought and judgement and the ability to supervise the technical and administrative work of other software engineers.4. The software engineer builds skills and expertise of his/her software engineering discipline to reach standard software engineer skills expectations for the applicable role, as defined in Professional Communities.5. The software engineer collaborates and acts as team player with other software engineers and stakeholders.
+              - link "Civil Engineering" [ref=f2971e116] [cursor=pointer]
+            - heading "Job Description – Grade Specific" [level=3] [ref=f2971e120]
+            - list [ref=f2971e121]:
+              - listitem [ref=f2971e122]: Is the entry level in Software Engineering with a foundational understanding on programming concepts, software design and software development principles.
+              - listitem [ref=f2971e123]: Consistently works to direction with reducing supervision, producing accurate and reliable results.
+              - listitem [ref=f2971e124]: They are expected to be eager to learn and know when to ask questions and check for understanding.
+              - listitem [ref=f2971e125]: Understands and follows work processes. Is aware of costs related to own work.
+              - listitem [ref=f2971e126]: Organises own time to deliver against tasks set by others with a short term horizon.
+              - listitem [ref=f2971e127]: Works co-operatively with others to achieve team goals and has a direct and positive impact on project performance.
+              - listitem [ref=f2971e128]: Actively seeking feedback to improve and starting to manage own career with support.
+            - heading [level=3] [ref=f2971e129]:
+              - strong [ref=f2971e130]: How To Apply For Capgemini
+            - paragraph [ref=f2971e131]:
+              - text: The interested and eligible graduates register for the same position on following Capgemini portal link.
+              - link "Software" [ref=f2971e132] [cursor=pointer]
+            - insertion [ref=f2971e137]
+            - paragraph [ref=f2971e139]:
+              - strong [ref=f2971e140]: Capgemini
+              - strong [ref=f2971e141]:
+                - text: "Apply Link:"
+                - emphasis [ref=f2971e142]:
+                  - link "Click Here" [ref=f2971e143] [cursor=pointer]:
+                    - /url: https://careers.capgemini.com/job/Chennai-%28ex-Madras%29-Associate-Software-Engineer/1364878333/?feedId=388933&utm_source=LinkedInJobPostings
+            - generic [ref=f2971e144]:
+              - strong [ref=f2971e145]: "Join Our Whatsapp Group:"
+              - link [ref=f2971e146] [cursor=pointer]:
+                - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+                - strong [ref=f2971e147]: Click Here
+              - link "Science" [ref=f2971e148] [cursor=pointer]
+            - insertion [ref=f2971e153]
+          - generic [ref=f2971e155]:
+            - generic [ref=f2971e156]: You May like
+            - generic [ref=f2971e157]:
+              - link "# AWS" [ref=f2971e158] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/aws/
+              - link "# Java" [ref=f2971e159] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/java/
+              - link "# Jobs in Hyderabad" [ref=f2971e160] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-hyderabad/
+              - link "# Linux" [ref=f2971e161] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/linux/
+              - link "# Python" [ref=f2971e162] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/python/
+              - link "# QA" [ref=f2971e163] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/qa/
+              - link "# SQL" [ref=f2971e164] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/sql/
+              - link "# Testing" [ref=f2971e165] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/testing/
+          - generic [ref=f2971e167]:
+            - link "Facebook" [ref=f2971e168] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjobsnet.in%2Fcapgemini-hiring-entry-level-associate-software-engineers%2F
+            - link "X (Twitter)" [ref=f2971e172] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fjobsnet.in%2Fcapgemini-hiring-entry-level-associate-software-engineers%2F&text=Capgemini%20Hiring%20Entry-Level%20Associate%20Software%20Engineers
+            - link "Reddit" [ref=f2971e176] [cursor=pointer]:
+              - /url: https://reddit.com/submit?url=https%3A%2F%2Fjobsnet.in%2Fcapgemini-hiring-entry-level-associate-software-engineers%2F&title=Capgemini%20Hiring%20Entry-Level%20Associate%20Software%20Engineers
+            - link "Telegram" [ref=f2971e180] [cursor=pointer]:
+              - /url: https://t.me/share/url?url=https%3A%2F%2Fjobsnet.in%2Fcapgemini-hiring-entry-level-associate-software-engineers%2F&text=Capgemini%20Hiring%20Entry-Level%20Associate%20Software%20Engineers
+            - link "WhatsApp" [ref=f2971e184] [cursor=pointer]:
+              - /url: whatsapp://send?text=https%3A%2F%2Fjobsnet.in%2Fcapgemini-hiring-entry-level-associate-software-engineers%2F
+          - generic [ref=f2971e188]:
+            - link [ref=f2971e189] [cursor=pointer]:
+              - /url: https://jobsnet.in/author/anand/
+              - img "Anand Kumar" [ref=f2971e190]
+            - generic [ref=f2971e193]:
+              - heading "Anand Kumar" [level=5] [ref=f2971e194]
+              - paragraph [ref=f2971e196]:
+                - text: Career Expert & Founder of JobsNet.in. Serving the student community since 2019, I specialize in providing verified job updates and placement material for computer science, IT, engineering and management graduates. With a mission to simplify the job hunt, I have helped thousands of candidates secure roles in top MNCs over the last 7 years.
+                - link "Engineering & Technology" [ref=f2971e197] [cursor=pointer]
+              - generic [ref=f2971e202]:
+                - link "LinkedIn icon" [ref=f2971e203] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/amar-kumar-sd
+                - link "Website icon" [ref=f2971e206] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - 'link "Articles: 2394" [ref=f2971e209] [cursor=pointer]':
+                - /url: https://jobsnet.in/author/anand/
+          - insertion [ref=f2971e211]
+          - navigation [ref=f2971e213]:
+            - link "Previous Post Cadence Off Campus Hiring 2026 Hiring Software Engineer" [ref=f2971e214] [cursor=pointer]:
+              - /url: https://jobsnet.in/cadence-off-campus-hiring-software-engineer-1/
+              - figure [ref=f2971e215]
+              - generic [ref=f2971e218]:
+                - generic [ref=f2971e219]: Previous Post
+                - generic [ref=f2971e220]: Cadence Off Campus Hiring 2026 Hiring Software Engineer
+            - 'link "Next Post TCS Off Campus Drive 2026 : All India NQT Hiring - Digital and Prime" [ref=f2971e221] [cursor=pointer]':
+              - /url: https://jobsnet.in/tcs-off-campus-drive-2026-all-india-nqt-hiring-digital-and-prime/
+              - generic [ref=f2971e222]:
+                - generic [ref=f2971e223]: Next Post
+                - generic [ref=f2971e224]: "TCS Off Campus Drive 2026 : All India NQT Hiring - Digital and Prime"
+              - figure [ref=f2971e225]
+          - generic [ref=f2971e228]:
+            - heading "Related" [level=3] [ref=f2971e229]
+            - generic [ref=f2971e230]:
+              - article [ref=f2971e231]:
+                - generic [ref=f2971e232]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2971e233] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                  - paragraph [ref=f2971e234]:
+                    - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2971e235] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+              - article [ref=f2971e236]:
+                - generic [ref=f2971e237]:
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2971e238] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                    - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f2971e239]
+                  - paragraph [ref=f2971e240]:
+                    - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2971e241] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+              - article [ref=f2971e242]:
+                - generic [ref=f2971e243]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2971e244] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                  - paragraph [ref=f2971e245]:
+                    - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2971e246] [cursor=pointer]:
+                      - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+        - complementary [ref=f2971e247]:
+          - generic [ref=f2971e248]:
+            - heading "Search Jobs" [level=3] [ref=f2971e251]
+            - textbox "search" [ref=f2971e258]
+            - insertion [ref=f2971e260]:
+              - iframe [ref=f2971e262]:
+                - generic [ref=f2977e2]:
+                  - iframe [ref=f2977e5]:
+                    - generic [ref=f2980e2] [cursor=pointer]:
+                      - img [ref=f2980e4]:
+                        - generic "Try for free" [ref=f2980e1110]
+                      - button [ref=f2980e1151]
+                  - generic [ref=f2977e6]:
+                    - generic:
+                      - generic [ref=f2977e7] [cursor=pointer]
+                      - button [ref=f2977e12] [cursor=pointer]
+            - generic [ref=f2971e263]:
+              - heading "Latest Updates" [level=3] [ref=f2971e264]
+              - list [ref=f2971e266]:
+                - listitem [ref=f2971e267]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2971e269] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                - listitem [ref=f2971e270]:
+                  - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f2971e272]
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2971e273] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                - listitem [ref=f2971e274]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2971e276] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                - listitem [ref=f2971e277]:
+                  - img "Accenture Mega Off Campus Drive For Freshers - Associate Software Engineer" [ref=f2971e279]
+                  - link "Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)" [ref=f2971e280] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-entry-level-custom-software-engineer-python/
+                - listitem [ref=f2971e281]:
+                  - img "Cornerstone Off Campus Drive - Hiring Junior Engineer" [ref=f2971e283]
+                  - link "Cornerstone Hiring Entry Level Junior Engineer – Cloud Ops" [ref=f2971e284] [cursor=pointer]:
+                    - /url: https://jobsnet.in/cornerstone-hiring-entry-level-junior-engineer-cloud-ops/
+                - listitem [ref=f2971e285]:
+                  - link "Calix Off Campus Drive 2026 – Hiring Graduate Trainee – Test & QA" [ref=f2971e287] [cursor=pointer]:
+                    - /url: https://jobsnet.in/calix-off-campus-drive-hiring-graduate-trainee-test-qa/
+                - listitem [ref=f2971e288]:
+                  - link "HDFC Life Off Campus Drive 2026 – Graduate Trainee – Data Science & Analytics" [ref=f2971e290] [cursor=pointer]:
+                    - /url: https://jobsnet.in/hdfc-life-off-campus-drive-graduate-trainee-data-science-analytics/
+                - listitem [ref=f2971e291]:
+                  - img "Yash Technologies Hiring Freshers QA Trainee - Pune/Indore/Hyderabad" [ref=f2971e293]
+                  - link "Yash Technologies Off Campus Drive 2026 – AI/ML Trainee" [ref=f2971e294] [cursor=pointer]:
+                    - /url: https://jobsnet.in/yash-technologies-off-campus-drive-hiring-ai-ml-trainee/
+                - listitem [ref=f2971e295]:
+                  - img "White Twilio logo and four-dot icon on a red background." [ref=f2971e297]
+                  - link "Twilio Off Campus Drive 2026 – Associate Application Engineer- Remote" [ref=f2971e298] [cursor=pointer]:
+                    - /url: https://jobsnet.in/twilio-off-campus-drive-associate-application-engineer-remote/
+                - listitem [ref=f2971e299]:
+                  - img "Accenture Hiring Any Graduate Freshers As Network Associate" [ref=f2971e301]
+                  - link "Accenture Hiring Application Support Engineer – Any Graduate (0-2 Years)" [ref=f2971e302] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-application-support-engineer-any-graduate-0-2-years/
+            - insertion [ref=f2971e305]
+    - contentinfo [ref=f2971e307]:
+      - generic [ref=f2971e309]:
+        - paragraph [ref=f2971e312]: © 2026 Jobsnet.in
+        - navigation "footermenu" [ref=f2971e314]:
+          - list [ref=f2971e315]:
+            - listitem [ref=f2971e316]:
+              - link "Home" [ref=f2971e317] [cursor=pointer]:
+                - /url: https://jobsnet.in
+            - listitem [ref=f2971e318]:
+              - link "About us" [ref=f2971e319] [cursor=pointer]:
+                - /url: https://jobsnet.in/about-us/
+            - listitem [ref=f2971e320]:
+              - link "Contact Us" [ref=f2971e321] [cursor=pointer]:
+                - /url: https://jobsnet.in/contact/
+            - listitem [ref=f2971e322]:
+              - link "Advertise With Us" [ref=f2971e323] [cursor=pointer]:
+                - /url: https://jobsnet.in/advertise/
+            - listitem [ref=f2971e324]:
+              - link "Terms" [ref=f2971e325] [cursor=pointer]:
+                - /url: https://jobsnet.in/terms-and-conditions/
+            - listitem [ref=f2971e326]:
+              - link "Privacy" [ref=f2971e327] [cursor=pointer]:
+                - /url: https://jobsnet.in/privacy-policy/
+  - generic [ref=f2971e328]:
+    - generic [ref=f2971e329] [cursor=pointer]: CLOSE [X]
+    - insertion [ref=f2971e331]:
+      - iframe [ref=f2971e333]:
+        - generic [ref=f2978e1]:
+          - generic [ref=f2978e6]:
+            - link [ref=f2978e7] [cursor=pointer]:
+              - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CQA5jLkd0auCPGcTw29gP173p0Q-YhrfwiAHB047riBbAjbcBEAEgiYLxdGDlmumD4A6gAdyR-8EDyAEJqQIvYHY5k5S2PqgDAcgDywSqBKECT9A3jxra-wFwUvStGxrPoarC7mH5AGVOoE7tSdHu7GQIseER93Fl6CJxXKAZNYwJzN6dKjeOJteieh-gtxE3Hj0J9Sh1WpnNrlXyXsrGx2FkVHGf8ks19aK20b5LqYbEfzx9XM3m-Z7nOiGWcG0zvF4hEvcv-tPZcN630zxp6iFsX_Jrx5oTYW_PGWooNFHX3sakfLvkzFqiDj5IhFiEyfHZikB8XrjZUzxkAp5N63ZaIouLtT_fY5ieFOzSYdH2n1CIphJxn9RGiEhhGboQHPV073VBXC71f89l6etEKsJPVUETy3aErYWjmPK0XC18u-N9qAUVmq3c69RPLeQKfZ0krJnB1Pr2V12jod3BGfPjhrtZCj9Qa_cA6vB2RHd7xMAEyP-dn-0FiAW4y53SWZAGAaAGLoAHjO6EPogHAZAHAqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WOCZjpnMi5YDYAGxCRCpINBQl-hXgAoBmAsByAsBgAwBogwMKgoKCI7fsQKV4rECqg0CSU7IDQHqDRMIweOPmcyLlgMVRPgWBR3XXjr68A0CiA4J2BMC0BUByhYCCgD4FgGAFwGyFxAYASoKMjc2ODUzMDY1OFAGuhcCOAGqGBcJAAAAAPwANEESCjI3Njg1MzA2NTgYAbIYCRIC-lMYLiIBANAYAegYAcIZAggB&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSjEB56LFC7Y4z3gPZQ8JQr2CiO9JuzVrdapYev6t0C9GT11X5wA_IhoCVO4QAvD_BwE&num=1&cid=CAQS-gEAEQoqgaStANJ4zd2_Ltl7_rB1_5nkdiEFi4kk-XzZO1xLbhA541-Xdxgu7fHLpDFVWSov2dK16N7AXTaP5AxpBVlZtIo36a2db9WUdhquBWV2oPkfmX6vRJakB-6xKUUFb71I68Agh4cXpnt49aYu9nU-BgR9su4wx89WpMk9RPhgHVks03_7Ig4LYG8e8jMOdls1-MzIWZZow4JeYPMOr4nf1MQx_4VJy_9CXgmmJCXd8nJPNNFnsKHrTucoyqsXavwIu2A1zMCW85sgYsQ8QknBSHMmAV8Qzl3yxTjgBRvzbv4mXWsHdrd8xYJQ_DWyg9yowpCNDJ-FGAE&sig=AOD64_1mzyx9NC7ycRcSsY5nQkIlIdxXdA&client=ca-pub-9713759261380411&rf=1&nb=9&adurl=http://in.best-jobs-online.com/search.php%3Fkeyword%3DElectrical%2520Technician%26locphysical%3D9300836%26qrn_source%3Dgoogle%26qrn_medium%3Dcpc%26qrn_campaign%3D24063206840%26gad_source%3D5%26gad_campaignid%3D24063206840%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSjEB56LFC7Y4z3gPZQ8JQr2CiO9JuzVrdapYev6t0C9GT11X5wA_IhoCVO4QAvD_BwE
+            - generic [ref=f2978e10]:
+              - generic [ref=f2978e13]:
+                - link "Hiring Now" [ref=f2978e17] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CQA5jLkd0auCPGcTw29gP173p0Q-YhrfwiAHB047riBbAjbcBEAEgiYLxdGDlmumD4A6gAdyR-8EDyAEJqQIvYHY5k5S2PqgDAcgDywSqBKECT9A3jxra-wFwUvStGxrPoarC7mH5AGVOoE7tSdHu7GQIseER93Fl6CJxXKAZNYwJzN6dKjeOJteieh-gtxE3Hj0J9Sh1WpnNrlXyXsrGx2FkVHGf8ks19aK20b5LqYbEfzx9XM3m-Z7nOiGWcG0zvF4hEvcv-tPZcN630zxp6iFsX_Jrx5oTYW_PGWooNFHX3sakfLvkzFqiDj5IhFiEyfHZikB8XrjZUzxkAp5N63ZaIouLtT_fY5ieFOzSYdH2n1CIphJxn9RGiEhhGboQHPV073VBXC71f89l6etEKsJPVUETy3aErYWjmPK0XC18u-N9qAUVmq3c69RPLeQKfZ0krJnB1Pr2V12jod3BGfPjhrtZCj9Qa_cA6vB2RHd7xMAEyP-dn-0FiAW4y53SWZAGAaAGLoAHjO6EPogHAZAHAqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WOCZjpnMi5YDYAGxCRCpINBQl-hXgAoBmAsByAsBgAwBogwMKgoKCI7fsQKV4rECqg0CSU7IDQHqDRMIweOPmcyLlgMVRPgWBR3XXjr68A0CiA4J2BMC0BUByhYCCgD4FgGAFwGyFxAYASoKMjc2ODUzMDY1OFAGuhcCOAGqGBcJAAAAAPwANEESCjI3Njg1MzA2NTgYAbIYCRIC-lMYLiIBANAYAegYAcIZAggB&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSjEB56LFC7Y4z3gPZQ8JQr2CiO9JuzVrdapYev6t0C9GT11X5wA_IhoCVO4QAvD_BwE&num=1&cid=CAQS-gEAEQoqgaStANJ4zd2_Ltl7_rB1_5nkdiEFi4kk-XzZO1xLbhA541-Xdxgu7fHLpDFVWSov2dK16N7AXTaP5AxpBVlZtIo36a2db9WUdhquBWV2oPkfmX6vRJakB-6xKUUFb71I68Agh4cXpnt49aYu9nU-BgR9su4wx89WpMk9RPhgHVks03_7Ig4LYG8e8jMOdls1-MzIWZZow4JeYPMOr4nf1MQx_4VJy_9CXgmmJCXd8nJPNNFnsKHrTucoyqsXavwIu2A1zMCW85sgYsQ8QknBSHMmAV8Qzl3yxTjgBRvzbv4mXWsHdrd8xYJQ_DWyg9yowpCNDJ-FGAE&sig=AOD64_1mzyx9NC7ycRcSsY5nQkIlIdxXdA&client=ca-pub-9713759261380411&rf=1&nb=0&adurl=http://in.best-jobs-online.com/search.php%3Fkeyword%3DElectrical%2520Technician%26locphysical%3D9300836%26qrn_source%3Dgoogle%26qrn_medium%3Dcpc%26qrn_campaign%3D24063206840%26gad_source%3D5%26gad_campaignid%3D24063206840%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSjEB56LFC7Y4z3gPZQ8JQr2CiO9JuzVrdapYev6t0C9GT11X5wA_IhoCVO4QAvD_BwE
+                - link "Hiring Library Clerk in Mountain View! Find Your Next Job" [ref=f2978e21] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CQA5jLkd0auCPGcTw29gP173p0Q-YhrfwiAHB047riBbAjbcBEAEgiYLxdGDlmumD4A6gAdyR-8EDyAEJqQIvYHY5k5S2PqgDAcgDywSqBKECT9A3jxra-wFwUvStGxrPoarC7mH5AGVOoE7tSdHu7GQIseER93Fl6CJxXKAZNYwJzN6dKjeOJteieh-gtxE3Hj0J9Sh1WpnNrlXyXsrGx2FkVHGf8ks19aK20b5LqYbEfzx9XM3m-Z7nOiGWcG0zvF4hEvcv-tPZcN630zxp6iFsX_Jrx5oTYW_PGWooNFHX3sakfLvkzFqiDj5IhFiEyfHZikB8XrjZUzxkAp5N63ZaIouLtT_fY5ieFOzSYdH2n1CIphJxn9RGiEhhGboQHPV073VBXC71f89l6etEKsJPVUETy3aErYWjmPK0XC18u-N9qAUVmq3c69RPLeQKfZ0krJnB1Pr2V12jod3BGfPjhrtZCj9Qa_cA6vB2RHd7xMAEyP-dn-0FiAW4y53SWZAGAaAGLoAHjO6EPogHAZAHAqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WOCZjpnMi5YDYAGxCRCpINBQl-hXgAoBmAsByAsBgAwBogwMKgoKCI7fsQKV4rECqg0CSU7IDQHqDRMIweOPmcyLlgMVRPgWBR3XXjr68A0CiA4J2BMC0BUByhYCCgD4FgGAFwGyFxAYASoKMjc2ODUzMDY1OFAGuhcCOAGqGBcJAAAAAPwANEESCjI3Njg1MzA2NTgYAbIYCRIC-lMYLiIBANAYAegYAcIZAggB&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSjEB56LFC7Y4z3gPZQ8JQr2CiO9JuzVrdapYev6t0C9GT11X5wA_IhoCVO4QAvD_BwE&num=1&cid=CAQS-gEAEQoqgaStANJ4zd2_Ltl7_rB1_5nkdiEFi4kk-XzZO1xLbhA541-Xdxgu7fHLpDFVWSov2dK16N7AXTaP5AxpBVlZtIo36a2db9WUdhquBWV2oPkfmX6vRJakB-6xKUUFb71I68Agh4cXpnt49aYu9nU-BgR9su4wx89WpMk9RPhgHVks03_7Ig4LYG8e8jMOdls1-MzIWZZow4JeYPMOr4nf1MQx_4VJy_9CXgmmJCXd8nJPNNFnsKHrTucoyqsXavwIu2A1zMCW85sgYsQ8QknBSHMmAV8Qzl3yxTjgBRvzbv4mXWsHdrd8xYJQ_DWyg9yowpCNDJ-FGAE&sig=AOD64_1mzyx9NC7ycRcSsY5nQkIlIdxXdA&client=ca-pub-9713759261380411&rf=1&nb=7&adurl=http://in.best-jobs-online.com/search.php%3Fkeyword%3DElectrical%2520Technician%26locphysical%3D9300836%26qrn_source%3Dgoogle%26qrn_medium%3Dcpc%26qrn_campaign%3D24063206840%26gad_source%3D5%26gad_campaignid%3D24063206840%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSjEB56LFC7Y4z3gPZQ8JQr2CiO9JuzVrdapYev6t0C9GT11X5wA_IhoCVO4QAvD_BwE
+                  - text: Hiring Library Clerk in Mountain View! Find Your NextJob
+              - generic [ref=f2978e24]:
+                - link:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CQA5jLkd0auCPGcTw29gP173p0Q-YhrfwiAHB047riBbAjbcBEAEgiYLxdGDlmumD4A6gAdyR-8EDyAEJqQIvYHY5k5S2PqgDAcgDywSqBKECT9A3jxra-wFwUvStGxrPoarC7mH5AGVOoE7tSdHu7GQIseER93Fl6CJxXKAZNYwJzN6dKjeOJteieh-gtxE3Hj0J9Sh1WpnNrlXyXsrGx2FkVHGf8ks19aK20b5LqYbEfzx9XM3m-Z7nOiGWcG0zvF4hEvcv-tPZcN630zxp6iFsX_Jrx5oTYW_PGWooNFHX3sakfLvkzFqiDj5IhFiEyfHZikB8XrjZUzxkAp5N63ZaIouLtT_fY5ieFOzSYdH2n1CIphJxn9RGiEhhGboQHPV073VBXC71f89l6etEKsJPVUETy3aErYWjmPK0XC18u-N9qAUVmq3c69RPLeQKfZ0krJnB1Pr2V12jod3BGfPjhrtZCj9Qa_cA6vB2RHd7xMAEyP-dn-0FiAW4y53SWZAGAaAGLoAHjO6EPogHAZAHAqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WOCZjpnMi5YDYAGxCRCpINBQl-hXgAoBmAsByAsBgAwBogwMKgoKCI7fsQKV4rECqg0CSU7IDQHqDRMIweOPmcyLlgMVRPgWBR3XXjr68A0CiA4J2BMC0BUByhYCCgD4FgGAFwGyFxAYASoKMjc2ODUzMDY1OFAGuhcCOAGqGBcJAAAAAPwANEESCjI3Njg1MzA2NTgYAbIYCRIC-lMYLiIBANAYAegYAcIZAggB&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSjEB56LFC7Y4z3gPZQ8JQr2CiO9JuzVrdapYev6t0C9GT11X5wA_IhoCVO4QAvD_BwE&num=1&cid=CAQS-gEAEQoqgaStANJ4zd2_Ltl7_rB1_5nkdiEFi4kk-XzZO1xLbhA541-Xdxgu7fHLpDFVWSov2dK16N7AXTaP5AxpBVlZtIo36a2db9WUdhquBWV2oPkfmX6vRJakB-6xKUUFb71I68Agh4cXpnt49aYu9nU-BgR9su4wx89WpMk9RPhgHVks03_7Ig4LYG8e8jMOdls1-MzIWZZow4JeYPMOr4nf1MQx_4VJy_9CXgmmJCXd8nJPNNFnsKHrTucoyqsXavwIu2A1zMCW85sgYsQ8QknBSHMmAV8Qzl3yxTjgBRvzbv4mXWsHdrd8xYJQ_DWyg9yowpCNDJ-FGAE&sig=AOD64_1mzyx9NC7ycRcSsY5nQkIlIdxXdA&client=ca-pub-9713759261380411&rf=1&nb=8&adurl=http://in.best-jobs-online.com/search.php%3Fkeyword%3DElectrical%2520Technician%26locphysical%3D9300836%26qrn_source%3Dgoogle%26qrn_medium%3Dcpc%26qrn_campaign%3D24063206840%26gad_source%3D5%26gad_campaignid%3D24063206840%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSjEB56LFC7Y4z3gPZQ8JQr2CiO9JuzVrdapYev6t0C9GT11X5wA_IhoCVO4QAvD_BwE
+                - link "best-jobs-online.com" [ref=f2978e26] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CQA5jLkd0auCPGcTw29gP173p0Q-YhrfwiAHB047riBbAjbcBEAEgiYLxdGDlmumD4A6gAdyR-8EDyAEJqQIvYHY5k5S2PqgDAcgDywSqBKECT9A3jxra-wFwUvStGxrPoarC7mH5AGVOoE7tSdHu7GQIseER93Fl6CJxXKAZNYwJzN6dKjeOJteieh-gtxE3Hj0J9Sh1WpnNrlXyXsrGx2FkVHGf8ks19aK20b5LqYbEfzx9XM3m-Z7nOiGWcG0zvF4hEvcv-tPZcN630zxp6iFsX_Jrx5oTYW_PGWooNFHX3sakfLvkzFqiDj5IhFiEyfHZikB8XrjZUzxkAp5N63ZaIouLtT_fY5ieFOzSYdH2n1CIphJxn9RGiEhhGboQHPV073VBXC71f89l6etEKsJPVUETy3aErYWjmPK0XC18u-N9qAUVmq3c69RPLeQKfZ0krJnB1Pr2V12jod3BGfPjhrtZCj9Qa_cA6vB2RHd7xMAEyP-dn-0FiAW4y53SWZAGAaAGLoAHjO6EPogHAZAHAqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WOCZjpnMi5YDYAGxCRCpINBQl-hXgAoBmAsByAsBgAwBogwMKgoKCI7fsQKV4rECqg0CSU7IDQHqDRMIweOPmcyLlgMVRPgWBR3XXjr68A0CiA4J2BMC0BUByhYCCgD4FgGAFwGyFxAYASoKMjc2ODUzMDY1OFAGuhcCOAGqGBcJAAAAAPwANEESCjI3Njg1MzA2NTgYAbIYCRIC-lMYLiIBANAYAegYAcIZAggB&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSjEB56LFC7Y4z3gPZQ8JQr2CiO9JuzVrdapYev6t0C9GT11X5wA_IhoCVO4QAvD_BwE&num=1&cid=CAQS-gEAEQoqgaStANJ4zd2_Ltl7_rB1_5nkdiEFi4kk-XzZO1xLbhA541-Xdxgu7fHLpDFVWSov2dK16N7AXTaP5AxpBVlZtIo36a2db9WUdhquBWV2oPkfmX6vRJakB-6xKUUFb71I68Agh4cXpnt49aYu9nU-BgR9su4wx89WpMk9RPhgHVks03_7Ig4LYG8e8jMOdls1-MzIWZZow4JeYPMOr4nf1MQx_4VJy_9CXgmmJCXd8nJPNNFnsKHrTucoyqsXavwIu2A1zMCW85sgYsQ8QknBSHMmAV8Qzl3yxTjgBRvzbv4mXWsHdrd8xYJQ_DWyg9yowpCNDJ-FGAE&sig=AOD64_1mzyx9NC7ycRcSsY5nQkIlIdxXdA&client=ca-pub-9713759261380411&rf=1&nb=1&adurl=http://in.best-jobs-online.com/search.php%3Fkeyword%3DElectrical%2520Technician%26locphysical%3D9300836%26qrn_source%3Dgoogle%26qrn_medium%3Dcpc%26qrn_campaign%3D24063206840%26gad_source%3D5%26gad_campaignid%3D24063206840%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSjEB56LFC7Y4z3gPZQ8JQr2CiO9JuzVrdapYev6t0C9GT11X5wA_IhoCVO4QAvD_BwE
+                - link "Open" [ref=f2978e28] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CQA5jLkd0auCPGcTw29gP173p0Q-YhrfwiAHB047riBbAjbcBEAEgiYLxdGDlmumD4A6gAdyR-8EDyAEJqQIvYHY5k5S2PqgDAcgDywSqBKECT9A3jxra-wFwUvStGxrPoarC7mH5AGVOoE7tSdHu7GQIseER93Fl6CJxXKAZNYwJzN6dKjeOJteieh-gtxE3Hj0J9Sh1WpnNrlXyXsrGx2FkVHGf8ks19aK20b5LqYbEfzx9XM3m-Z7nOiGWcG0zvF4hEvcv-tPZcN630zxp6iFsX_Jrx5oTYW_PGWooNFHX3sakfLvkzFqiDj5IhFiEyfHZikB8XrjZUzxkAp5N63ZaIouLtT_fY5ieFOzSYdH2n1CIphJxn9RGiEhhGboQHPV073VBXC71f89l6etEKsJPVUETy3aErYWjmPK0XC18u-N9qAUVmq3c69RPLeQKfZ0krJnB1Pr2V12jod3BGfPjhrtZCj9Qa_cA6vB2RHd7xMAEyP-dn-0FiAW4y53SWZAGAaAGLoAHjO6EPogHAZAHAqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WOCZjpnMi5YDYAGxCRCpINBQl-hXgAoBmAsByAsBgAwBogwMKgoKCI7fsQKV4rECqg0CSU7IDQHqDRMIweOPmcyLlgMVRPgWBR3XXjr68A0CiA4J2BMC0BUByhYCCgD4FgGAFwGyFxAYASoKMjc2ODUzMDY1OFAGuhcCOAGqGBcJAAAAAPwANEESCjI3Njg1MzA2NTgYAbIYCRIC-lMYLiIBANAYAegYAcIZAggB&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSjEB56LFC7Y4z3gPZQ8JQr2CiO9JuzVrdapYev6t0C9GT11X5wA_IhoCVO4QAvD_BwE&num=1&cid=CAQS-gEAEQoqgaStANJ4zd2_Ltl7_rB1_5nkdiEFi4kk-XzZO1xLbhA541-Xdxgu7fHLpDFVWSov2dK16N7AXTaP5AxpBVlZtIo36a2db9WUdhquBWV2oPkfmX6vRJakB-6xKUUFb71I68Agh4cXpnt49aYu9nU-BgR9su4wx89WpMk9RPhgHVks03_7Ig4LYG8e8jMOdls1-MzIWZZow4JeYPMOr4nf1MQx_4VJy_9CXgmmJCXd8nJPNNFnsKHrTucoyqsXavwIu2A1zMCW85sgYsQ8QknBSHMmAV8Qzl3yxTjgBRvzbv4mXWsHdrd8xYJQ_DWyg9yowpCNDJ-FGAE&sig=AOD64_1mzyx9NC7ycRcSsY5nQkIlIdxXdA&client=ca-pub-9713759261380411&rf=1&nb=8&adurl=http://in.best-jobs-online.com/search.php%3Fkeyword%3DElectrical%2520Technician%26locphysical%3D9300836%26qrn_source%3Dgoogle%26qrn_medium%3Dcpc%26qrn_campaign%3D24063206840%26gad_source%3D5%26gad_campaignid%3D24063206840%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSjEB56LFC7Y4z3gPZQ8JQr2CiO9JuzVrdapYev6t0C9GT11X5wA_IhoCVO4QAvD_BwE
+                - link [ref=f2978e29] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CQA5jLkd0auCPGcTw29gP173p0Q-YhrfwiAHB047riBbAjbcBEAEgiYLxdGDlmumD4A6gAdyR-8EDyAEJqQIvYHY5k5S2PqgDAcgDywSqBKECT9A3jxra-wFwUvStGxrPoarC7mH5AGVOoE7tSdHu7GQIseER93Fl6CJxXKAZNYwJzN6dKjeOJteieh-gtxE3Hj0J9Sh1WpnNrlXyXsrGx2FkVHGf8ks19aK20b5LqYbEfzx9XM3m-Z7nOiGWcG0zvF4hEvcv-tPZcN630zxp6iFsX_Jrx5oTYW_PGWooNFHX3sakfLvkzFqiDj5IhFiEyfHZikB8XrjZUzxkAp5N63ZaIouLtT_fY5ieFOzSYdH2n1CIphJxn9RGiEhhGboQHPV073VBXC71f89l6etEKsJPVUETy3aErYWjmPK0XC18u-N9qAUVmq3c69RPLeQKfZ0krJnB1Pr2V12jod3BGfPjhrtZCj9Qa_cA6vB2RHd7xMAEyP-dn-0FiAW4y53SWZAGAaAGLoAHjO6EPogHAZAHAqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WOCZjpnMi5YDYAGxCRCpINBQl-hXgAoBmAsByAsBgAwBogwMKgoKCI7fsQKV4rECqg0CSU7IDQHqDRMIweOPmcyLlgMVRPgWBR3XXjr68A0CiA4J2BMC0BUByhYCCgD4FgGAFwGyFxAYASoKMjc2ODUzMDY1OFAGuhcCOAGqGBcJAAAAAPwANEESCjI3Njg1MzA2NTgYAbIYCRIC-lMYLiIBANAYAegYAcIZAggB&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSjEB56LFC7Y4z3gPZQ8JQr2CiO9JuzVrdapYev6t0C9GT11X5wA_IhoCVO4QAvD_BwE&num=1&cid=CAQS-gEAEQoqgaStANJ4zd2_Ltl7_rB1_5nkdiEFi4kk-XzZO1xLbhA541-Xdxgu7fHLpDFVWSov2dK16N7AXTaP5AxpBVlZtIo36a2db9WUdhquBWV2oPkfmX6vRJakB-6xKUUFb71I68Agh4cXpnt49aYu9nU-BgR9su4wx89WpMk9RPhgHVks03_7Ig4LYG8e8jMOdls1-MzIWZZow4JeYPMOr4nf1MQx_4VJy_9CXgmmJCXd8nJPNNFnsKHrTucoyqsXavwIu2A1zMCW85sgYsQ8QknBSHMmAV8Qzl3yxTjgBRvzbv4mXWsHdrd8xYJQ_DWyg9yowpCNDJ-FGAE&sig=AOD64_1mzyx9NC7ycRcSsY5nQkIlIdxXdA&client=ca-pub-9713759261380411&rf=1&nb=8&adurl=http://in.best-jobs-online.com/search.php%3Fkeyword%3DElectrical%2520Technician%26locphysical%3D9300836%26qrn_source%3Dgoogle%26qrn_medium%3Dcpc%26qrn_campaign%3D24063206840%26gad_source%3D5%26gad_campaignid%3D24063206840%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSjEB56LFC7Y4z3gPZQ8JQr2CiO9JuzVrdapYev6t0C9GT11X5wA_IhoCVO4QAvD_BwE
+          - generic [ref=f2978e39] [cursor=pointer]
+          - button [ref=f2978e44] [cursor=pointer]
+          - iframe
+  - link "Join WhatsApp" [ref=f2971e335] [cursor=pointer]:
+    - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP

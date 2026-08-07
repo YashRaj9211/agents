@@ -1,0 +1,444 @@
+- generic [ref=f9e2]:
+  - banner [ref=f9e3]:
+    - navigation "Primary" [ref=f9e4]:
+      - generic [ref=f9e6]:
+        - generic [ref=f9e7]:
+          - generic [ref=f9e8]:
+            - button "Skip to main content" [ref=f9e9] [cursor=pointer]
+            - link "Indeed Home" [ref=f9e11] [cursor=pointer]:
+              - /url: /?from=gnav-homepage
+            - list [ref=f9e15]:
+              - listitem [ref=f9e16]:
+                - link "Home" [ref=f9e18] [cursor=pointer]:
+                  - /url: https://in.indeed.com/
+              - listitem [ref=f9e19]:
+                - link "Company reviews" [ref=f9e21] [cursor=pointer]:
+                  - /url: https://in.indeed.com/companies
+              - listitem [ref=f9e22]:
+                - link "Salary guide" [ref=f9e24] [cursor=pointer]:
+                  - /url: https://in.indeed.com/career/salaries
+          - generic [ref=f9e25]:
+            - list [ref=f9e26]:
+              - listitem [ref=f9e27]:
+                - link "My jobs" [ref=f9e29] [cursor=pointer]:
+                  - /url: https://myjobs.indeed.com?from=gnav-util-homepage&gnavTK=1jvat2l4lhmfl801&tk=1jvat2l44hc0v800&co=IN&hl=en
+              - listitem [ref=f9e32]:
+                - link "Messages Unread count 0" [ref=f9e34] [cursor=pointer]:
+                  - /url: https://messages.indeed.com?from=gnav-util-homepage&gnavTK=1jvat2l4lhmfl801&tk=1jvat2l44hc0v800&co=IN&hl=en
+              - listitem [ref=f9e41]:
+                - link "Notifications Unread count 0" [ref=f9e43] [cursor=pointer]:
+                  - /url: https://in.indeed.com/notifications?from=gnav-util-homepage&gnavTK=1jvat2l4lhmfl801&tk=1jvat2l44hc0v800&hl=en
+              - listitem [ref=f9e46]:
+                - button "Account" [ref=f9e50] [cursor=pointer]:
+                  - generic [ref=f9e54]:
+                    - text: "1"
+                    - generic [ref=f9e55]: new update
+            - link "Employers / Post Job" [ref=f9e60] [cursor=pointer]:
+              - /url: https://in.indeed.com/hire?co=IN&hl=en
+        - generic [ref=f9e61]: Start of main content
+  - main [ref=f9e67]:
+    - search [ref=f9e72]:
+      - generic [ref=f9e75]:
+        - generic [ref=f9e77]:
+          - generic [ref=f9e78]:
+            - generic [ref=f9e79]: "Keyword : all jobs"
+            - 'combobox "search: Job title, keywords, or company" [ref=f9e86]'
+          - separator [ref=f9e87]:
+            - generic [ref=f9e88]: "&nbsp;"
+          - generic [ref=f9e89]:
+            - generic [ref=f9e90]: Edit location input box label
+            - combobox "Edit location" [ref=f9e97]
+        - button "Find jobs" [ref=f9e99] [cursor=pointer]
+    - generic [ref=f9e102]:
+      - generic [ref=f9e107]:
+        - generic [ref=f9e108]:
+          - heading "Welcome, Prasad Yash Raj" [level=1] [ref=f9e109]
+          - button "add pay preference" [ref=f9e112] [cursor=pointer]:
+            - generic [ref=f9e115]: Add pay
+        - generic [ref=f9e117]:
+          - heading "Jobs for you" [level=2] [ref=f9e123]
+          - list [ref=f9e128]:
+            - listitem [ref=f9e129]:
+              - generic [ref=f9e134]:
+                - generic [ref=f9e135]:
+                  - heading [level=3] [ref=f9e136]:
+                    - button "full details of Full stack Engineer" [pressed] [ref=f9e137] [cursor=pointer]: Full stack Engineer
+                  - generic [ref=f9e138]: Easily apply
+                - generic [ref=f9e145]:
+                  - generic [ref=f9e148]:
+                    - generic [ref=f9e149]: Weekday
+                    - generic [ref=f9e151]: Hyderabad, Telangana
+                  - list [ref=f9e153]:
+                    - listitem [ref=f9e154]:
+                      - generic [ref=f9e155]: ₹5,00,000 a year
+                - generic [ref=f9e158]:
+                  - button "Save job Toggle" [ref=f9e159] [cursor=pointer]
+                  - button "Not interested" [ref=f9e162] [cursor=pointer]
+            - listitem [ref=f9e166]:
+              - generic [ref=f9e171]:
+                - generic [ref=f9e172]:
+                  - heading [level=3] [ref=f9e173]:
+                    - button "full details of Backend Software Engineer - AI Trainer" [ref=f9e174] [cursor=pointer]: Backend Software Engineer - AI Trainer
+                  - generic [ref=f9e175]: Easily apply
+                - generic [ref=f9e182]:
+                  - generic [ref=f9e185]:
+                    - generic [ref=f9e186]: DataAnnotation
+                    - generic [ref=f9e188]: Hyderabad, Telangana
+                  - list [ref=f9e190]:
+                    - listitem [ref=f9e191]:
+                      - generic [ref=f9e192]: ₹50 - ₹100 an hour
+                    - listitem [ref=f9e195]:
+                      - generic [ref=f9e196]:
+                        - img "matches your preference" [ref=f9e198]
+                        - generic [ref=f9e201]:
+                          - text: Full-time
+                          - generic [ref=f9e202]: "+1"
+                    - listitem [ref=f9e203]:
+                      - generic [ref=f9e204]: Work from home
+                    - listitem [ref=f9e207]:
+                      - generic [ref=f9e208]: Flexible schedule
+                - generic [ref=f9e211]:
+                  - button "Save job Toggle" [ref=f9e212] [cursor=pointer]
+                  - button "Not interested" [ref=f9e215] [cursor=pointer]
+            - listitem [ref=f9e219]:
+              - generic [ref=f9e224]:
+                - generic [ref=f9e225]:
+                  - heading [level=3] [ref=f9e226]:
+                    - button "full details of Full Stack Developer - AI Trainer" [ref=f9e227] [cursor=pointer]: Full Stack Developer - AI Trainer
+                  - generic [ref=f9e228]: Easily apply
+                - generic [ref=f9e235]:
+                  - generic [ref=f9e238]:
+                    - generic [ref=f9e239]: DataAnnotation
+                    - generic [ref=f9e241]: Hyderabad, Telangana
+                  - list [ref=f9e243]:
+                    - listitem [ref=f9e244]:
+                      - generic [ref=f9e245]: ₹50 - ₹100 an hour
+                    - listitem [ref=f9e248]:
+                      - generic [ref=f9e249]:
+                        - img "matches your preference" [ref=f9e251]
+                        - generic [ref=f9e254]:
+                          - text: Full-time
+                          - generic [ref=f9e255]: "+1"
+                    - listitem [ref=f9e256]:
+                      - generic [ref=f9e257]: Work from home
+                    - listitem [ref=f9e260]:
+                      - generic [ref=f9e261]: Flexible schedule
+                - generic [ref=f9e264]:
+                  - button "Save job Toggle" [ref=f9e265] [cursor=pointer]
+                  - button "Not interested" [ref=f9e268] [cursor=pointer]
+            - listitem [ref=f9e272]:
+              - generic [ref=f9e277]:
+                - generic [ref=f9e278]:
+                  - heading [level=3] [ref=f9e279]:
+                    - button "full details of Backend Engineer - AI Trainer" [ref=f9e280] [cursor=pointer]: Backend Engineer - AI Trainer
+                  - generic [ref=f9e281]: Easily apply
+                - generic [ref=f9e288]:
+                  - generic [ref=f9e291]:
+                    - generic [ref=f9e292]: DataAnnotation
+                    - generic [ref=f9e294]: Hyderabad, Telangana
+                  - list [ref=f9e296]:
+                    - listitem [ref=f9e297]:
+                      - generic [ref=f9e298]: ₹50 - ₹100 an hour
+                    - listitem [ref=f9e301]:
+                      - generic [ref=f9e302]:
+                        - img "matches your preference" [ref=f9e304]
+                        - generic [ref=f9e307]:
+                          - text: Full-time
+                          - generic [ref=f9e308]: "+1"
+                    - listitem [ref=f9e309]:
+                      - generic [ref=f9e310]: Work from home
+                    - listitem [ref=f9e313]:
+                      - generic [ref=f9e314]: Flexible schedule
+                - generic [ref=f9e317]:
+                  - button "Save job Toggle" [ref=f9e318] [cursor=pointer]
+                  - button "Not interested" [ref=f9e321] [cursor=pointer]
+            - listitem [ref=f9e325]:
+              - generic [ref=f9e330]:
+                - generic [ref=f9e331]:
+                  - heading [level=3] [ref=f9e332]:
+                    - button "full details of Software Developer - AI Trainer" [ref=f9e333] [cursor=pointer]: Software Developer - AI Trainer
+                  - generic [ref=f9e334]: Easily apply
+                - generic [ref=f9e341]:
+                  - generic [ref=f9e344]:
+                    - generic [ref=f9e345]: DataAnnotation
+                    - generic [ref=f9e347]: Hyderabad, Telangana
+                  - list [ref=f9e349]:
+                    - listitem [ref=f9e350]:
+                      - generic [ref=f9e351]: ₹50 - ₹100 an hour
+                    - listitem [ref=f9e354]:
+                      - generic [ref=f9e355]:
+                        - img "matches your preference" [ref=f9e357]
+                        - generic [ref=f9e360]:
+                          - text: Full-time
+                          - generic [ref=f9e361]: "+2"
+                    - listitem [ref=f9e362]:
+                      - generic [ref=f9e363]: Work from home
+                    - listitem [ref=f9e366]:
+                      - generic [ref=f9e367]: Flexible schedule
+                - generic [ref=f9e370]:
+                  - button "Save job Toggle" [ref=f9e371] [cursor=pointer]
+                  - button "Not interested" [ref=f9e374] [cursor=pointer]
+            - listitem [ref=f9e378]:
+              - generic [ref=f9e383]:
+                - generic [ref=f9e384]:
+                  - heading [level=3] [ref=f9e385]:
+                    - button "full details of Java Developer - AI Trainer" [ref=f9e386] [cursor=pointer]: Java Developer - AI Trainer
+                  - generic [ref=f9e387]: Easily apply
+                - generic [ref=f9e394]:
+                  - generic [ref=f9e397]:
+                    - generic [ref=f9e398]: DataAnnotation
+                    - generic [ref=f9e400]: Hyderabad, Telangana
+                  - list [ref=f9e402]:
+                    - listitem [ref=f9e403]:
+                      - generic [ref=f9e404]: ₹50 - ₹100 an hour
+                    - listitem [ref=f9e407]:
+                      - generic [ref=f9e408]:
+                        - img "matches your preference" [ref=f9e410]
+                        - generic [ref=f9e413]:
+                          - text: Full-time
+                          - generic [ref=f9e414]: "+1"
+                    - listitem [ref=f9e415]:
+                      - generic [ref=f9e416]: Work from home
+                    - listitem [ref=f9e419]:
+                      - generic [ref=f9e420]: Flexible schedule
+                - generic [ref=f9e423]:
+                  - button "Save job Toggle" [ref=f9e424] [cursor=pointer]
+                  - button "Not interested" [ref=f9e427] [cursor=pointer]
+            - listitem
+            - listitem [ref=f9e431]:
+              - generic [ref=f9e436]:
+                - generic [ref=f9e437]:
+                  - heading [level=3] [ref=f9e438]:
+                    - button "full details of Full Stack Developer - AI Trainer" [ref=f9e439] [cursor=pointer]: Full Stack Developer - AI Trainer
+                  - generic [ref=f9e440]: Easily apply
+                - generic [ref=f9e447]:
+                  - generic [ref=f9e450]:
+                    - generic [ref=f9e451]: DataAnnotation
+                    - generic [ref=f9e453]: Pune, Maharashtra
+                  - list [ref=f9e455]:
+                    - listitem [ref=f9e456]:
+                      - generic [ref=f9e457]: ₹50 - ₹100 an hour
+                    - listitem [ref=f9e460]:
+                      - generic [ref=f9e461]:
+                        - img "matches your preference" [ref=f9e463]
+                        - generic [ref=f9e466]:
+                          - text: Full-time
+                          - generic [ref=f9e467]: "+1"
+                    - listitem [ref=f9e468]:
+                      - generic [ref=f9e469]: Work from home
+                    - listitem [ref=f9e472]:
+                      - generic [ref=f9e473]: Flexible schedule
+                - generic [ref=f9e476]:
+                  - button "Save job Toggle" [ref=f9e477] [cursor=pointer]
+                  - button "Not interested" [ref=f9e480] [cursor=pointer]
+            - listitem [ref=f9e484]:
+              - generic [ref=f9e489]:
+                - generic [ref=f9e490]:
+                  - heading [level=3] [ref=f9e491]:
+                    - button "full details of Full Stack Engineer - AI Trainer" [ref=f9e492] [cursor=pointer]: Full Stack Engineer - AI Trainer
+                  - generic [ref=f9e493]: Easily apply
+                - generic [ref=f9e500]:
+                  - generic [ref=f9e503]:
+                    - generic [ref=f9e504]: DataAnnotation
+                    - generic [ref=f9e506]: Delhi
+                  - list [ref=f9e508]:
+                    - listitem [ref=f9e509]:
+                      - generic [ref=f9e510]: ₹50 - ₹100 an hour
+                    - listitem [ref=f9e513]:
+                      - generic [ref=f9e514]:
+                        - img "matches your preference" [ref=f9e516]
+                        - generic [ref=f9e519]:
+                          - text: Full-time
+                          - generic [ref=f9e520]: "+1"
+                    - listitem [ref=f9e521]:
+                      - generic [ref=f9e522]: Work from home
+                    - listitem [ref=f9e525]:
+                      - generic [ref=f9e526]: Flexible schedule
+                - generic [ref=f9e529]:
+                  - button "Save job Toggle" [ref=f9e530] [cursor=pointer]
+                  - button "Not interested" [ref=f9e533] [cursor=pointer]
+            - listitem [ref=f9e537]:
+              - generic [ref=f9e542]:
+                - generic [ref=f9e543]:
+                  - heading [level=3] [ref=f9e544]:
+                    - button "full details of Frontend Developer - AI Trainer" [ref=f9e545] [cursor=pointer]: Frontend Developer - AI Trainer
+                  - generic [ref=f9e546]: Easily apply
+                - generic [ref=f9e553]:
+                  - generic [ref=f9e556]:
+                    - generic [ref=f9e557]: DataAnnotation
+                    - generic [ref=f9e559]: Hyderabad, Telangana
+                  - list [ref=f9e561]:
+                    - listitem [ref=f9e562]:
+                      - generic [ref=f9e563]: ₹50 - ₹100 an hour
+                    - listitem [ref=f9e566]:
+                      - generic [ref=f9e567]:
+                        - img "matches your preference" [ref=f9e569]
+                        - generic [ref=f9e572]:
+                          - text: Full-time
+                          - generic [ref=f9e573]: "+1"
+                    - listitem [ref=f9e574]:
+                      - generic [ref=f9e575]: Work from home
+                    - listitem [ref=f9e578]:
+                      - generic [ref=f9e579]: Flexible schedule
+                - generic [ref=f9e582]:
+                  - button "Save job Toggle" [ref=f9e583] [cursor=pointer]
+                  - button "Not interested" [ref=f9e586] [cursor=pointer]
+            - listitem [ref=f9e590]:
+              - generic [ref=f9e595]:
+                - generic [ref=f9e596]:
+                  - heading [level=3] [ref=f9e597]:
+                    - button "full details of Senior Java Full Stack Developer" [ref=f9e598] [cursor=pointer]: Senior Java Full Stack Developer
+                  - generic [ref=f9e600]:
+                    - generic [ref=f9e601]: Easily apply
+                    - generic [ref=f9e604]: Often replies in 3 days
+                - generic [ref=f9e609]:
+                  - generic [ref=f9e612]:
+                    - generic [ref=f9e613]: MAXXION Systems
+                    - generic [ref=f9e615]: Remote
+                  - list [ref=f9e617]:
+                    - listitem [ref=f9e618]:
+                      - generic [ref=f9e619]: From ₹12,00,000 a year
+                    - listitem [ref=f9e622]:
+                      - generic [ref=f9e623]:
+                        - img "matches your preference" [ref=f9e625]
+                        - generic [ref=f9e628]:
+                          - text: Full-time
+                          - generic [ref=f9e629]: "+1"
+                    - listitem [ref=f9e630]:
+                      - generic [ref=f9e631]: Night shift
+                    - listitem [ref=f9e634]:
+                      - generic [ref=f9e635]: Paid time off
+                    - listitem [ref=f9e638]:
+                      - generic [ref=f9e639]: Paid sick time
+                    - listitem [ref=f9e642]:
+                      - generic [ref=f9e643]: Work from home
+                - generic [ref=f9e646]:
+                  - button "Save job Toggle" [ref=f9e647] [cursor=pointer]
+                  - button "Not interested" [ref=f9e650] [cursor=pointer]
+            - listitem [ref=f9e654]:
+              - generic [ref=f9e659]:
+                - generic [ref=f9e660]:
+                  - heading [level=3] [ref=f9e661]:
+                    - button "full details of Java Developer" [ref=f9e662] [cursor=pointer]: Java Developer
+                  - generic [ref=f9e663]: Easily apply
+                - generic [ref=f9e670]:
+                  - generic [ref=f9e673]:
+                    - generic [ref=f9e674]: Persistent Systems
+                    - generic [ref=f9e676]: Hyderabad, Telangana
+                  - list [ref=f9e678]:
+                    - listitem [ref=f9e679]:
+                      - generic [ref=f9e680]:
+                        - img "matches your preference" [ref=f9e682]
+                        - generic [ref=f9e684]: Full-time
+                    - listitem [ref=f9e686]:
+                      - generic [ref=f9e687]: Flexible schedule
+                - generic [ref=f9e690]:
+                  - button "Save job Toggle" [ref=f9e691] [cursor=pointer]
+                  - button "Not interested" [ref=f9e694] [cursor=pointer]
+          - button "Show more jobs" [ref=f9e701] [cursor=pointer]
+      - generic [ref=f9e705]:
+        - heading "Job Post Details" [level=2] [ref=f9e706]
+        - region "Job Post Details" [ref=f9e707]:
+          - generic [ref=f9e711]:
+            - generic [ref=f9e713]:
+              - generic [ref=f9e714]:
+                - heading "Full stack Engineer - job post" [level=2] [ref=f9e716]:
+                  - generic [ref=f9e717]:
+                    - text: Full stack Engineer
+                    - generic [ref=f9e718]: "- job post"
+                - generic [ref=f9e722]:
+                  - generic [ref=f9e723]:
+                    - link "Weekday (opens in a new tab)" [ref=f9e726] [cursor=pointer]:
+                      - /url: https://in.indeed.com/cmp/Weekday?campaignid=mobvjcmp&from=mobviewjob&tk=1jvat2lla25en000&fromjk=e378c0bf3c1cac25
+                      - text: Weekday
+                    - generic [ref=f9e729]:
+                      - generic [ref=f9e730]: · 4.0
+                      - generic [ref=f9e731]: 4.0 out of 5 stars
+                  - generic [ref=f9e734]: Hyderabad, Telangana
+              - generic [ref=f9e736]: ₹5,00,000 a year
+              - generic [ref=f9e741]:
+                - button "Apply with Indeed opens in a new tab" [ref=f9e749] [cursor=pointer]:
+                  - generic [ref=f9e750]: Apply with Indeed
+                - button "Save job" [ref=f9e755] [cursor=pointer]:
+                  - img "save-icon" [ref=f9e756]
+                - button "Not interested" [ref=f9e758] [cursor=pointer]
+                - button "Share Job" [ref=f9e761] [cursor=pointer]
+            - generic [ref=f9e764]:
+              - generic [ref=f9e765]:
+                - generic [ref=f9e771]:
+                  - generic [ref=f9e772]:
+                    - generic [ref=f9e773]:
+                      - heading "Job details" [level=2] [ref=f9e774]
+                      - generic [ref=f9e775]:
+                        - text: Here’s how the job details align with your
+                        - link "job preferences (opens in a new window)" [ref=f9e776] [cursor=pointer]:
+                          - /url: https://profile.indeed.com/
+                          - text: profile
+                        - text: .
+                    - generic [ref=f9e779]:
+                      - group "Pay" [ref=f9e780]:
+                        - generic [ref=f9e783]:
+                          - heading "Pay" [level=3] [ref=f9e784]
+                          - list [ref=f9e786]:
+                            - listitem [ref=f9e787]:
+                              - button "Pay ₹5,00,000 a year missing preference" [ref=f9e788]:
+                                - generic [ref=f9e791]:
+                                  - generic [ref=f9e792]: ₹5,00,000 a year
+                                  - img "missing preference" [ref=f9e793]
+                      - group "Job type" [ref=f9e795]:
+                        - generic [ref=f9e799]:
+                          - heading "Job type" [level=3] [ref=f9e800]
+                          - list [ref=f9e802]:
+                            - listitem [ref=f9e803]:
+                              - button "Job type Full-time matching preference" [ref=f9e804]:
+                                - generic [ref=f9e807]:
+                                  - generic [ref=f9e810]: Full-time
+                                  - img "matching preference" [ref=f9e811]
+                  - separator [ref=f9e813]:
+                    - generic [ref=f9e814]: "&nbsp;"
+                - generic [ref=f9e815]:
+                  - heading "Location" [level=2] [ref=f9e816]
+                  - generic [ref=f9e817]: Hyderabad, Telangana
+                  - separator [ref=f9e822]:
+                    - generic [ref=f9e823]: "&nbsp;"
+                - heading "Full job description" [level=2] [ref=f9e825]
+                - generic [ref=f9e827]:
+                  - generic [ref=f9e828]:
+                    - generic [ref=f9e829]: This role is for one of our clients
+                    - generic [ref=f9e830]: "Company Name: ADOSX Tech"
+                    - generic [ref=f9e831]: "Industry: Software Development"
+                    - generic [ref=f9e832]: "Seniority level: Associate level"
+                    - generic [ref=f9e833]:
+                      - paragraph [ref=f9e834]: "Experience: 2+ yrs"
+                      - paragraph [ref=f9e835]: "Location: Hyderabad, Telangana, India"
+                      - paragraph [ref=f9e836]: "Job Type: Full-time"
+                  - generic [ref=f9e837]:
+                    - generic [ref=f9e839]:
+                      - paragraph [ref=f9e840]: "As the first full-time engineer at ADOSX, you will build the foundations that future teams inherit. You are the engineer who turns the architecture into the product people touch. You work across the whole stack, Django and DRF on the back and Next.js and React on the front, and you own the features end to end. Where the architect owns the dangerous core, you own the breadth: shipping the features and screens that make the product usable day to day, and building the integrations that feed them. You build agentically. AI coding agents are part of your daily toolkit and a big reason you ship fast."
+                      - paragraph [ref=f9e841]: You'll spend time inside dealerships, work closely with customers, and build systems grounded in operational reality—not assumptions.
+                      - paragraph [ref=f9e842]: What you'll own
+                      - paragraph [ref=f9e843]: "Features end-to-end : You take a feature from data model to API to UI without hand-offs: the Django models, the DRF endpoints, and the Next.js screens, each built cleanly within the architect's boundaries."
+                      - paragraph [ref=f9e844]: "The in-house integrations : Build and maintain the integrations to the external systems. These are built in-house rather than bought, so you own the protocol quirks, the version drift, and the reliability."
+                      - paragraph [ref=f9e845]: "The user-facing app : The Next.js and React front end: the dashboard shell, data tables, the AI chat surface, and the mobile-first screens for users who are often on a phone in the field."
+                      - paragraph [ref=f9e846]: "Messaging and scheduled flows : The customer-messaging integration (inbound webhooks, queued outbound) and the scheduled jobs behind reminders, follow-ups, and daily insight delivery."
+                      - paragraph [ref=f9e847]: "Quality on your surface area: Tests, sensible error handling, and never breaking tenant isolation or the audit trail, including when reviewing AI code."
+                      - paragraph [ref=f9e848]: What we're looking for
+                      - paragraph [ref=f9e849]: "Solid full-stack delivery : Django and DRF plus React and Next.js, comfortable owning a feature from database to UI on your own."
+                      - paragraph [ref=f9e850]: "Agentic development as a habit: You use AI coding agents fluently to move faster, and you review their output as carefully as a teammate's. You have caught the subtle bugs they introduce."
+                      - paragraph [ref=f9e851]: "Integration grit : You have wired up a fiddly third-party system and made it reliable, and you do not flinch at messy upstream formats."
+                      - paragraph [ref=f9e852]: "PostgreSQL fluency : You write the tenant filter every time and understand why."
+                      - paragraph [ref=f9e853]: "Pragmatic and shippy : You prefer a working, tested feature today over a perfect one next month, and you can estimate honestly."
+                      - paragraph [ref=f9e854]: "A collaborator. You will pair with the team.Good to Have: Celery, or SQL exposure, curiosity about LLMs and agentic workflows, and comfort on the command line and with Git. Prior work integrating accounting, messaging, or other enterprise platforms across functions like HR, marketing, accounting and CRM."
+                    - generic [ref=f9e855]:
+                      - heading "About the company" [level=2] [ref=f9e856]
+                      - generic [ref=f9e857]: ADOSX is building an AI-native operating system for automotive retail, combining agentic workflows, unified data, and real-time intelligence to help dealerships operate smarter and more profitably. Backed by strategic investors, we're redefining auto-tech from India.
+                    - generic [ref=f9e858]:
+                      - heading "Must-have skills" [level=2] [ref=f9e859]
+                      - generic [ref=f9e860]: Python, ReactJS, Django
+                    - generic [ref=f9e861]:
+                      - heading "Good-to-have skills" [level=2] [ref=f9e862]
+                      - generic [ref=f9e863]: NextJS, Django REST Framework, PostgreSQL
+                  - paragraph [ref=f9e864]: We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.
+                - separator [ref=f9e865]:
+                  - generic [ref=f9e866]: "&nbsp;"
+              - button "Report job" [ref=f9e873] [cursor=pointer]

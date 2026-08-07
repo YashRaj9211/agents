@@ -1,0 +1,312 @@
+- generic [active] [ref=f2717e1]:
+  - link "Skip to content" [ref=f2717e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f2717e3]:
+    - banner [ref=f2717e4]:
+      - generic [ref=f2717e7]:
+        - link [ref=f2717e11] [cursor=pointer]:
+          - /url: https://jobsnet.in/
+          - img "Jobsnet.in" [ref=f2717e12]
+        - generic [ref=f2717e14]:
+          - navigation "Main Menu" [ref=f2717e15]:
+            - list [ref=f2717e16]:
+              - listitem [ref=f2717e17]:
+                - link "Home" [ref=f2717e18] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - listitem [ref=f2717e19]:
+                - link "Internships" [ref=f2717e20] [cursor=pointer]:
+                  - /url: https://jobsnet.in/internships/
+              - listitem [ref=f2717e21]:
+                - link "Off Campus Drives" [ref=f2717e22] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+              - listitem [ref=f2717e23]:
+                - link [ref=f2717e24] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+              - listitem [ref=f2717e28]:
+                - link [ref=f2717e29] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+          - button "Search" [ref=f2717e33] [cursor=pointer]
+    - main [ref=f2717e36]:
+      - insertion [ref=f2717e38]:
+        - iframe [ref=f2717e40]:
+          
+      - generic [ref=f2717e41]:
+        - article [ref=f2717e42]:
+          - generic [ref=f2717e44]:
+            - navigation [ref=f2717e45]:
+              - link "Home" [ref=f2717e47] [cursor=pointer]:
+                - /url: https://jobsnet.in/
+              - link "Off Campus Drive" [ref=f2717e51] [cursor=pointer]:
+                - /url: https://jobsnet.in/off-campus-drive/
+              - generic [ref=f2717e54]: Moody’s Off Campus Drive 2026 – Associate Software Engineer Freshers
+            - heading "Moody’s Off Campus Drive 2026 – Associate Software Engineer Freshers" [level=1] [ref=f2717e56]
+            - list [ref=f2717e57]:
+              - listitem [ref=f2717e58]:
+                - text: By
+                - link "Anand Kumar" [ref=f2717e59] [cursor=pointer]:
+                  - /url: https://jobsnet.in/author/anand/
+                - text: /
+              - listitem [ref=f2717e60]:
+                - text: "On"
+                - time [ref=f2717e61]: March 9, 2026
+          - figure [ref=f2717e62]:
+            - img "Moody's is hiring Associate Software Engineers (Freshers) for Off Campus Drive 2026. Apply now." [ref=f2717e64]
+          - generic [ref=f2717e65]:
+            - paragraph [ref=f2717e66]:
+              - text: Moody’s is hosting an Off Campus Drive in 2026, presenting a fantastic opportunity for freshers to launch their careers as Associate
+              - link "Software" [ref=f2717e67] [cursor=pointer]:
+                - /url: "#"
+              - link "Engineers" [ref=f2717e70] [cursor=pointer]:
+                - /url: "#"
+              - text: . This
+              - link "recruitment" [ref=f2717e73] [cursor=pointer]:
+                - /url: "#"
+              - text: drive is specifically tailored for recent engineering and IT graduates who are eager to apply their technical skills in a dynamic, global environment.
+              - link "Software" [ref=f2717e76] [cursor=pointer]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - figure [ref=f2717e80]:
+              - table [ref=f2717e81]:
+                - rowgroup [ref=f2717e82]:
+                  - row [ref=f2717e83]:
+                    - cell [ref=f2717e84]:
+                      - strong [ref=f2717e85]: Job Title
+                    - cell [ref=f2717e86]:
+                      - strong [ref=f2717e87]: Associate
+                      - text: Software Engineer
+                  - row [ref=f2717e88]:
+                    - cell [ref=f2717e89]:
+                      - strong [ref=f2717e90]: Qualification
+                    - cell "B.E/B.Tech/BSC/M.E/M.Tech/MCA" [ref=f2717e91]
+                  - row [ref=f2717e92]:
+                    - cell [ref=f2717e93]:
+                      - strong [ref=f2717e94]: Pass Out Year
+                    - cell "Any" [ref=f2717e95]
+                  - row [ref=f2717e96]:
+                    - cell [ref=f2717e97]:
+                      - strong [ref=f2717e98]: Salary
+                    - cell "high in industry" [ref=f2717e99]
+                  - row [ref=f2717e100]:
+                    - cell [ref=f2717e101]:
+                      - strong [ref=f2717e102]: Job Location
+                    - cell "Gurgaon, Banglore" [ref=f2717e103]
+                  - row [ref=f2717e104]:
+                    - cell [ref=f2717e105]:
+                      - strong [ref=f2717e106]: Venue Location
+                    - cell "Online" [ref=f2717e107]
+                  - row [ref=f2717e108]:
+                    - cell [ref=f2717e109]:
+                      - strong [ref=f2717e110]: Last Date
+                    - cell "ASAP" [ref=f2717e111]
+            - heading [level=2] [ref=f2717e112]:
+              - strong [ref=f2717e113]: Moody’s Off Campus Description
+              - text: ":"
+            - paragraph [ref=f2717e114]:
+              - text: "If you are excited about this opportunity but do not meet every single requirement, please apply! You still may be a great fit for this role or other open roles. We are seeking candidates who model our values: invest in every relationship, lead with curiosity, champion diverse perspectives, turn inputs into actions, and uphold trust through integrity."
+              - link "Civil Engineering" [ref=f2717e115] [cursor=pointer]
+            - paragraph [ref=f2717e119]: "Skills and Competencies:"
+            - generic [ref=f2717e122]:
+              - generic [ref=f2717e123]:
+                - generic [ref=f2717e124]: WhatsApp Channel
+                - link "Join Now" [ref=f2717e126] [cursor=pointer]:
+                  - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+              - generic [ref=f2717e127]:
+                - generic [ref=f2717e128]: Telegram Channel
+                - link "Join Now" [ref=f2717e130] [cursor=pointer]:
+                  - /url: https://telegram.me/campusdrivejobs
+            - list [ref=f2717e131]:
+              - listitem [ref=f2717e132]: Strong understanding of Object-Oriented design principles and software engineering fundamentals.
+              - listitem [ref=f2717e133]: Working knowledge of relational databases and data-driven application development.
+              - listitem [ref=f2717e134]: Proficiency in Python or other modern programming languages; Python strongly preferred.
+              - listitem [ref=f2717e135]: Familiarity with cloud platforms such as AWS is a plus.
+              - listitem [ref=f2717e136]: Exposure to modern data engineering tools such as dbt, Airflow, and Jinja is advantageous.
+              - listitem [ref=f2717e137]: Strong analytical, quantitative, and debugging skills with persistence in problem-solving.
+              - listitem [ref=f2717e138]: Ability and willingness to learn new technologies through self-directed learning.
+              - listitem [ref=f2717e139]: Excellent verbal and written communication skills, with the ability to explain complex concepts to both technical and non-technical audiences.
+              - listitem [ref=f2717e140]: Strong organizational skills, initiative, and a positive, growth-oriented mindset.
+              - listitem [ref=f2717e141]: Proven ability to collaborate effectively with global, cross-functional, and virtual teams.
+            - paragraph [ref=f2717e142]: Education
+            - list [ref=f2717e143]:
+              - listitem [ref=f2717e144]: Bachelor’s degree in Computer Science, Engineering, or a related technical field.
+              - listitem [ref=f2717e145]: Academic or project-based experience in software development is preferred.
+              - listitem [ref=f2717e146]: Participation in at least one hands-on project (academic or professional) is a plus.
+            - paragraph [ref=f2717e147]:
+              - strong [ref=f2717e148]: Responsibilities
+            - insertion [ref=f2717e150]
+            - list [ref=f2717e152]:
+              - listitem [ref=f2717e153]: Design, develop, and support software solutions for financial data management and risk analytics platforms.
+              - listitem [ref=f2717e154]: Contribute to the development of analytical, data, and software products supporting Fixed Income and Commercial Real Estate solutions.
+              - listitem [ref=f2717e155]: Apply object-oriented design principles to build scalable and maintainable systems.
+              - listitem [ref=f2717e156]: Work with relational databases to support data storage, retrieval, and processing needs.
+              - listitem [ref=f2717e157]: Collaborate closely with team members to enhance existing products and develop new capabilities.
+              - listitem [ref=f2717e158]: Debug, troubleshoot, and resolve technical issues across applications and data workflows.
+              - listitem [ref=f2717e159]: Learn and adopt new technologies, frameworks, and tools to continuously improve product offerings.
+              - listitem [ref=f2717e160]: Participate actively in team discussions, code reviews, and agile development practices.
+            - paragraph [ref=f2717e161]:
+              - text: The interested and eligible graduates register on the following Moody’s Careers link.
+              - link "Engineering & Technology" [ref=f2717e162] [cursor=pointer]
+            - insertion [ref=f2717e167]
+            - paragraph [ref=f2717e169]:
+              - strong [ref=f2717e170]:
+                - link "Click Here to Apply Moody’s Hiring" [ref=f2717e171] [cursor=pointer]:
+                  - /url: https://careers.moodys.com/associate-software-engineer/job/12870?utm_source=indeed&jobPipeline=indeed
+              - link "Enterprise Technology" [ref=f2717e172] [cursor=pointer]
+            - generic [ref=f2717e176]:
+              - strong [ref=f2717e177]: "Join Our Whatsapp Group:"
+              - link [ref=f2717e178] [cursor=pointer]:
+                - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+                - strong [ref=f2717e179]: Click Here
+            - insertion [ref=f2717e181]
+          - generic [ref=f2717e184]:
+            - link "Facebook" [ref=f2717e185] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjobsnet.in%2Fmoodys-off-campus-drive-2026-associate-software-engineer-freshers%2F
+            - link "X (Twitter)" [ref=f2717e189] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fjobsnet.in%2Fmoodys-off-campus-drive-2026-associate-software-engineer-freshers%2F&text=Moody%26%238217%3Bs%20Off%20Campus%20Drive%202026%20%26%238211%3B%20Associate%20Software%20Engineer%20Freshers
+            - link "Reddit" [ref=f2717e193] [cursor=pointer]:
+              - /url: https://reddit.com/submit?url=https%3A%2F%2Fjobsnet.in%2Fmoodys-off-campus-drive-2026-associate-software-engineer-freshers%2F&title=Moody%26%238217%3Bs%20Off%20Campus%20Drive%202026%20%26%238211%3B%20Associate%20Software%20Engineer%20Freshers
+            - link "Telegram" [ref=f2717e197] [cursor=pointer]:
+              - /url: https://t.me/share/url?url=https%3A%2F%2Fjobsnet.in%2Fmoodys-off-campus-drive-2026-associate-software-engineer-freshers%2F&text=Moody%26%238217%3Bs%20Off%20Campus%20Drive%202026%20%26%238211%3B%20Associate%20Software%20Engineer%20Freshers
+            - link "WhatsApp" [ref=f2717e201] [cursor=pointer]:
+              - /url: whatsapp://send?text=https%3A%2F%2Fjobsnet.in%2Fmoodys-off-campus-drive-2026-associate-software-engineer-freshers%2F
+          - generic [ref=f2717e205]:
+            - link [ref=f2717e206] [cursor=pointer]:
+              - /url: https://jobsnet.in/author/anand/
+              - img "Anand Kumar" [ref=f2717e207]
+            - generic [ref=f2717e210]:
+              - heading "Anand Kumar" [level=5] [ref=f2717e211]
+              - paragraph [ref=f2717e213]:
+                - text: Career Expert & Founder of JobsNet.in. Serving the student community since 2019, I specialize in providing verified job updates and placement material for computer science, IT, engineering and management graduates. With a mission to simplify the job hunt, I have helped thousands of candidates secure roles in top MNCs over the last 7 years.
+                - link "Software" [ref=f2717e214] [cursor=pointer]
+              - generic [ref=f2717e219]:
+                - link "LinkedIn icon" [ref=f2717e220] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/amar-kumar-sd
+                - link "Website icon" [ref=f2717e223] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - 'link "Articles: 2394" [ref=f2717e226] [cursor=pointer]':
+                - /url: https://jobsnet.in/author/anand/
+          - navigation [ref=f2717e227]:
+            - link "Previous Post Accenture Hiring Custom Software Engineer - SAP ABAP (0-2 Years)" [ref=f2717e228] [cursor=pointer]:
+              - /url: https://jobsnet.in/accenture-hiring-custom-software-engineer-sap-abap/
+              - figure [ref=f2717e229]:
+                - img "Accenture Mega Off Campus Drive For Freshers - Associate Software Engineer" [ref=f2717e230]
+              - generic [ref=f2717e233]:
+                - generic [ref=f2717e234]: Previous Post
+                - generic [ref=f2717e235]: Accenture Hiring Custom Software Engineer - SAP ABAP (0-2 Years)
+            - link "Next Post TJX Off Campus Drive 2026 - Hiring IT Engineers - New Grads" [ref=f2717e236] [cursor=pointer]:
+              - /url: https://jobsnet.in/tjx-off-campus-drive-hiring-it-engineers-new-grads/
+              - generic [ref=f2717e237]:
+                - generic [ref=f2717e238]: Next Post
+                - generic [ref=f2717e239]: TJX Off Campus Drive 2026 - Hiring IT Engineers - New Grads
+              - figure [ref=f2717e240]:
+                - img "Outdoor sign for The TJX Companies, Inc. with large silver letters on a grey background, framed by green bushes." [ref=f2717e241]
+          - generic [ref=f2717e244]:
+            - heading "Related" [level=3] [ref=f2717e245]
+            - generic [ref=f2717e246]:
+              - article [ref=f2717e247]:
+                - generic [ref=f2717e248]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2717e249] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                  - paragraph [ref=f2717e250]:
+                    - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2717e251] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+              - article [ref=f2717e252]:
+                - generic [ref=f2717e253]:
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2717e254] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                    - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f2717e255]
+                  - paragraph [ref=f2717e256]:
+                    - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2717e257] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+              - article [ref=f2717e258]:
+                - generic [ref=f2717e259]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2717e260] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                  - paragraph [ref=f2717e261]:
+                    - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2717e262] [cursor=pointer]:
+                      - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+        - complementary [ref=f2717e263]:
+          - generic [ref=f2717e264]:
+            - heading "Search Jobs" [level=3] [ref=f2717e267]
+            - textbox "search" [ref=f2717e274]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - generic [ref=f2717e275]:
+              - heading "Latest Updates" [level=3] [ref=f2717e276]
+              - list [ref=f2717e278]:
+                - listitem [ref=f2717e279]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2717e281] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                - listitem [ref=f2717e282]:
+                  - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f2717e284]
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2717e285] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                - listitem [ref=f2717e286]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2717e288] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                - listitem [ref=f2717e289]:
+                  - img "Accenture Mega Off Campus Drive For Freshers - Associate Software Engineer" [ref=f2717e291]
+                  - link "Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)" [ref=f2717e292] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-entry-level-custom-software-engineer-python/
+                - listitem [ref=f2717e293]:
+                  - img "Cornerstone Off Campus Drive - Hiring Junior Engineer" [ref=f2717e295]
+                  - link "Cornerstone Hiring Entry Level Junior Engineer – Cloud Ops" [ref=f2717e296] [cursor=pointer]:
+                    - /url: https://jobsnet.in/cornerstone-hiring-entry-level-junior-engineer-cloud-ops/
+                - listitem [ref=f2717e297]:
+                  - link "Calix Off Campus Drive 2026 – Hiring Graduate Trainee – Test & QA" [ref=f2717e299] [cursor=pointer]:
+                    - /url: https://jobsnet.in/calix-off-campus-drive-hiring-graduate-trainee-test-qa/
+                - listitem [ref=f2717e300]:
+                  - link "HDFC Life Off Campus Drive 2026 – Graduate Trainee – Data Science & Analytics" [ref=f2717e302] [cursor=pointer]:
+                    - /url: https://jobsnet.in/hdfc-life-off-campus-drive-graduate-trainee-data-science-analytics/
+                - listitem [ref=f2717e303]:
+                  - img "Yash Technologies Hiring Freshers QA Trainee - Pune/Indore/Hyderabad" [ref=f2717e305]
+                  - link "Yash Technologies Off Campus Drive 2026 – AI/ML Trainee" [ref=f2717e306] [cursor=pointer]:
+                    - /url: https://jobsnet.in/yash-technologies-off-campus-drive-hiring-ai-ml-trainee/
+                - listitem [ref=f2717e307]:
+                  - img "White Twilio logo and four-dot icon on a red background." [ref=f2717e309]
+                  - link "Twilio Off Campus Drive 2026 – Associate Application Engineer- Remote" [ref=f2717e310] [cursor=pointer]:
+                    - /url: https://jobsnet.in/twilio-off-campus-drive-associate-application-engineer-remote/
+                - listitem [ref=f2717e311]:
+                  - img "Accenture Hiring Any Graduate Freshers As Network Associate" [ref=f2717e313]
+                  - link "Accenture Hiring Application Support Engineer – Any Graduate (0-2 Years)" [ref=f2717e314] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-application-support-engineer-any-graduate-0-2-years/
+            - generic [ref=f2717e316]:
+              - insertion:
+                - generic:
+                  - iframe
+    - insertion [ref=f2717e318]
+    - contentinfo [ref=f2717e320]:
+      - generic [ref=f2717e322]:
+        - paragraph [ref=f2717e325]: © 2026 Jobsnet.in
+        - navigation "footermenu" [ref=f2717e327]:
+          - list [ref=f2717e328]:
+            - listitem [ref=f2717e329]:
+              - link "Home" [ref=f2717e330] [cursor=pointer]:
+                - /url: https://jobsnet.in
+            - listitem [ref=f2717e331]:
+              - link "About us" [ref=f2717e332] [cursor=pointer]:
+                - /url: https://jobsnet.in/about-us/
+            - listitem [ref=f2717e333]:
+              - link "Contact Us" [ref=f2717e334] [cursor=pointer]:
+                - /url: https://jobsnet.in/contact/
+            - listitem [ref=f2717e335]:
+              - link "Advertise With Us" [ref=f2717e336] [cursor=pointer]:
+                - /url: https://jobsnet.in/advertise/
+            - listitem [ref=f2717e337]:
+              - link "Terms" [ref=f2717e338] [cursor=pointer]:
+                - /url: https://jobsnet.in/terms-and-conditions/
+            - listitem [ref=f2717e339]:
+              - link "Privacy" [ref=f2717e340] [cursor=pointer]:
+                - /url: https://jobsnet.in/privacy-policy/
+  - generic [ref=f2717e341]:
+    - generic [ref=f2717e342] [cursor=pointer]: CLOSE [X]
+    - insertion [ref=f2717e344]:
+      - iframe [ref=f2717e346]:
+        
+  - link "Join WhatsApp" [ref=f2717e348] [cursor=pointer]:
+    - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP

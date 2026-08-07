@@ -1,0 +1,766 @@
+- generic [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - dialog "Search modal" [ref=e508]:
+    - button "Close search modal" [ref=e510] [cursor=pointer]
+    - search [ref=e514]:
+      - generic [ref=e515]:
+        - combobox "Search for..." [active] [ref=e516]
+        - button "Search button" [ref=e517] [cursor=pointer]
+      - status [ref=e524]: No results
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e7]:
+        - link [ref=e11] [cursor=pointer]:
+          - /url: https://jobsnet.in/
+          - img "Jobsnet.in" [ref=e12]
+        - generic [ref=e14]:
+          - navigation "Main Menu" [ref=e15]:
+            - list [ref=e16]:
+              - listitem [ref=e17]:
+                - link "Home" [ref=e18] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - listitem [ref=e19]:
+                - link "Internships" [ref=e20] [cursor=pointer]:
+                  - /url: https://jobsnet.in/internships/
+              - listitem [ref=e21]:
+                - link "Off Campus Drives" [ref=e22] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+              - listitem [ref=e23]:
+                - link [ref=e24] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+              - listitem [ref=e28]:
+                - link [ref=e29] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+          - button "Search" [expanded] [ref=e33] [cursor=pointer]
+    - main [ref=e36]:
+      - heading "Latest Off Campus Drives, Internships , Hiring Challenges, Top Jobs" [level=1] [ref=e39]
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - article [ref=e43]:
+            - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=e44] [cursor=pointer]:
+              - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+            - heading [level=3] [ref=e45]:
+              - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=e46] [cursor=pointer]:
+                - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+            - list [ref=e47]:
+              - listitem [ref=e48]:
+                - text: "On"
+                - time [ref=e49]: August 6, 2026
+                - text: /
+              - listitem [ref=e50]:
+                - text: In
+                - link "Off Campus Drive" [ref=e51] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2024 Batch" [ref=e52] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+                - link "2025 Batch" [ref=e53] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+                - link "2026 Batch" [ref=e54] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2026-batch/
+          - article [ref=e56]:
+            - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=e57] [cursor=pointer]:
+              - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+              - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=e58]
+            - heading [level=3] [ref=e59]:
+              - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=e60] [cursor=pointer]:
+                - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+            - list [ref=e61]:
+              - listitem [ref=e62]:
+                - text: "On"
+                - time [ref=e63]: August 5, 2026
+                - text: /
+              - listitem [ref=e64]:
+                - text: In
+                - link "Off Campus Drive" [ref=e65] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2023 Batch" [ref=e66] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2023-batch/
+                - link "2024 Batch" [ref=e67] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+                - link "2025 Batch" [ref=e68] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+                - link "2026 Batch" [ref=e69] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2026-batch/
+          - article [ref=e71]:
+            - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=e72] [cursor=pointer]:
+              - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+            - heading [level=3] [ref=e73]:
+              - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=e74] [cursor=pointer]:
+                - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+            - list [ref=e75]:
+              - listitem [ref=e76]:
+                - text: "On"
+                - time [ref=e77]: August 5, 2026
+                - text: /
+              - listitem [ref=e78]:
+                - text: In
+                - link "Off Campus Drive" [ref=e79] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2022 Batch" [ref=e80] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2022-batch/
+                - link "2023 Batch" [ref=e81] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2023-batch/
+                - link "2024 Batch" [ref=e82] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+                - link "2025 Batch" [ref=e83] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+                - link "2026 Batch" [ref=e84] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2026-batch/
+          - article [ref=e86]:
+            - link "Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)" [ref=e87] [cursor=pointer]:
+              - /url: https://jobsnet.in/accenture-hiring-entry-level-custom-software-engineer-python/
+              - img "Accenture Mega Off Campus Drive For Freshers - Associate Software Engineer" [ref=e88]
+            - heading [level=3] [ref=e89]:
+              - link "Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)" [ref=e90] [cursor=pointer]:
+                - /url: https://jobsnet.in/accenture-hiring-entry-level-custom-software-engineer-python/
+            - list [ref=e91]:
+              - listitem [ref=e92]:
+                - text: "On"
+                - time [ref=e93]: August 5, 2026
+                - text: /
+              - listitem [ref=e94]:
+                - text: In
+                - link "Off Campus Drive" [ref=e95] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2022 Batch" [ref=e96] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2022-batch/
+                - link "2023 Batch" [ref=e97] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2023-batch/
+                - link "2024 Batch" [ref=e98] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+                - link "2025 Batch" [ref=e99] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+                - link "2026 Batch" [ref=e100] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2026-batch/
+          - article [ref=e102]:
+            - link "Cornerstone Hiring Entry Level Junior Engineer – Cloud Ops" [ref=e103] [cursor=pointer]:
+              - /url: https://jobsnet.in/cornerstone-hiring-entry-level-junior-engineer-cloud-ops/
+              - img "Cornerstone Off Campus Drive - Hiring Junior Engineer" [ref=e104]
+            - heading [level=3] [ref=e105]:
+              - link "Cornerstone Hiring Entry Level Junior Engineer – Cloud Ops" [ref=e106] [cursor=pointer]:
+                - /url: https://jobsnet.in/cornerstone-hiring-entry-level-junior-engineer-cloud-ops/
+            - list [ref=e107]:
+              - listitem [ref=e108]:
+                - text: "On"
+                - time [ref=e109]: August 5, 2026
+                - text: /
+              - listitem [ref=e110]:
+                - text: In
+                - link "Off Campus Drive" [ref=e111] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2023 Batch" [ref=e112] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2023-batch/
+                - link "2024 Batch" [ref=e113] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+                - link "2025 Batch" [ref=e114] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+                - link "2026 Batch" [ref=e115] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2026-batch/
+          - article [ref=e117]:
+            - link "Calix Off Campus Drive 2026 – Hiring Graduate Trainee – Test & QA" [ref=e118] [cursor=pointer]:
+              - /url: https://jobsnet.in/calix-off-campus-drive-hiring-graduate-trainee-test-qa/
+            - heading [level=3] [ref=e119]:
+              - link "Calix Off Campus Drive 2026 – Hiring Graduate Trainee – Test & QA" [ref=e120] [cursor=pointer]:
+                - /url: https://jobsnet.in/calix-off-campus-drive-hiring-graduate-trainee-test-qa/
+            - list [ref=e121]:
+              - listitem [ref=e122]:
+                - text: "On"
+                - time [ref=e123]: August 4, 2026
+                - text: /
+              - listitem [ref=e124]:
+                - text: In
+                - link "Off Campus Drive" [ref=e125] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2024 Batch" [ref=e126] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+                - link "2025 Batch" [ref=e127] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+          - article [ref=e129]:
+            - link "HDFC Life Off Campus Drive 2026 – Graduate Trainee – Data Science & Analytics" [ref=e130] [cursor=pointer]:
+              - /url: https://jobsnet.in/hdfc-life-off-campus-drive-graduate-trainee-data-science-analytics/
+            - heading [level=3] [ref=e131]:
+              - link "HDFC Life Off Campus Drive 2026 – Graduate Trainee – Data Science & Analytics" [ref=e132] [cursor=pointer]:
+                - /url: https://jobsnet.in/hdfc-life-off-campus-drive-graduate-trainee-data-science-analytics/
+            - list [ref=e133]:
+              - listitem [ref=e134]:
+                - text: "On"
+                - time [ref=e135]: August 4, 2026
+                - text: /
+              - listitem [ref=e136]:
+                - text: In
+                - link "Off Campus Drive" [ref=e137] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2023 Batch" [ref=e138] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2023-batch/
+                - link "2024 Batch" [ref=e139] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+                - link "2025 Batch" [ref=e140] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+                - link "2026 Batch" [ref=e141] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2026-batch/
+          - article [ref=e143]:
+            - link "Yash Technologies Off Campus Drive 2026 – AI/ML Trainee" [ref=e144] [cursor=pointer]:
+              - /url: https://jobsnet.in/yash-technologies-off-campus-drive-hiring-ai-ml-trainee/
+              - img "Yash Technologies Hiring Freshers QA Trainee - Pune/Indore/Hyderabad" [ref=e145]
+            - heading [level=3] [ref=e146]:
+              - link "Yash Technologies Off Campus Drive 2026 – AI/ML Trainee" [ref=e147] [cursor=pointer]:
+                - /url: https://jobsnet.in/yash-technologies-off-campus-drive-hiring-ai-ml-trainee/
+            - list [ref=e148]:
+              - listitem [ref=e149]:
+                - text: "On"
+                - time [ref=e150]: August 4, 2026
+                - text: /
+              - listitem [ref=e151]:
+                - text: In
+                - link "Off Campus Drive" [ref=e152] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2024 Batch" [ref=e153] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+                - link "2025 Batch" [ref=e154] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+                - link "2026 Batch" [ref=e155] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2026-batch/
+          - article [ref=e157]:
+            - link "Twilio Off Campus Drive 2026 – Associate Application Engineer- Remote" [ref=e158] [cursor=pointer]:
+              - /url: https://jobsnet.in/twilio-off-campus-drive-associate-application-engineer-remote/
+              - img "White Twilio logo and four-dot icon on a red background." [ref=e159]
+            - heading [level=3] [ref=e160]:
+              - link "Twilio Off Campus Drive 2026 – Associate Application Engineer- Remote" [ref=e161] [cursor=pointer]:
+                - /url: https://jobsnet.in/twilio-off-campus-drive-associate-application-engineer-remote/
+            - list [ref=e162]:
+              - listitem [ref=e163]:
+                - text: "On"
+                - time [ref=e164]: August 4, 2026
+                - text: /
+              - listitem [ref=e165]:
+                - text: In
+                - link "Off Campus Drive" [ref=e166] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2024 Batch" [ref=e167] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+                - link "2025 Batch" [ref=e168] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+                - link "2026 Batch" [ref=e169] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2026-batch/
+                - link "2027 Batch" [ref=e170] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2027-batch/
+          - article [ref=e172]:
+            - link "Accenture Hiring Application Support Engineer – Any Graduate (0-2 Years)" [ref=e173] [cursor=pointer]:
+              - /url: https://jobsnet.in/accenture-hiring-application-support-engineer-any-graduate-0-2-years/
+              - img "Accenture Hiring Any Graduate Freshers As Network Associate" [ref=e174]
+            - heading [level=3] [ref=e175]:
+              - link "Accenture Hiring Application Support Engineer – Any Graduate (0-2 Years)" [ref=e176] [cursor=pointer]:
+                - /url: https://jobsnet.in/accenture-hiring-application-support-engineer-any-graduate-0-2-years/
+            - list [ref=e177]:
+              - listitem [ref=e178]:
+                - text: "On"
+                - time [ref=e179]: August 4, 2026
+                - text: /
+              - listitem [ref=e180]:
+                - text: In
+                - link "Off Campus Drive" [ref=e181] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2022 Batch" [ref=e182] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2022-batch/
+                - link "2023 Batch" [ref=e183] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2023-batch/
+                - link "2024 Batch" [ref=e184] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+                - link "2025 Batch" [ref=e185] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+                - link "2026 Batch" [ref=e186] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2026-batch/
+          - article [ref=e188]:
+            - link "HPE is Hiring Entry-Level Cloud Developers (0-2 Years)" [ref=e189] [cursor=pointer]:
+              - /url: https://jobsnet.in/hpe-is-hiring-entry-level-cloud-developers-0-2-years/
+              - img "HPE Recruitment 2024 - Hiring Any Graduate Freshers" [ref=e190]
+            - heading [level=3] [ref=e191]:
+              - link "HPE is Hiring Entry-Level Cloud Developers (0-2 Years)" [ref=e192] [cursor=pointer]:
+                - /url: https://jobsnet.in/hpe-is-hiring-entry-level-cloud-developers-0-2-years/
+            - list [ref=e193]:
+              - listitem [ref=e194]:
+                - text: "On"
+                - time [ref=e195]: August 3, 2026
+                - text: /
+              - listitem [ref=e196]:
+                - text: In
+                - link "Off Campus Drive" [ref=e197] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2022 Batch" [ref=e198] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2022-batch/
+                - link "2023 Batch" [ref=e199] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2023-batch/
+                - link "2024 Batch" [ref=e200] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+                - link "2025 Batch" [ref=e201] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+                - link "2026 Batch" [ref=e202] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2026-batch/
+          - article [ref=e204]:
+            - link "JioStar Off Campus Drive 2026 | Software Development Engineer 1 – Freshers" [ref=e205] [cursor=pointer]:
+              - /url: https://jobsnet.in/jiostar-off-campus-drive-2026-software-development-engineer/
+              - 'img "Jio Star logo: white \"Jio\" in pink circle, white \"Star\" text on a dark blue background." [ref=e206]'
+            - heading [level=3] [ref=e207]:
+              - link "JioStar Off Campus Drive 2026 | Software Development Engineer 1 – Freshers" [ref=e208] [cursor=pointer]:
+                - /url: https://jobsnet.in/jiostar-off-campus-drive-2026-software-development-engineer/
+            - list [ref=e209]:
+              - listitem [ref=e210]:
+                - text: "On"
+                - time [ref=e211]: August 3, 2026
+                - text: /
+              - listitem [ref=e212]:
+                - text: In
+                - link "Off Campus Drive" [ref=e213] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2024 Batch" [ref=e214] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+                - link "2025 Batch" [ref=e215] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+                - link "2026 Batch" [ref=e216] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2026-batch/
+          - article [ref=e218]:
+            - link "London Stock Exchange Group Off Campus Drive 2027 – Engineering Graduate Programme" [ref=e219] [cursor=pointer]:
+              - /url: https://jobsnet.in/london-stock-exchange-group-off-campus-drive-engineering-graduate-programme/
+              - img "London Stock Exchange Group Off Campus Drive 2025 - Technology Graduate Programme" [ref=e220]
+            - heading [level=3] [ref=e221]:
+              - link "London Stock Exchange Group Off Campus Drive 2027 – Engineering Graduate Programme" [ref=e222] [cursor=pointer]:
+                - /url: https://jobsnet.in/london-stock-exchange-group-off-campus-drive-engineering-graduate-programme/
+            - list [ref=e223]:
+              - listitem [ref=e224]:
+                - text: "On"
+                - time [ref=e225]: August 3, 2026
+                - text: /
+              - listitem [ref=e226]:
+                - text: In
+                - link "2026 Batch" [ref=e227] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2026-batch/
+                - link "2027 Batch" [ref=e228] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2027-batch/
+                - link "Off Campus Drive" [ref=e229] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+          - article [ref=e231]:
+            - link "Eaton Off Campus Drive 2026 – Hiring IT Apprentice – AI/ML" [ref=e232] [cursor=pointer]:
+              - /url: https://jobsnet.in/eaton-off-campus-drive-2026-hiring-it-apprentice/
+              - img "Eaton Recruitment" [ref=e233]
+            - heading [level=3] [ref=e234]:
+              - link "Eaton Off Campus Drive 2026 – Hiring IT Apprentice – AI/ML" [ref=e235] [cursor=pointer]:
+                - /url: https://jobsnet.in/eaton-off-campus-drive-2026-hiring-it-apprentice/
+            - list [ref=e236]:
+              - listitem [ref=e237]:
+                - text: "On"
+                - time [ref=e238]: August 3, 2026
+                - text: /
+              - listitem [ref=e239]:
+                - text: In
+                - link "Off Campus Drive" [ref=e240] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2025 Batch" [ref=e241] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+                - link "2026 Batch" [ref=e242] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2026-batch/
+          - article [ref=e244]:
+            - link "PowerSchool Hiring Entry-Level Associate Software Engineer – Full Stack" [ref=e245] [cursor=pointer]:
+              - /url: https://jobsnet.in/powerschool-hiring-entry-level-associate-software-engineer/
+              - img "PowerSchool Hiring Entry-Level Associate Software Engineer (0-2 Years" [ref=e246]
+            - heading [level=3] [ref=e247]:
+              - link "PowerSchool Hiring Entry-Level Associate Software Engineer – Full Stack" [ref=e248] [cursor=pointer]:
+                - /url: https://jobsnet.in/powerschool-hiring-entry-level-associate-software-engineer/
+            - list [ref=e249]:
+              - listitem [ref=e250]:
+                - text: "On"
+                - time [ref=e251]: August 2, 2026
+                - text: /
+              - listitem [ref=e252]:
+                - text: In
+                - link "Off Campus Drive" [ref=e253] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2019 Batch" [ref=e254] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2019-batch/
+                - link "2020 Batch" [ref=e255] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2020-batch/
+                - link "2021 Batch" [ref=e256] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2021-batch/
+                - link "2023 Batch" [ref=e257] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2023-batch/
+                - link "2024 Batch" [ref=e258] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+                - link "2025 Batch" [ref=e259] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+          - article [ref=e261]:
+            - link "Quest Global Off Campus Drive 2026 – Hiring AI/ML Full Stack Developer" [ref=e262] [cursor=pointer]:
+              - /url: https://jobsnet.in/quest-global-off-campus-drive-hiring-full-stack-developer/
+            - heading [level=3] [ref=e263]:
+              - link "Quest Global Off Campus Drive 2026 – Hiring AI/ML Full Stack Developer" [ref=e264] [cursor=pointer]:
+                - /url: https://jobsnet.in/quest-global-off-campus-drive-hiring-full-stack-developer/
+            - list [ref=e265]:
+              - listitem [ref=e266]:
+                - text: "On"
+                - time [ref=e267]: August 2, 2026
+                - text: /
+              - listitem [ref=e268]:
+                - text: In
+                - link "Off Campus Drive" [ref=e269] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2022 Batch" [ref=e270] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2022-batch/
+                - link "2023 Batch" [ref=e271] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2023-batch/
+                - link "2024 Batch" [ref=e272] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+                - link "2025 Batch" [ref=e273] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+                - link "2026 Batch" [ref=e274] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2026-batch/
+          - article [ref=e276]:
+            - link "Harman Off Campus Drive 2026 | Associate Engineer – AI/ML with Python" [ref=e277] [cursor=pointer]:
+              - /url: https://jobsnet.in/harman-off-campus-drive-associate-engineer-ai-ml-with-python/
+            - heading [level=3] [ref=e278]:
+              - link "Harman Off Campus Drive 2026 | Associate Engineer – AI/ML with Python" [ref=e279] [cursor=pointer]:
+                - /url: https://jobsnet.in/harman-off-campus-drive-associate-engineer-ai-ml-with-python/
+            - list [ref=e280]:
+              - listitem [ref=e281]:
+                - text: "On"
+                - time [ref=e282]: August 2, 2026
+                - text: /
+              - listitem [ref=e283]:
+                - text: In
+                - link "Off Campus Drive" [ref=e284] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2024 Batch" [ref=e285] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+                - link "2025 Batch" [ref=e286] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+                - link "2026 Batch" [ref=e287] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2026-batch/
+          - article [ref=e289]:
+            - link "Siemens EDA Off Campus Drive 2026 – Member Of Technical Staff – Freshers" [ref=e290] [cursor=pointer]:
+              - /url: https://jobsnet.in/siemens-eda-off-campus-drive-hiring-member-of-technical-staff-freshers/
+              - img "Siemens EDA Off Campus Drive 2024 - Member Of Technical Staff" [ref=e291]
+            - heading [level=3] [ref=e292]:
+              - link "Siemens EDA Off Campus Drive 2026 – Member Of Technical Staff – Freshers" [ref=e293] [cursor=pointer]:
+                - /url: https://jobsnet.in/siemens-eda-off-campus-drive-hiring-member-of-technical-staff-freshers/
+            - list [ref=e294]:
+              - listitem [ref=e295]:
+                - text: "On"
+                - time [ref=e296]: August 1, 2026
+                - text: /
+              - listitem [ref=e297]:
+                - text: In
+                - link "Off Campus Drive" [ref=e298] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2022 Batch" [ref=e299] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2022-batch/
+                - link "2023 Batch" [ref=e300] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2023-batch/
+                - link "2024 Batch" [ref=e301] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+          - article [ref=e303]:
+            - link "Philips Off Campus Drive 2026 – Entry Level Full Stack Developer’s" [ref=e304] [cursor=pointer]:
+              - /url: https://jobsnet.in/philips-off-campus-drive-hiring-entry-level-full-stack-developers/
+              - img "Philips Off Campus Internship Program 2024 Hiring Tech Interns" [ref=e305]
+            - heading [level=3] [ref=e306]:
+              - link "Philips Off Campus Drive 2026 – Entry Level Full Stack Developer’s" [ref=e307] [cursor=pointer]:
+                - /url: https://jobsnet.in/philips-off-campus-drive-hiring-entry-level-full-stack-developers/
+            - list [ref=e308]:
+              - listitem [ref=e309]:
+                - text: "On"
+                - time [ref=e310]: August 1, 2026
+                - text: /
+              - listitem [ref=e311]:
+                - text: In
+                - link "2025 Batch" [ref=e312] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+                - link "2022 Batch" [ref=e313] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2022-batch/
+                - link "2023 Batch" [ref=e314] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2023-batch/
+                - link "2024 Batch" [ref=e315] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+                - link "2026 Batch" [ref=e316] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2026-batch/
+                - link "Off Campus Drive" [ref=e317] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+          - article [ref=e319]:
+            - link "Unisys Hiring Entry-Level Associate Software Engineer (0-2 Years)" [ref=e320] [cursor=pointer]:
+              - /url: https://jobsnet.in/unisys-hiring-entry-level-associate-software-engineer/
+              - img "Unisys Careers 2024 | Associate App Dev Engineer | 0-2 Years" [ref=e321]
+            - heading [level=3] [ref=e322]:
+              - link "Unisys Hiring Entry-Level Associate Software Engineer (0-2 Years)" [ref=e323] [cursor=pointer]:
+                - /url: https://jobsnet.in/unisys-hiring-entry-level-associate-software-engineer/
+            - list [ref=e324]:
+              - listitem [ref=e325]:
+                - text: "On"
+                - time [ref=e326]: August 1, 2026
+                - text: /
+              - listitem [ref=e327]:
+                - text: In
+                - link "Off Campus Drive" [ref=e328] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2023 Batch" [ref=e329] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2023-batch/
+                - link "2024 Batch" [ref=e330] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+                - link "2025 Batch" [ref=e331] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+                - link "2026 Batch" [ref=e332] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2026-batch/
+          - article [ref=e334]:
+            - link "Qualys Hiring Entry-level Java Full Stack Developer’s | 0-3 Years Experience" [ref=e335] [cursor=pointer]:
+              - /url: https://jobsnet.in/qualys-hiring-entry-level-java-full-stack-developers/
+              - img "Qualys logo and text, with a handshake over a glowing night city, symbolizing partnership." [ref=e336]
+            - heading [level=3] [ref=e337]:
+              - link "Qualys Hiring Entry-level Java Full Stack Developer’s | 0-3 Years Experience" [ref=e338] [cursor=pointer]:
+                - /url: https://jobsnet.in/qualys-hiring-entry-level-java-full-stack-developers/
+            - list [ref=e339]:
+              - listitem [ref=e340]:
+                - text: "On"
+                - time [ref=e341]: July 31, 2026
+                - text: /
+              - listitem [ref=e342]:
+                - text: In
+                - link "Off Campus Drive" [ref=e343] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2024 Batch" [ref=e344] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+                - link "2025 Batch" [ref=e345] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+                - link "2026 Batch" [ref=e346] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2026-batch/
+          - article [ref=e348]:
+            - link "HPE is Hiring Entry-Level Software Systems Engineer – DevOps(0-2 Years)" [ref=e349] [cursor=pointer]:
+              - /url: https://jobsnet.in/hpe-is-hiring-entry-level-software-systems-engineer-devops/
+              - img "HPE Recruitment 2024 - Hiring Any Graduate Freshers" [ref=e350]
+            - heading [level=3] [ref=e351]:
+              - link "HPE is Hiring Entry-Level Software Systems Engineer – DevOps(0-2 Years)" [ref=e352] [cursor=pointer]:
+                - /url: https://jobsnet.in/hpe-is-hiring-entry-level-software-systems-engineer-devops/
+            - list [ref=e353]:
+              - listitem [ref=e354]:
+                - text: "On"
+                - time [ref=e355]: July 31, 2026
+                - text: /
+              - listitem [ref=e356]:
+                - text: In
+                - link "Off Campus Drive" [ref=e357] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2022 Batch" [ref=e358] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2022-batch/
+                - link "2023 Batch" [ref=e359] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2023-batch/
+                - link "2024 Batch" [ref=e360] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+                - link "2025 Batch" [ref=e361] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+                - link "2026 Batch" [ref=e362] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2026-batch/
+          - article [ref=e364]:
+            - link "Regal Rexnord Off Campus Drive 2026 – Hiring IT Software Engineers (0-5 Years)" [ref=e365] [cursor=pointer]:
+              - /url: https://jobsnet.in/regal-rexnord-off-campus-drive-hiring-it-software-engineers/
+            - heading [level=3] [ref=e366]:
+              - link "Regal Rexnord Off Campus Drive 2026 – Hiring IT Software Engineers (0-5 Years)" [ref=e367] [cursor=pointer]:
+                - /url: https://jobsnet.in/regal-rexnord-off-campus-drive-hiring-it-software-engineers/
+            - list [ref=e368]:
+              - listitem [ref=e369]:
+                - text: "On"
+                - time [ref=e370]: July 30, 2026
+                - text: /
+              - listitem [ref=e371]:
+                - text: In
+                - link "Off Campus Drive" [ref=e372] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2024 Batch" [ref=e373] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+          - article [ref=e375]:
+            - link "CDK Global Hiring Associate Software Engineer (0-2 Years)" [ref=e376] [cursor=pointer]:
+              - /url: https://jobsnet.in/cdk-global-hiring-associate-software-engineer-0-2-years/
+            - heading [level=3] [ref=e377]:
+              - link "CDK Global Hiring Associate Software Engineer (0-2 Years)" [ref=e378] [cursor=pointer]:
+                - /url: https://jobsnet.in/cdk-global-hiring-associate-software-engineer-0-2-years/
+            - list [ref=e379]:
+              - listitem [ref=e380]:
+                - text: "On"
+                - time [ref=e381]: July 30, 2026
+                - text: /
+              - listitem [ref=e382]:
+                - text: In
+                - link "Off Campus Drive" [ref=e383] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2024 Batch" [ref=e384] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+                - link "2025 Batch" [ref=e385] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+                - link "2026 Batch" [ref=e386] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2026-batch/
+          - article [ref=e388]:
+            - link "Oracle Hiring Entry-Level Software Developers (0-2 Years)" [ref=e389] [cursor=pointer]:
+              - /url: https://jobsnet.in/oracle-hiring-entry-level-software-developers-0-2-years/
+            - heading [level=3] [ref=e390]:
+              - link "Oracle Hiring Entry-Level Software Developers (0-2 Years)" [ref=e391] [cursor=pointer]:
+                - /url: https://jobsnet.in/oracle-hiring-entry-level-software-developers-0-2-years/
+            - list [ref=e392]:
+              - listitem [ref=e393]:
+                - text: "On"
+                - time [ref=e394]: July 29, 2026
+                - text: /
+              - listitem [ref=e395]:
+                - text: In
+                - link "Off Campus Drive" [ref=e396] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2022 Batch" [ref=e397] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2022-batch/
+                - link "2023 Batch" [ref=e398] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2023-batch/
+                - link "2024 Batch" [ref=e399] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+          - article [ref=e401]:
+            - link "Cornerstone Off Campus Drive 2026 – Hiring Junior Software Engineer" [ref=e402] [cursor=pointer]:
+              - /url: https://jobsnet.in/cornerstone-off-campus-drive-2026-hiring-junior-engineer/
+              - img "Cornerstone Off Campus Drive - Hiring Junior Engineer" [ref=e403]
+            - heading [level=3] [ref=e404]:
+              - link "Cornerstone Off Campus Drive 2026 – Hiring Junior Software Engineer" [ref=e405] [cursor=pointer]:
+                - /url: https://jobsnet.in/cornerstone-off-campus-drive-2026-hiring-junior-engineer/
+            - list [ref=e406]:
+              - listitem [ref=e407]:
+                - text: "On"
+                - time [ref=e408]: July 29, 2026
+                - text: /
+              - listitem [ref=e409]:
+                - text: In
+                - link "Off Campus Drive" [ref=e410] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2023 Batch" [ref=e411] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2023-batch/
+                - link "2024 Batch" [ref=e412] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+                - link "2025 Batch" [ref=e413] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+                - link "2026 Batch" [ref=e414] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2026-batch/
+          - article [ref=e416]:
+            - link "Volvo Group is Hiring Freshers For Graduate Apprentice Trainee Program" [ref=e417] [cursor=pointer]:
+              - /url: https://jobsnet.in/volvo-group-is-hiring-freshers-for-graduate-apprentice-trainee-program/
+              - img "volvo bangalore hiring freshers" [ref=e418]
+            - heading [level=3] [ref=e419]:
+              - link "Volvo Group is Hiring Freshers For Graduate Apprentice Trainee Program" [ref=e420] [cursor=pointer]:
+                - /url: https://jobsnet.in/volvo-group-is-hiring-freshers-for-graduate-apprentice-trainee-program/
+            - list [ref=e421]:
+              - listitem [ref=e422]:
+                - text: "On"
+                - time [ref=e423]: July 29, 2026
+                - text: /
+              - listitem [ref=e424]:
+                - text: In
+                - link "Off Campus Drive" [ref=e425] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2022 Batch" [ref=e426] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2022-batch/
+                - link "2023 Batch" [ref=e427] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2023-batch/
+                - link "2024 Batch" [ref=e428] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+                - link "2025 Batch" [ref=e429] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+          - article [ref=e431]:
+            - link "Red Hat Internship Drive 2026 – Software Engineering Interns" [ref=e432] [cursor=pointer]:
+              - /url: https://jobsnet.in/red-hat-internship-drive-2026-software-engineering-interns/
+            - heading [level=3] [ref=e433]:
+              - link "Red Hat Internship Drive 2026 – Software Engineering Interns" [ref=e434] [cursor=pointer]:
+                - /url: https://jobsnet.in/red-hat-internship-drive-2026-software-engineering-interns/
+            - list [ref=e435]:
+              - listitem [ref=e436]:
+                - text: "On"
+                - time [ref=e437]: July 28, 2026
+                - text: /
+              - listitem [ref=e438]:
+                - text: In
+                - link "Off Campus Drive" [ref=e439] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2026 Batch" [ref=e440] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2026-batch/
+                - link "2027 Batch" [ref=e441] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2027-batch/
+                - link "Apprentice" [ref=e442] [cursor=pointer]:
+                  - /url: https://jobsnet.in/apprentice/
+                - link "Internships" [ref=e443] [cursor=pointer]:
+                  - /url: https://jobsnet.in/internships/
+          - article [ref=e445]:
+            - link "Capco Off Campus Drive 2026 – Hiring For Application Platform Support" [ref=e446] [cursor=pointer]:
+              - /url: https://jobsnet.in/capco-off-campus-drive-hiring-for-application-platform-support/
+            - heading [level=3] [ref=e447]:
+              - link "Capco Off Campus Drive 2026 – Hiring For Application Platform Support" [ref=e448] [cursor=pointer]:
+                - /url: https://jobsnet.in/capco-off-campus-drive-hiring-for-application-platform-support/
+            - list [ref=e449]:
+              - listitem [ref=e450]:
+                - text: "On"
+                - time [ref=e451]: July 28, 2026
+                - text: /
+              - listitem [ref=e452]:
+                - text: In
+                - link "Off Campus Drive" [ref=e453] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2024 Batch" [ref=e454] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+                - link "2025 Batch" [ref=e455] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+                - link "2026 Batch" [ref=e456] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2026-batch/
+          - article [ref=e458]:
+            - link "NTT Data Hiring Freshers As Associate Graduate (Tech/Non-Tech)" [ref=e459] [cursor=pointer]:
+              - /url: https://jobsnet.in/ntt-data-hiring-freshers-as-associate-graduate/
+            - heading [level=3] [ref=e460]:
+              - link "NTT Data Hiring Freshers As Associate Graduate (Tech/Non-Tech)" [ref=e461] [cursor=pointer]:
+                - /url: https://jobsnet.in/ntt-data-hiring-freshers-as-associate-graduate/
+            - list [ref=e462]:
+              - listitem [ref=e463]:
+                - text: "On"
+                - time [ref=e464]: July 28, 2026
+                - text: /
+              - listitem [ref=e465]:
+                - text: In
+                - link "Off Campus Drive" [ref=e466] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+                - link "2024 Batch" [ref=e467] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2024-batch/
+                - link "2025 Batch" [ref=e468] [cursor=pointer]:
+                  - /url: https://jobsnet.in/2025-batch/
+        - navigation "Posts pagination" [ref=e470]:
+          - generic [ref=e471]:
+            - generic [ref=e472]: "1"
+            - link "2" [ref=e473] [cursor=pointer]:
+              - /url: https://jobsnet.in/page/2/
+            - link "3" [ref=e474] [cursor=pointer]:
+              - /url: https://jobsnet.in/page/3/
+            - link "4" [ref=e475] [cursor=pointer]:
+              - /url: https://jobsnet.in/page/4/
+            - generic [ref=e476]: …
+            - link "95" [ref=e477] [cursor=pointer]:
+              - /url: https://jobsnet.in/page/95/
+          - link "Next" [ref=e478] [cursor=pointer]:
+            - /url: https://jobsnet.in/page/2/
+    - contentinfo [ref=e481]:
+      - generic [ref=e483]:
+        - paragraph [ref=e486]: © 2026 Jobsnet.in
+        - navigation "footermenu" [ref=e488]:
+          - list [ref=e489]:
+            - listitem [ref=e490]:
+              - link "Home" [ref=e491] [cursor=pointer]:
+                - /url: https://jobsnet.in
+            - listitem [ref=e492]:
+              - link "About us" [ref=e493] [cursor=pointer]:
+                - /url: https://jobsnet.in/about-us/
+            - listitem [ref=e494]:
+              - link "Contact Us" [ref=e495] [cursor=pointer]:
+                - /url: https://jobsnet.in/contact/
+            - listitem [ref=e496]:
+              - link "Advertise With Us" [ref=e497] [cursor=pointer]:
+                - /url: https://jobsnet.in/advertise/
+            - listitem [ref=e498]:
+              - link "Terms" [ref=e499] [cursor=pointer]:
+                - /url: https://jobsnet.in/terms-and-conditions/
+            - listitem [ref=e500]:
+              - link "Privacy" [ref=e501] [cursor=pointer]:
+                - /url: https://jobsnet.in/privacy-policy/
+  - link "Join WhatsApp" [ref=e503] [cursor=pointer]:
+    - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP

@@ -1,0 +1,373 @@
+- generic [active] [ref=f1050e1]:
+  - link "Skip to content" [ref=f1050e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f1050e3]:
+    - banner [ref=f1050e4]:
+      - generic [ref=f1050e7]:
+        - link [ref=f1050e11] [cursor=pointer]:
+          - /url: https://jobsnet.in/
+          - img "Jobsnet.in" [ref=f1050e12]
+        - generic [ref=f1050e14]:
+          - navigation "Main Menu" [ref=f1050e15]:
+            - list [ref=f1050e16]:
+              - listitem [ref=f1050e17]:
+                - link "Home" [ref=f1050e18] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - listitem [ref=f1050e19]:
+                - link "Internships" [ref=f1050e20] [cursor=pointer]:
+                  - /url: https://jobsnet.in/internships/
+              - listitem [ref=f1050e21]:
+                - link "Off Campus Drives" [ref=f1050e22] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+              - listitem [ref=f1050e23]:
+                - link [ref=f1050e24] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+              - listitem [ref=f1050e28]:
+                - link [ref=f1050e29] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+          - button "Search" [ref=f1050e33] [cursor=pointer]
+    - main [ref=f1050e36]:
+      - insertion [ref=f1050e38]:
+        - iframe [ref=f1050e40]:
+          - generic [ref=f1053e1]:
+            - generic [ref=f1053e2]:
+              - generic:
+                - generic [ref=f1053e3] [cursor=pointer]
+                - button [ref=f1053e8] [cursor=pointer]
+            - insertion [ref=f1053e16]:
+              - link [ref=f1053e19] [cursor=pointer]:
+                - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstdq7Ka0hXiTk800VY_0sjO3kWKhzxQjTR89OFmB8aENY2aHEUq1r3ueqwlEKmbouffhoZKT2mddcQNLPEzb2I3Hpqx9cxKm8r_syqhtY7NmUNL6uDN58gVAKuWH6UOuj4mfauThc9rzmCNJrYWt8m7zW7eOs6_uXzxvKVgMAeY9CrW-woQC7EsnU36falIEuyr_2B6dTii7_QUdASLomLwPZq2CJg-7U5txYKFWCmTyDA0sPFZWkrfSQciRRLwebyDsb-5-2o-f2TzqHst8R1KCyEIJyYi85BAqHLYrdbleHa0qc4c0zsARay8P_kzb40lsI2NnSvxZEpqnnUl7DLgxz2j9ccTeGMphbESWrB4iPqGmjGilfeLSoKARB2HbXcyaF5eUX8MbVTcNg1BkKhjosbBXvnaMBdN_HFj7JJD6TAOGbo8Vujn33gAb2y4PVK8n8zmp5sRgF-7paNoZ6yzvNM8DXmzZHukkgnpbE0tysvKdOdazNxgX3S2FnkGDrK0_7MkKpb7U2A_UEYjk36mneKcY7Dm1novCgRH35adP8ufI72TNfNWXjMyrLMUVi8l-xJ0kOvjfmLAtQ2N47QZ3-Ip-c05PikWVyoskHVUKZPqF5S6I7T31AXZgWhTiDZoixpTbUtIRzK6EAutJBjotD5sHOKDSyRqwBGrM6yVt1xGnxsPEX8qBrqi1s4QGgNIGiqBwPhO-Eb4wkwZDxlRuBLuPeVTUGGmzJTvPkQ1adEleEEVHmiYxygZTeMGm8wdbKOmj-m2Nr4L51eBd7CTyCHSkAlMjKXKm5kerhXW_U9fuujDv9CiWP8P6UmBj8w3kpkeOE56PluO8-gjvelMJj5Ow8ll_jHMjPbcygk5MF2lgRcijwQ1zKLtzEkxFd93Cw&sai=AMfl-YQxwIS2y-v40dY2Wyxi2vUQGwhT8aix_FosfrbupJOZb3TWBTufWn0oW5vxqyQ_mdFz2TG2CzBEV0RsICd_J6yZjhSUZy5TfmRQPTjBOzCyghbAog26McJCX1apJLDGkDvvAv1tCspv3_9BXAvtpxvUSzmMrWH_WrOfZxbwXuZ3qX4dcX5_YEGhDb9ng7owC8-Jq2IFPC1koqYNIJ_KlbR9jW-fzzbY6G8jWpx8ZT03To0Sq8qRt0iKn2fJj-sDwldRtWGRTyjgiZ6GUWqpqBZF-cSSqM40UEOjwipPjg-3OJ5H8fAX_uEMEWzaD94QNxGkX39bp9iFq-i_BKL_iDJoxmeQr7bfk1VcERg&sig=Cg0ArKJSzC28DR9w8Gi8&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://googleads.g.doubleclick.net/dbm/clk%3Fsa%3DL%26ai%3DCvm_aoz90ar3oB-OH4bMPvpO0oQ-K6JqRiAGsh_aDqBXO7c378UUQASCJgvF0YOWa6YPgDqAB7uXe4gHIAQmpAnvWVjYSk0Y-qAMByAObBKoE-wFP0OinF2YnGHzT8LhkpACwlxJLle4FOxL7znQ7MgUxNoxHlIIB_pHUMJh_vrJBA7HM4Rruds7TCSg4IBFmV8OI3L8IcM6HZZobwQnhhE9T4Hz2nXphwmcZoI49mDH4tuXx9uVd9726YuGps97YVN2KbH_XcjM74tGWHa6x4DmnWsicxGgQ5iMRpF_E5L0UUAU1SyO_hoJhKWWFFdMMxxt8-PLJDDau_FdiBEPlov16tHzYR5zGRrABjfGtpQoQmOZZ35Sq6VNQtofucQp3VGa4bQOP_kRtYJ3f2729naceEnC7dobiZ-PwqHOnyhmOMil1fcQLbDegeiZ0d8AEjb_Or4cF4AQDiAXSnqv8UpAGAaAGTYAH-pmhnQKIBwGQBwKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQKoB-fXsQLYBwDSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOljF6pmAxYuWA2ABgAoBmAsByAsBgAwBogwMKgoKCI7fsQKV4rECqg0CSU7qDRMIlMmbgMWLlgMV40N4AB2-CS308A0BiA4JsBOGsook2BMN2BQB0BUByhYCCgD4FgGAFwGyFxAYAioKMzIzNTIxMzc1OVAGqhgXCQAAAACAffZAEgozMjM1MjEzNzU5GAGyGAkSAvpTGE0iAQDQGQE%26ae%3D1%26num%3D1%26cid%3DCAQS-gEAEQoqgUNvrncVZfwB40G1ZkpuJcCQ34K7L4FRjJxL5VgNXeLAUepS-2ATNZ7h3rVzlCoc4v_O1AeBB29cJGTeP04UO_yN2gq5BWyJAkP6zJzFZiqEX5Q8Uf3Ipq_aqGXig08zajTBqJuv4hb-U9eMEyaUqQo4I4PHHukgI5UMzkskJu2nNeuN1yHyl_1YtmziWyYc8Fk0Yxhq2himWiP22Zvd7a7gzmYmbtbXfdbSJaVIXWysCpNGo8FResIdXntiyOnrBBdll5u1sKRvJGeGKLVOeynPxJaI_J1bLWvZWK5lZWU-KQPnZCjk2y930xERvBzxizJ5ebI0GAE%26sig%3DAOD64_36ozA86MuZkU7_KlfINlSRVu2kvw%26client%3Dca-pub-9713759261380411%26dbm_c%3DAKAmf-AfW8VLWk3ucmVSX3qMFcB-KC0FvCgqPRhrWQXTO2ZXIjvLBmedmAzrDcs6JwnTnkmDpBVMcgM93sG0yZ-jNqbFJeZC8-7gDN8dFFC7dGkVeZPZIenUcM2kNMA8aIcyqZL85hDP-Y5AaUry1xgaC55V2YztW2GL-c1PSRYWWBt3xiVVlxIr_uD0hY8pQDukIonaGU9ZQImkkRexc17WJr9J6v91gcdn6QmuhQPbV5Z2nSdHPR93r3LRBX_njcM3McvR7A4HojuuZlxSmpb-8w-tjaij8dkkyfn-klcZSBXPKRrTIws%26cry%3D1%26dbm_d%3DAKAmf-D3UN7HvQZw-_tGjPW2mhyCeqwPKc4NgdShDXjh4-whcLvtIGks7g3qfj2bvx6ZgjCcCD_Gw6IYTQxUGOk72ya9kJo7JUqeaQWW6yyK7dRM3X0YvFgr163rjq57f5m0EtQ_N2xTbveVX_YJZaKb9aYZ2v0zoEij4L7K7j8htnCFWeE_pXBmiGx_u3iGwxcPkMOa8ThV-Df8oXlJKxWJZGg_g2LIE86odhVoQ_vKiEOW4GTMgTWSxebssXvmkI0_Efgm5U1ba3v1v-6SSARgxYJ6elCFPRlzftbwrYeWgXH3TDLeNpmA8gvizEQF85oYWOgRj2o8oIKR0rtSKtWfnE_ks0Ynx5EpsvMN6ExEMbW_8L0UfiqHVeoWIIBm5hnUwa-FGxK5yKbw_wrOk2flcgD_YtfU6t5oHUqc7GeU0lyYKlVfYK8YSTGl4HAkM8zBpz2cUoIRupGtyrGbAK_JORUt1Ahydu5OpbmCuPAhLslvh3jhEOCn6DTiJkFe7FquhMNHKj6570ds3sbp8PWDmGFLqIx7HcEwUHirzp-MVjHd4N69nHncQzQRUhFwJj6xZUTCt9a93sTrP8g2AUzXiecbtzVfMfcJ09WOzbDGEFk1-bsAYkW73pXtb_7AGZHKwTGszhlTo2zeJrTjMKMKvZeGw1Hfk3Gxr4cA0VIuWaMQ-QAQv89HOFG722xQZvbuG_XCSF2jIbw0Ylt7Isx9LIHrZ5MKcyE8ZCLloyeNoW6jTvyAXEGtH4NMTiGBqGShj8mekQkk4QHFgIkxl6WqACxiSluGhQ%26adurl%3Dhttps://careers.unitedhealthgroup.com/search-jobs%253ForgIds%253D34088%2526ascf%253D%25255b%25257B%252522key%252522:%252522custom_fields%2525252ECountry1%252522,%252522value%252522:%252522India%252522%25257D,%25257B%252522key%252522:%252522custom_fields%2525252EGradeLevel%252522,%252522value%252522:%25252229%252522%25257D,%25257B%252522key%252522:%252522custom_fields%2525252EGradeLevel%252522,%252522value%252522:%25252230%252522%25257D,%25257B%252522key%252522:%252522custom_fields%2525252EGradeLevel%252522,%252522value%252522:%25252231%252522%25257D%25255d%2526src%253DUNS-19965%2526utm_source%253Dyoptima.com%2526utm_medium%253Ddisplay%2526utm_campaign%253DIndia%2526utm_content%253Dniche_site%2526utm_term%253D436949626%2526ss%253Dpaid%2526dclid%253D%2525edclid!%2526gad_source%253D7%2526gad_campaignid%253D23406084136
+                - img "Advertisement" [ref=f1053e20]
+      - generic [ref=f1050e41]:
+        - article [ref=f1050e42]:
+          - generic [ref=f1050e44]:
+            - navigation [ref=f1050e45]:
+              - link "Home" [ref=f1050e47] [cursor=pointer]:
+                - /url: https://jobsnet.in/
+              - link "Off Campus Drive" [ref=f1050e51] [cursor=pointer]:
+                - /url: https://jobsnet.in/off-campus-drive/
+              - generic [ref=f1050e54]: Qualcomm Off Campus Drive 2026 – Hiring Software Engineer – New Grads
+            - heading "Qualcomm Off Campus Drive 2026 – Hiring Software Engineer – New Grads" [level=1] [ref=f1050e56]
+            - list [ref=f1050e57]:
+              - listitem [ref=f1050e58]:
+                - text: By
+                - link "Anand Kumar" [ref=f1050e59] [cursor=pointer]:
+                  - /url: https://jobsnet.in/author/anand/
+                - text: /
+              - listitem [ref=f1050e60]:
+                - text: "On"
+                - time [ref=f1050e61]: June 16, 2026
+          - figure [ref=f1050e62]:
+            - img "Qualcomm Off Campus Drive 2024 - Entry Level Software Engineers" [ref=f1050e64]
+          - generic [ref=f1050e65]:
+            - paragraph [ref=f1050e66]:
+              - text: Are you a bright, aspiring engineer from the 2026 or 2025 batch, eager to kickstart your career with a global leader in wireless technology? Qualcomm, a pioneer in innovation that powers the mobile world, is excited to announce its Off Campus Drive for 2026, targeting talented
+              - link "Software" [ref=f1050e67] [cursor=pointer]:
+                - /url: "#"
+              - link "Engineers" [ref=f1050e70] [cursor=pointer]:
+                - /url: "#"
+              - text: for their New Grads cohort! This is an incredible opportunity for freshers to join a company at the forefront of mobile chipsets, IoT, AI, and connectivity solutions.
+              - link "Software" [ref=f1050e73] [cursor=pointer]
+            - insertion [ref=f1050e78]:
+              - iframe [ref=f1050e80]:
+                - iframe [ref=f1054e1]:
+                  - generic [ref=f1058e1]:
+                    - generic [ref=f1058e2]:
+                      - generic:
+                        - generic [ref=f1058e3] [cursor=pointer]
+                        - button [ref=f1058e8] [cursor=pointer]
+                    - insertion [ref=f1058e16]:
+                      - link [ref=f1058e19] [cursor=pointer]:
+                        - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstTt0lpPU-xoyISWx8w55Gt5vg59rN5Ear_r2t0pURhKH66GpasZUAmjFLBylKEMyJoO6nxHc1i_vNEDoFcEvxhCRkICxPreIVv7A-Op0i9i_NbX5g_mCI8EGb5VrGj1bkXX6JYTJWZrV2E4JnCkTRg6SShagemSQ9iX8tgFAwuRw7PdLTyCKzOT0ElbzEa8TbzTTMwLVBcX1Pmb2bRFzphKMzjPD_O53LayMk6rVky6hZ_CTPW43nNrOgN_iffXp8fn-jTzZhqWEhB-j2d6MMjL4QZZOnJILxpOs_KlUo21L3vMfo71qnW1mPYQDaVxjiLfV8cAIYjildr1ZpsW6xUsI1zMiXw-jcVGkIGSAzDizKdVnxRgKK7D7c4TVIKjdfcHEG4A0WBYe7ArWKCoFIZxZThKhIUzD4CgENe4pQBdlNQ5KlQuQKsVQmloH3jYrgjyWP-imNwhuCcMBRmf_V_K1J6q1cRRXsWD2gU-W6MLQeojfpiF6bD4OIfFpE7SooG2yMUOwFMT63cp94d9m9ZYRoZiGhI-Jbk3PuIpO62emgejgG1nMyPFmpttim4xt-TJKLdIClk29-3p-1t8AqIQQMwTi5Dbf60wUVqKzvNKj2eN2Hb812z5rbQqHmU0gbZh8HSmsyuw844gtqgQvIykbGM482iJs4701yC53TPqeuNu6vLh_a8aJJnpW0ITFp4Nms0KeS0WngaQzaiTj-0UtUX-DdaeatGe4RIjJSUdL-7fQPgCJbxSamkxn-9eUePnO-7OCGUaSvkj9zMAIHondCn8QUq2GzCQFVEbZWPHO0Bb_7rPylQeVj-tDYMRr876CJ4y_cGnXKREXx3THz5Hamt1m5ZFSH9FwUFLlhjVduu1CkofFjxq7ha3rSd2kQVyQ&sai=AMfl-YTqhpuQLHMSwkJcASEC_oY_298Az7LYQ-2VVKxoMTPQ9KPq_o1CfUXGwYdv79cH1efEegpaIHO0m_AsNpWUvhE5MC_3IXBiNFVo3JPB_eOz-sHbjDW9E_f9UIAfSG03jOFlmfuYVABflGLosgek5ZAvV5tF7nn-BMI0T_BofsI7oIBmBk9P5yYKHIMsAEW05PEifN4Yi5H1kCkp6f3s2WOAeLvA6at55Ucs2fDIOBw8HLx-JyqZT6Z5T1Lwkwyd72B5s2JQqnmWALqCWXOjyJKKoawZLCufaLwDozPvIFtXpO3KHHVU3A2kPwl4DJ6iHfX6p8xOlu0EiWtEyxT7AywWxUbN_siMPglhNaA&sig=Cg0ArKJSzM-D70gmYIVW&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://googleads.g.doubleclick.net/dbm/clk%3Fsa%3DL%26ai%3DCuo8xoz90asWhCcSpmtIP6ubBkQSK6JqRiAG8hfaDqBXO7c378UUQASCJgvF0YOWa6YPgDqAB7uXe4gHIAQmpAnvWVjYSk0Y-qAMByAObBKoE-wFP0BjjwVAYeodu9k36UvWYNzQ2VmCT2jrHF_e4l-AnCll6x4DXxo3hnBOTbckoidcdsnTyMRsMLG0NeTFpFzZWY525X7Op31xXGvbFyjEZogPiaQ4WkcWr5W01IxyNUKP6-DRx0oWUn3gTL5pKFArgj-9x0EqU4C_llqnj0Dn4I2SEAOF5WzPb_W3_WpHwAhQXe__a9Q75YwDWUGas6uJt1wZb8QKKc_ZM97vHpYXHkpZ22W2mSS20T9J9G9Kbldj2j1ArjBrwuWBi4JR9-WgFKzS5tL22lHLEoHYJgyQrs3TErQr68Wd3JFNmSCZmPuD1SKq9yboQpid5icAEjb_Or4cF4AQDiAXSnqv8UpAGAaAGTYAH-pmhnQKIBwGQBwKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQKoB-fXsQLYBwDSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOliSsJuAxYuWA2ABgAoBmAsByAsBgAwBogwMKgoKCI7fsQKV4rECqg0CSU7qDRMIjIOdgMWLlgMVxJRGBB1qczBC8A0BiA4JsBOGsook2BMN2BQB0BUByhYCCgD4FgGAFwGyFxAYAioKMjExMzcwMzc3OVAGqhgXCQAAAAAQIfRAEgoyMTEzNzAzNzc5GAGyGAkSAvpTGE0iAQDQGQE%26ae%3D1%26num%3D1%26cid%3DCAQS-gEAEQoqgWUtXI5lKF7BHJSeDvDPPz8sGtrin7xO7Prj0Ulc5ucSS8lwi-Brujj5HasnF8LbraeIz6JWXsyL8t8rNiOopABuKAAaRmWW0gO53IHETRrft6R5ytS_HrWpFdGXytMJMyZ7I5gxYKjvxW46jLNq8HyN4Qq1sp70yuVPrx23fnquM1lvecUANwQ55lXq4uAqYHYSI_FkBlnkgrz7tPl3fSN9xBYcRJ7gf4EqVTPj0LjA8-6s271xJEtuQ11sO3X0h1jwHqrcHKJmlBd9Uc0fWwqM3DaIjh7qb10TTXfFH6JiKuiQSK3UGvsfwj6VKIIshM8x15uvGAE%26sig%3DAOD64_3fARVGyJHMd9YlVnrXW2_kqTZW2g%26client%3Dca-pub-9713759261380411%26dbm_c%3DAKAmf-DxWv5yOEKho1aauycGRtt1MaZQEaSYvm4HgbTg67hoznY2Cwlu9K8Ks1K5eL-S3TQk7dZUxI6vA9aPPe-EWzx3VP5WKgj_adY62BmYPdP542pSjSR8qfTvAvtkk8FWIFxW55d7kCdh6o5wNGOFMq28dIiuR7Cl8ZrbNKgJYfip0BgcHdUONal4bNHyywaoizCy9PNVytU4bufxxmu7AXaDGiyn1huT8z_nwK8L9d001hrlelF-_Ziw2EGaQqCAK2kgnkgMvAtnvZZAuvbW_dnbxwegLRx0rLwPXURb1DEmK_kFSXcjDGDSobddFY9LKrtGrNfT%26cry%3D1%26dbm_d%3DAKAmf-CcXUTudp_c14t89Hplkfi4Xs4lRxAwRZfaSu8kTng0CeygNBVML_2ey0tC3Wpgu41OWR9_x8gPfqpuSk38p3S1cZKwLN3pwAbkh8CofMpqmPkrurwcK9Poc5QrwL876W38bMm8C-bKB5q5hjSf9x6-B1IjlixTWLauW_UesBEWFMbWoiv7CK8u5mWrnFS0L-xTI7ZoV2qb-__vmDprbXlygGBJECLmE4LT3g81ndBQfS_CkH-Y3j71sVWv_tTCoj1s-jKBEk6fgUKK5T2qnOXt0ndCZgCfOhKK30hAMUkCF0pxewctM9iqpSTJgzwrBo3uHylpmR1uh2ltt2HcUZTyxM3dMA5ZmuTQTlOleV-X22pxqCCm60t67G6enmO9Qv5sD2o3Xbtc3aAR7KWwAregdVwJL6CGpiueHBlQ3RkiIXcQUUkqDFzIPVHhc2sJTQbZvldY8C9xyK6PlBFJAEImApLyPGIlD0Fk5sGmT_jzD8K0j15GoLh67Qpu16gZNZ98B9g8ZEd3qDXBHpX7sCNGpXHeBgHpUHpR5MZIP4fqWlpTSRhU7ZWFomuyYUDhOKbmx46EQRubNNJ1c-EQwMUzOBYvUKlTPe2bT9vTdzyvX87ELf_usfYzNMuNytiDX6EL-KLCVsW6WBDP8Ni7Pd_TuLAvU_O_ZGcCSbMByibCfCp7Z5fwdmXAQQFkgdMkEqWojQKeWvWdTcBZmj-nY26XE1cFzP0gH6Xg0sV7wV5tV15jCHbVeQmOuOsNekz4V83wGE8dEwh75xKC8TsfXyqLmRFMYCDWQBi6fbLhU0ypxVpRIHo%26adurl%3Dhttps://careers.unitedhealthgroup.com/search-jobs%253ForgIds%253D34088%2526ascf%253D%25255b%25257B%252522key%252522:%252522custom_fields%2525252ECountry1%252522,%252522value%252522:%252522India%252522%25257D,%25257B%252522key%252522:%252522custom_fields%2525252EGradeLevel%252522,%252522value%252522:%25252229%252522%25257D,%25257B%252522key%252522:%252522custom_fields%2525252EGradeLevel%252522,%252522value%252522:%25252230%252522%25257D,%25257B%252522key%252522:%252522custom_fields%2525252EGradeLevel%252522,%252522value%252522:%25252231%252522%25257D%25255d%2526src%253DUNS-19965%2526utm_source%253Dyoptima.com%2526utm_medium%253Ddisplay%2526utm_campaign%253DIndia%2526utm_content%253Dniche_site%2526utm_term%253D436954249%2526ss%253Dpaid%2526dclid%253D%2525edclid!%2526gad_source%253D7%2526gad_campaignid%253D23406084130
+                        - img "Advertisement" [ref=f1058e20]
+            - paragraph [ref=f1050e81]:
+              - text: If you’re looking to design, develop, and innovate cutting-edge
+              - link "software" [ref=f1050e82] [cursor=pointer]:
+                - /url: "#"
+              - text: that shapes the future of technology, then the Qualcomm Off Campus Drive 2026 is your gateway to an extraordinary career. Apply now and become part of a team that’s redefining what’s possible!
+              - link "Engineering & Technology" [ref=f1050e85] [cursor=pointer]
+            - 'heading "Qualcomm Off Campus Drive 2026: Key Highlights" [level=2] [ref=f1050e89]'
+            - figure [ref=f1050e90]:
+              - table [ref=f1050e91]:
+                - rowgroup [ref=f1050e92]:
+                  - row [ref=f1050e93]:
+                    - columnheader "Aspect" [ref=f1050e94]
+                    - columnheader "Details" [ref=f1050e95]
+                - rowgroup [ref=f1050e96]:
+                  - row [ref=f1050e97]:
+                    - cell [ref=f1050e98]:
+                      - strong [ref=f1050e99]: Company
+                    - cell "Qualcomm" [ref=f1050e100]
+                  - row [ref=f1050e101]:
+                    - cell [ref=f1050e102]:
+                      - strong [ref=f1050e103]: Job Title
+                    - cell "Software Engineer" [ref=f1050e104]
+                  - row [ref=f1050e105]:
+                    - cell [ref=f1050e106]:
+                      - strong [ref=f1050e107]: Experience
+                    - cell "Freshers / New Grads" [ref=f1050e108]
+                  - row [ref=f1050e109]:
+                    - cell [ref=f1050e110]:
+                      - strong [ref=f1050e111]: Batch
+                    - cell "2026, 2025 (or any relevant batch)" [ref=f1050e112]
+                  - row [ref=f1050e113]:
+                    - cell [ref=f1050e114]:
+                      - strong [ref=f1050e115]: Qualification
+                    - cell "BE/B.Tech/BSc/MCA/MS/M.Tech or Related" [ref=f1050e116]
+                  - row [ref=f1050e117]:
+                    - cell [ref=f1050e118]:
+                      - strong [ref=f1050e119]: Job Location
+                    - cell "Hyderabad, Bangalore, Chennai, Noida (Pan India)" [ref=f1050e120]
+                  - row [ref=f1050e121]:
+                    - cell [ref=f1050e122]:
+                      - strong [ref=f1050e123]: Salary Expectation
+                    - cell "20-30 LPA (Estimated)" [ref=f1050e124]
+                  - row [ref=f1050e125]:
+                    - cell [ref=f1050e126]:
+                      - strong [ref=f1050e127]: Application Mode
+                    - cell "Online" [ref=f1050e128]
+            - heading "About Qualcomm" [level=2] [ref=f1050e129]
+            - paragraph [ref=f1050e130]:
+              - text: Qualcomm is a world leader in wireless technology innovation. We are a company of inventors that created and continue to drive the foundational breakthroughs that make mobile technology and its many benefits possible. Our innovations are at the heart of millions of devices, connecting people, places, and things around the world. From 5G to AI, automotive to IoT, Qualcomm technologies are transforming industries and enriching lives. Joining Qualcomm means becoming part of a legacy of innovation and working alongside some of the brightest minds in the industry.
+              - link "Software" [ref=f1050e131] [cursor=pointer]
+            - generic [ref=f1050e137]:
+              - generic [ref=f1050e138]:
+                - generic [ref=f1050e139]: WhatsApp Channel
+                - link "Join Now" [ref=f1050e141] [cursor=pointer]:
+                  - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+              - generic [ref=f1050e142]:
+                - generic [ref=f1050e143]: Telegram Channel
+                - link "Join Now" [ref=f1050e145] [cursor=pointer]:
+                  - /url: https://telegram.me/campusdrivejobs
+            - heading "Qualcomm Software Engineer Job Description" [level=2] [ref=f1050e146]
+            - paragraph [ref=f1050e147]: As a Software Engineer at Qualcomm, you will be instrumental in designing and developing sophisticated software for Qualcomm’s next-generation mobile chipsets, leveraging cutting-edge technology. We are seeking energetic, creative, and self-driven engineers passionate about pushing the boundaries of technology.
+            - paragraph [ref=f1050e148]: Qualcomm is looking for energetic, creative and self-driven engineer to work in ➢ Multimedia Technologies such as Audio and Video codecs, Image Processing, ➢ Wireless Modem Technologies, such as 4G, WiFi, Bluetooth, Self-Organizing Networks. ➢ Platform Level SW, such as, Linux, Android, Windows, Board Support Packages. ➢ IOT Technologies, for Connected Cameras, Smart Assistants, Drones, Virtual Reality, Augmented Reality.
+            - insertion [ref=f1050e150]
+            - paragraph [ref=f1050e152]:
+              - strong [ref=f1050e153]: "Campus Grads will be working on following areas:"
+              - link "Engineering & Technology" [ref=f1050e154] [cursor=pointer]
+            - paragraph [ref=f1050e158]: • Development of real-time embedded software and device drivers • Mobile SW development for Windows Mobile, Android or Linux • Good understanding of OS concepts, Data structures, etc • C/C++ and object oriented design • Wireless network standards such as CDMA/GSM/UMTS/LTE • Linux/UNIX, Linux Drivers, Linux Kernel Development • Protocols such TCP/UDP/IP/SIP/RTP etc • Multimedia technologies including Audio, Video, Imaging • Excellent analytical and problem solving skills • Ability to collaborate and work in teams. • Good verbal and written communication skill
+            - paragraph [ref=f1050e159]:
+              - text: "Opportunities include: • SW development for Android, Window Mobile based Embedded Platforms • Multimedia software stack, firmware and driver Development • Wireless Modem and connectivity Software and Firmware Development • Communication protocol stack Software Development • Kernel, BSP and Device Driver Development • Application SW and UI development. • SW Architecture for embedded devices based on Android, Windows. • Design and development based on Object oriented programming."
+              - link "Software" [ref=f1050e160] [cursor=pointer]
+            - paragraph [ref=f1050e164]:
+              - strong [ref=f1050e165]: "Minimum Qualifications:"
+              - text: • Bachelor’s degree in Engineering, Information Systems, Computer Science, or related field.
+            - paragraph [ref=f1050e166]:
+              - strong [ref=f1050e167]: Education
+              - text: ": Masters, Bachelors: Computer Science Engineering, Communication Engineering, ECE,"
+            - heading [level=4] [ref=f1050e168]:
+              - strong [ref=f1050e169]: "How To Apply :"
+            - paragraph [ref=f1050e170]: The intrested and eligible candidates can apply for the hiring on the following application link.
+            - paragraph [ref=f1050e171]:
+              - strong [ref=f1050e172]:
+                - text: "Qualcomm Apply Link:"
+                - link "Click Here" [ref=f1050e173] [cursor=pointer]:
+                  - /url: https://careers.qualcomm.com/careers/job/446706882270?hl=en-US&utm_source=linkedin&domain=qualcomm.com&source=APPLICANT_SOURCE-6-2
+            - insertion [ref=f1050e175]
+            - paragraph
+            - generic [ref=f1050e177]:
+              - strong [ref=f1050e178]: "Join Our Whatsapp Group:"
+              - link [ref=f1050e179] [cursor=pointer]:
+                - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+                - strong [ref=f1050e180]: Click Here
+              - link "Data Management" [ref=f1050e181] [cursor=pointer]
+            - insertion [ref=f1050e186]
+          - generic [ref=f1050e188]:
+            - generic [ref=f1050e189]: You May like
+            - generic [ref=f1050e190]:
+              - link "# AWS" [ref=f1050e191] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/aws/
+              - link "# Java" [ref=f1050e192] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/java/
+              - link "# Jobs in Bangalore" [ref=f1050e193] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-bangalore/
+              - link "# Linux" [ref=f1050e194] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/linux/
+              - link "# Python" [ref=f1050e195] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/python/
+              - link "# QA" [ref=f1050e196] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/qa/
+              - link "# SQL" [ref=f1050e197] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/sql/
+              - link "# Testing" [ref=f1050e198] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/testing/
+          - generic [ref=f1050e200]:
+            - link "Facebook" [ref=f1050e201] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjobsnet.in%2Fqualcomm-off-campus-drive-hiring-software-engineer-new-grads%2F
+            - link "X (Twitter)" [ref=f1050e205] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fjobsnet.in%2Fqualcomm-off-campus-drive-hiring-software-engineer-new-grads%2F&text=Qualcomm%20Off%20Campus%20Drive%202026%20%26%238211%3B%20Hiring%20Software%20Engineer%20%26%238211%3B%20New%20Grads
+            - link "Reddit" [ref=f1050e209] [cursor=pointer]:
+              - /url: https://reddit.com/submit?url=https%3A%2F%2Fjobsnet.in%2Fqualcomm-off-campus-drive-hiring-software-engineer-new-grads%2F&title=Qualcomm%20Off%20Campus%20Drive%202026%20%26%238211%3B%20Hiring%20Software%20Engineer%20%26%238211%3B%20New%20Grads
+            - link "Telegram" [ref=f1050e213] [cursor=pointer]:
+              - /url: https://t.me/share/url?url=https%3A%2F%2Fjobsnet.in%2Fqualcomm-off-campus-drive-hiring-software-engineer-new-grads%2F&text=Qualcomm%20Off%20Campus%20Drive%202026%20%26%238211%3B%20Hiring%20Software%20Engineer%20%26%238211%3B%20New%20Grads
+            - link "WhatsApp" [ref=f1050e217] [cursor=pointer]:
+              - /url: whatsapp://send?text=https%3A%2F%2Fjobsnet.in%2Fqualcomm-off-campus-drive-hiring-software-engineer-new-grads%2F
+          - generic [ref=f1050e221]:
+            - link [ref=f1050e222] [cursor=pointer]:
+              - /url: https://jobsnet.in/author/anand/
+              - img "Anand Kumar" [ref=f1050e223]
+            - generic [ref=f1050e226]:
+              - heading "Anand Kumar" [level=5] [ref=f1050e227]
+              - paragraph [ref=f1050e229]:
+                - text: Career Expert & Founder of JobsNet.in. Serving the student community since 2019, I specialize in providing verified job updates and placement material for computer science, IT, engineering and management graduates. With a mission to simplify the job hunt, I have helped thousands of candidates secure roles in top MNCs over the last 7 years.
+                - link "Engineering & Technology" [ref=f1050e230] [cursor=pointer]
+              - generic [ref=f1050e235]:
+                - link "LinkedIn icon" [ref=f1050e236] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/amar-kumar-sd
+                - link "Website icon" [ref=f1050e239] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - 'link "Articles: 2394" [ref=f1050e242] [cursor=pointer]':
+                - /url: https://jobsnet.in/author/anand/
+          - navigation [ref=f1050e243]:
+            - link "Previous Post Deutsche Bank Off Campus Drive 2026 Hiring Technology Apprentice - AI Prompt Engineer" [ref=f1050e244] [cursor=pointer]:
+              - /url: https://jobsnet.in/deutsche-bank-off-campus-drive-hiring-technology-apprentice/
+              - figure [ref=f1050e245]:
+                - img "deutsche-bank" [ref=f1050e246]
+              - generic [ref=f1050e249]:
+                - generic [ref=f1050e250]: Previous Post
+                - generic [ref=f1050e251]: Deutsche Bank Off Campus Drive 2026 Hiring Technology Apprentice - AI Prompt Engineer
+            - link "Next Post Infosys Off Campus Drive 2026 For Specialist Programmer / Digital Specialist /System Engineer" [ref=f1050e252] [cursor=pointer]:
+              - /url: https://jobsnet.in/infosys-off-campus-drive-for-specialist-programmer-and-dse/
+              - generic [ref=f1050e253]:
+                - generic [ref=f1050e254]: Next Post
+                - generic [ref=f1050e255]: Infosys Off Campus Drive 2026 For Specialist Programmer / Digital Specialist /System Engineer
+              - figure [ref=f1050e256]:
+                - img "Infosys Off Campus Drive 2026 For Specialist Programmer / Digital Specialist Engineer" [ref=f1050e257]
+          - generic [ref=f1050e260]:
+            - heading "Related" [level=3] [ref=f1050e261]
+            - generic [ref=f1050e262]:
+              - article [ref=f1050e263]:
+                - generic [ref=f1050e264]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f1050e265] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                  - paragraph [ref=f1050e266]:
+                    - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f1050e267] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+              - article [ref=f1050e268]:
+                - generic [ref=f1050e269]:
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f1050e270] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                    - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f1050e271]
+                  - paragraph [ref=f1050e272]:
+                    - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f1050e273] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+              - article [ref=f1050e274]:
+                - generic [ref=f1050e275]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f1050e276] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                  - paragraph [ref=f1050e277]:
+                    - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f1050e278] [cursor=pointer]:
+                      - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+        - complementary [ref=f1050e279]:
+          - generic [ref=f1050e280]:
+            - heading "Search Jobs" [level=3] [ref=f1050e283]
+            - textbox "search" [ref=f1050e290]
+            - insertion [ref=f1050e292]:
+              - iframe [ref=f1050e294]:
+                - generic [ref=f1055e2]:
+                  - iframe [ref=f1055e5]:
+                    - generic [ref=f1061e2] [cursor=pointer]:
+                      - img [ref=f1061e4]:
+                        - generic "Try for free" [ref=f1061e1273]
+                      - button [ref=f1061e1381]
+                  - generic [ref=f1055e6]:
+                    - generic:
+                      - generic [ref=f1055e7] [cursor=pointer]
+                      - button [ref=f1055e12] [cursor=pointer]
+            - generic [ref=f1050e295]:
+              - heading "Latest Updates" [level=3] [ref=f1050e296]
+              - list [ref=f1050e298]:
+                - listitem [ref=f1050e299]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f1050e301] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                - listitem [ref=f1050e302]:
+                  - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f1050e304]
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f1050e305] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                - listitem [ref=f1050e306]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f1050e308] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                - listitem [ref=f1050e309]:
+                  - img "Accenture Mega Off Campus Drive For Freshers - Associate Software Engineer" [ref=f1050e311]
+                  - link "Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)" [ref=f1050e312] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-entry-level-custom-software-engineer-python/
+                - listitem [ref=f1050e313]:
+                  - img "Cornerstone Off Campus Drive - Hiring Junior Engineer" [ref=f1050e315]
+                  - link "Cornerstone Hiring Entry Level Junior Engineer – Cloud Ops" [ref=f1050e316] [cursor=pointer]:
+                    - /url: https://jobsnet.in/cornerstone-hiring-entry-level-junior-engineer-cloud-ops/
+                - listitem [ref=f1050e317]:
+                  - link "Calix Off Campus Drive 2026 – Hiring Graduate Trainee – Test & QA" [ref=f1050e319] [cursor=pointer]:
+                    - /url: https://jobsnet.in/calix-off-campus-drive-hiring-graduate-trainee-test-qa/
+                - listitem [ref=f1050e320]:
+                  - link "HDFC Life Off Campus Drive 2026 – Graduate Trainee – Data Science & Analytics" [ref=f1050e322] [cursor=pointer]:
+                    - /url: https://jobsnet.in/hdfc-life-off-campus-drive-graduate-trainee-data-science-analytics/
+                - listitem [ref=f1050e323]:
+                  - img "Yash Technologies Hiring Freshers QA Trainee - Pune/Indore/Hyderabad" [ref=f1050e325]
+                  - link "Yash Technologies Off Campus Drive 2026 – AI/ML Trainee" [ref=f1050e326] [cursor=pointer]:
+                    - /url: https://jobsnet.in/yash-technologies-off-campus-drive-hiring-ai-ml-trainee/
+                - listitem [ref=f1050e327]:
+                  - img "White Twilio logo and four-dot icon on a red background." [ref=f1050e329]
+                  - link "Twilio Off Campus Drive 2026 – Associate Application Engineer- Remote" [ref=f1050e330] [cursor=pointer]:
+                    - /url: https://jobsnet.in/twilio-off-campus-drive-associate-application-engineer-remote/
+                - listitem [ref=f1050e331]:
+                  - img "Accenture Hiring Any Graduate Freshers As Network Associate" [ref=f1050e333]
+                  - link "Accenture Hiring Application Support Engineer – Any Graduate (0-2 Years)" [ref=f1050e334] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-application-support-engineer-any-graduate-0-2-years/
+            - insertion [ref=f1050e337]
+    - insertion [ref=f1050e340]
+    - contentinfo [ref=f1050e342]:
+      - generic [ref=f1050e344]:
+        - paragraph [ref=f1050e347]: © 2026 Jobsnet.in
+        - navigation "footermenu" [ref=f1050e349]:
+          - list [ref=f1050e350]:
+            - listitem [ref=f1050e351]:
+              - link "Home" [ref=f1050e352] [cursor=pointer]:
+                - /url: https://jobsnet.in
+            - listitem [ref=f1050e353]:
+              - link "About us" [ref=f1050e354] [cursor=pointer]:
+                - /url: https://jobsnet.in/about-us/
+            - listitem [ref=f1050e355]:
+              - link "Contact Us" [ref=f1050e356] [cursor=pointer]:
+                - /url: https://jobsnet.in/contact/
+            - listitem [ref=f1050e357]:
+              - link "Advertise With Us" [ref=f1050e358] [cursor=pointer]:
+                - /url: https://jobsnet.in/advertise/
+            - listitem [ref=f1050e359]:
+              - link "Terms" [ref=f1050e360] [cursor=pointer]:
+                - /url: https://jobsnet.in/terms-and-conditions/
+            - listitem [ref=f1050e361]:
+              - link "Privacy" [ref=f1050e362] [cursor=pointer]:
+                - /url: https://jobsnet.in/privacy-policy/
+  - generic [ref=f1050e363]:
+    - generic [ref=f1050e364] [cursor=pointer]: CLOSE [X]
+    - insertion [ref=f1050e366]:
+      - iframe [ref=f1050e368]:
+        - generic [ref=f1056e1]:
+          - generic [ref=f1056e6]:
+            - link [ref=f1056e7] [cursor=pointer]:
+              - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CDV7noz90aumcDYGVmtIP6cmYwQTMh43siAG198_z1xS5jeaq5EYQASCJgvF0YOWa6YPgDqABmfOg_ALIAQmoAwHIA8sEqgSKAk_Qknf_Qgpw_lg7tEEhYg4A704uCBYMWAf8-or5KlFbk9eu7IOJ0I_ukUNGHDk53xf8Y0zb749trZtfXPf8-BgR2UDMynvU2CISPgvLH2cxU_uuhW2Pu4RhFUvTl3oKD9B98s4kE9npH25DJNDOcDkKIJKm2eWN9JXECw-M6ihYlxPL2sus-2cnve9f04SD3BUsX99F62X3jrvvNlE8q4601V_2bFpMdSBDN39chHcPYkpJCP3LTIXZNtvlBZFTi3SC8MAc8IWOxev1IAF98KTWu2PmEbniH3syrb4jt7sUb8jUM2IVQJOWj65zZLdu7KAEsPlyD6P6oYQT6vIbAjOYqvmCvSDzaDFzwAS96IWiogWIBf2d8_tUkAYBoAYugAfPjN-DAYgHAZAHAqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgHmMWxAqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WKmvn4DFi5YDYAGaCS9odHRwczovL2RldmVsb3Blci5hbmRyb2lkLmNvbS9nZW1pbmktaW4tYW5kcm9pZLEJdx6Q7WZ3sZuACgHICwHgCwGADAGiDAwqCgoIjt-xApXisQKqDQJJTsgNAeoNEwjq_aCAxYuWAxWBikYEHekkJkiIDgnYEw2IFATQFQHKFgIKAPgWAYAXAbIXEBgBKgoyNzY4NTMwNjU4UAa6FwI4AaoYFwkAAAAAU4hEQRIKMjc2ODUzMDY1OBgBshgFGC4iAQDQGAHCGQIIAQ&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSj1CCSM1fBwlFUamyURq0VmfKiMBRhey283V0Qtfo5wQD0xFKoShIhoChMwQAvD_BwE&num=1&cid=CAQS-gEAEQoqgXKRvIMe7faYG_TK9hwxTIFgYaimti6_CZA_mYNrcwvlRo6hVR5zgS3UVt5pmIJsMSITGZMcFeTmaTSLREahygJMEDG2Qx41N-5iTeALHNTTyT1Ui2SyWGNji4O5N-BIVur5JBeWOfSKv6jRno8wu81grEsBoqRzsoVRdwyi7ErMKlTlM7yeMjPyWfTreeLDzaVBw1xUl5bnA5ueLh6d5W4aAXTRrKRTtHm8N28BWWvuQw2KxV_quKVDzVhh4pyYOB76PJN1za3v32o-yykzR9r5ScBhfZ_RRdfQtRJc6zei-Qeix4r4-V9gdZtSyUGnAIKEQ7CeGAE&sig=AOD64_2vGxAeaoTl4v1KP66UkIQOWAqiQg&client=ca-pub-9713759261380411&rf=1&nb=9&adurl=https://ad.doubleclick.net/searchads/link/click%3F%26ds_a_cid%3D276767502%26ds_a_caid%3D22808415997%26ds_a_agid%3D180996895805%26ds_a_fiid%3D%26ds_a_lid%3Dkwd-2172314835588%26ds_a_extid%3D%26%26ds_e_adid%3D774925385924%26ds_e_matchtype%3Dcontent%26ds_e_device%3Dc%26ds_e_network%3Dd%26%26ds_url_v%3D2%26ds_dest_url%3Dhttps://developer.android.com/gemini-in-android%3Fgclsrc%3Daw.ds%26gad_source%3D5%26gad_campaignid%3D22808415997
+            - generic [ref=f1056e10]:
+              - generic [ref=f1056e13]:
+                - link "Refactor with confidence" [ref=f1056e17] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CDV7noz90aumcDYGVmtIP6cmYwQTMh43siAG198_z1xS5jeaq5EYQASCJgvF0YOWa6YPgDqABmfOg_ALIAQmoAwHIA8sEqgSKAk_Qknf_Qgpw_lg7tEEhYg4A704uCBYMWAf8-or5KlFbk9eu7IOJ0I_ukUNGHDk53xf8Y0zb749trZtfXPf8-BgR2UDMynvU2CISPgvLH2cxU_uuhW2Pu4RhFUvTl3oKD9B98s4kE9npH25DJNDOcDkKIJKm2eWN9JXECw-M6ihYlxPL2sus-2cnve9f04SD3BUsX99F62X3jrvvNlE8q4601V_2bFpMdSBDN39chHcPYkpJCP3LTIXZNtvlBZFTi3SC8MAc8IWOxev1IAF98KTWu2PmEbniH3syrb4jt7sUb8jUM2IVQJOWj65zZLdu7KAEsPlyD6P6oYQT6vIbAjOYqvmCvSDzaDFzwAS96IWiogWIBf2d8_tUkAYBoAYugAfPjN-DAYgHAZAHAqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgHmMWxAqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WKmvn4DFi5YDYAGaCS9odHRwczovL2RldmVsb3Blci5hbmRyb2lkLmNvbS9nZW1pbmktaW4tYW5kcm9pZLEJdx6Q7WZ3sZuACgHICwHgCwGADAGiDAwqCgoIjt-xApXisQKqDQJJTsgNAeoNEwjq_aCAxYuWAxWBikYEHekkJkiIDgnYEw2IFATQFQHKFgIKAPgWAYAXAbIXEBgBKgoyNzY4NTMwNjU4UAa6FwI4AaoYFwkAAAAAU4hEQRIKMjc2ODUzMDY1OBgBshgFGC4iAQDQGAHCGQIIAQ&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSj1CCSM1fBwlFUamyURq0VmfKiMBRhey283V0Qtfo5wQD0xFKoShIhoChMwQAvD_BwE&num=1&cid=CAQS-gEAEQoqgXKRvIMe7faYG_TK9hwxTIFgYaimti6_CZA_mYNrcwvlRo6hVR5zgS3UVt5pmIJsMSITGZMcFeTmaTSLREahygJMEDG2Qx41N-5iTeALHNTTyT1Ui2SyWGNji4O5N-BIVur5JBeWOfSKv6jRno8wu81grEsBoqRzsoVRdwyi7ErMKlTlM7yeMjPyWfTreeLDzaVBw1xUl5bnA5ueLh6d5W4aAXTRrKRTtHm8N28BWWvuQw2KxV_quKVDzVhh4pyYOB76PJN1za3v32o-yykzR9r5ScBhfZ_RRdfQtRJc6zei-Qeix4r4-V9gdZtSyUGnAIKEQ7CeGAE&sig=AOD64_2vGxAeaoTl4v1KP66UkIQOWAqiQg&client=ca-pub-9713759261380411&rf=1&nb=0&adurl=https://ad.doubleclick.net/searchads/link/click%3F%26ds_a_cid%3D276767502%26ds_a_caid%3D22808415997%26ds_a_agid%3D180996895805%26ds_a_fiid%3D%26ds_a_lid%3Dkwd-2172314835588%26ds_a_extid%3D%26%26ds_e_adid%3D774925385924%26ds_e_matchtype%3Dcontent%26ds_e_device%3Dc%26ds_e_network%3Dd%26%26ds_url_v%3D2%26ds_dest_url%3Dhttps://developer.android.com/gemini-in-android%3Fgclsrc%3Daw.ds%26gad_source%3D5%26gad_campaignid%3D22808415997
+                - link [ref=f1056e21] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CDV7noz90aumcDYGVmtIP6cmYwQTMh43siAG198_z1xS5jeaq5EYQASCJgvF0YOWa6YPgDqABmfOg_ALIAQmoAwHIA8sEqgSKAk_Qknf_Qgpw_lg7tEEhYg4A704uCBYMWAf8-or5KlFbk9eu7IOJ0I_ukUNGHDk53xf8Y0zb749trZtfXPf8-BgR2UDMynvU2CISPgvLH2cxU_uuhW2Pu4RhFUvTl3oKD9B98s4kE9npH25DJNDOcDkKIJKm2eWN9JXECw-M6ihYlxPL2sus-2cnve9f04SD3BUsX99F62X3jrvvNlE8q4601V_2bFpMdSBDN39chHcPYkpJCP3LTIXZNtvlBZFTi3SC8MAc8IWOxev1IAF98KTWu2PmEbniH3syrb4jt7sUb8jUM2IVQJOWj65zZLdu7KAEsPlyD6P6oYQT6vIbAjOYqvmCvSDzaDFzwAS96IWiogWIBf2d8_tUkAYBoAYugAfPjN-DAYgHAZAHAqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgHmMWxAqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WKmvn4DFi5YDYAGaCS9odHRwczovL2RldmVsb3Blci5hbmRyb2lkLmNvbS9nZW1pbmktaW4tYW5kcm9pZLEJdx6Q7WZ3sZuACgHICwHgCwGADAGiDAwqCgoIjt-xApXisQKqDQJJTsgNAeoNEwjq_aCAxYuWAxWBikYEHekkJkiIDgnYEw2IFATQFQHKFgIKAPgWAYAXAbIXEBgBKgoyNzY4NTMwNjU4UAa6FwI4AaoYFwkAAAAAU4hEQRIKMjc2ODUzMDY1OBgBshgFGC4iAQDQGAHCGQIIAQ&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSj1CCSM1fBwlFUamyURq0VmfKiMBRhey283V0Qtfo5wQD0xFKoShIhoChMwQAvD_BwE&num=1&cid=CAQS-gEAEQoqgXKRvIMe7faYG_TK9hwxTIFgYaimti6_CZA_mYNrcwvlRo6hVR5zgS3UVt5pmIJsMSITGZMcFeTmaTSLREahygJMEDG2Qx41N-5iTeALHNTTyT1Ui2SyWGNji4O5N-BIVur5JBeWOfSKv6jRno8wu81grEsBoqRzsoVRdwyi7ErMKlTlM7yeMjPyWfTreeLDzaVBw1xUl5bnA5ueLh6d5W4aAXTRrKRTtHm8N28BWWvuQw2KxV_quKVDzVhh4pyYOB76PJN1za3v32o-yykzR9r5ScBhfZ_RRdfQtRJc6zei-Qeix4r4-V9gdZtSyUGnAIKEQ7CeGAE&sig=AOD64_2vGxAeaoTl4v1KP66UkIQOWAqiQg&client=ca-pub-9713759261380411&rf=1&nb=7&adurl=https://ad.doubleclick.net/searchads/link/click%3F%26ds_a_cid%3D276767502%26ds_a_caid%3D22808415997%26ds_a_agid%3D180996895805%26ds_a_fiid%3D%26ds_a_lid%3Dkwd-2172314835588%26ds_a_extid%3D%26%26ds_e_adid%3D774925385924%26ds_e_matchtype%3Dcontent%26ds_e_device%3Dc%26ds_e_network%3Dd%26%26ds_url_v%3D2%26ds_dest_url%3Dhttps://developer.android.com/gemini-in-android%3Fgclsrc%3Daw.ds%26gad_source%3D5%26gad_campaignid%3D22808415997
+                  - text: Unlock AI coding assistance
+                  - generic [ref=f1056e22]: by downloading thelatest version of Android Studio
+              - generic [ref=f1056e25]:
+                - link:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CDV7noz90aumcDYGVmtIP6cmYwQTMh43siAG198_z1xS5jeaq5EYQASCJgvF0YOWa6YPgDqABmfOg_ALIAQmoAwHIA8sEqgSKAk_Qknf_Qgpw_lg7tEEhYg4A704uCBYMWAf8-or5KlFbk9eu7IOJ0I_ukUNGHDk53xf8Y0zb749trZtfXPf8-BgR2UDMynvU2CISPgvLH2cxU_uuhW2Pu4RhFUvTl3oKD9B98s4kE9npH25DJNDOcDkKIJKm2eWN9JXECw-M6ihYlxPL2sus-2cnve9f04SD3BUsX99F62X3jrvvNlE8q4601V_2bFpMdSBDN39chHcPYkpJCP3LTIXZNtvlBZFTi3SC8MAc8IWOxev1IAF98KTWu2PmEbniH3syrb4jt7sUb8jUM2IVQJOWj65zZLdu7KAEsPlyD6P6oYQT6vIbAjOYqvmCvSDzaDFzwAS96IWiogWIBf2d8_tUkAYBoAYugAfPjN-DAYgHAZAHAqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgHmMWxAqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WKmvn4DFi5YDYAGaCS9odHRwczovL2RldmVsb3Blci5hbmRyb2lkLmNvbS9nZW1pbmktaW4tYW5kcm9pZLEJdx6Q7WZ3sZuACgHICwHgCwGADAGiDAwqCgoIjt-xApXisQKqDQJJTsgNAeoNEwjq_aCAxYuWAxWBikYEHekkJkiIDgnYEw2IFATQFQHKFgIKAPgWAYAXAbIXEBgBKgoyNzY4NTMwNjU4UAa6FwI4AaoYFwkAAAAAU4hEQRIKMjc2ODUzMDY1OBgBshgFGC4iAQDQGAHCGQIIAQ&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSj1CCSM1fBwlFUamyURq0VmfKiMBRhey283V0Qtfo5wQD0xFKoShIhoChMwQAvD_BwE&num=1&cid=CAQS-gEAEQoqgXKRvIMe7faYG_TK9hwxTIFgYaimti6_CZA_mYNrcwvlRo6hVR5zgS3UVt5pmIJsMSITGZMcFeTmaTSLREahygJMEDG2Qx41N-5iTeALHNTTyT1Ui2SyWGNji4O5N-BIVur5JBeWOfSKv6jRno8wu81grEsBoqRzsoVRdwyi7ErMKlTlM7yeMjPyWfTreeLDzaVBw1xUl5bnA5ueLh6d5W4aAXTRrKRTtHm8N28BWWvuQw2KxV_quKVDzVhh4pyYOB76PJN1za3v32o-yykzR9r5ScBhfZ_RRdfQtRJc6zei-Qeix4r4-V9gdZtSyUGnAIKEQ7CeGAE&sig=AOD64_2vGxAeaoTl4v1KP66UkIQOWAqiQg&client=ca-pub-9713759261380411&rf=1&nb=8&adurl=https://ad.doubleclick.net/searchads/link/click%3F%26ds_a_cid%3D276767502%26ds_a_caid%3D22808415997%26ds_a_agid%3D180996895805%26ds_a_fiid%3D%26ds_a_lid%3Dkwd-2172314835588%26ds_a_extid%3D%26%26ds_e_adid%3D774925385924%26ds_e_matchtype%3Dcontent%26ds_e_device%3Dc%26ds_e_network%3Dd%26%26ds_url_v%3D2%26ds_dest_url%3Dhttps://developer.android.com/gemini-in-android%3Fgclsrc%3Daw.ds%26gad_source%3D5%26gad_campaignid%3D22808415997
+                - link "Android Developers" [ref=f1056e27] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CDV7noz90aumcDYGVmtIP6cmYwQTMh43siAG198_z1xS5jeaq5EYQASCJgvF0YOWa6YPgDqABmfOg_ALIAQmoAwHIA8sEqgSKAk_Qknf_Qgpw_lg7tEEhYg4A704uCBYMWAf8-or5KlFbk9eu7IOJ0I_ukUNGHDk53xf8Y0zb749trZtfXPf8-BgR2UDMynvU2CISPgvLH2cxU_uuhW2Pu4RhFUvTl3oKD9B98s4kE9npH25DJNDOcDkKIJKm2eWN9JXECw-M6ihYlxPL2sus-2cnve9f04SD3BUsX99F62X3jrvvNlE8q4601V_2bFpMdSBDN39chHcPYkpJCP3LTIXZNtvlBZFTi3SC8MAc8IWOxev1IAF98KTWu2PmEbniH3syrb4jt7sUb8jUM2IVQJOWj65zZLdu7KAEsPlyD6P6oYQT6vIbAjOYqvmCvSDzaDFzwAS96IWiogWIBf2d8_tUkAYBoAYugAfPjN-DAYgHAZAHAqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgHmMWxAqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WKmvn4DFi5YDYAGaCS9odHRwczovL2RldmVsb3Blci5hbmRyb2lkLmNvbS9nZW1pbmktaW4tYW5kcm9pZLEJdx6Q7WZ3sZuACgHICwHgCwGADAGiDAwqCgoIjt-xApXisQKqDQJJTsgNAeoNEwjq_aCAxYuWAxWBikYEHekkJkiIDgnYEw2IFATQFQHKFgIKAPgWAYAXAbIXEBgBKgoyNzY4NTMwNjU4UAa6FwI4AaoYFwkAAAAAU4hEQRIKMjc2ODUzMDY1OBgBshgFGC4iAQDQGAHCGQIIAQ&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSj1CCSM1fBwlFUamyURq0VmfKiMBRhey283V0Qtfo5wQD0xFKoShIhoChMwQAvD_BwE&num=1&cid=CAQS-gEAEQoqgXKRvIMe7faYG_TK9hwxTIFgYaimti6_CZA_mYNrcwvlRo6hVR5zgS3UVt5pmIJsMSITGZMcFeTmaTSLREahygJMEDG2Qx41N-5iTeALHNTTyT1Ui2SyWGNji4O5N-BIVur5JBeWOfSKv6jRno8wu81grEsBoqRzsoVRdwyi7ErMKlTlM7yeMjPyWfTreeLDzaVBw1xUl5bnA5ueLh6d5W4aAXTRrKRTtHm8N28BWWvuQw2KxV_quKVDzVhh4pyYOB76PJN1za3v32o-yykzR9r5ScBhfZ_RRdfQtRJc6zei-Qeix4r4-V9gdZtSyUGnAIKEQ7CeGAE&sig=AOD64_2vGxAeaoTl4v1KP66UkIQOWAqiQg&client=ca-pub-9713759261380411&rf=1&nb=1&adurl=https://ad.doubleclick.net/searchads/link/click%3F%26ds_a_cid%3D276767502%26ds_a_caid%3D22808415997%26ds_a_agid%3D180996895805%26ds_a_fiid%3D%26ds_a_lid%3Dkwd-2172314835588%26ds_a_extid%3D%26%26ds_e_adid%3D774925385924%26ds_e_matchtype%3Dcontent%26ds_e_device%3Dc%26ds_e_network%3Dd%26%26ds_url_v%3D2%26ds_dest_url%3Dhttps://developer.android.com/gemini-in-android%3Fgclsrc%3Daw.ds%26gad_source%3D5%26gad_campaignid%3D22808415997
+                - link "Download" [ref=f1056e29] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CDV7noz90aumcDYGVmtIP6cmYwQTMh43siAG198_z1xS5jeaq5EYQASCJgvF0YOWa6YPgDqABmfOg_ALIAQmoAwHIA8sEqgSKAk_Qknf_Qgpw_lg7tEEhYg4A704uCBYMWAf8-or5KlFbk9eu7IOJ0I_ukUNGHDk53xf8Y0zb749trZtfXPf8-BgR2UDMynvU2CISPgvLH2cxU_uuhW2Pu4RhFUvTl3oKD9B98s4kE9npH25DJNDOcDkKIJKm2eWN9JXECw-M6ihYlxPL2sus-2cnve9f04SD3BUsX99F62X3jrvvNlE8q4601V_2bFpMdSBDN39chHcPYkpJCP3LTIXZNtvlBZFTi3SC8MAc8IWOxev1IAF98KTWu2PmEbniH3syrb4jt7sUb8jUM2IVQJOWj65zZLdu7KAEsPlyD6P6oYQT6vIbAjOYqvmCvSDzaDFzwAS96IWiogWIBf2d8_tUkAYBoAYugAfPjN-DAYgHAZAHAqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgHmMWxAqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WKmvn4DFi5YDYAGaCS9odHRwczovL2RldmVsb3Blci5hbmRyb2lkLmNvbS9nZW1pbmktaW4tYW5kcm9pZLEJdx6Q7WZ3sZuACgHICwHgCwGADAGiDAwqCgoIjt-xApXisQKqDQJJTsgNAeoNEwjq_aCAxYuWAxWBikYEHekkJkiIDgnYEw2IFATQFQHKFgIKAPgWAYAXAbIXEBgBKgoyNzY4NTMwNjU4UAa6FwI4AaoYFwkAAAAAU4hEQRIKMjc2ODUzMDY1OBgBshgFGC4iAQDQGAHCGQIIAQ&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSj1CCSM1fBwlFUamyURq0VmfKiMBRhey283V0Qtfo5wQD0xFKoShIhoChMwQAvD_BwE&num=1&cid=CAQS-gEAEQoqgXKRvIMe7faYG_TK9hwxTIFgYaimti6_CZA_mYNrcwvlRo6hVR5zgS3UVt5pmIJsMSITGZMcFeTmaTSLREahygJMEDG2Qx41N-5iTeALHNTTyT1Ui2SyWGNji4O5N-BIVur5JBeWOfSKv6jRno8wu81grEsBoqRzsoVRdwyi7ErMKlTlM7yeMjPyWfTreeLDzaVBw1xUl5bnA5ueLh6d5W4aAXTRrKRTtHm8N28BWWvuQw2KxV_quKVDzVhh4pyYOB76PJN1za3v32o-yykzR9r5ScBhfZ_RRdfQtRJc6zei-Qeix4r4-V9gdZtSyUGnAIKEQ7CeGAE&sig=AOD64_2vGxAeaoTl4v1KP66UkIQOWAqiQg&client=ca-pub-9713759261380411&rf=1&nb=8&adurl=https://ad.doubleclick.net/searchads/link/click%3F%26ds_a_cid%3D276767502%26ds_a_caid%3D22808415997%26ds_a_agid%3D180996895805%26ds_a_fiid%3D%26ds_a_lid%3Dkwd-2172314835588%26ds_a_extid%3D%26%26ds_e_adid%3D774925385924%26ds_e_matchtype%3Dcontent%26ds_e_device%3Dc%26ds_e_network%3Dd%26%26ds_url_v%3D2%26ds_dest_url%3Dhttps://developer.android.com/gemini-in-android%3Fgclsrc%3Daw.ds%26gad_source%3D5%26gad_campaignid%3D22808415997
+                - link [ref=f1056e30] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CDV7noz90aumcDYGVmtIP6cmYwQTMh43siAG198_z1xS5jeaq5EYQASCJgvF0YOWa6YPgDqABmfOg_ALIAQmoAwHIA8sEqgSKAk_Qknf_Qgpw_lg7tEEhYg4A704uCBYMWAf8-or5KlFbk9eu7IOJ0I_ukUNGHDk53xf8Y0zb749trZtfXPf8-BgR2UDMynvU2CISPgvLH2cxU_uuhW2Pu4RhFUvTl3oKD9B98s4kE9npH25DJNDOcDkKIJKm2eWN9JXECw-M6ihYlxPL2sus-2cnve9f04SD3BUsX99F62X3jrvvNlE8q4601V_2bFpMdSBDN39chHcPYkpJCP3LTIXZNtvlBZFTi3SC8MAc8IWOxev1IAF98KTWu2PmEbniH3syrb4jt7sUb8jUM2IVQJOWj65zZLdu7KAEsPlyD6P6oYQT6vIbAjOYqvmCvSDzaDFzwAS96IWiogWIBf2d8_tUkAYBoAYugAfPjN-DAYgHAZAHAqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgHmMWxAqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WKmvn4DFi5YDYAGaCS9odHRwczovL2RldmVsb3Blci5hbmRyb2lkLmNvbS9nZW1pbmktaW4tYW5kcm9pZLEJdx6Q7WZ3sZuACgHICwHgCwGADAGiDAwqCgoIjt-xApXisQKqDQJJTsgNAeoNEwjq_aCAxYuWAxWBikYEHekkJkiIDgnYEw2IFATQFQHKFgIKAPgWAYAXAbIXEBgBKgoyNzY4NTMwNjU4UAa6FwI4AaoYFwkAAAAAU4hEQRIKMjc2ODUzMDY1OBgBshgFGC4iAQDQGAHCGQIIAQ&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSj1CCSM1fBwlFUamyURq0VmfKiMBRhey283V0Qtfo5wQD0xFKoShIhoChMwQAvD_BwE&num=1&cid=CAQS-gEAEQoqgXKRvIMe7faYG_TK9hwxTIFgYaimti6_CZA_mYNrcwvlRo6hVR5zgS3UVt5pmIJsMSITGZMcFeTmaTSLREahygJMEDG2Qx41N-5iTeALHNTTyT1Ui2SyWGNji4O5N-BIVur5JBeWOfSKv6jRno8wu81grEsBoqRzsoVRdwyi7ErMKlTlM7yeMjPyWfTreeLDzaVBw1xUl5bnA5ueLh6d5W4aAXTRrKRTtHm8N28BWWvuQw2KxV_quKVDzVhh4pyYOB76PJN1za3v32o-yykzR9r5ScBhfZ_RRdfQtRJc6zei-Qeix4r4-V9gdZtSyUGnAIKEQ7CeGAE&sig=AOD64_2vGxAeaoTl4v1KP66UkIQOWAqiQg&client=ca-pub-9713759261380411&rf=1&nb=8&adurl=https://ad.doubleclick.net/searchads/link/click%3F%26ds_a_cid%3D276767502%26ds_a_caid%3D22808415997%26ds_a_agid%3D180996895805%26ds_a_fiid%3D%26ds_a_lid%3Dkwd-2172314835588%26ds_a_extid%3D%26%26ds_e_adid%3D774925385924%26ds_e_matchtype%3Dcontent%26ds_e_device%3Dc%26ds_e_network%3Dd%26%26ds_url_v%3D2%26ds_dest_url%3Dhttps://developer.android.com/gemini-in-android%3Fgclsrc%3Daw.ds%26gad_source%3D5%26gad_campaignid%3D22808415997
+          - generic [ref=f1056e40] [cursor=pointer]
+          - button [ref=f1056e45] [cursor=pointer]
+          - iframe
+  - link "Join WhatsApp" [ref=f1050e370] [cursor=pointer]:
+    - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP

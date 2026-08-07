@@ -1,0 +1,440 @@
+- generic [active] [ref=f33e1]:
+  - link "Skip to main content" [ref=f33e2] [cursor=pointer]:
+    - /url: "#gnav-header-end"
+  - main [ref=f33e3]:
+    - generic [ref=f33e5]:
+      - navigation "Primary" [ref=f33e7]:
+        - generic [ref=f33e9]:
+          - generic [ref=f33e10]:
+            - generic [ref=f33e11]:
+              - link "Indeed Home" [ref=f33e12] [cursor=pointer]:
+                - /url: /?from=gnav-jobsearch--indeedmobile
+              - list [ref=f33e16]:
+                - listitem [ref=f33e17]:
+                  - link "Home" [ref=f33e19] [cursor=pointer]:
+                    - /url: https://in.indeed.com/
+                - listitem [ref=f33e20]:
+                  - link "Company reviews" [ref=f33e22] [cursor=pointer]:
+                    - /url: https://in.indeed.com/companies
+                - listitem [ref=f33e23]:
+                  - link "Salary guide" [ref=f33e25] [cursor=pointer]:
+                    - /url: https://in.indeed.com/career/salaries
+            - generic [ref=f33e26]:
+              - list [ref=f33e27]:
+                - listitem [ref=f33e28]:
+                  - link "My jobs" [ref=f33e30] [cursor=pointer]:
+                    - /url: https://myjobs.indeed.com?from=gnav-util-jobsearch--indeedmobile&gnavTK=1jvatflh2hcd6800&tk=1jvatfl93hc73801&co=IN&hl=en
+                - listitem [ref=f33e33]:
+                  - link "Messages Unread count 0" [ref=f33e35] [cursor=pointer]:
+                    - /url: https://messages.indeed.com?from=gnav-util-jobsearch--indeedmobile&gnavTK=1jvatflh2hcd6800&tk=1jvatfl93hc73801&co=IN&hl=en
+                    - generic [ref=f33e41]:
+                      - text: Messages Unread count 0
+                      - generic [ref=f33e42]: .
+                - listitem [ref=f33e43]:
+                  - link "Notifications Unread count 0" [ref=f33e45] [cursor=pointer]:
+                    - /url: https://in.indeed.com/notifications?from=gnav-util-jobsearch--indeedmobile&gnavTK=1jvatflh2hcd6800&tk=1jvatfl93hc73801&hl=en
+                - listitem [ref=f33e48]:
+                  - button "Account" [ref=f33e52] [cursor=pointer]:
+                    - generic [ref=f33e56]:
+                      - text: "1"
+                      - generic [ref=f33e57]: new update
+              - link "Employers / Post Job" [ref=f33e62] [cursor=pointer]:
+                - /url: https://in.indeed.com/hire?co=IN&hl=en
+          - generic [ref=f33e63]: Start of main content
+      - generic [ref=f33e65]:
+        - search [ref=f33e70]:
+          - generic [ref=f33e73]:
+            - generic [ref=f33e75]:
+              - generic [ref=f33e76]:
+                - generic [ref=f33e77]: "Keyword : all jobs"
+                - generic [ref=f33e80]:
+                  - 'combobox "search: Job title, keywords, or company" [ref=f33e84]': MERN stack developer
+                  - button "Clear what input" [ref=f33e86] [cursor=pointer]
+              - separator [ref=f33e89]:
+                - generic [ref=f33e90]: "&nbsp;"
+              - generic [ref=f33e91]:
+                - generic [ref=f33e92]: Edit location input box label
+                - combobox "Edit location" [ref=f33e99]
+            - button "Find jobs" [ref=f33e101] [cursor=pointer]
+          - list [ref=f33e104]:
+            - button "Pay filter" [ref=f33e106] [cursor=pointer]: Pay
+            - button "Remote filter" [ref=f33e108] [cursor=pointer]: Remote
+            - button "Job type filter" [ref=f33e110] [cursor=pointer]: Job type
+            - button "Job Language filter" [ref=f33e112] [cursor=pointer]: Job Language
+            - button "Programming language filter" [ref=f33e114] [cursor=pointer]: Programming language
+            - button "Education level filter" [ref=f33e116] [cursor=pointer]: Education level
+            - button "Industry filter" [ref=f33e118] [cursor=pointer]: Industry
+            - button "Date posted filter" [ref=f33e120] [cursor=pointer]: Date posted
+        - generic [ref=f33e126]:
+          - generic [ref=f33e127]:
+            - generic [ref=f33e128]:
+              - generic [ref=f33e129]:
+                - heading "MERN stack developer jobs" [level=1] [ref=f33e130]
+                - button "More information about job results" [ref=f33e133] [cursor=pointer]:
+                  - img "More information about job results" [ref=f33e134]
+              - generic [ref=f33e138]:
+                - generic [ref=f33e139]: "Sort by:"
+                - generic [ref=f33e140]: relevance - date
+            - list [ref=f33e144]:
+              - listitem
+              - listitem [ref=f33e145]:
+                - generic [ref=f33e150]:
+                  - generic [ref=f33e151]:
+                    - heading [level=3] [ref=f33e152]:
+                      - button "full details of MERN Stack Developer" [ref=f33e153] [cursor=pointer]: MERN Stack Developer
+                    - generic [ref=f33e154]: Easily apply
+                  - generic [ref=f33e161]:
+                    - generic [ref=f33e164]:
+                      - generic [ref=f33e165]: Mobile Programming India Pvt Ltd
+                      - generic [ref=f33e167]: Hyderabad, Telangana
+                    - list [ref=f33e169]:
+                      - listitem [ref=f33e170]:
+                        - generic [ref=f33e171]:
+                          - img "matches your preference" [ref=f33e173]
+                          - generic [ref=f33e175]: Full-time
+                  - generic [ref=f33e177]:
+                    - button "Save job Toggle" [ref=f33e178] [cursor=pointer]
+                    - button "Not interested" [ref=f33e181] [cursor=pointer]
+              - listitem [ref=f33e185]:
+                - generic [ref=f33e190]:
+                  - generic [ref=f33e191]:
+                    - heading [level=3] [ref=f33e192]:
+                      - button "full details of Full Stack Developer Intern" [ref=f33e193] [cursor=pointer]: Full Stack Developer Intern
+                    - generic [ref=f33e194]: Easily apply
+                  - generic [ref=f33e201]:
+                    - generic [ref=f33e204]:
+                      - generic [ref=f33e205]: IdeaptDigital Private Limited
+                      - generic [ref=f33e207]: Hybrid work in Circus Avenue, Kolkata, West Bengal
+                    - list [ref=f33e209]:
+                      - listitem [ref=f33e210]:
+                        - generic [ref=f33e211]: Work from home
+                  - generic [ref=f33e214]:
+                    - button "Save job Toggle" [ref=f33e215] [cursor=pointer]
+                    - button "Not interested" [ref=f33e218] [cursor=pointer]
+              - listitem [ref=f33e222]:
+                - generic [ref=f33e227]:
+                  - generic [ref=f33e228]:
+                    - heading [level=3] [ref=f33e229]:
+                      - button "full details of Lead Software Engineer" [ref=f33e230] [cursor=pointer]: Lead Software Engineer
+                    - generic [ref=f33e231]: Easily apply
+                  - generic [ref=f33e238]:
+                    - generic [ref=f33e241]:
+                      - generic [ref=f33e242]: Holiday Tribe
+                      - generic [ref=f33e244]: Gurugram, Haryana
+                    - list [ref=f33e246]:
+                      - listitem [ref=f33e247]:
+                        - generic [ref=f33e248]: ₹25,00,000 - ₹30,00,000 a year
+                      - listitem [ref=f33e251]:
+                        - generic [ref=f33e252]: Provident Fund
+                  - generic [ref=f33e255]:
+                    - button "Save job Toggle" [ref=f33e256] [cursor=pointer]
+                    - button "Not interested" [ref=f33e259] [cursor=pointer]
+              - listitem [ref=f33e263]:
+                - generic [ref=f33e268]:
+                  - generic [ref=f33e269]:
+                    - heading [level=3] [ref=f33e270]:
+                      - button "full details of MERN Stack Trainer" [ref=f33e271] [cursor=pointer]: MERN Stack Trainer
+                    - generic [ref=f33e272]: Easily apply
+                  - generic [ref=f33e279]:
+                    - generic [ref=f33e282]:
+                      - generic [ref=f33e283]: Infotechmon Pvt Ltd
+                      - generic [ref=f33e285]: Mohali, Punjab
+                    - list [ref=f33e287]:
+                      - listitem [ref=f33e288]:
+                        - generic [ref=f33e289]: Up to ₹20,000 a month
+                      - listitem [ref=f33e292]:
+                        - generic [ref=f33e293]:
+                          - img "matches your preference" [ref=f33e295]
+                          - generic [ref=f33e298]:
+                            - text: Full-time
+                            - generic [ref=f33e299]: "+1"
+                  - generic [ref=f33e300]:
+                    - button "Save job Toggle" [ref=f33e301] [cursor=pointer]
+                    - button "Not interested" [ref=f33e304] [cursor=pointer]
+              - listitem [ref=f33e308]:
+                - generic [ref=f33e313]:
+                  - generic [ref=f33e314]:
+                    - heading [level=3] [ref=f33e315]:
+                      - button "full details of MERN Stack - Team Lead" [ref=f33e316] [cursor=pointer]: MERN Stack - Team Lead
+                    - generic [ref=f33e317]: Easily apply
+                  - generic [ref=f33e324]:
+                    - generic [ref=f33e327]:
+                      - generic [ref=f33e328]: Eminence Technology
+                      - generic [ref=f33e330]: Mohali, Punjab
+                    - list [ref=f33e332]:
+                      - listitem [ref=f33e333]:
+                        - generic [ref=f33e334]: ₹12,00,000 - ₹15,00,000 a year
+                      - listitem [ref=f33e337]:
+                        - generic [ref=f33e338]:
+                          - img "matches your preference" [ref=f33e340]
+                          - generic [ref=f33e342]: Full-time
+                      - listitem [ref=f33e344]:
+                        - generic [ref=f33e345]: Paid sick time
+                      - listitem [ref=f33e348]:
+                        - generic [ref=f33e349]: Provident Fund
+                  - link "View similar jobs with this employer" [ref=f33e352] [cursor=pointer]:
+                    - /url: /addlLoc/redirect?tk=1jvatfl93hc73801&jk=f89e808531100c9c&dest=%2Fjobs%3Fq%3DMERN%2Bstack%2Bdeveloper%26nl%3D%26explvl%3Dentry_level%26sort%3Ddate%26grpKey%3D8gcFdG5mZWy4D7am2xKqECQKCW5vcm10aXRsZRoXZW5naW5lZXJpbmcgdGVhbSBsZWFkZXI%253D
+                  - generic [ref=f33e353]:
+                    - button "Save job Toggle" [ref=f33e354] [cursor=pointer]
+                    - button "Not interested" [ref=f33e357] [cursor=pointer]
+              - listitem
+              - listitem [ref=f33e361]:
+                - generic [ref=f33e366]:
+                  - generic [ref=f33e367]:
+                    - heading [level=3] [ref=f33e368]:
+                      - button "full details of MERN Stack Developer (Project Revenue Sharing Basis)" [ref=f33e369] [cursor=pointer]: MERN Stack Developer (Project Revenue Sharing Basis)
+                    - generic [ref=f33e370]: Easily apply
+                  - generic [ref=f33e377]:
+                    - generic [ref=f33e380]:
+                      - generic [ref=f33e381]: Alpha Realty
+                      - generic [ref=f33e383]: Hybrid work in Hyderabad, Telangana
+                    - list [ref=f33e385]:
+                      - listitem [ref=f33e386]:
+                        - generic [ref=f33e387]: ₹14,351.41 - ₹65,271.06 a month
+                  - generic [ref=f33e390]:
+                    - button "Save job Toggle" [ref=f33e391] [cursor=pointer]
+                    - button "Not interested" [ref=f33e394] [cursor=pointer]
+              - listitem [ref=f33e398]:
+                - generic [ref=f33e403]:
+                  - generic [ref=f33e404]:
+                    - heading [level=3] [ref=f33e405]:
+                      - button "full details of Full Stack Developer Intern" [ref=f33e406] [cursor=pointer]: Full Stack Developer Intern
+                    - generic [ref=f33e407]: Easily apply
+                  - generic [ref=f33e414]:
+                    - generic [ref=f33e417]:
+                      - generic [ref=f33e418]: SEO Quartz
+                      - generic [ref=f33e420]: Mohali, Punjab
+                    - list [ref=f33e422]:
+                      - listitem [ref=f33e423]:
+                        - generic [ref=f33e424]: Up to ₹5,000 a month
+                  - generic [ref=f33e427]:
+                    - button "Save job Toggle" [ref=f33e428] [cursor=pointer]
+                    - button "Not interested" [ref=f33e431] [cursor=pointer]
+              - listitem [ref=f33e435]:
+                - generic [ref=f33e440]:
+                  - generic [ref=f33e441]:
+                    - heading [level=3] [ref=f33e442]:
+                      - button "full details of MERN Stack Developer" [ref=f33e443] [cursor=pointer]: MERN Stack Developer
+                    - generic [ref=f33e445]:
+                      - generic [ref=f33e446]: Easily apply
+                      - generic [ref=f33e449]: Often replies in 3 days
+                  - generic [ref=f33e454]:
+                    - generic [ref=f33e457]:
+                      - generic [ref=f33e458]: zonvoir technologies pvt ltd
+                      - generic [ref=f33e460]: Lucknow, Uttar Pradesh
+                    - list [ref=f33e462]:
+                      - listitem [ref=f33e463]:
+                        - generic [ref=f33e464]: ₹20,000 - ₹30,000 a month
+                  - generic [ref=f33e467]:
+                    - button "Save job Toggle" [ref=f33e468] [cursor=pointer]
+                    - button "Not interested" [ref=f33e471] [cursor=pointer]
+              - listitem [ref=f33e475]:
+                - generic [ref=f33e480]:
+                  - generic [ref=f33e481]:
+                    - heading [level=3] [ref=f33e482]:
+                      - button "full details of Full Stack Developer" [ref=f33e483] [cursor=pointer]: Full Stack Developer
+                    - generic [ref=f33e484]: Easily apply
+                  - generic [ref=f33e491]:
+                    - generic [ref=f33e494]:
+                      - generic [ref=f33e495]: Safe Software & Integrated Solutions Pvt Ltd
+                      - generic [ref=f33e497]: Palakkad District, Kerala
+                    - list [ref=f33e499]:
+                      - listitem [ref=f33e500]:
+                        - generic [ref=f33e501]: Up to ₹60,000 a month
+                      - listitem [ref=f33e504]:
+                        - generic [ref=f33e505]: Provident Fund
+                  - link "View similar jobs with this employer" [ref=f33e508] [cursor=pointer]:
+                    - /url: /addlLoc/redirect?tk=1jvatfl93hc73801&jk=33f7ee0af6ffa292&dest=%2Fjobs%3Fq%3DMERN%2Bstack%2Bdeveloper%26nl%3D%26explvl%3Dentry_level%26sort%3Ddate%26grpKey%3D8gcFdG5mZWy4D-qBsSyqECEKCW5vcm10aXRsZRoUZnVsbCBzdGFjayBkZXZlbG9wZXI%253D
+                  - generic [ref=f33e509]:
+                    - button "Save job Toggle" [ref=f33e510] [cursor=pointer]
+                    - button "Not interested" [ref=f33e513] [cursor=pointer]
+              - listitem
+              - listitem [ref=f33e517]:
+                - generic [ref=f33e522]:
+                  - generic [ref=f33e523]:
+                    - heading [level=3] [ref=f33e524]:
+                      - button "full details of Full Stack Developer Intern" [ref=f33e525] [cursor=pointer]: Full Stack Developer Intern
+                    - generic [ref=f33e526]: Easily apply
+                  - generic [ref=f33e533]:
+                    - generic [ref=f33e536]:
+                      - generic [ref=f33e537]: schoenen dis llp
+                      - generic [ref=f33e539]: Nagercoil, Tamil Nadu
+                    - list [ref=f33e541]:
+                      - listitem [ref=f33e542]:
+                        - generic [ref=f33e543]: From ₹5,000 a year
+                      - listitem [ref=f33e546]:
+                        - generic [ref=f33e547]: Fresher
+                  - generic [ref=f33e550]:
+                    - button "Save job Toggle" [ref=f33e551] [cursor=pointer]
+                    - button "Not interested" [ref=f33e554] [cursor=pointer]
+              - listitem
+              - listitem [ref=f33e558]:
+                - generic [ref=f33e563]:
+                  - generic [ref=f33e564]:
+                    - heading [level=3] [ref=f33e565]:
+                      - button "full details of MERN Stack Developer Intern" [ref=f33e566] [cursor=pointer]: MERN Stack Developer Intern
+                    - generic [ref=f33e567]: Easily apply
+                  - generic [ref=f33e574]:
+                    - generic [ref=f33e577]:
+                      - generic [ref=f33e578]: DIGIT INFO SOLUTIONS
+                      - generic [ref=f33e580]: Nagercoil, Tamil Nadu
+                    - list [ref=f33e582]:
+                      - listitem [ref=f33e583]:
+                        - generic [ref=f33e584]: ₹5,000 - ₹8,000 a month
+                      - listitem [ref=f33e587]:
+                        - generic [ref=f33e588]:
+                          - img "matches your preference" [ref=f33e590]
+                          - generic [ref=f33e592]: Full-time
+                  - generic [ref=f33e594]:
+                    - button "Save job Toggle" [ref=f33e595] [cursor=pointer]
+                    - button "Not interested" [ref=f33e598] [cursor=pointer]
+              - listitem [ref=f33e602]:
+                - generic [ref=f33e607]:
+                  - generic [ref=f33e608]:
+                    - heading [level=3] [ref=f33e609]:
+                      - button "full details of MERN Stack Developer" [ref=f33e610] [cursor=pointer]: MERN Stack Developer
+                    - generic [ref=f33e611]: Easily apply
+                  - generic [ref=f33e618]:
+                    - generic [ref=f33e621]:
+                      - generic [ref=f33e622]: Ragini Infosystems
+                      - generic [ref=f33e624]: Mulund West, Mumbai, Maharashtra
+                    - list [ref=f33e626]:
+                      - listitem [ref=f33e627]:
+                        - generic [ref=f33e628]: ₹2,00,000 - ₹5,00,000 a year
+                      - listitem [ref=f33e631]:
+                        - generic [ref=f33e632]:
+                          - img "matches your preference" [ref=f33e634]
+                          - generic [ref=f33e637]:
+                            - text: Full-time
+                            - generic [ref=f33e638]: "+1"
+                  - generic [ref=f33e639]:
+                    - button "Save job Toggle" [ref=f33e640] [cursor=pointer]
+                    - button "Not interested" [ref=f33e643] [cursor=pointer]
+              - listitem [ref=f33e647]:
+                - generic [ref=f33e652]:
+                  - heading [level=3] [ref=f33e654]:
+                    - button "full details of Technical Lead – JavaScript Full Stack Developer" [ref=f33e655] [cursor=pointer]: Technical Lead – JavaScript Full Stack Developer
+                  - generic [ref=f33e661]:
+                    - generic [ref=f33e662]: T7E
+                    - generic [ref=f33e664]: Mulund, Mumbai, Maharashtra
+                  - generic [ref=f33e665]:
+                    - button "Save job Toggle" [ref=f33e666] [cursor=pointer]
+                    - button "Not interested" [ref=f33e669] [cursor=pointer]
+              - listitem [ref=f33e673]:
+                - generic [ref=f33e678]:
+                  - generic [ref=f33e679]:
+                    - heading [level=3] [ref=f33e680]:
+                      - button "full details of MERN Stack Developer" [ref=f33e681] [cursor=pointer]: MERN Stack Developer
+                    - generic [ref=f33e682]: Easily apply
+                  - generic [ref=f33e692]:
+                    - generic [ref=f33e693]: NYU SOFT SOLUTIONS LLP
+                    - generic [ref=f33e695]: Ahmedabad, Gujarat
+                  - generic [ref=f33e696]:
+                    - button "Save job Toggle" [ref=f33e697] [cursor=pointer]
+                    - button "Not interested" [ref=f33e700] [cursor=pointer]
+              - listitem [ref=f33e704]:
+                - generic [ref=f33e709]:
+                  - heading [level=3] [ref=f33e711]:
+                    - button "full details of Java developer" [ref=f33e712] [cursor=pointer]: Java developer
+                  - generic [ref=f33e715]:
+                    - generic [ref=f33e718]:
+                      - generic [ref=f33e719]: Barclays
+                      - generic [ref=f33e721]: Pune, Maharashtra
+                    - list [ref=f33e723]:
+                      - listitem [ref=f33e724]:
+                        - generic [ref=f33e725]: Permanent
+                  - generic [ref=f33e728]:
+                    - button "Save job Toggle" [ref=f33e729] [cursor=pointer]
+                    - button "Not interested" [ref=f33e732] [cursor=pointer]
+              - listitem
+            - navigation "pagination" [ref=f33e736]:
+              - list [ref=f33e737]:
+                - listitem [ref=f33e738]:
+                  - link "1" [ref=f33e739] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=f33e740]:
+                  - link "2" [ref=f33e741] [cursor=pointer]:
+                    - /url: /jobs?q=MERN+stack+developer&explvl=entry_level&sort=date&start=10
+                - listitem [ref=f33e742]:
+                  - link "3" [ref=f33e743] [cursor=pointer]:
+                    - /url: /jobs?q=MERN+stack+developer&explvl=entry_level&sort=date&start=20
+                - listitem [ref=f33e744]:
+                  - link "4" [ref=f33e745] [cursor=pointer]:
+                    - /url: /jobs?q=MERN+stack+developer&explvl=entry_level&sort=date&start=30
+                - listitem [ref=f33e746]:
+                  - link "5" [ref=f33e747] [cursor=pointer]:
+                    - /url: /jobs?q=MERN+stack+developer&explvl=entry_level&sort=date&start=40
+                - listitem [ref=f33e748]:
+                  - link "Next Page" [ref=f33e749] [cursor=pointer]:
+                    - /url: /jobs?q=MERN+stack+developer&explvl=entry_level&sort=date&start=10
+            - generic [ref=f33e755]:
+              - heading "Be the first to see new MERN stack developer jobs" [level=2] [ref=f33e757]
+              - generic [ref=f33e760]:
+                - generic [ref=f33e762]:
+                  - generic [ref=f33e763]: Email address
+                  - textbox "Email address" [ref=f33e765]: prasadyashraj004@gmail.com
+                - button "Activate" [ref=f33e767] [cursor=pointer]
+              - paragraph [ref=f33e770]:
+                - text: By creating a job alert, you agree to our
+                - link "Terms (opens in a new tab)" [ref=f33e771] [cursor=pointer]:
+                  - /url: /legal?hl=en
+                  - text: Terms
+                - text: . You can change your consent settings at any time by unsubscribing or as detailed in our terms.
+            - generic [ref=f33e775]:
+              - heading "People also searched:" [level=3] [ref=f33e776]
+              - list [ref=f33e777]:
+                - listitem [ref=f33e778]:
+                  - link "mern stack developer fresher" [ref=f33e779] [cursor=pointer]:
+                    - /url: /q-entry-level-mern-stack-developer-fresher-jobs.html
+                - listitem [ref=f33e782]:
+                  - link "react js developer" [ref=f33e783] [cursor=pointer]:
+                    - /url: /q-entry-level-react-js-developer-jobs.html
+                - listitem [ref=f33e786]:
+                  - link "full stack developer" [ref=f33e787] [cursor=pointer]:
+                    - /url: /q-entry-level-full-stack-developer-jobs.html
+                - listitem [ref=f33e790]:
+                  - link "node js developer" [ref=f33e791] [cursor=pointer]:
+                    - /url: /q-entry-level-node-js-developer-jobs.html
+                - listitem [ref=f33e794]:
+                  - link "react js developer fresher" [ref=f33e795] [cursor=pointer]:
+                    - /url: /q-entry-level-react-js-developer-fresher-jobs.html
+                - listitem [ref=f33e798]:
+                  - link "front end developer" [ref=f33e799] [cursor=pointer]:
+                    - /url: /q-entry-level-front-end-developer-jobs.html
+                - listitem [ref=f33e802]:
+                  - link "mern stack" [ref=f33e803] [cursor=pointer]:
+                    - /url: /q-entry-level-mern-stack-jobs.html
+                - listitem [ref=f33e806]:
+                  - link "full stack developer fresher" [ref=f33e807] [cursor=pointer]:
+                    - /url: /q-entry-level-full-stack-developer-fresher-jobs.html
+                - listitem [ref=f33e810]:
+                  - link "web developer" [ref=f33e811] [cursor=pointer]:
+                    - /url: /q-entry-level-web-developer-jobs.html
+                - listitem [ref=f33e814]:
+                  - link "front end developer fresher" [ref=f33e815] [cursor=pointer]:
+                    - /url: /q-entry-level-front-end-developer-fresher-jobs.html
+          - generic [ref=f33e820]:
+            - button "Return to Search Result" [ref=f33e821]
+            - heading "Job Post Details" [level=2] [ref=f33e822]
+            - generic [ref=f33e827]:
+              - generic [ref=f33e828]:
+                - heading "MERN Stack Developer - job post" [level=2] [ref=f33e830]:
+                  - generic [ref=f33e831]:
+                    - text: MERN Stack Developer
+                    - generic [ref=f33e832]: "- job post"
+                - generic [ref=f33e836]:
+                  - generic [ref=f33e837]:
+                    - link "Mobile Programming India Pvt Ltd (opens in a new tab)" [ref=f33e840] [cursor=pointer]:
+                      - /url: https://in.indeed.com/cmp/Mobile-Programming-India-Pvt-Ltd?campaignid=mobvjcmp&from=mobviewjob&tk=1jvatfli0hc73809&fromjk=afb03bf3cdf4454b
+                      - text: Mobile Programming India Pvt Ltd
+                    - generic [ref=f33e843]:
+                      - generic [ref=f33e844]: · 4.0
+                      - generic [ref=f33e845]: 4.0 out of 5 stars
+                  - generic [ref=f33e848]: Hyderabad, Telangana
+              - generic [ref=f33e851]:
+                - button "Apply with Indeed opens in a new tab" [ref=f33e859] [cursor=pointer]:
+                  - img "loading" [ref=f33e862]
+                - button "Save job" [ref=f33e868] [cursor=pointer]:
+                  - img "save-icon" [ref=f33e869]
+                - button "Not interested" [ref=f33e871] [cursor=pointer]
+                - button "Share Job" [ref=f33e874] [cursor=pointer]
