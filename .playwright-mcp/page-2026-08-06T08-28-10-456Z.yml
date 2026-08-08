@@ -1,0 +1,339 @@
+- generic [active] [ref=f2603e1]:
+  - link "Skip to content" [ref=f2603e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f2603e3]:
+    - banner [ref=f2603e4]:
+      - generic [ref=f2603e7]:
+        - link [ref=f2603e11] [cursor=pointer]:
+          - /url: https://jobsnet.in/
+          - img "Jobsnet.in" [ref=f2603e12]
+        - generic [ref=f2603e14]:
+          - navigation "Main Menu" [ref=f2603e15]:
+            - list [ref=f2603e16]:
+              - listitem [ref=f2603e17]:
+                - link "Home" [ref=f2603e18] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - listitem [ref=f2603e19]:
+                - link "Internships" [ref=f2603e20] [cursor=pointer]:
+                  - /url: https://jobsnet.in/internships/
+              - listitem [ref=f2603e21]:
+                - link "Off Campus Drives" [ref=f2603e22] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+              - listitem [ref=f2603e23]:
+                - link [ref=f2603e24] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+              - listitem [ref=f2603e28]:
+                - link [ref=f2603e29] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+          - button "Search" [ref=f2603e33] [cursor=pointer]
+    - main [ref=f2603e36]:
+      - insertion [ref=f2603e38]:
+        - iframe [ref=f2603e40]:
+          
+      - generic [ref=f2603e41]:
+        - article [ref=f2603e42]:
+          - generic [ref=f2603e44]:
+            - navigation [ref=f2603e45]:
+              - link "Home" [ref=f2603e47] [cursor=pointer]:
+                - /url: https://jobsnet.in/
+              - link "Off Campus Drive" [ref=f2603e51] [cursor=pointer]:
+                - /url: https://jobsnet.in/off-campus-drive/
+              - generic [ref=f2603e54]: Intuit is Hiring Entry-Level Software Engineer 1 (0-2 Years)
+            - heading "Intuit is Hiring Entry-Level Software Engineer 1 (0-2 Years)" [level=1] [ref=f2603e56]
+            - list [ref=f2603e57]:
+              - listitem [ref=f2603e58]:
+                - text: By
+                - link "Anand Kumar" [ref=f2603e59] [cursor=pointer]:
+                  - /url: https://jobsnet.in/author/anand/
+                - text: /
+              - listitem [ref=f2603e60]:
+                - text: "On"
+                - time [ref=f2603e61]: March 16, 2026
+          - figure [ref=f2603e62]
+          - generic [ref=f2603e64]:
+            - paragraph [ref=f2603e65]:
+              - text: Intuit inviting applications for the role of
+              - link "Software" [ref=f2603e66] [cursor=pointer]:
+                - /url: "#"
+              - link "Engineer" [ref=f2603e69] [cursor=pointer]:
+                - /url: "#"
+              - text: 1. This opportunity is open to candidates having less than 2 Years experience. Eligible candidates should possess a strong foundation in
+              - link "computer science" [ref=f2603e72] [cursor=pointer]:
+                - /url: "#"
+              - text: ", proficiency in programming, and a passion for innovation."
+              - link "Civil Engineering" [ref=f2603e75] [cursor=pointer]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - heading "Intuit Hiring Drive Overview" [level=2] [ref=f2603e79]
+            - paragraph [ref=f2603e80]:
+              - strong [ref=f2603e81]: Position
+              - text: ": Software Engineer 1"
+            - paragraph [ref=f2603e82]:
+              - strong [ref=f2603e83]: "Work Location :"
+              - text: Bangalore
+            - generic [ref=f2603e86]:
+              - generic [ref=f2603e87]:
+                - generic [ref=f2603e88]: WhatsApp Channel
+                - link "Join Now" [ref=f2603e90] [cursor=pointer]:
+                  - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+              - generic [ref=f2603e91]:
+                - generic [ref=f2603e92]: Telegram Channel
+                - link "Join Now" [ref=f2603e94] [cursor=pointer]:
+                  - /url: https://telegram.me/campusdrivejobs
+            - paragraph [ref=f2603e95]:
+              - strong [ref=f2603e96]: "Salary :"
+              - text: High in Industry
+              - link "Computer Science" [ref=f2603e97] [cursor=pointer]
+            - paragraph [ref=f2603e101]:
+              - strong [ref=f2603e102]: "Experience :"
+              - text: Freshers to 2 Years
+            - generic [ref=f2603e103]:
+              - insertion:
+                - generic:
+                  - iframe
+            - paragraph [ref=f2603e104]:
+              - strong [ref=f2603e105]: "Qualification :"
+              - text: BE/BTech/BSC/MCA/MS/MTech or any
+            - paragraph [ref=f2603e106]:
+              - strong [ref=f2603e107]: "Batch :"
+              - text: Any
+            - heading [level=2] [ref=f2603e108]:
+              - strong [ref=f2603e109]: "Job Description :"
+            - paragraph [ref=f2603e110]:
+              - text: This role is ideal for those at the start of their professional journey, with less than two years of industry experience who are eager to learn, grow, and make an immediate impact. As this is a general posting, we’ll align you with a team based on your skills, interests, and career aspirations to set you up for success.
+              - link "Science" [ref=f2603e111] [cursor=pointer]
+            - paragraph [ref=f2603e115]:
+              - strong [ref=f2603e116]: Responsibilities
+            - paragraph [ref=f2603e117]: "Frontend Engineering:"
+            - list [ref=f2603e118]:
+              - listitem [ref=f2603e119]: Experience developing scalable, responsive, and dynamic web-based applications
+              - listitem [ref=f2603e120]: Familiarity with modern frontend tools and frameworks such as React, AngularJS, or Vue.js
+              - listitem [ref=f2603e121]: Knowledge of HTML, CSS, and JavaScript standards
+              - listitem [ref=f2603e122]: Strong ability to collaborate with designers, UX specialists, and backend engineers
+            - paragraph [ref=f2603e123]: "Backend Engineering:"
+            - list [ref=f2603e124]:
+              - listitem [ref=f2603e125]: Experience developing web applications using server-side languages, such as Java, Python, or Node.js.
+              - listitem [ref=f2603e126]: Familiarity with database technologies such as MySQL, PostgreSQL, or MongoDB
+              - listitem [ref=f2603e127]: Understanding of RESTful API design principles and ability to work with API integrations
+              - listitem [ref=f2603e128]: Experience with server frameworks such as Express, Spring MVC or Django
+            - paragraph [ref=f2603e129]: "Fullstack Engineering:"
+            - list [ref=f2603e130]:
+              - listitem [ref=f2603e131]: Familiarity with both frontend and backend development
+              - listitem [ref=f2603e132]: Ability to work effectively with developers and designers, discussing application and API architectures
+              - listitem [ref=f2603e133]: Understanding of Agile methodologies and ability to work with Scrum teams
+              - listitem [ref=f2603e134]: Familiarity with tools such as Git, Jenkins, or Travis
+            - paragraph [ref=f2603e135]: "Mobile Engineering:"
+            - list [ref=f2603e136]:
+              - listitem [ref=f2603e137]: Experience developing applications for one or more platforms such as Android and iOS
+              - listitem [ref=f2603e138]: Familiarity with mobile application development frameworks such as React Native or Flutter
+              - listitem [ref=f2603e139]: Understanding of development tools such as XCode, Android Studio and SDK languages such as Objective-C, Swift or Java
+              - listitem [ref=f2603e140]: Ability to work with designers and backend engineers to integrate mobile applications with cloud-based APIs
+            - paragraph [ref=f2603e141]:
+              - text: "Across all tech stacks:"
+              - link "Civil Engineering" [ref=f2603e142] [cursor=pointer]
+            - list [ref=f2603e146]:
+              - listitem [ref=f2603e147]: Contribute to our core products and services, as well as systems that power critical engineering operations.
+              - listitem [ref=f2603e148]: See your work launched and help solve meaningful problems for customers.
+              - listitem [ref=f2603e149]: Learn and apply proven best practices in designing, building, and supporting software projects.
+              - listitem [ref=f2603e150]: Receive hands-on guidance, detailed feedback, and mentorship from experienced team members.
+              - listitem [ref=f2603e151]: Collaborate closely with peers across disciplines and build strong, supportive working relationships.
+            - paragraph [ref=f2603e152]:
+              - strong [ref=f2603e153]: Qualifications
+            - paragraph [ref=f2603e154]:
+              - strong [ref=f2603e155]: Qualifications
+            - list [ref=f2603e156]:
+              - listitem [ref=f2603e157]: Bachelor’s or Master’s degree in Computer Science, a related technical field, or equivalent practical experience.
+              - listitem [ref=f2603e158]: Foundational understanding of Agile development, object-oriented design, and programming principles.
+              - listitem [ref=f2603e159]: Coursework, internships, personal projects, or academic experience with one or more programming languages (e.g., Java, Python, JavaScript, C++, etc.).
+              - listitem [ref=f2603e160]: Basic knowledge of front-end web technologies (e.g., HTML, CSS, JavaScript) and familiarity with frameworks or tools is a plus.
+              - listitem [ref=f2603e161]: Strong written, verbal, and collaboration skills with the ability to work effectively in a team environment.
+              - listitem [ref=f2603e162]: Awareness of AI concepts and a basic understanding of capabilities like Generative AI.
+              - listitem [ref=f2603e163]: Willingness to learn and adapt to new priorities, tools, and technologies in a fast-paced, dynamic environment.
+            - heading [level=2] [ref=f2603e164]:
+              - strong [ref=f2603e165]: "How To Apply:"
+            - paragraph [ref=f2603e166]:
+              - text: The interested and eligible graduates register for the same position on following Intuit careers portal link.
+              - link "Engineering & Technology" [ref=f2603e167] [cursor=pointer]
+            - insertion [ref=f2603e172]
+            - paragraph [ref=f2603e174]:
+              - strong [ref=f2603e175]:
+                - text: "Apply Link:"
+                - link "Click Here" [ref=f2603e176] [cursor=pointer]:
+                  - /url: https://jobs.intuit.com/job/-/-/27595/90402464720?cid=job_li_click_in_active-fy20_cn_text_job_intuit-talent&iis=job&iisn=li
+            - generic [ref=f2603e177]:
+              - strong [ref=f2603e178]: "Join Our Whatsapp Group:"
+              - link [ref=f2603e179] [cursor=pointer]:
+                - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+                - strong [ref=f2603e180]: Click Here
+              - link "Civil Engineering" [ref=f2603e181] [cursor=pointer]
+            - insertion [ref=f2603e186]
+          - generic [ref=f2603e188]:
+            - generic [ref=f2603e189]: You May like
+            - generic [ref=f2603e190]:
+              - link "# Java" [ref=f2603e191] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/java/
+              - link "# Jobs in Bangalore" [ref=f2603e192] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-bangalore/
+              - link "# Jobs in Hyderabad" [ref=f2603e193] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-hyderabad/
+              - link "# Linux" [ref=f2603e194] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/linux/
+              - link "# Python" [ref=f2603e195] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/python/
+              - link "# QA" [ref=f2603e196] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/qa/
+              - link "# Testing" [ref=f2603e197] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/testing/
+          - generic [ref=f2603e199]:
+            - link "Facebook" [ref=f2603e200] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjobsnet.in%2Fintuit-is-hiring-entry-level-software-engineer%2F
+            - link "X (Twitter)" [ref=f2603e204] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fjobsnet.in%2Fintuit-is-hiring-entry-level-software-engineer%2F&text=Intuit%20is%20Hiring%20Entry-Level%20Software%20Engineer%201%20(0-2%20Years)
+            - link "Reddit" [ref=f2603e208] [cursor=pointer]:
+              - /url: https://reddit.com/submit?url=https%3A%2F%2Fjobsnet.in%2Fintuit-is-hiring-entry-level-software-engineer%2F&title=Intuit%20is%20Hiring%20Entry-Level%20Software%20Engineer%201%20(0-2%20Years)
+            - link "Telegram" [ref=f2603e212] [cursor=pointer]:
+              - /url: https://t.me/share/url?url=https%3A%2F%2Fjobsnet.in%2Fintuit-is-hiring-entry-level-software-engineer%2F&text=Intuit%20is%20Hiring%20Entry-Level%20Software%20Engineer%201%20(0-2%20Years)
+            - link "WhatsApp" [ref=f2603e216] [cursor=pointer]:
+              - /url: whatsapp://send?text=https%3A%2F%2Fjobsnet.in%2Fintuit-is-hiring-entry-level-software-engineer%2F
+          - generic [ref=f2603e220]:
+            - link [ref=f2603e221] [cursor=pointer]:
+              - /url: https://jobsnet.in/author/anand/
+              - img "Anand Kumar" [ref=f2603e222]
+            - generic [ref=f2603e225]:
+              - heading "Anand Kumar" [level=5] [ref=f2603e226]
+              - paragraph [ref=f2603e228]:
+                - text: Career Expert & Founder of JobsNet.in. Serving the student community since 2019, I specialize in providing verified job updates and placement material for computer science, IT, engineering and management graduates. With a mission to simplify the job hunt, I have helped thousands of candidates secure roles in top MNCs over the last 7 years.
+                - link "Computer Science" [ref=f2603e229] [cursor=pointer]
+              - generic [ref=f2603e234]:
+                - link "LinkedIn icon" [ref=f2603e235] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/amar-kumar-sd
+                - link "Website icon" [ref=f2603e238] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - 'link "Articles: 2394" [ref=f2603e241] [cursor=pointer]':
+                - /url: https://jobsnet.in/author/anand/
+          - insertion [ref=f2603e243]
+          - navigation [ref=f2603e245]:
+            - 'link "Previous Post Yash Technologies Off Campus Drive 2026: Java Programmer Trainee - Freshers" [ref=f2603e246] [cursor=pointer]':
+              - /url: https://jobsnet.in/yash-technologies-off-campus-drive-java-programmer-trainee/
+              - figure [ref=f2603e247]:
+                - img "Yash Technologies Hiring Freshers QA Trainee - Pune/Indore/Hyderabad" [ref=f2603e248]
+              - generic [ref=f2603e251]:
+                - generic [ref=f2603e252]: Previous Post
+                - generic [ref=f2603e253]: "Yash Technologies Off Campus Drive 2026: Java Programmer Trainee - Freshers"
+            - 'link "Next Post Fujitsu Off Campus Drive 2026 : Data & AI Apprentices" [ref=f2603e254] [cursor=pointer]':
+              - /url: https://jobsnet.in/fujitsu-off-campus-drive-2026-data-ai-apprentices/
+              - generic [ref=f2603e255]:
+                - generic [ref=f2603e256]: Next Post
+                - generic [ref=f2603e257]: "Fujitsu Off Campus Drive 2026 : Data & AI Apprentices"
+              - figure [ref=f2603e258]
+          - generic [ref=f2603e261]:
+            - heading "Related" [level=3] [ref=f2603e262]
+            - generic [ref=f2603e263]:
+              - article [ref=f2603e264]:
+                - generic [ref=f2603e265]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2603e266] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                  - paragraph [ref=f2603e267]:
+                    - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2603e268] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+              - article [ref=f2603e269]:
+                - generic [ref=f2603e270]:
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2603e271] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                    - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f2603e272]
+                  - paragraph [ref=f2603e273]:
+                    - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2603e274] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+              - article [ref=f2603e275]:
+                - generic [ref=f2603e276]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2603e277] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                  - paragraph [ref=f2603e278]:
+                    - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2603e279] [cursor=pointer]:
+                      - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+        - complementary [ref=f2603e280]:
+          - generic [ref=f2603e281]:
+            - heading "Search Jobs" [level=3] [ref=f2603e284]
+            - textbox "search" [ref=f2603e291]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - generic [ref=f2603e292]:
+              - heading "Latest Updates" [level=3] [ref=f2603e293]
+              - list [ref=f2603e295]:
+                - listitem [ref=f2603e296]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2603e298] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                - listitem [ref=f2603e299]:
+                  - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f2603e301]
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2603e302] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                - listitem [ref=f2603e303]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2603e305] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                - listitem [ref=f2603e306]:
+                  - img "Accenture Mega Off Campus Drive For Freshers - Associate Software Engineer" [ref=f2603e308]
+                  - link "Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)" [ref=f2603e309] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-entry-level-custom-software-engineer-python/
+                - listitem [ref=f2603e310]:
+                  - img "Cornerstone Off Campus Drive - Hiring Junior Engineer" [ref=f2603e312]
+                  - link "Cornerstone Hiring Entry Level Junior Engineer – Cloud Ops" [ref=f2603e313] [cursor=pointer]:
+                    - /url: https://jobsnet.in/cornerstone-hiring-entry-level-junior-engineer-cloud-ops/
+                - listitem [ref=f2603e314]:
+                  - link "Calix Off Campus Drive 2026 – Hiring Graduate Trainee – Test & QA" [ref=f2603e316] [cursor=pointer]:
+                    - /url: https://jobsnet.in/calix-off-campus-drive-hiring-graduate-trainee-test-qa/
+                - listitem [ref=f2603e317]:
+                  - link "HDFC Life Off Campus Drive 2026 – Graduate Trainee – Data Science & Analytics" [ref=f2603e319] [cursor=pointer]:
+                    - /url: https://jobsnet.in/hdfc-life-off-campus-drive-graduate-trainee-data-science-analytics/
+                - listitem [ref=f2603e320]:
+                  - img "Yash Technologies Hiring Freshers QA Trainee - Pune/Indore/Hyderabad" [ref=f2603e322]
+                  - link "Yash Technologies Off Campus Drive 2026 – AI/ML Trainee" [ref=f2603e323] [cursor=pointer]:
+                    - /url: https://jobsnet.in/yash-technologies-off-campus-drive-hiring-ai-ml-trainee/
+                - listitem [ref=f2603e324]:
+                  - img "White Twilio logo and four-dot icon on a red background." [ref=f2603e326]
+                  - link "Twilio Off Campus Drive 2026 – Associate Application Engineer- Remote" [ref=f2603e327] [cursor=pointer]:
+                    - /url: https://jobsnet.in/twilio-off-campus-drive-associate-application-engineer-remote/
+                - listitem [ref=f2603e328]:
+                  - img "Accenture Hiring Any Graduate Freshers As Network Associate" [ref=f2603e330]
+                  - link "Accenture Hiring Application Support Engineer – Any Graduate (0-2 Years)" [ref=f2603e331] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-application-support-engineer-any-graduate-0-2-years/
+            - generic [ref=f2603e333]:
+              - insertion:
+                - generic:
+                  - iframe
+    - insertion [ref=f2603e335]
+    - contentinfo [ref=f2603e337]:
+      - generic [ref=f2603e339]:
+        - paragraph [ref=f2603e342]: © 2026 Jobsnet.in
+        - navigation "footermenu" [ref=f2603e344]:
+          - list [ref=f2603e345]:
+            - listitem [ref=f2603e346]:
+              - link "Home" [ref=f2603e347] [cursor=pointer]:
+                - /url: https://jobsnet.in
+            - listitem [ref=f2603e348]:
+              - link "About us" [ref=f2603e349] [cursor=pointer]:
+                - /url: https://jobsnet.in/about-us/
+            - listitem [ref=f2603e350]:
+              - link "Contact Us" [ref=f2603e351] [cursor=pointer]:
+                - /url: https://jobsnet.in/contact/
+            - listitem [ref=f2603e352]:
+              - link "Advertise With Us" [ref=f2603e353] [cursor=pointer]:
+                - /url: https://jobsnet.in/advertise/
+            - listitem [ref=f2603e354]:
+              - link "Terms" [ref=f2603e355] [cursor=pointer]:
+                - /url: https://jobsnet.in/terms-and-conditions/
+            - listitem [ref=f2603e356]:
+              - link "Privacy" [ref=f2603e357] [cursor=pointer]:
+                - /url: https://jobsnet.in/privacy-policy/
+  - generic [ref=f2603e358]:
+    - generic [ref=f2603e359] [cursor=pointer]: CLOSE [X]
+    - insertion [ref=f2603e361]:
+      - iframe [ref=f2603e363]:
+        
+  - link "Join WhatsApp" [ref=f2603e365] [cursor=pointer]:
+    - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP

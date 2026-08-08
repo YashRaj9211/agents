@@ -1,0 +1,303 @@
+- generic [active] [ref=f3107e1]:
+  - link "Skip to content" [ref=f3107e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f3107e3]:
+    - banner [ref=f3107e4]:
+      - generic [ref=f3107e7]:
+        - link [ref=f3107e11] [cursor=pointer]:
+          - /url: https://jobsnet.in/
+          - img "Jobsnet.in" [ref=f3107e12]
+        - generic [ref=f3107e14]:
+          - navigation "Main Menu" [ref=f3107e15]:
+            - list [ref=f3107e16]:
+              - listitem [ref=f3107e17]:
+                - link "Home" [ref=f3107e18] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - listitem [ref=f3107e19]:
+                - link "Internships" [ref=f3107e20] [cursor=pointer]:
+                  - /url: https://jobsnet.in/internships/
+              - listitem [ref=f3107e21]:
+                - link "Off Campus Drives" [ref=f3107e22] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+              - listitem [ref=f3107e23]:
+                - link [ref=f3107e24] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+              - listitem [ref=f3107e28]:
+                - link [ref=f3107e29] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+          - button "Search" [ref=f3107e33] [cursor=pointer]
+    - main [ref=f3107e36]:
+      - insertion [ref=f3107e38]:
+        - iframe [ref=f3107e40]:
+          
+      - generic [ref=f3107e41]:
+        - article [ref=f3107e42]:
+          - generic [ref=f3107e44]:
+            - navigation [ref=f3107e45]:
+              - link "Home" [ref=f3107e47] [cursor=pointer]:
+                - /url: https://jobsnet.in/
+              - link "Off Campus Drive" [ref=f3107e51] [cursor=pointer]:
+                - /url: https://jobsnet.in/off-campus-drive/
+              - generic [ref=f3107e54]: "Natwest Technology Off Campus Drive 2026 : Software Engineer – Freshers"
+            - 'heading "Natwest Technology Off Campus Drive 2026 : Software Engineer – Freshers" [level=1] [ref=f3107e56]'
+            - list [ref=f3107e57]:
+              - listitem [ref=f3107e58]:
+                - text: By
+                - link "Anand Kumar" [ref=f3107e59] [cursor=pointer]:
+                  - /url: https://jobsnet.in/author/anand/
+                - text: /
+              - listitem [ref=f3107e60]:
+                - text: "On"
+                - time [ref=f3107e61]: February 9, 2026
+          - figure [ref=f3107e62]
+          - generic [ref=f3107e64]:
+            - paragraph [ref=f3107e65]:
+              - text: Natwest looking to hire fresh
+              - link "engineering" [ref=f3107e66] [cursor=pointer]:
+                - /url: "#"
+              - text: graduates of freshers as well experienced graduates having 0-1 year experience in
+              - link "Software" [ref=f3107e69] [cursor=pointer]:
+                - /url: "#"
+              - text: Development in Java and react can apply for the huring
+              - link "Engineering & Technology" [ref=f3107e72] [cursor=pointer]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - paragraph
+            - heading [level=2] [ref=f3107e76]:
+              - strong [ref=f3107e77]: NatWest Technology Careers 2026
+            - paragraph [ref=f3107e78]:
+              - strong [ref=f3107e79]: Job Title
+              - text: ": Software"
+              - link "Engineer" [ref=f3107e80] [cursor=pointer]:
+                - /url: "#"
+            - generic [ref=f3107e85]:
+              - generic [ref=f3107e86]:
+                - generic [ref=f3107e87]: WhatsApp Channel
+                - link "Join Now" [ref=f3107e89] [cursor=pointer]:
+                  - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+              - generic [ref=f3107e90]:
+                - generic [ref=f3107e91]: Telegram Channel
+                - link "Join Now" [ref=f3107e93] [cursor=pointer]:
+                  - /url: https://telegram.me/campusdrivejobs
+            - paragraph [ref=f3107e94]:
+              - strong [ref=f3107e95]: Job Location
+              - text: ": Bangalore"
+            - paragraph [ref=f3107e96]:
+              - strong [ref=f3107e97]: "Salary :"
+              - text: Best in Industry
+            - generic [ref=f3107e98]:
+              - insertion:
+                - generic:
+                  - iframe
+            - paragraph [ref=f3107e99]:
+              - strong [ref=f3107e100]: Experience
+              - text: ": Freshers/0-1 Years"
+            - paragraph [ref=f3107e101]:
+              - strong [ref=f3107e102]: Degree
+              - text: ": BE/BTech/MTech/MCA/Bsc/MSc etc"
+            - heading "Job Description:" [level=4] [ref=f3107e103]
+            - paragraph [ref=f3107e104]: In your new role, you’ll engineer and maintain innovative, customer centric, high performance, secure and robust solutions.
+            - paragraph [ref=f3107e105]: You’ll be working within a feature team and using your extensive experience to engineer software, scripts and tools that are often complex, as well as liaising with other engineers, architects and business analysts across the platform.
+            - paragraph [ref=f3107e106]: "You’ll also be:"
+            - list [ref=f3107e107]:
+              - listitem [ref=f3107e108]: Working in permanent teams who are responsible for the full life cycle, from initial development, through enhancement and maintenance to replacement or decommissioning
+              - listitem [ref=f3107e109]: Collaborating to optimise our software engineering capability
+              - listitem [ref=f3107e110]: Designing, producing, testing and implementing our working code
+              - listitem [ref=f3107e111]: Integrating APIs for seamless data exchange between systems
+              - listitem [ref=f3107e112]: Conducting research and staying up-to-date on the latest trends in AI/ML
+            - paragraph [ref=f3107e113]:
+              - strong [ref=f3107e114]: The skills you’ll need
+              - link "Engineering & Technology" [ref=f3107e115] [cursor=pointer]
+            - paragraph [ref=f3107e119]: You’ll need a background in software engineering, software design, architecture, and bring an understanding of how your area of expertise supports our customers.
+            - paragraph [ref=f3107e120]: "You’ll also need:"
+            - list [ref=f3107e121]:
+              - listitem [ref=f3107e122]: 0 to 1 year experience in Java, Oracle, or React
+              - listitem [ref=f3107e123]: Experience of working with development, bug tracking tools and wikis
+              - listitem [ref=f3107e124]: Experience of DevOps, Testing and Agile methodology and associated toolsets
+              - listitem [ref=f3107e125]: A background in solving highly complex, analytical and numerical problems
+            - heading [level=4] [ref=f3107e126]:
+              - strong [ref=f3107e127]: "How To Apply:"
+            - paragraph [ref=f3107e128]:
+              - text: The interested and eligible graduates register on the following NatWest Careers Hiring.
+              - link "Data Management" [ref=f3107e129] [cursor=pointer]
+            - insertion [ref=f3107e134]
+            - paragraph [ref=f3107e136]:
+              - strong [ref=f3107e137]: NatWest Apply Link
+              - text: ":"
+              - link [ref=f3107e138] [cursor=pointer]:
+                - /url: https://jobs.natwestgroup.com/jobs/17299335-software-engineer-fixed-term-contract-6-months?bid=370
+                - strong [ref=f3107e139]: Click Here
+            - generic [ref=f3107e140]:
+              - strong [ref=f3107e141]: "Join Our Whatsapp Group:"
+              - link [ref=f3107e142] [cursor=pointer]:
+                - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+                - strong [ref=f3107e143]: Click Here
+            - insertion [ref=f3107e145]
+          - generic [ref=f3107e147]:
+            - generic [ref=f3107e148]: You May like
+            - generic [ref=f3107e149]:
+              - link "# AIML" [ref=f3107e150] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/aiml/
+              - link "# AWS" [ref=f3107e151] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/aws/
+              - link "# Java" [ref=f3107e152] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/java/
+              - link "# Jobs in Bangalore" [ref=f3107e153] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-bangalore/
+              - link "# QA" [ref=f3107e154] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/qa/
+              - link "# SQL" [ref=f3107e155] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/sql/
+              - link "# Testing" [ref=f3107e156] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/testing/
+          - generic [ref=f3107e158]:
+            - link "Facebook" [ref=f3107e159] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjobsnet.in%2Fnatwest-technology-off-campus-drive-software-engineer-freshers%2F
+            - link "X (Twitter)" [ref=f3107e163] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fjobsnet.in%2Fnatwest-technology-off-campus-drive-software-engineer-freshers%2F&text=Natwest%20Technology%20Off%20Campus%20%20Drive%202026%20%3A%20Software%20Engineer%20%26%238211%3B%20Freshers
+            - link "Reddit" [ref=f3107e167] [cursor=pointer]:
+              - /url: https://reddit.com/submit?url=https%3A%2F%2Fjobsnet.in%2Fnatwest-technology-off-campus-drive-software-engineer-freshers%2F&title=Natwest%20Technology%20Off%20Campus%20%20Drive%202026%20%3A%20Software%20Engineer%20%26%238211%3B%20Freshers
+            - link "Telegram" [ref=f3107e171] [cursor=pointer]:
+              - /url: https://t.me/share/url?url=https%3A%2F%2Fjobsnet.in%2Fnatwest-technology-off-campus-drive-software-engineer-freshers%2F&text=Natwest%20Technology%20Off%20Campus%20%20Drive%202026%20%3A%20Software%20Engineer%20%26%238211%3B%20Freshers
+            - link "WhatsApp" [ref=f3107e175] [cursor=pointer]:
+              - /url: whatsapp://send?text=https%3A%2F%2Fjobsnet.in%2Fnatwest-technology-off-campus-drive-software-engineer-freshers%2F
+          - generic [ref=f3107e179]:
+            - link [ref=f3107e180] [cursor=pointer]:
+              - /url: https://jobsnet.in/author/anand/
+              - img "Anand Kumar" [ref=f3107e181]
+            - generic [ref=f3107e184]:
+              - heading "Anand Kumar" [level=5] [ref=f3107e185]
+              - paragraph [ref=f3107e187]:
+                - text: Career Expert & Founder of JobsNet.in. Serving the student community since 2019, I specialize in providing verified job updates and placement material for computer science, IT, engineering and management graduates. With a mission to simplify the job hunt, I have helped thousands of candidates secure roles in top MNCs over the last 7 years.
+                - link "Computer Science" [ref=f3107e188] [cursor=pointer]
+              - generic [ref=f3107e193]:
+                - link "LinkedIn icon" [ref=f3107e194] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/amar-kumar-sd
+                - link "Website icon" [ref=f3107e197] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - 'link "Articles: 2394" [ref=f3107e200] [cursor=pointer]':
+                - /url: https://jobsnet.in/author/anand/
+          - navigation [ref=f3107e201]:
+            - 'link "Previous Post Oracle Health Off Campus Drive 2026 : Entry-Level Software Engineer" [ref=f3107e202] [cursor=pointer]':
+              - /url: https://jobsnet.in/oracle-health-off-campus-drive-entry-level-software-engineer/
+              - figure [ref=f3107e203]
+              - generic [ref=f3107e206]:
+                - generic [ref=f3107e207]: Previous Post
+                - generic [ref=f3107e208]: "Oracle Health Off Campus Drive 2026 : Entry-Level Software Engineer"
+            - 'link "Next Post Fujitsu Off Campus Drive 2026 : Graduate Apprentice | Pan India" [ref=f3107e209] [cursor=pointer]':
+              - /url: https://jobsnet.in/fujitsu-off-campus-drive-graduate-apprentice-pan-india/
+              - generic [ref=f3107e210]:
+                - generic [ref=f3107e211]: Next Post
+                - generic [ref=f3107e212]: "Fujitsu Off Campus Drive 2026 : Graduate Apprentice | Pan India"
+              - figure [ref=f3107e213]
+          - generic [ref=f3107e216]:
+            - heading "Related" [level=3] [ref=f3107e217]
+            - generic [ref=f3107e218]:
+              - article [ref=f3107e219]:
+                - generic [ref=f3107e220]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f3107e221] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                  - paragraph [ref=f3107e222]:
+                    - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f3107e223] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+              - article [ref=f3107e224]:
+                - generic [ref=f3107e225]:
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f3107e226] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                    - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f3107e227]
+                  - paragraph [ref=f3107e228]:
+                    - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f3107e229] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+              - article [ref=f3107e230]:
+                - generic [ref=f3107e231]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f3107e232] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                  - paragraph [ref=f3107e233]:
+                    - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f3107e234] [cursor=pointer]:
+                      - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+        - complementary [ref=f3107e235]:
+          - generic [ref=f3107e236]:
+            - heading "Search Jobs" [level=3] [ref=f3107e239]
+            - textbox "search" [ref=f3107e246]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - generic [ref=f3107e247]:
+              - heading "Latest Updates" [level=3] [ref=f3107e248]
+              - list [ref=f3107e250]:
+                - listitem [ref=f3107e251]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f3107e253] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                - listitem [ref=f3107e254]:
+                  - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f3107e256]
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f3107e257] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                - listitem [ref=f3107e258]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f3107e260] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                - listitem [ref=f3107e261]:
+                  - img "Accenture Mega Off Campus Drive For Freshers - Associate Software Engineer" [ref=f3107e263]
+                  - link "Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)" [ref=f3107e264] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-entry-level-custom-software-engineer-python/
+                - listitem [ref=f3107e265]:
+                  - img "Cornerstone Off Campus Drive - Hiring Junior Engineer" [ref=f3107e267]
+                  - link "Cornerstone Hiring Entry Level Junior Engineer – Cloud Ops" [ref=f3107e268] [cursor=pointer]:
+                    - /url: https://jobsnet.in/cornerstone-hiring-entry-level-junior-engineer-cloud-ops/
+                - listitem [ref=f3107e269]:
+                  - link "Calix Off Campus Drive 2026 – Hiring Graduate Trainee – Test & QA" [ref=f3107e271] [cursor=pointer]:
+                    - /url: https://jobsnet.in/calix-off-campus-drive-hiring-graduate-trainee-test-qa/
+                - listitem [ref=f3107e272]:
+                  - link "HDFC Life Off Campus Drive 2026 – Graduate Trainee – Data Science & Analytics" [ref=f3107e274] [cursor=pointer]:
+                    - /url: https://jobsnet.in/hdfc-life-off-campus-drive-graduate-trainee-data-science-analytics/
+                - listitem [ref=f3107e275]:
+                  - img "Yash Technologies Hiring Freshers QA Trainee - Pune/Indore/Hyderabad" [ref=f3107e277]
+                  - link "Yash Technologies Off Campus Drive 2026 – AI/ML Trainee" [ref=f3107e278] [cursor=pointer]:
+                    - /url: https://jobsnet.in/yash-technologies-off-campus-drive-hiring-ai-ml-trainee/
+                - listitem [ref=f3107e279]:
+                  - img "White Twilio logo and four-dot icon on a red background." [ref=f3107e281]
+                  - link "Twilio Off Campus Drive 2026 – Associate Application Engineer- Remote" [ref=f3107e282] [cursor=pointer]:
+                    - /url: https://jobsnet.in/twilio-off-campus-drive-associate-application-engineer-remote/
+                - listitem [ref=f3107e283]:
+                  - img "Accenture Hiring Any Graduate Freshers As Network Associate" [ref=f3107e285]
+                  - link "Accenture Hiring Application Support Engineer – Any Graduate (0-2 Years)" [ref=f3107e286] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-application-support-engineer-any-graduate-0-2-years/
+            - generic [ref=f3107e288]:
+              - insertion:
+                - generic:
+                  - iframe
+    - insertion [ref=f3107e290]
+    - contentinfo [ref=f3107e292]:
+      - generic [ref=f3107e294]:
+        - paragraph [ref=f3107e297]: © 2026 Jobsnet.in
+        - navigation "footermenu" [ref=f3107e299]:
+          - list [ref=f3107e300]:
+            - listitem [ref=f3107e301]:
+              - link "Home" [ref=f3107e302] [cursor=pointer]:
+                - /url: https://jobsnet.in
+            - listitem [ref=f3107e303]:
+              - link "About us" [ref=f3107e304] [cursor=pointer]:
+                - /url: https://jobsnet.in/about-us/
+            - listitem [ref=f3107e305]:
+              - link "Contact Us" [ref=f3107e306] [cursor=pointer]:
+                - /url: https://jobsnet.in/contact/
+            - listitem [ref=f3107e307]:
+              - link "Advertise With Us" [ref=f3107e308] [cursor=pointer]:
+                - /url: https://jobsnet.in/advertise/
+            - listitem [ref=f3107e309]:
+              - link "Terms" [ref=f3107e310] [cursor=pointer]:
+                - /url: https://jobsnet.in/terms-and-conditions/
+            - listitem [ref=f3107e311]:
+              - link "Privacy" [ref=f3107e312] [cursor=pointer]:
+                - /url: https://jobsnet.in/privacy-policy/
+  - generic [ref=f3107e313]:
+    - generic [ref=f3107e314] [cursor=pointer]: CLOSE [X]
+    - insertion [ref=f3107e316]:
+      - iframe [ref=f3107e318]:
+        
+  - link "Join WhatsApp" [ref=f3107e320] [cursor=pointer]:
+    - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP

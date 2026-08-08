@@ -1,0 +1,29 @@
+- generic [active] [ref=f1e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f1e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f1e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f1e8]:
+    - search [ref=f1e9]:
+      - generic [ref=f1e11]:
+        - link "Go to Google Home" [ref=f1e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwil7vfA_IGWAxX6jeEIHahVELAQPAgI
+        - generic [ref=f1e21]:
+          - link:
+            - /url: https://www.google.com/webhp?hl=en&ictx=0&sa=X&ved=0ahUKEwil7vfA_IGWAxX6jeEIHahVELAQpYkNCAo
+          - generic [ref=f1e22]:
+            - combobox "Search" [ref=f1e25]: things to do near me things to do near me
+            - generic [ref=f1e26]:
+              - button "Clear" [ref=f1e28] [cursor=pointer]
+              - generic [ref=f1e33]:
+                - button "Search by voice" [ref=f1e34] [cursor=pointer]
+                - button "Search by image" [ref=f1e37] [cursor=pointer]
+          - button "Search" [ref=f1e40] [cursor=pointer]
+    - generic [ref=f1e45]:
+      - button "Settings" [ref=f1e47] [cursor=pointer]
+      - button "Share" [ref=f1e48] [cursor=pointer]
+      - generic [ref=f1e54]:
+        - button "Google apps" [ref=f1e56] [cursor=pointer]
+        - link "Sign in" [ref=f1e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dthings%2Bto%2Bdo%2Bnear%2Bme%26sca_esv%3D95680a21228b3e25%26source%3Dhp%26ei%3DlztvavCjIOebhvcPh5uTgQE%26iflsig%3DABILxe8AAAAAam9JpzH_GfccaO_iCEwgl2e7WaV2DQDX%26ved%3D0ahUKEwiwy7O4_IGWAxXnjeEIHYfNJBAQ4dUDCB4%26uact%3D5%26oq%3Dthings%2Bto%2Bdo%2Bnear%2Bme%26gs_lp%3DEgdnd3Mtd2l6IhR0aGluZ3MgdG8gZG8gbmVhciBtZTILEAAYgAQYigUYkgMyCxAAGIAEGIoFGJIDMggQABiABBixAzIFEAAYgAQyBRAAGIAEMggQABiABBjJAzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARI6ghQAFgAcAB4AJABAJgBf6ABf6oBAzAuMbgBA8gBAPgBAZgCAaACiAGYAwCSBwMwLjGgB-gFsgcDMC4xuAeIAcIHAzItMcgHBoAIAQ%26sclient%3Dgws-wiz&ec=futura_srp_og_si_72236_p

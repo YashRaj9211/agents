@@ -1,0 +1,304 @@
+- generic [active] [ref=f2507e1]:
+  - link "Skip to content" [ref=f2507e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f2507e3]:
+    - banner [ref=f2507e4]:
+      - generic [ref=f2507e7]:
+        - link [ref=f2507e11] [cursor=pointer]:
+          - /url: https://jobsnet.in/
+          - img "Jobsnet.in" [ref=f2507e12]
+        - generic [ref=f2507e14]:
+          - navigation "Main Menu" [ref=f2507e15]:
+            - list [ref=f2507e16]:
+              - listitem [ref=f2507e17]:
+                - link "Home" [ref=f2507e18] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - listitem [ref=f2507e19]:
+                - link "Internships" [ref=f2507e20] [cursor=pointer]:
+                  - /url: https://jobsnet.in/internships/
+              - listitem [ref=f2507e21]:
+                - link "Off Campus Drives" [ref=f2507e22] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+              - listitem [ref=f2507e23]:
+                - link [ref=f2507e24] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+              - listitem [ref=f2507e28]:
+                - link [ref=f2507e29] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+          - button "Search" [ref=f2507e33] [cursor=pointer]
+    - main [ref=f2507e36]:
+      - insertion [ref=f2507e38]:
+        - iframe [ref=f2507e40]:
+          
+      - generic [ref=f2507e41]:
+        - article [ref=f2507e42]:
+          - generic [ref=f2507e44]:
+            - navigation [ref=f2507e45]:
+              - link "Home" [ref=f2507e47] [cursor=pointer]:
+                - /url: https://jobsnet.in/
+              - link "Off Campus Drive" [ref=f2507e51] [cursor=pointer]:
+                - /url: https://jobsnet.in/off-campus-drive/
+              - generic [ref=f2507e54]: Clinisys Hiring Entry-Level Associate Software Engineer – Hybrid
+            - heading "Clinisys Hiring Entry-Level Associate Software Engineer – Hybrid" [level=1] [ref=f2507e56]
+            - list [ref=f2507e57]:
+              - listitem [ref=f2507e58]:
+                - text: By
+                - link "Anand Kumar" [ref=f2507e59] [cursor=pointer]:
+                  - /url: https://jobsnet.in/author/anand/
+                - text: /
+              - listitem [ref=f2507e60]:
+                - text: "On"
+                - time [ref=f2507e61]: March 26, 2026
+          - figure [ref=f2507e62]
+          - generic [ref=f2507e64]:
+            - paragraph [ref=f2507e65]:
+              - text: Clinisys is hiring early careers graduates for the position of Associate
+              - link "Software" [ref=f2507e66] [cursor=pointer]:
+                - /url: "#"
+              - link "Engineer" [ref=f2507e69] [cursor=pointer]:
+                - /url: "#"
+              - text: Trainee across India.
+              - link "Software" [ref=f2507e72] [cursor=pointer]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - heading "Clinisys Recruitment Hiring Overview 2026" [level=2] [ref=f2507e76]
+            - paragraph [ref=f2507e77]:
+              - strong [ref=f2507e78]: Job Title
+              - text: ": Associate Software Engineer"
+              - link "Civil Engineering" [ref=f2507e79] [cursor=pointer]
+            - paragraph [ref=f2507e83]:
+              - strong [ref=f2507e84]: "Job Location :"
+              - text: Banaglore
+            - generic [ref=f2507e87]:
+              - generic [ref=f2507e88]:
+                - generic [ref=f2507e89]: WhatsApp Channel
+                - link "Join Now" [ref=f2507e91] [cursor=pointer]:
+                  - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+              - generic [ref=f2507e92]:
+                - generic [ref=f2507e93]: Telegram Channel
+                - link "Join Now" [ref=f2507e95] [cursor=pointer]:
+                  - /url: https://telegram.me/campusdrivejobs
+            - paragraph [ref=f2507e96]:
+              - strong [ref=f2507e97]: "Salary :"
+              - text: Best in Industry
+            - paragraph [ref=f2507e98]:
+              - strong [ref=f2507e99]: "Experience :"
+              - text: 0-2 Year
+            - generic [ref=f2507e100]:
+              - insertion:
+                - generic:
+                  - iframe
+            - paragraph [ref=f2507e101]:
+              - strong [ref=f2507e102]: "Qualification :"
+              - text: BE/B.Tech/BSC/BCA/MCA or Related
+            - heading "Job Description :" [level=3] [ref=f2507e103]:
+              - text: "Job Description :"
+              - strong
+            - paragraph [ref=f2507e104]:
+              - text: As a Software Engineer I and a member of a dynamic and multi-functional Agile development team, you will be responsible for crafting, developing, and unit testing product features with an eye towards user-centric workflow accuracy within our scientific and healthcare suite of products. To be successful in this role you need a real passion for quality software, a dedication to customer happiness, and an ability to work effectively in a matrix organization. You will need a positive attitude, persistence, a love of problem solving, and the ability to communicate with people at all levels of a product development organization.
+              - link "Software" [ref=f2507e105] [cursor=pointer]
+            - paragraph [ref=f2507e109]:
+              - strong [ref=f2507e110]: Essential Functions
+            - list [ref=f2507e111]:
+              - listitem [ref=f2507e112]: Develops software solutions across multiple subsystems within our applications, including collaboration with requirements definition, prototyping, architectural design, coding, testing and deployment
+              - listitem [ref=f2507e113]: Understands how our applications operate, are structured, and how customers use them
+              - listitem [ref=f2507e114]: Researches new technology and development tools to remain informed of current trends
+              - listitem [ref=f2507e115]: Documents and demonstrates solutions by developing documentation, flowcharts, layouts, diagrams, code comments and clearly readable code
+              - listitem [ref=f2507e116]: Analyzes defects, performs root cause analysis, and collaborates to resolve
+              - listitem [ref=f2507e117]: Complies with established internal quality systems and considers standards, best practices, and regulatory requirements as part of coding activities
+              - listitem [ref=f2507e118]: All other duties and responsibilities as assigned
+            - paragraph [ref=f2507e119]:
+              - strong [ref=f2507e120]: Skills needed to be successful
+              - link "Civil Engineering" [ref=f2507e121] [cursor=pointer]
+            - list [ref=f2507e125]:
+              - listitem [ref=f2507e126]: Clear, effective verbal and written communication skills
+              - listitem [ref=f2507e127]: Good collaboration and teamwork skills
+              - listitem [ref=f2507e128]: Solid knowledge of scripting and object-oriented software development principles
+              - listitem [ref=f2507e129]: Functional knowledge of relational and/or non-relational databases
+              - listitem [ref=f2507e130]: Solid development skills and overall understanding of software development methodologies
+              - listitem [ref=f2507e131]: Understanding of refactoring or re-engineering solutions
+              - listitem [ref=f2507e132]: Thorough knowledge of design principles and patterns
+            - paragraph [ref=f2507e133]:
+              - strong [ref=f2507e134]: Required Experience & Education
+            - list [ref=f2507e135]:
+              - listitem [ref=f2507e136]:
+                - text: Bachelor’s degree in software
+                - link "engineering" [ref=f2507e137] [cursor=pointer]:
+                  - /url: "#"
+                - text: ", computer science, or related discipline or equivalent experience"
+              - listitem [ref=f2507e140]: 1 -2years of experience in software development.
+              - listitem [ref=f2507e141]: Hands-on experience with Java, SQL, and JavaScript in enterprise applications.
+              - listitem [ref=f2507e142]: Exposure to front-end technologies (HTML, CSS) and modern development tools.
+              - listitem [ref=f2507e143]: Experience with IDEs like IntelliJ or Eclipse.
+              - listitem [ref=f2507e144]: Proficiency in leveraging AI-powered development tools and frameworks (e.g., code generation, automated testing, and intelligent debugging) to accelerate software delivery and improve code quality in day-to-day workflows.
+              - listitem [ref=f2507e145]: Experience integrating AI capabilities into applications and services, including working with APIs, machine learning models, and prompt engineering to build features that enhance user experience and operational efficiency.
+            - heading [level=4] [ref=f2507e146]:
+              - strong [ref=f2507e147]: "How To Apply:"
+            - paragraph [ref=f2507e148]:
+              - text: Interested and qualified graduates apply for the same position by visiting Clinisys’ careers portal.
+              - link "Science" [ref=f2507e149] [cursor=pointer]
+            - insertion [ref=f2507e154]
+            - paragraph [ref=f2507e156]:
+              - strong [ref=f2507e157]:
+                - text: "Apply Link:"
+                - link "Click Here" [ref=f2507e158] [cursor=pointer]:
+                  - /url: https://careers.clinisys.com/jobs/7282486-associate-software-engineer?utm_source=LinkedIn
+            - generic [ref=f2507e159]:
+              - strong [ref=f2507e160]: "Join Our Whatsapp Group:"
+              - link [ref=f2507e161] [cursor=pointer]:
+                - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+                - strong [ref=f2507e162]: Click Here
+              - link "Software" [ref=f2507e163] [cursor=pointer]
+            - insertion [ref=f2507e168]
+          - generic [ref=f2507e171]:
+            - link "Facebook" [ref=f2507e172] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjobsnet.in%2Fclinisys-hiring-entry-level-associate-software-engineer-hybrid%2F
+            - link "X (Twitter)" [ref=f2507e176] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fjobsnet.in%2Fclinisys-hiring-entry-level-associate-software-engineer-hybrid%2F&text=Clinisys%20Hiring%20Entry-Level%20Associate%20Software%20Engineer%20%26%238211%3B%20Hybrid
+            - link "Reddit" [ref=f2507e180] [cursor=pointer]:
+              - /url: https://reddit.com/submit?url=https%3A%2F%2Fjobsnet.in%2Fclinisys-hiring-entry-level-associate-software-engineer-hybrid%2F&title=Clinisys%20Hiring%20Entry-Level%20Associate%20Software%20Engineer%20%26%238211%3B%20Hybrid
+            - link "Telegram" [ref=f2507e184] [cursor=pointer]:
+              - /url: https://t.me/share/url?url=https%3A%2F%2Fjobsnet.in%2Fclinisys-hiring-entry-level-associate-software-engineer-hybrid%2F&text=Clinisys%20Hiring%20Entry-Level%20Associate%20Software%20Engineer%20%26%238211%3B%20Hybrid
+            - link "WhatsApp" [ref=f2507e188] [cursor=pointer]:
+              - /url: whatsapp://send?text=https%3A%2F%2Fjobsnet.in%2Fclinisys-hiring-entry-level-associate-software-engineer-hybrid%2F
+          - generic [ref=f2507e192]:
+            - link [ref=f2507e193] [cursor=pointer]:
+              - /url: https://jobsnet.in/author/anand/
+              - img "Anand Kumar" [ref=f2507e194]
+            - generic [ref=f2507e197]:
+              - heading "Anand Kumar" [level=5] [ref=f2507e198]
+              - paragraph [ref=f2507e200]:
+                - text: Career Expert & Founder of JobsNet.in. Serving the student community since 2019, I specialize in providing verified job updates and placement material for computer science, IT, engineering and management graduates. With a mission to simplify the job hunt, I have helped thousands of candidates secure roles in top MNCs over the last 7 years.
+                - link "Civil Engineering" [ref=f2507e201] [cursor=pointer]
+              - generic [ref=f2507e206]:
+                - link "LinkedIn icon" [ref=f2507e207] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/amar-kumar-sd
+                - link "Website icon" [ref=f2507e210] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - 'link "Articles: 2394" [ref=f2507e213] [cursor=pointer]':
+                - /url: https://jobsnet.in/author/anand/
+          - insertion [ref=f2507e215]
+          - navigation [ref=f2507e217]:
+            - link "Previous Post TCS Lateral Drive 2026 - Hiring Entry-Level IT Professionals Pan India" [ref=f2507e218] [cursor=pointer]:
+              - /url: https://jobsnet.in/tcs-lateral-drive-2026/
+              - figure [ref=f2507e219]:
+                - 'img "TCS Lateral Drive 2026: Hiring Entry-Level IT Professionals (2-4 Yrs Exp) Pan India. Apply now!" [ref=f2507e220]'
+              - generic [ref=f2507e223]:
+                - generic [ref=f2507e224]: Previous Post
+                - generic [ref=f2507e225]: TCS Lateral Drive 2026 - Hiring Entry-Level IT Professionals Pan India
+            - 'link "Next Post Siemens Technology Off Campus Drive 2026 : Graduate Engineer Trainee - AI/ML" [ref=f2507e226] [cursor=pointer]':
+              - /url: https://jobsnet.in/siemens-technology-off-campus-drive-graduate-engineer-trainee-ai-ml/
+              - generic [ref=f2507e227]:
+                - generic [ref=f2507e228]: Next Post
+                - generic [ref=f2507e229]: "Siemens Technology Off Campus Drive 2026 : Graduate Engineer Trainee - AI/ML"
+              - figure [ref=f2507e230]
+          - generic [ref=f2507e233]:
+            - heading "Related" [level=3] [ref=f2507e234]
+            - generic [ref=f2507e235]:
+              - article [ref=f2507e236]:
+                - generic [ref=f2507e237]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2507e238] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                  - paragraph [ref=f2507e239]:
+                    - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2507e240] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+              - article [ref=f2507e241]:
+                - generic [ref=f2507e242]:
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2507e243] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                    - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f2507e244]
+                  - paragraph [ref=f2507e245]:
+                    - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2507e246] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+              - article [ref=f2507e247]:
+                - generic [ref=f2507e248]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2507e249] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                  - paragraph [ref=f2507e250]:
+                    - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2507e251] [cursor=pointer]:
+                      - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+        - complementary [ref=f2507e252]:
+          - generic [ref=f2507e253]:
+            - heading "Search Jobs" [level=3] [ref=f2507e256]
+            - textbox "search" [ref=f2507e263]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - generic [ref=f2507e264]:
+              - heading "Latest Updates" [level=3] [ref=f2507e265]
+              - list [ref=f2507e267]:
+                - listitem [ref=f2507e268]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2507e270] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                - listitem [ref=f2507e271]:
+                  - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f2507e273]
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2507e274] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                - listitem [ref=f2507e275]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2507e277] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                - listitem [ref=f2507e278]:
+                  - img "Accenture Mega Off Campus Drive For Freshers - Associate Software Engineer" [ref=f2507e280]
+                  - link "Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)" [ref=f2507e281] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-entry-level-custom-software-engineer-python/
+                - listitem [ref=f2507e282]:
+                  - img "Cornerstone Off Campus Drive - Hiring Junior Engineer" [ref=f2507e284]
+                  - link "Cornerstone Hiring Entry Level Junior Engineer – Cloud Ops" [ref=f2507e285] [cursor=pointer]:
+                    - /url: https://jobsnet.in/cornerstone-hiring-entry-level-junior-engineer-cloud-ops/
+                - listitem [ref=f2507e286]:
+                  - link "Calix Off Campus Drive 2026 – Hiring Graduate Trainee – Test & QA" [ref=f2507e288] [cursor=pointer]:
+                    - /url: https://jobsnet.in/calix-off-campus-drive-hiring-graduate-trainee-test-qa/
+                - listitem [ref=f2507e289]:
+                  - link "HDFC Life Off Campus Drive 2026 – Graduate Trainee – Data Science & Analytics" [ref=f2507e291] [cursor=pointer]:
+                    - /url: https://jobsnet.in/hdfc-life-off-campus-drive-graduate-trainee-data-science-analytics/
+                - listitem [ref=f2507e292]:
+                  - img "Yash Technologies Hiring Freshers QA Trainee - Pune/Indore/Hyderabad" [ref=f2507e294]
+                  - link "Yash Technologies Off Campus Drive 2026 – AI/ML Trainee" [ref=f2507e295] [cursor=pointer]:
+                    - /url: https://jobsnet.in/yash-technologies-off-campus-drive-hiring-ai-ml-trainee/
+                - listitem [ref=f2507e296]:
+                  - img "White Twilio logo and four-dot icon on a red background." [ref=f2507e298]
+                  - link "Twilio Off Campus Drive 2026 – Associate Application Engineer- Remote" [ref=f2507e299] [cursor=pointer]:
+                    - /url: https://jobsnet.in/twilio-off-campus-drive-associate-application-engineer-remote/
+                - listitem [ref=f2507e300]:
+                  - img "Accenture Hiring Any Graduate Freshers As Network Associate" [ref=f2507e302]
+                  - link "Accenture Hiring Application Support Engineer – Any Graduate (0-2 Years)" [ref=f2507e303] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-application-support-engineer-any-graduate-0-2-years/
+            - generic [ref=f2507e305]:
+              - insertion:
+                - generic:
+                  - iframe
+    - contentinfo [ref=f2507e306]:
+      - generic [ref=f2507e308]:
+        - paragraph [ref=f2507e311]: © 2026 Jobsnet.in
+        - navigation "footermenu" [ref=f2507e313]:
+          - list [ref=f2507e314]:
+            - listitem [ref=f2507e315]:
+              - link "Home" [ref=f2507e316] [cursor=pointer]:
+                - /url: https://jobsnet.in
+            - listitem [ref=f2507e317]:
+              - link "About us" [ref=f2507e318] [cursor=pointer]:
+                - /url: https://jobsnet.in/about-us/
+            - listitem [ref=f2507e319]:
+              - link "Contact Us" [ref=f2507e320] [cursor=pointer]:
+                - /url: https://jobsnet.in/contact/
+            - listitem [ref=f2507e321]:
+              - link "Advertise With Us" [ref=f2507e322] [cursor=pointer]:
+                - /url: https://jobsnet.in/advertise/
+            - listitem [ref=f2507e323]:
+              - link "Terms" [ref=f2507e324] [cursor=pointer]:
+                - /url: https://jobsnet.in/terms-and-conditions/
+            - listitem [ref=f2507e325]:
+              - link "Privacy" [ref=f2507e326] [cursor=pointer]:
+                - /url: https://jobsnet.in/privacy-policy/
+  - generic [ref=f2507e327]:
+    - generic [ref=f2507e328] [cursor=pointer]: CLOSE [X]
+    - insertion [ref=f2507e330]:
+      - iframe [ref=f2507e332]:
+        
+  - link "Join WhatsApp" [ref=f2507e334] [cursor=pointer]:
+    - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP

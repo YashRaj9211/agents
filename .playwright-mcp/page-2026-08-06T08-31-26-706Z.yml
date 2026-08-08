@@ -1,0 +1,305 @@
+- generic [active] [ref=f2793e1]:
+  - link "Skip to content" [ref=f2793e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f2793e3]:
+    - banner [ref=f2793e4]:
+      - generic [ref=f2793e7]:
+        - link [ref=f2793e11] [cursor=pointer]:
+          - /url: https://jobsnet.in/
+          - img "Jobsnet.in" [ref=f2793e12]
+        - generic [ref=f2793e14]:
+          - navigation "Main Menu" [ref=f2793e15]:
+            - list [ref=f2793e16]:
+              - listitem [ref=f2793e17]:
+                - link "Home" [ref=f2793e18] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - listitem [ref=f2793e19]:
+                - link "Internships" [ref=f2793e20] [cursor=pointer]:
+                  - /url: https://jobsnet.in/internships/
+              - listitem [ref=f2793e21]:
+                - link "Off Campus Drives" [ref=f2793e22] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+              - listitem [ref=f2793e23]:
+                - link [ref=f2793e24] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+              - listitem [ref=f2793e28]:
+                - link [ref=f2793e29] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+          - button "Search" [ref=f2793e33] [cursor=pointer]
+    - main [ref=f2793e36]:
+      - insertion [ref=f2793e38]:
+        - iframe [ref=f2793e40]:
+          
+      - generic [ref=f2793e41]:
+        - article [ref=f2793e42]:
+          - generic [ref=f2793e44]:
+            - navigation [ref=f2793e45]:
+              - link "Home" [ref=f2793e47] [cursor=pointer]:
+                - /url: https://jobsnet.in/
+              - link "Off Campus Drive" [ref=f2793e51] [cursor=pointer]:
+                - /url: https://jobsnet.in/off-campus-drive/
+              - generic [ref=f2793e54]: Synopsys Off Campus Drive 2026 Hiring For Software Engineering Apprentice
+            - heading "Synopsys Off Campus Drive 2026 Hiring For Software Engineering Apprentice" [level=1] [ref=f2793e56]
+            - list [ref=f2793e57]:
+              - listitem [ref=f2793e58]:
+                - text: By
+                - link "Anand Kumar" [ref=f2793e59] [cursor=pointer]:
+                  - /url: https://jobsnet.in/author/anand/
+                - text: /
+              - listitem [ref=f2793e60]:
+                - text: "On"
+                - time [ref=f2793e61]: February 28, 2026
+          - figure [ref=f2793e62]
+          - generic [ref=f2793e64]:
+            - paragraph [ref=f2793e65]:
+              - text: Synopsys is conducting an Off Campus Drive in 2026 to recruit fresh graduates of
+              - link "Computer" [ref=f2793e66] [cursor=pointer]:
+                - /url: "#"
+              - link "Science" [ref=f2793e69] [cursor=pointer]:
+                - /url: "#"
+              - text: ", IT or"
+              - link "Engineering" [ref=f2793e72] [cursor=pointer]:
+                - /url: "#"
+              - text: related fields for the position of Software Engineer I in Bangalore, India. A comprehensive job description is provided below for reference.
+              - link "Software" [ref=f2793e75] [cursor=pointer]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - heading [level=2] [ref=f2793e79]:
+              - strong [ref=f2793e80]: "Synopsys Off Campus Drive Overview:"
+            - paragraph [ref=f2793e81]:
+              - strong [ref=f2793e82]: "Job Title:"
+              - text: Software Engineer
+            - paragraph [ref=f2793e83]:
+              - strong [ref=f2793e84]: Eligibility
+              - text: ": BE/ B.Tech/ BS/ MS – EEE/ECE/CSE/ Related"
+              - link "Engineering & Technology" [ref=f2793e85] [cursor=pointer]
+            - generic [ref=f2793e91]:
+              - generic [ref=f2793e92]:
+                - generic [ref=f2793e93]: WhatsApp Channel
+                - link "Join Now" [ref=f2793e95] [cursor=pointer]:
+                  - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+              - generic [ref=f2793e96]:
+                - generic [ref=f2793e97]: Telegram Channel
+                - link "Join Now" [ref=f2793e99] [cursor=pointer]:
+                  - /url: https://telegram.me/campusdrivejobs
+            - paragraph [ref=f2793e100]:
+              - strong [ref=f2793e101]: Experience
+              - text: ": Freshers/0-1 Year"
+            - paragraph [ref=f2793e102]:
+              - strong [ref=f2793e103]: "Salary:"
+              - text: Best In Industry
+            - generic [ref=f2793e104]:
+              - insertion:
+                - generic:
+                  - iframe
+            - paragraph [ref=f2793e105]:
+              - strong [ref=f2793e106]: "Job Location:"
+              - text: Bangalore
+            - paragraph
+            - heading [level=2] [ref=f2793e107]:
+              - strong [ref=f2793e108]: "Job Description :"
+            - paragraph [ref=f2793e109]:
+              - strong [ref=f2793e110]: "What You’ll Be Doing:"
+            - list [ref=f2793e111]:
+              - listitem [ref=f2793e112]: Developing and maintaining software tools and scripts for custom compiler and layout automation.
+              - listitem [ref=f2793e113]: Collaborating with cross-functional teams to design and implement new features.
+              - listitem [ref=f2793e114]: Writing and maintaining efficient, reusable, and reliable code in Python, Perl, and TCL.
+              - listitem [ref=f2793e115]: Conducting code reviews and providing constructive feedback to peers.
+              - listitem [ref=f2793e116]: Implementing and executing test-driven development, unit testing, and functional testing practices.
+              - listitem [ref=f2793e117]: Utilizing version control systems like Git and PERFORCE to manage codebases efficiently.
+            - paragraph [ref=f2793e118]:
+              - strong [ref=f2793e119]: "What You’ll Need:"
+            - list [ref=f2793e120]:
+              - listitem [ref=f2793e121]: Fresh graduate from the class of 2025 in Computer Science, Electrical Engineering, or a related field.
+              - listitem [ref=f2793e122]: Not currently enrolled in any M-Tech programs or postgraduate diplomas.
+              - listitem [ref=f2793e123]: Not employed in any full-time positions at any company.
+              - listitem [ref=f2793e124]: Strong programming skills in Python, Perl, and TCL.
+              - listitem [ref=f2793e125]: Familiarity with Custom Compiler/Virtuoso, circuit and layout automation.
+              - listitem [ref=f2793e126]: Experience with UNIX/Linux environments.
+              - listitem [ref=f2793e127]: Understanding of test-driven development, unit testing, and functional testing.
+              - listitem [ref=f2793e128]: Knowledge of version control systems, especially Git and PERFORCE.
+              - listitem [ref=f2793e129]: Eagerness to learn, adapt, and contribute innovative solutions.
+              - listitem [ref=f2793e130]: Limited internship experience is acceptable.
+            - paragraph [ref=f2793e131]:
+              - text: Eligible and interested candidates apply on the following synopsys Careers page.
+              - link "Computer Science" [ref=f2793e132] [cursor=pointer]
+            - insertion [ref=f2793e137]
+            - paragraph [ref=f2793e139]:
+              - strong [ref=f2793e140]:
+                - text: "Synopsys Off Campus Apply Link:"
+                - link "Click Here" [ref=f2793e141] [cursor=pointer]:
+                  - /url: https://careers.synopsys.com/job/-/-/44408/92181995088
+            - generic [ref=f2793e142]:
+              - strong [ref=f2793e143]: "Join Our Whatsapp Group:"
+              - link [ref=f2793e144] [cursor=pointer]:
+                - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+                - strong [ref=f2793e145]: Click Here
+              - link "Science" [ref=f2793e146] [cursor=pointer]
+            - insertion [ref=f2793e151]
+          - generic [ref=f2793e153]:
+            - generic [ref=f2793e154]: You May like
+            - generic [ref=f2793e155]:
+              - link "# AWS" [ref=f2793e156] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/aws/
+              - link "# Java" [ref=f2793e157] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/java/
+              - link "# Linux" [ref=f2793e158] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/linux/
+              - link "# QA" [ref=f2793e159] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/qa/
+              - link "# SQL" [ref=f2793e160] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/sql/
+              - link "# Testing" [ref=f2793e161] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/testing/
+          - generic [ref=f2793e163]:
+            - link "Facebook" [ref=f2793e164] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjobsnet.in%2Fsynopsys-off-campus-drive-hiring-for-software-engineering-apprentice%2F
+            - link "X (Twitter)" [ref=f2793e168] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fjobsnet.in%2Fsynopsys-off-campus-drive-hiring-for-software-engineering-apprentice%2F&text=Synopsys%20Off%20Campus%20Drive%202026%20Hiring%20For%20Software%20Engineering%20Apprentice
+            - link "Reddit" [ref=f2793e172] [cursor=pointer]:
+              - /url: https://reddit.com/submit?url=https%3A%2F%2Fjobsnet.in%2Fsynopsys-off-campus-drive-hiring-for-software-engineering-apprentice%2F&title=Synopsys%20Off%20Campus%20Drive%202026%20Hiring%20For%20Software%20Engineering%20Apprentice
+            - link "Telegram" [ref=f2793e176] [cursor=pointer]:
+              - /url: https://t.me/share/url?url=https%3A%2F%2Fjobsnet.in%2Fsynopsys-off-campus-drive-hiring-for-software-engineering-apprentice%2F&text=Synopsys%20Off%20Campus%20Drive%202026%20Hiring%20For%20Software%20Engineering%20Apprentice
+            - link "WhatsApp" [ref=f2793e180] [cursor=pointer]:
+              - /url: whatsapp://send?text=https%3A%2F%2Fjobsnet.in%2Fsynopsys-off-campus-drive-hiring-for-software-engineering-apprentice%2F
+          - generic [ref=f2793e184]:
+            - link [ref=f2793e185] [cursor=pointer]:
+              - /url: https://jobsnet.in/author/anand/
+              - img "Anand Kumar" [ref=f2793e186]
+            - generic [ref=f2793e189]:
+              - heading "Anand Kumar" [level=5] [ref=f2793e190]
+              - paragraph [ref=f2793e192]:
+                - text: Career Expert & Founder of JobsNet.in. Serving the student community since 2019, I specialize in providing verified job updates and placement material for computer science, IT, engineering and management graduates. With a mission to simplify the job hunt, I have helped thousands of candidates secure roles in top MNCs over the last 7 years.
+                - link "Enterprise Technology" [ref=f2793e193] [cursor=pointer]
+              - generic [ref=f2793e198]:
+                - link "LinkedIn icon" [ref=f2793e199] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/amar-kumar-sd
+                - link "Website icon" [ref=f2793e202] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - 'link "Articles: 2394" [ref=f2793e205] [cursor=pointer]':
+                - /url: https://jobsnet.in/author/anand/
+          - insertion [ref=f2793e207]
+          - navigation [ref=f2793e209]:
+            - link "Previous Post Seagate Hiring Machine Learning (Gen AI) Interns- Apply Now" [ref=f2793e210] [cursor=pointer]:
+              - /url: https://jobsnet.in/seagate-hiring-machine-learning-gen-ai-interns-apply-now/
+              - figure [ref=f2793e211]
+              - generic [ref=f2793e214]:
+                - generic [ref=f2793e215]: Previous Post
+                - generic [ref=f2793e216]: Seagate Hiring Machine Learning (Gen AI) Interns- Apply Now
+            - 'link "Next Post Five9 Off Campus Drive 2026 : Product Engineering SDE - Apprentice" [ref=f2793e217] [cursor=pointer]':
+              - /url: https://jobsnet.in/five9-off-campus-drive-product-engineering-sde-apprentice/
+              - generic [ref=f2793e218]:
+                - generic [ref=f2793e219]: Next Post
+                - generic [ref=f2793e220]: "Five9 Off Campus Drive 2026 : Product Engineering SDE - Apprentice"
+              - figure [ref=f2793e221]
+          - generic [ref=f2793e224]:
+            - heading "Related" [level=3] [ref=f2793e225]
+            - generic [ref=f2793e226]:
+              - article [ref=f2793e227]:
+                - generic [ref=f2793e228]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2793e229] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                  - paragraph [ref=f2793e230]:
+                    - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2793e231] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+              - article [ref=f2793e232]:
+                - generic [ref=f2793e233]:
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2793e234] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                    - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f2793e235]
+                  - paragraph [ref=f2793e236]:
+                    - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2793e237] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+              - article [ref=f2793e238]:
+                - generic [ref=f2793e239]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2793e240] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                  - paragraph [ref=f2793e241]:
+                    - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2793e242] [cursor=pointer]:
+                      - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+        - complementary [ref=f2793e243]:
+          - generic [ref=f2793e244]:
+            - heading "Search Jobs" [level=3] [ref=f2793e247]
+            - textbox "search" [ref=f2793e254]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - generic [ref=f2793e255]:
+              - heading "Latest Updates" [level=3] [ref=f2793e256]
+              - list [ref=f2793e258]:
+                - listitem [ref=f2793e259]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2793e261] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                - listitem [ref=f2793e262]:
+                  - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f2793e264]
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2793e265] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                - listitem [ref=f2793e266]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2793e268] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                - listitem [ref=f2793e269]:
+                  - img "Accenture Mega Off Campus Drive For Freshers - Associate Software Engineer" [ref=f2793e271]
+                  - link "Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)" [ref=f2793e272] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-entry-level-custom-software-engineer-python/
+                - listitem [ref=f2793e273]:
+                  - img "Cornerstone Off Campus Drive - Hiring Junior Engineer" [ref=f2793e275]
+                  - link "Cornerstone Hiring Entry Level Junior Engineer – Cloud Ops" [ref=f2793e276] [cursor=pointer]:
+                    - /url: https://jobsnet.in/cornerstone-hiring-entry-level-junior-engineer-cloud-ops/
+                - listitem [ref=f2793e277]:
+                  - link "Calix Off Campus Drive 2026 – Hiring Graduate Trainee – Test & QA" [ref=f2793e279] [cursor=pointer]:
+                    - /url: https://jobsnet.in/calix-off-campus-drive-hiring-graduate-trainee-test-qa/
+                - listitem [ref=f2793e280]:
+                  - link "HDFC Life Off Campus Drive 2026 – Graduate Trainee – Data Science & Analytics" [ref=f2793e282] [cursor=pointer]:
+                    - /url: https://jobsnet.in/hdfc-life-off-campus-drive-graduate-trainee-data-science-analytics/
+                - listitem [ref=f2793e283]:
+                  - img "Yash Technologies Hiring Freshers QA Trainee - Pune/Indore/Hyderabad" [ref=f2793e285]
+                  - link "Yash Technologies Off Campus Drive 2026 – AI/ML Trainee" [ref=f2793e286] [cursor=pointer]:
+                    - /url: https://jobsnet.in/yash-technologies-off-campus-drive-hiring-ai-ml-trainee/
+                - listitem [ref=f2793e287]:
+                  - img "White Twilio logo and four-dot icon on a red background." [ref=f2793e289]
+                  - link "Twilio Off Campus Drive 2026 – Associate Application Engineer- Remote" [ref=f2793e290] [cursor=pointer]:
+                    - /url: https://jobsnet.in/twilio-off-campus-drive-associate-application-engineer-remote/
+                - listitem [ref=f2793e291]:
+                  - img "Accenture Hiring Any Graduate Freshers As Network Associate" [ref=f2793e293]
+                  - link "Accenture Hiring Application Support Engineer – Any Graduate (0-2 Years)" [ref=f2793e294] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-application-support-engineer-any-graduate-0-2-years/
+            - generic [ref=f2793e296]:
+              - insertion:
+                - generic:
+                  - iframe
+    - insertion [ref=f2793e298]
+    - contentinfo [ref=f2793e300]:
+      - generic [ref=f2793e302]:
+        - paragraph [ref=f2793e305]: © 2026 Jobsnet.in
+        - navigation "footermenu" [ref=f2793e307]:
+          - list [ref=f2793e308]:
+            - listitem [ref=f2793e309]:
+              - link "Home" [ref=f2793e310] [cursor=pointer]:
+                - /url: https://jobsnet.in
+            - listitem [ref=f2793e311]:
+              - link "About us" [ref=f2793e312] [cursor=pointer]:
+                - /url: https://jobsnet.in/about-us/
+            - listitem [ref=f2793e313]:
+              - link "Contact Us" [ref=f2793e314] [cursor=pointer]:
+                - /url: https://jobsnet.in/contact/
+            - listitem [ref=f2793e315]:
+              - link "Advertise With Us" [ref=f2793e316] [cursor=pointer]:
+                - /url: https://jobsnet.in/advertise/
+            - listitem [ref=f2793e317]:
+              - link "Terms" [ref=f2793e318] [cursor=pointer]:
+                - /url: https://jobsnet.in/terms-and-conditions/
+            - listitem [ref=f2793e319]:
+              - link "Privacy" [ref=f2793e320] [cursor=pointer]:
+                - /url: https://jobsnet.in/privacy-policy/
+  - generic [ref=f2793e321]:
+    - generic [ref=f2793e322] [cursor=pointer]: CLOSE [X]
+    - insertion [ref=f2793e324]:
+      - iframe [ref=f2793e326]:
+        
+  - link "Join WhatsApp" [ref=f2793e328] [cursor=pointer]:
+    - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP

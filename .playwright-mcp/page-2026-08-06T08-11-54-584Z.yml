@@ -1,0 +1,366 @@
+- generic [active] [ref=f1617e1]:
+  - link "Skip to content" [ref=f1617e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f1617e3]:
+    - banner [ref=f1617e4]:
+      - generic [ref=f1617e7]:
+        - link [ref=f1617e11] [cursor=pointer]:
+          - /url: https://jobsnet.in/
+          - img "Jobsnet.in" [ref=f1617e12]
+        - generic [ref=f1617e14]:
+          - navigation "Main Menu" [ref=f1617e15]:
+            - list [ref=f1617e16]:
+              - listitem [ref=f1617e17]:
+                - link "Home" [ref=f1617e18] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - listitem [ref=f1617e19]:
+                - link "Internships" [ref=f1617e20] [cursor=pointer]:
+                  - /url: https://jobsnet.in/internships/
+              - listitem [ref=f1617e21]:
+                - link "Off Campus Drives" [ref=f1617e22] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+              - listitem [ref=f1617e23]:
+                - link [ref=f1617e24] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+              - listitem [ref=f1617e28]:
+                - link [ref=f1617e29] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+          - button "Search" [ref=f1617e33] [cursor=pointer]
+    - main [ref=f1617e36]:
+      - insertion [ref=f1617e38]:
+        - iframe [ref=f1617e40]:
+          
+      - generic [ref=f1617e41]:
+        - article [ref=f1617e42]:
+          - generic [ref=f1617e44]:
+            - navigation [ref=f1617e45]:
+              - link "Home" [ref=f1617e47] [cursor=pointer]:
+                - /url: https://jobsnet.in/
+              - link "Off Campus Drive" [ref=f1617e51] [cursor=pointer]:
+                - /url: https://jobsnet.in/off-campus-drive/
+              - generic [ref=f1617e54]: Cisco is Hiring Entry-Level Software Engineer (0-2 Years)
+            - heading "Cisco is Hiring Entry-Level Software Engineer (0-2 Years)" [level=1] [ref=f1617e56]
+            - list [ref=f1617e57]:
+              - listitem [ref=f1617e58]:
+                - text: By
+                - link "Anand Kumar" [ref=f1617e59] [cursor=pointer]:
+                  - /url: https://jobsnet.in/author/anand/
+                - text: /
+              - listitem [ref=f1617e60]:
+                - text: "On"
+                - time [ref=f1617e61]: May 27, 2026
+          - figure [ref=f1617e62]
+          - generic [ref=f1617e64]:
+            - paragraph [ref=f1617e65]:
+              - strong [ref=f1617e66]: Cisco Systems
+              - text: is currently inviting applications for the role of
+              - generic [ref=f1617e67]:
+                - link "Software" [ref=f1617e68] [cursor=pointer]:
+                  - /url: "#"
+                - text: Consulting
+                - link "Engineer" [ref=f1617e71] [cursor=pointer]:
+                  - /url: "#"
+              - text: ", specifically targeting candidates with 0 to 2 years of experience. This is an"
+              - emphasis [ref=f1617e74]: exceptional opportunity
+              - text: for ambitious graduates and early-career professionals to kick-start their professional journey with a
+              - strong [ref=f1617e75]: globally renowned technology leader
+              - text: . Join a team that values innovation and gain the exposure needed to build a high-impact career in the tech industry.
+              - link "Company News" [ref=f1617e76] [cursor=pointer]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - heading [level=3] [ref=f1617e80]:
+              - strong [ref=f1617e81]: About Cisco Recruitment 2026
+            - paragraph [ref=f1617e82]:
+              - strong [ref=f1617e83]: Role
+              - text: ": Software Engineer"
+            - insertion [ref=f1617e85]:
+              - iframe [ref=f1617e87]:
+                - iframe [ref=f1632e1]:
+                  - generic [ref=f1641e1]:
+                    - generic [ref=f1641e2]:
+                      - generic:
+                        - generic [ref=f1641e3] [cursor=pointer]
+                        - button [ref=f1641e8] [cursor=pointer]
+                    - insertion [ref=f1641e16]:
+                      - iframe [ref=f1641e17]:
+                        - link [ref=f1647e4] [cursor=pointer]:
+                          - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstX1Igujpq4RYf28YzHJl2d5ZfS74lnj2_RqHYVeKocyWQ3KhaCpbCu8DmnAq94Q1E3-SEGRKmhZ5O9VrqFMuUV5XCLoTVT1lPSKDWmcBKBXjQ2-lhU4CcHYK8bzlxwpzV1izAQ7NvN0sgjNj6n7dJSZHhrwepc1O12TD97UMIBoOpfdnxjuFWVKv9zcGX1LfRgRIoKvUyrolTOGU4lb-OYaC2nf8uJLHx302jbSS-Ffjwpvr3ptejSCbPKlIYlvb7WzAk740eumWwybzNSXUoQdfD_rQkfV51miRiTAJ89BDrTdvJ9WpaDyqC6dvEXJ109Ge649rt65yazQWg7w4phwMWMvd4NoHBnSjUGoeXBreXF5XJbdr2gwmXXeMVyWG9TYwHQ9APuxLvx101aUFizAk2aTeZnxqg-FB6xhqtry_4HE4QQ1PP0PVfPxIeNRQp4YkrDY1DnKgrhdAYxjRDHRPb_WnQYI2u39dgV62HLJNp6eoIWKxcDfB5YyP0fIc6RsC2-gvE2zxtCYZO5ubaYRvVFRrM64Gs-lhkYJMeXaVe-PiWiZ0Kz-Do5gu5c_i7rzK4QDw&sai=AMfl-YQpTKHcbi1Xy12DwCIEhiPXCHYntxbspGfTWuLCFR8BsFPpHmJIfS9ks0nlExFnjnzCCt_K0CByRcECaUj3wXdSWuZk6MglAbkXumaObhDczgmTQX7zagMu9b9SZWoYH4w0MkcmriB-gHmOxxProTYN8vyr_Av3L50NapK2NLBTioa-trTaZtNUD9c1VDl3ksOJVIoPwu-6nKcd81FqMKs6wlsbKyXiw5iSfHnLSdP6kb1pIN9RRG9f3VFEJCoFCSTnLYFu-uLfiA4BkCaXlecL4o7mRp8jqAx8dEBR2ZGMGogUWZH8C3Nyje43VafrgnJY9qS90eA0elXPcjFDRByUaZ55bioqrnXYeNc&sig=Cg0ArKJSzPhOxwFOt9yB&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://googleads.g.doubleclick.net/dbm/clk%3Fsa%3DL%26ai%3DCGiZ5yUF0ar-1B5GVmtIP5ITswQyK1OiRiAGLs7GHzhXwLhABIImC8XRg5Zrpg-AOoAHu5d7iAcgBCakCe9ZWNhKTRj6oAwHIA5sEqgT9AU_QXeQnO7MvaHgRLqV7dvaG9tKwK6YIxG69d5Zsmk9EaiGyzd3HjdOUxgTPZ9_uMZ9rpyxXcBJVm1Kk8AOjw8tBkLx202S9_efbVUYgWmQJA93cRQY3ZIro_UvuL0LnwiH9CD_pIuwZhxPCZ2p4WHGpWfs96Hfe3RCfuVDPJfWhlFcR5YtS3jEcRrkgE5lmrRfCqkQWLFFophSwdkFbJMp58748WFGsg7m2rkpH98zZXFaYvQ8fG7JO9taCiWz3j1vjcwnEdmq_OQozqWTuDSPcqLnVNKA3OSPzgkGqzuawZA2WRP5tJNEx2kK1tx_oCpGC_sPZwdyrdM3SrxrABMT_pp3MBeAEA4gF4ZjcrleQBgGgBk2AB_qZoZ0CiAcBkAcCqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAef4bECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrECqAfn17EC2AcA0gg3CAAQAhiaAzIIgICAgICAgAg6FJ_QgICAgASAwICAgKCogAKogYAQSL39wTpYvNC6hseLlgNgAYAKAZgLAcgLAYAMAaIMDCoKCgiO37ECleKxAqoNAklO6g0TCPLCvIbHi5YDFZGKRgQdZAI7yPANAYgOCbAT3svwI9gTDdgUAdAVAcoWAgoA-BYBgBcBshcEGAJQBrIYCRIC-lMYTSIBANAZAQ%26ae%3D1%26num%3D1%26cid%3DCAQS-gEAEQoqgf0LX3QErkF34dw2IOt-urFuZv6X69nWIGnUHO45xR7duw4C3MWVuHzjQVZ3M686NcSmviErrz3Y2i8Q14PgfIGM8CZ-ocG6Ahyyj_enqG_K_7f4DDEOSU_dL1qwEPsDBWuDNKj98xaqXGE5ILzvyRIXlth8zYHCnr7kDlYX-GOV1mJWkka6e9VYcrh_snwu2ooAAnEAQTuTC4DrG43FX4SIfOTHHPMPasljIiSA_GH2RU6YDJ2wPuWIzqc37lOQGQDyVrm2bqArRZqvIhCNmPFPdttbkGYLkdJdvki-K4eo6z2ENr6WkVQLDdyZybiCtsANZpV-GAE%26sig%3DAOD64_1anAwpm2Wb3elrvci2r8z-UmadjQ%26client%3Dca-pub-9713759261380411%26dbm_c%3DAKAmf-Az_PkUfC5mfpEu4JNJ_RPPOPL-k4e4ipC-oXpYVK-99wV36o1C1fsCYdPDqbFbigGXi1DEPmPcrUUKDqgf55OOaxRskZxEgjTZJ_07WNV6brnr5mPo86yIWrwYjp8qjwozwsyW74xdNjHkaTCpoZlZ_Zx5oSO4DmhIjJDhEsH9E6ZUuX-OTrdh5AdqINrroZsX9BMv7-qwKb_JJmHU1zoVgT0HZI2_CuJq39Bza2EQu9UQJSMmSaBRLNiOB2PjJ3hQbDZz_9CQmoPIZD4HRjdE0TyDmDTzoXpNzJlR_zXOvOC8OEvx-B3rnmtL12PAXiUvG47E%26cry%3D1%26dbm_d%3DAKAmf-BsZHWVTEmxlmNEyaKYqHFO8G6NUjZlar170-We5FJBrUbEYpeX1HhlVFx1KQdY5viYRHGEet7VN-hxOItwUYlchg6tO93iPDJSdVk9CrQrZm946ELwtnkAVCvAvMRK2RhpYBit-w3tYLqpgybr0wC5dzkQvQQv2a8SHAm7XIT6i7RjRJ2LVxrCNUiVWiCRFhUh1NcPWo25mCnkk3XHNyhoJYyTYzTNxZc9yEJQ-fwcl76GQzly5wShrHaZiJ2s45OGKID9Z6-LiXAynHXht4mNW28CSOsaMhQRG9ij5_b_GMxKci1WrxbDHNbaYXo_YSkcUj38AS0SkUGeNZru7wQhxpYWKsyzXpZvg36RODSxrA_vEMKYXoQeg2vQzOkKIHVoAoMEmZXMb8v6jXTSxb5ShvrL2wpRn24YWmYkVE4aJ6YZiB2Uql0HGnV_7UiJq7e7TV3If0ekv-wLZS8QJo1zyRh0Ak_RqwpsFwhrt2DyYxQdsfFhvlfXhVQKqI26SbwwMTZeJdr9MaLr5MKWHuDfBYUQiRUYaY437KAk1Wqr6LNJwNy6ebe2sQZx025XC28MKwvcvrvXWYabpPe7_qQBMuYT2GCMJDQE_uKkMLpPlNJwNjWxpHxnEpZ3KTURDg1kunNXsq6y62ZT-TdB4Yb1hciK99bu-ro4wJ0ULjQThhM11FuIM1pvMd97rjsl9e1Pu81ZLlYjQ8MyPFkczD5rP91hmtEpuRALW5OsMmXHHXhEMhxG1Ss8Pt_B7kccjGe4SkTHkhAMvT_bjto2n9ZDol_sWQ%26adurl%3Dhttps://careers.unitedhealthgroup.com/search-jobs%253Facm%253D81371%2526alrpm%253D1269750%2526ascf%253D%255B%25257B%252522key%252522:%252522ALL%252522,%252522value%252522:%252522%252522%25257D%255D%2526src%253DUNS-19965%2526utm_source%253Dyoptima.com%2526utm_medium%253Ddisplay%2526utm_campaign%253DIndia%2526utm_content%253Dniche_site%2526utm_term%253D436954213%2526ss%253Dpaid%2526dclid%253D%2525edclid!%2526gad_source%253D7%2526gad_campaignid%253D23406079801
+                          - img "Advertisement" [ref=f1647e5]
+            - paragraph [ref=f1617e88]:
+              - strong [ref=f1617e89]: Experience
+              - text: ": 0-2 Year’s"
+              - link "Recruitment & Staffing" [ref=f1617e90] [cursor=pointer]
+            - generic [ref=f1617e96]:
+              - generic [ref=f1617e97]:
+                - generic [ref=f1617e98]: WhatsApp Channel
+                - link "Join Now" [ref=f1617e100] [cursor=pointer]:
+                  - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+              - generic [ref=f1617e101]:
+                - generic [ref=f1617e102]: Telegram Channel
+                - link "Join Now" [ref=f1617e104] [cursor=pointer]:
+                  - /url: https://telegram.me/campusdrivejobs
+            - paragraph [ref=f1617e105]:
+              - strong [ref=f1617e106]: Eligibility
+              - text: ": BE/B.Tech/BSC/MCA/MS/M.Tech or Any"
+            - paragraph [ref=f1617e107]:
+              - strong [ref=f1617e108]: Location
+              - text: ": Bangalore, Pune, Remote"
+            - generic [ref=f1617e109]:
+              - insertion:
+                - generic:
+                  - iframe
+            - heading [level=3] [ref=f1617e110]:
+              - strong [ref=f1617e111]: Job Description
+              - text: ":"
+            - paragraph [ref=f1617e112]:
+              - text: "CX is a team of outstanding technical guides whose #1 focus is to deliver a premier customer experience. We help take on the toughest business challenges with network-centric solutions that accelerate customer and partner success and dedication. Our success is validated through outstanding financial results, growing customer happiness metrics, industry recognition, and employee happiness scores."
+              - link "Jobs" [ref=f1617e113] [cursor=pointer]
+            - insertion [ref=f1617e118]:
+              - iframe [ref=f1617e120]:
+                - iframe [ref=f1633e1]:
+                  - generic [ref=f1643e1]:
+                    - generic [ref=f1643e2]:
+                      - generic:
+                        - generic [ref=f1643e3] [cursor=pointer]
+                        - button [ref=f1643e8] [cursor=pointer]
+                    - insertion [ref=f1643e16]:
+                      - iframe [ref=f1643e17]:
+                        - link [ref=f1650e4] [cursor=pointer]:
+                          - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssPWcoQmekQ_nGHy8xgVuqIsk02gU91xpYFhL6voKv8vmPG0iEUGqiVQUSNS2gdTUX02Mi66oRkM0XlYgzoU91t1e4MzRrRZCNGnmDTCnfK2pSuvNxUhhZQJRsN2ld8dA5rHByyPOpliar6Zm1Y3R34oSxgUbXmNL_C-9OtPPTe-f8ZW5fT5RiRi4L4HSr-PqQbXYLGUweBcDDAJuYLzgfigEsiUCJ05flTE-7QQtgGPyUKnElBTehY_JDvfqBlpvtl67Mot1uqH0Hi7zmQBnT1jIBmosGEtASbF6JH5c8BdROd6X57Mba9z07t_LVKe07S9EBDu-nIGzvh4bhwljuTDwlGoMW5KRt7k0kWy-DNJzMGmwcjjeoz8MaLlce6donAIJLpdjKAxhWCsHLcesmw1lmRn7xOky2APX2CP8vkR1LFf_IkniMJxdlNd908z_4UD3ta62cZSxwba3iXhb7rA0YMlZufsZb2zpcOeCymUURJi5_Cbtxe5tHg1oVPlAU_NYIG3b7vtL-OD4KwUCds0CiVjAuaCx7leOTZi5jbM7QiMYc8ZsUwj5AhjXARMk36aGoE-A&sai=AMfl-YS2x-5q7SjqVyEP-Zi2gDgGxTUhWXd0VhsAUxqxfzp0kuBggBrdM0Y2my6y4VgImSWVsc1WLai4HzNo6GpcvKvKnvi-nCmDKFYcTbzmL7IYOyFPgZGoEEFwBp15FEwHYwXXDi1kht3AtEDkq5uKzFJMzPHSja9iCpvYTQBpOUKTPphRAKFBpNWGNfm3JMC2HcqMHtdFMClpGLZIhZcRY-BzxvxUQ0MgfiMMbpi44cTwRzVO0FBBe1CXcqfLV-ZuBU1bxdJlyNhVW8cFWiSAST9N-7cOeEt8TW1avAgMSiPqQTkeQPGEgyA8du6jmWuk11ZfkJ67ZdXisFqY9BmflAyVmFPVS_lTB_TpKTo&sig=Cg0ArKJSzAgDO1LngXG6&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://googleads.g.doubleclick.net/dbm/clk%3Fsa%3DL%26ai%3DC3tPGyUF0ar3uCJOk4dkP9YjRgQKK1OiRiAGLs7GHzhXwLhABIImC8XRg5Zrpg-AOoAHu5d7iAcgBCakCmj7TdMSSRj6oAwHIA5sEqgT9AU_QVhn1TLc8J2f4a2GHO7xebYxP3aJ_mM6pwH9TqsaB62o-DgfnGUOEuLy3yoXMfx4jYYUkuz7ROANCW7lOjCkskxMJcunL58M5Va8ZShvx38tJPVkI7uxri0SKE3ZOD6V8TbmfDoscXS5yKak7_bo3auwX6-bsos-dQ1iluQkJ04ckGmry36A_RN85WnDkIutrWPc3mGnwA8-IQirfCWSbErnj37G6Oe-Pd0e9jnXPkkDU16yOvfOXgrJKl857zjANgrvVGIK5rRtMr0GqDyqglvXr8Fk2sklLPGC_B_coPBVWlU_EiuERM0smZm8dKp2int-yC8ZsQlX6v9_ABMT_pp3MBeAEA4gF4ZjcrleQBgGgBk2AB_qZoZ0CiAcBkAcCqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAef4bECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrECqAfn17EC2AcA0gg3CAAQAhiaAzIIgICAgICAgAg6FJ_QgICAgASAwICAgKCogAKogYAQSL39wTpYvIe8hseLlgNgAYAKAZgLAcgLAYAMAaIMDCoKCgiO37ECleKxAqoNAklO6g0TCJL7vYbHi5YDFRNSOAUddUQ0IPANAYgOCbAT3svwI9gTDdgUAdAVAcoWAgoA-BYBgBcBshcEGAJQBrIYCRIC-lMYTSIBANAZAQ%26ae%3D1%26num%3D1%26cid%3DCAQS-gEAEQoqgcDGkgtTBvDsqr4v2mbm6fJznNc0QQ1AwkCeKkh5c9iccumE9XZsw_wnokc1PbExIA5Ol5uz3nD5S8kd4xHECzCqArsyFb_7eOThUYoMEkXoLla6mZSWmMt158-2rOJIewgOdL9myVYtqkfXoaxEFDQhVbgn4euUbTblVrCje68m02-OIEDY6yopd9M71LNQhYImwJxvMEYsntLBjM7jtdxrCCYqZt9pePA3vxSJoUJ_YdRbliYzIgpPXf8-ag3Jm1tas2ZHUYAW_RerPaRoOZ_CQTc4ycztE4qy-crLhhggE6jOSblPbDqmcrNMbApwOoEZB5lVGAE%26sig%3DAOD64_1ahi_TS289Yc4Emix7lCGUu2I62Q%26client%3Dca-pub-9713759261380411%26dbm_c%3DAKAmf-CDXiePfOWSog5gLu3nFIRYhygvzmHW-YnEUTkH_KP__m09r4i1JpjKCqlnDfiQGK80aW7wYf8DHhI8gFrG75kN85iz7QyNAhJNPrHBvdzGluGSh9GZ8WsJcPQkxbcmw58em5G0MPO7v3iVTe0BTAnE6PTmRq5SyWOQsQ_SopBiD6C-3IgbISGZMZvVBtg8A5ru7ZaFAgmEHRKcXuhzImiMSfcF9XPIty7J10-UNgx27WqFIx0vVVx9XtTJNyK3aJMRD883LBYVR3lWyy4wVwVAU1Yox6frWP2abkR5viS6TLCUwqgkJdmjlUQdwbuOHZI15KMk%26cry%3D1%26dbm_d%3DAKAmf-Am5F7m5tY9H2XqloMtJuc6CbWos10YiH_2xMHfSohvCnWn0-sjzfIN3ezmmiyxK_ag0InOyIsNT1lxoWJVSOV_Lcy9lg4-DNvf1qj5gnEVMwD1QHEqnVBtdV3_qgWKsYPeXRaaQ_HDSf33GlJPiYRPAKUJ-dkukY3zBHwYNhiPUitq1E_0M0Cc1Q_BShHCz8eb8-65A1kOneASp0MYjQMY4V6EZbWHgZR5dy6hfGUB0fxMol4t_2V3xM0V7fZNhz7aNAJHIQELXDtZh9SVF4ZP068yai85UGyeFsHPHDkw64t0Xev8527wkHKRveo4my6MdYpZZ91W_50NKWXGBu1f2QbYDSVZQ3Ry8qVbCye4McyE_uAIAtTOogkU8l0A5DdEh_XVofohPbvOufjmIOwb0ysfuYj9j7p7mUZQadIeCkVLgPuvu3XN6lxn_CSAEZoCXWdBE0FMJymOHmABCIvpKRwCaYsFGflmjxUAmGQU4O8DFonW-RrXk9x2wns0VN7QgCTNUoMkSXv4z1ux5EpdaPyYpmAQOyWFxiwiadAaNXioQUjU_fMGrF6smITObtyAWP5ZL38wjRqh1-rEOT18CQHUTvoiG5Dt2PSzqB1WszERrTv4M7ifnwTyeByucXHI10SaazYtd1z8aPnf2gsRID95RknnMYGP5xIqPTuXhmfWCjMdH-0BlsxcEZjaLrGp8qUz2QlDlRhW2IZ2NTfMzyFoxASUXh-6WBOK6lYonW7EIdw1M2P_tyAi0CoEFlQmyPadQPyILfSthTg62vbQacOOKg%26adurl%3Dhttps://careers.unitedhealthgroup.com/search-jobs%253Facm%253D81371%2526alrpm%253D1269750%2526ascf%253D%255B%25257B%252522key%252522:%252522ALL%252522,%252522value%252522:%252522%252522%25257D%255D%2526src%253DUNS-19965%2526utm_source%253Dyoptima.com%2526utm_medium%253Ddisplay%2526utm_campaign%253DIndia%2526utm_content%253Dniche_site%2526utm_term%253D436954213%2526ss%253Dpaid%2526dclid%253D%2525edclid!%2526gad_source%253D7%2526gad_campaignid%253D23406079801
+                          - img "Advertisement" [ref=f1650e5]
+            - paragraph [ref=f1617e121]:
+              - strong [ref=f1617e122]: Your Impact
+            - list [ref=f1617e123]:
+              - listitem [ref=f1617e124]:
+                - text: Develop complex designs, implement Cisco leading-edge technologies worldwide and provide optimization services to the largest
+                - link "networks" [ref=f1617e125] [cursor=pointer]:
+                  - /url: "#"
+                - text: and customers in the world.
+              - listitem [ref=f1617e128]: Consult to solve problems that cross a broad range of technologies and determine the best solutions for customers.
+              - listitem [ref=f1617e129]: Review customer requirements and propose designs to meet business needs
+              - listitem [ref=f1617e130]: Build and maintain relationships with a variety of customers.
+            - paragraph [ref=f1617e131]:
+              - strong [ref=f1617e132]: Minimum Qualifications
+            - list [ref=f1617e133]:
+              - listitem [ref=f1617e134]: Bachelor’s degree (BE/B.Tech./BSC) in Engineering, or a related technical field with 0-2 year of professional experience in software development or technical consulting.
+              - listitem [ref=f1617e135]: Knowledge of Data Structures & Algorithms and Relational Database management.
+              - listitem [ref=f1617e136]: Fundamentals of software development lifecycles, including version control.
+              - listitem [ref=f1617e137]: Strong analytical and problem-solving skills with ability to troubleshoot technical problems.
+              - listitem [ref=f1617e138]: Ability to multi-task, self-start, and work in a fast-paced team environment and the ability to work independently.
+            - paragraph [ref=f1617e139]:
+              - strong [ref=f1617e140]: Preferred Qualifications
+            - list [ref=f1617e141]:
+              - listitem [ref=f1617e142]: Proficiency in any programming language (e.g Python, Java, C++, Golang)
+              - listitem [ref=f1617e143]: Basic knowledge of Linux/Unix and networking fundamentals
+              - listitem [ref=f1617e144]: Passionate about networking, information technology or computer science.
+              - listitem [ref=f1617e145]: Fluent in English (verbal and written).
+            - paragraph [ref=f1617e146]
+            - heading [level=3] [ref=f1617e147]:
+              - strong [ref=f1617e148]: How to Apply Cisco
+              - text: :-
+            - paragraph [ref=f1617e149]:
+              - text: The interested and eligible graduates register on the following apply link as soon as possible.
+              - link "Engineering & Technology" [ref=f1617e150] [cursor=pointer]
+            - insertion [ref=f1617e155]
+            - paragraph [ref=f1617e157]:
+              - strong [ref=f1617e158]: "Registration Link For Cisco :"
+              - strong [ref=f1617e159]:
+                - link "Click Here" [ref=f1617e160] [cursor=pointer]:
+                  - /url: https://careers.cisco.com/global/en/job/CISCISGLOBAL2015858EXTERNALENGLOBAL/Software-Consulting-Engineer?utm_source=linkedin&utm_medium=phenom-feeds
+              - link "Software" [ref=f1617e161] [cursor=pointer]
+            - generic [ref=f1617e165]:
+              - strong [ref=f1617e166]: "Join Our Whatsapp Group:"
+              - link [ref=f1617e167] [cursor=pointer]:
+                - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+                - strong [ref=f1617e168]: Click Here
+            - insertion [ref=f1617e170]
+          - generic [ref=f1617e172]:
+            - generic [ref=f1617e173]: You May like
+            - generic [ref=f1617e174]:
+              - link "# AWS" [ref=f1617e175] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/aws/
+              - link "# Jobs in Bangalore" [ref=f1617e176] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-bangalore/
+              - link "# Jobs in Pune" [ref=f1617e177] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-pune/
+              - link "# Python" [ref=f1617e178] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/python/
+              - link "# QA" [ref=f1617e179] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/qa/
+              - link "# SQL" [ref=f1617e180] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/sql/
+              - link "# Testing" [ref=f1617e181] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/testing/
+          - generic [ref=f1617e183]:
+            - link "Facebook" [ref=f1617e184] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjobsnet.in%2Fcisco-is-hiring-entry-level-software-engineer%2F
+            - link "X (Twitter)" [ref=f1617e188] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fjobsnet.in%2Fcisco-is-hiring-entry-level-software-engineer%2F&text=Cisco%20is%20Hiring%20Entry-Level%20Software%20Engineer%20(0-2%20Years)
+            - link "Reddit" [ref=f1617e192] [cursor=pointer]:
+              - /url: https://reddit.com/submit?url=https%3A%2F%2Fjobsnet.in%2Fcisco-is-hiring-entry-level-software-engineer%2F&title=Cisco%20is%20Hiring%20Entry-Level%20Software%20Engineer%20(0-2%20Years)
+            - link "Telegram" [ref=f1617e196] [cursor=pointer]:
+              - /url: https://t.me/share/url?url=https%3A%2F%2Fjobsnet.in%2Fcisco-is-hiring-entry-level-software-engineer%2F&text=Cisco%20is%20Hiring%20Entry-Level%20Software%20Engineer%20(0-2%20Years)
+            - link "WhatsApp" [ref=f1617e200] [cursor=pointer]:
+              - /url: whatsapp://send?text=https%3A%2F%2Fjobsnet.in%2Fcisco-is-hiring-entry-level-software-engineer%2F
+          - generic [ref=f1617e204]:
+            - link [ref=f1617e205] [cursor=pointer]:
+              - /url: https://jobsnet.in/author/anand/
+              - img "Anand Kumar" [ref=f1617e206]
+            - generic [ref=f1617e209]:
+              - heading "Anand Kumar" [level=5] [ref=f1617e210]
+              - paragraph [ref=f1617e212]:
+                - text: Career Expert & Founder of JobsNet.in. Serving the student community since 2019, I specialize in providing verified job updates and placement material for computer science, IT, engineering and management graduates. With a mission to simplify the job hunt, I have helped thousands of candidates secure roles in top MNCs over the last 7 years.
+                - link "Knowledge Management" [ref=f1617e213] [cursor=pointer]
+              - generic [ref=f1617e218]:
+                - link "LinkedIn icon" [ref=f1617e219] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/amar-kumar-sd
+                - link "Website icon" [ref=f1617e222] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - 'link "Articles: 2394" [ref=f1617e225] [cursor=pointer]':
+                - /url: https://jobsnet.in/author/anand/
+          - insertion [ref=f1617e227]
+          - navigation [ref=f1617e229]:
+            - link "Previous Post ZS Associates Hiring Cloud Data Engineer (0-3 Years)" [ref=f1617e230] [cursor=pointer]:
+              - /url: https://jobsnet.in/zs-associates-hiring-cloud-data-engineer-0-3-years/
+              - figure [ref=f1617e231]:
+                - img "zs Associate career" [ref=f1617e232]
+              - generic [ref=f1617e235]:
+                - generic [ref=f1617e236]: Previous Post
+                - generic [ref=f1617e237]: ZS Associates Hiring Cloud Data Engineer (0-3 Years)
+            - link "Next Post Baker Hughes Off Campus Drive 2026 | AI Engineer | Early Career Program" [ref=f1617e238] [cursor=pointer]:
+              - /url: https://jobsnet.in/baker-hughes-off-campus-drive-early-career-program-ai-engineer/
+              - generic [ref=f1617e239]:
+                - generic [ref=f1617e240]: Next Post
+                - generic [ref=f1617e241]: Baker Hughes Off Campus Drive 2026 | AI Engineer | Early Career Program
+              - figure [ref=f1617e242]:
+                - img "Baker Hughes" [ref=f1617e243]
+          - generic [ref=f1617e246]:
+            - heading "Related" [level=3] [ref=f1617e247]
+            - generic [ref=f1617e248]:
+              - article [ref=f1617e249]:
+                - generic [ref=f1617e250]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f1617e251] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                  - paragraph [ref=f1617e252]:
+                    - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f1617e253] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+              - article [ref=f1617e254]:
+                - generic [ref=f1617e255]:
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f1617e256] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                    - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f1617e257]
+                  - paragraph [ref=f1617e258]:
+                    - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f1617e259] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+              - article [ref=f1617e260]:
+                - generic [ref=f1617e261]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f1617e262] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                  - paragraph [ref=f1617e263]:
+                    - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f1617e264] [cursor=pointer]:
+                      - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+        - complementary [ref=f1617e265]:
+          - generic [ref=f1617e266]:
+            - heading "Search Jobs" [level=3] [ref=f1617e269]
+            - textbox "search" [ref=f1617e276]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - generic [ref=f1617e277]:
+              - heading "Latest Updates" [level=3] [ref=f1617e278]
+              - list [ref=f1617e280]:
+                - listitem [ref=f1617e281]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f1617e283] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                - listitem [ref=f1617e284]:
+                  - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f1617e286]
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f1617e287] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                - listitem [ref=f1617e288]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f1617e290] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                - listitem [ref=f1617e291]:
+                  - img "Accenture Mega Off Campus Drive For Freshers - Associate Software Engineer" [ref=f1617e293]
+                  - link "Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)" [ref=f1617e294] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-entry-level-custom-software-engineer-python/
+                - listitem [ref=f1617e295]:
+                  - img "Cornerstone Off Campus Drive - Hiring Junior Engineer" [ref=f1617e297]
+                  - link "Cornerstone Hiring Entry Level Junior Engineer – Cloud Ops" [ref=f1617e298] [cursor=pointer]:
+                    - /url: https://jobsnet.in/cornerstone-hiring-entry-level-junior-engineer-cloud-ops/
+                - listitem [ref=f1617e299]:
+                  - link "Calix Off Campus Drive 2026 – Hiring Graduate Trainee – Test & QA" [ref=f1617e301] [cursor=pointer]:
+                    - /url: https://jobsnet.in/calix-off-campus-drive-hiring-graduate-trainee-test-qa/
+                - listitem [ref=f1617e302]:
+                  - link "HDFC Life Off Campus Drive 2026 – Graduate Trainee – Data Science & Analytics" [ref=f1617e304] [cursor=pointer]:
+                    - /url: https://jobsnet.in/hdfc-life-off-campus-drive-graduate-trainee-data-science-analytics/
+                - listitem [ref=f1617e305]:
+                  - img "Yash Technologies Hiring Freshers QA Trainee - Pune/Indore/Hyderabad" [ref=f1617e307]
+                  - link "Yash Technologies Off Campus Drive 2026 – AI/ML Trainee" [ref=f1617e308] [cursor=pointer]:
+                    - /url: https://jobsnet.in/yash-technologies-off-campus-drive-hiring-ai-ml-trainee/
+                - listitem [ref=f1617e309]:
+                  - img "White Twilio logo and four-dot icon on a red background." [ref=f1617e311]
+                  - link "Twilio Off Campus Drive 2026 – Associate Application Engineer- Remote" [ref=f1617e312] [cursor=pointer]:
+                    - /url: https://jobsnet.in/twilio-off-campus-drive-associate-application-engineer-remote/
+                - listitem [ref=f1617e313]:
+                  - img "Accenture Hiring Any Graduate Freshers As Network Associate" [ref=f1617e315]
+                  - link "Accenture Hiring Application Support Engineer – Any Graduate (0-2 Years)" [ref=f1617e316] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-application-support-engineer-any-graduate-0-2-years/
+            - generic [ref=f1617e318]:
+              - insertion:
+                - generic:
+                  - iframe
+    - insertion [ref=f1617e320]
+    - contentinfo [ref=f1617e322]:
+      - generic [ref=f1617e324]:
+        - paragraph [ref=f1617e327]: © 2026 Jobsnet.in
+        - navigation "footermenu" [ref=f1617e329]:
+          - list [ref=f1617e330]:
+            - listitem [ref=f1617e331]:
+              - link "Home" [ref=f1617e332] [cursor=pointer]:
+                - /url: https://jobsnet.in
+            - listitem [ref=f1617e333]:
+              - link "About us" [ref=f1617e334] [cursor=pointer]:
+                - /url: https://jobsnet.in/about-us/
+            - listitem [ref=f1617e335]:
+              - link "Contact Us" [ref=f1617e336] [cursor=pointer]:
+                - /url: https://jobsnet.in/contact/
+            - listitem [ref=f1617e337]:
+              - link "Advertise With Us" [ref=f1617e338] [cursor=pointer]:
+                - /url: https://jobsnet.in/advertise/
+            - listitem [ref=f1617e339]:
+              - link "Terms" [ref=f1617e340] [cursor=pointer]:
+                - /url: https://jobsnet.in/terms-and-conditions/
+            - listitem [ref=f1617e341]:
+              - link "Privacy" [ref=f1617e342] [cursor=pointer]:
+                - /url: https://jobsnet.in/privacy-policy/
+  - generic [ref=f1617e343]:
+    - generic [ref=f1617e344] [cursor=pointer]: CLOSE [X]
+    - insertion [ref=f1617e346]:
+      - iframe [ref=f1617e348]:
+        - generic [ref=f1624e1]:
+          - generic [ref=f1624e7]:
+            - generic [ref=f1624e8]:
+              - generic "TechTarget" [ref=f1624e9]:
+                - link "Cisco Network Security" [ref=f1624e11] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CgNDOyEF0asbxBfCG4bMPm7DYuAyb0NPXiAHrprud-BXAjbcBEAEgiYLxdGDlmumD4A6gAfzlhP0DyAEBqAMByAPDBKoElAJP0HSq4x9Ym7pF2veLV-sNdfGRG_sRqF16QtCBtYg07skEcM3J2qHj0gbnv8sbvHukA_2obMs178Dpe46ycRKs0ZJ7v2ngiu319QoX0ZARlALiENyvryBtHeC8tld4xi81m_sKTSGpIE39FBD604OYYoyZQ4M-NH7LznCMIHWx9Ih7BVvg7ec_1RuNgq6KgVXjGhXT5F57MZc5br7OBZcyAmE_TbDsr-pNLCt5ObA7Gs-TnMqxVdta-jM9IN_AJNoRHqOmAg1SbQm4p_7s43KzJ0Jz2Uf7dsFCJxN9YNmn36QMjTRARNT8UWdHR3AfbHU9uqwrWiQaAR9gaLNHo8CkEQVqITDnZpCG0sZ9WZeVTbig07vABNa31offBYgFov3e0lmQBgGgBmaAB-yZ-wKIBwGQBwKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwHSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOliJpvyFx4uWA2ABsQmPLHbknbx2DoAKAZgLAcgLAaIMDCoKCgiO37ECleKxAqoNAklOyA0B6g0TCNr7_YXHi5YDFXBDeAAdGxgWx_ANAogOCdgTCogUAdAVAcoWAgoA-BYBgBcBshcQGAEqCjI3Njg1MzA2NThQBroXAjgBqhgXCQAAAAD2hUNBEgoyNzY4NTMwNjU4GAGyGAkSAqRmGGYiAQDQGAHCGQIIAQ&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSuNBAwlUAOSMlfIS2ZIURl5e-gEhxFvNb4m4memmV8QCJpP23KSYHRoC8yoQAvD_BwE&num=1&cid=CAQS-gEAEQoqgddzvqsVXdH6p4yKqo8nkaWWqEKXpWDslEs68yOWBdoI8zJ0yq_clzWRHOBPVoD9SilnHxyF8HC4NmSkNnVzc4I7Ya29QkqKcvWGVEZHpjhTC9GEKgjnnj54_SjXwcYt7kL0Tw07uLQ4XgntiJRFRcZa9E2kpsYV5kW5n1LETp_woXPBuajqFxhOYOZkmneT0J5y8N_8XnlG0nnahbsERGoWhIwOgg-2lj-aQN0KSBgPWkFfyYXsujUdwe5ebKdLhq-NM6TgyOfyOKf8C5RiDNySu72Jb9-Gt968m-R-UjOXA1NUyhav_LDRSSZ1k6yEp5IIhWN_GAE&sig=AOD64_3F9qnv8oob5ydLF9pV0w_gJcaIvA&client=ca-pub-9713759261380411&rf=1&nb=0&adurl=https://www.techtarget.com/cybersecurity/tip/CISOs-guide-to-nonhuman-identity-security%3Futm_source%3Dgoogle%26int%3Doff%26pre%3Doff%26utm_medium%3Dcpc%26utm_term%3DGAW%26utm_content%3Dsy_lp07232026GOOGOTHR_GsidsSecurity_Saviynt_KTO_IO338397_LI2972928%26utm_campaign%3DSaviynt_KTO_sSecurity_APAC%26Offer%3Dsy_lp07232026GOOGOTHR_GsidsSecurity_Saviynt_KTO_IO338397_LI2972928%26gad_source%3D5%26gad_campaignid%3D24064278178%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSuNBAwlUAOSMlfIS2ZIURl5e-gEhxFvNb4m4memmV8QCJpP23KSYHRoC8yoQAvD_BwE
+              - generic "TechTarget" [ref=f1624e12]:
+                - link "Cisco Network Security" [ref=f1624e13] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CgNDOyEF0asbxBfCG4bMPm7DYuAyb0NPXiAHrprud-BXAjbcBEAEgiYLxdGDlmumD4A6gAfzlhP0DyAEBqAMByAPDBKoElAJP0HSq4x9Ym7pF2veLV-sNdfGRG_sRqF16QtCBtYg07skEcM3J2qHj0gbnv8sbvHukA_2obMs178Dpe46ycRKs0ZJ7v2ngiu319QoX0ZARlALiENyvryBtHeC8tld4xi81m_sKTSGpIE39FBD604OYYoyZQ4M-NH7LznCMIHWx9Ih7BVvg7ec_1RuNgq6KgVXjGhXT5F57MZc5br7OBZcyAmE_TbDsr-pNLCt5ObA7Gs-TnMqxVdta-jM9IN_AJNoRHqOmAg1SbQm4p_7s43KzJ0Jz2Uf7dsFCJxN9YNmn36QMjTRARNT8UWdHR3AfbHU9uqwrWiQaAR9gaLNHo8CkEQVqITDnZpCG0sZ9WZeVTbig07vABNa31offBYgFov3e0lmQBgGgBmaAB-yZ-wKIBwGQBwKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwHSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOliJpvyFx4uWA2ABsQmPLHbknbx2DoAKAZgLAcgLAaIMDCoKCgiO37ECleKxAqoNAklOyA0B6g0TCNr7_YXHi5YDFXBDeAAdGxgWx_ANAogOCdgTCogUAdAVAcoWAgoA-BYBgBcBshcQGAEqCjI3Njg1MzA2NThQBroXAjgBqhgXCQAAAAD2hUNBEgoyNzY4NTMwNjU4GAGyGAkSAqRmGGYiAQDQGAHCGQIIAQ&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSuNBAwlUAOSMlfIS2ZIURl5e-gEhxFvNb4m4memmV8QCJpP23KSYHRoC8yoQAvD_BwE&num=1&cid=CAQS-gEAEQoqgddzvqsVXdH6p4yKqo8nkaWWqEKXpWDslEs68yOWBdoI8zJ0yq_clzWRHOBPVoD9SilnHxyF8HC4NmSkNnVzc4I7Ya29QkqKcvWGVEZHpjhTC9GEKgjnnj54_SjXwcYt7kL0Tw07uLQ4XgntiJRFRcZa9E2kpsYV5kW5n1LETp_woXPBuajqFxhOYOZkmneT0J5y8N_8XnlG0nnahbsERGoWhIwOgg-2lj-aQN0KSBgPWkFfyYXsujUdwe5ebKdLhq-NM6TgyOfyOKf8C5RiDNySu72Jb9-Gt968m-R-UjOXA1NUyhav_LDRSSZ1k6yEp5IIhWN_GAE&sig=AOD64_3F9qnv8oob5ydLF9pV0w_gJcaIvA&client=ca-pub-9713759261380411&rf=1&nb=0&adurl=https://www.techtarget.com/cybersecurity/tip/CISOs-guide-to-nonhuman-identity-security%3Futm_source%3Dgoogle%26int%3Doff%26pre%3Doff%26utm_medium%3Dcpc%26utm_term%3DGAW%26utm_content%3Dsy_lp07232026GOOGOTHR_GsidsSecurity_Saviynt_KTO_IO338397_LI2972928%26utm_campaign%3DSaviynt_KTO_sSecurity_APAC%26Offer%3Dsy_lp07232026GOOGOTHR_GsidsSecurity_Saviynt_KTO_IO338397_LI2972928%26gad_source%3D5%26gad_campaignid%3D24064278178%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSuNBAwlUAOSMlfIS2ZIURl5e-gEhxFvNb4m4memmV8QCJpP23KSYHRoC8yoQAvD_BwE
+              - link "Legacy IAM tools can't handle NHI scale. Learn the new governance approach." [ref=f1624e15] [cursor=pointer]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CgNDOyEF0asbxBfCG4bMPm7DYuAyb0NPXiAHrprud-BXAjbcBEAEgiYLxdGDlmumD4A6gAfzlhP0DyAEBqAMByAPDBKoElAJP0HSq4x9Ym7pF2veLV-sNdfGRG_sRqF16QtCBtYg07skEcM3J2qHj0gbnv8sbvHukA_2obMs178Dpe46ycRKs0ZJ7v2ngiu319QoX0ZARlALiENyvryBtHeC8tld4xi81m_sKTSGpIE39FBD604OYYoyZQ4M-NH7LznCMIHWx9Ih7BVvg7ec_1RuNgq6KgVXjGhXT5F57MZc5br7OBZcyAmE_TbDsr-pNLCt5ObA7Gs-TnMqxVdta-jM9IN_AJNoRHqOmAg1SbQm4p_7s43KzJ0Jz2Uf7dsFCJxN9YNmn36QMjTRARNT8UWdHR3AfbHU9uqwrWiQaAR9gaLNHo8CkEQVqITDnZpCG0sZ9WZeVTbig07vABNa31offBYgFov3e0lmQBgGgBmaAB-yZ-wKIBwGQBwKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwHSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOliJpvyFx4uWA2ABsQmPLHbknbx2DoAKAZgLAcgLAaIMDCoKCgiO37ECleKxAqoNAklOyA0B6g0TCNr7_YXHi5YDFXBDeAAdGxgWx_ANAogOCdgTCogUAdAVAcoWAgoA-BYBgBcBshcQGAEqCjI3Njg1MzA2NThQBroXAjgBqhgXCQAAAAD2hUNBEgoyNzY4NTMwNjU4GAGyGAkSAqRmGGYiAQDQGAHCGQIIAQ&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSuNBAwlUAOSMlfIS2ZIURl5e-gEhxFvNb4m4memmV8QCJpP23KSYHRoC8yoQAvD_BwE&num=1&cid=CAQS-gEAEQoqgddzvqsVXdH6p4yKqo8nkaWWqEKXpWDslEs68yOWBdoI8zJ0yq_clzWRHOBPVoD9SilnHxyF8HC4NmSkNnVzc4I7Ya29QkqKcvWGVEZHpjhTC9GEKgjnnj54_SjXwcYt7kL0Tw07uLQ4XgntiJRFRcZa9E2kpsYV5kW5n1LETp_woXPBuajqFxhOYOZkmneT0J5y8N_8XnlG0nnahbsERGoWhIwOgg-2lj-aQN0KSBgPWkFfyYXsujUdwe5ebKdLhq-NM6TgyOfyOKf8C5RiDNySu72Jb9-Gt968m-R-UjOXA1NUyhav_LDRSSZ1k6yEp5IIhWN_GAE&sig=AOD64_3F9qnv8oob5ydLF9pV0w_gJcaIvA&client=ca-pub-9713759261380411&rf=1&nb=7&adurl=https://www.techtarget.com/cybersecurity/tip/CISOs-guide-to-nonhuman-identity-security%3Futm_source%3Dgoogle%26int%3Doff%26pre%3Doff%26utm_medium%3Dcpc%26utm_term%3DGAW%26utm_content%3Dsy_lp07232026GOOGOTHR_GsidsSecurity_Saviynt_KTO_IO338397_LI2972928%26utm_campaign%3DSaviynt_KTO_sSecurity_APAC%26Offer%3Dsy_lp07232026GOOGOTHR_GsidsSecurity_Saviynt_KTO_IO338397_LI2972928%26gad_source%3D5%26gad_campaignid%3D24064278178%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSuNBAwlUAOSMlfIS2ZIURl5e-gEhxFvNb4m4memmV8QCJpP23KSYHRoC8yoQAvD_BwE
+            - generic [ref=f1624e18]:
+              - generic "TechTarget" [ref=f1624e20]:
+                - link "TechTarget" [ref=f1624e21] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CgNDOyEF0asbxBfCG4bMPm7DYuAyb0NPXiAHrprud-BXAjbcBEAEgiYLxdGDlmumD4A6gAfzlhP0DyAEBqAMByAPDBKoElAJP0HSq4x9Ym7pF2veLV-sNdfGRG_sRqF16QtCBtYg07skEcM3J2qHj0gbnv8sbvHukA_2obMs178Dpe46ycRKs0ZJ7v2ngiu319QoX0ZARlALiENyvryBtHeC8tld4xi81m_sKTSGpIE39FBD604OYYoyZQ4M-NH7LznCMIHWx9Ih7BVvg7ec_1RuNgq6KgVXjGhXT5F57MZc5br7OBZcyAmE_TbDsr-pNLCt5ObA7Gs-TnMqxVdta-jM9IN_AJNoRHqOmAg1SbQm4p_7s43KzJ0Jz2Uf7dsFCJxN9YNmn36QMjTRARNT8UWdHR3AfbHU9uqwrWiQaAR9gaLNHo8CkEQVqITDnZpCG0sZ9WZeVTbig07vABNa31offBYgFov3e0lmQBgGgBmaAB-yZ-wKIBwGQBwKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwHSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOliJpvyFx4uWA2ABsQmPLHbknbx2DoAKAZgLAcgLAaIMDCoKCgiO37ECleKxAqoNAklOyA0B6g0TCNr7_YXHi5YDFXBDeAAdGxgWx_ANAogOCdgTCogUAdAVAcoWAgoA-BYBgBcBshcQGAEqCjI3Njg1MzA2NThQBroXAjgBqhgXCQAAAAD2hUNBEgoyNzY4NTMwNjU4GAGyGAkSAqRmGGYiAQDQGAHCGQIIAQ&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSuNBAwlUAOSMlfIS2ZIURl5e-gEhxFvNb4m4memmV8QCJpP23KSYHRoC8yoQAvD_BwE&num=1&cid=CAQS-gEAEQoqgddzvqsVXdH6p4yKqo8nkaWWqEKXpWDslEs68yOWBdoI8zJ0yq_clzWRHOBPVoD9SilnHxyF8HC4NmSkNnVzc4I7Ya29QkqKcvWGVEZHpjhTC9GEKgjnnj54_SjXwcYt7kL0Tw07uLQ4XgntiJRFRcZa9E2kpsYV5kW5n1LETp_woXPBuajqFxhOYOZkmneT0J5y8N_8XnlG0nnahbsERGoWhIwOgg-2lj-aQN0KSBgPWkFfyYXsujUdwe5ebKdLhq-NM6TgyOfyOKf8C5RiDNySu72Jb9-Gt968m-R-UjOXA1NUyhav_LDRSSZ1k6yEp5IIhWN_GAE&sig=AOD64_3F9qnv8oob5ydLF9pV0w_gJcaIvA&client=ca-pub-9713759261380411&rf=1&nb=1&adurl=https://www.techtarget.com/cybersecurity/tip/CISOs-guide-to-nonhuman-identity-security%3Futm_source%3Dgoogle%26int%3Doff%26pre%3Doff%26utm_medium%3Dcpc%26utm_term%3DGAW%26utm_content%3Dsy_lp07232026GOOGOTHR_GsidsSecurity_Saviynt_KTO_IO338397_LI2972928%26utm_campaign%3DSaviynt_KTO_sSecurity_APAC%26Offer%3Dsy_lp07232026GOOGOTHR_GsidsSecurity_Saviynt_KTO_IO338397_LI2972928%26gad_source%3D5%26gad_campaignid%3D24064278178%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSuNBAwlUAOSMlfIS2ZIURl5e-gEhxFvNb4m4memmV8QCJpP23KSYHRoC8yoQAvD_BwE
+              - link "OPEN" [ref=f1624e24] [cursor=pointer]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CgNDOyEF0asbxBfCG4bMPm7DYuAyb0NPXiAHrprud-BXAjbcBEAEgiYLxdGDlmumD4A6gAfzlhP0DyAEBqAMByAPDBKoElAJP0HSq4x9Ym7pF2veLV-sNdfGRG_sRqF16QtCBtYg07skEcM3J2qHj0gbnv8sbvHukA_2obMs178Dpe46ycRKs0ZJ7v2ngiu319QoX0ZARlALiENyvryBtHeC8tld4xi81m_sKTSGpIE39FBD604OYYoyZQ4M-NH7LznCMIHWx9Ih7BVvg7ec_1RuNgq6KgVXjGhXT5F57MZc5br7OBZcyAmE_TbDsr-pNLCt5ObA7Gs-TnMqxVdta-jM9IN_AJNoRHqOmAg1SbQm4p_7s43KzJ0Jz2Uf7dsFCJxN9YNmn36QMjTRARNT8UWdHR3AfbHU9uqwrWiQaAR9gaLNHo8CkEQVqITDnZpCG0sZ9WZeVTbig07vABNa31offBYgFov3e0lmQBgGgBmaAB-yZ-wKIBwGQBwKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwHSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOliJpvyFx4uWA2ABsQmPLHbknbx2DoAKAZgLAcgLAaIMDCoKCgiO37ECleKxAqoNAklOyA0B6g0TCNr7_YXHi5YDFXBDeAAdGxgWx_ANAogOCdgTCogUAdAVAcoWAgoA-BYBgBcBshcQGAEqCjI3Njg1MzA2NThQBroXAjgBqhgXCQAAAAD2hUNBEgoyNzY4NTMwNjU4GAGyGAkSAqRmGGYiAQDQGAHCGQIIAQ&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSuNBAwlUAOSMlfIS2ZIURl5e-gEhxFvNb4m4memmV8QCJpP23KSYHRoC8yoQAvD_BwE&num=1&cid=CAQS-gEAEQoqgddzvqsVXdH6p4yKqo8nkaWWqEKXpWDslEs68yOWBdoI8zJ0yq_clzWRHOBPVoD9SilnHxyF8HC4NmSkNnVzc4I7Ya29QkqKcvWGVEZHpjhTC9GEKgjnnj54_SjXwcYt7kL0Tw07uLQ4XgntiJRFRcZa9E2kpsYV5kW5n1LETp_woXPBuajqFxhOYOZkmneT0J5y8N_8XnlG0nnahbsERGoWhIwOgg-2lj-aQN0KSBgPWkFfyYXsujUdwe5ebKdLhq-NM6TgyOfyOKf8C5RiDNySu72Jb9-Gt968m-R-UjOXA1NUyhav_LDRSSZ1k6yEp5IIhWN_GAE&sig=AOD64_3F9qnv8oob5ydLF9pV0w_gJcaIvA&client=ca-pub-9713759261380411&rf=1&nb=8&adurl=https://www.techtarget.com/cybersecurity/tip/CISOs-guide-to-nonhuman-identity-security%3Futm_source%3Dgoogle%26int%3Doff%26pre%3Doff%26utm_medium%3Dcpc%26utm_term%3DGAW%26utm_content%3Dsy_lp07232026GOOGOTHR_GsidsSecurity_Saviynt_KTO_IO338397_LI2972928%26utm_campaign%3DSaviynt_KTO_sSecurity_APAC%26Offer%3Dsy_lp07232026GOOGOTHR_GsidsSecurity_Saviynt_KTO_IO338397_LI2972928%26gad_source%3D5%26gad_campaignid%3D24064278178%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSuNBAwlUAOSMlfIS2ZIURl5e-gEhxFvNb4m4memmV8QCJpP23KSYHRoC8yoQAvD_BwE
+          - generic [ref=f1624e31] [cursor=pointer]
+          - button [ref=f1624e36] [cursor=pointer]
+          - iframe
+  - link "Join WhatsApp" [ref=f1617e350] [cursor=pointer]:
+    - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP

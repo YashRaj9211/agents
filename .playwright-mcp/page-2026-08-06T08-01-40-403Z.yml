@@ -1,0 +1,376 @@
+- generic [active] [ref=f974e1]:
+  - link "Skip to content" [ref=f974e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f974e3]:
+    - banner [ref=f974e4]:
+      - generic [ref=f974e7]:
+        - link [ref=f974e11] [cursor=pointer]:
+          - /url: https://jobsnet.in/
+          - img "Jobsnet.in" [ref=f974e12]
+        - generic [ref=f974e14]:
+          - navigation "Main Menu" [ref=f974e15]:
+            - list [ref=f974e16]:
+              - listitem [ref=f974e17]:
+                - link "Home" [ref=f974e18] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - listitem [ref=f974e19]:
+                - link "Internships" [ref=f974e20] [cursor=pointer]:
+                  - /url: https://jobsnet.in/internships/
+              - listitem [ref=f974e21]:
+                - link "Off Campus Drives" [ref=f974e22] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+              - listitem [ref=f974e23]:
+                - link [ref=f974e24] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+              - listitem [ref=f974e28]:
+                - link [ref=f974e29] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+          - button "Search" [ref=f974e33] [cursor=pointer]
+    - main [ref=f974e36]:
+      - insertion [ref=f974e38]:
+        - iframe [ref=f974e40]:
+          - generic [ref=f977e1]:
+            - generic [ref=f977e2]:
+              - generic:
+                - generic [ref=f977e3] [cursor=pointer]
+                - button [ref=f977e8] [cursor=pointer]
+            - insertion [ref=f977e16]:
+              - iframe [ref=f977e17]:
+                - link [ref=f1002e4] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsv5ytFKGsiIwqcd1UWoC3mrUr1wrA-Prxu9QFCmNibWPwmrhE7b8anE82TyhefT8pFn1bOLu76D6sdUQ1jqiKnWL_qGpzpq9wlbzm5X-5eNl8QTw-flaVy2jpnAAP8wtuiBb2_9uuzXaAsjXqUe8VRjoQZrueRU0UtX2RvauDcK_lkFb1-pBFcYIzSMIuThcM25_z9O9ZPN30uvn5jOHtYkLjeT_WzcWY5AyMTXltgHWMObu_FGvV3sL4-gro413KvPCnUU5sL0ElUu9BMv348yOcfG_SqL1AJyotPIsZKFI8kIwWwydR-tqpBAzecDDVdbQGPY1LnM9mqh6JUYHTbwlYj_7kuVNYhMO58QWNF24mx160iKTZdFIf7uX9CVYAhK0WFBWpPfeNCiN6qt8rs3LNtCHukZ1frSJyTGixpcjiHHmK4kdWLMn85zKhqQcjtlFkmPwoGe-dgZcYZcpFadXNllEZaA_iFbewPLkkjFXO37puTHeNd95tutsmWbqVjBj8oOxXXFUsnWnUX86_3LcFHDltMNvH6rrWPTeRCe7yAnGMYVsOttewmqQXufHB5R_lgxg9R1drm6qSKaSZErQfcWcEp74a5mzp3aVg79B1KV8ZvpwBEpsy2383naiN5vEcrkrmnCkxbxt3S3ELMklXc3_TgDhr49AbfQPQ-kXBDHNax2icZyt_Aq1dsT1V9A99yopmDld_Dfiz391S0PlM2994LSd0_VtNIw-4jHPFlPuoqZcvyRoWDmQfgUH_Zoj3Q51Ha9UtbmeIHhDexuTe55JV42ON8wQsNYzOFVmJSF6DNJjxJHS0LQ7bo4Dpmz-2HaoEiCWPAuKY-NN9fIOa9IYLRRh70F_-m10PqJOsctcnUpUGEUxRK7pD3QXf40EQ&sai=AMfl-YQlayUsKQmnSh75yMtWg7JlupXLWSBHhRIPT_sbMDMYZtmOXwFGSnBd7h6dxT_p4TNNFfcK_VPnuYPa5dx8_KY09XIijUZEkuVkjJOeJAyyYk6lu0kXpZZMn0eK-0UagBmP0LnzIqvSXK4zVWg_yzOTHS5Il52ujKPnJMKLYF25cA9sZZIL_PgzeB2J14EDKFC_-rrMGRlOvlId2MCb4GQzp_5QhEf9UaxXSDxwAJ6njPyce8M4De1huNCeW18x5iHhVxHTbFkXrATox1A296GzOhi3uJnXytGVJWYcHMQV9xpGNbeY1EsmSu0YiDIJsmG2nMFGIXZTRGOx8nZNpPSZ_3JQALrcuZ_ouWY&sig=Cg0ArKJSzIdnHzH6HMLS&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://googleads.g.doubleclick.net/dbm/clk%3Fsa%3DL%26ai%3DCw0MqYD90as-iGLObid4P_oSR8AOK6JqRiAGsh_aDqBXO7c378UUQASCJgvF0YOWa6YPgDqAB7uXe4gHIAQmpApo-03TEkkY-qAMByAObBKoE-wFP0I1forAhM0K3s510TKK024OlOs_TkWAe2nDD4ryCskV-NYcfdx3OtS9PC_Qm_oocqWYt8O8jorJDlDKKldhrlNLQw8GnCkMEp6pn1EWyVadjga01_7SyeP8JSPOIuRFyZZeN0wUjvFMP137XxBCOEPReD61R3YUkfzHwIxnx61TpV3zZtD2-DndubyQwuaduNA2NG0Eks5D6eG-L0Qza7NhKkkCJ0zi00-zJecWpulJedyDCHvqUcIZVUjdZZKMSUqOf9GyK3K1jFq37LpH8JxFn0Slw4kUW5rpC_-97M8W9D8ZpQdQSPQUEn-qyns2M3vcXslzG7WPpYMAEjb_Or4cF4AQDiAXSnqv8UpAGAaAGTYAH-pmhnQKIBwGQBwKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB9XJG6gH2baxAqgH2LaxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQKoB-fXsQLYBwDSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOliDkbHgxIuWA2ABgAoBmAsByAsBgAwBogwMKgoKCI7fsQKV4rECqg0CSU7qDRMIidqy4MSLlgMVs03CBR1-QgQ-8A0BiA4JsBOGsook2BMN2BQB0BUByhYCCgD4FgGAFwGyFxAYAioKMzIzNTIxMzc1OVAGuhcECAFIAaoYFwkAAAAAgHT2QBIKMzIzNTIxMzc1ORgBshgJEgL6UxhNIgEAgBkD0BkB%26ae%3D1%26num%3D1%26cid%3DCAQS-gEAEQoqgSBibGAZ3sriWtXW5YsC-Qu2dcAIdVMSbSnI57FfKs3oauOBIu4eo5G25rJ_XT_XJDqSurP5U4bBnZPEopE4blEXUtvcCPGOgiaVrxgvgxDNI_-ieYrI7gpmzabrZljzmdIJfF3J7fpvwAUbsQIqzWkIg-iDIZtZ4JwszUjl85gQm3tArW74A7-2PQYxXvTGQ_Ok9jBbrWrFHS81pKijaRvhg1ddHby_IK9HM0MDvoDEuw4XudZs3ynBL8ZEV9N5LllaTwF4j8SH5zMM_rk_iS0cnqmr0wTaKgdAYDXwKFmf_xm0CX8e1YQs9E-rVs4jgQTm7EuIGAE%26sig%3DAOD64_1-FaVd5ADlqiixHuflB9rVNN5V4w%26client%3Dca-pub-9713759261380411%26dbm_c%3DAKAmf-AeGZ-4GU79gLXvBhKGB-ENxWIDW5GJ8nWVY0_-FMvfpjlQ2vdgwTKMRnz8dzYYS_VX0xVD40Em6PAZtlmOZZ8PUW3Ax0Ul428KGAN9fiH-zJ4XU7GZXcqFAL2s8jPJ-pxdZgzQEgBakozNCLAUwcwL86G4bcT4KCMFLr5pFApGxHLj2RVfuJXWH4vw6sDriYtI5rnKiV6cru5BB-QX-B8_gQzXrl-N2_IearT-APLXxj1ShVhf-Y46HcOUrJ_u6nDYYtgLc50BrQ8Y8bKTD5wjerQ2hrfMN6U5DT8Cqfvg-JVaUMY%26cry%3D1%26dbm_d%3DAKAmf-ArmM2VwSZ2qHL7zBx52f55QnOgwcMB8Z0CPSZWPQm5AM7mf5Pje_S4WsZfmYhq3aFNaMHVjIAOVUzj-7-7e_tO9x4epVmaXhn8YmYYB91FPeWBCi7lbT5VHoSBqQ8R2olpBQuNSm9QSZEWvjqhrKAylpPVl8b6EPSvcwBxQWC1CVvh1jxqusArymxGXxMytmXFakyxrUQUasBFYtG-yvKMlXKDhL31E9Bc-t1nXBO4KpCL_DTH3VRjKXwhIFtNlSFAdxEWcpg4WhpkZNMchSqP2P3E7WgaWCEJ83ajR5O0gFbKc6BlyCVjlnTCY0eDv_zx-AQDJK8x8ZbOWktNVgto45x5YpopareQ9A0RBzjtJkJ5al498d7FyMaMRIbseYvBQ3VJmO-Qyk-cAxRj-48YVUtbB1Ay2MA04HowAqQmlxPHmZjTfTUVYWUuBoPzyalA-ZZxgKr7NDZKd72JK7mIUDHl8HbRRTNqD16RwznWuuhskcTIv3qT5QacjVZq9BHIoyjFo0MK9LD7YeOxaZcnyxYSKfNPksidyKLqupPlLMufstHzZgxKs3fHH3ZYlpI1BoFgP6DZHEHjAJakqxVlxUvU9pSPfIV0tU_rHYstsv3_NW6cql-T4YanaqQQtd__RdyC8wIr4xIMDifpo0cr5Ee6Twi7JHulR-Iz8EPEq3I392xy6pcjHUIuZfIg_9zsprUvJUnpJaRICC8O36ZdxiMQ1qfP7hVdry8EES-xaxaMRM9zP53jbtaqXak8PnzOjQe5YichCJKipaftxi6bEUIRe32OMSH9hM2zhgHTwjSoJ5k%26adurl%3Dhttps://careers.unitedhealthgroup.com/search-jobs%253ForgIds%253D34088%2526ascf%253D%25255b%25257B%252522key%252522:%252522custom_fields%2525252ECountry1%252522,%252522value%252522:%252522India%252522%25257D,%25257B%252522key%252522:%252522custom_fields%2525252EGradeLevel%252522,%252522value%252522:%25252229%252522%25257D,%25257B%252522key%252522:%252522custom_fields%2525252EGradeLevel%252522,%252522value%252522:%25252230%252522%25257D,%25257B%252522key%252522:%252522custom_fields%2525252EGradeLevel%252522,%252522value%252522:%25252231%252522%25257D%25255d%2526src%253DUNS-19965%2526utm_source%253Dyoptima.com%2526utm_medium%253Ddisplay%2526utm_campaign%253DIndia%2526utm_content%253Dniche_site%2526utm_term%253D436949626%2526ss%253Dpaid%2526dclid%253D%2525edclid!%2526gad_source%253D7%2526gad_campaignid%253D23406084136
+                  - img "Advertisement" [ref=f1002e5]
+      - generic [ref=f974e41]:
+        - article [ref=f974e42]:
+          - generic [ref=f974e44]:
+            - navigation [ref=f974e45]:
+              - link "Home" [ref=f974e47] [cursor=pointer]:
+                - /url: https://jobsnet.in/
+              - link "Off Campus Drive" [ref=f974e51] [cursor=pointer]:
+                - /url: https://jobsnet.in/off-campus-drive/
+              - generic [ref=f974e54]: ADP Off Campus Drive 2026 – Hiring Freshers As Associate Software Engineer
+            - heading "ADP Off Campus Drive 2026 – Hiring Freshers As Associate Software Engineer" [level=1] [ref=f974e56]
+            - list [ref=f974e57]:
+              - listitem [ref=f974e58]:
+                - text: By
+                - link "Anand Kumar" [ref=f974e59] [cursor=pointer]:
+                  - /url: https://jobsnet.in/author/anand/
+                - text: /
+              - listitem [ref=f974e60]:
+                - text: "On"
+                - time [ref=f974e61]: June 18, 2026
+          - figure [ref=f974e62]
+          - generic [ref=f974e64]:
+            - paragraph [ref=f974e65]:
+              - text: ADP Off Campus Drive 2026- ADP is Hiring Graduate freshers of
+              - link "Computer Science" [ref=f974e66] [cursor=pointer]:
+                - /url: "#"
+              - text: and IT As Associate
+              - link "Software Engineer" [ref=f974e69] [cursor=pointer]:
+                - /url: "#"
+              - text: under the ADP Graduate Program GPT.
+              - link "Payroll Services" [ref=f974e72] [cursor=pointer]
+            - insertion [ref=f974e77]:
+              - iframe [ref=f974e79]:
+                - iframe [ref=f978e1]:
+                  - generic [ref=f989e1]:
+                    - generic [ref=f989e2]:
+                      - generic:
+                        - generic [ref=f989e3] [cursor=pointer]
+                        - button [ref=f989e8] [cursor=pointer]
+                    - insertion [ref=f989e16]:
+                      - iframe [ref=f989e17]:
+                        - link [ref=f1004e4] [cursor=pointer]:
+                          - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstVvcUe9q1cDuExMJETMs88zBnqcaMKac6Bt8UkP51_y8yyNu2VCE3hu7ZWjwfeAPMSNwW9UHJZVYyrntNo2KJq246jTErOR4oeNlz0nBCryfvcTeLqJltcwAbZfm3uGDqZkGpaxxXUx2bjjQEpjUfhe-hbtp0VASVGLTMRg2V1s9XMG2t0LmBb0gY9dYijcVW4LNH90xawizAAQZUw64V5WBrvxXkCNhieRScoFX3phsbu-H-ajKX0_aMxImoZ9hr-yTYVvH7LITfUXp4O-Zki-vllnvK7or1PBnGzFdlUpdl78hnedfsNd8qrPf6TV7E4LXErQ_8PFpUtquxKnImAhfwq4vxEMmb35gdYeafEnDSDDxr-n-YHfoPAG_VhVDeYnKbivV43L5-Jzt3LaY1vqE2gx1URR0DV5utmZ6Q4kQS-UcIok0lfdajRlsCVAPFkwnB2hmejLrzb6IN87U0ErK4z5BwqdLpJuphUB5OXyUqq7hQyySLBiAPyrh82eclzw-vZBoauhbdHGd_0Zy2_qYfK1kIDkuRp3roW_fJtOXfXnudTmsupPe1UJihvxblrnGZcRfTxFYFErl2MMvT-WoG-OuIHKjszNmm_GJZmVBrupPi_jkZj-5NJ0oPBbDydlo74kEnLJ4I_FeJCQLgGUeKgZyvABcEDDE4XRQkOrIUoBRglDt5PZXbBCfOezQH5OoBHHFPacaMs0D81doF51H5pwoF7NkWdP_LeA7bCAAPq_chVgizog21RVqJqOrY2ARXEfdotCh1zFUfARx6gHHUlS3mPV8l0R3nr_XNI-EhSArF5LbAJWAgNOfYp7heWzlDr_cH81bFnRddQRHgJl462-UKc0koZb2YvkE1ySjCSZAsZl2jYjWzONLx77nXmfQ&sai=AMfl-YTiykw_TR7zXFgcATRZDIX0lxjPwu2t4UeRt4biwdJSiTQT0Ngm29spUnTVpeJHStyL61HoqSBsySer8nKtfq0mSip7wdktd1P-cpSlUN4P-14OA2ysBQD_orwd6b4f43fxhtODHu7zqtm4z-WBuJ3yygE8Rqvn8paOpHu3T6EHWvn16jWSLGTyflL5mOpf--76bQ2T_NFj0P6V5TRh3PPA9-g0u9QRfURUtIqux0ytMNnIqqSqPNo3ha16N0U0u1NkXW8_ey1zuobRs9MjJmtERqpEtoxEv4WgCi872JVkGiQtp6yqdcmo3WzZMGtGJ3MeAkL55U-_FJk8oVoodAKKR4ou4xoKUjyA1ns&sig=Cg0ArKJSzH8J3Oldb59p&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://googleads.g.doubleclick.net/dbm/clk%3Fsa%3DL%26ai%3DCe8VfYD90arT1GIujid4P2siMsQqK6JqRiAG8hfaDqBXO7c378UUQASCJgvF0YOWa6YPgDqAB7uXe4gHIAQmpAgIPrMw_kUY-qAMByAObBKoE-wFP0JVkX0LiDbgMmICU2U7_0_WbXy2yTx3OgpS-6fUO5S6O8dn-N_ACuIyi93PuU7pStdAjjbY5NEa1MlBpeFBZZMcCij_NUSqhuxc0UIMVT2_SaS6XyCyYJBE0LhDzAO73cMLPz-o2wFjo9Eb_qdNp106gUHEku_FACgowRYP31AUUnhB52XP1PlV3GH-stQDCj9fJUpQnSC6LpMOfERkjn4yWK3XQEYEwMpyGh21YT6veYL0RQ6bJSl62p6XgaNdXWXXeu8cHfI-7WI7jbevDl_QAWU14ZC9CPQcuWHo13ikIILRN3TB-IUkkfS3hIDdS43ASw1kjh7bYy8AEjb_Or4cF4AQDiAXSnqv8UpAGAaAGTYAH-pmhnQKIBwGQBwKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQKoB-fXsQLYBwDSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOlje2LHgxIuWA2ABgAoBmAsByAsBgAwBogwMKgoKCI7fsQKV4rECqg0CSU7qDRMI9quz4MSLlgMVi1HCBR1aJCOm8A0BiA4JsBOGsook2BMN2BQB0BUByhYCCgD4FgGAFwGyFxAYAioKMjExMzcwMzc3OVAGqhgXCQAAAAAQUfRAEgoyMTEzNzAzNzc5GAGyGAkSAvpTGE0iAQDQGQE%26ae%3D1%26num%3D1%26cid%3DCAQS-gEAEQoqgYUMNTDsV8-NqCcT_Vde1WLxKlRZkyCssO1vGZhEEVEm-ObYfu9_ChtNqd37r-LFTioLdhLekesMKd9-3pgUp9JnTGHSArNVR7IT7s576OZiGM-r70d2TpLV7JsN1IFTaDlnwaszwSGmMBXR7bTrtESgSxOTbgW9WxlJm95QpdPyS-p_8UlXZbiwQCZVLFuYknLtMzQtctWAzW8BADaXXFGruyFGz3zRUlA1ocHGbm5drripyJo8qoYp9TV9NSHd3Qj8CGkD3T63wywpu5TKcVICrVnP35cRMxaMUghEhNqBAsWZU9Yb54ZhZ7usZj9LBpDMaXchGAE%26sig%3DAOD64_3qr1mZd-kn2AmVjkEdg-tQe4ru3g%26client%3Dca-pub-9713759261380411%26dbm_c%3DAKAmf-ClniojLtpyMb3xzK04HrPjQ6aCI-GKpTSpp5JU3ClphcNegAALw2mkqh9rtXJqDHUrGoj3K1VmqNmm7MDhDH0fZBAy8x6tNQwQVPNPgIlmD7YDvdNk13DpRN1U1JOxunXl0yU_J-AhhisHaC8NIYRuuZCXChZas3FVmHEQ-UHpY_h6ZfdrJRkEo4ZYJxal-k4AmwAEHP-Nl8rIw0U_aJHFhv-aNOAj0c7n5-9qUrE9HXsajOZiw2aix4S486tVEilVBO7RuuyVf5yHM3VG-68H_FrWr410D_lVepPcNITxE92QAXqQbTv1a7_o8RIjzgmmnjN5%26cry%3D1%26dbm_d%3DAKAmf-BNtyJVRrO2N7jA48oEsuClaTd2AjNXfSvc34J28vAwZcg31eI45zVICtmxfgwhTGKunXRx5PdhNtU1db5d_27SlQigdbGZZ0HLu8aSKKe09QBC_vTlMQNuDGV87kByKBWoBV0b-Ud8keG_w945cP2t8xsXOynU-KEKonEphhKj_ilGbiZUeFRxUTK94Fp_0JievbxNLqX9fmkq9-UlJ8rxCtf6Kc7dJH8nwZhZ71WaKz6sXVtoVPa2ng956kLibt1xLhfRKfOC36x3d6wbCGsjeOAcZMSoYpA_qZr_pwdpjTL5w3yJK3rbH-zdb1A4FSfM1kAGIuDJornwNW55SB5BF_GRpLk8SRUAloRghYDkEPIc_GNKDpX71i_E-Y2gEcE7xk2HSiUhxb8c5QUStmFP-LFmWrcT6JKUGayhYo4s2tDIAzPUElIg4r1lZkiHgRnEUHzNbY_67E-Am-A4hBmKVvFuJJbSJFzYoX7bUAgxDChWIiLhIvuVp5krQcHEShlJC5G7HRn863SnsjnTiUN-5hCkhYodZzjlVUtKIeJZnS_9iezgZU5lLvS2rc_3Grz6N5FjO8K7SnxfZJ3fAc-DZmYBvU0rdkdqJ-szgDBW4RzqZSAJ1Q6pa5jumgGykGZTiZhalRgOjwC81dIYdevn4TnVj2mYC9ZUOQxOpXEaOEmfNU10AYqyQbqwTHQ5Uvlo6g_io50WsjgIsVbnact5y7dQpA0cTCQF_n97_WSTGQHgDZVg9lfzlKfRlg4A45oLVNnky5RVVJ4CF67JHZalN20NUR7AMm5HkWmM9nRgWzNswk0%26adurl%3Dhttps://careers.unitedhealthgroup.com/search-jobs%253ForgIds%253D34088%2526ascf%253D%25255b%25257B%252522key%252522:%252522custom_fields%2525252ECountry1%252522,%252522value%252522:%252522India%252522%25257D,%25257B%252522key%252522:%252522custom_fields%2525252EGradeLevel%252522,%252522value%252522:%25252229%252522%25257D,%25257B%252522key%252522:%252522custom_fields%2525252EGradeLevel%252522,%252522value%252522:%25252230%252522%25257D,%25257B%252522key%252522:%252522custom_fields%2525252EGradeLevel%252522,%252522value%252522:%25252231%252522%25257D%25255d%2526src%253DUNS-19965%2526utm_source%253Dyoptima.com%2526utm_medium%253Ddisplay%2526utm_campaign%253DIndia%2526utm_content%253Dniche_site%2526utm_term%253D436954249%2526ss%253Dpaid%2526dclid%253D%2525edclid!%2526gad_source%253D7%2526gad_campaignid%253D23406084130
+                          - img "Advertisement" [ref=f1004e5]
+            - heading "ADP Graduate Program Overview 2026" [level=2] [ref=f974e80]
+            - paragraph [ref=f974e81]:
+              - strong [ref=f974e82]:
+                - link "Job" [ref=f974e83] [cursor=pointer]:
+                  - /url: "#"
+                - text: Title
+              - text: ": Associate Software Engineer"
+              - link "Recruitment & Staffing" [ref=f974e86] [cursor=pointer]
+            - paragraph [ref=f974e90]:
+              - strong [ref=f974e91]: "Job Location :"
+              - text: Chennai
+            - generic [ref=f974e94]:
+              - generic [ref=f974e95]:
+                - generic [ref=f974e96]: WhatsApp Channel
+                - link "Join Now" [ref=f974e98] [cursor=pointer]:
+                  - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+              - generic [ref=f974e99]:
+                - generic [ref=f974e100]: Telegram Channel
+                - link "Join Now" [ref=f974e102] [cursor=pointer]:
+                  - /url: https://telegram.me/campusdrivejobs
+            - paragraph [ref=f974e103]:
+              - strong [ref=f974e104]: "Salary :"
+              - text: Best In Industry
+            - paragraph [ref=f974e105]:
+              - strong [ref=f974e106]: "Experience :"
+              - text: Freshers
+            - insertion [ref=f974e108]:
+              - iframe [ref=f974e110]:
+                - generic [ref=f979e1]:
+                  - generic [ref=f979e2]:
+                    - generic:
+                      - generic [ref=f979e3] [cursor=pointer]
+                      - button [ref=f979e8] [cursor=pointer]
+                  - insertion [ref=f979e16]:
+                    - link [ref=f979e19] [cursor=pointer]:
+                      - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsvkAi60dH7X08j7c9XzjoouDMneF9jZ4rn0DzykqW-rMBWuwcV3--8Be_Hji2L9GYlXD0fd1cinVpyNeAh4Jpdw6SPomWu8NsobwFY-J0rKlJXPcYazS6yXz_QAae5kEaNn1BDELvZvu-n6hnyVpcn4T2MA4ZhzvjwOLt7LH7EOXJvhkw9H3srDvDm0_n4E5kEGqXZGKrtypDgMXdImd8f0RO6F82uCUcQSAsEjhsigRdga6dHZdgzlt3MezXIpvWrm-G12MbEaOWeMXKV1kpe5JMQj-__TOoIalzx2bcpb6am4yt-mD9OS8HsLnB61jbeMFvRBEBX2bN8MrH3bpvtHc1y2vyepaiEKHaiP9u3BOk4Wa2aqA0XDv_jREpg88-9oXCE_-IFNinkEqBIYG_DePBtnB0Pz697yZS2Di8yBPb5qQ9ZYkpkTZGRa_mtcXHX40ZaLekP3DAarfRSok47gzsxIvvS7RWlohnA7ci7JYmVqTl6l1iWHlyjD_Ys4vNG0JpkyZ9pPNXv4YUXf6CBXDgiWrf_d6ZJO8RvF949gMGN7A_vvlHV_0WJ8IGl43uAKwy_BTUkuevTbw9TuN8zVMsYnPV5YpySHIABy4zmyVNsSe5xMsvazLP1mx4LFhV1bUc0nFAiWbp8eMBsVkEFoqchmP16C9OHBRdLdydV1N_oX-E-MVwem27EN1y6ziBx6VMduTwvvXF2AegPWQ75806f9q1OBoN1gl4S5L1RGAlHsyjoY8zRa7iSykppXrNAiLpZRKfhFI765Yic8vg1dO5ft5GCK0pMNWmEa82ajjuC45cFch38xE8BCrHHQJHg9g4wB2bgSx0VnUbDCj5KFacdw4xX71V3saJbseDzV7RJMXxvIchuf6s3oQfReiJupiQ&sai=AMfl-YQQqRhwLKf1rg_sZq0bu7JrTpXtAG_uc4aIAXDhPD18p1lCttbbt7Lq-uDt-7fOCAqmYsoq2vI9vthBw4vKalmW4ty2xq2qCyjYHMBR6gda18LDDtULT0Z1LuVQ-00K_06s3dg-MV45U0akvZe9zgt5OpN7rjWbsgcB4WRDRzNGs1SvNhtWeUcnyZbM98_QcbC5BHqIgQ62zEU6BHLeWbhJrMIMnSSs75glMjU8WRIKgSc9noCD7FT_MjlFdsyVR8LGbXXGEtz4jPXiHft2DFXoaKKWSlrZHokCu8EIfoULhdy7WHnOEiZbCa1M3qoCN0gD1fC8QKha4fRysA7ZIBhNfsb71TTL433lVTA&sig=Cg0ArKJSzI1hOcvrBY2m&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://googleads.g.doubleclick.net/dbm/clk%3Fsa%3DL%26ai%3DCGolXYD90apuXG5OYid4PudCE-AOK6JqRiAGMhvaDqBXO7c378UUQASCJgvF0YOWa6YPgDqAB7uXe4gHIAQmpAgIPrMw_kUY-qAMByAObBKoE-gFP0LB_-NKFGdPJxWM9FYhsu-EI3ibBZ32VJli4Ppzw0pkXZabec3hyQREjzmmJ8hbBgBMO5HiER39dw6ET-qgBPMydgGwy1fO-VHvrVu6GVzaVI06NN1SPMIqBvNsPyGDDaPg6BWLIALWZGWJNx6SaITRGH9y_RtCsxTxbQD-aUARG2U-tkzyuX_riWdtB8SKYk8bpYnlXEHqSTvUqAQo5zi4GRTOW0GW0N2PWHTH7U9s64Fj4oRjU8_RK2idOp4pvrolctU2OWnsghQ-oPKTwP9YtdZK4cPWYD1pF9eJTEAlVxgONPOX4KKiLVv8a4spvFCqTH3dbLWd7wASNv86vhwXgBAOIBdKeq_xSkAYBoAZNgAf6maGdAogHAZAHAqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAqgH59exAtgHANIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WIvNs-DEi5YDYAGACgGYCwHICwGADAGiDAwqCgoIjt-xApXisQKqDQJJTuoNEwjPzbXgxIuWAxUTTMIFHTkoAT_wDQGIDgmwE4ayiiTYEw3YFAHQFQHKFgIKAPgWAYAXAbIXEBgCKgo4NzA0MTM0MjkzUAaqGBcJAAAAACBu8kASCjg3MDQxMzQyOTMYAbIYCRIC-lMYTSIBANAZAQ%26ae%3D1%26num%3D1%26cid%3DCAQS-gEAEQoqgfRCmKc1vIpup2jMnVbQLkGJW6yWCPOjR4ws3MstwqGhMI8pI1XkvNb8AEYLWdAPnYdjoPx_e01axzWW3f_h7V9lQiURJIBOqbOB_Xnl0pDGVrn33x7zyDzRjg12KJFdJGAjQGykTJ6iXXbWdQbQeOg-lQBE4PJP-ADrbyQVQqgV2em3qgxKPGHa3rkGKWDLpkGQOYWyq1-RkaQ8gvTUVpysGX5evwy6egFvJQ1qMyziE7PSYqVvUyBlkte7XRq0jn9L81MovzYQej52pC7Wr7Uh5gmPaueWHW11355WKPuDghAHUnnXYQWGweqyIQiFF7l-GMapGAE%26sig%3DAOD64_2S3yQoqB-IaOHppuUBmlCvw9H_fQ%26client%3Dca-pub-9713759261380411%26dbm_c%3DAKAmf-AxR74bikWpkxvV6ArAneStBZ0cY67MPx2G-B0TDd5lNW90JPyJp7FKTnPclzZ28zPuUjuFrO1raSS_0gLaE8lJDSFGUtY4L6pibsN_ugLmwKk4qaa4UjFRFFwC9Ffr2_OnCuerPFMUs6x5bw50CA75umLCHf8n5Q1LkvAMc-emkMqSq7jEjzeBbEV3hi8ESUC6AI3sGTXKlaVolbUeQL2cBb6Yc68j2HNVmfK3JUriaYOMBTe-xxkX0WrSkULLAiWSrGgXDUIDf2BCxc29PN7rk4w6ceWRavF8Xqb73Sl5LyDSh6CAJ5b9FDelK51F4XzRZW1x%26cry%3D1%26dbm_d%3DAKAmf-D2vUoInB9oL1mV5oYRfNwUqiM3c_YxYMuipNCiOnGS1SxDo_lpbhQpGA9ftpo4dJSN7j4TE6Itm1fKgccd1zMQdLIRoFOVeD-px8TKhk2z5scA0A1yv26hhYmnMphumQC5oQo4DR_PHOAzwjeuZ-9o6XIjRTdBXxG65I7nXXyEiwWZ0ha057l01lQK9HEmpCMda2bQxxoUV_oFe0Tl2EwIiDOPTHBd1LlGPnS5tawekB8HHvNulDrYo1619TRMhHpl0b_3zPnqQX6CFijOsn9QMar2aspr6QK4Vca0HMqYvkxaVv31TQddVO0Nyg9ZUa4QF8J_cIKArXNqHn0YAWaGwRpQOkrNob2YiRn-91-Qbtb2SIrT3YIBkrPI7kJbH8M5v7-27tuD4SRWlcbN2B9Ju0axVyBySHuQgZnGgpMJl1eXlGKc3LW3lB93mCbUiXmFOp_eR9CHKjPs3IJSULAJf7ZTqxhW_YjV6HcB8_1c21v6TGIx-wspCYnisXXn1DSRsbTEWMPFhYxARSkMfUz7quFfRSKAkv0iWqpe6I9YEEsGInDsKpygBSaIQZZM2Z5yaXPPDYEiMsOmG4GsniyH1UaSL2FBNDk3txpeon8YveKktldOzACz_ZUqfGKyhcL1WQlZDMd4kDeVjoHFBSmpQTI6geoDZpLoNCzUDguFCBf2-Go4R5STuyeUT0-I0JnGUpDMaAq6ZdE5rwjBounl668KhDofx9Y3fOkh216_WMIMV0UHMOiuTZsvyIqWhhWqOVIZRsdvuEAsZkg1FoL9HzN4ytpIh2PY9mkRBrKX3YBCFlw%26adurl%3Dhttps://careers.unitedhealthgroup.com/search-jobs%253ForgIds%253D34088%2526ascf%253D%25255b%25257B%252522key%252522:%252522custom_fields%2525252ECountry1%252522,%252522value%252522:%252522India%252522%25257D,%25257B%252522key%252522:%252522custom_fields%2525252EGradeLevel%252522,%252522value%252522:%25252229%252522%25257D,%25257B%252522key%252522:%252522custom_fields%2525252EGradeLevel%252522,%252522value%252522:%25252230%252522%25257D,%25257B%252522key%252522:%252522custom_fields%2525252EGradeLevel%252522,%252522value%252522:%25252231%252522%25257D%25255d%2526src%253DUNS-19965%2526utm_source%253Dyoptima.com%2526utm_medium%253Ddisplay%2526utm_campaign%253DIndia%2526utm_content%253Dniche_site%2526utm_term%253D437471295%2526ss%253Dpaid%2526dclid%253D%2525edclid!%2526gad_source%253D7%2526gad_campaignid%253D23406082744
+                      - img "Advertisement" [ref=f979e20]
+            - paragraph [ref=f974e111]:
+              - strong [ref=f974e112]: "Qualification :"
+              - text: BE/BTech/BSC/BCA/MCA/MS/MTech
+              - link "Engineering & Technology" [ref=f974e113] [cursor=pointer]
+            - paragraph [ref=f974e117]:
+              - strong [ref=f974e118]: "Batch :"
+              - text: 2026/2025/2024 or any
+            - heading "Job Description :" [level=3] [ref=f974e119]:
+              - text: "Job Description :"
+              - strong
+            - paragraph [ref=f974e120]: "In ADP, we’re building the next generation of technologies. Our mission is simple: Create powerful solutions that are efficient, intuitive, beautiful, and responsive. As an Associate Software Engineer, you’ll work in a SCRUM/Agile software development environment where all team members share responsibility of design, development, test planning, test execution and documentation of the product."
+            - insertion [ref=f974e122]
+            - paragraph [ref=f974e124]:
+              - strong [ref=f974e125]: "What you’ll do:"
+              - link "Computer Science" [ref=f974e126] [cursor=pointer]
+            - paragraph [ref=f974e130]:
+              - text:  Develop, certify and deploy the application/modules based on functional and system requirements.
+              - link "Science" [ref=f974e131] [cursor=pointer]
+            - paragraph [ref=f974e135]:  Work closely with Business Analysts, Architecture team and other stakeholders to understand functional – system requirements, architectural integrity, and product quality respectively.
+            - paragraph [ref=f974e136]:  Document consistently throughout the development.
+            - paragraph [ref=f974e137]:  Escalate any issues to the Lead Application Developer that will affect the delivery of the project
+            - paragraph [ref=f974e138]:  Contribute to ongoing team’s processes, procedures and best practices.
+            - insertion [ref=f974e140]
+            - paragraph [ref=f974e142]:
+              - strong [ref=f974e143]: "Qualifications you’ll need:"
+              - link "Enterprise Technology" [ref=f974e144] [cursor=pointer]
+            - paragraph [ref=f974e148]: "Education: Bachelor’s degree (or pursuing final year with no outstanding arrears) preferably in Computer Science or Information Technology"
+            - paragraph [ref=f974e149]:
+              - strong [ref=f974e150]: "Experience:"
+            - paragraph [ref=f974e151]:  Basic programming skills (Any programming language)
+            - paragraph [ref=f974e152]:  Strong core knowledge on Oops, data structures and algorithms
+            - paragraph [ref=f974e153]:  A very good logical reasoning skill and ability to solve complex problems using algorithms/ flow chart/ programs
+            - paragraph [ref=f974e154]:  A clear understanding of database, preferably RDBMS
+            - paragraph [ref=f974e155]:
+              - text:  Active contribution to the final year project with a clear understanding of the overall project
+              - link "Payroll Services" [ref=f974e156] [cursor=pointer]
+            - insertion [ref=f974e161]
+            - paragraph [ref=f974e163]:
+              - text:  Participation in hackathon, codify, debugging or any other similar events.
+              - link "Jobs" [ref=f974e164] [cursor=pointer]
+            - paragraph [ref=f974e168]:  Participation in college team events
+            - paragraph [ref=f974e169]:
+              - strong [ref=f974e170]: "Bonus points if you have these:"
+            - paragraph [ref=f974e171]:  Knowledge in AI/ML
+            - paragraph [ref=f974e172]:  Experience in organising events within college.
+            - paragraph [ref=f974e173]:  Git hub accounts managing source code.
+            - paragraph [ref=f974e174]:  Internship in a registered reputed software company
+            - heading [level=4] [ref=f974e175]:
+              - strong [ref=f974e176]: "How To Apply:"
+            - paragraph [ref=f974e177]:
+              - text: The interested and eligible graduates register for the same position on following ADP Graduate Program link.
+              - link "Engineering & Technology" [ref=f974e178] [cursor=pointer]
+            - insertion [ref=f974e183]
+            - paragraph [ref=f974e185]:
+              - strong [ref=f974e186]:
+                - text: "ADP Registration Link:"
+                - link "Click Here" [ref=f974e187] [cursor=pointer]:
+                  - /url: https://jobs.adp.com/en/jobs/6012895006042026/associate-software-engineer/?rb=LINKEDIN
+            - generic [ref=f974e188]:
+              - strong [ref=f974e189]: "Join Our Whatsapp Group:"
+              - link [ref=f974e190] [cursor=pointer]:
+                - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+                - strong [ref=f974e191]: Click Here
+              - link "Software" [ref=f974e192] [cursor=pointer]
+            - insertion [ref=f974e197]
+          - generic [ref=f974e199]:
+            - generic [ref=f974e200]: You May like
+            - generic [ref=f974e201]:
+              - link "# Java" [ref=f974e202] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/java/
+              - link "# Jobs in Chennai" [ref=f974e203] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-chennai/
+              - link "# QA" [ref=f974e204] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/qa/
+              - link "# SQL" [ref=f974e205] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/sql/
+              - link "# Testing" [ref=f974e206] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/testing/
+          - generic [ref=f974e208]:
+            - link "Facebook" [ref=f974e209] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjobsnet.in%2Fadp-off-campus-drive-2026-freshers-as-associate-software-engineer%2F
+            - link "X (Twitter)" [ref=f974e213] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fjobsnet.in%2Fadp-off-campus-drive-2026-freshers-as-associate-software-engineer%2F&text=ADP%20Off%20Campus%20Drive%202026%20%26%238211%3B%20Hiring%20Freshers%20As%20Associate%20Software%20Engineer
+            - link "Reddit" [ref=f974e217] [cursor=pointer]:
+              - /url: https://reddit.com/submit?url=https%3A%2F%2Fjobsnet.in%2Fadp-off-campus-drive-2026-freshers-as-associate-software-engineer%2F&title=ADP%20Off%20Campus%20Drive%202026%20%26%238211%3B%20Hiring%20Freshers%20As%20Associate%20Software%20Engineer
+            - link "Telegram" [ref=f974e221] [cursor=pointer]:
+              - /url: https://t.me/share/url?url=https%3A%2F%2Fjobsnet.in%2Fadp-off-campus-drive-2026-freshers-as-associate-software-engineer%2F&text=ADP%20Off%20Campus%20Drive%202026%20%26%238211%3B%20Hiring%20Freshers%20As%20Associate%20Software%20Engineer
+            - link "WhatsApp" [ref=f974e225] [cursor=pointer]:
+              - /url: whatsapp://send?text=https%3A%2F%2Fjobsnet.in%2Fadp-off-campus-drive-2026-freshers-as-associate-software-engineer%2F
+          - generic [ref=f974e229]:
+            - link [ref=f974e230] [cursor=pointer]:
+              - /url: https://jobsnet.in/author/anand/
+              - img "Anand Kumar" [ref=f974e231]
+            - generic [ref=f974e234]:
+              - heading "Anand Kumar" [level=5] [ref=f974e235]
+              - paragraph [ref=f974e237]:
+                - text: Career Expert & Founder of JobsNet.in. Serving the student community since 2019, I specialize in providing verified job updates and placement material for computer science, IT, engineering and management graduates. With a mission to simplify the job hunt, I have helped thousands of candidates secure roles in top MNCs over the last 7 years.
+                - link "Programming" [ref=f974e238] [cursor=pointer]
+              - generic [ref=f974e243]:
+                - link "LinkedIn icon" [ref=f974e244] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/amar-kumar-sd
+                - link "Website icon" [ref=f974e247] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - 'link "Articles: 2394" [ref=f974e250] [cursor=pointer]':
+                - /url: https://jobsnet.in/author/anand/
+          - navigation [ref=f974e251]:
+            - link "Previous Post Ingram Micro Off Campus Drive 2026 | Graduate Engineer Trainee | Pan India" [ref=f974e252] [cursor=pointer]:
+              - /url: https://jobsnet.in/ingram-micro-off-campus-drive-graduate-engineer-trainee/
+              - figure [ref=f974e253]:
+                - img "Ingram Micro Off Campus Drive 2024 Hiring Software Engineer (0-2 Years)" [ref=f974e254]
+              - generic [ref=f974e257]:
+                - generic [ref=f974e258]: Previous Post
+                - generic [ref=f974e259]: Ingram Micro Off Campus Drive 2026 | Graduate Engineer Trainee | Pan India
+            - link "Next Post Orange Off Campus Drive 2026 - Hiring Software Engineer (0-2 Years)" [ref=f974e260] [cursor=pointer]:
+              - /url: https://jobsnet.in/orange-off-campus-drive-hiring-software-engineer/
+              - generic [ref=f974e261]:
+                - generic [ref=f974e262]: Next Post
+                - generic [ref=f974e263]: Orange Off Campus Drive 2026 - Hiring Software Engineer (0-2 Years)
+              - figure [ref=f974e264]:
+                - img "Orange india off campus drive 2020" [ref=f974e265]
+          - generic [ref=f974e268]:
+            - heading "Related" [level=3] [ref=f974e269]
+            - generic [ref=f974e270]:
+              - article [ref=f974e271]:
+                - generic [ref=f974e272]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f974e273] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                  - paragraph [ref=f974e274]:
+                    - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f974e275] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+              - article [ref=f974e276]:
+                - generic [ref=f974e277]:
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f974e278] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                    - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f974e279]
+                  - paragraph [ref=f974e280]:
+                    - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f974e281] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+              - article [ref=f974e282]:
+                - generic [ref=f974e283]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f974e284] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                  - paragraph [ref=f974e285]:
+                    - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f974e286] [cursor=pointer]:
+                      - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+        - complementary [ref=f974e287]:
+          - generic [ref=f974e288]:
+            - heading "Search Jobs" [level=3] [ref=f974e291]
+            - textbox "search" [ref=f974e298]
+            - insertion [ref=f974e300]:
+              - iframe [ref=f974e302]:
+                - generic [ref=f980e2]:
+                  - iframe [ref=f980e5]:
+                    - generic [ref=f986e2] [cursor=pointer]:
+                      - img [ref=f986e4]:
+                        - generic "Try for free" [ref=f986e1110]
+                      - button [ref=f986e1151]
+                  - generic [ref=f980e6]:
+                    - generic:
+                      - generic [ref=f980e7] [cursor=pointer]
+                      - button [ref=f980e12] [cursor=pointer]
+            - generic [ref=f974e303]:
+              - heading "Latest Updates" [level=3] [ref=f974e304]
+              - list [ref=f974e306]:
+                - listitem [ref=f974e307]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f974e309] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                - listitem [ref=f974e310]:
+                  - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f974e312]
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f974e313] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                - listitem [ref=f974e314]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f974e316] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                - listitem [ref=f974e317]:
+                  - img "Accenture Mega Off Campus Drive For Freshers - Associate Software Engineer" [ref=f974e319]
+                  - link "Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)" [ref=f974e320] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-entry-level-custom-software-engineer-python/
+                - listitem [ref=f974e321]:
+                  - img "Cornerstone Off Campus Drive - Hiring Junior Engineer" [ref=f974e323]
+                  - link "Cornerstone Hiring Entry Level Junior Engineer – Cloud Ops" [ref=f974e324] [cursor=pointer]:
+                    - /url: https://jobsnet.in/cornerstone-hiring-entry-level-junior-engineer-cloud-ops/
+                - listitem [ref=f974e325]:
+                  - link "Calix Off Campus Drive 2026 – Hiring Graduate Trainee – Test & QA" [ref=f974e327] [cursor=pointer]:
+                    - /url: https://jobsnet.in/calix-off-campus-drive-hiring-graduate-trainee-test-qa/
+                - listitem [ref=f974e328]:
+                  - link "HDFC Life Off Campus Drive 2026 – Graduate Trainee – Data Science & Analytics" [ref=f974e330] [cursor=pointer]:
+                    - /url: https://jobsnet.in/hdfc-life-off-campus-drive-graduate-trainee-data-science-analytics/
+                - listitem [ref=f974e331]:
+                  - img "Yash Technologies Hiring Freshers QA Trainee - Pune/Indore/Hyderabad" [ref=f974e333]
+                  - link "Yash Technologies Off Campus Drive 2026 – AI/ML Trainee" [ref=f974e334] [cursor=pointer]:
+                    - /url: https://jobsnet.in/yash-technologies-off-campus-drive-hiring-ai-ml-trainee/
+                - listitem [ref=f974e335]:
+                  - img "White Twilio logo and four-dot icon on a red background." [ref=f974e337]
+                  - link "Twilio Off Campus Drive 2026 – Associate Application Engineer- Remote" [ref=f974e338] [cursor=pointer]:
+                    - /url: https://jobsnet.in/twilio-off-campus-drive-associate-application-engineer-remote/
+                - listitem [ref=f974e339]:
+                  - img "Accenture Hiring Any Graduate Freshers As Network Associate" [ref=f974e341]
+                  - link "Accenture Hiring Application Support Engineer – Any Graduate (0-2 Years)" [ref=f974e342] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-application-support-engineer-any-graduate-0-2-years/
+            - insertion [ref=f974e345]
+    - contentinfo [ref=f974e347]:
+      - generic [ref=f974e349]:
+        - paragraph [ref=f974e352]: © 2026 Jobsnet.in
+        - navigation "footermenu" [ref=f974e354]:
+          - list [ref=f974e355]:
+            - listitem [ref=f974e356]:
+              - link "Home" [ref=f974e357] [cursor=pointer]:
+                - /url: https://jobsnet.in
+            - listitem [ref=f974e358]:
+              - link "About us" [ref=f974e359] [cursor=pointer]:
+                - /url: https://jobsnet.in/about-us/
+            - listitem [ref=f974e360]:
+              - link "Contact Us" [ref=f974e361] [cursor=pointer]:
+                - /url: https://jobsnet.in/contact/
+            - listitem [ref=f974e362]:
+              - link "Advertise With Us" [ref=f974e363] [cursor=pointer]:
+                - /url: https://jobsnet.in/advertise/
+            - listitem [ref=f974e364]:
+              - link "Terms" [ref=f974e365] [cursor=pointer]:
+                - /url: https://jobsnet.in/terms-and-conditions/
+            - listitem [ref=f974e366]:
+              - link "Privacy" [ref=f974e367] [cursor=pointer]:
+                - /url: https://jobsnet.in/privacy-policy/
+  - generic [ref=f974e368]:
+    - generic [ref=f974e369] [cursor=pointer]: CLOSE [X]
+    - insertion [ref=f974e371]:
+      - iframe [ref=f974e373]:
+        - generic [ref=f981e1]:
+          - generic [ref=f981e6]:
+            - link [ref=f981e7] [cursor=pointer]:
+              - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Ct7lWYD90asyVHcmAid4P6MKX8QnAsv-1iAGwqMi_qxa3qpnI4DIQASCJgvF0YOWa6YPgDqABx5XBvz7IAQmoAwHIA8sEqgSgAk_QtfEc1_DqeQY8ckxudwbPPYPjgE0ww8KFs3kISm8ClsBZ0CrOQBnRjvPXdePVID20KlViFzelzlFkj8S2FrRxpwK2cmFTMhA5mLvP1fhT2YL6hZdZQ2m4kyyBc8JwyZM81xtNmotFLN5T10k3Jla7P9HAPJOv2_ohJKVHPdCszDgZBdRPyW_3E_QYY5AoYeFK2RHfIe8v1hhSmoIGJS_k2o-EBw9t2rAaSqVlwtBQ68-UzB-dqwdjsMW5zm2WKOSwhiqWJ6hPt8apLOnfu-06fx7eXz3oFydtdvyLpKXztb7slfZQH5sQv-Z_vWAiEpKsSWva7jV5uyy_8Rr66jpkUEFHioOs51qXmWmFT8pZnkGKzyA4emygBm6BV0IAocAEvOjc4eUFiAXo787FWZAGAaAGLoAHx82RnxmIBwGQBwKoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOli--rXgxIuWA2ABsQmWvlhHEHNAUYAKAZgLAcgLAYAMAaIMXyoKCgiO37ECleKxAmIXChVjb20uZ29vZ2xlLk5vdGVib29rTE1qMAouY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMubGFicy5sYW5ndWFnZS50YWlsd2luZHgBiAEBkAEBqg0CSU7IDQHqDRMI6su34MSLlgMVSUDCBR1o4SWe8A0CiA4JsA6_sLuJGdgTDNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjI3Njg1MzA2NThQBroXAjgBqhgXCQAAAACNNz1BEgoyNzY4NTMwNjU4GAGyGAkSAoBPGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmStBSpmNQAJnB1fwYe4caJYMM8YweomhIpKytBons3QOo9RlV7L1paRoC8vUQAvD_BwE&num=1&cid=CAQS-gEAEQoqgeRkPJXnbiydptnlVOzDAP85yW0lHQrDhilTcYdI4VSGk5N7DTsNXgK2KNRqTryDpkFK8Rc2dLEPZs2Fzcsgh7E9aRTJTUrgi3ZybNwTBB0sE-OpxWdLOXcg2phS8X7kI1JRvjyeiU_9NJJcrciHMvHXzhUw6GnkT6Z68sE9eusotTY-8WC_vxtEHoCrNBSiQXS7_gBe8w8T6tg0Cltbo0YppRaVFOZl7L2k2yhGICt6dkwZwK1MDBfYXDnfQ1-G_hr6KFtPaVDUMzl1p3ap_NDOKOSTIFxDfcWB57E9RRDYQBpUL4tAa0xsEPxUf5vF84DNmdOKGAE&sig=AOD64_04K8TDe4c4ZF2VChC0Xp_4CdSOXg&client=ca-pub-9713759261380411&rf=1&nb=9&adurl=https://notebooklm.google/%3Fgad_source%3D5%26gad_campaignid%3D24036751336%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmStBSpmNQAJnB1fwYe4caJYMM8YweomhIpKytBons3QOo9RlV7L1paRoC8vUQAvD_BwE
+            - generic [ref=f981e10]:
+              - generic [ref=f981e13]:
+                - link "See your studies come to life" [ref=f981e17] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Ct7lWYD90asyVHcmAid4P6MKX8QnAsv-1iAGwqMi_qxa3qpnI4DIQASCJgvF0YOWa6YPgDqABx5XBvz7IAQmoAwHIA8sEqgSgAk_QtfEc1_DqeQY8ckxudwbPPYPjgE0ww8KFs3kISm8ClsBZ0CrOQBnRjvPXdePVID20KlViFzelzlFkj8S2FrRxpwK2cmFTMhA5mLvP1fhT2YL6hZdZQ2m4kyyBc8JwyZM81xtNmotFLN5T10k3Jla7P9HAPJOv2_ohJKVHPdCszDgZBdRPyW_3E_QYY5AoYeFK2RHfIe8v1hhSmoIGJS_k2o-EBw9t2rAaSqVlwtBQ68-UzB-dqwdjsMW5zm2WKOSwhiqWJ6hPt8apLOnfu-06fx7eXz3oFydtdvyLpKXztb7slfZQH5sQv-Z_vWAiEpKsSWva7jV5uyy_8Rr66jpkUEFHioOs51qXmWmFT8pZnkGKzyA4emygBm6BV0IAocAEvOjc4eUFiAXo787FWZAGAaAGLoAHx82RnxmIBwGQBwKoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOli--rXgxIuWA2ABsQmWvlhHEHNAUYAKAZgLAcgLAYAMAaIMXyoKCgiO37ECleKxAmIXChVjb20uZ29vZ2xlLk5vdGVib29rTE1qMAouY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMubGFicy5sYW5ndWFnZS50YWlsd2luZHgBiAEBkAEBqg0CSU7IDQHqDRMI6su34MSLlgMVSUDCBR1o4SWe8A0CiA4JsA6_sLuJGdgTDNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjI3Njg1MzA2NThQBroXAjgBqhgXCQAAAACNNz1BEgoyNzY4NTMwNjU4GAGyGAkSAoBPGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmStBSpmNQAJnB1fwYe4caJYMM8YweomhIpKytBons3QOo9RlV7L1paRoC8vUQAvD_BwE&num=1&cid=CAQS-gEAEQoqgeRkPJXnbiydptnlVOzDAP85yW0lHQrDhilTcYdI4VSGk5N7DTsNXgK2KNRqTryDpkFK8Rc2dLEPZs2Fzcsgh7E9aRTJTUrgi3ZybNwTBB0sE-OpxWdLOXcg2phS8X7kI1JRvjyeiU_9NJJcrciHMvHXzhUw6GnkT6Z68sE9eusotTY-8WC_vxtEHoCrNBSiQXS7_gBe8w8T6tg0Cltbo0YppRaVFOZl7L2k2yhGICt6dkwZwK1MDBfYXDnfQ1-G_hr6KFtPaVDUMzl1p3ap_NDOKOSTIFxDfcWB57E9RRDYQBpUL4tAa0xsEPxUf5vF84DNmdOKGAE&sig=AOD64_04K8TDe4c4ZF2VChC0Xp_4CdSOXg&client=ca-pub-9713759261380411&rf=1&nb=0&adurl=https://notebooklm.google/%3Fgad_source%3D5%26gad_campaignid%3D24036751336%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmStBSpmNQAJnB1fwYe4caJYMM8YweomhIpKytBons3QOo9RlV7L1paRoC8vUQAvD_BwE
+                - link "Start this school year with personalized presentations of your notes, articles and PDFs." [ref=f981e21] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Ct7lWYD90asyVHcmAid4P6MKX8QnAsv-1iAGwqMi_qxa3qpnI4DIQASCJgvF0YOWa6YPgDqABx5XBvz7IAQmoAwHIA8sEqgSgAk_QtfEc1_DqeQY8ckxudwbPPYPjgE0ww8KFs3kISm8ClsBZ0CrOQBnRjvPXdePVID20KlViFzelzlFkj8S2FrRxpwK2cmFTMhA5mLvP1fhT2YL6hZdZQ2m4kyyBc8JwyZM81xtNmotFLN5T10k3Jla7P9HAPJOv2_ohJKVHPdCszDgZBdRPyW_3E_QYY5AoYeFK2RHfIe8v1hhSmoIGJS_k2o-EBw9t2rAaSqVlwtBQ68-UzB-dqwdjsMW5zm2WKOSwhiqWJ6hPt8apLOnfu-06fx7eXz3oFydtdvyLpKXztb7slfZQH5sQv-Z_vWAiEpKsSWva7jV5uyy_8Rr66jpkUEFHioOs51qXmWmFT8pZnkGKzyA4emygBm6BV0IAocAEvOjc4eUFiAXo787FWZAGAaAGLoAHx82RnxmIBwGQBwKoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOli--rXgxIuWA2ABsQmWvlhHEHNAUYAKAZgLAcgLAYAMAaIMXyoKCgiO37ECleKxAmIXChVjb20uZ29vZ2xlLk5vdGVib29rTE1qMAouY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMubGFicy5sYW5ndWFnZS50YWlsd2luZHgBiAEBkAEBqg0CSU7IDQHqDRMI6su34MSLlgMVSUDCBR1o4SWe8A0CiA4JsA6_sLuJGdgTDNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjI3Njg1MzA2NThQBroXAjgBqhgXCQAAAACNNz1BEgoyNzY4NTMwNjU4GAGyGAkSAoBPGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmStBSpmNQAJnB1fwYe4caJYMM8YweomhIpKytBons3QOo9RlV7L1paRoC8vUQAvD_BwE&num=1&cid=CAQS-gEAEQoqgeRkPJXnbiydptnlVOzDAP85yW0lHQrDhilTcYdI4VSGk5N7DTsNXgK2KNRqTryDpkFK8Rc2dLEPZs2Fzcsgh7E9aRTJTUrgi3ZybNwTBB0sE-OpxWdLOXcg2phS8X7kI1JRvjyeiU_9NJJcrciHMvHXzhUw6GnkT6Z68sE9eusotTY-8WC_vxtEHoCrNBSiQXS7_gBe8w8T6tg0Cltbo0YppRaVFOZl7L2k2yhGICt6dkwZwK1MDBfYXDnfQ1-G_hr6KFtPaVDUMzl1p3ap_NDOKOSTIFxDfcWB57E9RRDYQBpUL4tAa0xsEPxUf5vF84DNmdOKGAE&sig=AOD64_04K8TDe4c4ZF2VChC0Xp_4CdSOXg&client=ca-pub-9713759261380411&rf=1&nb=7&adurl=https://notebooklm.google/%3Fgad_source%3D5%26gad_campaignid%3D24036751336%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmStBSpmNQAJnB1fwYe4caJYMM8YweomhIpKytBons3QOo9RlV7L1paRoC8vUQAvD_BwE
+                  - text: Start this school year with personalized presentationsof your notes, articles and PDFs.
+              - generic [ref=f981e24]:
+                - link:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Ct7lWYD90asyVHcmAid4P6MKX8QnAsv-1iAGwqMi_qxa3qpnI4DIQASCJgvF0YOWa6YPgDqABx5XBvz7IAQmoAwHIA8sEqgSgAk_QtfEc1_DqeQY8ckxudwbPPYPjgE0ww8KFs3kISm8ClsBZ0CrOQBnRjvPXdePVID20KlViFzelzlFkj8S2FrRxpwK2cmFTMhA5mLvP1fhT2YL6hZdZQ2m4kyyBc8JwyZM81xtNmotFLN5T10k3Jla7P9HAPJOv2_ohJKVHPdCszDgZBdRPyW_3E_QYY5AoYeFK2RHfIe8v1hhSmoIGJS_k2o-EBw9t2rAaSqVlwtBQ68-UzB-dqwdjsMW5zm2WKOSwhiqWJ6hPt8apLOnfu-06fx7eXz3oFydtdvyLpKXztb7slfZQH5sQv-Z_vWAiEpKsSWva7jV5uyy_8Rr66jpkUEFHioOs51qXmWmFT8pZnkGKzyA4emygBm6BV0IAocAEvOjc4eUFiAXo787FWZAGAaAGLoAHx82RnxmIBwGQBwKoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOli--rXgxIuWA2ABsQmWvlhHEHNAUYAKAZgLAcgLAYAMAaIMXyoKCgiO37ECleKxAmIXChVjb20uZ29vZ2xlLk5vdGVib29rTE1qMAouY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMubGFicy5sYW5ndWFnZS50YWlsd2luZHgBiAEBkAEBqg0CSU7IDQHqDRMI6su34MSLlgMVSUDCBR1o4SWe8A0CiA4JsA6_sLuJGdgTDNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjI3Njg1MzA2NThQBroXAjgBqhgXCQAAAACNNz1BEgoyNzY4NTMwNjU4GAGyGAkSAoBPGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmStBSpmNQAJnB1fwYe4caJYMM8YweomhIpKytBons3QOo9RlV7L1paRoC8vUQAvD_BwE&num=1&cid=CAQS-gEAEQoqgeRkPJXnbiydptnlVOzDAP85yW0lHQrDhilTcYdI4VSGk5N7DTsNXgK2KNRqTryDpkFK8Rc2dLEPZs2Fzcsgh7E9aRTJTUrgi3ZybNwTBB0sE-OpxWdLOXcg2phS8X7kI1JRvjyeiU_9NJJcrciHMvHXzhUw6GnkT6Z68sE9eusotTY-8WC_vxtEHoCrNBSiQXS7_gBe8w8T6tg0Cltbo0YppRaVFOZl7L2k2yhGICt6dkwZwK1MDBfYXDnfQ1-G_hr6KFtPaVDUMzl1p3ap_NDOKOSTIFxDfcWB57E9RRDYQBpUL4tAa0xsEPxUf5vF84DNmdOKGAE&sig=AOD64_04K8TDe4c4ZF2VChC0Xp_4CdSOXg&client=ca-pub-9713759261380411&rf=1&nb=8&adurl=https://notebooklm.google/%3Fgad_source%3D5%26gad_campaignid%3D24036751336%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmStBSpmNQAJnB1fwYe4caJYMM8YweomhIpKytBons3QOo9RlV7L1paRoC8vUQAvD_BwE
+                - link "Gemini Notebook" [ref=f981e26] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Ct7lWYD90asyVHcmAid4P6MKX8QnAsv-1iAGwqMi_qxa3qpnI4DIQASCJgvF0YOWa6YPgDqABx5XBvz7IAQmoAwHIA8sEqgSgAk_QtfEc1_DqeQY8ckxudwbPPYPjgE0ww8KFs3kISm8ClsBZ0CrOQBnRjvPXdePVID20KlViFzelzlFkj8S2FrRxpwK2cmFTMhA5mLvP1fhT2YL6hZdZQ2m4kyyBc8JwyZM81xtNmotFLN5T10k3Jla7P9HAPJOv2_ohJKVHPdCszDgZBdRPyW_3E_QYY5AoYeFK2RHfIe8v1hhSmoIGJS_k2o-EBw9t2rAaSqVlwtBQ68-UzB-dqwdjsMW5zm2WKOSwhiqWJ6hPt8apLOnfu-06fx7eXz3oFydtdvyLpKXztb7slfZQH5sQv-Z_vWAiEpKsSWva7jV5uyy_8Rr66jpkUEFHioOs51qXmWmFT8pZnkGKzyA4emygBm6BV0IAocAEvOjc4eUFiAXo787FWZAGAaAGLoAHx82RnxmIBwGQBwKoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOli--rXgxIuWA2ABsQmWvlhHEHNAUYAKAZgLAcgLAYAMAaIMXyoKCgiO37ECleKxAmIXChVjb20uZ29vZ2xlLk5vdGVib29rTE1qMAouY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMubGFicy5sYW5ndWFnZS50YWlsd2luZHgBiAEBkAEBqg0CSU7IDQHqDRMI6su34MSLlgMVSUDCBR1o4SWe8A0CiA4JsA6_sLuJGdgTDNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjI3Njg1MzA2NThQBroXAjgBqhgXCQAAAACNNz1BEgoyNzY4NTMwNjU4GAGyGAkSAoBPGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmStBSpmNQAJnB1fwYe4caJYMM8YweomhIpKytBons3QOo9RlV7L1paRoC8vUQAvD_BwE&num=1&cid=CAQS-gEAEQoqgeRkPJXnbiydptnlVOzDAP85yW0lHQrDhilTcYdI4VSGk5N7DTsNXgK2KNRqTryDpkFK8Rc2dLEPZs2Fzcsgh7E9aRTJTUrgi3ZybNwTBB0sE-OpxWdLOXcg2phS8X7kI1JRvjyeiU_9NJJcrciHMvHXzhUw6GnkT6Z68sE9eusotTY-8WC_vxtEHoCrNBSiQXS7_gBe8w8T6tg0Cltbo0YppRaVFOZl7L2k2yhGICt6dkwZwK1MDBfYXDnfQ1-G_hr6KFtPaVDUMzl1p3ap_NDOKOSTIFxDfcWB57E9RRDYQBpUL4tAa0xsEPxUf5vF84DNmdOKGAE&sig=AOD64_04K8TDe4c4ZF2VChC0Xp_4CdSOXg&client=ca-pub-9713759261380411&rf=1&nb=1&adurl=https://notebooklm.google/%3Fgad_source%3D5%26gad_campaignid%3D24036751336%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmStBSpmNQAJnB1fwYe4caJYMM8YweomhIpKytBons3QOo9RlV7L1paRoC8vUQAvD_BwE
+                - link "Learn More" [ref=f981e28] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Ct7lWYD90asyVHcmAid4P6MKX8QnAsv-1iAGwqMi_qxa3qpnI4DIQASCJgvF0YOWa6YPgDqABx5XBvz7IAQmoAwHIA8sEqgSgAk_QtfEc1_DqeQY8ckxudwbPPYPjgE0ww8KFs3kISm8ClsBZ0CrOQBnRjvPXdePVID20KlViFzelzlFkj8S2FrRxpwK2cmFTMhA5mLvP1fhT2YL6hZdZQ2m4kyyBc8JwyZM81xtNmotFLN5T10k3Jla7P9HAPJOv2_ohJKVHPdCszDgZBdRPyW_3E_QYY5AoYeFK2RHfIe8v1hhSmoIGJS_k2o-EBw9t2rAaSqVlwtBQ68-UzB-dqwdjsMW5zm2WKOSwhiqWJ6hPt8apLOnfu-06fx7eXz3oFydtdvyLpKXztb7slfZQH5sQv-Z_vWAiEpKsSWva7jV5uyy_8Rr66jpkUEFHioOs51qXmWmFT8pZnkGKzyA4emygBm6BV0IAocAEvOjc4eUFiAXo787FWZAGAaAGLoAHx82RnxmIBwGQBwKoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOli--rXgxIuWA2ABsQmWvlhHEHNAUYAKAZgLAcgLAYAMAaIMXyoKCgiO37ECleKxAmIXChVjb20uZ29vZ2xlLk5vdGVib29rTE1qMAouY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMubGFicy5sYW5ndWFnZS50YWlsd2luZHgBiAEBkAEBqg0CSU7IDQHqDRMI6su34MSLlgMVSUDCBR1o4SWe8A0CiA4JsA6_sLuJGdgTDNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjI3Njg1MzA2NThQBroXAjgBqhgXCQAAAACNNz1BEgoyNzY4NTMwNjU4GAGyGAkSAoBPGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmStBSpmNQAJnB1fwYe4caJYMM8YweomhIpKytBons3QOo9RlV7L1paRoC8vUQAvD_BwE&num=1&cid=CAQS-gEAEQoqgeRkPJXnbiydptnlVOzDAP85yW0lHQrDhilTcYdI4VSGk5N7DTsNXgK2KNRqTryDpkFK8Rc2dLEPZs2Fzcsgh7E9aRTJTUrgi3ZybNwTBB0sE-OpxWdLOXcg2phS8X7kI1JRvjyeiU_9NJJcrciHMvHXzhUw6GnkT6Z68sE9eusotTY-8WC_vxtEHoCrNBSiQXS7_gBe8w8T6tg0Cltbo0YppRaVFOZl7L2k2yhGICt6dkwZwK1MDBfYXDnfQ1-G_hr6KFtPaVDUMzl1p3ap_NDOKOSTIFxDfcWB57E9RRDYQBpUL4tAa0xsEPxUf5vF84DNmdOKGAE&sig=AOD64_04K8TDe4c4ZF2VChC0Xp_4CdSOXg&client=ca-pub-9713759261380411&rf=1&nb=8&adurl=https://notebooklm.google/%3Fgad_source%3D5%26gad_campaignid%3D24036751336%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmStBSpmNQAJnB1fwYe4caJYMM8YweomhIpKytBons3QOo9RlV7L1paRoC8vUQAvD_BwE
+                - link [ref=f981e29] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Ct7lWYD90asyVHcmAid4P6MKX8QnAsv-1iAGwqMi_qxa3qpnI4DIQASCJgvF0YOWa6YPgDqABx5XBvz7IAQmoAwHIA8sEqgSgAk_QtfEc1_DqeQY8ckxudwbPPYPjgE0ww8KFs3kISm8ClsBZ0CrOQBnRjvPXdePVID20KlViFzelzlFkj8S2FrRxpwK2cmFTMhA5mLvP1fhT2YL6hZdZQ2m4kyyBc8JwyZM81xtNmotFLN5T10k3Jla7P9HAPJOv2_ohJKVHPdCszDgZBdRPyW_3E_QYY5AoYeFK2RHfIe8v1hhSmoIGJS_k2o-EBw9t2rAaSqVlwtBQ68-UzB-dqwdjsMW5zm2WKOSwhiqWJ6hPt8apLOnfu-06fx7eXz3oFydtdvyLpKXztb7slfZQH5sQv-Z_vWAiEpKsSWva7jV5uyy_8Rr66jpkUEFHioOs51qXmWmFT8pZnkGKzyA4emygBm6BV0IAocAEvOjc4eUFiAXo787FWZAGAaAGLoAHx82RnxmIBwGQBwKoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOli--rXgxIuWA2ABsQmWvlhHEHNAUYAKAZgLAcgLAYAMAaIMXyoKCgiO37ECleKxAmIXChVjb20uZ29vZ2xlLk5vdGVib29rTE1qMAouY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMubGFicy5sYW5ndWFnZS50YWlsd2luZHgBiAEBkAEBqg0CSU7IDQHqDRMI6su34MSLlgMVSUDCBR1o4SWe8A0CiA4JsA6_sLuJGdgTDNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjI3Njg1MzA2NThQBroXAjgBqhgXCQAAAACNNz1BEgoyNzY4NTMwNjU4GAGyGAkSAoBPGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmStBSpmNQAJnB1fwYe4caJYMM8YweomhIpKytBons3QOo9RlV7L1paRoC8vUQAvD_BwE&num=1&cid=CAQS-gEAEQoqgeRkPJXnbiydptnlVOzDAP85yW0lHQrDhilTcYdI4VSGk5N7DTsNXgK2KNRqTryDpkFK8Rc2dLEPZs2Fzcsgh7E9aRTJTUrgi3ZybNwTBB0sE-OpxWdLOXcg2phS8X7kI1JRvjyeiU_9NJJcrciHMvHXzhUw6GnkT6Z68sE9eusotTY-8WC_vxtEHoCrNBSiQXS7_gBe8w8T6tg0Cltbo0YppRaVFOZl7L2k2yhGICt6dkwZwK1MDBfYXDnfQ1-G_hr6KFtPaVDUMzl1p3ap_NDOKOSTIFxDfcWB57E9RRDYQBpUL4tAa0xsEPxUf5vF84DNmdOKGAE&sig=AOD64_04K8TDe4c4ZF2VChC0Xp_4CdSOXg&client=ca-pub-9713759261380411&rf=1&nb=8&adurl=https://notebooklm.google/%3Fgad_source%3D5%26gad_campaignid%3D24036751336%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmStBSpmNQAJnB1fwYe4caJYMM8YweomhIpKytBons3QOo9RlV7L1paRoC8vUQAvD_BwE
+          - generic [ref=f981e39] [cursor=pointer]
+          - button [ref=f981e44] [cursor=pointer]
+          - iframe
+  - link "Join WhatsApp" [ref=f974e375] [cursor=pointer]:
+    - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP

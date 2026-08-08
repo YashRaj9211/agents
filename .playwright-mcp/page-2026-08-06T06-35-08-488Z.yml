@@ -1,0 +1,48 @@
+- generic [ref=f6e3]:
+  - iframe [ref=f6e5]:
+    - banner [ref=f8e2]:
+      - generic [ref=f8e3]:
+        - generic [ref=f8e5]:
+          - heading [level=1]
+        - generic [ref=f8e6]:
+          - generic [ref=f8e8]:
+            - link "Gmail" [ref=f8e10] [cursor=pointer]:
+              - /url: https://mail.google.com/mail/u/0/?tab=rm&ogbl
+            - link "Search for Images" [ref=f8e12] [cursor=pointer]:
+              - /url: https://www.google.com/imghp?hl=en&tab=ri&ogbl
+              - text: Images
+          - generic [ref=f8e13]:
+            - button "Google apps" [ref=f8e17] [cursor=pointer]
+            - 'button "Google Account: Yash Raj Sitaram Prasad (prasadyashraj004@gmail.com)" [ref=f8e23] [cursor=pointer]'
+  - generic [ref=f6e12]:
+    - combobox "Search Google or type a URL" [ref=f6e13]
+    - generic:
+      - button "Search by voice" [ref=f6e15] [cursor=pointer]
+      - button "Search by image" [ref=f6e17] [cursor=pointer]
+    - button "AI Mode" [ref=f6e20] [cursor=pointer]
+  - generic [ref=f6e24]:
+    - generic "Sign in" [ref=f6e25] [cursor=pointer]:
+      - link "Sign in" [ref=f6e26]:
+        - /url: https://accounts.google.com/signin/chrome/sync?ssp=1&continue=https%3A%2F%2Fwww.google.com%2F&theme=mn
+      - button "More actions for Sign in shortcut" [ref=f6e27]
+    - generic "Google" [ref=f6e31] [cursor=pointer]:
+      - link "Google" [ref=f6e32]:
+        - /url: https://google.com/
+      - button "More actions for Google shortcut" [ref=f6e33]
+    - generic "Firecrawl" [ref=f6e37] [cursor=pointer]:
+      - link "Firecrawl" [ref=f6e38]:
+        - /url: https://firecrawl.dev/
+      - button "More actions for Firecrawl shortcut" [ref=f6e39]
+    - generic "https://docs.firecrawl.dev/llms.txt" [ref=f6e43] [cursor=pointer]:
+      - link "https://docs.firecrawl.dev/llms.txt" [ref=f6e44]:
+        - /url: https://docs.firecrawl.dev/llms.txt
+      - button "More actions for https://docs.firecrawl.dev/llms.txt shortcut" [ref=f6e45]
+    - generic "Web Store" [ref=f6e49] [cursor=pointer]:
+      - link "Web Store" [ref=f6e50]:
+        - /url: https://chrome.google.com/webstore?hl=en
+      - button "More actions for Web Store shortcut" [ref=f6e51]
+    - button "Add shortcut" [ref=f6e55] [cursor=pointer]
+    - generic:
+      - generic: Cancel
+      - generic: Done
+  - button "Customize Chrome" [ref=f6e63] [cursor=pointer]

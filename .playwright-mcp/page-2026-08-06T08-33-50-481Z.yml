@@ -1,0 +1,344 @@
+- generic [active] [ref=f2915e1]:
+  - link "Skip to content" [ref=f2915e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f2915e3]:
+    - banner [ref=f2915e4]:
+      - generic [ref=f2915e7]:
+        - link [ref=f2915e11] [cursor=pointer]:
+          - /url: https://jobsnet.in/
+          - img "Jobsnet.in" [ref=f2915e12]
+        - generic [ref=f2915e14]:
+          - navigation "Main Menu" [ref=f2915e15]:
+            - list [ref=f2915e16]:
+              - listitem [ref=f2915e17]:
+                - link "Home" [ref=f2915e18] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - listitem [ref=f2915e19]:
+                - link "Internships" [ref=f2915e20] [cursor=pointer]:
+                  - /url: https://jobsnet.in/internships/
+              - listitem [ref=f2915e21]:
+                - link "Off Campus Drives" [ref=f2915e22] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+              - listitem [ref=f2915e23]:
+                - link [ref=f2915e24] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+              - listitem [ref=f2915e28]:
+                - link [ref=f2915e29] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+          - button "Search" [ref=f2915e33] [cursor=pointer]
+    - main [ref=f2915e36]:
+      - insertion [ref=f2915e38]:
+        - iframe [ref=f2915e40]:
+          
+      - generic [ref=f2915e41]:
+        - article [ref=f2915e42]:
+          - generic [ref=f2915e44]:
+            - navigation [ref=f2915e45]:
+              - link "Home" [ref=f2915e47] [cursor=pointer]:
+                - /url: https://jobsnet.in/
+              - link "Off Campus Drive" [ref=f2915e51] [cursor=pointer]:
+                - /url: https://jobsnet.in/off-campus-drive/
+              - generic [ref=f2915e54]: Blue Yonder Off Campus Drive 2026 – Software Engineer – Apprentice
+            - heading "Blue Yonder Off Campus Drive 2026 – Software Engineer – Apprentice" [level=1] [ref=f2915e56]
+            - list [ref=f2915e57]:
+              - listitem [ref=f2915e58]:
+                - text: By
+                - link "Anand Kumar" [ref=f2915e59] [cursor=pointer]:
+                  - /url: https://jobsnet.in/author/anand/
+                - text: /
+              - listitem [ref=f2915e60]:
+                - text: "On"
+                - time [ref=f2915e61]: February 21, 2026
+          - figure [ref=f2915e62]
+          - generic [ref=f2915e64]:
+            - paragraph [ref=f2915e65]:
+              - text: Blue Yonder is hiring entry level as a position of Apprentice Software Engineer . BlueYonder is a multinational company , formerly known as JDA group provides AI-based application . Intrested eligible candidate apply before the link expires .
+              - link "Civil Engineering" [ref=f2915e66] [cursor=pointer]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - paragraph [ref=f2915e70]:
+              - strong [ref=f2915e71]: Blue Yonder Careers Fresher Recruitment 2026
+            - paragraph [ref=f2915e72]:
+              - strong [ref=f2915e73]: "Job Description :"
+            - generic [ref=f2915e76]:
+              - generic [ref=f2915e77]:
+                - generic [ref=f2915e78]: WhatsApp Channel
+                - link "Join Now" [ref=f2915e80] [cursor=pointer]:
+                  - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+              - generic [ref=f2915e81]:
+                - generic [ref=f2915e82]: Telegram Channel
+                - link "Join Now" [ref=f2915e84] [cursor=pointer]:
+                  - /url: https://telegram.me/campusdrivejobs
+            - paragraph [ref=f2915e85]:
+              - strong [ref=f2915e86]: Profile
+              - text: ": Associate Software Engineer"
+            - paragraph [ref=f2915e87]:
+              - strong [ref=f2915e88]: Location
+              - text: ": Bangalore, Hyderabad, Coimbatore, Pune"
+            - generic [ref=f2915e89]:
+              - insertion:
+                - generic:
+                  - iframe
+            - paragraph [ref=f2915e90]:
+              - strong [ref=f2915e91]: Eligibility
+              - text: ": BE/B.Tech"
+            - paragraph [ref=f2915e92]:
+              - strong [ref=f2915e93]: Batch
+              - text: ": 2024/2025"
+              - link "City & Local Guides" [ref=f2915e94] [cursor=pointer]
+            - paragraph [ref=f2915e98]:
+              - strong [ref=f2915e99]: Experience
+              - text: ": Freshers"
+            - paragraph [ref=f2915e100]:
+              - strong [ref=f2915e101]: Salary
+              - text: ": As per Industry Standard"
+            - paragraph [ref=f2915e102]:
+              - strong [ref=f2915e103]: Job Type
+              - text: ": Full Time"
+            - paragraph [ref=f2915e104]:
+              - strong [ref=f2915e105]: "Full Description :"
+            - paragraph [ref=f2915e106]:
+              - strong [ref=f2915e107]: "Overview:"
+            - heading "Eligibility Criteria:" [level=5] [ref=f2915e108]
+            - list [ref=f2915e109]:
+              - listitem [ref=f2915e110]: 2024 and 2025 Pass out of B.E/B.Tech students ONLY with 60% or 6 above CGPA
+              - listitem [ref=f2915e111]: Must have passed all subjects of graduation (Not just course completion certificate)
+              - listitem [ref=f2915e112]: Should have valid Graduation Provisional Certificate
+              - listitem [ref=f2915e113]: Should have valid Aadhaar Card
+              - listitem [ref=f2915e114]: Should not have applied or registered as an Apprenticeship with any other organization using Student Login of National Apprentice Training Scheme (NATS) portal
+              - listitem [ref=f2915e115]: Candidates who are pursuing or completed Apprenticeship with any other organization are not eligible
+              - listitem [ref=f2915e116]: Candidates who worked as an employee or working as an employee are not eligible
+              - listitem [ref=f2915e117]: Indian citizen ONLY
+            - heading "What you’ll do:" [level=5] [ref=f2915e118]
+            - list [ref=f2915e119]:
+              - listitem [ref=f2915e120]: Coding/Individual to gather and understand the functional reported issues/problems and drive towards solutions.
+              - listitem [ref=f2915e121]:
+                - text: Follow the
+                - link "software" [ref=f2915e122] [cursor=pointer]:
+                  - /url: "#"
+                - text: development lifecycle.
+              - listitem [ref=f2915e125]: Coordinate with all cross-functional teams to analyse all issues.
+              - listitem [ref=f2915e126]: Document unit test procedures and participate in the software development process to perform all tests on designs and ensure compliance with all Object-Oriented Programming activities.
+              - listitem [ref=f2915e127]: Diagnose all root causes to recommend required actions and assist in defining and classifying all issues and projects to avoid reoccurrence of issues and prepare automation responses if required.
+            - heading "Evaluation Process:" [level=5] [ref=f2915e128]
+            - list [ref=f2915e129]:
+              - listitem [ref=f2915e130]: Apply to the apprentice program (Use “Apply Now” button)
+              - listitem [ref=f2915e131]: Online Assessment through DoSelect Platform (Remote/Virtual)
+              - listitem [ref=f2915e132]:
+                - text: Face to Face interviews at Blue Yonder office
+                - list [ref=f2915e133]:
+                  - listitem [ref=f2915e134]: Bangalore
+                  - listitem [ref=f2915e135]: Hyderabad
+                  - listitem [ref=f2915e136]: Coimbatore
+                  - listitem [ref=f2915e137]: Pune
+            - paragraph [ref=f2915e138]:
+              - strong [ref=f2915e139]: How To Apply
+              - text: ": Click On the following apply link to apply for Blue Yonder Drive"
+              - link "City & Local Guides" [ref=f2915e140] [cursor=pointer]
+            - insertion [ref=f2915e145]
+            - paragraph [ref=f2915e147]:
+              - strong [ref=f2915e148]: "Apply Link :"
+              - link "Click Here to Apply for Blue Yonder off campus drive" [ref=f2915e149] [cursor=pointer]:
+                - /url: https://www.naukri.com/campus/apps/careers/customised/landingpage/blueyonder/2026/apprentice.html
+            - generic [ref=f2915e150]:
+              - strong [ref=f2915e151]: "Join Our Whatsapp Group:"
+              - link [ref=f2915e152] [cursor=pointer]:
+                - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+                - strong [ref=f2915e153]: Click Here
+            - insertion [ref=f2915e155]
+          - generic [ref=f2915e157]:
+            - generic [ref=f2915e158]: You May like
+            - generic [ref=f2915e159]:
+              - link "# AWS" [ref=f2915e160] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/aws/
+              - link "# Java" [ref=f2915e161] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/java/
+              - link "# Jobs in Bangalore" [ref=f2915e162] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-bangalore/
+              - link "# Jobs in Hyderabad" [ref=f2915e163] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-hyderabad/
+              - link "# Jobs in Pune" [ref=f2915e164] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-pune/
+              - link "# Linux" [ref=f2915e165] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/linux/
+              - link "# Python" [ref=f2915e166] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/python/
+              - link "# QA" [ref=f2915e167] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/qa/
+              - link "# Testing" [ref=f2915e168] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/testing/
+          - generic [ref=f2915e170]:
+            - link "Facebook" [ref=f2915e171] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjobsnet.in%2Fblue-yonder-off-campus-drive-software-engineer-apprentice%2F
+            - link "X (Twitter)" [ref=f2915e175] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fjobsnet.in%2Fblue-yonder-off-campus-drive-software-engineer-apprentice%2F&text=Blue%20Yonder%20Off%20Campus%20Drive%202026%20%26%238211%3B%20%20Software%20Engineer%20%26%238211%3B%20Apprentice
+            - link "Reddit" [ref=f2915e179] [cursor=pointer]:
+              - /url: https://reddit.com/submit?url=https%3A%2F%2Fjobsnet.in%2Fblue-yonder-off-campus-drive-software-engineer-apprentice%2F&title=Blue%20Yonder%20Off%20Campus%20Drive%202026%20%26%238211%3B%20%20Software%20Engineer%20%26%238211%3B%20Apprentice
+            - link "Telegram" [ref=f2915e183] [cursor=pointer]:
+              - /url: https://t.me/share/url?url=https%3A%2F%2Fjobsnet.in%2Fblue-yonder-off-campus-drive-software-engineer-apprentice%2F&text=Blue%20Yonder%20Off%20Campus%20Drive%202026%20%26%238211%3B%20%20Software%20Engineer%20%26%238211%3B%20Apprentice
+            - link "WhatsApp" [ref=f2915e187] [cursor=pointer]:
+              - /url: whatsapp://send?text=https%3A%2F%2Fjobsnet.in%2Fblue-yonder-off-campus-drive-software-engineer-apprentice%2F
+          - generic [ref=f2915e191]:
+            - link [ref=f2915e192] [cursor=pointer]:
+              - /url: https://jobsnet.in/author/anand/
+              - img "Anand Kumar" [ref=f2915e193]
+            - generic [ref=f2915e196]:
+              - heading "Anand Kumar" [level=5] [ref=f2915e197]
+              - paragraph [ref=f2915e199]:
+                - text: Career Expert & Founder of JobsNet.in. Serving the student community since 2019, I specialize in providing verified job updates and placement material for
+                - link "computer" [ref=f2915e200] [cursor=pointer]:
+                  - /url: "#"
+                - link "science" [ref=f2915e203] [cursor=pointer]:
+                  - /url: "#"
+                - text: ", IT, engineering and management graduates. With a mission to simplify the job hunt, I have helped thousands of candidates secure roles in top MNCs over the last 7 years."
+                - link "Computer Science" [ref=f2915e206] [cursor=pointer]
+              - generic [ref=f2915e211]:
+                - link "LinkedIn icon" [ref=f2915e212] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/amar-kumar-sd
+                - link "Website icon" [ref=f2915e215] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - 'link "Articles: 2394" [ref=f2915e218] [cursor=pointer]':
+                - /url: https://jobsnet.in/author/anand/
+          - navigation [ref=f2915e219]:
+            - 'link "Previous Post Ciena Off Campus Drive 2026: Full Stack Developer - New Grads" [ref=f2915e220] [cursor=pointer]':
+              - /url: https://jobsnet.in/ciena-off-campus-drive-full-stack-developer-new-grads/
+              - figure [ref=f2915e221]
+              - generic [ref=f2915e224]:
+                - generic [ref=f2915e225]: Previous Post
+                - generic [ref=f2915e226]: "Ciena Off Campus Drive 2026: Full Stack Developer - New Grads"
+            - link "Next Post Deloitte Off Campus Drive 2026 - Hiring DevOps Engineer - Freshers" [ref=f2915e227] [cursor=pointer]:
+              - /url: https://jobsnet.in/deloitte-off-campus-drive-hiring-devops-engineer-freshers/
+              - generic [ref=f2915e228]:
+                - generic [ref=f2915e229]: Next Post
+                - generic [ref=f2915e230]: Deloitte Off Campus Drive 2026 - Hiring DevOps Engineer - Freshers
+              - figure [ref=f2915e231]:
+                - img "deloitte careers hiring freshers" [ref=f2915e232]
+          - generic [ref=f2915e235]:
+            - heading "Related" [level=3] [ref=f2915e236]
+            - generic [ref=f2915e237]:
+              - article [ref=f2915e238]:
+                - generic [ref=f2915e239]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2915e240] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                  - paragraph [ref=f2915e241]:
+                    - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2915e242] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+              - article [ref=f2915e243]:
+                - generic [ref=f2915e244]:
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2915e245] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                    - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f2915e246]
+                  - paragraph [ref=f2915e247]:
+                    - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2915e248] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+              - article [ref=f2915e249]:
+                - generic [ref=f2915e250]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2915e251] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                  - paragraph [ref=f2915e252]:
+                    - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2915e253] [cursor=pointer]:
+                      - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+        - complementary [ref=f2915e254]:
+          - generic [ref=f2915e255]:
+            - heading "Search Jobs" [level=3] [ref=f2915e258]
+            - textbox "search" [ref=f2915e265]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - generic [ref=f2915e266]:
+              - heading "Latest Updates" [level=3] [ref=f2915e267]
+              - list [ref=f2915e269]:
+                - listitem [ref=f2915e270]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2915e272] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                - listitem [ref=f2915e273]:
+                  - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f2915e275]
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2915e276] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                - listitem [ref=f2915e277]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2915e279] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                - listitem [ref=f2915e280]:
+                  - img "Accenture Mega Off Campus Drive For Freshers - Associate Software Engineer" [ref=f2915e282]
+                  - link "Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)" [ref=f2915e283] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-entry-level-custom-software-engineer-python/
+                - listitem [ref=f2915e284]:
+                  - img "Cornerstone Off Campus Drive - Hiring Junior Engineer" [ref=f2915e286]
+                  - link "Cornerstone Hiring Entry Level Junior Engineer – Cloud Ops" [ref=f2915e287] [cursor=pointer]:
+                    - /url: https://jobsnet.in/cornerstone-hiring-entry-level-junior-engineer-cloud-ops/
+                - listitem [ref=f2915e288]:
+                  - link "Calix Off Campus Drive 2026 – Hiring Graduate Trainee – Test & QA" [ref=f2915e290] [cursor=pointer]:
+                    - /url: https://jobsnet.in/calix-off-campus-drive-hiring-graduate-trainee-test-qa/
+                - listitem [ref=f2915e291]:
+                  - link "HDFC Life Off Campus Drive 2026 – Graduate Trainee – Data Science & Analytics" [ref=f2915e293] [cursor=pointer]:
+                    - /url: https://jobsnet.in/hdfc-life-off-campus-drive-graduate-trainee-data-science-analytics/
+                - listitem [ref=f2915e294]:
+                  - img "Yash Technologies Hiring Freshers QA Trainee - Pune/Indore/Hyderabad" [ref=f2915e296]
+                  - link "Yash Technologies Off Campus Drive 2026 – AI/ML Trainee" [ref=f2915e297] [cursor=pointer]:
+                    - /url: https://jobsnet.in/yash-technologies-off-campus-drive-hiring-ai-ml-trainee/
+                - listitem [ref=f2915e298]:
+                  - img "White Twilio logo and four-dot icon on a red background." [ref=f2915e300]
+                  - link "Twilio Off Campus Drive 2026 – Associate Application Engineer- Remote" [ref=f2915e301] [cursor=pointer]:
+                    - /url: https://jobsnet.in/twilio-off-campus-drive-associate-application-engineer-remote/
+                - listitem [ref=f2915e302]:
+                  - img "Accenture Hiring Any Graduate Freshers As Network Associate" [ref=f2915e304]
+                  - link "Accenture Hiring Application Support Engineer – Any Graduate (0-2 Years)" [ref=f2915e305] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-application-support-engineer-any-graduate-0-2-years/
+            - generic [ref=f2915e307]:
+              - insertion:
+                - generic:
+                  - iframe
+    - insertion [ref=f2915e309]
+    - contentinfo [ref=f2915e311]:
+      - generic [ref=f2915e313]:
+        - paragraph [ref=f2915e316]: © 2026 Jobsnet.in
+        - navigation "footermenu" [ref=f2915e318]:
+          - list [ref=f2915e319]:
+            - listitem [ref=f2915e320]:
+              - link "Home" [ref=f2915e321] [cursor=pointer]:
+                - /url: https://jobsnet.in
+            - listitem [ref=f2915e322]:
+              - link "About us" [ref=f2915e323] [cursor=pointer]:
+                - /url: https://jobsnet.in/about-us/
+            - listitem [ref=f2915e324]:
+              - link "Contact Us" [ref=f2915e325] [cursor=pointer]:
+                - /url: https://jobsnet.in/contact/
+            - listitem [ref=f2915e326]:
+              - link "Advertise With Us" [ref=f2915e327] [cursor=pointer]:
+                - /url: https://jobsnet.in/advertise/
+            - listitem [ref=f2915e328]:
+              - link "Terms" [ref=f2915e329] [cursor=pointer]:
+                - /url: https://jobsnet.in/terms-and-conditions/
+            - listitem [ref=f2915e330]:
+              - link "Privacy" [ref=f2915e331] [cursor=pointer]:
+                - /url: https://jobsnet.in/privacy-policy/
+  - generic [ref=f2915e332]:
+    - generic [ref=f2915e333] [cursor=pointer]: CLOSE [X]
+    - insertion [ref=f2915e335]:
+      - iframe [ref=f2915e337]:
+        - generic [ref=f2922e1]:
+          - generic [ref=f2922e6]:
+            - generic [ref=f2922e8]:
+              - link [ref=f2922e11] [cursor=pointer]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=COlOq7UZ0auWrDNHbrtoPlK2VmAiYm4nniAGHoMLhiBa1nPW0xAEQASCJgvF0YOWa6YPgDqAByueo1APIAQmpAnvWVjYSk0Y-qAMByAPLBKoEzwJP0Ppd_ZyMUIkPD0pafjR_T95emTYvOub_5rHK3q7RmhzpnuO2WjbUsWLjSpFoZ22PJX_OHlsZNjYg4UTk6GePg8IopJq9nm2T-1HPRd7xUXD7njuGsypX956d-QJT0Fm-ovjpJBlnbfJV1QngguSDK-22_njN3CXecz91GcNbJD0Kv1CPWKeObn8QqeVhYHvt3s93g8tvn895cPZp83U67dDGIL3rkCV7ZGRJHEI5lyqpsAmHByG2uamC3cF-wsXpVq6BpG-ocXcogOLGzrL-xZbK1orazQYyirpuvMfbUwOaDeClS87kXC4o4DTuNHidhRv05X09EN8c_XuFm-5wzQ6svEhKBSnYD4ZuOxtzD6NReOYHcI1SJlT7aUJq-vQ02p5cuwQpT_BO1tNjievC7Yy0aovp3KlKJG6x0QIx0W_qkBgXIzF1ubHy8b9ka8AEmPCZj-4FiAXgho3hWfoFBgglEAEYAJAGAaAGLoAHnpjXK4gHAZAHAqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQLYBwDACAHSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOliCpYP6y4uWA2ABgAoBkAsDmAsByAsBgAwBogw0KgoKCI7fsQKV4rECSAFiAgoAahgKFmNvbS5hZDlnLnByb3JpZGVyYWNpbmd4AYgBAZABAaoNAklOyA0B6g0TCOXdg_rLi5YDFdGtSwUdlFYFg_ANAogOCdgTDNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjI3Njg1MzA2NThQBroXAjgBqhgXCQAAAABg8uxAEgoyNzY4NTMwNjU4GAGyGAkSArBTGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSn79eRkIM7L8epABAsMw2TWJ9VKnziNKdHiX-9YveoHIRIGPZmTG3hoCE_kQAvD_BwE&num=1&cid=CAQS-gEAEQoqgdN3GwFI-i15xtnHywemGxn2ptd-W7qCBBcLvCjffNv_ihzJuqGeQ9lDWzTA0SfRGpMWJHpWBB2AL2WRMFBK1g3WjY0-JRg4u7G35MXq3Nk6Z-1ODqAI-fFCV8p62pi55t_XezGdowbppW_UIQtPnLcr6zX1posJ8ELiPDP4vHVl_J9Z9gIPVU1igO5fiqyasL9P3AI7N0d6f4A3SPPUcO2Lx14aiDmsxuv-vy5d4FEtQkhumwDHBdVxtG7LX99q8Mxg01fFy6XI4njwHMNikfkVx_wOWu1R_NV3L7Jv-W_BFB-4CAEQVYn5KFEY7rdYKvJ044nYGAE&sig=AOD64_1Q1djJwTNdi_U7dLhrLWWJTCviBg&client=ca-pub-9713759261380411&nb=9&adurl=https://www.ad9g.com/op/htmlgames/category/15%3Fgad_source%3D5%26gad_campaignid%3D24094393184%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSn79eRkIM7L8epABAsMw2TWJ9VKnziNKdHiX-9YveoHIRIGPZmTG3hoCE_kQAvD_BwE%23mincraft-mincraft
+              - link [ref=f2922e16] [cursor=pointer]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Ci5ef7UZ0auWrDNHbrtoPlK2VmAiYm4nniAGHoMLhiBa1nPW0xAEQASCJgvF0YOWa6YPgDqAByueo1APIAQmpAnvWVjYSk0Y-qAMByAPLBKoEzwJP0Ppd_ZyMUIkPD0pafjR_T95emTYvOub_5rHK3q7RmhzpnuO2WjbUsWLjSpFoZ22PJX_OHlsZNjYg4UTk6GePg8IopJq9nm2T-1HPRd7xUXD7njuGsypX956d-QJT0Fm-ovjpJBlnbfJV1QngguSDK-22_njN3CXecz91GcNbJD0Kv1CPWKeObn8QqeVhYHvt3s93g8tvn895cPZp83U67dDGIL3rkCV7ZGRJHEI5lyqpsAmHByG2uamC3cF-wsXpVq6BpG-ocXcogOLGzrL-xZbK1orazQYyirpuvMfbUwOaDeClS87kXC4o4DTuNHidhRv05X09EN8c_XuFm-5wzQ6svEhKBSnYD4ZuOxtzD6NReOYHcI1SJlT7aUJq-vQ02p5cuwQpT_BO1tNjievC7Yy0aovp3KlKJG6x0QIx0W_qkBgXIzF1ubHy8b9ka8AEmPCZj-4FiAXgho3hWfoFBgglEAEYAZAGAaAGLoAHnpjXK4gHAZAHAqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQLYBwDACALSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOliCpYP6y4uWA2ABgAoBkAsDmAsByAsBgAwBogw0KgoKCI7fsQKV4rECSAFiAgoAahgKFmNvbS5hZDlnLnByb3JpZGVyYWNpbmd4AYgBAZABAaoNAklOyA0B6g0TCOXdg_rLi5YDFdGtSwUdlFYFg_ANAogOCdgTDNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjI3Njg1MzA2NThQBroXAjgBqhgXCQAAAABg8uxAEgoyNzY4NTMwNjU4GAGyGAkSArBTGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSqRMp_81-q6Z3MNP8Xjm0DWQGZ1mmqt5_owYhEb4YJ_iqMCXNQHykhoC0LUQAvD_BwE&num=1&cid=CAQS-gEAEQoqgdN3GwFI-i15xtnHywemGxn2ptd-W7qCBBcLvCjffNv_ihzJuqGeQ9lDWzTA0SfRGpMWJHpWBB2AL2WRMFBK1g3WjY0-JRg4u7G35MXq3Nk6Z-1ODqAI-fFCV8p62pi55t_XezGdowbppW_UIQtPnLcr6zX1posJ8ELiPDP4vHVl_J9Z9gIPVU1igO5fiqyasL9P3AI7N0d6f4A3SPPUcO2Lx14aiDmsxuv-vy5d4FEtQkhumwDHBdVxtG7LX99q8Mxg01fFy6XI4njwHMNikfkVx_wOWu1R_NV3L7Jv-W_BFB-4CAEQVYn5KFEY7rdYKvJ044nYGAE&sig=AOD64_0vEzMezfZSa5i7rcXGjW7_x18ogg&client=ca-pub-9713759261380411&nb=9&adurl=https://www.ad9g.com/op/htmlgames/category/5%3Fgad_source%3D5%26gad_campaignid%3D24094393184%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSqRMp_81-q6Z3MNP8Xjm0DWQGZ1mmqt5_owYhEb4YJ_iqMCXNQHykhoC0LUQAvD_BwE%23masha-and-bear-jigsaw-puzzle
+              - link [ref=f2922e21] [cursor=pointer]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cf5jq7UZ0auWrDNHbrtoPlK2VmAiYm4nniAGHoMLhiBa1nPW0xAEQASCJgvF0YOWa6YPgDqAByueo1APIAQmpAnvWVjYSk0Y-qAMByAPLBKoEzwJP0Ppd_ZyMUIkPD0pafjR_T95emTYvOub_5rHK3q7RmhzpnuO2WjbUsWLjSpFoZ22PJX_OHlsZNjYg4UTk6GePg8IopJq9nm2T-1HPRd7xUXD7njuGsypX956d-QJT0Fm-ovjpJBlnbfJV1QngguSDK-22_njN3CXecz91GcNbJD0Kv1CPWKeObn8QqeVhYHvt3s93g8tvn895cPZp83U67dDGIL3rkCV7ZGRJHEI5lyqpsAmHByG2uamC3cF-wsXpVq6BpG-ocXcogOLGzrL-xZbK1orazQYyirpuvMfbUwOaDeClS87kXC4o4DTuNHidhRv05X09EN8c_XuFm-5wzQ6svEhKBSnYD4ZuOxtzD6NReOYHcI1SJlT7aUJq-vQ02p5cuwQpT_BO1tNjievC7Yy0aovp3KlKJG6x0QIx0W_qkBgXIzF1ubHy8b9ka8AEmPCZj-4FiAXgho3hWfoFBgglEAEYApAGAaAGLoAHnpjXK4gHAZAHAqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQLYBwDACAPSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOliCpYP6y4uWA2ABgAoBkAsDmAsByAsBgAwBogw0KgoKCI7fsQKV4rECSAFiAgoAahgKFmNvbS5hZDlnLnByb3JpZGVyYWNpbmd4AYgBAZABAaoNAklOyA0B6g0TCOXdg_rLi5YDFdGtSwUdlFYFg_ANAogOCdgTDNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjI3Njg1MzA2NThQBroXAjgBqhgXCQAAAABg8uxAEgoyNzY4NTMwNjU4GAGyGAkSArBTGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSv_HJe-d5LTMJv8LW4mZhpGVGy6CX06SiiIpgmqnFriAUSZb-WW7QRoCzB8QAvD_BwE&num=1&cid=CAQS-gEAEQoqgdN3GwFI-i15xtnHywemGxn2ptd-W7qCBBcLvCjffNv_ihzJuqGeQ9lDWzTA0SfRGpMWJHpWBB2AL2WRMFBK1g3WjY0-JRg4u7G35MXq3Nk6Z-1ODqAI-fFCV8p62pi55t_XezGdowbppW_UIQtPnLcr6zX1posJ8ELiPDP4vHVl_J9Z9gIPVU1igO5fiqyasL9P3AI7N0d6f4A3SPPUcO2Lx14aiDmsxuv-vy5d4FEtQkhumwDHBdVxtG7LX99q8Mxg01fFy6XI4njwHMNikfkVx_wOWu1R_NV3L7Jv-W_BFB-4CAEQVYn5KFEY7rdYKvJ044nYGAE&sig=AOD64_1AKux3N6V8bpMOjsmAIK4gf-yqlg&client=ca-pub-9713759261380411&nb=9&adurl=https://www.ad9g.com/op/htmlgames/category/2%3Fgad_source%3D5%26gad_campaignid%3D24094393184%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSv_HJe-d5LTMJv8LW4mZhpGVGy6CX06SiiIpgmqnFriAUSZb-WW7QRoCzB8QAvD_BwE%23crazy-car-driving-city-3d
+              - link [ref=f2922e26] [cursor=pointer]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=COCtq7UZ0auWrDNHbrtoPlK2VmAiYm4nniAGHoMLhiBa1nPW0xAEQASCJgvF0YOWa6YPgDqAByueo1APIAQmpAnvWVjYSk0Y-qAMByAPLBKoEzwJP0Ppd_ZyMUIkPD0pafjR_T95emTYvOub_5rHK3q7RmhzpnuO2WjbUsWLjSpFoZ22PJX_OHlsZNjYg4UTk6GePg8IopJq9nm2T-1HPRd7xUXD7njuGsypX956d-QJT0Fm-ovjpJBlnbfJV1QngguSDK-22_njN3CXecz91GcNbJD0Kv1CPWKeObn8QqeVhYHvt3s93g8tvn895cPZp83U67dDGIL3rkCV7ZGRJHEI5lyqpsAmHByG2uamC3cF-wsXpVq6BpG-ocXcogOLGzrL-xZbK1orazQYyirpuvMfbUwOaDeClS87kXC4o4DTuNHidhRv05X09EN8c_XuFm-5wzQ6svEhKBSnYD4ZuOxtzD6NReOYHcI1SJlT7aUJq-vQ02p5cuwQpT_BO1tNjievC7Yy0aovp3KlKJG6x0QIx0W_qkBgXIzF1ubHy8b9ka8AEmPCZj-4FiAXgho3hWfoFBgglEAEYA5AGAaAGLoAHnpjXK4gHAZAHAqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQLYBwDACATSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOliCpYP6y4uWA2ABgAoBkAsDmAsByAsBgAwBogw0KgoKCI7fsQKV4rECSAFiAgoAahgKFmNvbS5hZDlnLnByb3JpZGVyYWNpbmd4AYgBAZABAaoNAklOyA0B6g0TCOXdg_rLi5YDFdGtSwUdlFYFg_ANAogOCdgTDNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjI3Njg1MzA2NThQBroXAjgBqhgXCQAAAABg8uxAEgoyNzY4NTMwNjU4GAGyGAkSArBTGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSsaiggGf3J_OM_qekCJmH3dPkQAiB4W6xq-D3mgSY24jMDsdXH8_sBoC6HgQAvD_BwE&num=1&cid=CAQS-gEAEQoqgdN3GwFI-i15xtnHywemGxn2ptd-W7qCBBcLvCjffNv_ihzJuqGeQ9lDWzTA0SfRGpMWJHpWBB2AL2WRMFBK1g3WjY0-JRg4u7G35MXq3Nk6Z-1ODqAI-fFCV8p62pi55t_XezGdowbppW_UIQtPnLcr6zX1posJ8ELiPDP4vHVl_J9Z9gIPVU1igO5fiqyasL9P3AI7N0d6f4A3SPPUcO2Lx14aiDmsxuv-vy5d4FEtQkhumwDHBdVxtG7LX99q8Mxg01fFy6XI4njwHMNikfkVx_wOWu1R_NV3L7Jv-W_BFB-4CAEQVYn5KFEY7rdYKvJ044nYGAE&sig=AOD64_2vbJX1_vntJVyphuNSHVx7wKS7og&client=ca-pub-9713759261380411&nb=9&adurl=https://www.ad9g.com/op/htmlgames/category/1%3Fgad_source%3D5%26gad_campaignid%3D24094393184%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSsaiggGf3J_OM_qekCJmH3dPkQAiB4W6xq-D3mgSY24jMDsdXH8_sBoC6HgQAvD_BwE%23granny-creepy-evil-scream-scary
+            - link "All Free Games.Play Now AD9G" [ref=f2922e30] [cursor=pointer]:
+              - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=COlOq7UZ0auWrDNHbrtoPlK2VmAiYm4nniAGHoMLhiBa1nPW0xAEQASCJgvF0YOWa6YPgDqAByueo1APIAQmpAnvWVjYSk0Y-qAMByAPLBKoEzwJP0Ppd_ZyMUIkPD0pafjR_T95emTYvOub_5rHK3q7RmhzpnuO2WjbUsWLjSpFoZ22PJX_OHlsZNjYg4UTk6GePg8IopJq9nm2T-1HPRd7xUXD7njuGsypX956d-QJT0Fm-ovjpJBlnbfJV1QngguSDK-22_njN3CXecz91GcNbJD0Kv1CPWKeObn8QqeVhYHvt3s93g8tvn895cPZp83U67dDGIL3rkCV7ZGRJHEI5lyqpsAmHByG2uamC3cF-wsXpVq6BpG-ocXcogOLGzrL-xZbK1orazQYyirpuvMfbUwOaDeClS87kXC4o4DTuNHidhRv05X09EN8c_XuFm-5wzQ6svEhKBSnYD4ZuOxtzD6NReOYHcI1SJlT7aUJq-vQ02p5cuwQpT_BO1tNjievC7Yy0aovp3KlKJG6x0QIx0W_qkBgXIzF1ubHy8b9ka8AEmPCZj-4FiAXgho3hWfoFBgglEAEYAJAGAaAGLoAHnpjXK4gHAZAHAqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQKoB-LYsQLYBwDACAHSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOliCpYP6y4uWA2ABgAoBkAsDmAsByAsBgAwBogw0KgoKCI7fsQKV4rECSAFiAgoAahgKFmNvbS5hZDlnLnByb3JpZGVyYWNpbmd4AYgBAZABAaoNAklOyA0B6g0TCOXdg_rLi5YDFdGtSwUdlFYFg_ANAogOCdgTDNAVAZgWAcoWAgoA-BYBgBcBshcQGAEqCjI3Njg1MzA2NThQBroXAjgBqhgXCQAAAABg8uxAEgoyNzY4NTMwNjU4GAGyGAkSArBTGC4iAQDQGAHoGAHCGQIIAQ&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSn79eRkIM7L8epABAsMw2TWJ9VKnziNKdHiX-9YveoHIRIGPZmTG3hoCE_kQAvD_BwE&num=1&cid=CAQS-gEAEQoqgdN3GwFI-i15xtnHywemGxn2ptd-W7qCBBcLvCjffNv_ihzJuqGeQ9lDWzTA0SfRGpMWJHpWBB2AL2WRMFBK1g3WjY0-JRg4u7G35MXq3Nk6Z-1ODqAI-fFCV8p62pi55t_XezGdowbppW_UIQtPnLcr6zX1posJ8ELiPDP4vHVl_J9Z9gIPVU1igO5fiqyasL9P3AI7N0d6f4A3SPPUcO2Lx14aiDmsxuv-vy5d4FEtQkhumwDHBdVxtG7LX99q8Mxg01fFy6XI4njwHMNikfkVx_wOWu1R_NV3L7Jv-W_BFB-4CAEQVYn5KFEY7rdYKvJ044nYGAE&sig=AOD64_1Q1djJwTNdi_U7dLhrLWWJTCviBg&client=ca-pub-9713759261380411&nb=19&adurl=https://www.ad9g.com/op/htmlgames/category/15%3Fgad_source%3D5%26gad_campaignid%3D24094393184%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSn79eRkIM7L8epABAsMw2TWJ9VKnziNKdHiX-9YveoHIRIGPZmTG3hoCE_kQAvD_BwE%23mincraft-mincraft
+              - generic [ref=f2922e34]:
+                - generic [ref=f2922e35]: All Free Games.Play Now
+                - generic [ref=f2922e36]: AD9G
+          - generic [ref=f2922e38] [cursor=pointer]
+          - button [ref=f2922e43] [cursor=pointer]
+          - iframe
+  - link "Join WhatsApp" [ref=f2915e339] [cursor=pointer]:
+    - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP

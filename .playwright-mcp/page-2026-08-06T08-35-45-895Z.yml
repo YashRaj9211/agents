@@ -1,0 +1,308 @@
+- generic [active] [ref=f3036e1]:
+  - link "Skip to content" [ref=f3036e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f3036e3]:
+    - banner [ref=f3036e4]:
+      - generic [ref=f3036e7]:
+        - link [ref=f3036e11] [cursor=pointer]:
+          - /url: https://jobsnet.in/
+          - img "Jobsnet.in" [ref=f3036e12]
+        - generic [ref=f3036e14]:
+          - navigation "Main Menu" [ref=f3036e15]:
+            - list [ref=f3036e16]:
+              - listitem [ref=f3036e17]:
+                - link "Home" [ref=f3036e18] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - listitem [ref=f3036e19]:
+                - link "Internships" [ref=f3036e20] [cursor=pointer]:
+                  - /url: https://jobsnet.in/internships/
+              - listitem [ref=f3036e21]:
+                - link "Off Campus Drives" [ref=f3036e22] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+              - listitem [ref=f3036e23]:
+                - link [ref=f3036e24] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+              - listitem [ref=f3036e28]:
+                - link [ref=f3036e29] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+          - button "Search" [ref=f3036e33] [cursor=pointer]
+    - main [ref=f3036e36]:
+      - insertion [ref=f3036e38]:
+        - iframe [ref=f3036e40]:
+          
+      - generic [ref=f3036e41]:
+        - article [ref=f3036e42]:
+          - generic [ref=f3036e44]:
+            - navigation [ref=f3036e45]:
+              - link "Home" [ref=f3036e47] [cursor=pointer]:
+                - /url: https://jobsnet.in/
+              - link "Off Campus Drive" [ref=f3036e51] [cursor=pointer]:
+                - /url: https://jobsnet.in/off-campus-drive/
+              - generic [ref=f3036e54]: Principal Global Off Campus Drive 2026 Software Engineer – Any Graduate
+            - heading "Principal Global Off Campus Drive 2026 Software Engineer – Any Graduate" [level=1] [ref=f3036e56]
+            - list [ref=f3036e57]:
+              - listitem [ref=f3036e58]:
+                - text: By
+                - link "Anand Kumar" [ref=f3036e59] [cursor=pointer]:
+                  - /url: https://jobsnet.in/author/anand/
+                - text: /
+              - listitem [ref=f3036e60]:
+                - text: "On"
+                - time [ref=f3036e61]: February 15, 2026
+          - figure [ref=f3036e62]:
+            - img "Principal global office Building" [ref=f3036e64]
+          - generic [ref=f3036e65]:
+            - paragraph [ref=f3036e66]:
+              - text: Principal Global hiring graduates as
+              - link "Software" [ref=f3036e67] [cursor=pointer]:
+                - /url: "#"
+              - link "Engineer" [ref=f3036e70] [cursor=pointer]:
+                - /url: "#"
+              - text: for the Pune, office location. The freshers or early career grads can apply for the position. The more about eligibility criteria in description.
+              - link "Software" [ref=f3036e73] [cursor=pointer]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - heading "Principal Global Hiring Overview 2026:" [level=2] [ref=f3036e77]
+            - paragraph [ref=f3036e78]:
+              - strong [ref=f3036e79]: Job Title
+              - text: ": Software Engineer"
+            - paragraph [ref=f3036e80]:
+              - strong [ref=f3036e81]: "Job Location:"
+              - text: Pune /Remote
+            - generic [ref=f3036e84]:
+              - generic [ref=f3036e85]:
+                - generic [ref=f3036e86]: WhatsApp Channel
+                - link "Join Now" [ref=f3036e88] [cursor=pointer]:
+                  - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+              - generic [ref=f3036e89]:
+                - generic [ref=f3036e90]: Telegram Channel
+                - link "Join Now" [ref=f3036e92] [cursor=pointer]:
+                  - /url: https://telegram.me/campusdrivejobs
+            - paragraph [ref=f3036e93]:
+              - strong [ref=f3036e94]: Experience
+              - text: ": Early Careers"
+            - paragraph [ref=f3036e95]:
+              - strong [ref=f3036e96]: Salary
+              - text: ": Best In Industry"
+            - generic [ref=f3036e97]:
+              - insertion:
+                - generic:
+                  - iframe
+            - paragraph [ref=f3036e98]:
+              - strong [ref=f3036e99]: Qualification
+              - text: ":"
+              - strong [ref=f3036e100]: "Education:"
+              - text: Graduate – Bachelor’s degree
+              - link "City & Local Guides" [ref=f3036e101] [cursor=pointer]
+            - heading "Job Summary :" [level=2] [ref=f3036e105]
+            - paragraph [ref=f3036e106]:
+              - strong [ref=f3036e107]: "Key Responsibilities:"
+            - list [ref=f3036e108]:
+              - listitem [ref=f3036e109]: Working knowledge on AWS project is must.
+              - listitem [ref=f3036e110]: Knowledge of Java – Spring boot , Advanced Java concepts , API knowledge
+              - listitem [ref=f3036e111]: good to have knwoledge on typescript.
+              - listitem [ref=f3036e112]: Good to have knowledge on various AWS services like S3,Lambda,SNS,SQS,EC2,IAM and KMS.
+              - listitem [ref=f3036e113]: Complete Analysis & documentation as required by the project
+              - listitem [ref=f3036e114]: Support application testing and resolve test defects
+              - listitem [ref=f3036e115]: Report status updates as required by the project
+              - listitem [ref=f3036e116]: Follow established project execution processes
+              - listitem [ref=f3036e117]: Get actively involved in Training, self-development & knowledge sharing
+            - paragraph [ref=f3036e118]:
+              - strong [ref=f3036e119]: Qualifications
+            - paragraph [ref=f3036e120]:
+              - strong [ref=f3036e121]: "Education:"
+              - text: Graduate – Bachelor’s degree (any stream)
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - heading [level=2] [ref=f3036e122]:
+              - strong [ref=f3036e123]: "How To Apply:"
+            - paragraph [ref=f3036e124]:
+              - text: The interested and eligible graduates register on the
+              - strong [ref=f3036e125]: following application link.
+            - generic [ref=f3036e126]:
+              - strong [ref=f3036e127]: "Join Our Whatsapp Group:"
+              - link [ref=f3036e128] [cursor=pointer]:
+                - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+                - strong [ref=f3036e129]: Click Here
+            - figure [ref=f3036e130]:
+              - table [ref=f3036e131]:
+                - rowgroup [ref=f3036e132]:
+                  - row [ref=f3036e133]:
+                    - cell "Principal Pune" [ref=f3036e134]
+                    - cell [ref=f3036e135]:
+                      - strong [ref=f3036e136]:
+                        - link "Apply Here" [ref=f3036e137] [cursor=pointer]:
+                          - /url: https://careers.principal.com/in/jobs/47341?lang=en-us&previousLocale=en-US
+            - insertion [ref=f3036e139]
+          - generic [ref=f3036e141]:
+            - generic [ref=f3036e142]: You May like
+            - generic [ref=f3036e143]:
+              - link "# Java" [ref=f3036e144] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/java/
+              - link "# Jobs in Hyderabad" [ref=f3036e145] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-hyderabad/
+              - link "# Jobs in Pune" [ref=f3036e146] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-pune/
+              - link "# QA" [ref=f3036e147] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/qa/
+              - link "# SQL" [ref=f3036e148] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/sql/
+              - link "# Testing" [ref=f3036e149] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/testing/
+          - generic [ref=f3036e151]:
+            - link "Facebook" [ref=f3036e152] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjobsnet.in%2Fprincipal-global-off-campus-drive-software-engineer%2F
+            - link "X (Twitter)" [ref=f3036e156] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fjobsnet.in%2Fprincipal-global-off-campus-drive-software-engineer%2F&text=Principal%20Global%20Off%20Campus%20Drive%202026%20Software%20Engineer%20%26%238211%3B%20Any%20Graduate
+            - link "Reddit" [ref=f3036e160] [cursor=pointer]:
+              - /url: https://reddit.com/submit?url=https%3A%2F%2Fjobsnet.in%2Fprincipal-global-off-campus-drive-software-engineer%2F&title=Principal%20Global%20Off%20Campus%20Drive%202026%20Software%20Engineer%20%26%238211%3B%20Any%20Graduate
+            - link "Telegram" [ref=f3036e164] [cursor=pointer]:
+              - /url: https://t.me/share/url?url=https%3A%2F%2Fjobsnet.in%2Fprincipal-global-off-campus-drive-software-engineer%2F&text=Principal%20Global%20Off%20Campus%20Drive%202026%20Software%20Engineer%20%26%238211%3B%20Any%20Graduate
+            - link "WhatsApp" [ref=f3036e168] [cursor=pointer]:
+              - /url: whatsapp://send?text=https%3A%2F%2Fjobsnet.in%2Fprincipal-global-off-campus-drive-software-engineer%2F
+          - generic [ref=f3036e172]:
+            - link [ref=f3036e173] [cursor=pointer]:
+              - /url: https://jobsnet.in/author/anand/
+              - img "Anand Kumar" [ref=f3036e174]
+            - generic [ref=f3036e177]:
+              - heading "Anand Kumar" [level=5] [ref=f3036e178]
+              - paragraph [ref=f3036e180]:
+                - text: Career Expert & Founder of JobsNet.in. Serving the student community since 2019, I specialize in providing verified job updates and placement material for
+                - link "computer science" [ref=f3036e181] [cursor=pointer]:
+                  - /url: "#"
+                - text: ", IT, engineering and management graduates. With a mission to simplify the job hunt, I have helped thousands of candidates secure roles in top MNCs over the last 7 years."
+                - link "Computer Science" [ref=f3036e184] [cursor=pointer]
+              - generic [ref=f3036e189]:
+                - link "LinkedIn icon" [ref=f3036e190] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/amar-kumar-sd
+                - link "Website icon" [ref=f3036e193] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - 'link "Articles: 2394" [ref=f3036e196] [cursor=pointer]':
+                - /url: https://jobsnet.in/author/anand/
+          - insertion [ref=f3036e198]
+          - navigation [ref=f3036e200]:
+            - link "Previous Post IDBI Intech Hiring IT Management Trainee - Freshers" [ref=f3036e201] [cursor=pointer]:
+              - /url: https://jobsnet.in/idbi-intech-hiring-it-management-trainee-freshers/
+              - figure [ref=f3036e202]
+              - generic [ref=f3036e205]:
+                - generic [ref=f3036e206]: Previous Post
+                - generic [ref=f3036e207]: IDBI Intech Hiring IT Management Trainee - Freshers
+            - link "Next Post StoneX Off Campus Drive 2026 - Hiring Junior Full Stack Developer (0-2 Years)" [ref=f3036e208] [cursor=pointer]:
+              - /url: https://jobsnet.in/stonex-off-campus-drive-hiring-junior-full-stack-developer-0-2-years/
+              - generic [ref=f3036e209]:
+                - generic [ref=f3036e210]: Next Post
+                - generic [ref=f3036e211]: StoneX Off Campus Drive 2026 - Hiring Junior Full Stack Developer (0-2 Years)
+              - figure [ref=f3036e212]
+          - generic [ref=f3036e215]:
+            - heading "Related" [level=3] [ref=f3036e216]
+            - generic [ref=f3036e217]:
+              - article [ref=f3036e218]:
+                - generic [ref=f3036e219]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f3036e220] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                  - paragraph [ref=f3036e221]:
+                    - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f3036e222] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+              - article [ref=f3036e223]:
+                - generic [ref=f3036e224]:
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f3036e225] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                    - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f3036e226]
+                  - paragraph [ref=f3036e227]:
+                    - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f3036e228] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+              - article [ref=f3036e229]:
+                - generic [ref=f3036e230]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f3036e231] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                  - paragraph [ref=f3036e232]:
+                    - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f3036e233] [cursor=pointer]:
+                      - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+        - complementary [ref=f3036e234]:
+          - generic [ref=f3036e235]:
+            - heading "Search Jobs" [level=3] [ref=f3036e238]
+            - textbox "search" [ref=f3036e245]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - generic [ref=f3036e246]:
+              - heading "Latest Updates" [level=3] [ref=f3036e247]
+              - list [ref=f3036e249]:
+                - listitem [ref=f3036e250]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f3036e252] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                - listitem [ref=f3036e253]:
+                  - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f3036e255]
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f3036e256] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                - listitem [ref=f3036e257]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f3036e259] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                - listitem [ref=f3036e260]:
+                  - img "Accenture Mega Off Campus Drive For Freshers - Associate Software Engineer" [ref=f3036e262]
+                  - link "Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)" [ref=f3036e263] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-entry-level-custom-software-engineer-python/
+                - listitem [ref=f3036e264]:
+                  - img "Cornerstone Off Campus Drive - Hiring Junior Engineer" [ref=f3036e266]
+                  - link "Cornerstone Hiring Entry Level Junior Engineer – Cloud Ops" [ref=f3036e267] [cursor=pointer]:
+                    - /url: https://jobsnet.in/cornerstone-hiring-entry-level-junior-engineer-cloud-ops/
+                - listitem [ref=f3036e268]:
+                  - link "Calix Off Campus Drive 2026 – Hiring Graduate Trainee – Test & QA" [ref=f3036e270] [cursor=pointer]:
+                    - /url: https://jobsnet.in/calix-off-campus-drive-hiring-graduate-trainee-test-qa/
+                - listitem [ref=f3036e271]:
+                  - link "HDFC Life Off Campus Drive 2026 – Graduate Trainee – Data Science & Analytics" [ref=f3036e273] [cursor=pointer]:
+                    - /url: https://jobsnet.in/hdfc-life-off-campus-drive-graduate-trainee-data-science-analytics/
+                - listitem [ref=f3036e274]:
+                  - img "Yash Technologies Hiring Freshers QA Trainee - Pune/Indore/Hyderabad" [ref=f3036e276]
+                  - link "Yash Technologies Off Campus Drive 2026 – AI/ML Trainee" [ref=f3036e277] [cursor=pointer]:
+                    - /url: https://jobsnet.in/yash-technologies-off-campus-drive-hiring-ai-ml-trainee/
+                - listitem [ref=f3036e278]:
+                  - img "White Twilio logo and four-dot icon on a red background." [ref=f3036e280]
+                  - link "Twilio Off Campus Drive 2026 – Associate Application Engineer- Remote" [ref=f3036e281] [cursor=pointer]:
+                    - /url: https://jobsnet.in/twilio-off-campus-drive-associate-application-engineer-remote/
+                - listitem [ref=f3036e282]:
+                  - img "Accenture Hiring Any Graduate Freshers As Network Associate" [ref=f3036e284]
+                  - link "Accenture Hiring Application Support Engineer – Any Graduate (0-2 Years)" [ref=f3036e285] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-application-support-engineer-any-graduate-0-2-years/
+            - generic [ref=f3036e287]:
+              - insertion:
+                - generic:
+                  - iframe
+    - insertion [ref=f3036e289]
+    - contentinfo [ref=f3036e291]:
+      - generic [ref=f3036e293]:
+        - paragraph [ref=f3036e296]: © 2026 Jobsnet.in
+        - navigation "footermenu" [ref=f3036e298]:
+          - list [ref=f3036e299]:
+            - listitem [ref=f3036e300]:
+              - link "Home" [ref=f3036e301] [cursor=pointer]:
+                - /url: https://jobsnet.in
+            - listitem [ref=f3036e302]:
+              - link "About us" [ref=f3036e303] [cursor=pointer]:
+                - /url: https://jobsnet.in/about-us/
+            - listitem [ref=f3036e304]:
+              - link "Contact Us" [ref=f3036e305] [cursor=pointer]:
+                - /url: https://jobsnet.in/contact/
+            - listitem [ref=f3036e306]:
+              - link "Advertise With Us" [ref=f3036e307] [cursor=pointer]:
+                - /url: https://jobsnet.in/advertise/
+            - listitem [ref=f3036e308]:
+              - link "Terms" [ref=f3036e309] [cursor=pointer]:
+                - /url: https://jobsnet.in/terms-and-conditions/
+            - listitem [ref=f3036e310]:
+              - link "Privacy" [ref=f3036e311] [cursor=pointer]:
+                - /url: https://jobsnet.in/privacy-policy/
+  - generic [ref=f3036e312]:
+    - generic [ref=f3036e313] [cursor=pointer]: CLOSE [X]
+    - insertion [ref=f3036e315]:
+      - iframe [ref=f3036e317]:
+        
+  - link "Join WhatsApp" [ref=f3036e319] [cursor=pointer]:
+    - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
