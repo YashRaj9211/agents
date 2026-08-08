@@ -1,0 +1,377 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e7]:
+        - link [ref=e11] [cursor=pointer]:
+          - /url: https://jobsnet.in/
+          - img "Jobsnet.in" [ref=e12]
+        - generic [ref=e14]:
+          - navigation "Main Menu" [ref=e15]:
+            - list [ref=e16]:
+              - listitem [ref=e17]:
+                - link "Home" [ref=e18] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - listitem [ref=e19]:
+                - link "Internships" [ref=e20] [cursor=pointer]:
+                  - /url: https://jobsnet.in/internships/
+              - listitem [ref=e21]:
+                - link "Off Campus Drives" [ref=e22] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+              - listitem [ref=e23]:
+                - link [ref=e24] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+              - listitem [ref=e28]:
+                - link [ref=e29] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+          - button "Search" [ref=e33] [cursor=pointer]
+    - main [ref=e36]:
+      - insertion [ref=e38]:
+        - iframe [ref=e40]:
+          - generic [ref=f5e1]:
+            - generic [ref=f5e6]:
+              - generic [ref=f5e7]:
+                - generic "MongoDB Atlas" [ref=f5e9]:
+                  - link "Start Building for Free" [ref=f5e10] [cursor=pointer]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C2h5GrDx0apq7FM6M4bMPxtyPmAKO087uiAGTvb3lwRXOmaiMg0cQASCJgvF0YOWa6YPgDqABzcbXoQPIAQGoAwHIA8sEqgSWAk_QLv1WuY0IV4W3LMoqBhxvgboyTqIUeYByNvlzOs0ti6ePRfrtibZoFRveVzMt1PM7F1XDClZA68IF5wqfWlUzXNXFEbT_FlhebNDA1gmfFd10ZeyXOx3YkTxDGSIoqvY4u6z8hpk8EsoHXOk-GoGeiUsTpzT9HeJuVxI1LjEkiol8-4P35EUZhnTLfTH9wtjt_-5LIBmmFGufhkjlBln-OTNj0_yyghU9w51MXZpfXK1RRa9EY7Z_mUAw3vgJ1o_3n3Mxsn5hVry8iG1YS5-n9FHwFSruEgn_dJRR3RXQJU2X6kohCsiGhnnZiXj6N-ojf_LR_-KO0Pvht2hem0RgTbV7tsHbtJQi1cgZJCTOvlK4hpvgwASxl6mwvwWIBaWE2dxVkAYBgAebuaheiAcBkAcCqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAef4bECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0gg3CAAQAhiaAzIIgICAgICAgAg6FJ_QgICAgASAwICAgKCogAKogYAQSL39wTpY-PmwlsKLlgNgAbEJm8plP-cI9yuACgGYCwHICwGiDAwqCgoIjt-xApXisQKqDQJJTsgNAeoNEwj1x7KWwouWAxVORngAHUbuAyPwDQKIDgnYEwzQFQHKFgIKAPgWAYAXAbIXEBgBKgozMjM1MjEzNzU5UAa6FwI4AaoYFwkAAAAACA8NQRIKMzIzNTIxMzc1ORgBshgJEgK4UBgBIgEA0BgB6BgBwhkCCAE&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSm66L2g74fyYPxVPCW5gJ6vc0dVcN7Cot9FJb2zclGLFQfC2Rr3elBoCULgQAvD_BwE&num=1&cid=CAQS-gEAEQoqgXkRQhbgDEGanmPyzt002JrUN73in9GloyG23s9K3JDTCSUCLRYM4QjIlN2EkKIen1eAcFSWf5qrmg8UTP-zUsR7YWz_IH4wHocOAgdjuUVzII3q0hleyh7NnSijXpcktHjffEZJQbuzmeRrlI3NRHSy8q6G2hdXlzlxTG71yXgOY_PdwCFUuk6vCc0-c12YkpbPMEkRpY84Xk-L8oopU9QaJxIHewGvFSIMjX__-OJbNUQ84YjFUCGI_fdGUvDXsni-4UF72v66orltDG7XJXJwWPcDM0IwkhYXSqUsYiIj7vtYJk1sMyhH8nKpV0D9vtRCFDgwGAE&sig=AOD64_1HLjJSJOlSRNG09tJV6ViQCNnqzw&client=ca-pub-9713759261380411&rf=1&nb=0&adurl=https://www.mongodb.com/lp/cloud/atlas/try3%3Futm_content%3Dgdn-simplify%26utm_source%3Dgdn%26utm_campaign%3Ddisplay_gd_pl_evergreen_atlas_general_prosp_mad_apac-in_dev_desktop_eng_lead%26utm_term%3Dprospecting%26utm_medium%3Ddisplay%26utm_ad%3D%26utm_ad_campaign_id%3D23011410469%26adgroup%3D188811463601%26cq_cmp%3D23011410469%26gad_source%3D5%26gad_campaignid%3D23011410469%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSm66L2g74fyYPxVPCW5gJ6vc0dVcN7Cot9FJb2zclGLFQfC2Rr3elBoCULgQAvD_BwE
+                - generic [ref=f5e11]:
+                  - link "Store all data types—vectors, text, audio—on a single, unified system." [ref=f5e13] [cursor=pointer]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C2h5GrDx0apq7FM6M4bMPxtyPmAKO087uiAGTvb3lwRXOmaiMg0cQASCJgvF0YOWa6YPgDqABzcbXoQPIAQGoAwHIA8sEqgSWAk_QLv1WuY0IV4W3LMoqBhxvgboyTqIUeYByNvlzOs0ti6ePRfrtibZoFRveVzMt1PM7F1XDClZA68IF5wqfWlUzXNXFEbT_FlhebNDA1gmfFd10ZeyXOx3YkTxDGSIoqvY4u6z8hpk8EsoHXOk-GoGeiUsTpzT9HeJuVxI1LjEkiol8-4P35EUZhnTLfTH9wtjt_-5LIBmmFGufhkjlBln-OTNj0_yyghU9w51MXZpfXK1RRa9EY7Z_mUAw3vgJ1o_3n3Mxsn5hVry8iG1YS5-n9FHwFSruEgn_dJRR3RXQJU2X6kohCsiGhnnZiXj6N-ojf_LR_-KO0Pvht2hem0RgTbV7tsHbtJQi1cgZJCTOvlK4hpvgwASxl6mwvwWIBaWE2dxVkAYBgAebuaheiAcBkAcCqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAef4bECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0gg3CAAQAhiaAzIIgICAgICAgAg6FJ_QgICAgASAwICAgKCogAKogYAQSL39wTpY-PmwlsKLlgNgAbEJm8plP-cI9yuACgGYCwHICwGiDAwqCgoIjt-xApXisQKqDQJJTsgNAeoNEwj1x7KWwouWAxVORngAHUbuAyPwDQKIDgnYEwzQFQHKFgIKAPgWAYAXAbIXEBgBKgozMjM1MjEzNzU5UAa6FwI4AaoYFwkAAAAACA8NQRIKMzIzNTIxMzc1ORgBshgJEgK4UBgBIgEA0BgB6BgBwhkCCAE&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSm66L2g74fyYPxVPCW5gJ6vc0dVcN7Cot9FJb2zclGLFQfC2Rr3elBoCULgQAvD_BwE&num=1&cid=CAQS-gEAEQoqgXkRQhbgDEGanmPyzt002JrUN73in9GloyG23s9K3JDTCSUCLRYM4QjIlN2EkKIen1eAcFSWf5qrmg8UTP-zUsR7YWz_IH4wHocOAgdjuUVzII3q0hleyh7NnSijXpcktHjffEZJQbuzmeRrlI3NRHSy8q6G2hdXlzlxTG71yXgOY_PdwCFUuk6vCc0-c12YkpbPMEkRpY84Xk-L8oopU9QaJxIHewGvFSIMjX__-OJbNUQ84YjFUCGI_fdGUvDXsni-4UF72v66orltDG7XJXJwWPcDM0IwkhYXSqUsYiIj7vtYJk1sMyhH8nKpV0D9vtRCFDgwGAE&sig=AOD64_1HLjJSJOlSRNG09tJV6ViQCNnqzw&client=ca-pub-9713759261380411&rf=1&nb=7&adurl=https://www.mongodb.com/lp/cloud/atlas/try3%3Futm_content%3Dgdn-simplify%26utm_source%3Dgdn%26utm_campaign%3Ddisplay_gd_pl_evergreen_atlas_general_prosp_mad_apac-in_dev_desktop_eng_lead%26utm_term%3Dprospecting%26utm_medium%3Ddisplay%26utm_ad%3D%26utm_ad_campaign_id%3D23011410469%26adgroup%3D188811463601%26cq_cmp%3D23011410469%26gad_source%3D5%26gad_campaignid%3D23011410469%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSm66L2g74fyYPxVPCW5gJ6vc0dVcN7Cot9FJb2zclGLFQfC2Rr3elBoCULgQAvD_BwE
+                  - link [ref=f5e14] [cursor=pointer]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C2h5GrDx0apq7FM6M4bMPxtyPmAKO087uiAGTvb3lwRXOmaiMg0cQASCJgvF0YOWa6YPgDqABzcbXoQPIAQGoAwHIA8sEqgSWAk_QLv1WuY0IV4W3LMoqBhxvgboyTqIUeYByNvlzOs0ti6ePRfrtibZoFRveVzMt1PM7F1XDClZA68IF5wqfWlUzXNXFEbT_FlhebNDA1gmfFd10ZeyXOx3YkTxDGSIoqvY4u6z8hpk8EsoHXOk-GoGeiUsTpzT9HeJuVxI1LjEkiol8-4P35EUZhnTLfTH9wtjt_-5LIBmmFGufhkjlBln-OTNj0_yyghU9w51MXZpfXK1RRa9EY7Z_mUAw3vgJ1o_3n3Mxsn5hVry8iG1YS5-n9FHwFSruEgn_dJRR3RXQJU2X6kohCsiGhnnZiXj6N-ojf_LR_-KO0Pvht2hem0RgTbV7tsHbtJQi1cgZJCTOvlK4hpvgwASxl6mwvwWIBaWE2dxVkAYBgAebuaheiAcBkAcCqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAef4bECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0gg3CAAQAhiaAzIIgICAgICAgAg6FJ_QgICAgASAwICAgKCogAKogYAQSL39wTpY-PmwlsKLlgNgAbEJm8plP-cI9yuACgGYCwHICwGiDAwqCgoIjt-xApXisQKqDQJJTsgNAeoNEwj1x7KWwouWAxVORngAHUbuAyPwDQKIDgnYEwzQFQHKFgIKAPgWAYAXAbIXEBgBKgozMjM1MjEzNzU5UAa6FwI4AaoYFwkAAAAACA8NQRIKMzIzNTIxMzc1ORgBshgJEgK4UBgBIgEA0BgB6BgBwhkCCAE&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSm66L2g74fyYPxVPCW5gJ6vc0dVcN7Cot9FJb2zclGLFQfC2Rr3elBoCULgQAvD_BwE&num=1&cid=CAQS-gEAEQoqgXkRQhbgDEGanmPyzt002JrUN73in9GloyG23s9K3JDTCSUCLRYM4QjIlN2EkKIen1eAcFSWf5qrmg8UTP-zUsR7YWz_IH4wHocOAgdjuUVzII3q0hleyh7NnSijXpcktHjffEZJQbuzmeRrlI3NRHSy8q6G2hdXlzlxTG71yXgOY_PdwCFUuk6vCc0-c12YkpbPMEkRpY84Xk-L8oopU9QaJxIHewGvFSIMjX__-OJbNUQ84YjFUCGI_fdGUvDXsni-4UF72v66orltDG7XJXJwWPcDM0IwkhYXSqUsYiIj7vtYJk1sMyhH8nKpV0D9vtRCFDgwGAE&sig=AOD64_1HLjJSJOlSRNG09tJV6ViQCNnqzw&client=ca-pub-9713759261380411&rf=1&nb=8&adurl=https://www.mongodb.com/lp/cloud/atlas/try3%3Futm_content%3Dgdn-simplify%26utm_source%3Dgdn%26utm_campaign%3Ddisplay_gd_pl_evergreen_atlas_general_prosp_mad_apac-in_dev_desktop_eng_lead%26utm_term%3Dprospecting%26utm_medium%3Ddisplay%26utm_ad%3D%26utm_ad_campaign_id%3D23011410469%26adgroup%3D188811463601%26cq_cmp%3D23011410469%26gad_source%3D5%26gad_campaignid%3D23011410469%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSm66L2g74fyYPxVPCW5gJ6vc0dVcN7Cot9FJb2zclGLFQfC2Rr3elBoCULgQAvD_BwE
+              - generic "MongoDB Atlas" [ref=f5e17]:
+                - link "MongoDB Atlas" [ref=f5e18] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C2h5GrDx0apq7FM6M4bMPxtyPmAKO087uiAGTvb3lwRXOmaiMg0cQASCJgvF0YOWa6YPgDqABzcbXoQPIAQGoAwHIA8sEqgSWAk_QLv1WuY0IV4W3LMoqBhxvgboyTqIUeYByNvlzOs0ti6ePRfrtibZoFRveVzMt1PM7F1XDClZA68IF5wqfWlUzXNXFEbT_FlhebNDA1gmfFd10ZeyXOx3YkTxDGSIoqvY4u6z8hpk8EsoHXOk-GoGeiUsTpzT9HeJuVxI1LjEkiol8-4P35EUZhnTLfTH9wtjt_-5LIBmmFGufhkjlBln-OTNj0_yyghU9w51MXZpfXK1RRa9EY7Z_mUAw3vgJ1o_3n3Mxsn5hVry8iG1YS5-n9FHwFSruEgn_dJRR3RXQJU2X6kohCsiGhnnZiXj6N-ojf_LR_-KO0Pvht2hem0RgTbV7tsHbtJQi1cgZJCTOvlK4hpvgwASxl6mwvwWIBaWE2dxVkAYBgAebuaheiAcBkAcCqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAef4bECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0gg3CAAQAhiaAzIIgICAgICAgAg6FJ_QgICAgASAwICAgKCogAKogYAQSL39wTpY-PmwlsKLlgNgAbEJm8plP-cI9yuACgGYCwHICwGiDAwqCgoIjt-xApXisQKqDQJJTsgNAeoNEwj1x7KWwouWAxVORngAHUbuAyPwDQKIDgnYEwzQFQHKFgIKAPgWAYAXAbIXEBgBKgozMjM1MjEzNzU5UAa6FwI4AaoYFwkAAAAACA8NQRIKMzIzNTIxMzc1ORgBshgJEgK4UBgBIgEA0BgB6BgBwhkCCAE&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSm66L2g74fyYPxVPCW5gJ6vc0dVcN7Cot9FJb2zclGLFQfC2Rr3elBoCULgQAvD_BwE&num=1&cid=CAQS-gEAEQoqgXkRQhbgDEGanmPyzt002JrUN73in9GloyG23s9K3JDTCSUCLRYM4QjIlN2EkKIen1eAcFSWf5qrmg8UTP-zUsR7YWz_IH4wHocOAgdjuUVzII3q0hleyh7NnSijXpcktHjffEZJQbuzmeRrlI3NRHSy8q6G2hdXlzlxTG71yXgOY_PdwCFUuk6vCc0-c12YkpbPMEkRpY84Xk-L8oopU9QaJxIHewGvFSIMjX__-OJbNUQ84YjFUCGI_fdGUvDXsni-4UF72v66orltDG7XJXJwWPcDM0IwkhYXSqUsYiIj7vtYJk1sMyhH8nKpV0D9vtRCFDgwGAE&sig=AOD64_1HLjJSJOlSRNG09tJV6ViQCNnqzw&client=ca-pub-9713759261380411&rf=1&nb=1&adurl=https://www.mongodb.com/lp/cloud/atlas/try3%3Futm_content%3Dgdn-simplify%26utm_source%3Dgdn%26utm_campaign%3Ddisplay_gd_pl_evergreen_atlas_general_prosp_mad_apac-in_dev_desktop_eng_lead%26utm_term%3Dprospecting%26utm_medium%3Ddisplay%26utm_ad%3D%26utm_ad_campaign_id%3D23011410469%26adgroup%3D188811463601%26cq_cmp%3D23011410469%26gad_source%3D5%26gad_campaignid%3D23011410469%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSm66L2g74fyYPxVPCW5gJ6vc0dVcN7Cot9FJb2zclGLFQfC2Rr3elBoCULgQAvD_BwE
+            - generic [ref=f5e19] [cursor=pointer]
+            - button [ref=f5e24] [cursor=pointer]
+            - iframe
+      - generic [ref=e41]:
+        - article [ref=e42]:
+          - generic [ref=e44]:
+            - navigation [ref=e45]:
+              - link "Home" [ref=e47] [cursor=pointer]:
+                - /url: https://jobsnet.in/
+              - link "Off Campus Drive" [ref=e51] [cursor=pointer]:
+                - /url: https://jobsnet.in/off-campus-drive/
+              - generic [ref=e54]: Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)
+            - heading "Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)" [level=1] [ref=e56]
+            - list [ref=e57]:
+              - listitem [ref=e58]:
+                - text: By
+                - link "Anand Kumar" [ref=e59] [cursor=pointer]:
+                  - /url: https://jobsnet.in/author/anand/
+                - text: /
+              - listitem [ref=e60]:
+                - text: "On"
+                - time [ref=e61]: August 5, 2026
+          - figure [ref=e62]:
+            - img "Accenture Mega Off Campus Drive For Freshers - Associate Software Engineer" [ref=e64]
+            - generic [ref=e65]:
+              - text: Accenture Mega Off Campus Drive For Freshers - Associate
+              - link "Software" [ref=e66] [cursor=pointer]:
+                - /url: "#"
+              - text: Engineer
+          - generic [ref=e69]:
+            - paragraph [ref=e70]:
+              - text: Accenture is currently seeking passionate Entry-Level Custom Software
+              - link "Engineers" [ref=e71] [cursor=pointer]:
+                - /url: "#"
+              - text: ", specializing in Python, to join our innovative team. This is an exceptional opportunity for individuals with 0-2 years of experience to build a foundational career with a global technology leader."
+              - link "Software" [ref=e74] [cursor=pointer]
+            - insertion [ref=e79]:
+              - iframe [ref=e81]:
+                - generic [ref=f6e1]:
+                  - generic [ref=f6e6]:
+                    - generic [ref=f6e7]:
+                      - generic "My Digital World" [ref=f6e9]:
+                        - 'link "Hiring Now: Send Your Resume" [ref=f6e10] [cursor=pointer]':
+                          - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CH2GwrDx0aoG6FMOkmtIP1KPyCaTv_7eIAaPNpOX6Fd2Mp72tAhABIImC8XRg5Zrpg-AOoAHkrOrSQ8gBAagDAcgDywSqBJQCT9BnT0hNzK5GA9a2YzKwLHUEN2_knzICG0yo8xx61w_5zU1LHNSnTCbHibj2X6RidEs7suOgiE4lrcM44TeBsJA7imiNcj3IDPhnFKu-KkblDrP8BVS_aWY8w0YS1IKAGj0AJJIDvX5tGum6iMxT8LlP2ocfyzr94sOWdMledLuKYsVNRp4WOvxONWQW-STX2HXwvlvIEysSovR-HttKJC4YYpEbkBv6bRxBv6tPLTmhGMI9Yf5zDK4w4_C_ZrMnP2fEGludANJQFeGV4n8ejLcocJlLbyejIGVOgNPNlMjVFy_n28CsHZ4t5GO1OZeUChVmLqO4UTTFNWBzLm5QIqtmiY3HRZ9-eaYvknYyB28LY7RKwATMu5Xz_gWIBe23j5ZZkAYBgAfk5LqyHogHAZAHAqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WODNsJbCi5YDYAGxCfp5Y2k90VV4gAoBmAsByAsBogwPKgoKCI7fsQKV4rECkAEBqg0CSU7IDQHqDRMIk8WylsKLlgMVQ5JGBB3UkTwB8A0CiA4J2BMM0BUBmBYByhYCCgD4FgGAFwGyFxAYASoKMjExMzcwMzc3OVAGuhcCOAGqGBcJAAAAABC4_UASCjIxMTM3MDM3NzkYAbIYCRICtF4YASIBANAYAcIZAggB&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSkrPNfsxu006ZhLUC58I3J3ypsHdxBRd4Np-IBHM5q-w671HOI4ZDhoCYC0QAvD_BwE&num=1&cid=CAQS-gEAEQoqgR1_zPtV8shCVPSJtNv-LpvZo2QDrEuhySV-YkJSYuyFmEz8LNPj_ys2EA7DeNTWRz5-Iss5sAfqClM7ltGWZ1CPRACXo2EPpTuPNQpctS2IkXolhdnbaFQcD6R8aiyRspwZXnUHW5UuivrmsooFd3NBqBrbibLFhi6KvhzqQuPtsEIp3D5e-6dK_7tM1KLRJKgq77zU7DvSsGl7rGN0XN2wLU9swp0_xZANsWglhhd4-mK6aMoNFNQJbO_0aLRs-xsN8tjFH0ICTkfLSu9ilAIVuLpYJAzo37Jmu2eK0gTBzEP3MViYTEhbfD9oYgBqhBX8xqDNGAE&sig=AOD64_3zkIZvLIErNYxUmdFQ6GkR1DJ4FA&client=ca-pub-9713759261380411&rf=1&nb=0&adurl=https://mydigitalword.com/cow-long-rec-railway-jobs/%3Futm_source%3Dadwords%26utm_medium%3Djobsnet.in%26utm_term%3Dcareer%26utm_content%3D205863083468%26utm_campaign%3D23937145837%26gad_source%3D5%26gad_campaignid%3D23937145837%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSkrPNfsxu006ZhLUC58I3J3ypsHdxBRd4Np-IBHM5q-w671HOI4ZDhoCYC0QAvD_BwE
+                          - text: "Hiring Now: Send YourResume"
+                      - generic [ref=f6e11]:
+                        - link "Hiring freshers and experienced candidates. Find the perfect job for your profile." [ref=f6e13] [cursor=pointer]:
+                          - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CH2GwrDx0aoG6FMOkmtIP1KPyCaTv_7eIAaPNpOX6Fd2Mp72tAhABIImC8XRg5Zrpg-AOoAHkrOrSQ8gBAagDAcgDywSqBJQCT9BnT0hNzK5GA9a2YzKwLHUEN2_knzICG0yo8xx61w_5zU1LHNSnTCbHibj2X6RidEs7suOgiE4lrcM44TeBsJA7imiNcj3IDPhnFKu-KkblDrP8BVS_aWY8w0YS1IKAGj0AJJIDvX5tGum6iMxT8LlP2ocfyzr94sOWdMledLuKYsVNRp4WOvxONWQW-STX2HXwvlvIEysSovR-HttKJC4YYpEbkBv6bRxBv6tPLTmhGMI9Yf5zDK4w4_C_ZrMnP2fEGludANJQFeGV4n8ejLcocJlLbyejIGVOgNPNlMjVFy_n28CsHZ4t5GO1OZeUChVmLqO4UTTFNWBzLm5QIqtmiY3HRZ9-eaYvknYyB28LY7RKwATMu5Xz_gWIBe23j5ZZkAYBgAfk5LqyHogHAZAHAqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WODNsJbCi5YDYAGxCfp5Y2k90VV4gAoBmAsByAsBogwPKgoKCI7fsQKV4rECkAEBqg0CSU7IDQHqDRMIk8WylsKLlgMVQ5JGBB3UkTwB8A0CiA4J2BMM0BUBmBYByhYCCgD4FgGAFwGyFxAYASoKMjExMzcwMzc3OVAGuhcCOAGqGBcJAAAAABC4_UASCjIxMTM3MDM3NzkYAbIYCRICtF4YASIBANAYAcIZAggB&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSkrPNfsxu006ZhLUC58I3J3ypsHdxBRd4Np-IBHM5q-w671HOI4ZDhoCYC0QAvD_BwE&num=1&cid=CAQS-gEAEQoqgR1_zPtV8shCVPSJtNv-LpvZo2QDrEuhySV-YkJSYuyFmEz8LNPj_ys2EA7DeNTWRz5-Iss5sAfqClM7ltGWZ1CPRACXo2EPpTuPNQpctS2IkXolhdnbaFQcD6R8aiyRspwZXnUHW5UuivrmsooFd3NBqBrbibLFhi6KvhzqQuPtsEIp3D5e-6dK_7tM1KLRJKgq77zU7DvSsGl7rGN0XN2wLU9swp0_xZANsWglhhd4-mK6aMoNFNQJbO_0aLRs-xsN8tjFH0ICTkfLSu9ilAIVuLpYJAzo37Jmu2eK0gTBzEP3MViYTEhbfD9oYgBqhBX8xqDNGAE&sig=AOD64_3zkIZvLIErNYxUmdFQ6GkR1DJ4FA&client=ca-pub-9713759261380411&rf=1&nb=7&adurl=https://mydigitalword.com/cow-long-rec-railway-jobs/%3Futm_source%3Dadwords%26utm_medium%3Djobsnet.in%26utm_term%3Dcareer%26utm_content%3D205863083468%26utm_campaign%3D23937145837%26gad_source%3D5%26gad_campaignid%3D23937145837%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSkrPNfsxu006ZhLUC58I3J3ypsHdxBRd4Np-IBHM5q-w671HOI4ZDhoCYC0QAvD_BwE
+                          - text: Hiring freshers and experienced candidates. Find the perfect job foryour profile.
+                        - link [ref=f6e14] [cursor=pointer]:
+                          - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CH2GwrDx0aoG6FMOkmtIP1KPyCaTv_7eIAaPNpOX6Fd2Mp72tAhABIImC8XRg5Zrpg-AOoAHkrOrSQ8gBAagDAcgDywSqBJQCT9BnT0hNzK5GA9a2YzKwLHUEN2_knzICG0yo8xx61w_5zU1LHNSnTCbHibj2X6RidEs7suOgiE4lrcM44TeBsJA7imiNcj3IDPhnFKu-KkblDrP8BVS_aWY8w0YS1IKAGj0AJJIDvX5tGum6iMxT8LlP2ocfyzr94sOWdMledLuKYsVNRp4WOvxONWQW-STX2HXwvlvIEysSovR-HttKJC4YYpEbkBv6bRxBv6tPLTmhGMI9Yf5zDK4w4_C_ZrMnP2fEGludANJQFeGV4n8ejLcocJlLbyejIGVOgNPNlMjVFy_n28CsHZ4t5GO1OZeUChVmLqO4UTTFNWBzLm5QIqtmiY3HRZ9-eaYvknYyB28LY7RKwATMu5Xz_gWIBe23j5ZZkAYBgAfk5LqyHogHAZAHAqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WODNsJbCi5YDYAGxCfp5Y2k90VV4gAoBmAsByAsBogwPKgoKCI7fsQKV4rECkAEBqg0CSU7IDQHqDRMIk8WylsKLlgMVQ5JGBB3UkTwB8A0CiA4J2BMM0BUBmBYByhYCCgD4FgGAFwGyFxAYASoKMjExMzcwMzc3OVAGuhcCOAGqGBcJAAAAABC4_UASCjIxMTM3MDM3NzkYAbIYCRICtF4YASIBANAYAcIZAggB&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSkrPNfsxu006ZhLUC58I3J3ypsHdxBRd4Np-IBHM5q-w671HOI4ZDhoCYC0QAvD_BwE&num=1&cid=CAQS-gEAEQoqgR1_zPtV8shCVPSJtNv-LpvZo2QDrEuhySV-YkJSYuyFmEz8LNPj_ys2EA7DeNTWRz5-Iss5sAfqClM7ltGWZ1CPRACXo2EPpTuPNQpctS2IkXolhdnbaFQcD6R8aiyRspwZXnUHW5UuivrmsooFd3NBqBrbibLFhi6KvhzqQuPtsEIp3D5e-6dK_7tM1KLRJKgq77zU7DvSsGl7rGN0XN2wLU9swp0_xZANsWglhhd4-mK6aMoNFNQJbO_0aLRs-xsN8tjFH0ICTkfLSu9ilAIVuLpYJAzo37Jmu2eK0gTBzEP3MViYTEhbfD9oYgBqhBX8xqDNGAE&sig=AOD64_3zkIZvLIErNYxUmdFQ6GkR1DJ4FA&client=ca-pub-9713759261380411&rf=1&nb=8&adurl=https://mydigitalword.com/cow-long-rec-railway-jobs/%3Futm_source%3Dadwords%26utm_medium%3Djobsnet.in%26utm_term%3Dcareer%26utm_content%3D205863083468%26utm_campaign%3D23937145837%26gad_source%3D5%26gad_campaignid%3D23937145837%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSkrPNfsxu006ZhLUC58I3J3ypsHdxBRd4Np-IBHM5q-w671HOI4ZDhoCYC0QAvD_BwE
+                    - generic "My Digital World" [ref=f6e17]:
+                      - link "My Digital World" [ref=f6e18] [cursor=pointer]:
+                        - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CH2GwrDx0aoG6FMOkmtIP1KPyCaTv_7eIAaPNpOX6Fd2Mp72tAhABIImC8XRg5Zrpg-AOoAHkrOrSQ8gBAagDAcgDywSqBJQCT9BnT0hNzK5GA9a2YzKwLHUEN2_knzICG0yo8xx61w_5zU1LHNSnTCbHibj2X6RidEs7suOgiE4lrcM44TeBsJA7imiNcj3IDPhnFKu-KkblDrP8BVS_aWY8w0YS1IKAGj0AJJIDvX5tGum6iMxT8LlP2ocfyzr94sOWdMledLuKYsVNRp4WOvxONWQW-STX2HXwvlvIEysSovR-HttKJC4YYpEbkBv6bRxBv6tPLTmhGMI9Yf5zDK4w4_C_ZrMnP2fEGludANJQFeGV4n8ejLcocJlLbyejIGVOgNPNlMjVFy_n28CsHZ4t5GO1OZeUChVmLqO4UTTFNWBzLm5QIqtmiY3HRZ9-eaYvknYyB28LY7RKwATMu5Xz_gWIBe23j5ZZkAYBgAfk5LqyHogHAZAHAqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WODNsJbCi5YDYAGxCfp5Y2k90VV4gAoBmAsByAsBogwPKgoKCI7fsQKV4rECkAEBqg0CSU7IDQHqDRMIk8WylsKLlgMVQ5JGBB3UkTwB8A0CiA4J2BMM0BUBmBYByhYCCgD4FgGAFwGyFxAYASoKMjExMzcwMzc3OVAGuhcCOAGqGBcJAAAAABC4_UASCjIxMTM3MDM3NzkYAbIYCRICtF4YASIBANAYAcIZAggB&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSkrPNfsxu006ZhLUC58I3J3ypsHdxBRd4Np-IBHM5q-w671HOI4ZDhoCYC0QAvD_BwE&num=1&cid=CAQS-gEAEQoqgR1_zPtV8shCVPSJtNv-LpvZo2QDrEuhySV-YkJSYuyFmEz8LNPj_ys2EA7DeNTWRz5-Iss5sAfqClM7ltGWZ1CPRACXo2EPpTuPNQpctS2IkXolhdnbaFQcD6R8aiyRspwZXnUHW5UuivrmsooFd3NBqBrbibLFhi6KvhzqQuPtsEIp3D5e-6dK_7tM1KLRJKgq77zU7DvSsGl7rGN0XN2wLU9swp0_xZANsWglhhd4-mK6aMoNFNQJbO_0aLRs-xsN8tjFH0ICTkfLSu9ilAIVuLpYJAzo37Jmu2eK0gTBzEP3MViYTEhbfD9oYgBqhBX8xqDNGAE&sig=AOD64_3zkIZvLIErNYxUmdFQ6GkR1DJ4FA&client=ca-pub-9713759261380411&rf=1&nb=1&adurl=https://mydigitalword.com/cow-long-rec-railway-jobs/%3Futm_source%3Dadwords%26utm_medium%3Djobsnet.in%26utm_term%3Dcareer%26utm_content%3D205863083468%26utm_campaign%3D23937145837%26gad_source%3D5%26gad_campaignid%3D23937145837%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSkrPNfsxu006ZhLUC58I3J3ypsHdxBRd4Np-IBHM5q-w671HOI4ZDhoCYC0QAvD_BwE
+                  - generic [ref=f6e19] [cursor=pointer]
+                  - button [ref=f6e24] [cursor=pointer]
+                  - iframe
+            - paragraph [ref=e82]:
+              - text: "Accenture Hiring Drive :"
+              - link "Engineering & Technology" [ref=e83] [cursor=pointer]
+            - figure [ref=e87]:
+              - table [ref=e88]:
+                - rowgroup [ref=e89]:
+                  - row [ref=e90]:
+                    - cell [ref=e91]:
+                      - strong [ref=e92]: Job Position
+                    - cell "Custom Software Engineer – Python" [ref=e93]
+                  - row [ref=e94]:
+                    - cell [ref=e95]:
+                      - strong [ref=e96]: Education
+                    - cell "B.E/B.Tech/BSC/BCA/MCA or Any related" [ref=e97]
+                  - row [ref=e98]:
+                    - cell [ref=e99]:
+                      - strong [ref=e100]: Batch
+                    - cell "Any Batch 0-2 Years experience" [ref=e101]
+                  - row [ref=e102]:
+                    - cell [ref=e103]:
+                      - strong [ref=e104]: Package/Salary
+                    - cell "~10 LPA" [ref=e105]
+                  - row [ref=e106]:
+                    - cell [ref=e107]:
+                      - strong [ref=e108]: Job Location
+                    - cell "Hyderabad" [ref=e109]
+                  - row [ref=e110]:
+                    - cell [ref=e111]:
+                      - strong [ref=e112]: Drive Location
+                    - cell "Online" [ref=e113]
+                  - row [ref=e114]:
+                    - cell [ref=e115]:
+                      - strong [ref=e116]: Last Date
+                    - cell "ASAP" [ref=e117]
+            - insertion [ref=e119]:
+              - iframe [ref=e121]:
+                - iframe [ref=f21e1]:
+                  - generic [ref=f29e1]:
+                    - generic [ref=f29e2]:
+                      - generic:
+                        - generic [ref=f29e3] [cursor=pointer]
+                        - button [ref=f29e8] [cursor=pointer]
+                    - insertion [ref=f29e16]:
+                      - iframe [ref=f29e17]:
+                        - link [ref=f34e4] [cursor=pointer]:
+                          - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjss4FOFlKL2jGodC6fHNKA7YDSn9O-odqy38mbrj7vM-sxgaul9EYo6PK4FGHBt0OaW5uU_tbapOJFvf10wSSsFai_g9cscV5CrcsJ9DJbElWpJryutV5ZNWccYrjPJad_SPBRaUBkNQmIrTpaU3nQtYP2vxHpPyAyLynZhcBTICCw2EFrZveMICX8MXigv6-ZeRyQtBCyRKeFMsw2Zr4R4CgXkHpsDx3MFu1fWvOWZ_PSCXDTHvm8S_tvubeNKDfRplN-_zGbsXYyE-F9vmDrzXrZX_xdF0TPcRfe-fk3sw28EsS6TUlbkQD2ay4hThWgRceyn1KuyO8xz7szCIROSiHR1lr6_eNn4LqEo48Dvw4W2Fp0Z1LG4Q-uuQeXDDlVhX4JEnw3YVSZjs2R0U2HxzPgxEfNnHLaUaxkkpt6_6ldnLYoZ0zEGCcGS1HmJv0Nt92ANTZukBvyY1y1JofC6WCOFiUt0yZAqJgzXKtqc8&sai=AMfl-YS50-OCzS1bROe_MPqJKexCG7fJd-g_0dF4hK0W6anOw3RzcRKYE_4uqzP2mdcbg-VKwAFwWmWr3MQvJkSoWex3LVsKrGp_Lb-V98genfs0sjo94G7st74jmNTF2Ap97D1G0FGZX2qwwOZptpQsdzL6NugLmnwA8ZUEq8FNZ9pEd5d6GmK3r9ISkry7ig8arDa232Wj8aJPgoiSx2KOQEvJ5CdfL6xsKZtjZs7of7pzymbGKA0aViwPXi-5JZnpBVO3Y48rLFNT__VnmjnKW_E761Px3Iyd5nVhSv7Z3oshKXLOIoHzTrAF5ze6auEt4xprWWZ970ZFANQ7QInVwYRcs7ayv81JYtuekM8&sig=Cg0ArKJSzBxD52Z0xBNH&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://googleads.g.doubleclick.net/dbm/clk%3Fsa%3DL%26ai%3DCI1vlrTx0auHgJdecmtIP_rGtkQTC_oaSiAH1pNjW1xXwLhABIImC8XRg5Zrpg-AOoAHu5d7iAcgBCakCmj7TdMSSRj6oAwHIA5sEqgT6AU_Q6uWagcYjefz2_PiXtC1kcacYpktW6WOAQRwPWTu3m-JtG6KsYpih5HraQFD_YlI6aU5JEDYaRr-5EU2BtzsMqeSaVgWcqEvs9zBqpCJNrV6NrIR7eWQedV7k5hchy-DAeKpNzNA5DOU4CDPNmmWtgS-CA6Hfd9tUEcKnDzYkUFOxyrDqlfQcCCZvxi6rHUrK3ZiXkR62k3ftTCUE7Ra4mObcemdjWXLEEIgDrYWnPTjJZ0eOWr7St7wqMx2QGTcdDBfeR6WixiiH5azLJ-Wzr3DeJV3MtOjHHaFV6AulVDpCnJi4sjGsZqnOQfLkA5dAtfgGbSCMC6DABLvlxpjKBeAEA4gFrdbysFeQBgGgBk2AB_qZoZ0CiAcBkAcCqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAef4bECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrECqAfn17EC2AcA0gg3CAAQAhiaAzIIgICAgICAgAg6FJ_QgICAgASAwICAgKCogAKogYAQSL39wTpYxa7_lsKLlgNgAYAKAZgLAcgLAYAMAaIMDCoKCgiO37ECleKxAqoNAklO6g0TCJHvgJfCi5YDFVeORgQd_lgrQvANAYgOCbAT9I2GJNgTDdgUAdAVAcoWAgoA-BYBgBcBshcEGAJQBrIYCRIC-lMYTSIBANAZAQ%26ae%3D1%26num%3D1%26cid%3DCAQS-gEAEQoqgbM0RPoppgEGJmO6cphZzm_CVLutOw9JxqwPYSCzLOz2GmThPGle-q9MugMmvZ6aaRmEkM6QN8hXQsIPE_PKikDamx7DIR0mAXjC5sIpiumXFgsizvDsc3BmO--uU-_ODCkdYn0ESGr66uny9JEJng-vqOyBlZghWPJyhQVNZgw4sFD9tLsLABb-33cGIOltGdOwbWmISGlt2h-V7vIAEReVzrtDGP3n4tR4jDC3GEHHl0WYMRfuwkiHTXq7pe4yiKiysVqDeEYL8QDGdeHytIc9BGVCvPP5QJgk0MpbrKHEDoWWdvxnD8MoA4cVvDCQEyIxfRAlGAE%26sig%3DAOD64_1cXmcmo7Fjo4Pzp0GHJAoAJZEk_w%26client%3Dca-pub-9713759261380411%26dbm_c%3DAKAmf-C966axfBVnxntTYhSZ6-M9icW7PSTqHtemOzAt21sIFEHtqaH5qJEgID-cvPynrDIhe9R2rHA-gZGyK6iLo2BuD-_k5Xlj2chdeLc6OmD7xw8tlZLgnKGbzYkXurQ7a9GwNWdhUb3Ec4qctaDbITzE1r4qTBJrP65L4b52OxFI-tDU0zssuzM_KXlTGsdrUTu3BRzJnQ0K907JpgMm1Wo-rxC4nrcRMSUqkjMrhNVOser5ndr-2J098fJfpJcKKgRzjQqLOKXe4RD-JMuXDxPUUn26YRKLbYrRxF5mNTA4rqMVpHqBNTmUmx_C-BV2SLSG20FL%26cry%3D1%26dbm_d%3DAKAmf-BC0CtWCiifU5eVPm7yZ0hj94hCMH8KQMMmKfcaQfco0hYRWu92OCmvgJTePXLm-1AnS_8i-xsiiPKKCTssAaV3uW5cQ0nQfEVx5d6vIXjB8gn6yQiYCr426uepuboUEwM14GUVuTL3Fws5w6J9VeX1WiYKy3ouEc0p7yLR0e6ONqDBkBvnhJmb1pjCVGdPMKHM4JWVuS6ZS5jxIJ3hxiSK5ZRT4iYHTTn283RBQ9OGVb7fAskBKL8fY2oqRc9RgI-G1BooYIq112mOLyRYCEAfPpfHQxIsMpp2gZZm9lmlok4Q8NWixOWHhe6VpK7c9v2w8bimEFGnyl5A4rQkjwpQj78ZQcy9Mc-Tw2gYwPy3Rf38qesZhaKwRynLoLMqib0US6UuN6EqmOuaqGTCNOyjI3BxIZ2FxY6DBGGYZDiTWqepH2_IsZo_u59p8etleUVnKhrmNsANQ95-tbab-ipuCkyQrkfU5bwixeeaRILoHnz5Y6laa_0roBE3lq4ooKueHGvK_lTCeMir0guUuPG9vfa_FfIGfxeaqw8-FDSbBCrfNMK3XDxGnPPsvLyjHXMxm463wNwp6kKmav3cZ0FK6mJdU5mWAAtL4BXIqVJeGd_XTqw7IksolszQikAeRmjN5qB32aqgFaKacR8vt0vkyX5z5Ar535EKbZpB6rmAIAfjr9SX-Dg4QWWF8iFRlBD_9rYs4UVOzOkJ7RjAOL9tD10hWa6DJWXfwOhmJMmaXI9K-Rzh482F765PnIwnl3MNLXVuxgb4ov89n1GBQFaxIAXHu0Afw5oy5eqzmKw6zWtO_78%26adurl%3Dhttps://careers.unitedhealthgroup.com/india-claims-jobs%253Fsrc%253DUNS-19965%2526utm_source%253Dyoptima.com%2526utm_medium%253Ddisplay%2526utm_campaign%253DIndia%2526utm_content%253Dniche_site%2526utm_term%253D439801858%2526ss%253Dpaid%2526dclid%253D%2525edclid!%2526gad_source%253D7%2526gad_campaignid%253D23556950833
+                          - img "Advertisement" [ref=f34e5]
+            - heading "Job Description" [level=3] [ref=e122]
+            - paragraph [ref=e123]:
+              - strong [ref=e124]: "Project Role Description :"
+              - text: Develop custom
+              - link "software" [ref=e125] [cursor=pointer]:
+                - /url: "#"
+              - text: solutions to design, code, and enhance components across systems or applications. Use modern frameworks and agile practices to deliver scalable, high-performing solutions tailored to specific business needs.
+              - strong [ref=e128]: "Must have skills :"
+              - text: Python (Programming Language)
+              - strong [ref=e129]: "Good to have skills :"
+              - text: NAMinimum
+              - strong [ref=e130]: 0-2
+              - text: year(s) of experience is required
+              - strong [ref=e131]: "Educational Qualification :"
+              - text: 15 years full time education
+            - generic [ref=e134]:
+              - generic [ref=e135]:
+                - generic [ref=e136]: WhatsApp Channel
+                - link "Join Now" [ref=e138] [cursor=pointer]:
+                  - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+              - generic [ref=e139]:
+                - generic [ref=e140]: Telegram Channel
+                - link "Join Now" [ref=e142] [cursor=pointer]:
+                  - /url: https://telegram.me/campusdrivejobs
+            - paragraph [ref=e143]:
+              - strong [ref=e144]: Summary
+              - text: :As a Custom Software Engineer, a typical day involves creating tailored software solutions by designing, coding, and improving various components within systems or applications. The role requires working closely with team members to ensure that the software meets specific business requirements. The work environment encourages the use of contemporary development frameworks and agile methodologies to build scalable and efficient software. Collaboration and continuous improvement are key aspects, as the engineer contributes to delivering high-quality solutions that align with organizational goals and client expectations.
+              - link "Software" [ref=e145] [cursor=pointer]
+            - paragraph [ref=e149]:
+              - strong [ref=e150]: "Roles & Responsibilities:"
+              - text: – Expected to build knowledge and support the team.– Participate in Problem Solving discussions.– Assist in the documentation and maintenance of software components to ensure clarity and ease of future updates.– Collaborate with cross-functional teams to understand requirements and contribute to solution design.– Engage in code reviews and provide constructive feedback to peers to maintain code quality.– Support testing efforts by identifying and resolving defects in a timely manner.
+              - link "Engineering & Technology" [ref=e151] [cursor=pointer]
+            - insertion [ref=e156]
+            - paragraph [ref=e158]:
+              - strong [ref=e159]: "Professional & Technical Skills:"
+              - text: "– Must To Have Skills: Proficiency in Python (Programming Language).– Strong understanding of object-oriented programming concepts and software design principles.– Familiarity with version control systems to manage codebase effectively.– Experience with debugging and troubleshooting techniques to resolve software issues.– Ability to write clean, maintainable, and efficient code following best practices."
+            - paragraph
+            - heading "How To Apply For Accenture:" [level=3] [ref=e160]
+            - paragraph [ref=e161]: The Interested and eligible graduates needs to register for the same on following registration link.
+            - insertion [ref=e163]
+            - paragraph [ref=e165]:
+              - strong [ref=e166]:
+                - text: "Accenture Apply Link :"
+                - link "Click Here" [ref=e167] [cursor=pointer]:
+                  - /url: https://www.accenture.com/in-en/careers/jobdetails?id=ATCI-5704900-S2062039_en
+            - generic [ref=e168]:
+              - strong [ref=e169]: "Join Our Whatsapp Group:"
+              - link [ref=e170] [cursor=pointer]:
+                - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+                - strong [ref=e171]: Click Here
+            - insertion [ref=e173]
+          - generic [ref=e175]:
+            - generic [ref=e176]: You May like
+            - generic [ref=e177]:
+              - link "# AWS" [ref=e178] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/aws/
+              - link "# Jobs in Bangalore" [ref=e179] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-bangalore/
+              - link "# Jobs in Hyderabad" [ref=e180] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-hyderabad/
+              - link "# Jobs in Pune" [ref=e181] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-pune/
+              - link "# Linux" [ref=e182] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/linux/
+              - link "# Python" [ref=e183] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/python/
+              - link "# QA" [ref=e184] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/qa/
+              - link "# SQL" [ref=e185] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/sql/
+              - link "# Testing" [ref=e186] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/testing/
+          - generic [ref=e188]:
+            - link "Facebook" [ref=e189] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjobsnet.in%2Faccenture-hiring-entry-level-custom-software-engineer-python%2F
+            - link "X (Twitter)" [ref=e193] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fjobsnet.in%2Faccenture-hiring-entry-level-custom-software-engineer-python%2F&text=Accenture%20Hiring%20Entry-Level%20Custom%20Software%20Engineer%20%26%238211%3B%20Python%20(0-2%20Years)
+            - link "Reddit" [ref=e197] [cursor=pointer]:
+              - /url: https://reddit.com/submit?url=https%3A%2F%2Fjobsnet.in%2Faccenture-hiring-entry-level-custom-software-engineer-python%2F&title=Accenture%20Hiring%20Entry-Level%20Custom%20Software%20Engineer%20%26%238211%3B%20Python%20(0-2%20Years)
+            - link "Telegram" [ref=e201] [cursor=pointer]:
+              - /url: https://t.me/share/url?url=https%3A%2F%2Fjobsnet.in%2Faccenture-hiring-entry-level-custom-software-engineer-python%2F&text=Accenture%20Hiring%20Entry-Level%20Custom%20Software%20Engineer%20%26%238211%3B%20Python%20(0-2%20Years)
+            - link "WhatsApp" [ref=e205] [cursor=pointer]:
+              - /url: whatsapp://send?text=https%3A%2F%2Fjobsnet.in%2Faccenture-hiring-entry-level-custom-software-engineer-python%2F
+          - generic [ref=e209]:
+            - link [ref=e210] [cursor=pointer]:
+              - /url: https://jobsnet.in/author/anand/
+              - img "Anand Kumar" [ref=e211]
+            - generic [ref=e214]:
+              - heading "Anand Kumar" [level=5] [ref=e215]
+              - paragraph [ref=e217]:
+                - text: Career Expert & Founder of JobsNet.in. Serving the student community since 2019, I specialize in providing verified job updates and placement material for computer science, IT, engineering and management graduates. With a mission to simplify the job hunt, I have helped thousands of candidates secure roles in top MNCs over the last 7 years.
+                - link "Computer Science" [ref=e218] [cursor=pointer]
+              - generic [ref=e223]:
+                - link "LinkedIn icon" [ref=e224] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/amar-kumar-sd
+                - link "Website icon" [ref=e227] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - 'link "Articles: 2394" [ref=e230] [cursor=pointer]':
+                - /url: https://jobsnet.in/author/anand/
+          - insertion [ref=e232]
+          - navigation [ref=e234]:
+            - link "Previous Post Cornerstone Hiring Entry Level Junior Engineer - Cloud Ops" [ref=e235] [cursor=pointer]:
+              - /url: https://jobsnet.in/cornerstone-hiring-entry-level-junior-engineer-cloud-ops/
+              - figure [ref=e236]:
+                - img "Cornerstone Off Campus Drive - Hiring Junior Engineer" [ref=e237]
+              - generic [ref=e240]:
+                - generic [ref=e241]: Previous Post
+                - generic [ref=e242]: Cornerstone Hiring Entry Level Junior Engineer - Cloud Ops
+            - link "Next Post Siemens GBS Off Campus Drive 2026 - Graduate Trainee Engineer - Freshers" [ref=e243] [cursor=pointer]:
+              - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+              - generic [ref=e244]:
+                - generic [ref=e245]: Next Post
+                - generic [ref=e246]: Siemens GBS Off Campus Drive 2026 - Graduate Trainee Engineer - Freshers
+              - figure [ref=e247]
+          - generic [ref=e250]:
+            - heading "Related" [level=3] [ref=e251]
+            - generic [ref=e252]:
+              - article [ref=e253]:
+                - generic [ref=e254]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=e255] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                  - paragraph [ref=e256]:
+                    - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=e257] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+              - article [ref=e258]:
+                - generic [ref=e259]:
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=e260] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                    - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=e261]
+                  - paragraph [ref=e262]:
+                    - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=e263] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+              - article [ref=e264]:
+                - generic [ref=e265]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=e266] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                  - paragraph [ref=e267]:
+                    - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=e268] [cursor=pointer]:
+                      - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+        - complementary [ref=e269]:
+          - generic [ref=e270]:
+            - heading "Search Jobs" [level=3] [ref=e273]
+            - textbox "search" [ref=e280]
+            - insertion [ref=e282]:
+              - iframe [ref=e284]:
+                - generic [ref=f7e2]:
+                  - iframe [ref=f7e5]:
+                    - generic [ref=f12e2] [cursor=pointer]:
+                      - img [ref=f12e4]:
+                        - generic [ref=f12e5]:
+                          - generic [ref=f12e937]:
+                            - generic "Traffic Trend" [ref=f12e941]
+                            - generic "yourwebsite.com" [ref=f12e991]
+                            - generic "yourcompetitor.com" [ref=f12e1055]
+                          - generic "Try for free" [ref=f12e1134]
+                      - button [ref=f12e1178]
+                  - generic [ref=f7e6]:
+                    - generic:
+                      - generic [ref=f7e7] [cursor=pointer]
+                      - button [ref=f7e12] [cursor=pointer]
+            - generic [ref=e285]:
+              - heading "Latest Updates" [level=3] [ref=e286]
+              - list [ref=e288]:
+                - listitem [ref=e289]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=e291] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                - listitem [ref=e292]:
+                  - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=e294]
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=e295] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                - listitem [ref=e296]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=e298] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                - listitem [ref=e299]:
+                  - img "Accenture Mega Off Campus Drive For Freshers - Associate Software Engineer" [ref=e301]
+                  - link "Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)" [ref=e302] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-entry-level-custom-software-engineer-python/
+                - listitem [ref=e303]:
+                  - img "Cornerstone Off Campus Drive - Hiring Junior Engineer" [ref=e305]
+                  - link "Cornerstone Hiring Entry Level Junior Engineer – Cloud Ops" [ref=e306] [cursor=pointer]:
+                    - /url: https://jobsnet.in/cornerstone-hiring-entry-level-junior-engineer-cloud-ops/
+                - listitem [ref=e307]:
+                  - link "Calix Off Campus Drive 2026 – Hiring Graduate Trainee – Test & QA" [ref=e309] [cursor=pointer]:
+                    - /url: https://jobsnet.in/calix-off-campus-drive-hiring-graduate-trainee-test-qa/
+                - listitem [ref=e310]:
+                  - link "HDFC Life Off Campus Drive 2026 – Graduate Trainee – Data Science & Analytics" [ref=e312] [cursor=pointer]:
+                    - /url: https://jobsnet.in/hdfc-life-off-campus-drive-graduate-trainee-data-science-analytics/
+                - listitem [ref=e313]:
+                  - img "Yash Technologies Hiring Freshers QA Trainee - Pune/Indore/Hyderabad" [ref=e315]
+                  - link "Yash Technologies Off Campus Drive 2026 – AI/ML Trainee" [ref=e316] [cursor=pointer]:
+                    - /url: https://jobsnet.in/yash-technologies-off-campus-drive-hiring-ai-ml-trainee/
+                - listitem [ref=e317]:
+                  - img "White Twilio logo and four-dot icon on a red background." [ref=e319]
+                  - link "Twilio Off Campus Drive 2026 – Associate Application Engineer- Remote" [ref=e320] [cursor=pointer]:
+                    - /url: https://jobsnet.in/twilio-off-campus-drive-associate-application-engineer-remote/
+                - listitem [ref=e321]:
+                  - img "Accenture Hiring Any Graduate Freshers As Network Associate" [ref=e323]
+                  - link "Accenture Hiring Application Support Engineer – Any Graduate (0-2 Years)" [ref=e324] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-application-support-engineer-any-graduate-0-2-years/
+            - insertion [ref=e327]
+    - insertion [ref=e330]
+    - contentinfo [ref=e332]:
+      - generic [ref=e334]:
+        - paragraph [ref=e337]: © 2026 Jobsnet.in
+        - navigation "footermenu" [ref=e339]:
+          - list [ref=e340]:
+            - listitem [ref=e341]:
+              - link "Home" [ref=e342] [cursor=pointer]:
+                - /url: https://jobsnet.in
+            - listitem [ref=e343]:
+              - link "About us" [ref=e344] [cursor=pointer]:
+                - /url: https://jobsnet.in/about-us/
+            - listitem [ref=e345]:
+              - link "Contact Us" [ref=e346] [cursor=pointer]:
+                - /url: https://jobsnet.in/contact/
+            - listitem [ref=e347]:
+              - link "Advertise With Us" [ref=e348] [cursor=pointer]:
+                - /url: https://jobsnet.in/advertise/
+            - listitem [ref=e349]:
+              - link "Terms" [ref=e350] [cursor=pointer]:
+                - /url: https://jobsnet.in/terms-and-conditions/
+            - listitem [ref=e351]:
+              - link "Privacy" [ref=e352] [cursor=pointer]:
+                - /url: https://jobsnet.in/privacy-policy/
+  - link "Join WhatsApp" [ref=e354] [cursor=pointer]:
+    - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP

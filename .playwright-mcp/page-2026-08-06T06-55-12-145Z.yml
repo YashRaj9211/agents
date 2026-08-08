@@ -1,0 +1,218 @@
+- generic [active] [ref=f93e1]:
+  - navigation "Primary" [ref=f93e3]:
+    - generic [ref=f93e5]:
+      - generic [ref=f93e6]:
+        - generic [ref=f93e7]:
+          - button "Skip to main content" [ref=f93e8] [cursor=pointer]
+          - link "Indeed Home" [ref=f93e10] [cursor=pointer]:
+            - /url: /?from=gnav-viewjob
+          - list [ref=f93e14]:
+            - listitem [ref=f93e15]:
+              - link "Home" [ref=f93e17] [cursor=pointer]:
+                - /url: https://in.indeed.com/
+            - listitem [ref=f93e18]:
+              - link "Company reviews" [ref=f93e20] [cursor=pointer]:
+                - /url: https://in.indeed.com/companies
+            - listitem [ref=f93e21]:
+              - link "Salary guide" [ref=f93e23] [cursor=pointer]:
+                - /url: https://in.indeed.com/career/salaries
+        - generic [ref=f93e24]:
+          - list [ref=f93e25]:
+            - listitem [ref=f93e26]:
+              - link "My jobs" [ref=f93e28] [cursor=pointer]:
+                - /url: https://myjobs.indeed.com?from=gnav-util-viewjob&gnavTK=1jvatlfa4hc3u802&tk=1jvatlfa2hcfa800&co=IN&hl=en
+            - listitem [ref=f93e31]:
+              - link "Messages Unread count 0" [ref=f93e33] [cursor=pointer]:
+                - /url: https://messages.indeed.com?from=gnav-util-viewjob&gnavTK=1jvatlfa4hc3u802&tk=1jvatlfa2hcfa800&co=IN&hl=en
+            - listitem [ref=f93e40]:
+              - link "Notifications Unread count 0" [ref=f93e42] [cursor=pointer]:
+                - /url: https://in.indeed.com/notifications?from=gnav-util-viewjob&gnavTK=1jvatlfa4hc3u802&tk=1jvatlfa2hcfa800&hl=en
+            - listitem [ref=f93e45]:
+              - button "Account" [ref=f93e49] [cursor=pointer]:
+                - generic [ref=f93e53]:
+                  - text: "1"
+                  - generic [ref=f93e54]: new update
+          - link "Employers / Post Job" [ref=f93e59] [cursor=pointer]:
+            - /url: https://in.indeed.com/hire?co=IN&hl=en
+      - generic [ref=f93e60]: Start of main content
+  - main [ref=f93e63]:
+    - generic [ref=f93e67]:
+      - generic [ref=f93e68]:
+        - generic [ref=f93e69]: What
+        - 'textbox "What: job title, keywords or company" [ref=f93e71]':
+          - /placeholder: Job title, keywords, or company
+      - generic [ref=f93e72]:
+        - generic [ref=f93e73]: Where
+        - 'textbox "Where: city, county or postcode" [ref=f93e75]':
+          - /placeholder: City, state, or zip code
+      - button "Find Jobs" [ref=f93e76] [cursor=pointer]
+    - generic [ref=f93e81]:
+      - generic [ref=f93e82]:
+        - generic [ref=f93e83]:
+          - generic [ref=f93e84]:
+            - heading "Full Stack Developer" [level=1] [ref=f93e86]
+            - generic [ref=f93e90]:
+              - link "Safe Software & Integrated Solutions Pvt Ltd (opens in a new tab)" [ref=f93e94] [cursor=pointer]:
+                - /url: https://in.indeed.com/cmp/Safe-Software-1?campaignid=mobvjcmp&from=mobviewjob&tk=1jvatlfa2hcfa800&fromjk=33f7ee0af6ffa292
+                - text: Safe Software & Integrated Solutions Pvt Ltd
+              - generic [ref=f93e97]: Palakkad District, Kerala
+          - generic [ref=f93e99]: Up to ₹60,000 a month
+          - generic [ref=f93e103]:
+            - button "Apply with Indeed" [ref=f93e111] [cursor=pointer]
+            - button "Save job" [ref=f93e117] [cursor=pointer]:
+              - img "save-icon" [ref=f93e118]
+            - button "Share Job" [ref=f93e120] [cursor=pointer]
+            - separator:
+              - generic [ref=f93e122]: "&nbsp;"
+        - generic [ref=f93e124]:
+          - generic [ref=f93e125]:
+            - generic [ref=f93e131]:
+              - generic [ref=f93e132]:
+                - generic [ref=f93e133]:
+                  - heading "Job details" [level=2] [ref=f93e134]
+                  - generic [ref=f93e135]:
+                    - text: Here’s how the job details align with your
+                    - link "job preferences (opens in a new window)" [ref=f93e136] [cursor=pointer]:
+                      - /url: https://profile.indeed.com/
+                      - text: profile
+                    - text: .
+                - generic [ref=f93e139]:
+                  - group "Pay" [ref=f93e140]:
+                    - generic [ref=f93e143]:
+                      - heading "Pay" [level=3] [ref=f93e144]
+                      - list [ref=f93e146]:
+                        - listitem [ref=f93e147]:
+                          - button "Pay Up to ₹60,000 a month missing preference" [ref=f93e148]:
+                            - generic [ref=f93e151]:
+                              - generic [ref=f93e152]: Up to ₹60,000 a month
+                              - img "missing preference" [ref=f93e153]
+                  - group "Job type" [ref=f93e155]:
+                    - generic [ref=f93e159]:
+                      - heading "Job type" [level=3] [ref=f93e160]
+                      - list [ref=f93e162]:
+                        - listitem [ref=f93e163]:
+                          - button "Job type Full-time matching preference" [ref=f93e164]:
+                            - generic [ref=f93e167]:
+                              - generic [ref=f93e170]: Full-time
+                              - img "matching preference" [ref=f93e171]
+              - separator [ref=f93e173]:
+                - generic [ref=f93e174]: "&nbsp;"
+            - generic [ref=f93e175]:
+              - heading "Location" [level=2] [ref=f93e176]
+              - generic [ref=f93e177]: Palakkad District, Kerala
+              - separator [ref=f93e182]:
+                - generic [ref=f93e183]: "&nbsp;"
+            - generic [ref=f93e184]:
+              - heading "Benefits" [level=3] [ref=f93e185]
+              - paragraph [ref=f93e186]: Pulled from the full job description
+              - list [ref=f93e190]:
+                - listitem [ref=f93e191]: Provident Fund
+              - separator [ref=f93e192]:
+                - generic [ref=f93e193]: "&nbsp;"
+            - heading "Full job description" [level=2] [ref=f93e195]
+            - generic [ref=f93e196]:
+              - paragraph [ref=f93e197]: Job Description
+              - paragraph [ref=f93e198]: We are seeking a highly skilled Full Stack JavaScript Developer with strong expertise in React.js, Next.js, Node.js, and modern web application development. The ideal candidate should have hands-on experience building scalable, secure, and high-performance enterprise applications using microservices architecture, RESTful APIs, and modern DevOps practices.
+              - paragraph [ref=f93e199]: The candidate should be capable of developing responsive user interfaces, designing scalable backend services, implementing secure authentication mechanisms, optimizing application performance, and collaborating with cross-functional teams throughout the software development lifecycle.
+              - paragraph [ref=f93e200]: Key Responsibilities
+              - paragraph [ref=f93e201]: Front-End Development
+              - list [ref=f93e202]:
+                - listitem [ref=f93e203]: Develop responsive, mobile-first web applications using React.js and Next.js.
+                - listitem [ref=f93e204]: Build reusable, modular, and maintainable UI components.
+                - listitem [ref=f93e205]: Implement file-based routing and server-side rendering (SSR) using Next.js.
+                - listitem [ref=f93e206]: Integrate REST APIs using Axios or Fetch.
+                - listitem [ref=f93e207]: Manage application state using Redux Toolkit, Zustand, or equivalent state management libraries.
+                - listitem [ref=f93e208]: Optimize application performance using React.memo, useMemo, and useCallback.
+                - listitem [ref=f93e209]: Implement dynamic imports, code splitting, lazy loading, and bundle optimization.
+                - listitem [ref=f93e210]: Develop modern user interfaces using Tailwind CSS or similar CSS frameworks.
+                - listitem [ref=f93e211]: Optimize images using the Next.js Image component.
+                - listitem [ref=f93e212]: Implement real-time features using WebSockets.
+                - listitem [ref=f93e213]: Utilize React Query, RTK Query, or SWR for efficient data fetching and caching.
+                - listitem [ref=f93e214]: Implement Error Boundaries for improved application stability.
+              - paragraph [ref=f93e215]: Mandatory Skills
+              - list [ref=f93e216]:
+                - listitem [ref=f93e217]: JavaScript (ES6+)
+                - listitem [ref=f93e218]: React.js
+                - listitem [ref=f93e219]: Next.js
+                - listitem [ref=f93e220]: Node.js
+                - listitem [ref=f93e221]: REST API Development & Integration
+                - listitem [ref=f93e222]: Redux Toolkit or Zustand
+                - listitem [ref=f93e223]: Tailwind CSS
+                - listitem [ref=f93e224]: Responsive & Mobile-First UI Development
+                - listitem [ref=f93e225]: Component-Based Architecture
+                - listitem [ref=f93e226]: Microservices Architecture
+                - listitem [ref=f93e227]: JWT Authentication & Authorization
+                - listitem [ref=f93e228]: RBAC (Role-Based Access Control)
+                - listitem [ref=f93e229]: API Rate Limiting
+                - listitem [ref=f93e230]: Docker
+                - listitem [ref=f93e231]: WebSockets
+                - listitem [ref=f93e232]: OWASP Security Best Practices
+                - listitem [ref=f93e233]: XSS, CSRF & SQL Injection Prevention
+                - listitem [ref=f93e234]: Code Splitting & Lazy Loading
+                - listitem [ref=f93e235]: Performance Optimization
+                - listitem [ref=f93e236]: Git Version Control
+              - paragraph [ref=f93e237]: "Pay: Up to ₹60,000.00 per month"
+              - paragraph [ref=f93e238]: "Benefits:"
+              - list [ref=f93e239]:
+                - listitem [ref=f93e240]: Provident Fund
+              - paragraph [ref=f93e241]: "Work Location: In person"
+            - separator [ref=f93e242]:
+              - generic [ref=f93e243]: "&nbsp;"
+          - button "Report job" [ref=f93e250] [cursor=pointer]
+      - generic [ref=f93e252]:
+        - separator [ref=f93e253]:
+          - generic [ref=f93e254]: "&nbsp;"
+        - generic [ref=f93e257]:
+          - link "Full Stack Developer jobs in Palakkad District, Kerala" [ref=f93e259] [cursor=pointer]:
+            - /url: /q-full-stack-developer-l-palakkad-district,-kerala-jobs.html
+          - link "Full Stack Developer salaries in Palakkad District, Kerala" [ref=f93e261] [cursor=pointer]:
+            - /url: /salary?from=vj&q1=Full+Stack+Developer&l1=Palakkad+District%2C+Kerala
+  - contentinfo [ref=f93e266]:
+    - generic [ref=f93e267]:
+      - list [ref=f93e268]:
+        - listitem [ref=f93e269]:
+          - link "Career advice" [ref=f93e271] [cursor=pointer]:
+            - /url: https://in.indeed.com/career-advice
+        - listitem [ref=f93e272]:
+          - link "Browse jobs" [ref=f93e274] [cursor=pointer]:
+            - /url: https://in.indeed.com/browsejobs
+        - listitem [ref=f93e275]:
+          - link "Browse companies" [ref=f93e277] [cursor=pointer]:
+            - /url: https://in.indeed.com/companies/browse-companies
+        - listitem [ref=f93e278]:
+          - link "Salaries" [ref=f93e280] [cursor=pointer]:
+            - /url: https://in.indeed.com/career/salaries
+        - listitem [ref=f93e281]:
+          - link "Indeed Events" [ref=f93e283] [cursor=pointer]:
+            - /url: https://www.indeedevents.com/en-in/
+        - listitem [ref=f93e284]:
+          - link "Work at Indeed" [ref=f93e286] [cursor=pointer]:
+            - /url: https://in.indeed.com/cmp/Indeed/about
+        - listitem [ref=f93e287]:
+          - link "Countries" [ref=f93e289] [cursor=pointer]:
+            - /url: https://in.indeed.com/countries
+        - listitem [ref=f93e290]:
+          - link "About" [ref=f93e292] [cursor=pointer]:
+            - /url: https://in.indeed.com/about
+        - listitem [ref=f93e293]:
+          - link "Help" [ref=f93e295] [cursor=pointer]:
+            - /url: https://in.indeed.com/help/job-seekers?hl=en&co=in
+        - listitem [ref=f93e296]:
+          - link "ESG at Indeed" [ref=f93e298] [cursor=pointer]:
+            - /url: https://in.indeed.com/esg?from=gnav-viewjob
+        - listitem [ref=f93e299]:
+          - link "Guidelines for safe job search" [ref=f93e301] [cursor=pointer]:
+            - /url: https://support.indeed.com/hc/en-in/articles/216354123-Guidelines-for-Safe-Job-Search
+      - list [ref=f93e302]:
+        - listitem [ref=f93e303]: © 2026 Indeed
+        - listitem [ref=f93e304]:
+          - link "Accessibility at Indeed" [ref=f93e306] [cursor=pointer]:
+            - /url: https://in.indeed.com/esg/accessibility?hl=en
+        - listitem [ref=f93e307]:
+          - link "Privacy Centre and Ad Choices" [ref=f93e309] [cursor=pointer]:
+            - /url: https://hrtechprivacy.com/brands/indeed#privacypolicy
+        - listitem [ref=f93e310]:
+          - link "Terms" [ref=f93e312] [cursor=pointer]:
+            - /url: https://in.indeed.com/legal?hl=en
+      - list:
+        - listitem

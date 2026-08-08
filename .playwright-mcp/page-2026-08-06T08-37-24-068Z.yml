@@ -1,0 +1,358 @@
+- generic [active] [ref=f3125e1]:
+  - link "Skip to content" [ref=f3125e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f3125e3]:
+    - banner [ref=f3125e4]:
+      - generic [ref=f3125e7]:
+        - link [ref=f3125e11] [cursor=pointer]:
+          - /url: https://jobsnet.in/
+          - img "Jobsnet.in" [ref=f3125e12]
+        - generic [ref=f3125e14]:
+          - navigation "Main Menu" [ref=f3125e15]:
+            - list [ref=f3125e16]:
+              - listitem [ref=f3125e17]:
+                - link "Home" [ref=f3125e18] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - listitem [ref=f3125e19]:
+                - link "Internships" [ref=f3125e20] [cursor=pointer]:
+                  - /url: https://jobsnet.in/internships/
+              - listitem [ref=f3125e21]:
+                - link "Off Campus Drives" [ref=f3125e22] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+              - listitem [ref=f3125e23]:
+                - link [ref=f3125e24] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+              - listitem [ref=f3125e28]:
+                - link [ref=f3125e29] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+          - button "Search" [ref=f3125e33] [cursor=pointer]
+    - main [ref=f3125e36]:
+      - insertion [ref=f3125e38]:
+        - iframe [ref=f3125e40]:
+          
+      - generic [ref=f3125e41]:
+        - article [ref=f3125e42]:
+          - generic [ref=f3125e44]:
+            - navigation [ref=f3125e45]:
+              - link "Home" [ref=f3125e47] [cursor=pointer]:
+                - /url: https://jobsnet.in/
+              - link "Off Campus Drive" [ref=f3125e51] [cursor=pointer]:
+                - /url: https://jobsnet.in/off-campus-drive/
+              - generic [ref=f3125e54]: "Oracle Health Off Campus Drive 2026 : Entry-Level Software Engineer"
+            - 'heading "Oracle Health Off Campus Drive 2026 : Entry-Level Software Engineer" [level=1] [ref=f3125e56]'
+            - list [ref=f3125e57]:
+              - listitem [ref=f3125e58]:
+                - text: By
+                - link "Anand Kumar" [ref=f3125e59] [cursor=pointer]:
+                  - /url: https://jobsnet.in/author/anand/
+                - text: /
+              - listitem [ref=f3125e60]:
+                - text: "On"
+                - time [ref=f3125e61]: February 9, 2026
+          - figure [ref=f3125e62]
+          - generic [ref=f3125e64]:
+            - paragraph [ref=f3125e65]:
+              - text: Oracle Health is inviting applications to
+              - link "recruit" [ref=f3125e66] [cursor=pointer]:
+                - /url: "#"
+              - text: Entry-Level
+              - link "Software Developers" [ref=f3125e69] [cursor=pointer]:
+                - /url: "#"
+              - text: for various locations across India, targeting candidates with 0-2 years of experience.
+              - link "Medical Facilities & Services" [ref=f3125e72] [cursor=pointer]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - heading [level=2] [ref=f3125e76]:
+              - strong [ref=f3125e77]: Overview Oracle Off Campus Drive 2026:-
+            - paragraph [ref=f3125e78]:
+              - strong [ref=f3125e79]:
+                - link "Job" [ref=f3125e80] [cursor=pointer]:
+                  - /url: "#"
+                - text: Title
+              - text: ": Software Engineer 1"
+            - paragraph [ref=f3125e83]:
+              - strong [ref=f3125e84]: Job Location
+              - text: ": Pan India"
+            - generic [ref=f3125e87]:
+              - generic [ref=f3125e88]:
+                - generic [ref=f3125e89]: WhatsApp Channel
+                - link "Join Now" [ref=f3125e91] [cursor=pointer]:
+                  - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+              - generic [ref=f3125e92]:
+                - generic [ref=f3125e93]: Telegram Channel
+                - link "Join Now" [ref=f3125e95] [cursor=pointer]:
+                  - /url: https://telegram.me/campusdrivejobs
+            - paragraph [ref=f3125e96]:
+              - strong [ref=f3125e97]: "Salary:"
+              - text: Best in Industry
+              - link "IT & Technical Jobs" [ref=f3125e98] [cursor=pointer]
+            - paragraph [ref=f3125e102]:
+              - strong [ref=f3125e103]: Experience
+              - text: ": Freshers /0-2 Years"
+            - insertion [ref=f3125e105]:
+              - iframe [ref=f3125e107]:
+                - generic [ref=f3130e2]:
+                  - link [ref=f3130e4] [cursor=pointer]:
+                    - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjssGLJF-YAPuBI3JfICrZfHj031g7LAK3LiiwQrnevGwcC28-tZwuUSV9_YwDIqIO6O1ztTGcy_f8fbBa-7fGPwVXauSMZ7U3H7wC7CTYlrgJQ8t02fcv8Se8vNKpVUm1178dCPwjTRkMesL0jh65NAjVrazkVyV_0OZ5V5eVaFk95wKL_Ab3eTHR8g6us5kaijKmkGLOfJ4C0jnQc5JvuhyPXHiBqRTz4iK6XKAfG_xb9C7P3i7C7b302jXLZpUI_Yd_DzLO38KTzzsKkcMBUOSSKywxvjM4QQcfZsnKfbzVpzcgRMhPInQg-LAJMyM5_Npg3u_lrN3g3yGCgbyhjB1hafww6cN7Fd_Xt9UznUoqIfrHjVgwNRwAZaj5p5vwrMqp-dDH-dZjGLHj7Epom3QzMpMgIhWnuI2l50PV72F0Kt_neReI1CIqQ_n9lzn13flSt_UsNjwa5wiaWKmb578V9AYW06yDDh4g3wEEKAbHYawZhjKuYrE9XJRwH6h3Xr0lVNPo6r40fXpj5x7Kzk1mA5o1pDgwq8gamPvFE_re9CsD9pSzfHw26CVy-sUPNh70-dNM-v4b5oERK88VIWNv79m86cWvG7YP-BApjBvX1RwVY6WCBnOr4hQveUCYdkLj7MnBk6Q7rbZScN51dmVVpXsPOjOt-_AjWW_JWlmWRlJPwRXmRXTO-lhkn0nxqybjG3Xk5rK4_Mb7isew5lDxflwHvYqLRQMXP1DOws839APFPRngILBqPQkNQ50QZra5VqMRJQ1Tf0lQupDwHzPjCz_gXjA79M2N3i4v6761-sOlfj4OabbaP0JU4uFybtozXm3GPeFQFEMHron5fNc0hS-8N4HdKrTxUdlh98of8VVZ70mC6Hd06LKqbCAaWjMrBvnBUKX1H2C6oo8nW7jqlVmu0oVEWv_1fhyMK33mG54JTx6rXpL5bz8p4ePT7J98Qq8YdZ73ZU0oUVCbxrQeim9hBVaEOeVd85u7nn7ppsDLmD0CCNs2w6WiDpxBDmrlkpgl8hCQeFcZPAnHSe9owgvsBn7QEHoBsp-_DV2aEw3vM4pe0KczDV_2MpE6dy2-_qp-bEIx5t9EsctfqOaOtIsMjx_Dt8JTPbqLIZe6oAeOnIZ1hmB6_b-aCzyl3ZzWSgGWMGOkmYLy1f0pnQYfrsfJjD_WC5998ftfpbbCPh2LRi-u7pEA9n4W0w0SYMm3YEBQ09UYGtAo7ZEPKezoUmbEZVfGQlXlL3ZwLAz6S2QmVwZd1_MXU0oghPjid64iFx-yvjoxgDJ8dGrcDOnFijvOXDFvOKtk9UmOnVGqL5Fz86dKSYXVSXOA0dsNHexQCzhAld-YY9pVreHcc9Iu4uTupSlrxc_ZO0J1PPZnt2Q0tl0Oqn2hxUJozPGh0_IlMc8i_IgpaVBmAeTWLfCA1XzYOUSPguvZSSNnbJz4-3kGqj-w5mrm3VR6xbGATo42knbUJpfCiFonstMSmMbFPjmSLHYSKAcJwZWNV_7_PWaDTllfJ-34sGNXroO2zzXuCg-Ne1eGdWjCoO7D4ufPuNdTkbUsUUXpMojGLJBfLG2pps9FoZsR7gLtBRn8eo-vmMjBGBe9lc34l7IpFOQb2FtTgfvcx4kHvNUPbcSA-0xf7ErZcP3x0V3hk2XKdUIXBZ9UznEgu215TyCOWS6IWif-v1i-nL6Br6vgrOF0_adTCmFyyDyyuRh4LoWD_j2BLzC6ZQ-yB29YYiexbMO8juzMPsQUN50QWWz_Rp5IL0i9mXQN25PUfQ7fSNb9ZkfRviG-MhKRs-vp5maMYKn4lwV6jAIjhzTORX1tCsVViEOYpgPFNN38ZqLRMhPZfMi1PdmUtqU3TYk-A&sai=AMfl-YRpwm9KIlUNqmeFkXB3_FduniKhKIXBLZqzAtYoAQThFBUb70lpSBU5bca8CctzzXyrYyfGPOtq3Rl1bu-9h0zahMNTer-468VCpPRH_kMZuTbx19C3KBeYPV3vBgIQQusRINSPgkzIRebN7n_dbk_2PRXAddv9n7ppMvCWh02kkHszxDAOFg-1ViJ8ujVJ5LSCYADFtS19jZ93SchgLhre-xahGEjJueKKNvGyGX2RQsHiTXq7GGbgssRQ99oNrlOoRkhITgjyRHf99Xw6C8vXe2bU_nJYHAYn-ffLtEar0vfUAw78aTRfQ6JWKdInIXNqnVFPNNQTBPkQ5lIXgBFPSjGdi5duVIjO-Mh8VwuXgfbXEo-M5o3BoPcH8E_0Heq-lDTGt_cM2sG0WOcjoGWitd3IJywd6Mknk5fdL0TrEnncdtSgAXt2FKVu7O6ZP3ct4jOdRGjzE6di-neish7aey8naxoyZIGGtvT7e49U3RA3COOJfgLejyALRtnj8UJ5D5jFZODYDYywvHfxRCkxa6rbDkdmLDj5ULq7-U2aZ1rzR3m4uJVTT8uSuQnxLKhWwasCL1j7EMs1snr-JQOmDp7a9prU4vAMrmWwDQw9puS7Zw7xfvOQ_eH28fdbMBiQ0Jub7pk8ImZkVea6OYdajLgx72Cep9EFMZddBXP-djHzheGaYehRnn7zn2HxulOuJ1rU4um60-Hn8An81EXhxgaVuKj6hDG2mZLZkIfGpi34JwFbk-0W8E4U4rhTJOaAO-bSvTUDTYXiRttcYqX3Ky_TukAu1T9VzlDt-z8kf8N2-iIXHvCRxDhPKcD7kLJU8y6hMGVL_mOqO1yFvSSUBdYf7Tw4pha6LeIsugUecI8T4Rd_thSV-5_o3DuHRqc&sig=Cg0ArKJSzJz61QhP_gei&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly9uZXRhcHAuY29t&urlfix=1&adurl=https://careers.netapp.com/engineering%3Fss%3Dpaid%26utm_campaign%3DTB360-PROS-P%26utm_medium%3Ddisplay%26utm_source%3DTalentBrew360%26utm_content%3D446346919%26jobpipeline%3Drd_display
+                    - img "Advertisement" [ref=f3130e5]
+                  - generic [ref=f3130e6]:
+                    - generic:
+                      - generic [ref=f3130e7] [cursor=pointer]
+                      - button [ref=f3130e12] [cursor=pointer]
+            - paragraph [ref=f3125e108]:
+              - strong [ref=f3125e109]: "Educational Criteria:"
+              - text: BE/B.Tech/BSC/MCA/MS/M.Tech or Related
+            - paragraph [ref=f3125e110]:
+              - strong [ref=f3125e111]: Batch
+              - text: ": 2026/2025/2024/2023 or Any"
+            - heading [level=3] [ref=f3125e112]:
+              - strong [ref=f3125e113]: "Job Description:"
+            - paragraph [ref=f3125e114]: As an Entry-Level Software Engineer (IC1), you will contribute to the development, testing, and maintenance of scalable software services. Working closely with senior engineers, you will build strong programming skills, apply core computer science fundamentals, and follow engineering best practices to deliver high-quality solutions.
+            - paragraph [ref=f3125e115]: This role is ideal for candidates with solid knowledge of data structures, algorithms, and object-oriented programming who are eager to learn modern technologies and grow in a collaborative, fast-paced environment.
+            - paragraph [ref=f3125e116]:
+              - strong [ref=f3125e117]: 3. Key Responsibilities
+            - list [ref=f3125e118]:
+              - listitem [ref=f3125e119]: Design, develop, test, and maintain software components under the guidance of senior engineers.
+              - listitem [ref=f3125e120]: Write clean, efficient, and well-documented code following established engineering standards.
+              - listitem [ref=f3125e121]: Participate in code reviews and incorporate feedback to improve code quality.
+              - listitem [ref=f3125e122]: Assist in building scalable services and applications while learning distributed systems concepts.
+              - listitem [ref=f3125e123]: Troubleshoot issues, debug applications, and support ongoing improvements in system reliability and performance.
+              - listitem [ref=f3125e124]: Collaborate with cross-functional teams to deliver features on time.
+              - listitem [ref=f3125e125]: Continuously learn new technologies, tools, and development practices.
+              - listitem [ref=f3125e126]: Contribute to team discussions and actively engage in improving engineering processes.
+            - paragraph [ref=f3125e127]:
+              - strong [ref=f3125e128]: 4. Qualifications & Skills
+              - link "Civil Engineering" [ref=f3125e129] [cursor=pointer]
+            - paragraph [ref=f3125e133]:
+              - strong [ref=f3125e134]: Summary
+            - list [ref=f3125e135]:
+              - listitem [ref=f3125e136]: Bachelor’s or Master’s degree in Computer Science, Engineering, or a related field.
+              - listitem [ref=f3125e137]: Strong programming fundamentals with proficiency in Java, Python, C&#43;&#43;, or a similar language.
+              - listitem [ref=f3125e138]: Good understanding of data structures, algorithms, and object-oriented design.
+              - listitem [ref=f3125e139]: Familiarity with software development concepts such as APIs, debugging, and version control (Git).
+              - listitem [ref=f3125e140]: Strong problem-solving skills and attention to detail.
+              - listitem [ref=f3125e141]: Good communication skills and willingness to learn in a team environment.
+            - paragraph [ref=f3125e142]:
+              - strong [ref=f3125e143]: Good-to-Have
+            - list [ref=f3125e144]:
+              - listitem [ref=f3125e145]: Internship experience or academic projects demonstrating strong coding ability.
+              - listitem [ref=f3125e146]: Exposure to Cloud concepts, Big Data concepts or modern development tools.
+              - listitem [ref=f3125e147]: Basic understanding of distributed systems or microservices.
+              - listitem [ref=f3125e148]: Familiarity with databases (RDBMS).
+              - listitem [ref=f3125e149]: Experience with open-source projects, hackathons, or competitive programming.
+            - heading [level=4] [ref=f3125e150]:
+              - strong [ref=f3125e151]: "How To Apply:"
+            - paragraph [ref=f3125e152]:
+              - text: The interested and eligible candidates can apply to the Oracle Off Campus Drive through online mode.
+              - link "Recruitment & Staffing" [ref=f3125e153] [cursor=pointer]
+            - insertion [ref=f3125e158]
+            - paragraph [ref=f3125e160]:
+              - strong [ref=f3125e161]: Oracle Drive Apply Link
+              - text: ":"
+              - strong [ref=f3125e162]: Click Here
+              - text: (Expired)
+              - link "Programming" [ref=f3125e163] [cursor=pointer]
+            - generic [ref=f3125e167]:
+              - strong [ref=f3125e168]: "Join Our Whatsapp Group:"
+              - link [ref=f3125e169] [cursor=pointer]:
+                - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+                - strong [ref=f3125e170]: Click Here
+            - insertion [ref=f3125e172]
+          - generic [ref=f3125e174]:
+            - generic [ref=f3125e175]: You May like
+            - generic [ref=f3125e176]:
+              - link "# AWS" [ref=f3125e177] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/aws/
+              - link "# Java" [ref=f3125e178] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/java/
+              - link "# Jobs in Bangalore" [ref=f3125e179] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-bangalore/
+              - link "# Jobs in Chennai" [ref=f3125e180] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-chennai/
+              - link "# Jobs in Hyderabad" [ref=f3125e181] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-hyderabad/
+              - link "# Jobs in Pune" [ref=f3125e182] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-pune/
+              - link "# Linux" [ref=f3125e183] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/linux/
+              - link "# Python" [ref=f3125e184] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/python/
+              - link "# QA" [ref=f3125e185] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/qa/
+          - generic [ref=f3125e187]:
+            - link "Facebook" [ref=f3125e188] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjobsnet.in%2Foracle-health-off-campus-drive-entry-level-software-engineer%2F
+            - link "X (Twitter)" [ref=f3125e192] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fjobsnet.in%2Foracle-health-off-campus-drive-entry-level-software-engineer%2F&text=Oracle%20Health%20Off%20Campus%20Drive%202026%20%3A%20Entry-Level%20Software%20Engineer
+            - link "Reddit" [ref=f3125e196] [cursor=pointer]:
+              - /url: https://reddit.com/submit?url=https%3A%2F%2Fjobsnet.in%2Foracle-health-off-campus-drive-entry-level-software-engineer%2F&title=Oracle%20Health%20Off%20Campus%20Drive%202026%20%3A%20Entry-Level%20Software%20Engineer
+            - link "Telegram" [ref=f3125e200] [cursor=pointer]:
+              - /url: https://t.me/share/url?url=https%3A%2F%2Fjobsnet.in%2Foracle-health-off-campus-drive-entry-level-software-engineer%2F&text=Oracle%20Health%20Off%20Campus%20Drive%202026%20%3A%20Entry-Level%20Software%20Engineer
+            - link "WhatsApp" [ref=f3125e204] [cursor=pointer]:
+              - /url: whatsapp://send?text=https%3A%2F%2Fjobsnet.in%2Foracle-health-off-campus-drive-entry-level-software-engineer%2F
+          - generic [ref=f3125e208]:
+            - link [ref=f3125e209] [cursor=pointer]:
+              - /url: https://jobsnet.in/author/anand/
+              - img "Anand Kumar" [ref=f3125e210]
+            - generic [ref=f3125e213]:
+              - heading "Anand Kumar" [level=5] [ref=f3125e214]
+              - paragraph [ref=f3125e216]:
+                - text: Career Expert & Founder of JobsNet.in. Serving the student community since 2019, I specialize in providing verified job updates and placement material for computer science, IT, engineering and management graduates. With a mission to simplify the job hunt, I have helped thousands of candidates secure roles in top MNCs over the last 7 years.
+                - link "Company News" [ref=f3125e217] [cursor=pointer]
+              - generic [ref=f3125e222]:
+                - link "LinkedIn icon" [ref=f3125e223] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/amar-kumar-sd
+                - link "Website icon" [ref=f3125e226] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - 'link "Articles: 2394" [ref=f3125e229] [cursor=pointer]':
+                - /url: https://jobsnet.in/author/anand/
+          - insertion [ref=f3125e231]
+          - navigation [ref=f3125e233]:
+            - 'link "Previous Post Calix Off Campus Drive 2026: Graduate Trainee SDE - Networking" [ref=f3125e234] [cursor=pointer]':
+              - /url: https://jobsnet.in/calix-off-campus-drive-2026-graduate-trainee-sde-networking/
+              - figure [ref=f3125e235]
+              - generic [ref=f3125e238]:
+                - generic [ref=f3125e239]: Previous Post
+                - generic [ref=f3125e240]: "Calix Off Campus Drive 2026: Graduate Trainee SDE - Networking"
+            - 'link "Next Post Natwest Technology Off Campus Drive 2026 : Software Engineer - Freshers" [ref=f3125e241] [cursor=pointer]':
+              - /url: https://jobsnet.in/natwest-technology-off-campus-drive-software-engineer-freshers/
+              - generic [ref=f3125e242]:
+                - generic [ref=f3125e243]: Next Post
+                - generic [ref=f3125e244]: "Natwest Technology Off Campus Drive 2026 : Software Engineer - Freshers"
+              - figure [ref=f3125e245]
+          - generic [ref=f3125e248]:
+            - heading "Related" [level=3] [ref=f3125e249]
+            - generic [ref=f3125e250]:
+              - article [ref=f3125e251]:
+                - generic [ref=f3125e252]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f3125e253] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                  - paragraph [ref=f3125e254]:
+                    - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f3125e255] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+              - article [ref=f3125e256]:
+                - generic [ref=f3125e257]:
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f3125e258] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                    - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f3125e259]
+                  - paragraph [ref=f3125e260]:
+                    - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f3125e261] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+              - article [ref=f3125e262]:
+                - generic [ref=f3125e263]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f3125e264] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                  - paragraph [ref=f3125e265]:
+                    - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f3125e266] [cursor=pointer]:
+                      - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+        - complementary [ref=f3125e267]:
+          - generic [ref=f3125e268]:
+            - heading "Search Jobs" [level=3] [ref=f3125e271]
+            - textbox "search" [ref=f3125e278]
+            - insertion [ref=f3125e280]:
+              - iframe [ref=f3125e282]:
+                - generic [ref=f3131e2]:
+                  - link [ref=f3131e4] [cursor=pointer]:
+                    - /url: https://ad.doubleclick.net/pcs/click?xai=AKAOjssFTI6iNKcjL3pc2nZBQadJoQNjQMn6jPZ5Om2k9rklEWGVjq0IIRJUInyDwAfVqGAoRczP9qnHOS0hU02mg2x_XJEAJoeQaaQpUu-HHQQ27iy0Ate-4lwYzU2uUTqby0j0pBs8va3_QYfTVlu_VkHbVOg85R4q5pOpKRTP2c3FOdyi9VG6xSIag3ehSv5sxVCDRbsCyVBlG9_HphXRuirAHcsaunDP5jeZUretDL-693zobnKguhCLvuApdChf5Bmnpe-MZscCv8RT9m7pQtIR4U_GfMXb3MFRj5yjwPJWlz-UyhGMUXTfAVtqLnPcYdCp47SLUXbvnIhtovn2hZslhUXdcbDpOsc3rNygnwXKpD31nUfD9kPX9t6MteTdZrte3zdu6CbeUaJ8rainbJ9ji35naMTglGXwgz2gT3Yjb1sOTyy-B3kIMOXzy3fM62ZJqRYh2vw1jXMDgCDAXX1YVnT6Ul7ZexFXOE3gqFvK0L4jWeeB0eSDUzKhSbKtdw3V7pAGB-8AoGErsjF6kL5szx0cGPXQS_e3L4pm-nKfSJRz0gCCwwRPneHTzVUI1cdpDmUVGiguOBdyKEbC2ffG4KF8H6EClH1yaarBjOxez8c709-xWK4riZ2GJT6-3PZAq64SkhsoW2rIpzDbGCk5vfAv0x1L3-BWnfEF8h5MX6csRMjEyv1VVFC2-OWKY1aMRjcmgbmmrTVC0XXxOSVHVhzPwfquIAmK6AZs4D14HhBarikHNBsefXVx_p6XwPP4LRTznYg-FFmnFsijoLD0hdpeBNm_1W5CeolXNooOFDuI_Kz8_MnpfYWuL0Kkz1tsP4ecUgSqs_qrpbEa0c9FiWbMQKhowlAF_Hwtbo6DSgtArKC2qrlFoWtj3Tgrev4hCAz-H2P4ifdbfmOba9Beif99GJ4k7nkHsiktlBE1md05e9c2PFgiLawdY8Fj5dkPoWtFPQkuxnHNzQEWCwKLyBSQvTw7P51AsaVnmgLbKSfcyhIT0lCLUcbKME6l-y1svsXz2M2bqHH8MIhluUDLLKULYy2a3mk5z-o47s_nvC_fpdPlzTwkrInfIxHvmfA2ZXMjii9Rx1VPXTxEp1GNusj1Rps8_M1bAZdxHsIkEFZrY1dBU9xtaui5PWIamx24nrLPmow6yYM29CYN7m4Powq6-NR-WVPv32ZT0G1OH_XLz17UVhXARRB5AN1ckg4miYWtQdNO1nvdOunRvgSkipdSAysfREnSCjx0RYUE2Rbik0shrAAAoeGeWAvZHWDbwTc-GBih_V_EHma-X8F27xRLh3TdDbNb-pylGZFt2WHgS2cz4owEPTGReZzF1Q5LWPkgDcaOyKTc2fANq5GhWTYpPZcYAx1MuGCFDX_7EOl9RGMiAoHiQ3Hc05CyZzG978AoIdhKB50iBYBTXb5v6eHxADoy-852wZ3Xe179JhluAk9uNK7opW9OtnYQjubX1m0op6W-lYqNY9Ov1hJzUKmXA3DnCztQagFyKTu-BV6fAqpXEwEgBwVASyubn4QQXYTN8b5sG4VwhMa_jOgeUkBZUOWVAD2Qzl1VMwz4EM4YcIdsg2ckpmkcNuvoyQ90V8p4i0rW1fTVBSMman8XisjKYwPQ5D6u4RxiECp_F5Y3trgne9RAteg0w4oJ5Ad9ji8iNuY2J5t4csb3k027fYcH_BvR5jvKWfQCYImNcCtHEuM6Q7WpmpcANhjGXslG_qg2Ppw6cRIw08F_cH--qxe4X0hzrw-Co4BqwlFHUjxBslWhG0il8h-g5zV23VCMm1PIEQyjIYXI8FWJ9pqc7aY8pwPWYjBlXm0AJ7cQq_vWWfxtSBAvWe3-FxlQrnqEe94&sai=AMfl-YQ8HO9ukzdXYBaKSYraxD3-GzXjD2-TJxrL_AyRK0Vse4aghET0hCOOQakGXhZOZPL2Zhw1Z2bEA3N_WBrglhJY3iIsFO0B1sjBh5n8oKS5IUvyoab--LGW0tHf73S3Vue5C8h5b7opq2xzJD-B7DBbx9LFYGFq1HI9d3RMkMD9iUF8HAlsfQcv5x-IlmwUw48Jeokb3Qy5PnfPszfxRU9N4uwxYQvIZLoXL42fyUYVinFoUCB2aaaYdMrdDTuauE-MgP7BN0gtDu_QZYUxUG1KnWwZI3MKN-PmWddmsrvZDUOakLw3PusIoyvMHVWWHM8BeBeFSTegBkz7hafWijRu3pjfeaoUPao301Umqc8WTxqMZtTawrjiel1xUlQq0Dd3S6hGk_73rPdLQJh5Q-3tQS6B94RAejGX18mpN7R_-fEXKuR6A8CDU_PMy5pgXrPL_gyuG694Omu_J5RG-cIUjl9sBQMEdVbuSoOrxl5zAU6NOEWRi2d6YG8F-gbi5pN0bGFzKjk-trAq9qa2icTitnPD759VO1mWze9aP4yqTF46ZA8SceQTj_53JvXUAGLeYQJ9MW1OKH69iRqKrKIagGXc4oRFyTLR4Xv3I3xZ1fGlEKsvSW45v586rGhzh1Jm_mxm6quRBcllXG4kLF6PxPEKWxGhO3q52LAZ580qoBCtpxhJwLNGwKUZYgonI8BB2ONC8OoAH9ZCf6MIOkOPgJB45jcbNRs2rRCi4FsbR0Y28z1luEUFPU3tDs6wC05RYPb1X0NwDRAuqBXiWfqOB6D66V2UeadA5WO878OhjwkttMq5ZhOHYbyQ0eSBqqadGF3WDSBIuEO4GQIjzO7hBYVaEUOoDL2zINRVVJ2ZXzn8wN-rQcVpgWvO5aOG_NM&sig=Cg0ArKJSzLUuvAcbZjT-&fbs_aeid=%5Bgw_fbsaeid%5D&crd=aHR0cHM6Ly9uZXRhcHAuY29t&urlfix=1&adurl=https://careers.netapp.com/engineering%3Fss%3Dpaid%26utm_campaign%3DTB360-PROS-P%26utm_medium%3Ddisplay%26utm_source%3DTalentBrew360%26utm_content%3D446346919%26jobpipeline%3Drd_display
+                    - img "Advertisement" [ref=f3131e5]
+                  - generic [ref=f3131e6]:
+                    - generic:
+                      - generic [ref=f3131e7] [cursor=pointer]
+                      - button [ref=f3131e12] [cursor=pointer]
+            - generic [ref=f3125e283]:
+              - heading "Latest Updates" [level=3] [ref=f3125e284]
+              - list [ref=f3125e286]:
+                - listitem [ref=f3125e287]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f3125e289] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                - listitem [ref=f3125e290]:
+                  - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f3125e292]
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f3125e293] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                - listitem [ref=f3125e294]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f3125e296] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                - listitem [ref=f3125e297]:
+                  - img "Accenture Mega Off Campus Drive For Freshers - Associate Software Engineer" [ref=f3125e299]
+                  - link "Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)" [ref=f3125e300] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-entry-level-custom-software-engineer-python/
+                - listitem [ref=f3125e301]:
+                  - img "Cornerstone Off Campus Drive - Hiring Junior Engineer" [ref=f3125e303]
+                  - link "Cornerstone Hiring Entry Level Junior Engineer – Cloud Ops" [ref=f3125e304] [cursor=pointer]:
+                    - /url: https://jobsnet.in/cornerstone-hiring-entry-level-junior-engineer-cloud-ops/
+                - listitem [ref=f3125e305]:
+                  - link "Calix Off Campus Drive 2026 – Hiring Graduate Trainee – Test & QA" [ref=f3125e307] [cursor=pointer]:
+                    - /url: https://jobsnet.in/calix-off-campus-drive-hiring-graduate-trainee-test-qa/
+                - listitem [ref=f3125e308]:
+                  - link "HDFC Life Off Campus Drive 2026 – Graduate Trainee – Data Science & Analytics" [ref=f3125e310] [cursor=pointer]:
+                    - /url: https://jobsnet.in/hdfc-life-off-campus-drive-graduate-trainee-data-science-analytics/
+                - listitem [ref=f3125e311]:
+                  - img "Yash Technologies Hiring Freshers QA Trainee - Pune/Indore/Hyderabad" [ref=f3125e313]
+                  - link "Yash Technologies Off Campus Drive 2026 – AI/ML Trainee" [ref=f3125e314] [cursor=pointer]:
+                    - /url: https://jobsnet.in/yash-technologies-off-campus-drive-hiring-ai-ml-trainee/
+                - listitem [ref=f3125e315]:
+                  - img "White Twilio logo and four-dot icon on a red background." [ref=f3125e317]
+                  - link "Twilio Off Campus Drive 2026 – Associate Application Engineer- Remote" [ref=f3125e318] [cursor=pointer]:
+                    - /url: https://jobsnet.in/twilio-off-campus-drive-associate-application-engineer-remote/
+                - listitem [ref=f3125e319]:
+                  - img "Accenture Hiring Any Graduate Freshers As Network Associate" [ref=f3125e321]
+                  - link "Accenture Hiring Application Support Engineer – Any Graduate (0-2 Years)" [ref=f3125e322] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-application-support-engineer-any-graduate-0-2-years/
+            - insertion [ref=f3125e325]
+    - contentinfo [ref=f3125e327]:
+      - generic [ref=f3125e329]:
+        - paragraph [ref=f3125e332]: © 2026 Jobsnet.in
+        - navigation "footermenu" [ref=f3125e334]:
+          - list [ref=f3125e335]:
+            - listitem [ref=f3125e336]:
+              - link "Home" [ref=f3125e337] [cursor=pointer]:
+                - /url: https://jobsnet.in
+            - listitem [ref=f3125e338]:
+              - link "About us" [ref=f3125e339] [cursor=pointer]:
+                - /url: https://jobsnet.in/about-us/
+            - listitem [ref=f3125e340]:
+              - link "Contact Us" [ref=f3125e341] [cursor=pointer]:
+                - /url: https://jobsnet.in/contact/
+            - listitem [ref=f3125e342]:
+              - link "Advertise With Us" [ref=f3125e343] [cursor=pointer]:
+                - /url: https://jobsnet.in/advertise/
+            - listitem [ref=f3125e344]:
+              - link "Terms" [ref=f3125e345] [cursor=pointer]:
+                - /url: https://jobsnet.in/terms-and-conditions/
+            - listitem [ref=f3125e346]:
+              - link "Privacy" [ref=f3125e347] [cursor=pointer]:
+                - /url: https://jobsnet.in/privacy-policy/
+  - generic [ref=f3125e348]:
+    - generic [ref=f3125e349] [cursor=pointer]: CLOSE [X]
+    - insertion [ref=f3125e351]:
+      - iframe [ref=f3125e353]:
+        - generic [ref=f3132e1]:
+          - generic [ref=f3132e6]:
+            - link [ref=f3132e7] [cursor=pointer]:
+              - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C3yNrwkd0aormGcSC4dkPt_qmoA259qOfiAH1-cqf8BXHpYTmlQ4QASCJgvF0YOWa6YPgDqABnILy_j3IAQmpAi9gdjmTlLY-qAMByAPLBKoEnAJP0H8fYnLN7DkOLhJQXaMdXWoIO0r9XJAG3uq_KoOngH3BJPOQ_bG_rWlW1URtvqDN8ywOpQSS7jJOqOPYYjtTjt13xg5siMq4LfY6QCVKpzGi5m5LEwJm6CMtA4pTwk0mQzEFno6YdBkPxjdpYVVbKTGL09pM45jRILwATXos3id7qI7Kf6pVCp_M9o8MG8eKhWLa5BrPrso8qZObSdCMrzZ57Tr5C4FjaK6XM_uPi-fqMUPLXaIRzRTKY83k4Kry4zfWQbpbeMRp-ZZNTumHq2Kl6QgmxZHoomaopUkjEOqiy759KR6AaDCgwqj1rMRJ1K3IF_T8c-FB4q9QmGyDzXW8CkJOwMEV_sr6UASvghsSXTRYZM8eUNCuusAEwcGzv98FiAXnn9y2WZAGAaAGLoAHnLrC3hiIBwGQBwKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOlix-NffzIuWA2ABsQkyO2qNykY7ioAKAZgLAcgLAYAMAaIMDCoKCgiO37ECleKxAqoNAklOyA0B6g0TCI7V2d_Mi5YDFURBOAUdN70J1PANAogOCbAO4ab-hxnYEwzQFQHKFgIKAPgWAYAXAbIXEBgBKgoyNzY4NTMwNjU4UAa6FwI4AaoYFwkAAAAAcRw2QRIKMjc2ODUzMDY1OBgBshgJEgKLVBguIgEA0BgBwhkCCAE&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSmceQ_OrBxW9LYu0hvHIQv6SoSGKQm77YRK0YNR-YwBIV0podB21HRoChkQQAvD_BwE&num=1&cid=CAQS-gEAEQoqgZPXwRxIUojA5ly5OzzBS3U2C9QKJbrgnwqAvTbc5FuswbzYPFiq6IIrXaddn6-n2_KqffomilEfaZEs-7wZEz1e83_356VKo8WocKwR24F-LFVihCX922YyaOJjztXa0nSRdundItLe_AvUc01M6m0kqt84FC0LndsuMEa1ggU0y-_1GMcCUefhwKfsKkl2jkAxBiRxcwl-Oj6-lkiiJtMZkQ_vGH-djtNBrIXZ0keJgBJMzRc6ntQmqH8_Dt_jJWvt4IRKib0_dPPVYXhzcv6L4HQ3L-LpeW3uDsmwEZRDsktO6Owf6POFpkxa35E0PMzHeIYKGAE&sig=AOD64_1oTRYLCXGKBS3k8BNBq4ojY6NeXg&client=ca-pub-9713759261380411&rf=1&nb=9&adurl=https://www.bath.ac.uk/campaigns/experience-bath-in-our-live-web-chats/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dadgen-brand_awareness-ug-all_audiences-india-pmax-ug_central_2026-202607%26utm_id%3D501164_24001056398%26gad_source%3D5%26gad_campaignid%3D24005513191%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSmceQ_OrBxW9LYu0hvHIQv6SoSGKQm77YRK0YNR-YwBIV0podB21HRoChkQQAvD_BwE
+            - generic [ref=f3132e10]:
+              - generic [ref=f3132e13]:
+                - link "Prepare for your Future Career" [ref=f3132e17] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C3yNrwkd0aormGcSC4dkPt_qmoA259qOfiAH1-cqf8BXHpYTmlQ4QASCJgvF0YOWa6YPgDqABnILy_j3IAQmpAi9gdjmTlLY-qAMByAPLBKoEnAJP0H8fYnLN7DkOLhJQXaMdXWoIO0r9XJAG3uq_KoOngH3BJPOQ_bG_rWlW1URtvqDN8ywOpQSS7jJOqOPYYjtTjt13xg5siMq4LfY6QCVKpzGi5m5LEwJm6CMtA4pTwk0mQzEFno6YdBkPxjdpYVVbKTGL09pM45jRILwATXos3id7qI7Kf6pVCp_M9o8MG8eKhWLa5BrPrso8qZObSdCMrzZ57Tr5C4FjaK6XM_uPi-fqMUPLXaIRzRTKY83k4Kry4zfWQbpbeMRp-ZZNTumHq2Kl6QgmxZHoomaopUkjEOqiy759KR6AaDCgwqj1rMRJ1K3IF_T8c-FB4q9QmGyDzXW8CkJOwMEV_sr6UASvghsSXTRYZM8eUNCuusAEwcGzv98FiAXnn9y2WZAGAaAGLoAHnLrC3hiIBwGQBwKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOlix-NffzIuWA2ABsQkyO2qNykY7ioAKAZgLAcgLAYAMAaIMDCoKCgiO37ECleKxAqoNAklOyA0B6g0TCI7V2d_Mi5YDFURBOAUdN70J1PANAogOCbAO4ab-hxnYEwzQFQHKFgIKAPgWAYAXAbIXEBgBKgoyNzY4NTMwNjU4UAa6FwI4AaoYFwkAAAAAcRw2QRIKMjc2ODUzMDY1OBgBshgJEgKLVBguIgEA0BgBwhkCCAE&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSmceQ_OrBxW9LYu0hvHIQv6SoSGKQm77YRK0YNR-YwBIV0podB21HRoChkQQAvD_BwE&num=1&cid=CAQS-gEAEQoqgZPXwRxIUojA5ly5OzzBS3U2C9QKJbrgnwqAvTbc5FuswbzYPFiq6IIrXaddn6-n2_KqffomilEfaZEs-7wZEz1e83_356VKo8WocKwR24F-LFVihCX922YyaOJjztXa0nSRdundItLe_AvUc01M6m0kqt84FC0LndsuMEa1ggU0y-_1GMcCUefhwKfsKkl2jkAxBiRxcwl-Oj6-lkiiJtMZkQ_vGH-djtNBrIXZ0keJgBJMzRc6ntQmqH8_Dt_jJWvt4IRKib0_dPPVYXhzcv6L4HQ3L-LpeW3uDsmwEZRDsktO6Owf6POFpkxa35E0PMzHeIYKGAE&sig=AOD64_1oTRYLCXGKBS3k8BNBq4ojY6NeXg&client=ca-pub-9713759261380411&rf=1&nb=0&adurl=https://www.bath.ac.uk/campaigns/experience-bath-in-our-live-web-chats/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dadgen-brand_awareness-ug-all_audiences-india-pmax-ug_central_2026-202607%26utm_id%3D501164_24001056398%26gad_source%3D5%26gad_campaignid%3D24005513191%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSmceQ_OrBxW9LYu0hvHIQv6SoSGKQm77YRK0YNR-YwBIV0podB21HRoChkQQAvD_BwE
+                  - text: Prepare for your FutureCareer
+                - link "Study in a friendly, safe and well-connected city, only 80 minutes from London." [ref=f3132e21] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C3yNrwkd0aormGcSC4dkPt_qmoA259qOfiAH1-cqf8BXHpYTmlQ4QASCJgvF0YOWa6YPgDqABnILy_j3IAQmpAi9gdjmTlLY-qAMByAPLBKoEnAJP0H8fYnLN7DkOLhJQXaMdXWoIO0r9XJAG3uq_KoOngH3BJPOQ_bG_rWlW1URtvqDN8ywOpQSS7jJOqOPYYjtTjt13xg5siMq4LfY6QCVKpzGi5m5LEwJm6CMtA4pTwk0mQzEFno6YdBkPxjdpYVVbKTGL09pM45jRILwATXos3id7qI7Kf6pVCp_M9o8MG8eKhWLa5BrPrso8qZObSdCMrzZ57Tr5C4FjaK6XM_uPi-fqMUPLXaIRzRTKY83k4Kry4zfWQbpbeMRp-ZZNTumHq2Kl6QgmxZHoomaopUkjEOqiy759KR6AaDCgwqj1rMRJ1K3IF_T8c-FB4q9QmGyDzXW8CkJOwMEV_sr6UASvghsSXTRYZM8eUNCuusAEwcGzv98FiAXnn9y2WZAGAaAGLoAHnLrC3hiIBwGQBwKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOlix-NffzIuWA2ABsQkyO2qNykY7ioAKAZgLAcgLAYAMAaIMDCoKCgiO37ECleKxAqoNAklOyA0B6g0TCI7V2d_Mi5YDFURBOAUdN70J1PANAogOCbAO4ab-hxnYEwzQFQHKFgIKAPgWAYAXAbIXEBgBKgoyNzY4NTMwNjU4UAa6FwI4AaoYFwkAAAAAcRw2QRIKMjc2ODUzMDY1OBgBshgJEgKLVBguIgEA0BgBwhkCCAE&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSmceQ_OrBxW9LYu0hvHIQv6SoSGKQm77YRK0YNR-YwBIV0podB21HRoChkQQAvD_BwE&num=1&cid=CAQS-gEAEQoqgZPXwRxIUojA5ly5OzzBS3U2C9QKJbrgnwqAvTbc5FuswbzYPFiq6IIrXaddn6-n2_KqffomilEfaZEs-7wZEz1e83_356VKo8WocKwR24F-LFVihCX922YyaOJjztXa0nSRdundItLe_AvUc01M6m0kqt84FC0LndsuMEa1ggU0y-_1GMcCUefhwKfsKkl2jkAxBiRxcwl-Oj6-lkiiJtMZkQ_vGH-djtNBrIXZ0keJgBJMzRc6ntQmqH8_Dt_jJWvt4IRKib0_dPPVYXhzcv6L4HQ3L-LpeW3uDsmwEZRDsktO6Owf6POFpkxa35E0PMzHeIYKGAE&sig=AOD64_1oTRYLCXGKBS3k8BNBq4ojY6NeXg&client=ca-pub-9713759261380411&rf=1&nb=7&adurl=https://www.bath.ac.uk/campaigns/experience-bath-in-our-live-web-chats/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dadgen-brand_awareness-ug-all_audiences-india-pmax-ug_central_2026-202607%26utm_id%3D501164_24001056398%26gad_source%3D5%26gad_campaignid%3D24005513191%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSmceQ_OrBxW9LYu0hvHIQv6SoSGKQm77YRK0YNR-YwBIV0podB21HRoChkQQAvD_BwE
+                  - text: Study in a friendly, safe and well-connected city, only80 minutes from London.
+              - generic [ref=f3132e24]:
+                - link:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C3yNrwkd0aormGcSC4dkPt_qmoA259qOfiAH1-cqf8BXHpYTmlQ4QASCJgvF0YOWa6YPgDqABnILy_j3IAQmpAi9gdjmTlLY-qAMByAPLBKoEnAJP0H8fYnLN7DkOLhJQXaMdXWoIO0r9XJAG3uq_KoOngH3BJPOQ_bG_rWlW1URtvqDN8ywOpQSS7jJOqOPYYjtTjt13xg5siMq4LfY6QCVKpzGi5m5LEwJm6CMtA4pTwk0mQzEFno6YdBkPxjdpYVVbKTGL09pM45jRILwATXos3id7qI7Kf6pVCp_M9o8MG8eKhWLa5BrPrso8qZObSdCMrzZ57Tr5C4FjaK6XM_uPi-fqMUPLXaIRzRTKY83k4Kry4zfWQbpbeMRp-ZZNTumHq2Kl6QgmxZHoomaopUkjEOqiy759KR6AaDCgwqj1rMRJ1K3IF_T8c-FB4q9QmGyDzXW8CkJOwMEV_sr6UASvghsSXTRYZM8eUNCuusAEwcGzv98FiAXnn9y2WZAGAaAGLoAHnLrC3hiIBwGQBwKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOlix-NffzIuWA2ABsQkyO2qNykY7ioAKAZgLAcgLAYAMAaIMDCoKCgiO37ECleKxAqoNAklOyA0B6g0TCI7V2d_Mi5YDFURBOAUdN70J1PANAogOCbAO4ab-hxnYEwzQFQHKFgIKAPgWAYAXAbIXEBgBKgoyNzY4NTMwNjU4UAa6FwI4AaoYFwkAAAAAcRw2QRIKMjc2ODUzMDY1OBgBshgJEgKLVBguIgEA0BgBwhkCCAE&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSmceQ_OrBxW9LYu0hvHIQv6SoSGKQm77YRK0YNR-YwBIV0podB21HRoChkQQAvD_BwE&num=1&cid=CAQS-gEAEQoqgZPXwRxIUojA5ly5OzzBS3U2C9QKJbrgnwqAvTbc5FuswbzYPFiq6IIrXaddn6-n2_KqffomilEfaZEs-7wZEz1e83_356VKo8WocKwR24F-LFVihCX922YyaOJjztXa0nSRdundItLe_AvUc01M6m0kqt84FC0LndsuMEa1ggU0y-_1GMcCUefhwKfsKkl2jkAxBiRxcwl-Oj6-lkiiJtMZkQ_vGH-djtNBrIXZ0keJgBJMzRc6ntQmqH8_Dt_jJWvt4IRKib0_dPPVYXhzcv6L4HQ3L-LpeW3uDsmwEZRDsktO6Owf6POFpkxa35E0PMzHeIYKGAE&sig=AOD64_1oTRYLCXGKBS3k8BNBq4ojY6NeXg&client=ca-pub-9713759261380411&rf=1&nb=8&adurl=https://www.bath.ac.uk/campaigns/experience-bath-in-our-live-web-chats/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dadgen-brand_awareness-ug-all_audiences-india-pmax-ug_central_2026-202607%26utm_id%3D501164_24001056398%26gad_source%3D5%26gad_campaignid%3D24005513191%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSmceQ_OrBxW9LYu0hvHIQv6SoSGKQm77YRK0YNR-YwBIV0podB21HRoChkQQAvD_BwE
+                - link "University of Bath" [ref=f3132e26] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C3yNrwkd0aormGcSC4dkPt_qmoA259qOfiAH1-cqf8BXHpYTmlQ4QASCJgvF0YOWa6YPgDqABnILy_j3IAQmpAi9gdjmTlLY-qAMByAPLBKoEnAJP0H8fYnLN7DkOLhJQXaMdXWoIO0r9XJAG3uq_KoOngH3BJPOQ_bG_rWlW1URtvqDN8ywOpQSS7jJOqOPYYjtTjt13xg5siMq4LfY6QCVKpzGi5m5LEwJm6CMtA4pTwk0mQzEFno6YdBkPxjdpYVVbKTGL09pM45jRILwATXos3id7qI7Kf6pVCp_M9o8MG8eKhWLa5BrPrso8qZObSdCMrzZ57Tr5C4FjaK6XM_uPi-fqMUPLXaIRzRTKY83k4Kry4zfWQbpbeMRp-ZZNTumHq2Kl6QgmxZHoomaopUkjEOqiy759KR6AaDCgwqj1rMRJ1K3IF_T8c-FB4q9QmGyDzXW8CkJOwMEV_sr6UASvghsSXTRYZM8eUNCuusAEwcGzv98FiAXnn9y2WZAGAaAGLoAHnLrC3hiIBwGQBwKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOlix-NffzIuWA2ABsQkyO2qNykY7ioAKAZgLAcgLAYAMAaIMDCoKCgiO37ECleKxAqoNAklOyA0B6g0TCI7V2d_Mi5YDFURBOAUdN70J1PANAogOCbAO4ab-hxnYEwzQFQHKFgIKAPgWAYAXAbIXEBgBKgoyNzY4NTMwNjU4UAa6FwI4AaoYFwkAAAAAcRw2QRIKMjc2ODUzMDY1OBgBshgJEgKLVBguIgEA0BgBwhkCCAE&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSmceQ_OrBxW9LYu0hvHIQv6SoSGKQm77YRK0YNR-YwBIV0podB21HRoChkQQAvD_BwE&num=1&cid=CAQS-gEAEQoqgZPXwRxIUojA5ly5OzzBS3U2C9QKJbrgnwqAvTbc5FuswbzYPFiq6IIrXaddn6-n2_KqffomilEfaZEs-7wZEz1e83_356VKo8WocKwR24F-LFVihCX922YyaOJjztXa0nSRdundItLe_AvUc01M6m0kqt84FC0LndsuMEa1ggU0y-_1GMcCUefhwKfsKkl2jkAxBiRxcwl-Oj6-lkiiJtMZkQ_vGH-djtNBrIXZ0keJgBJMzRc6ntQmqH8_Dt_jJWvt4IRKib0_dPPVYXhzcv6L4HQ3L-LpeW3uDsmwEZRDsktO6Owf6POFpkxa35E0PMzHeIYKGAE&sig=AOD64_1oTRYLCXGKBS3k8BNBq4ojY6NeXg&client=ca-pub-9713759261380411&rf=1&nb=1&adurl=https://www.bath.ac.uk/campaigns/experience-bath-in-our-live-web-chats/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dadgen-brand_awareness-ug-all_audiences-india-pmax-ug_central_2026-202607%26utm_id%3D501164_24001056398%26gad_source%3D5%26gad_campaignid%3D24005513191%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSmceQ_OrBxW9LYu0hvHIQv6SoSGKQm77YRK0YNR-YwBIV0podB21HRoChkQQAvD_BwE
+                - link "Learn More" [ref=f3132e28] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C3yNrwkd0aormGcSC4dkPt_qmoA259qOfiAH1-cqf8BXHpYTmlQ4QASCJgvF0YOWa6YPgDqABnILy_j3IAQmpAi9gdjmTlLY-qAMByAPLBKoEnAJP0H8fYnLN7DkOLhJQXaMdXWoIO0r9XJAG3uq_KoOngH3BJPOQ_bG_rWlW1URtvqDN8ywOpQSS7jJOqOPYYjtTjt13xg5siMq4LfY6QCVKpzGi5m5LEwJm6CMtA4pTwk0mQzEFno6YdBkPxjdpYVVbKTGL09pM45jRILwATXos3id7qI7Kf6pVCp_M9o8MG8eKhWLa5BrPrso8qZObSdCMrzZ57Tr5C4FjaK6XM_uPi-fqMUPLXaIRzRTKY83k4Kry4zfWQbpbeMRp-ZZNTumHq2Kl6QgmxZHoomaopUkjEOqiy759KR6AaDCgwqj1rMRJ1K3IF_T8c-FB4q9QmGyDzXW8CkJOwMEV_sr6UASvghsSXTRYZM8eUNCuusAEwcGzv98FiAXnn9y2WZAGAaAGLoAHnLrC3hiIBwGQBwKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOlix-NffzIuWA2ABsQkyO2qNykY7ioAKAZgLAcgLAYAMAaIMDCoKCgiO37ECleKxAqoNAklOyA0B6g0TCI7V2d_Mi5YDFURBOAUdN70J1PANAogOCbAO4ab-hxnYEwzQFQHKFgIKAPgWAYAXAbIXEBgBKgoyNzY4NTMwNjU4UAa6FwI4AaoYFwkAAAAAcRw2QRIKMjc2ODUzMDY1OBgBshgJEgKLVBguIgEA0BgBwhkCCAE&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSmceQ_OrBxW9LYu0hvHIQv6SoSGKQm77YRK0YNR-YwBIV0podB21HRoChkQQAvD_BwE&num=1&cid=CAQS-gEAEQoqgZPXwRxIUojA5ly5OzzBS3U2C9QKJbrgnwqAvTbc5FuswbzYPFiq6IIrXaddn6-n2_KqffomilEfaZEs-7wZEz1e83_356VKo8WocKwR24F-LFVihCX922YyaOJjztXa0nSRdundItLe_AvUc01M6m0kqt84FC0LndsuMEa1ggU0y-_1GMcCUefhwKfsKkl2jkAxBiRxcwl-Oj6-lkiiJtMZkQ_vGH-djtNBrIXZ0keJgBJMzRc6ntQmqH8_Dt_jJWvt4IRKib0_dPPVYXhzcv6L4HQ3L-LpeW3uDsmwEZRDsktO6Owf6POFpkxa35E0PMzHeIYKGAE&sig=AOD64_1oTRYLCXGKBS3k8BNBq4ojY6NeXg&client=ca-pub-9713759261380411&rf=1&nb=8&adurl=https://www.bath.ac.uk/campaigns/experience-bath-in-our-live-web-chats/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dadgen-brand_awareness-ug-all_audiences-india-pmax-ug_central_2026-202607%26utm_id%3D501164_24001056398%26gad_source%3D5%26gad_campaignid%3D24005513191%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSmceQ_OrBxW9LYu0hvHIQv6SoSGKQm77YRK0YNR-YwBIV0podB21HRoChkQQAvD_BwE
+                - link [ref=f3132e29] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C3yNrwkd0aormGcSC4dkPt_qmoA259qOfiAH1-cqf8BXHpYTmlQ4QASCJgvF0YOWa6YPgDqABnILy_j3IAQmpAi9gdjmTlLY-qAMByAPLBKoEnAJP0H8fYnLN7DkOLhJQXaMdXWoIO0r9XJAG3uq_KoOngH3BJPOQ_bG_rWlW1URtvqDN8ywOpQSS7jJOqOPYYjtTjt13xg5siMq4LfY6QCVKpzGi5m5LEwJm6CMtA4pTwk0mQzEFno6YdBkPxjdpYVVbKTGL09pM45jRILwATXos3id7qI7Kf6pVCp_M9o8MG8eKhWLa5BrPrso8qZObSdCMrzZ57Tr5C4FjaK6XM_uPi-fqMUPLXaIRzRTKY83k4Kry4zfWQbpbeMRp-ZZNTumHq2Kl6QgmxZHoomaopUkjEOqiy759KR6AaDCgwqj1rMRJ1K3IF_T8c-FB4q9QmGyDzXW8CkJOwMEV_sr6UASvghsSXTRYZM8eUNCuusAEwcGzv98FiAXnn9y2WZAGAaAGLoAHnLrC3hiIBwGQBwKoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB5_hsQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDcIABACGJoDMgiAgICAgICACDoUn9CAgICABIDAgICAoKiAAqiBgBBIvf3BOlix-NffzIuWA2ABsQkyO2qNykY7ioAKAZgLAcgLAYAMAaIMDCoKCgiO37ECleKxAqoNAklOyA0B6g0TCI7V2d_Mi5YDFURBOAUdN70J1PANAogOCbAO4ab-hxnYEwzQFQHKFgIKAPgWAYAXAbIXEBgBKgoyNzY4NTMwNjU4UAa6FwI4AaoYFwkAAAAAcRw2QRIKMjc2ODUzMDY1OBgBshgJEgKLVBguIgEA0BgBwhkCCAE&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSmceQ_OrBxW9LYu0hvHIQv6SoSGKQm77YRK0YNR-YwBIV0podB21HRoChkQQAvD_BwE&num=1&cid=CAQS-gEAEQoqgZPXwRxIUojA5ly5OzzBS3U2C9QKJbrgnwqAvTbc5FuswbzYPFiq6IIrXaddn6-n2_KqffomilEfaZEs-7wZEz1e83_356VKo8WocKwR24F-LFVihCX922YyaOJjztXa0nSRdundItLe_AvUc01M6m0kqt84FC0LndsuMEa1ggU0y-_1GMcCUefhwKfsKkl2jkAxBiRxcwl-Oj6-lkiiJtMZkQ_vGH-djtNBrIXZ0keJgBJMzRc6ntQmqH8_Dt_jJWvt4IRKib0_dPPVYXhzcv6L4HQ3L-LpeW3uDsmwEZRDsktO6Owf6POFpkxa35E0PMzHeIYKGAE&sig=AOD64_1oTRYLCXGKBS3k8BNBq4ojY6NeXg&client=ca-pub-9713759261380411&rf=1&nb=8&adurl=https://www.bath.ac.uk/campaigns/experience-bath-in-our-live-web-chats/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dadgen-brand_awareness-ug-all_audiences-india-pmax-ug_central_2026-202607%26utm_id%3D501164_24001056398%26gad_source%3D5%26gad_campaignid%3D24005513191%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSmceQ_OrBxW9LYu0hvHIQv6SoSGKQm77YRK0YNR-YwBIV0podB21HRoChkQQAvD_BwE
+          - generic [ref=f3132e39] [cursor=pointer]
+          - button [ref=f3132e44] [cursor=pointer]
+          - iframe
+  - link "Join WhatsApp" [ref=f3125e355] [cursor=pointer]:
+    - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP

@@ -1,0 +1,342 @@
+- generic [active] [ref=f2090e1]:
+  - link "Skip to content" [ref=f2090e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f2090e3]:
+    - banner [ref=f2090e4]:
+      - generic [ref=f2090e7]:
+        - link [ref=f2090e11] [cursor=pointer]:
+          - /url: https://jobsnet.in/
+          - img "Jobsnet.in" [ref=f2090e12]
+        - generic [ref=f2090e14]:
+          - navigation "Main Menu" [ref=f2090e15]:
+            - list [ref=f2090e16]:
+              - listitem [ref=f2090e17]:
+                - link "Home" [ref=f2090e18] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - listitem [ref=f2090e19]:
+                - link "Internships" [ref=f2090e20] [cursor=pointer]:
+                  - /url: https://jobsnet.in/internships/
+              - listitem [ref=f2090e21]:
+                - link "Off Campus Drives" [ref=f2090e22] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+              - listitem [ref=f2090e23]:
+                - link [ref=f2090e24] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+              - listitem [ref=f2090e28]:
+                - link [ref=f2090e29] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+          - button "Search" [ref=f2090e33] [cursor=pointer]
+    - main [ref=f2090e36]:
+      - insertion [ref=f2090e38]:
+        - iframe [ref=f2090e40]:
+          
+      - generic [ref=f2090e41]:
+        - article [ref=f2090e42]:
+          - generic [ref=f2090e44]:
+            - navigation [ref=f2090e45]:
+              - link "Home" [ref=f2090e47] [cursor=pointer]:
+                - /url: https://jobsnet.in/
+              - link "Off Campus Drive" [ref=f2090e51] [cursor=pointer]:
+                - /url: https://jobsnet.in/off-campus-drive/
+              - generic [ref=f2090e54]: "iQuanti Off Campus Drive 2026 : Associate Software Engineer – Freshers"
+            - 'heading "iQuanti Off Campus Drive 2026 : Associate Software Engineer – Freshers" [level=1] [ref=f2090e56]'
+            - list [ref=f2090e57]:
+              - listitem [ref=f2090e58]:
+                - text: By
+                - link "Anand Kumar" [ref=f2090e59] [cursor=pointer]:
+                  - /url: https://jobsnet.in/author/anand/
+                - text: /
+              - listitem [ref=f2090e60]:
+                - text: "On"
+                - time [ref=f2090e61]: May 7, 2026
+          - figure [ref=f2090e62]:
+            - img "iQUANTI logo with a stylized dark gray and orange Q icon." [ref=f2090e64]
+          - generic [ref=f2090e65]:
+            - paragraph [ref=f2090e66]:
+              - text: iQuanti is officially inviting applications for its
+              - strong [ref=f2090e67]: Off Campus Drive 2026
+              - text: ", hiring motivated graduate freshers for the role of"
+              - strong [ref=f2090e68]:
+                - text: Associate Software
+                - link "Engineer" [ref=f2090e69] [cursor=pointer]:
+                  - /url: "#"
+              - text: at their Bangalore office. This is a career-defining opportunity for aspiring developers to join a
+              - emphasis [ref=f2090e72]: leading data-driven digital marketing agency
+              - text: and work on cutting-edge technology solutions in a dynamic professional environment.
+              - link "Software" [ref=f2090e73] [cursor=pointer]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - heading "iQuanti Off Campus Drive 2026" [level=2] [ref=f2090e77]
+            - paragraph [ref=f2090e78]:
+              - text: "Role : Associate Software Engineer"
+              - link "Civil Engineering" [ref=f2090e79] [cursor=pointer]
+            - paragraph [ref=f2090e83]:
+              - strong [ref=f2090e84]: Location
+              - text: ": Bangalore"
+            - generic [ref=f2090e87]:
+              - generic [ref=f2090e88]:
+                - generic [ref=f2090e89]: WhatsApp Channel
+                - link "Join Now" [ref=f2090e91] [cursor=pointer]:
+                  - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+              - generic [ref=f2090e92]:
+                - generic [ref=f2090e93]: Telegram Channel
+                - link "Join Now" [ref=f2090e95] [cursor=pointer]:
+                  - /url: https://telegram.me/campusdrivejobs
+            - paragraph [ref=f2090e96]:
+              - strong [ref=f2090e97]: Salary
+              - text: ": Best in Industry"
+            - paragraph [ref=f2090e98]:
+              - strong [ref=f2090e99]: Experience
+              - text: ": Freshers"
+            - generic [ref=f2090e100]:
+              - insertion:
+                - generic:
+                  - iframe
+            - paragraph [ref=f2090e101]:
+              - strong [ref=f2090e102]: Education
+              - text: ": CS/IT Degree"
+            - heading [level=2] [ref=f2090e103]:
+              - strong [ref=f2090e104]: "Job Description:"
+            - paragraph [ref=f2090e105]: We are looking for an Associate Software Engineer who is dedicated to and is proud of his/her craft. Apart from being able to hit the ground running, the candidate is also expected to write robust code and scale themselves in a way that impacts the platform(s) in a meaningful way.
+            - paragraph [ref=f2090e106]:
+              - text: You will be a part of a Scrum Team that is responsible for all aspects of the ongoing product development from the initial specification, development, testing and eventually releasing
+              - link "software" [ref=f2090e107] [cursor=pointer]:
+                - /url: "#"
+              - text: to multinational clients.
+            - paragraph [ref=f2090e110]:
+              - strong [ref=f2090e111]: Responsibilities
+            - list [ref=f2090e112]:
+              - listitem [ref=f2090e113]: Plan, Design, Architect, Develop, Test and deploy complex web applications on cloud
+              - listitem [ref=f2090e114]: Troubleshoot, test and automate all aspects of product to ensure strong optimization and functionality
+              - listitem [ref=f2090e115]: Adoption of Scrum and other agile practices as applicable
+              - listitem [ref=f2090e116]: Work with product managers to manage feature/product development time-lines and requirements
+              - listitem [ref=f2090e117]: Stay abreast of current trends and best practices in coding standards and cloud technologies
+            - paragraph [ref=f2090e118]:
+              - strong [ref=f2090e119]: Desired Skills & Experience
+              - link "Software" [ref=f2090e120] [cursor=pointer]
+            - list [ref=f2090e124]:
+              - listitem [ref=f2090e125]: Proficiency in a modern OOPs programming language like Python/Java/C++
+              - listitem [ref=f2090e126]: Knowledge of any SQL/NoSQL databases will be a plus
+              - listitem [ref=f2090e127]: Strong written & verbal communication skills
+              - listitem [ref=f2090e128]: Passion for ‘good’ development practices – Unit testing, TDD, BDD, modularity, Micro Services.
+              - listitem [ref=f2090e129]: Interest in working in a cloud-driven architecture
+            - paragraph [ref=f2090e130]:
+              - strong [ref=f2090e131]: Desired qualifications
+            - list [ref=f2090e132]:
+              - listitem [ref=f2090e133]: B.E./B.Tech. CS/IT Graduates with strong programming and analytical skills
+            - list [ref=f2090e134]:
+              - listitem [ref=f2090e135]:
+                - text: Possess a fundamental understanding of basic areas of Computer Science such as Algorithms,
+                - link "Data" [ref=f2090e136] [cursor=pointer]:
+                  - /url: "#"
+                - text: Structures and Object Oriented Programming
+            - heading [level=2] [ref=f2090e139]:
+              - strong [ref=f2090e140]: "How to Apply :"
+            - paragraph [ref=f2090e141]:
+              - text: Click on the following link to apply for iQuanti drive
+              - link "Computer Science" [ref=f2090e142] [cursor=pointer]
+            - insertion [ref=f2090e147]
+            - paragraph [ref=f2090e149]:
+              - strong [ref=f2090e150]: "Apply Link :"
+              - link [ref=f2090e151] [cursor=pointer]:
+                - /url: https://iquanti.darwinbox.in/ms/candidatev2/main/careers/jobDetails/a69e1c66477031
+                - strong [ref=f2090e152]: Click Here to apply for iQuanti Off Campus Drive
+              - link "Dictionaries & Encyclopedias" [ref=f2090e153] [cursor=pointer]
+            - generic [ref=f2090e157]:
+              - strong [ref=f2090e158]: "Join Our Whatsapp Group:"
+              - link [ref=f2090e159] [cursor=pointer]:
+                - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+                - strong [ref=f2090e160]: Click Here
+            - insertion [ref=f2090e162]
+          - generic [ref=f2090e164]:
+            - generic [ref=f2090e165]: You May like
+            - generic [ref=f2090e166]:
+              - link "# AWS" [ref=f2090e167] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/aws/
+              - link "# Java" [ref=f2090e168] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/java/
+              - link "# Jobs in Bangalore" [ref=f2090e169] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-bangalore/
+              - link "# Jobs in Pune" [ref=f2090e170] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-pune/
+              - link "# Linux" [ref=f2090e171] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/linux/
+              - link "# Python" [ref=f2090e172] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/python/
+              - link "# SQL" [ref=f2090e173] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/sql/
+          - generic [ref=f2090e175]:
+            - link "Facebook" [ref=f2090e176] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjobsnet.in%2Fiquanti-off-campus-drive-associate-software-engineer-freshers%2F
+            - link "X (Twitter)" [ref=f2090e180] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fjobsnet.in%2Fiquanti-off-campus-drive-associate-software-engineer-freshers%2F&text=iQuanti%20Off%20Campus%20Drive%202026%20%3A%20Associate%20Software%20Engineer%20%26%238211%3B%20Freshers
+            - link "Reddit" [ref=f2090e184] [cursor=pointer]:
+              - /url: https://reddit.com/submit?url=https%3A%2F%2Fjobsnet.in%2Fiquanti-off-campus-drive-associate-software-engineer-freshers%2F&title=iQuanti%20Off%20Campus%20Drive%202026%20%3A%20Associate%20Software%20Engineer%20%26%238211%3B%20Freshers
+            - link "Telegram" [ref=f2090e188] [cursor=pointer]:
+              - /url: https://t.me/share/url?url=https%3A%2F%2Fjobsnet.in%2Fiquanti-off-campus-drive-associate-software-engineer-freshers%2F&text=iQuanti%20Off%20Campus%20Drive%202026%20%3A%20Associate%20Software%20Engineer%20%26%238211%3B%20Freshers
+            - link "WhatsApp" [ref=f2090e192] [cursor=pointer]:
+              - /url: whatsapp://send?text=https%3A%2F%2Fjobsnet.in%2Fiquanti-off-campus-drive-associate-software-engineer-freshers%2F
+          - generic [ref=f2090e196]:
+            - link [ref=f2090e197] [cursor=pointer]:
+              - /url: https://jobsnet.in/author/anand/
+              - img "Anand Kumar" [ref=f2090e198]
+            - generic [ref=f2090e201]:
+              - heading "Anand Kumar" [level=5] [ref=f2090e202]
+              - paragraph [ref=f2090e204]:
+                - text: Career Expert & Founder of JobsNet.in. Serving the student community since 2019, I specialize in providing verified job updates and placement material for computer science, IT, engineering and management graduates. With a mission to simplify the job hunt, I have helped thousands of candidates secure roles in top MNCs over the last 7 years.
+                - link "Computer Science" [ref=f2090e205] [cursor=pointer]
+              - generic [ref=f2090e210]:
+                - link "LinkedIn icon" [ref=f2090e211] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/amar-kumar-sd
+                - link "Website icon" [ref=f2090e214] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - 'link "Articles: 2394" [ref=f2090e217] [cursor=pointer]':
+                - /url: https://jobsnet.in/author/anand/
+          - insertion [ref=f2090e219]
+          - navigation [ref=f2090e221]:
+            - link "Previous Post Baxter Hiring BTech Freshers For Apprentice Trainee - Software Verification" [ref=f2090e222] [cursor=pointer]:
+              - /url: https://jobsnet.in/baxter-hiring-btech-freshers-for-apprentice-trainee-software-verification/
+              - figure [ref=f2090e223]
+              - generic [ref=f2090e226]:
+                - generic [ref=f2090e227]: Previous Post
+                - generic [ref=f2090e228]: Baxter Hiring BTech Freshers For Apprentice Trainee - Software Verification
+            - link "Next Post CSG Off Campus Drive 2026 Hiring New Grads - System Administrator" [ref=f2090e229] [cursor=pointer]:
+              - /url: https://jobsnet.in/csg-off-campus-drive-2026-hiring-new-grads-system-administrator/
+              - generic [ref=f2090e230]:
+                - generic [ref=f2090e231]: Next Post
+                - generic [ref=f2090e232]: CSG Off Campus Drive 2026 Hiring New Grads - System Administrator
+              - figure [ref=f2090e233]
+          - generic [ref=f2090e236]:
+            - heading "Related" [level=3] [ref=f2090e237]
+            - generic [ref=f2090e238]:
+              - article [ref=f2090e239]:
+                - generic [ref=f2090e240]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2090e241] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                  - paragraph [ref=f2090e242]:
+                    - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2090e243] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+              - article [ref=f2090e244]:
+                - generic [ref=f2090e245]:
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2090e246] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                    - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f2090e247]
+                  - paragraph [ref=f2090e248]:
+                    - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2090e249] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+              - article [ref=f2090e250]:
+                - generic [ref=f2090e251]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2090e252] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                  - paragraph [ref=f2090e253]:
+                    - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2090e254] [cursor=pointer]:
+                      - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+        - complementary [ref=f2090e255]:
+          - generic [ref=f2090e256]:
+            - heading "Search Jobs" [level=3] [ref=f2090e259]
+            - textbox "search" [ref=f2090e266]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - generic [ref=f2090e267]:
+              - heading "Latest Updates" [level=3] [ref=f2090e268]
+              - list [ref=f2090e270]:
+                - listitem [ref=f2090e271]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2090e273] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                - listitem [ref=f2090e274]:
+                  - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f2090e276]
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2090e277] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                - listitem [ref=f2090e278]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2090e280] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                - listitem [ref=f2090e281]:
+                  - img "Accenture Mega Off Campus Drive For Freshers - Associate Software Engineer" [ref=f2090e283]
+                  - link "Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)" [ref=f2090e284] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-entry-level-custom-software-engineer-python/
+                - listitem [ref=f2090e285]:
+                  - img "Cornerstone Off Campus Drive - Hiring Junior Engineer" [ref=f2090e287]
+                  - link "Cornerstone Hiring Entry Level Junior Engineer – Cloud Ops" [ref=f2090e288] [cursor=pointer]:
+                    - /url: https://jobsnet.in/cornerstone-hiring-entry-level-junior-engineer-cloud-ops/
+                - listitem [ref=f2090e289]:
+                  - link "Calix Off Campus Drive 2026 – Hiring Graduate Trainee – Test & QA" [ref=f2090e291] [cursor=pointer]:
+                    - /url: https://jobsnet.in/calix-off-campus-drive-hiring-graduate-trainee-test-qa/
+                - listitem [ref=f2090e292]:
+                  - link "HDFC Life Off Campus Drive 2026 – Graduate Trainee – Data Science & Analytics" [ref=f2090e294] [cursor=pointer]:
+                    - /url: https://jobsnet.in/hdfc-life-off-campus-drive-graduate-trainee-data-science-analytics/
+                - listitem [ref=f2090e295]:
+                  - img "Yash Technologies Hiring Freshers QA Trainee - Pune/Indore/Hyderabad" [ref=f2090e297]
+                  - link "Yash Technologies Off Campus Drive 2026 – AI/ML Trainee" [ref=f2090e298] [cursor=pointer]:
+                    - /url: https://jobsnet.in/yash-technologies-off-campus-drive-hiring-ai-ml-trainee/
+                - listitem [ref=f2090e299]:
+                  - img "White Twilio logo and four-dot icon on a red background." [ref=f2090e301]
+                  - link "Twilio Off Campus Drive 2026 – Associate Application Engineer- Remote" [ref=f2090e302] [cursor=pointer]:
+                    - /url: https://jobsnet.in/twilio-off-campus-drive-associate-application-engineer-remote/
+                - listitem [ref=f2090e303]:
+                  - img "Accenture Hiring Any Graduate Freshers As Network Associate" [ref=f2090e305]
+                  - link "Accenture Hiring Application Support Engineer – Any Graduate (0-2 Years)" [ref=f2090e306] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-application-support-engineer-any-graduate-0-2-years/
+            - generic [ref=f2090e308]:
+              - insertion:
+                - generic:
+                  - iframe
+    - insertion [ref=f2090e310]
+    - contentinfo [ref=f2090e312]:
+      - generic [ref=f2090e314]:
+        - paragraph [ref=f2090e317]: © 2026 Jobsnet.in
+        - navigation "footermenu" [ref=f2090e319]:
+          - list [ref=f2090e320]:
+            - listitem [ref=f2090e321]:
+              - link "Home" [ref=f2090e322] [cursor=pointer]:
+                - /url: https://jobsnet.in
+            - listitem [ref=f2090e323]:
+              - link "About us" [ref=f2090e324] [cursor=pointer]:
+                - /url: https://jobsnet.in/about-us/
+            - listitem [ref=f2090e325]:
+              - link "Contact Us" [ref=f2090e326] [cursor=pointer]:
+                - /url: https://jobsnet.in/contact/
+            - listitem [ref=f2090e327]:
+              - link "Advertise With Us" [ref=f2090e328] [cursor=pointer]:
+                - /url: https://jobsnet.in/advertise/
+            - listitem [ref=f2090e329]:
+              - link "Terms" [ref=f2090e330] [cursor=pointer]:
+                - /url: https://jobsnet.in/terms-and-conditions/
+            - listitem [ref=f2090e331]:
+              - link "Privacy" [ref=f2090e332] [cursor=pointer]:
+                - /url: https://jobsnet.in/privacy-policy/
+  - generic [ref=f2090e333]:
+    - generic [ref=f2090e334] [cursor=pointer]: CLOSE [X]
+    - insertion [ref=f2090e336]:
+      - iframe [ref=f2090e338]:
+        - generic [ref=f2097e1]:
+          - generic [ref=f2097e6]:
+            - link [ref=f2097e7] [cursor=pointer]:
+              - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C7BqrBUR0aveeEIen4dkP2pylwAWGlJKmiAGq2O3x0hXeneS1jA4QASCJgvF0YOWa6YPgDqAB9aOv_UDIAQmpAnvWVjYSk0Y-qAMByAPLBKoE2gJP0IsRAHtQoCvq70nQpUtygDsVNkeZCebQMotD9TOg8PqBAV6bSWxjEYWz3YJGePc5tg_uXID3liXlWXtTp7lHdWDfX-x0-5jQqkrVTqFz_iC--2rIqbwLmHb1NT4YMItM9G-MNG1eLEI_nCsltZMq9oKBiloximuGPeXD1U2OwKUAORlYWaUQkJfkTBn4y7My-r2ZIJ8Y3sRpeYOdcxiQ1QsGwWSM69fv3EE_qh8Mb8g7ckO74xoNboHUwyOfFr8v6qjPKAsjn0yeuog3pfi06czi5gxhqsnhRDyqmM_cRfTIdbBIBYQJkddyTnzp7KHmwT1JzBBXhB0ZKlNWQqvhHPQQafRqEyu7zh_pITOAsMkhkG6Br2-Iy41P_TgWbaOssSf06II1Av_MlzLByYw4kz4g9vTbLfqkAB6JbQi1Y817EVug4LaPv5l56FYjhWeSZdgOpspxPFeUwATbg6mi4wWIBYGLrqVXkAYBoAYugAf12__cG4gHAZAHAqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WNTvo5fJi5YDYAGxCTuZlU4A_fVwgAoBmAsByAsBgAwBogwPKgoKCI7fsQKV4rECkAEBqg0CSU7IDQHqDRMIjrull8mLlgMVh1M4BR1aTglY8A0CiA4J2BMMiBQB0BUBmBYByhYCCgD4FgGAFwGyFxAYASoKMjc2ODUzMDY1OFAGuhcCOAGqGBcJAAAAAGBW8EASCjI3Njg1MzA2NTgYAbIYCRIC-lMYLiIBANAYAcIZAggB&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSvBXZH-jiSqAMWtfqFx455SK5q9vwFEzfGhrLc7s0cZ-gn2vvGxUvRoCOeYQAvD_BwE&num=1&cid=CAQS-gEAEQoqgczdML2p2BKpuYWDKGIzJHIeMb8ubfTx81xAqTjM2dAGPNLGlP6_1JDxScCT5ha8JwEuyxkSmJF99Vy5qZjCspsE8QaLkx6KG9tWK15hwf4jlf1I-LZFuBk1dWMeWDp-13NJsrMVLLvnGQDQDkTivQ3ELME1B5sTUNUnuAvSZCQ34fF2gqHZ-2GMJ0zmL7YJiMA0mPMkuP1yXi_wQ2IVeRWMTlG0qNZkYfTcO7tVJROKVuFMMdqvbW3NXJgG_pPQWKHuc5iXGmvZslhoApbVJaYfnhiIaS6UlwS-R8vVPTr2dfYYTsrhca7BUixQkzP69OVxtEwIGAE&sig=AOD64_0aSuxrj3HrDn1AhIFrt7_BVJiA2Q&client=ca-pub-9713759261380411&rf=1&nb=9&adurl=https://sarkariresults.goupq.com/%3Fgad_source%3D5%26gad_campaignid%3D23432234369%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSvBXZH-jiSqAMWtfqFx455SK5q9vwFEzfGhrLc7s0cZ-gn2vvGxUvRoCOeYQAvD_BwE
+            - generic [ref=f2097e10]:
+              - generic [ref=f2097e13]:
+                - link "Part Time Online Jobs" [ref=f2097e17] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C7BqrBUR0aveeEIen4dkP2pylwAWGlJKmiAGq2O3x0hXeneS1jA4QASCJgvF0YOWa6YPgDqAB9aOv_UDIAQmpAnvWVjYSk0Y-qAMByAPLBKoE2gJP0IsRAHtQoCvq70nQpUtygDsVNkeZCebQMotD9TOg8PqBAV6bSWxjEYWz3YJGePc5tg_uXID3liXlWXtTp7lHdWDfX-x0-5jQqkrVTqFz_iC--2rIqbwLmHb1NT4YMItM9G-MNG1eLEI_nCsltZMq9oKBiloximuGPeXD1U2OwKUAORlYWaUQkJfkTBn4y7My-r2ZIJ8Y3sRpeYOdcxiQ1QsGwWSM69fv3EE_qh8Mb8g7ckO74xoNboHUwyOfFr8v6qjPKAsjn0yeuog3pfi06czi5gxhqsnhRDyqmM_cRfTIdbBIBYQJkddyTnzp7KHmwT1JzBBXhB0ZKlNWQqvhHPQQafRqEyu7zh_pITOAsMkhkG6Br2-Iy41P_TgWbaOssSf06II1Av_MlzLByYw4kz4g9vTbLfqkAB6JbQi1Y817EVug4LaPv5l56FYjhWeSZdgOpspxPFeUwATbg6mi4wWIBYGLrqVXkAYBoAYugAf12__cG4gHAZAHAqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WNTvo5fJi5YDYAGxCTuZlU4A_fVwgAoBmAsByAsBgAwBogwPKgoKCI7fsQKV4rECkAEBqg0CSU7IDQHqDRMIjrull8mLlgMVh1M4BR1aTglY8A0CiA4J2BMMiBQB0BUBmBYByhYCCgD4FgGAFwGyFxAYASoKMjc2ODUzMDY1OFAGuhcCOAGqGBcJAAAAAGBW8EASCjI3Njg1MzA2NTgYAbIYCRIC-lMYLiIBANAYAcIZAggB&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSvBXZH-jiSqAMWtfqFx455SK5q9vwFEzfGhrLc7s0cZ-gn2vvGxUvRoCOeYQAvD_BwE&num=1&cid=CAQS-gEAEQoqgczdML2p2BKpuYWDKGIzJHIeMb8ubfTx81xAqTjM2dAGPNLGlP6_1JDxScCT5ha8JwEuyxkSmJF99Vy5qZjCspsE8QaLkx6KG9tWK15hwf4jlf1I-LZFuBk1dWMeWDp-13NJsrMVLLvnGQDQDkTivQ3ELME1B5sTUNUnuAvSZCQ34fF2gqHZ-2GMJ0zmL7YJiMA0mPMkuP1yXi_wQ2IVeRWMTlG0qNZkYfTcO7tVJROKVuFMMdqvbW3NXJgG_pPQWKHuc5iXGmvZslhoApbVJaYfnhiIaS6UlwS-R8vVPTr2dfYYTsrhca7BUixQkzP69OVxtEwIGAE&sig=AOD64_0aSuxrj3HrDn1AhIFrt7_BVJiA2Q&client=ca-pub-9713759261380411&rf=1&nb=0&adurl=https://sarkariresults.goupq.com/%3Fgad_source%3D5%26gad_campaignid%3D23432234369%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSvBXZH-jiSqAMWtfqFx455SK5q9vwFEzfGhrLc7s0cZ-gn2vvGxUvRoCOeYQAvD_BwE
+                - link [ref=f2097e21] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C7BqrBUR0aveeEIen4dkP2pylwAWGlJKmiAGq2O3x0hXeneS1jA4QASCJgvF0YOWa6YPgDqAB9aOv_UDIAQmpAnvWVjYSk0Y-qAMByAPLBKoE2gJP0IsRAHtQoCvq70nQpUtygDsVNkeZCebQMotD9TOg8PqBAV6bSWxjEYWz3YJGePc5tg_uXID3liXlWXtTp7lHdWDfX-x0-5jQqkrVTqFz_iC--2rIqbwLmHb1NT4YMItM9G-MNG1eLEI_nCsltZMq9oKBiloximuGPeXD1U2OwKUAORlYWaUQkJfkTBn4y7My-r2ZIJ8Y3sRpeYOdcxiQ1QsGwWSM69fv3EE_qh8Mb8g7ckO74xoNboHUwyOfFr8v6qjPKAsjn0yeuog3pfi06czi5gxhqsnhRDyqmM_cRfTIdbBIBYQJkddyTnzp7KHmwT1JzBBXhB0ZKlNWQqvhHPQQafRqEyu7zh_pITOAsMkhkG6Br2-Iy41P_TgWbaOssSf06II1Av_MlzLByYw4kz4g9vTbLfqkAB6JbQi1Y817EVug4LaPv5l56FYjhWeSZdgOpspxPFeUwATbg6mi4wWIBYGLrqVXkAYBoAYugAf12__cG4gHAZAHAqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WNTvo5fJi5YDYAGxCTuZlU4A_fVwgAoBmAsByAsBgAwBogwPKgoKCI7fsQKV4rECkAEBqg0CSU7IDQHqDRMIjrull8mLlgMVh1M4BR1aTglY8A0CiA4J2BMMiBQB0BUBmBYByhYCCgD4FgGAFwGyFxAYASoKMjc2ODUzMDY1OFAGuhcCOAGqGBcJAAAAAGBW8EASCjI3Njg1MzA2NTgYAbIYCRIC-lMYLiIBANAYAcIZAggB&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSvBXZH-jiSqAMWtfqFx455SK5q9vwFEzfGhrLc7s0cZ-gn2vvGxUvRoCOeYQAvD_BwE&num=1&cid=CAQS-gEAEQoqgczdML2p2BKpuYWDKGIzJHIeMb8ubfTx81xAqTjM2dAGPNLGlP6_1JDxScCT5ha8JwEuyxkSmJF99Vy5qZjCspsE8QaLkx6KG9tWK15hwf4jlf1I-LZFuBk1dWMeWDp-13NJsrMVLLvnGQDQDkTivQ3ELME1B5sTUNUnuAvSZCQ34fF2gqHZ-2GMJ0zmL7YJiMA0mPMkuP1yXi_wQ2IVeRWMTlG0qNZkYfTcO7tVJROKVuFMMdqvbW3NXJgG_pPQWKHuc5iXGmvZslhoApbVJaYfnhiIaS6UlwS-R8vVPTr2dfYYTsrhca7BUixQkzP69OVxtEwIGAE&sig=AOD64_0aSuxrj3HrDn1AhIFrt7_BVJiA2Q&client=ca-pub-9713759261380411&rf=1&nb=7&adurl=https://sarkariresults.goupq.com/%3Fgad_source%3D5%26gad_campaignid%3D23432234369%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSvBXZH-jiSqAMWtfqFx455SK5q9vwFEzfGhrLc7s0cZ-gn2vvGxUvRoCOeYQAvD_BwE
+                  - text: 10th-12th Pass
+                  - generic [ref=f2097e22]: ", 12th Pass Jobs, Clerk Jobs, GraduateJobs, Railway Jobs, Technician Jobs"
+              - generic [ref=f2097e25]:
+                - link:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C7BqrBUR0aveeEIen4dkP2pylwAWGlJKmiAGq2O3x0hXeneS1jA4QASCJgvF0YOWa6YPgDqAB9aOv_UDIAQmpAnvWVjYSk0Y-qAMByAPLBKoE2gJP0IsRAHtQoCvq70nQpUtygDsVNkeZCebQMotD9TOg8PqBAV6bSWxjEYWz3YJGePc5tg_uXID3liXlWXtTp7lHdWDfX-x0-5jQqkrVTqFz_iC--2rIqbwLmHb1NT4YMItM9G-MNG1eLEI_nCsltZMq9oKBiloximuGPeXD1U2OwKUAORlYWaUQkJfkTBn4y7My-r2ZIJ8Y3sRpeYOdcxiQ1QsGwWSM69fv3EE_qh8Mb8g7ckO74xoNboHUwyOfFr8v6qjPKAsjn0yeuog3pfi06czi5gxhqsnhRDyqmM_cRfTIdbBIBYQJkddyTnzp7KHmwT1JzBBXhB0ZKlNWQqvhHPQQafRqEyu7zh_pITOAsMkhkG6Br2-Iy41P_TgWbaOssSf06II1Av_MlzLByYw4kz4g9vTbLfqkAB6JbQi1Y817EVug4LaPv5l56FYjhWeSZdgOpspxPFeUwATbg6mi4wWIBYGLrqVXkAYBoAYugAf12__cG4gHAZAHAqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WNTvo5fJi5YDYAGxCTuZlU4A_fVwgAoBmAsByAsBgAwBogwPKgoKCI7fsQKV4rECkAEBqg0CSU7IDQHqDRMIjrull8mLlgMVh1M4BR1aTglY8A0CiA4J2BMMiBQB0BUBmBYByhYCCgD4FgGAFwGyFxAYASoKMjc2ODUzMDY1OFAGuhcCOAGqGBcJAAAAAGBW8EASCjI3Njg1MzA2NTgYAbIYCRIC-lMYLiIBANAYAcIZAggB&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSvBXZH-jiSqAMWtfqFx455SK5q9vwFEzfGhrLc7s0cZ-gn2vvGxUvRoCOeYQAvD_BwE&num=1&cid=CAQS-gEAEQoqgczdML2p2BKpuYWDKGIzJHIeMb8ubfTx81xAqTjM2dAGPNLGlP6_1JDxScCT5ha8JwEuyxkSmJF99Vy5qZjCspsE8QaLkx6KG9tWK15hwf4jlf1I-LZFuBk1dWMeWDp-13NJsrMVLLvnGQDQDkTivQ3ELME1B5sTUNUnuAvSZCQ34fF2gqHZ-2GMJ0zmL7YJiMA0mPMkuP1yXi_wQ2IVeRWMTlG0qNZkYfTcO7tVJROKVuFMMdqvbW3NXJgG_pPQWKHuc5iXGmvZslhoApbVJaYfnhiIaS6UlwS-R8vVPTr2dfYYTsrhca7BUixQkzP69OVxtEwIGAE&sig=AOD64_0aSuxrj3HrDn1AhIFrt7_BVJiA2Q&client=ca-pub-9713759261380411&rf=1&nb=8&adurl=https://sarkariresults.goupq.com/%3Fgad_source%3D5%26gad_campaignid%3D23432234369%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSvBXZH-jiSqAMWtfqFx455SK5q9vwFEzfGhrLc7s0cZ-gn2vvGxUvRoCOeYQAvD_BwE
+                - link "sarkariresults.goupq.com" [ref=f2097e27] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C7BqrBUR0aveeEIen4dkP2pylwAWGlJKmiAGq2O3x0hXeneS1jA4QASCJgvF0YOWa6YPgDqAB9aOv_UDIAQmpAnvWVjYSk0Y-qAMByAPLBKoE2gJP0IsRAHtQoCvq70nQpUtygDsVNkeZCebQMotD9TOg8PqBAV6bSWxjEYWz3YJGePc5tg_uXID3liXlWXtTp7lHdWDfX-x0-5jQqkrVTqFz_iC--2rIqbwLmHb1NT4YMItM9G-MNG1eLEI_nCsltZMq9oKBiloximuGPeXD1U2OwKUAORlYWaUQkJfkTBn4y7My-r2ZIJ8Y3sRpeYOdcxiQ1QsGwWSM69fv3EE_qh8Mb8g7ckO74xoNboHUwyOfFr8v6qjPKAsjn0yeuog3pfi06czi5gxhqsnhRDyqmM_cRfTIdbBIBYQJkddyTnzp7KHmwT1JzBBXhB0ZKlNWQqvhHPQQafRqEyu7zh_pITOAsMkhkG6Br2-Iy41P_TgWbaOssSf06II1Av_MlzLByYw4kz4g9vTbLfqkAB6JbQi1Y817EVug4LaPv5l56FYjhWeSZdgOpspxPFeUwATbg6mi4wWIBYGLrqVXkAYBoAYugAf12__cG4gHAZAHAqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WNTvo5fJi5YDYAGxCTuZlU4A_fVwgAoBmAsByAsBgAwBogwPKgoKCI7fsQKV4rECkAEBqg0CSU7IDQHqDRMIjrull8mLlgMVh1M4BR1aTglY8A0CiA4J2BMMiBQB0BUBmBYByhYCCgD4FgGAFwGyFxAYASoKMjc2ODUzMDY1OFAGuhcCOAGqGBcJAAAAAGBW8EASCjI3Njg1MzA2NTgYAbIYCRIC-lMYLiIBANAYAcIZAggB&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSvBXZH-jiSqAMWtfqFx455SK5q9vwFEzfGhrLc7s0cZ-gn2vvGxUvRoCOeYQAvD_BwE&num=1&cid=CAQS-gEAEQoqgczdML2p2BKpuYWDKGIzJHIeMb8ubfTx81xAqTjM2dAGPNLGlP6_1JDxScCT5ha8JwEuyxkSmJF99Vy5qZjCspsE8QaLkx6KG9tWK15hwf4jlf1I-LZFuBk1dWMeWDp-13NJsrMVLLvnGQDQDkTivQ3ELME1B5sTUNUnuAvSZCQ34fF2gqHZ-2GMJ0zmL7YJiMA0mPMkuP1yXi_wQ2IVeRWMTlG0qNZkYfTcO7tVJROKVuFMMdqvbW3NXJgG_pPQWKHuc5iXGmvZslhoApbVJaYfnhiIaS6UlwS-R8vVPTr2dfYYTsrhca7BUixQkzP69OVxtEwIGAE&sig=AOD64_0aSuxrj3HrDn1AhIFrt7_BVJiA2Q&client=ca-pub-9713759261380411&rf=1&nb=1&adurl=https://sarkariresults.goupq.com/%3Fgad_source%3D5%26gad_campaignid%3D23432234369%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSvBXZH-jiSqAMWtfqFx455SK5q9vwFEzfGhrLc7s0cZ-gn2vvGxUvRoCOeYQAvD_BwE
+                - link "Open" [ref=f2097e29] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C7BqrBUR0aveeEIen4dkP2pylwAWGlJKmiAGq2O3x0hXeneS1jA4QASCJgvF0YOWa6YPgDqAB9aOv_UDIAQmpAnvWVjYSk0Y-qAMByAPLBKoE2gJP0IsRAHtQoCvq70nQpUtygDsVNkeZCebQMotD9TOg8PqBAV6bSWxjEYWz3YJGePc5tg_uXID3liXlWXtTp7lHdWDfX-x0-5jQqkrVTqFz_iC--2rIqbwLmHb1NT4YMItM9G-MNG1eLEI_nCsltZMq9oKBiloximuGPeXD1U2OwKUAORlYWaUQkJfkTBn4y7My-r2ZIJ8Y3sRpeYOdcxiQ1QsGwWSM69fv3EE_qh8Mb8g7ckO74xoNboHUwyOfFr8v6qjPKAsjn0yeuog3pfi06czi5gxhqsnhRDyqmM_cRfTIdbBIBYQJkddyTnzp7KHmwT1JzBBXhB0ZKlNWQqvhHPQQafRqEyu7zh_pITOAsMkhkG6Br2-Iy41P_TgWbaOssSf06II1Av_MlzLByYw4kz4g9vTbLfqkAB6JbQi1Y817EVug4LaPv5l56FYjhWeSZdgOpspxPFeUwATbg6mi4wWIBYGLrqVXkAYBoAYugAf12__cG4gHAZAHAqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WNTvo5fJi5YDYAGxCTuZlU4A_fVwgAoBmAsByAsBgAwBogwPKgoKCI7fsQKV4rECkAEBqg0CSU7IDQHqDRMIjrull8mLlgMVh1M4BR1aTglY8A0CiA4J2BMMiBQB0BUBmBYByhYCCgD4FgGAFwGyFxAYASoKMjc2ODUzMDY1OFAGuhcCOAGqGBcJAAAAAGBW8EASCjI3Njg1MzA2NTgYAbIYCRIC-lMYLiIBANAYAcIZAggB&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSvBXZH-jiSqAMWtfqFx455SK5q9vwFEzfGhrLc7s0cZ-gn2vvGxUvRoCOeYQAvD_BwE&num=1&cid=CAQS-gEAEQoqgczdML2p2BKpuYWDKGIzJHIeMb8ubfTx81xAqTjM2dAGPNLGlP6_1JDxScCT5ha8JwEuyxkSmJF99Vy5qZjCspsE8QaLkx6KG9tWK15hwf4jlf1I-LZFuBk1dWMeWDp-13NJsrMVLLvnGQDQDkTivQ3ELME1B5sTUNUnuAvSZCQ34fF2gqHZ-2GMJ0zmL7YJiMA0mPMkuP1yXi_wQ2IVeRWMTlG0qNZkYfTcO7tVJROKVuFMMdqvbW3NXJgG_pPQWKHuc5iXGmvZslhoApbVJaYfnhiIaS6UlwS-R8vVPTr2dfYYTsrhca7BUixQkzP69OVxtEwIGAE&sig=AOD64_0aSuxrj3HrDn1AhIFrt7_BVJiA2Q&client=ca-pub-9713759261380411&rf=1&nb=8&adurl=https://sarkariresults.goupq.com/%3Fgad_source%3D5%26gad_campaignid%3D23432234369%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSvBXZH-jiSqAMWtfqFx455SK5q9vwFEzfGhrLc7s0cZ-gn2vvGxUvRoCOeYQAvD_BwE
+                - link [ref=f2097e30] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C7BqrBUR0aveeEIen4dkP2pylwAWGlJKmiAGq2O3x0hXeneS1jA4QASCJgvF0YOWa6YPgDqAB9aOv_UDIAQmpAnvWVjYSk0Y-qAMByAPLBKoE2gJP0IsRAHtQoCvq70nQpUtygDsVNkeZCebQMotD9TOg8PqBAV6bSWxjEYWz3YJGePc5tg_uXID3liXlWXtTp7lHdWDfX-x0-5jQqkrVTqFz_iC--2rIqbwLmHb1NT4YMItM9G-MNG1eLEI_nCsltZMq9oKBiloximuGPeXD1U2OwKUAORlYWaUQkJfkTBn4y7My-r2ZIJ8Y3sRpeYOdcxiQ1QsGwWSM69fv3EE_qh8Mb8g7ckO74xoNboHUwyOfFr8v6qjPKAsjn0yeuog3pfi06czi5gxhqsnhRDyqmM_cRfTIdbBIBYQJkddyTnzp7KHmwT1JzBBXhB0ZKlNWQqvhHPQQafRqEyu7zh_pITOAsMkhkG6Br2-Iy41P_TgWbaOssSf06II1Av_MlzLByYw4kz4g9vTbLfqkAB6JbQi1Y817EVug4LaPv5l56FYjhWeSZdgOpspxPFeUwATbg6mi4wWIBYGLrqVXkAYBoAYugAf12__cG4gHAZAHAqgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WNTvo5fJi5YDYAGxCTuZlU4A_fVwgAoBmAsByAsBgAwBogwPKgoKCI7fsQKV4rECkAEBqg0CSU7IDQHqDRMIjrull8mLlgMVh1M4BR1aTglY8A0CiA4J2BMMiBQB0BUBmBYByhYCCgD4FgGAFwGyFxAYASoKMjc2ODUzMDY1OFAGuhcCOAGqGBcJAAAAAGBW8EASCjI3Njg1MzA2NTgYAbIYCRIC-lMYLiIBANAYAcIZAggB&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSvBXZH-jiSqAMWtfqFx455SK5q9vwFEzfGhrLc7s0cZ-gn2vvGxUvRoCOeYQAvD_BwE&num=1&cid=CAQS-gEAEQoqgczdML2p2BKpuYWDKGIzJHIeMb8ubfTx81xAqTjM2dAGPNLGlP6_1JDxScCT5ha8JwEuyxkSmJF99Vy5qZjCspsE8QaLkx6KG9tWK15hwf4jlf1I-LZFuBk1dWMeWDp-13NJsrMVLLvnGQDQDkTivQ3ELME1B5sTUNUnuAvSZCQ34fF2gqHZ-2GMJ0zmL7YJiMA0mPMkuP1yXi_wQ2IVeRWMTlG0qNZkYfTcO7tVJROKVuFMMdqvbW3NXJgG_pPQWKHuc5iXGmvZslhoApbVJaYfnhiIaS6UlwS-R8vVPTr2dfYYTsrhca7BUixQkzP69OVxtEwIGAE&sig=AOD64_0aSuxrj3HrDn1AhIFrt7_BVJiA2Q&client=ca-pub-9713759261380411&rf=1&nb=8&adurl=https://sarkariresults.goupq.com/%3Fgad_source%3D5%26gad_campaignid%3D23432234369%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSvBXZH-jiSqAMWtfqFx455SK5q9vwFEzfGhrLc7s0cZ-gn2vvGxUvRoCOeYQAvD_BwE
+          - generic [ref=f2097e40] [cursor=pointer]
+          - button [ref=f2097e45] [cursor=pointer]
+          - iframe
+  - link "Join WhatsApp" [ref=f2090e340] [cursor=pointer]:
+    - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP

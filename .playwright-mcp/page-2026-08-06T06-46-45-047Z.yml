@@ -1,0 +1,655 @@
+- generic [active] [ref=f13e1]:
+  - link "Skip to main content" [ref=f13e2] [cursor=pointer]:
+    - /url: "#gnav-header-end"
+  - main [ref=f13e3]:
+    - generic [ref=f13e5]:
+      - navigation "Primary" [ref=f13e7]:
+        - generic [ref=f13e9]:
+          - generic [ref=f13e10]:
+            - generic [ref=f13e11]:
+              - button "Skip to main content" [ref=f13e12] [cursor=pointer]
+              - link "Indeed Home" [ref=f13e14] [cursor=pointer]:
+                - /url: /?from=gnav-jobsearch--indeedmobile
+              - list [ref=f13e18]:
+                - listitem [ref=f13e19]:
+                  - link "Home" [ref=f13e21] [cursor=pointer]:
+                    - /url: https://in.indeed.com/
+                - listitem [ref=f13e22]:
+                  - link "Company reviews" [ref=f13e24] [cursor=pointer]:
+                    - /url: https://in.indeed.com/companies
+                - listitem [ref=f13e25]:
+                  - link "Salary guide" [ref=f13e27] [cursor=pointer]:
+                    - /url: https://in.indeed.com/career/salaries
+            - generic [ref=f13e28]:
+              - list [ref=f13e29]:
+                - listitem [ref=f13e30]:
+                  - link "My jobs" [ref=f13e32] [cursor=pointer]:
+                    - /url: https://myjobs.indeed.com?from=gnav-util-jobsearch--indeedmobile&gnavTK=1jvat5utahaa8800&tk=1jvat5ujv25ei00f&co=IN&hl=en
+                - listitem [ref=f13e35]:
+                  - link "Messages Unread count 0" [ref=f13e37] [cursor=pointer]:
+                    - /url: https://messages.indeed.com?from=gnav-util-jobsearch--indeedmobile&gnavTK=1jvat5utahaa8800&tk=1jvat5ujv25ei00f&co=IN&hl=en
+                - listitem [ref=f13e44]:
+                  - link "Notifications Unread count 0" [ref=f13e46] [cursor=pointer]:
+                    - /url: https://in.indeed.com/notifications?from=gnav-util-jobsearch--indeedmobile&gnavTK=1jvat5utahaa8800&tk=1jvat5ujv25ei00f&hl=en
+                - listitem [ref=f13e49]:
+                  - button "Account" [ref=f13e53] [cursor=pointer]:
+                    - generic [ref=f13e57]:
+                      - text: "1"
+                      - generic [ref=f13e58]: new update
+              - link "Employers / Post Job" [ref=f13e63] [cursor=pointer]:
+                - /url: https://in.indeed.com/hire?co=IN&hl=en
+          - generic [ref=f13e64]: Start of main content
+      - generic [ref=f13e66]:
+        - search [ref=f13e71]:
+          - generic [ref=f13e74]:
+            - generic [ref=f13e76]:
+              - generic [ref=f13e77]:
+                - generic [ref=f13e78]: "Keyword : all jobs"
+                - generic [ref=f13e81]:
+                  - 'combobox "search: Job title, keywords, or company" [ref=f13e85]': MERN stack developer
+                  - button "Clear what input" [ref=f13e87] [cursor=pointer]
+              - separator [ref=f13e90]:
+                - generic [ref=f13e91]: "&nbsp;"
+              - generic [ref=f13e92]:
+                - generic [ref=f13e93]: Edit location input box label
+                - combobox "Edit location" [ref=f13e100]
+            - button "Find jobs" [ref=f13e102] [cursor=pointer]
+          - list [ref=f13e105]:
+            - button "Pay filter" [ref=f13e107] [cursor=pointer]: Pay
+            - button "Remote filter" [ref=f13e109] [cursor=pointer]: Remote
+            - button "Job type filter" [ref=f13e111] [cursor=pointer]: Job type
+            - button "Job Language filter" [ref=f13e113] [cursor=pointer]: Job Language
+            - button "Programming language filter" [ref=f13e115] [cursor=pointer]: Programming language
+            - button "Education level filter" [ref=f13e117] [cursor=pointer]: Education level
+            - button "Industry filter" [ref=f13e119] [cursor=pointer]: Industry
+            - button "Date posted filter" [ref=f13e121] [cursor=pointer]: Date posted
+        - generic [ref=f13e127]:
+          - generic [ref=f13e128]:
+            - generic [ref=f13e129]:
+              - generic [ref=f13e130]:
+                - heading "MERN stack developer jobs" [level=1] [ref=f13e131]
+                - button "More information about job results" [ref=f13e134] [cursor=pointer]:
+                  - img "More information about job results" [ref=f13e135]
+              - generic [ref=f13e139]:
+                - generic [ref=f13e140]: "Sort by:"
+                - generic [ref=f13e141]:
+                  - text: relevance -
+                  - 'link "Sort by: date" [ref=f13e142] [cursor=pointer]':
+                    - /url: /jobs?q=MERN%20stack%20developer&l=&sort=date
+                    - text: date
+            - list [ref=f13e146]:
+              - listitem
+              - listitem [ref=f13e147]:
+                - generic [ref=f13e152]:
+                  - generic [ref=f13e153]:
+                    - heading [level=3] [ref=f13e154]:
+                      - button "full details of Full Stack Developer (MERN)" [pressed] [ref=f13e155] [cursor=pointer]: Full Stack Developer (MERN)
+                    - generic [ref=f13e156]: Easily apply
+                  - generic [ref=f13e163]:
+                    - generic [ref=f13e166]:
+                      - generic [ref=f13e167]: VJ Overseas Consultancy
+                      - generic [ref=f13e169]: Remote
+                    - list [ref=f13e172]:
+                      - listitem [ref=f13e173]:
+                        - generic [ref=f13e174]: ₹3,50,000 - ₹4,25,000 a year
+                      - listitem [ref=f13e177]:
+                        - generic [ref=f13e178]: Work from home
+                  - generic [ref=f13e181]:
+                    - button "Save job Toggle" [ref=f13e182] [cursor=pointer]
+                    - button "Not interested" [ref=f13e185] [cursor=pointer]
+              - listitem [ref=f13e189]:
+                - generic [ref=f13e194]:
+                  - generic [ref=f13e195]:
+                    - heading [level=3] [ref=f13e196]:
+                      - button "full details of MERN Stack Lead/Developer" [ref=f13e197] [cursor=pointer]: MERN Stack Lead/Developer
+                    - generic [ref=f13e198]: Easily apply
+                  - generic [ref=f13e205]:
+                    - generic [ref=f13e208]:
+                      - generic [ref=f13e209]: Xenabler
+                      - generic [ref=f13e211]: Remote in Morbi, Gujarat
+                    - list [ref=f13e213]:
+                      - listitem [ref=f13e214]:
+                        - generic [ref=f13e215]: ₹18,00,000 - ₹30,00,000 a year
+                      - listitem [ref=f13e218]:
+                        - generic [ref=f13e219]: Work from home
+                  - generic [ref=f13e222]:
+                    - button "Save job Toggle" [ref=f13e223] [cursor=pointer]
+                    - button "Not interested" [ref=f13e226] [cursor=pointer]
+              - listitem [ref=f13e230]:
+                - generic [ref=f13e235]:
+                  - generic [ref=f13e236]:
+                    - heading [level=3] [ref=f13e237]:
+                      - button "full details of Full Stack Developer (NodeJS)" [ref=f13e238] [cursor=pointer]: Full Stack Developer (NodeJS)
+                    - generic [ref=f13e239]: Easily apply
+                  - generic [ref=f13e246]:
+                    - generic [ref=f13e249]:
+                      - generic [ref=f13e250]: Voiceoc Innovations Private Limited
+                      - generic [ref=f13e252]: Unknown, Uttar Pradesh
+                    - list [ref=f13e254]:
+                      - listitem [ref=f13e255]:
+                        - generic [ref=f13e256]: Work from home
+                  - generic [ref=f13e259]:
+                    - button "Save job Toggle" [ref=f13e260] [cursor=pointer]
+                    - button "Not interested" [ref=f13e263] [cursor=pointer]
+              - listitem [ref=f13e267]:
+                - generic [ref=f13e272]:
+                  - generic [ref=f13e273]:
+                    - heading [level=3] [ref=f13e274]:
+                      - button "full details of MERN Stack Developer" [ref=f13e275] [cursor=pointer]: MERN Stack Developer
+                    - generic [ref=f13e276]: Easily apply
+                  - generic [ref=f13e286]:
+                    - generic [ref=f13e287]: WALKWEL TECHNOLOGY PVT LTD
+                    - generic [ref=f13e289]: Mohali, Punjab
+                  - generic [ref=f13e290]:
+                    - button "Save job Toggle" [ref=f13e291] [cursor=pointer]
+                    - button "Not interested" [ref=f13e294] [cursor=pointer]
+              - listitem [ref=f13e298]:
+                - generic [ref=f13e303]:
+                  - generic [ref=f13e304]:
+                    - heading [level=3] [ref=f13e305]:
+                      - button "full details of Node JS Developer" [ref=f13e306] [cursor=pointer]: Node JS Developer
+                    - generic [ref=f13e307]: Easily apply
+                  - generic [ref=f13e314]:
+                    - generic [ref=f13e317]:
+                      - generic [ref=f13e318]: Empyra Software Solutions Pvt. Ltd
+                      - generic [ref=f13e320]: Unknown, Karnataka
+                    - list [ref=f13e322]:
+                      - listitem [ref=f13e323]:
+                        - generic [ref=f13e324]: ₹0 a year
+                  - generic [ref=f13e327]:
+                    - button "Save job Toggle" [ref=f13e328] [cursor=pointer]
+                    - button "Not interested" [ref=f13e331] [cursor=pointer]
+              - listitem
+              - listitem [ref=f13e335]:
+                - generic [ref=f13e340]:
+                  - generic [ref=f13e341]:
+                    - heading [level=3] [ref=f13e342]:
+                      - button "full details of Full Stack Developer - MEAN/MERN" [ref=f13e343] [cursor=pointer]: Full Stack Developer - MEAN/MERN
+                    - generic [ref=f13e344]: Easily apply
+                  - generic [ref=f13e354]:
+                    - generic [ref=f13e355]: Byndr
+                    - generic [ref=f13e357]: India
+                  - generic [ref=f13e358]:
+                    - button "Save job Toggle" [ref=f13e359] [cursor=pointer]
+                    - button "Not interested" [ref=f13e362] [cursor=pointer]
+              - listitem [ref=f13e366]:
+                - generic [ref=f13e371]:
+                  - generic [ref=f13e372]:
+                    - heading [level=3] [ref=f13e373]:
+                      - button "full details of MERN Stack Developer" [ref=f13e374] [cursor=pointer]: MERN Stack Developer
+                    - generic [ref=f13e375]: Easily apply
+                  - generic [ref=f13e385]:
+                    - generic [ref=f13e386]: Katalyst Healthcares & Life Sciences
+                    - generic [ref=f13e388]: Hybrid work in Guntur, Andhra Pradesh
+                  - link "View similar jobs with this employer" [ref=f13e389] [cursor=pointer]:
+                    - /url: /addlLoc/redirect?tk=1jvat5ujv25ei00f&jk=7a33db34f59b6ee1&dest=%2Fjobs%3Fq%3DMERN%2Bstack%2Bdeveloper%26nl%3D%26grpKey%3D8gcFdG5mZWy4D5P4hiGqEBYKCW5vcm10aXRsZRoJZGV2ZWxvcGVy
+                  - generic [ref=f13e390]:
+                    - button "Save job Toggle" [ref=f13e391] [cursor=pointer]
+                    - button "Not interested" [ref=f13e394] [cursor=pointer]
+              - listitem [ref=f13e398]:
+                - generic [ref=f13e403]:
+                  - generic [ref=f13e404]:
+                    - heading [level=3] [ref=f13e405]:
+                      - button "full details of MERN Stack Developer" [ref=f13e406] [cursor=pointer]: MERN Stack Developer
+                    - generic [ref=f13e407]: Easily apply
+                  - generic [ref=f13e414]:
+                    - generic [ref=f13e417]:
+                      - generic [ref=f13e418]: Flowpipe Pvt Ltd
+                      - generic [ref=f13e420]: Hyderabad, Telangana
+                    - list [ref=f13e422]:
+                      - listitem [ref=f13e423]:
+                        - generic [ref=f13e424]: ₹5,50,000 - ₹7,50,000 a year
+                      - listitem [ref=f13e427]:
+                        - generic [ref=f13e428]: Health insurance
+                      - listitem [ref=f13e431]:
+                        - generic [ref=f13e432]: Internet reimbursement
+                  - generic [ref=f13e435]:
+                    - button "Save job Toggle" [ref=f13e436] [cursor=pointer]
+                    - button "Not interested" [ref=f13e439] [cursor=pointer]
+              - listitem [ref=f13e443]:
+                - generic [ref=f13e448]:
+                  - generic [ref=f13e449]:
+                    - heading [level=3] [ref=f13e450]:
+                      - button "full details of MERN Stack Developer" [ref=f13e451] [cursor=pointer]: MERN Stack Developer
+                    - generic [ref=f13e452]: Easily apply
+                  - generic [ref=f13e462]:
+                    - generic [ref=f13e463]: IMPRONICS DIGITECH PRIVATE LIMITED
+                    - generic [ref=f13e465]: Gurugram, Haryana
+                  - generic [ref=f13e466]:
+                    - button "Save job Toggle" [ref=f13e467] [cursor=pointer]
+                    - button "Not interested" [ref=f13e470] [cursor=pointer]
+              - listitem [ref=f13e474]:
+                - generic [ref=f13e479]:
+                  - generic [ref=f13e480]:
+                    - heading [level=3] [ref=f13e481]:
+                      - button "full details of MERN Stack Developer" [ref=f13e482] [cursor=pointer]: MERN Stack Developer
+                    - generic [ref=f13e483]: Easily apply
+                  - generic [ref=f13e493]:
+                    - generic [ref=f13e494]: Sarvadhi Solutions Pvt. Ltd
+                    - generic [ref=f13e496]: Surat City, Surat, Gujarat
+                  - generic [ref=f13e497]:
+                    - button "Save job Toggle" [ref=f13e498] [cursor=pointer]
+                    - button "Not interested" [ref=f13e501] [cursor=pointer]
+              - listitem
+              - listitem [ref=f13e505]:
+                - generic [ref=f13e510]:
+                  - generic [ref=f13e511]:
+                    - heading [level=3] [ref=f13e512]:
+                      - button "full details of MERN Stack Developer" [ref=f13e513] [cursor=pointer]: MERN Stack Developer
+                    - generic [ref=f13e514]: Easily apply
+                  - generic [ref=f13e521]:
+                    - generic [ref=f13e524]:
+                      - generic [ref=f13e525]: CRAWL CORP INDIA Pvt Ltd
+                      - generic [ref=f13e527]: Bengaluru, Karnataka
+                    - list [ref=f13e529]:
+                      - listitem [ref=f13e530]:
+                        - generic [ref=f13e531]: From ₹4,00,000 a year
+                  - generic [ref=f13e534]:
+                    - button "Save job Toggle" [ref=f13e535] [cursor=pointer]
+                    - button "Not interested" [ref=f13e538] [cursor=pointer]
+              - listitem
+              - listitem [ref=f13e542]:
+                - generic [ref=f13e547]:
+                  - generic [ref=f13e548]:
+                    - heading [level=3] [ref=f13e549]:
+                      - button "full details of MERN Stack Developer" [ref=f13e550] [cursor=pointer]: MERN Stack Developer
+                    - generic [ref=f13e551]: Easily apply
+                  - generic [ref=f13e558]:
+                    - generic [ref=f13e561]:
+                      - generic [ref=f13e562]: Vesta consultant
+                      - generic [ref=f13e564]: JP Nagar VIII phase, Bengaluru, Karnataka
+                    - list [ref=f13e566]:
+                      - listitem [ref=f13e567]:
+                        - generic [ref=f13e568]: ₹6,00,000 - ₹9,00,000 a year
+                  - generic [ref=f13e571]:
+                    - button "Save job Toggle" [ref=f13e572] [cursor=pointer]
+                    - button "Not interested" [ref=f13e575] [cursor=pointer]
+              - listitem [ref=f13e579]:
+                - generic [ref=f13e584]:
+                  - generic [ref=f13e585]:
+                    - heading [level=3] [ref=f13e586]:
+                      - button "full details of MERN Stack Developer" [ref=f13e587] [cursor=pointer]: MERN Stack Developer
+                    - generic [ref=f13e588]: Easily apply
+                  - generic [ref=f13e598]:
+                    - generic [ref=f13e599]: The Bombay Group
+                    - generic [ref=f13e601]: Vasna, Vadodara, Gujarat
+                  - generic [ref=f13e602]:
+                    - button "Save job Toggle" [ref=f13e603] [cursor=pointer]
+                    - button "Not interested" [ref=f13e606] [cursor=pointer]
+              - listitem [ref=f13e610]:
+                - generic [ref=f13e615]:
+                  - generic [ref=f13e616]:
+                    - heading [level=3] [ref=f13e617]:
+                      - button "full details of MERN developer" [ref=f13e618] [cursor=pointer]: MERN developer
+                    - generic [ref=f13e619]: Easily apply
+                  - generic [ref=f13e626]:
+                    - generic [ref=f13e629]:
+                      - generic [ref=f13e630]: Konrad
+                      - generic [ref=f13e632]: Gurugram, Haryana
+                    - list [ref=f13e634]:
+                      - listitem [ref=f13e635]:
+                        - generic [ref=f13e636]: Work from home
+                  - generic [ref=f13e639]:
+                    - button "Save job Toggle" [ref=f13e640] [cursor=pointer]
+                    - button "Not interested" [ref=f13e643] [cursor=pointer]
+              - listitem [ref=f13e647]:
+                - generic [ref=f13e652]:
+                  - heading [level=3] [ref=f13e654]:
+                    - button "full details of Mern Stack Developer" [ref=f13e655] [cursor=pointer]: Mern Stack Developer
+                  - generic [ref=f13e661]:
+                    - generic [ref=f13e662]: Shamlatech
+                    - generic [ref=f13e664]: Remote in India
+                  - generic [ref=f13e665]:
+                    - button "Save job Toggle" [ref=f13e666] [cursor=pointer]
+                    - button "Not interested" [ref=f13e669] [cursor=pointer]
+              - listitem
+            - navigation "pagination" [ref=f13e673]:
+              - list [ref=f13e674]:
+                - listitem [ref=f13e675]:
+                  - link "1" [ref=f13e676] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=f13e677]:
+                  - link "2" [ref=f13e678] [cursor=pointer]:
+                    - /url: /jobs?q=MERN+stack+developer&from=searchOnHP&start=10
+                - listitem [ref=f13e679]:
+                  - link "3" [ref=f13e680] [cursor=pointer]:
+                    - /url: /jobs?q=MERN+stack+developer&from=searchOnHP&start=20
+                - listitem [ref=f13e681]:
+                  - link "4" [ref=f13e682] [cursor=pointer]:
+                    - /url: /jobs?q=MERN+stack+developer&from=searchOnHP&start=30
+                - listitem [ref=f13e683]:
+                  - link "5" [ref=f13e684] [cursor=pointer]:
+                    - /url: /jobs?q=MERN+stack+developer&from=searchOnHP&start=40
+                - listitem [ref=f13e685]:
+                  - link "Next Page" [ref=f13e686] [cursor=pointer]:
+                    - /url: /jobs?q=MERN+stack+developer&from=searchOnHP&start=10
+            - generic [ref=f13e692]:
+              - heading "Be the first to see new MERN stack developer jobs" [level=2] [ref=f13e694]
+              - generic [ref=f13e697]:
+                - generic [ref=f13e699]:
+                  - generic [ref=f13e700]: Email address
+                  - textbox "Email address" [ref=f13e702]: prasadyashraj004@gmail.com
+                - button "Activate" [ref=f13e704] [cursor=pointer]
+              - paragraph [ref=f13e707]:
+                - text: By creating a job alert, you agree to our
+                - link "Terms (opens in a new tab)" [ref=f13e708] [cursor=pointer]:
+                  - /url: /legal?hl=en
+                  - text: Terms
+                - text: . You can change your consent settings at any time by unsubscribing or as detailed in our terms.
+            - generic [ref=f13e712]:
+              - heading "People also searched:" [level=3] [ref=f13e713]
+              - list [ref=f13e714]:
+                - listitem [ref=f13e715]:
+                  - link "mern stack developer fresher" [ref=f13e716] [cursor=pointer]:
+                    - /url: /q-mern-stack-developer-fresher-jobs.html
+                - listitem [ref=f13e719]:
+                  - link "react js developer" [ref=f13e720] [cursor=pointer]:
+                    - /url: /q-react-js-developer-jobs.html
+                - listitem [ref=f13e723]:
+                  - link "full stack developer" [ref=f13e724] [cursor=pointer]:
+                    - /url: /q-full-stack-developer-jobs.html
+                - listitem [ref=f13e727]:
+                  - link "node js developer" [ref=f13e728] [cursor=pointer]:
+                    - /url: /q-node-js-developer-jobs.html
+                - listitem [ref=f13e731]:
+                  - link "react js developer fresher" [ref=f13e732] [cursor=pointer]:
+                    - /url: /q-react-js-developer-fresher-jobs.html
+                - listitem [ref=f13e735]:
+                  - link "front end developer" [ref=f13e736] [cursor=pointer]:
+                    - /url: /q-front-end-developer-jobs.html
+                - listitem [ref=f13e739]:
+                  - link "mern stack" [ref=f13e740] [cursor=pointer]:
+                    - /url: /q-mern-stack-jobs.html
+                - listitem [ref=f13e743]:
+                  - link "full stack developer fresher" [ref=f13e744] [cursor=pointer]:
+                    - /url: /q-full-stack-developer-fresher-jobs.html
+                - listitem [ref=f13e747]:
+                  - link "web developer" [ref=f13e748] [cursor=pointer]:
+                    - /url: /q-web-developer-jobs.html
+                - listitem [ref=f13e751]:
+                  - link "front end developer fresher" [ref=f13e752] [cursor=pointer]:
+                    - /url: /q-front-end-developer-fresher-jobs.html
+          - generic [ref=f13e757]:
+            - button "Return to Search Result" [ref=f13e758]
+            - heading "Job Post Details" [level=2] [ref=f13e759]
+            - generic [ref=f13e762]:
+              - generic [ref=f13e764]:
+                - generic [ref=f13e765]:
+                  - heading "Full Stack Developer (MERN) - job post" [level=2] [ref=f13e767]:
+                    - generic [ref=f13e768]:
+                      - text: Full Stack Developer (MERN)
+                      - generic [ref=f13e769]: "- job post"
+                  - generic [ref=f13e773]:
+                    - generic [ref=f13e774]: VJ Overseas Consultancy
+                    - generic [ref=f13e776]: Remote
+                - generic [ref=f13e778]: ₹3,50,000 - ₹4,25,000 a year
+                - generic [ref=f13e783]:
+                  - button "Apply with Indeed opens in a new tab" [ref=f13e791] [cursor=pointer]:
+                    - generic [ref=f13e792]: Apply with Indeed
+                  - button "Save job" [ref=f13e797] [cursor=pointer]:
+                    - img "save-icon" [ref=f13e798]
+                  - button "Not interested" [ref=f13e800] [cursor=pointer]
+                  - button "Share Job" [ref=f13e803] [cursor=pointer]
+              - generic [ref=f13e806]:
+                - generic [ref=f13e807]:
+                  - generic [ref=f13e813]:
+                    - generic [ref=f13e814]:
+                      - generic [ref=f13e815]:
+                        - heading "Job details" [level=2] [ref=f13e816]
+                        - generic [ref=f13e817]:
+                          - text: Here’s how the job details align with your
+                          - link "job preferences (opens in a new window)" [ref=f13e818] [cursor=pointer]:
+                            - /url: https://profile.indeed.com/
+                            - text: profile
+                          - text: .
+                      - generic [ref=f13e821]:
+                        - group "Pay" [ref=f13e822]:
+                          - generic [ref=f13e825]:
+                            - heading "Pay" [level=3] [ref=f13e826]
+                            - list [ref=f13e828]:
+                              - listitem [ref=f13e829]:
+                                - button "Pay ₹3,50,000 - ₹4,25,000 a year missing preference" [ref=f13e830]:
+                                  - generic [ref=f13e833]:
+                                    - generic [ref=f13e834]: ₹3,50,000 - ₹4,25,000 a year
+                                    - img "missing preference" [ref=f13e835]
+                        - group "Job type" [ref=f13e837]:
+                          - generic [ref=f13e841]:
+                            - heading "Job type" [level=3] [ref=f13e842]
+                            - list [ref=f13e844]:
+                              - listitem [ref=f13e845]:
+                                - button "Job type Permanent matching preference" [ref=f13e846]:
+                                  - generic [ref=f13e849]:
+                                    - generic [ref=f13e852]: Permanent
+                                    - img "matching preference" [ref=f13e853]
+                              - listitem [ref=f13e855]:
+                                - button "Job type Full-time matching preference" [ref=f13e856]:
+                                  - generic [ref=f13e859]:
+                                    - generic [ref=f13e862]: Full-time
+                                    - img "matching preference" [ref=f13e863]
+                        - group "Shift and schedule" [ref=f13e865]:
+                          - generic [ref=f13e868]:
+                            - heading "Shift and schedule" [level=3] [ref=f13e869]
+                            - list [ref=f13e871]:
+                              - listitem [ref=f13e872]:
+                                - button "Shift and schedule Night shift missing preference" [ref=f13e873]:
+                                  - generic [ref=f13e876]:
+                                    - generic [ref=f13e877]: Night shift
+                                    - img "missing preference" [ref=f13e878]
+                    - separator [ref=f13e880]:
+                      - generic [ref=f13e881]: "&nbsp;"
+                  - generic [ref=f13e882]:
+                    - heading "Benefits" [level=3] [ref=f13e883]
+                    - paragraph [ref=f13e884]: Pulled from the full job description
+                    - list [ref=f13e888]:
+                      - listitem [ref=f13e889]: Work from home
+                    - separator [ref=f13e890]:
+                      - generic [ref=f13e891]: "&nbsp;"
+                  - heading "Full job description" [level=2] [ref=f13e893]
+                  - generic [ref=f13e894]:
+                    - paragraph [ref=f13e895]: "Job Type : Full-Time | Remote"
+                    - paragraph [ref=f13e896]: "Shift : Night Shift (India) 09:00 PM to 05:00 AM IST"
+                    - paragraph [ref=f13e897]: "Work Days : Monday to Saturday"
+                    - paragraph [ref=f13e898]: "Location : Remote Work from Home"
+                    - paragraph [ref=f13e899]: "Client Base: US-Based Clients Only"
+                    - paragraph [ref=f13e900]: Experience :Minimum 2+ Years (Full Stack Mern Developers)
+                    - paragraph [ref=f13e901]: "Education : B.Tech / BCA / MCA / Any Graduate with relevant skills"
+                    - paragraph [ref=f13e902]: Reporting To :Technical Manager / Project Lead
+                    - paragraph [ref=f13e903]: ABOUT VJ OVERSEAS INDIA
+                    - paragraph [ref=f13e904]: VJ Overseas India is a Delhi-based delivery and operations firm handling end-to-end digital fulfillment, HR, and technical execution for US-based digital marketing clients. Our team works in a night-shift model aligned with US business hours, delivering high-quality web, SEO, content, design, and AI-driven marketing solutions across multiple verticals and markets.
+                    - paragraph [ref=f13e905]: ROLE OVERVIEW
+                    - paragraph [ref=f13e906]: We are looking for a skilled MERN Stack Developer who can build scalable web applications using MongoDB, Express.js, React.js, and Node.js.
+                    - paragraph [ref=f13e907]: The candidate should be capable of handling both frontend and backend development, API integration, database management, and deployment.
+                    - paragraph [ref=f13e908]: "RESPONSIBILITIES:"
+                    - list [ref=f13e909]:
+                      - listitem [ref=f13e910]: Develop responsive web applications using React.js
+                      - listitem [ref=f13e911]: Build backend APIs using Node.js and Express.js
+                      - listitem [ref=f13e912]: Manage databases using MongoDB
+                      - listitem [ref=f13e913]: Integrate REST APIs and third-party services
+                      - listitem [ref=f13e914]: Write clean, scalable, and maintainable code
+                      - listitem [ref=f13e915]: Optimize application performance and security
+                      - listitem [ref=f13e916]: Collaborate with UI/UX designers and other developers
+                      - listitem [ref=f13e917]: Deploy and maintain applications on cloud/VPS servers
+                    - paragraph [ref=f13e918]: "REQUIRED SKILLS:"
+                    - list [ref=f13e919]:
+                      - listitem [ref=f13e920]: Strong knowledge of React.js
+                      - listitem [ref=f13e921]: Experience with Node.js and Express.js
+                      - listitem [ref=f13e922]: Good understanding of MongoDB
+                      - listitem [ref=f13e923]: JavaScript (ES6+)
+                      - listitem [ref=f13e924]: REST API development
+                      - listitem [ref=f13e925]: HTML5 and CSS3
+                      - listitem [ref=f13e926]: Git/GitHub
+                      - listitem [ref=f13e927]: Responsive web development
+                    - paragraph [ref=f13e928]: "PREFERRED SKILLS:"
+                    - list [ref=f13e929]:
+                      - listitem [ref=f13e930]: Next.js
+                      - listitem [ref=f13e931]: TypeScript
+                      - listitem [ref=f13e932]: Redux / Context API
+                      - listitem [ref=f13e933]: Tailwind CSS or Bootstrap
+                      - listitem [ref=f13e934]: Authentication (JWT/OAuth)
+                      - listitem [ref=f13e935]: AWS / VPS / Docker
+                      - listitem [ref=f13e936]: CI/CD deployment
+                      - listitem [ref=f13e937]: Socket.io
+                    - paragraph [ref=f13e938]: "EXPERIENCE: 2+ Years"
+                    - paragraph [ref=f13e939]: "EDUCATION: B.Tech / BCA / MCA / Any Graduate with relevant skills"
+                    - paragraph [ref=f13e940]: SALARY:3 LPA- 6LPA
+                    - paragraph [ref=f13e941]: Website & Application Development
+                    - list [ref=f13e942]:
+                      - listitem [ref=f13e943]: Design, develop, and maintain dynamic websites and web applications.
+                      - listitem [ref=f13e944]: Build scalable CMS-based solutions using WordPress and Shopify.
+                      - listitem [ref=f13e945]: Develop high-quality frontend interfaces and backend service layers.
+                      - listitem [ref=f13e946]: Write clean, reusable, and well-documented code following best practices.
+                    - paragraph [ref=f13e947]: Frontend & Backend Development
+                    - list [ref=f13e948]:
+                      - listitem [ref=f13e949]: Develop responsive, cross-device UIs using HTML5, CSS3, JavaScript, Bootstrap, jQuery, and React.js.
+                      - listitem [ref=f13e950]: Build backend functionality using Core PHP, Laravel, Node.js, or Django (Python).
+                      - listitem [ref=f13e951]: Implement MVC architecture and modular coding practices.
+                    - paragraph [ref=f13e952]: API & Integration Development
+                    - list [ref=f13e953]:
+                      - listitem [ref=f13e954]: Integrate third-party APIs, CRM systems (HubSpot, Bitrix24), and marketing tools.
+                      - listitem [ref=f13e955]: Work with REST APIs and webhook-based integrations.
+                      - listitem [ref=f13e956]: Implement authentication, validation, and data encryption protocols.
+                    - paragraph [ref=f13e957]: Performance & Security Optimization
+                    - list [ref=f13e958]:
+                      - listitem [ref=f13e959]: Optimize website speed, caching strategies, and database performance.
+                      - listitem [ref=f13e960]: Ensure full cross-browser and cross-device compatibility.
+                      - listitem [ref=f13e961]: Apply encryption, secure data handling, and access control best practices.
+                      - listitem [ref=f13e962]: Implement security patches and ongoing vulnerability management.
+                    - paragraph [ref=f13e963]: Collaboration & Project Execution
+                    - list [ref=f13e964]:
+                      - listitem [ref=f13e965]: Collaborate with UI/UX designers, SEO teams, and project managers.
+                      - listitem [ref=f13e966]: Participate in requirement discussions and technical feasibility planning.
+                      - listitem [ref=f13e967]: Provide accurate time estimates and communicate progress proactively.
+                      - listitem [ref=f13e968]: Work closely with US-based teams during night shift operations.
+                    - paragraph [ref=f13e969]: Maintenance & Troubleshooting
+                    - list [ref=f13e970]:
+                      - listitem [ref=f13e971]: Debug, optimize, and maintain existing client websites.
+                      - listitem [ref=f13e972]: Monitor uptime, hosting performance, and platform stability.
+                      - listitem [ref=f13e973]: Implement CMS upgrades and compatibility updates.
+                      - listitem [ref=f13e974]: Provide responsive client support and issue resolution.
+                    - paragraph [ref=f13e975]: Documentation & Process Management
+                    - list [ref=f13e976]:
+                      - listitem [ref=f13e977]: Document code, workflows, and development standards.
+                      - listitem [ref=f13e978]: Maintain scalable internal development guidelines.
+                      - listitem [ref=f13e979]: Support knowledge transfer and team onboarding as required.
+                    - paragraph [ref=f13e980]: REQUIRED SKILLS & EXPERIENCE
+                    - paragraph [ref=f13e981]: Frontend Development
+                    - list [ref=f13e982]:
+                      - listitem [ref=f13e983]: HTML5, CSS3, JavaScript, Bootstrap, jQuery strong hands-on proficiency
+                      - listitem [ref=f13e984]: React.js for dynamic, interactive interfaces
+                    - paragraph [ref=f13e985]: Backend Development
+                    - list [ref=f13e986]:
+                      - listitem [ref=f13e987]: Core PHP, Laravel, Node.js, or Django
+                      - listitem [ref=f13e988]: Structured validation, modular service architecture
+                    - paragraph [ref=f13e989]: CMS Expertise
+                    - list [ref=f13e990]:
+                      - listitem [ref=f13e991]: Strong working experience with WordPress (themes, plugins, custom post types)
+                      - listitem [ref=f13e992]: Strong working experience with Shopify (Liquid, apps, theme customization)
+                      - listitem [ref=f13e993]: Custom plugin and theme development from scratch
+                    - paragraph [ref=f13e994]: Database & Infrastructure
+                    - list [ref=f13e995]:
+                      - listitem [ref=f13e996]: MySQL and relational database design and optimization
+                      - listitem [ref=f13e997]: Deployment pipelines and hosting environment management
+                      - listitem [ref=f13e998]: Version control using Git / GitHub / Bitbucket
+                    - paragraph [ref=f13e999]: Security Knowledge
+                    - list [ref=f13e1000]:
+                      - listitem [ref=f13e1001]: Encryption in transit (HTTPS/SSL) and at rest
+                      - listitem [ref=f13e1002]: Secure authentication flows and input validation
+                      - listitem [ref=f13e1003]: Web security best practices (OWASP standards)
+                    - paragraph [ref=f13e1004]: API & Architecture
+                    - list [ref=f13e1005]:
+                      - listitem [ref=f13e1006]: REST API design, integration, and debugging
+                      - listitem [ref=f13e1007]: MVC architecture principles
+                      - listitem [ref=f13e1008]: Scalable, modular web application design
+                    - paragraph [ref=f13e1009]: BONUS SKILLS
+                    - list [ref=f13e1010]:
+                      - listitem [ref=f13e1011]: Experience with Laravel or CodeIgniter PHP frameworks
+                      - listitem [ref=f13e1012]: SEO-friendly development practices and Core Web Vitals optimization
+                      - listitem [ref=f13e1013]: Performance optimization tools and caching (WP Rocket, Redis, CDN)
+                      - listitem [ref=f13e1014]: "Exposure to cloud platforms: AWS, Azure, or GCP"
+                      - listitem [ref=f13e1015]: Experience integrating HubSpot, Zoho, or similar CRM tools
+                      - listitem [ref=f13e1016]: WooCommerce development experience
+                    - paragraph [ref=f13e1017]: SOFT SKILLS & WORK EXPECTATIONS
+                    - list [ref=f13e1018]:
+                      - listitem [ref=f13e1019]: Ability to work independently and deliver with minimal supervision
+                      - listitem [ref=f13e1020]: Strong written and verbal communication skills in English
+                      - listitem [ref=f13e1021]: Comfortable collaborating with US-based teams across time zones
+                      - listitem [ref=f13e1022]: Excellent time management, accountability, and ownership mindset
+                      - listitem [ref=f13e1023]: Attention to detail and unwavering commitment to quality
+                      - listitem [ref=f13e1024]: Eagerness to learn new technologies and adapt quickly
+                      - listitem [ref=f13e1025]: Strong analytical thinking and structured problem-solving skills
+                    - paragraph [ref=f13e1026]: WHY JOIN VJ OVERSEAS INDIA?
+                    - list [ref=f13e1027]:
+                      - listitem [ref=f13e1028]: Work on live projects for US-based clients across multiple industries
+                      - listitem [ref=f13e1029]: Remote-first role work from the comfort of your home
+                      - listitem [ref=f13e1030]: Exposure to diverse industries across five major U.S. cities
+                      - listitem [ref=f13e1031]: Collaborative team environment with a tech-driven culture
+                      - listitem [ref=f13e1032]: Growth opportunities as the agency scales across new markets
+                      - listitem [ref=f13e1033]: Competitive compensation aligned with experience and performance
+                    - paragraph [ref=f13e1034]: "Role: Full Stack Developer"
+                    - paragraph [ref=f13e1035]: "Industry Type: Advertising & Marketing (Digital Marketing)"
+                    - paragraph [ref=f13e1036]: "Department: Engineering - Software & QA"
+                    - paragraph [ref=f13e1037]: "Employment Type: Full Time, Permanent"
+                    - paragraph [ref=f13e1038]: "Role Category: Software DevelopmentEducation"
+                    - paragraph [ref=f13e1039]: "UG: B.Tech / B.E. in Computer Science and Engineering (CSE)"
+                    - paragraph [ref=f13e1040]: "Key Skills: React.js,Node.js,MongoDB,Expresjs,HTML,Css/Css3,Bootstrap,Javascript,jQuery,Core PHP,Laravel,Django,Python,Wordpress,CMS,Shopify,MySQL,GithubGIT,Bitbucket,Transit,RestAPI,Design,Integration,Debugging,MVC Architecture,Web Application Design"
+                    - paragraph [ref=f13e1041]: About company
+                    - paragraph [ref=f13e1042]: VJ Overseas is a team oriented digital marketing and technology support company based in India, dedicated to delivering high-quality marketing, web development, and creative digital solutions to global clients. The company specializes in supporting international businesses through skilled technical expertise, performance-driven marketing strategies, and scalable digital infrastructure.
+                    - paragraph [ref=f13e1043]: VJ Overseas works in strategic collaboration with UniBright Solutions, a reputable AI-powered digital marketing and web development firm headquartered in the United States. Through this partnership, VJ Overseas plays a critical role in supporting US-based client projects by providing round-the-clock development, marketing execution, content production, and technical support services.
+                    - paragraph [ref=f13e1044]: The organization focuses on innovation, quality, and client success by combining advanced digital marketing practices, modern web technologies, AI-driven automation, and performance analytics. VJ Overseas operates with global work standards while maintaining strong operational alignment with UniBright Solutions, ensuring seamless delivery of services across multiple industries and time zones.
+                    - paragraph [ref=f13e1045]: Together, VJ Overseas and UniBright Solutions deliver comprehensive digital transformation services including website development, e-commerce solutions, SEO, social media marketing, AI content creation, and enterprise-level marketing automation.
+                    - paragraph [ref=f13e1046]: "Company Address: B 214 4TH FLOOR HARI NAGAR , NEW DELHI, Delhi, India"
+                    - paragraph [ref=f13e1047]: "Pay: ₹350,000.00 - ₹425,000.00 per year"
+                    - paragraph [ref=f13e1048]: "Work Location: Remote"
+                  - separator [ref=f13e1049]:
+                    - generic [ref=f13e1050]: "&nbsp;"
+                - button "Report job" [ref=f13e1057] [cursor=pointer]
+            - button "Return to Search Result" [ref=f13e1059]
+      - contentinfo [ref=f13e1064]:
+        - generic [ref=f13e1065]:
+          - list [ref=f13e1066]:
+            - listitem [ref=f13e1067]:
+              - link "Career advice" [ref=f13e1069] [cursor=pointer]:
+                - /url: https://in.indeed.com/career-advice
+            - listitem [ref=f13e1070]:
+              - link "Browse jobs" [ref=f13e1072] [cursor=pointer]:
+                - /url: https://in.indeed.com/browsejobs
+            - listitem [ref=f13e1073]:
+              - link "Browse companies" [ref=f13e1075] [cursor=pointer]:
+                - /url: https://in.indeed.com/companies/browse-companies
+            - listitem [ref=f13e1076]:
+              - link "Salaries" [ref=f13e1078] [cursor=pointer]:
+                - /url: https://in.indeed.com/career/salaries
+            - listitem [ref=f13e1079]:
+              - link "Indeed Events" [ref=f13e1081] [cursor=pointer]:
+                - /url: https://www.indeedevents.com/en-in/
+            - listitem [ref=f13e1082]:
+              - link "Work at Indeed" [ref=f13e1084] [cursor=pointer]:
+                - /url: https://in.indeed.com/cmp/Indeed/about
+            - listitem [ref=f13e1085]:
+              - link "Countries" [ref=f13e1087] [cursor=pointer]:
+                - /url: https://in.indeed.com/countries
+            - listitem [ref=f13e1088]:
+              - link "About" [ref=f13e1090] [cursor=pointer]:
+                - /url: https://in.indeed.com/about
+            - listitem [ref=f13e1091]:
+              - link "Help" [ref=f13e1093] [cursor=pointer]:
+                - /url: https://in.indeed.com/help/job-seekers?hl=en&co=in
+            - listitem [ref=f13e1094]:
+              - link "ESG at Indeed" [ref=f13e1096] [cursor=pointer]:
+                - /url: https://in.indeed.com/esg?from=gnav-jobsearch--indeedmobile
+            - listitem [ref=f13e1097]:
+              - link "Guidelines for safe job search" [ref=f13e1099] [cursor=pointer]:
+                - /url: https://support.indeed.com/hc/en-in/articles/216354123-Guidelines-for-Safe-Job-Search
+          - list [ref=f13e1100]:
+            - listitem [ref=f13e1101]: © 2026 Indeed
+            - listitem [ref=f13e1102]:
+              - link "Accessibility at Indeed" [ref=f13e1104] [cursor=pointer]:
+                - /url: https://in.indeed.com/esg/accessibility?hl=en
+            - listitem [ref=f13e1105]:
+              - link "Privacy Centre and Ad Choices" [ref=f13e1107] [cursor=pointer]:
+                - /url: https://hrtechprivacy.com/brands/indeed#privacypolicy
+            - listitem [ref=f13e1108]:
+              - link "Terms" [ref=f13e1110] [cursor=pointer]:
+                - /url: https://in.indeed.com/legal?hl=en
+          - list:
+            - listitem

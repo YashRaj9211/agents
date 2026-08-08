@@ -1,0 +1,103 @@
+- generic [active] [ref=e1]:
+  - link "Skip to Main Content" [ref=e2] [cursor=pointer]:
+    - /url: "#iCIMS_Header"
+  - link [ref=e4] [cursor=pointer]:
+    - /url: https://www.powerschool.com/
+  - text: 
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - link "Welcome page" [ref=e11] [cursor=pointer]:
+        - /url: https://careers3-powerschool.icims.com/jobs/intro
+        - generic [ref=e12]: 
+        - text: Welcome page
+      - generic [ref=e15]:
+        - generic [ref=e16]: Returning Candidate?
+        - link "Log back in!" [ref=e18] [cursor=pointer]:
+          - /url: https://careers3-powerschool.icims.com/jobs/52669/associate-software-engineer-1/login?loginOnly=1&redirect=job&hashed=-625980113
+    - generic [ref=e20]:
+      - generic [ref=e22]:
+        - heading "Associate Software Engineer 1" [level=1] [ref=e25]
+        - generic [ref=e26]:
+          - generic [ref=e27]: Job Locations
+          - text: IN-TN-Chennai
+        - generic [ref=e28]:
+          - generic [ref=e29]: ID
+          - text: 2026-52669
+        - generic [ref=e32]:
+          - term [ref=e33]: "Job Post Information* : Posted Date"
+          - definition [ref=e34]:
+            - generic "7/29/2026 3:10 AM" [ref=e35]:
+              - text: 1 week ago
+              - generic [ref=e36]: (7/29/2026 3:10 AM)
+      - heading "Overview" [level=2] [ref=e37]
+      - generic [ref=e40]:
+        - paragraph [ref=e41]: At PowerSchool, we are a dedicated team of innovators guided by our shared purpose of powering personalized education for students around the world. From the central office to the classroom to the home, PowerSchool supports the entire educational ecosystem as the global leader of cloud-based software for K-12 education. Our employees make it all possible, and a career with us means you’re joining a successful team committed to engaging, empowering, and improving the K-12 education experience everywhere.
+        - heading "Team Overview" [level=3] [ref=e42]
+        - paragraph [ref=e43]: Our Research & Development (R&D) team is the technical talent at the heart of our product suite, overseeing the product development lifecycle from concept to delivery. From engineering to quality assurance to data science, the R&D team ensures our customers seamlessly use our products and can depend on their consistency.
+      - heading "Responsibilities" [level=2] [ref=e44]
+      - generic [ref=e47]:
+        - heading "Description" [level=3] [ref=e48]
+        - list [ref=e49]:
+          - listitem [ref=e50]:
+            - paragraph [ref=e51]:
+              - strong [ref=e52]: "About the Role:"
+              - generic [ref=e53]:
+                - text: We are looking for a passionate and motivated full stack developer with experience in PHP and Angular to join our development team. The candidate will be responsible for developing, maintaining, and enhancing web applications, APIs, and backend services while collaborating with cross-functional teams to deliver high-quality solutions.
+                - strong [ref=e54]: "Key Responsibilities:"
+            - list [ref=e55]:
+              - listitem [ref=e56]: Develop and maintain web applications using PHP and Angular.
+              - listitem [ref=e57]: Design and develop REST APIs and backend services .
+              - listitem [ref=e58]: Work with MySQL databases for query writing, optimization, and maintenance.
+              - listitem [ref=e59]: Integrate third-party APIs and services.
+              - listitem [ref=e60]: Debug, troubleshoot, and resolve application issues.
+              - listitem [ref=e61]: Participate in code reviews and follow coding standards.
+              - listitem [ref=e62]: Collaborate with frontend, backend, QA, and DevOps teams.
+              - listitem [ref=e63]: Optimize application performance and scalability.
+              - listitem [ref=e64]: Maintain proper documentation for development tasks and modules.
+              - listitem [ref=e65]: Work on bug fixing, enhancements, and new feature development.
+      - heading "Qualifications" [level=2] [ref=e66]
+      - generic [ref=e69]:
+        - heading "Minimum Qualifications" [level=3] [ref=e70]
+        - list [ref=e71]:
+          - listitem [ref=e72]:
+            - paragraph [ref=e73]:
+              - strong [ref=e74]: "Minimum Qualifications:"
+            - list [ref=e75]:
+              - listitem [ref=e76]: 6 Months to 1 Years of experience in full-stack development or working knowledge
+              - listitem [ref=e77]: Strong knowledge of Core PHP and Hands-on experience with Angular.
+              - listitem [ref=e78]: Good understanding of HTML, CSS, JavaScript, and TypeScript.
+              - listitem [ref=e79]: Experience with MySQL database Knowledge of REST API development and integration.
+              - listitem [ref=e80]: Familiarity with Git/version control systems.
+              - listitem [ref=e81]: Basic understanding of Linux servers and deployment process.
+              - listitem [ref=e82]: Good debugging and problem-solving skills Strong communication and teamwork abilities.
+      - heading "EEO Commitment" [level=2] [ref=e83]
+      - generic [ref=e86]:
+        - heading "EEO Commitment" [level=3] [ref=e87]
+        - paragraph [ref=e88]:
+          - emphasis [ref=e89]: PowerSchool is committed to a diverse and inclusive workplace. PowerSchool is an equal opportunity employer and does not discriminate on the basis of race, national origin, gender, gender identity, sexual orientation, protected veteran status, disability, age, or other legally protected status. Our inclusive culture empowers PowerSchoolers to deliver the best results for our customers. We not only celebrate the diversity of our workforce, we celebrate the diverse ways we work. If you have a disability and need an accommodation regarding our recruiting process, please let us know by emailing accomodations@powerschool.com.
+      - generic [ref=e90]:
+        - heading "Options" [level=2] [ref=e91]
+        - generic [ref=e92]:
+          - link "Apply for this job online" [ref=e93] [cursor=pointer]:
+            - /url: https://careers3-powerschool.icims.com/jobs/52669/associate-software-engineer-1/job?mode=apply&apply=yes&hashed=-1834449087
+          - link "Email this job to a friend" [ref=e95] [cursor=pointer]:
+            - /url: https://careers3-powerschool.icims.com/jobs/52669/associate-software-engineer-1/referral?hashed=-625980113
+        - generic [ref=e97]:
+          - text: 
+          - heading "Share on your newsfeed" [level=2] [ref=e98]
+          - generic [ref=e100]:
+            - img "..." [ref=e101]
+            - generic [ref=e102]: Loading...
+      - heading "Connect With Us!" [level=2] [ref=e103]
+      - generic [ref=e106]:
+        - text: Not ready to apply?
+        - link "Connect with us" [ref=e107] [cursor=pointer]:
+          - /url: https://careers3-powerschool.icims.com/connect?back=intro&hashed=-625980113
+        - text: for general consideration.
+      - generic [ref=e108]:
+        - link "Application FAQs" [ref=e109] [cursor=pointer]:
+          - /url: https://icims.help/candidate-faq
+        - paragraph [ref=e111]:
+          - text: Software Powered by ICIMS
+          - link "www.icims.com" [ref=e112] [cursor=pointer]:
+            - /url: http://www.icims.com/platform_help?utm_source=platform&utm_medium=link&utm_content=page1&utm_campaign=platform%20help

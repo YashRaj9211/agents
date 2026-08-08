@@ -1,0 +1,114 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - navigation "Primary" [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - generic [ref=e8]:
+            - button "Skip to main content" [ref=e9] [cursor=pointer]
+            - link "Indeed Home" [ref=e11] [cursor=pointer]:
+              - /url: /?from=gnav-homepage
+            - list [ref=e15]:
+              - listitem [ref=e16]:
+                - link "Home" [ref=e18] [cursor=pointer]:
+                  - /url: https://in.indeed.com/
+              - listitem [ref=e19]:
+                - link "Company reviews" [ref=e21] [cursor=pointer]:
+                  - /url: https://in.indeed.com/companies
+              - listitem [ref=e22]:
+                - link "Salary guide" [ref=e24] [cursor=pointer]:
+                  - /url: https://in.indeed.com/career/salaries
+          - generic [ref=e25]:
+            - list [ref=e26]:
+              - listitem [ref=e27]:
+                - link "Sign in" [ref=e30] [cursor=pointer]:
+                  - /url: https://secure.indeed.com/auth?hl=en_IN&co=IN&continue=https%3A%2F%2Fin.indeed.com%2F%3Fr%3Dus&tmpl=desktop&from=gnav-util-homepage&jsContinue=https%3A%2F%2Fprofile.indeed.com%2Fwelcome%3Fhl%3Den_IN%26co%3DIN%26from%3Dgnav-homepage%26continue%3Dhttps%253A%252F%252Fonboarding.indeed.com%252Fonboarding%253Fhl%253Den_IN%2526co%253DIN%2526from%253Dgnav-homepage&empContinue=https%3A%2F%2Faccount.indeed.com%2Fmyaccess
+              - listitem [ref=e31]:
+                - link "India (English)" [ref=e35] [cursor=pointer]:
+                  - /url: https://in.indeed.com/countries
+                  - generic [ref=e36]: 🇮🇳
+                  - text: En
+            - link "Employers / Post Job" [ref=e41] [cursor=pointer]:
+              - /url: https://in.indeed.com/hire?co=IN&hl=en
+        - generic [ref=e42]: Start of main content
+  - main [ref=e48]:
+    - search [ref=e53]:
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - generic [ref=e60]: "Keyword : all jobs"
+            - 'combobox "search: Job title, keywords, or company" [ref=e67]'
+          - separator [ref=e68]:
+            - generic [ref=e69]: "&nbsp;"
+          - generic [ref=e70]:
+            - generic [ref=e71]: Edit location input box label
+            - combobox "Edit location" [ref=e78]
+        - button "Find jobs" [ref=e80] [cursor=pointer]
+    - generic [ref=e81]:
+      - img "Indeed" [ref=e83]
+      - generic [ref=e85]:
+        - heading "Your next job starts here" [level=2] [ref=e86]
+        - generic [ref=e87]: Create an account or sign in to see your personalised job recommendations.
+        - button "Get Started" [ref=e88] [cursor=pointer]
+    - complementary [ref=e93]:
+      - generic [ref=e95]:
+        - text: For jobs in the United States, visit
+        - link "www.indeed.com" [ref=e96] [cursor=pointer]:
+          - /url: //www.indeed.com/stc
+      - generic [ref=e100]:
+        - text: Indeed
+        - link "हिंदी" [ref=e101] [cursor=pointer]:
+          - /url: /setprefs?action=set&hl=hi&prevhl=en&tk=1jvat22oe25f6000
+        - text: में भी उपलब्ध है
+    - button "What's trending on Indeed" [ref=e103] [cursor=pointer]
+  - contentinfo [ref=e117]:
+    - generic [ref=e118]:
+      - list [ref=e119]:
+        - listitem [ref=e120]:
+          - link "Career advice" [ref=e122] [cursor=pointer]:
+            - /url: https://in.indeed.com/career-advice
+        - listitem [ref=e123]:
+          - link "Browse jobs" [ref=e125] [cursor=pointer]:
+            - /url: https://in.indeed.com/browsejobs
+        - listitem [ref=e126]:
+          - link "Browse companies" [ref=e128] [cursor=pointer]:
+            - /url: https://in.indeed.com/companies/browse-companies
+        - listitem [ref=e129]:
+          - link "Salaries" [ref=e131] [cursor=pointer]:
+            - /url: https://in.indeed.com/career/salaries
+        - listitem [ref=e132]:
+          - link "Indeed Events" [ref=e134] [cursor=pointer]:
+            - /url: https://www.indeedevents.com/en-in/
+        - listitem [ref=e135]:
+          - link "Work at Indeed" [ref=e137] [cursor=pointer]:
+            - /url: https://in.indeed.com/cmp/Indeed/about
+        - listitem [ref=e138]:
+          - link "Countries" [ref=e140] [cursor=pointer]:
+            - /url: https://in.indeed.com/countries
+        - listitem [ref=e141]:
+          - link "About" [ref=e143] [cursor=pointer]:
+            - /url: https://in.indeed.com/about
+        - listitem [ref=e144]:
+          - link "Help" [ref=e146] [cursor=pointer]:
+            - /url: https://in.indeed.com/help/job-seekers?hl=en&co=in
+        - listitem [ref=e147]:
+          - link "ESG at Indeed" [ref=e149] [cursor=pointer]:
+            - /url: https://in.indeed.com/esg?from=gnav-homepage
+        - listitem [ref=e150]:
+          - link "Guidelines for safe job search" [ref=e152] [cursor=pointer]:
+            - /url: https://support.indeed.com/hc/en-in/articles/216354123-Guidelines-for-Safe-Job-Search
+        - listitem [ref=e153]:
+          - link "Post a job" [ref=e155] [cursor=pointer]:
+            - /url: https://in.indeed.com/hire?hl=en&co=IN
+      - list [ref=e156]:
+        - listitem [ref=e157]: © 2026 Indeed
+        - listitem [ref=e158]:
+          - link "Accessibility at Indeed" [ref=e160] [cursor=pointer]:
+            - /url: https://in.indeed.com/esg/accessibility?hl=en
+        - listitem [ref=e161]:
+          - link "Privacy Centre and Ad Choices" [ref=e163] [cursor=pointer]:
+            - /url: https://hrtechprivacy.com/brands/indeed#privacypolicy
+        - listitem [ref=e164]:
+          - link "Terms" [ref=e166] [cursor=pointer]:
+            - /url: https://in.indeed.com/legal?hl=en
+      - list:
+        - listitem

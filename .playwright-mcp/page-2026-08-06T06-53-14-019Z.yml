@@ -1,0 +1,217 @@
+- generic [active] [ref=f45e1]:
+  - navigation "Primary" [ref=f45e3]:
+    - generic [ref=f45e5]:
+      - generic [ref=f45e6]:
+        - generic [ref=f45e7]:
+          - button "Skip to main content" [ref=f45e8] [cursor=pointer]
+          - link "Indeed Home" [ref=f45e10] [cursor=pointer]:
+            - /url: /?from=gnav-viewjob
+          - list [ref=f45e14]:
+            - listitem [ref=f45e15]:
+              - link "Home" [ref=f45e17] [cursor=pointer]:
+                - /url: https://in.indeed.com/
+            - listitem [ref=f45e18]:
+              - link "Company reviews" [ref=f45e20] [cursor=pointer]:
+                - /url: https://in.indeed.com/companies
+            - listitem [ref=f45e21]:
+              - link "Salary guide" [ref=f45e23] [cursor=pointer]:
+                - /url: https://in.indeed.com/career/salaries
+        - generic [ref=f45e24]:
+          - list [ref=f45e25]:
+            - listitem [ref=f45e26]:
+              - link "My jobs" [ref=f45e28] [cursor=pointer]:
+                - /url: https://myjobs.indeed.com?from=gnav-util-viewjob&gnavTK=1jvathrvhhc3u800&tk=1jvathrvfhbud800&co=IN&hl=en
+            - listitem [ref=f45e31]:
+              - link "Messages Unread count 0" [ref=f45e33] [cursor=pointer]:
+                - /url: https://messages.indeed.com?from=gnav-util-viewjob&gnavTK=1jvathrvhhc3u800&tk=1jvathrvfhbud800&co=IN&hl=en
+            - listitem [ref=f45e40]:
+              - link "Notifications Unread count 0" [ref=f45e42] [cursor=pointer]:
+                - /url: https://in.indeed.com/notifications?from=gnav-util-viewjob&gnavTK=1jvathrvhhc3u800&tk=1jvathrvfhbud800&hl=en
+            - listitem [ref=f45e45]:
+              - button "Account" [ref=f45e49] [cursor=pointer]:
+                - generic [ref=f45e53]:
+                  - text: "1"
+                  - generic [ref=f45e54]: new update
+          - link "Employers / Post Job" [ref=f45e59] [cursor=pointer]:
+            - /url: https://in.indeed.com/hire?co=IN&hl=en
+      - generic [ref=f45e60]: Start of main content
+  - main [ref=f45e63]:
+    - generic [ref=f45e67]:
+      - generic [ref=f45e68]:
+        - generic [ref=f45e69]: What
+        - 'textbox "What: job title, keywords or company" [ref=f45e71]':
+          - /placeholder: Job title, keywords, or company
+      - generic [ref=f45e72]:
+        - generic [ref=f45e73]: Where
+        - 'textbox "Where: city, county or postcode" [ref=f45e75]':
+          - /placeholder: City, state, or zip code
+      - button "Find Jobs" [ref=f45e76] [cursor=pointer]
+    - generic [ref=f45e81]:
+      - generic [ref=f45e82]:
+        - generic [ref=f45e83]:
+          - generic [ref=f45e84]:
+            - heading "Lead Software Engineer" [level=1] [ref=f45e86]
+            - generic [ref=f45e90]:
+              - link "Holiday Tribe (opens in a new tab)" [ref=f45e94] [cursor=pointer]:
+                - /url: https://in.indeed.com/cmp/Holiday-Tribe?campaignid=mobvjcmp&from=mobviewjob&tk=1jvathrvfhbud800&fromjk=9c1dd8cf7b3c1a54
+                - text: Holiday Tribe
+              - generic [ref=f45e97]: Gurugram, Haryana
+          - generic [ref=f45e99]: ₹25,00,000 - ₹30,00,000 a year
+          - generic [ref=f45e103]:
+            - button "Apply with Indeed" [ref=f45e111] [cursor=pointer]
+            - button "Save job" [ref=f45e117] [cursor=pointer]:
+              - img "save-icon" [ref=f45e118]
+            - button "Share Job" [ref=f45e120] [cursor=pointer]
+            - separator:
+              - generic [ref=f45e122]: "&nbsp;"
+        - generic [ref=f45e124]:
+          - generic [ref=f45e125]:
+            - generic [ref=f45e131]:
+              - generic [ref=f45e132]:
+                - generic [ref=f45e133]:
+                  - heading "Job details" [level=2] [ref=f45e134]
+                  - generic [ref=f45e135]:
+                    - text: Here’s how the job details align with your
+                    - link "job preferences (opens in a new window)" [ref=f45e136] [cursor=pointer]:
+                      - /url: https://profile.indeed.com/
+                      - text: profile
+                    - text: .
+                - generic [ref=f45e139]:
+                  - group "Pay" [ref=f45e140]:
+                    - generic [ref=f45e143]:
+                      - heading "Pay" [level=3] [ref=f45e144]
+                      - list [ref=f45e146]:
+                        - listitem [ref=f45e147]:
+                          - button "Pay ₹25,00,000 - ₹30,00,000 a year missing preference" [ref=f45e148]:
+                            - generic [ref=f45e151]:
+                              - generic [ref=f45e152]: ₹25,00,000 - ₹30,00,000 a year
+                              - img "missing preference" [ref=f45e153]
+                  - group "Job type" [ref=f45e155]:
+                    - generic [ref=f45e159]:
+                      - heading "Job type" [level=3] [ref=f45e160]
+                      - list [ref=f45e162]:
+                        - listitem [ref=f45e163]:
+                          - button "Job type Permanent matching preference" [ref=f45e164]:
+                            - generic [ref=f45e167]:
+                              - generic [ref=f45e170]: Permanent
+                              - img "matching preference" [ref=f45e171]
+                        - listitem [ref=f45e173]:
+                          - button "Job type Full-time matching preference" [ref=f45e174]:
+                            - generic [ref=f45e177]:
+                              - generic [ref=f45e180]: Full-time
+                              - img "matching preference" [ref=f45e181]
+              - separator [ref=f45e183]:
+                - generic [ref=f45e184]: "&nbsp;"
+            - generic [ref=f45e185]:
+              - heading "Location" [level=2] [ref=f45e186]
+              - generic [ref=f45e187]: Gurugram, Haryana
+              - separator [ref=f45e192]:
+                - generic [ref=f45e193]: "&nbsp;"
+            - generic [ref=f45e194]:
+              - heading "Benefits" [level=3] [ref=f45e195]
+              - paragraph [ref=f45e196]: Pulled from the full job description
+              - list [ref=f45e200]:
+                - listitem [ref=f45e201]: Provident Fund
+              - separator [ref=f45e202]:
+                - generic [ref=f45e203]: "&nbsp;"
+            - heading "Full job description" [level=2] [ref=f45e205]
+            - generic [ref=f45e206]:
+              - paragraph [ref=f45e207]: About Us
+              - paragraph [ref=f45e208]: Holiday Tribe is building India’s first AI-powered self-planning travel platform. We combine conversational interfaces with real-time booking integrations to let travelers plan and book entire trips in minutes.
+              - paragraph [ref=f45e209]: We’re looking for a Lead Developer who can help us build high-performance APIs and workflows that power our planning and booking assistant.
+              - paragraph [ref=f45e210]: "Employment Type: Full-time"
+              - paragraph [ref=f45e211]: What You’ll Do
+              - list [ref=f45e212]:
+                - listitem [ref=f45e213]: Build and maintain backend services using Node.js (Express) / Fastapi / Spring Boot and integrate them with travel APIs (flights, hotels, activities).
+                - listitem [ref=f45e214]: Implement RESTful APIs and async programming to support AI-powered trip planning and booking.
+                - listitem [ref=f45e215]: Work closely with the frontend and AI orchestration layers to enable seamless end-user experience.
+                - listitem [ref=f45e216]: Design clean, reusable modules to integrate with third-party booking platforms.
+                - listitem [ref=f45e217]: Optimize performance and scalability of real-time query systems.
+              - paragraph [ref=f45e218]: What You Bring
+              - list [ref=f45e219]:
+                - listitem [ref=f45e220]: 5+ years of backend development experience for product-based startups.
+                - listitem [ref=f45e221]: Strong knowledge of distributed systems.
+                - listitem [ref=f45e222]: Strong understanding of RESTful APIs, and async programming.
+                - listitem [ref=f45e223]: Experience with databases (MongoDB, PostgreSQL, or MySQL).
+                - listitem [ref=f45e224]: Familiarity with message queues (e.g. Redis, RabbitMQ, Kafka) websockets and caching mechanisms.
+                - listitem [ref=f45e225]: "Non-negotiable: Experience working in high-agency startup engineering teams with a builder's mindset."
+                - listitem [ref=f45e226]: Ability to write clean, modular, testable code.
+                - listitem [ref=f45e227]: "Bonus: Worked on travel, booking, or real-time systems."
+              - paragraph [ref=f45e228]: Perks
+              - list [ref=f45e229]:
+                - listitem [ref=f45e230]: Work with a fast-moving team building futuristic travel tools.
+                - listitem [ref=f45e231]: Shape backend architecture for a high-growth product.
+                - listitem [ref=f45e232]: Learn and contribute to AI-agent orchestration pipelines.
+                - listitem [ref=f45e233]: Competitive pay and ESOPs.
+              - paragraph [ref=f45e234]: "Pay: ₹2,500,000.00 - ₹3,000,000.00 per year"
+              - paragraph [ref=f45e235]: "Benefits:"
+              - list [ref=f45e236]:
+                - listitem [ref=f45e237]: Provident Fund
+              - paragraph [ref=f45e238]: "Application Question(s):"
+              - list [ref=f45e239]:
+                - listitem [ref=f45e240]: What's your product base experience?
+                - listitem [ref=f45e241]: How much experience on AI?
+                - listitem [ref=f45e242]: How much experience on MERN Stack?
+              - paragraph [ref=f45e243]: "Work Location: In person"
+            - separator [ref=f45e244]:
+              - generic [ref=f45e245]: "&nbsp;"
+          - button "Report job" [ref=f45e252] [cursor=pointer]
+      - generic [ref=f45e254]:
+        - separator [ref=f45e255]:
+          - generic [ref=f45e256]: "&nbsp;"
+        - generic [ref=f45e259]:
+          - link "Software Engineer jobs in Gurugram, Haryana" [ref=f45e261] [cursor=pointer]:
+            - /url: /q-software-engineer-l-gurugram,-haryana-jobs.html
+          - link "Jobs at Holiday Tribe in Gurugram, Haryana" [ref=f45e263] [cursor=pointer]:
+            - /url: /q-holiday-tribe-l-gurugram,-haryana-jobs.html
+          - link "Software Engineer salaries in Gurugram, Haryana" [ref=f45e265] [cursor=pointer]:
+            - /url: /salary?from=vj&q1=Software+Engineer&l1=Gurugram%2C+Haryana
+  - contentinfo [ref=f45e270]:
+    - generic [ref=f45e271]:
+      - list [ref=f45e272]:
+        - listitem [ref=f45e273]:
+          - link "Career advice" [ref=f45e275] [cursor=pointer]:
+            - /url: https://in.indeed.com/career-advice
+        - listitem [ref=f45e276]:
+          - link "Browse jobs" [ref=f45e278] [cursor=pointer]:
+            - /url: https://in.indeed.com/browsejobs
+        - listitem [ref=f45e279]:
+          - link "Browse companies" [ref=f45e281] [cursor=pointer]:
+            - /url: https://in.indeed.com/companies/browse-companies
+        - listitem [ref=f45e282]:
+          - link "Salaries" [ref=f45e284] [cursor=pointer]:
+            - /url: https://in.indeed.com/career/salaries
+        - listitem [ref=f45e285]:
+          - link "Indeed Events" [ref=f45e287] [cursor=pointer]:
+            - /url: https://www.indeedevents.com/en-in/
+        - listitem [ref=f45e288]:
+          - link "Work at Indeed" [ref=f45e290] [cursor=pointer]:
+            - /url: https://in.indeed.com/cmp/Indeed/about
+        - listitem [ref=f45e291]:
+          - link "Countries" [ref=f45e293] [cursor=pointer]:
+            - /url: https://in.indeed.com/countries
+        - listitem [ref=f45e294]:
+          - link "About" [ref=f45e296] [cursor=pointer]:
+            - /url: https://in.indeed.com/about
+        - listitem [ref=f45e297]:
+          - link "Help" [ref=f45e299] [cursor=pointer]:
+            - /url: https://in.indeed.com/help/job-seekers?hl=en&co=in
+        - listitem [ref=f45e300]:
+          - link "ESG at Indeed" [ref=f45e302] [cursor=pointer]:
+            - /url: https://in.indeed.com/esg?from=gnav-viewjob
+        - listitem [ref=f45e303]:
+          - link "Guidelines for safe job search" [ref=f45e305] [cursor=pointer]:
+            - /url: https://support.indeed.com/hc/en-in/articles/216354123-Guidelines-for-Safe-Job-Search
+      - list [ref=f45e306]:
+        - listitem [ref=f45e307]: © 2026 Indeed
+        - listitem [ref=f45e308]:
+          - link "Accessibility at Indeed" [ref=f45e310] [cursor=pointer]:
+            - /url: https://in.indeed.com/esg/accessibility?hl=en
+        - listitem [ref=f45e311]:
+          - link "Privacy Centre and Ad Choices" [ref=f45e313] [cursor=pointer]:
+            - /url: https://hrtechprivacy.com/brands/indeed#privacypolicy
+        - listitem [ref=f45e314]:
+          - link "Terms" [ref=f45e316] [cursor=pointer]:
+            - /url: https://in.indeed.com/legal?hl=en
+      - list:
+        - listitem

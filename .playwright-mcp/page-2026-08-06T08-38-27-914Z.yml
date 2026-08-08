@@ -1,0 +1,326 @@
+- generic [active] [ref=f3157e1]:
+  - link "Skip to content" [ref=f3157e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f3157e3]:
+    - banner [ref=f3157e4]:
+      - generic [ref=f3157e7]:
+        - link [ref=f3157e11] [cursor=pointer]:
+          - /url: https://jobsnet.in/
+          - img "Jobsnet.in" [ref=f3157e12]
+        - generic [ref=f3157e14]:
+          - navigation "Main Menu" [ref=f3157e15]:
+            - list [ref=f3157e16]:
+              - listitem [ref=f3157e17]:
+                - link "Home" [ref=f3157e18] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - listitem [ref=f3157e19]:
+                - link "Internships" [ref=f3157e20] [cursor=pointer]:
+                  - /url: https://jobsnet.in/internships/
+              - listitem [ref=f3157e21]:
+                - link "Off Campus Drives" [ref=f3157e22] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+              - listitem [ref=f3157e23]:
+                - link [ref=f3157e24] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+              - listitem [ref=f3157e28]:
+                - link [ref=f3157e29] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+          - button "Search" [ref=f3157e33] [cursor=pointer]
+    - main [ref=f3157e36]:
+      - insertion [ref=f3157e38]:
+        - iframe [ref=f3157e40]:
+          
+      - generic [ref=f3157e41]:
+        - article [ref=f3157e42]:
+          - generic [ref=f3157e44]:
+            - navigation [ref=f3157e45]:
+              - link "Home" [ref=f3157e47] [cursor=pointer]:
+                - /url: https://jobsnet.in/
+              - link "Off Campus Drive" [ref=f3157e51] [cursor=pointer]:
+                - /url: https://jobsnet.in/off-campus-drive/
+              - generic [ref=f3157e54]: "Sovos Off Campus Drive 2026 : Software Engineer – Freshers"
+            - 'heading "Sovos Off Campus Drive 2026 : Software Engineer – Freshers" [level=1] [ref=f3157e56]'
+            - list [ref=f3157e57]:
+              - listitem [ref=f3157e58]:
+                - text: By
+                - link "Anand Kumar" [ref=f3157e59] [cursor=pointer]:
+                  - /url: https://jobsnet.in/author/anand/
+                - text: /
+              - listitem [ref=f3157e60]:
+                - text: "On"
+                - time [ref=f3157e61]: February 8, 2026
+          - figure [ref=f3157e62]
+          - generic [ref=f3157e64]:
+            - paragraph [ref=f3157e65]:
+              - text: Sovos hiring fresher graduates for the role of
+              - strong [ref=f3157e66]:
+                - link "Software" [ref=f3157e67] [cursor=pointer]:
+                  - /url: "#"
+                - link "Engineer" [ref=f3157e70] [cursor=pointer]:
+                  - /url: "#"
+              - text: across the location in India. The detailed job description of Cornerstone JE is available below.
+              - link "Software" [ref=f3157e73] [cursor=pointer]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - heading [level=2] [ref=f3157e77]:
+              - strong [ref=f3157e78]: Sovos Off Campus Drive Overview:-
+            - paragraph [ref=f3157e79]:
+              - strong [ref=f3157e80]: "Job Title:"
+              - text: Software Engineer
+            - paragraph [ref=f3157e81]:
+              - strong [ref=f3157e82]: Experience
+              - text: ": Freshers/0-1 Years"
+            - generic [ref=f3157e85]:
+              - generic [ref=f3157e86]:
+                - generic [ref=f3157e87]: WhatsApp Channel
+                - link "Join Now" [ref=f3157e89] [cursor=pointer]:
+                  - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+              - generic [ref=f3157e90]:
+                - generic [ref=f3157e91]: Telegram Channel
+                - link "Join Now" [ref=f3157e93] [cursor=pointer]:
+                  - /url: https://telegram.me/campusdrivejobs
+            - paragraph [ref=f3157e94]:
+              - strong [ref=f3157e95]: "Job Location:"
+              - text: Navi Mumbai
+            - paragraph [ref=f3157e96]:
+              - strong [ref=f3157e97]: Salary
+              - text: ": Best in Industry"
+              - link "Civil Engineering" [ref=f3157e98] [cursor=pointer]
+            - generic [ref=f3157e102]:
+              - insertion:
+                - generic:
+                  - iframe
+            - paragraph [ref=f3157e103]: "Qualification: BE/B.Tech/BSC/BCA/MCA or Related"
+            - heading [level=2] [ref=f3157e104]:
+              - strong [ref=f3157e105]: "Job Description:"
+            - paragraph [ref=f3157e106]:
+              - text: At
+              - strong [ref=f3157e107]: Sovos
+              - text: ", we deliver enterprise-grade solutions that power global tax compliance for some of the world’s largest organizations. As a"
+              - strong [ref=f3157e108]: Software Engineer
+              - text: ", you’ll launch your career designing, implementing, and supporting system-to-system integrations between Sovos platforms, client ERPs, and third-party applications."
+            - paragraph [ref=f3157e109]:
+              - emphasis [ref=f3157e110]: "More specifically, you will:"
+            - list [ref=f3157e111]:
+              - listitem [ref=f3157e112]:
+                - text: Support integration projects under the guidance of senior
+                - link "engineers" [ref=f3157e113] [cursor=pointer]:
+                  - /url: "#"
+                - text: ", contributing to technical design and implementation"
+              - listitem [ref=f3157e116]: Assist in gathering and analyzing business and technical requirements from clients and translating them into integration solutions
+              - listitem [ref=f3157e117]: Help design and implement API-based integrations (REST/SOAP) between Sovos platforms and client ERP systems
+              - listitem [ref=f3157e118]: Provide technical support during integration onboarding, UAT, and post-production go-live phases
+              - listitem [ref=f3157e119]: Collaborate with client teams and third-party integration partners to support timely delivery and issue resolution
+              - listitem [ref=f3157e120]: Troubleshoot and resolve integration, data, and system issues across development and production environments
+              - listitem [ref=f3157e121]: Validate data flows, mappings, and transformations between source and target systems
+              - listitem [ref=f3157e122]: Document integration designs, interface specifications, and support procedures
+              - listitem [ref=f3157e123]: Work with internal engineering, QA, database, and product teams to deliver reliable integration solutions
+              - listitem [ref=f3157e124]: Monitor production integrations and assist with incident analysis and root cause resolution
+              - listitem [ref=f3157e125]: Learn and apply security, compliance, and performance standards across all integration work
+            - paragraph [ref=f3157e126]:
+              - strong [ref=f3157e127]: What We Need From You
+            - list [ref=f3157e128]:
+              - listitem [ref=f3157e129]: Bachelor’s degree in Computer Science, Information Technology, Engineering, or related field (or equivalent practical experience)
+              - listitem [ref=f3157e130]: 0-1 years of experience in software development, integration, or related technical roles (internships and academic projects count!)
+              - listitem [ref=f3157e131]: Basic understanding of APIs (REST/SOAP) and how systems communicate
+              - listitem [ref=f3157e132]: Foundational knowledge of programming concepts and at least one programming language (Java, Python, C#, or similar)
+              - listitem [ref=f3157e133]: Familiarity with JSON and XML data formats
+              - listitem [ref=f3157e134]: Basic SQL knowledge for querying and validating data
+              - listitem [ref=f3157e135]: Interest in learning ERP systems such as NetSuite, SAP, Oracle, or Microsoft Dynamics
+              - listitem [ref=f3157e136]: Strong problem-solving mindset and eagerness to learn new technologies
+              - listitem [ref=f3157e137]: Ability to communicate technical concepts clearly to both technical and non-technical audiences
+              - listitem [ref=f3157e138]: Collaborative team player who thrives in a global, cross-functional environment
+              - listitem [ref=f3157e139]: Exposure to cloud platforms (AWS preferred) is a plus
+              - listitem [ref=f3157e140]: Due to client contractual obligations, the successful candidate will be asked to clear a background check and drug test upon hire
+            - heading [level=2] [ref=f3157e141]:
+              - strong [ref=f3157e142]: "How To Apply :"
+            - paragraph [ref=f3157e143]:
+              - text: Interested and eligible candidates can apply for the hiring on the following application Sovos careers link, Shortlisted candidates will receive further selection process.
+              - link "Civil Engineering" [ref=f3157e144] [cursor=pointer]
+            - insertion [ref=f3157e149]
+            - paragraph [ref=f3157e151]:
+              - strong [ref=f3157e152]:
+                - text: "Apply Link:"
+                - link "Click Here" [ref=f3157e153] [cursor=pointer]:
+                  - /url: https://recruit.hirebridge.com/v3/Jobs/JobDetails.aspx?cid=6875&jid=608254&locvalue=1188
+            - generic [ref=f3157e154]:
+              - strong [ref=f3157e155]: "Join Our Whatsapp Group:"
+              - link [ref=f3157e156] [cursor=pointer]:
+                - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+                - strong [ref=f3157e157]: Click Here
+              - link "Engineering & Technology" [ref=f3157e158] [cursor=pointer]
+            - insertion [ref=f3157e163]
+          - generic [ref=f3157e165]:
+            - generic [ref=f3157e166]: You May like
+            - generic [ref=f3157e167]:
+              - link "# AWS" [ref=f3157e168] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/aws/
+              - link "# Java" [ref=f3157e169] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/java/
+              - link "# Jobs in Bangalore" [ref=f3157e170] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-bangalore/
+              - link "# Jobs in Hyderabad" [ref=f3157e171] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-hyderabad/
+              - link "# Jobs in Pune" [ref=f3157e172] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-pune/
+              - link "# Linux" [ref=f3157e173] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/linux/
+              - link "# Python" [ref=f3157e174] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/python/
+              - link "# SQL" [ref=f3157e175] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/sql/
+              - link "# Testing" [ref=f3157e176] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/testing/
+          - generic [ref=f3157e178]:
+            - link "Facebook" [ref=f3157e179] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjobsnet.in%2Fsovos-off-campus-drive-software-engineer-freshers%2F
+            - link "X (Twitter)" [ref=f3157e183] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fjobsnet.in%2Fsovos-off-campus-drive-software-engineer-freshers%2F&text=Sovos%20Off%20Campus%20Drive%202026%20%3A%20Software%20Engineer%20%26%238211%3B%20Freshers
+            - link "Reddit" [ref=f3157e187] [cursor=pointer]:
+              - /url: https://reddit.com/submit?url=https%3A%2F%2Fjobsnet.in%2Fsovos-off-campus-drive-software-engineer-freshers%2F&title=Sovos%20Off%20Campus%20Drive%202026%20%3A%20Software%20Engineer%20%26%238211%3B%20Freshers
+            - link "Telegram" [ref=f3157e191] [cursor=pointer]:
+              - /url: https://t.me/share/url?url=https%3A%2F%2Fjobsnet.in%2Fsovos-off-campus-drive-software-engineer-freshers%2F&text=Sovos%20Off%20Campus%20Drive%202026%20%3A%20Software%20Engineer%20%26%238211%3B%20Freshers
+            - link "WhatsApp" [ref=f3157e195] [cursor=pointer]:
+              - /url: whatsapp://send?text=https%3A%2F%2Fjobsnet.in%2Fsovos-off-campus-drive-software-engineer-freshers%2F
+          - generic [ref=f3157e199]:
+            - link [ref=f3157e200] [cursor=pointer]:
+              - /url: https://jobsnet.in/author/anand/
+              - img "Anand Kumar" [ref=f3157e201]
+            - generic [ref=f3157e204]:
+              - heading "Anand Kumar" [level=5] [ref=f3157e205]
+              - paragraph [ref=f3157e207]:
+                - text: Career Expert & Founder of JobsNet.in. Serving the student community since 2019, I specialize in providing verified job updates and placement material for computer science, IT, engineering and management graduates. With a mission to simplify the job hunt, I have helped thousands of candidates secure roles in top MNCs over the last 7 years.
+                - link "Data Management" [ref=f3157e208] [cursor=pointer]
+              - generic [ref=f3157e213]:
+                - link "LinkedIn icon" [ref=f3157e214] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/amar-kumar-sd
+                - link "Website icon" [ref=f3157e217] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - 'link "Articles: 2394" [ref=f3157e220] [cursor=pointer]':
+                - /url: https://jobsnet.in/author/anand/
+          - insertion [ref=f3157e222]
+          - navigation [ref=f3157e224]:
+            - link "Previous Post Cornerstone Off Campus Drive 2026 - Hiring Full Stack Developers (0-2 Years)" [ref=f3157e225] [cursor=pointer]:
+              - /url: https://jobsnet.in/cornerstone-off-campus-drive-hiring-full-stack-developers/
+              - figure [ref=f3157e226]:
+                - img "Cornerstone Off Campus Drive - Hiring Junior Engineer" [ref=f3157e227]
+              - generic [ref=f3157e230]:
+                - generic [ref=f3157e231]: Previous Post
+                - generic [ref=f3157e232]: Cornerstone Off Campus Drive 2026 - Hiring Full Stack Developers (0-2 Years)
+            - 'link "Next Post Milestone Technologies Off Campus Drive 2026: Apprentice - Software Development Engineer" [ref=f3157e233] [cursor=pointer]':
+              - /url: https://jobsnet.in/milestone-technologies-off-campus-drive-apprentice-sde/
+              - generic [ref=f3157e234]:
+                - generic [ref=f3157e235]: Next Post
+                - generic [ref=f3157e236]: "Milestone Technologies Off Campus Drive 2026: Apprentice - Software Development Engineer"
+              - figure [ref=f3157e237]
+          - generic [ref=f3157e240]:
+            - heading "Related" [level=3] [ref=f3157e241]
+            - generic [ref=f3157e242]:
+              - article [ref=f3157e243]:
+                - generic [ref=f3157e244]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f3157e245] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                  - paragraph [ref=f3157e246]:
+                    - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f3157e247] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+              - article [ref=f3157e248]:
+                - generic [ref=f3157e249]:
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f3157e250] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                    - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f3157e251]
+                  - paragraph [ref=f3157e252]:
+                    - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f3157e253] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+              - article [ref=f3157e254]:
+                - generic [ref=f3157e255]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f3157e256] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                  - paragraph [ref=f3157e257]:
+                    - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f3157e258] [cursor=pointer]:
+                      - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+        - complementary [ref=f3157e259]:
+          - generic [ref=f3157e260]:
+            - heading "Search Jobs" [level=3] [ref=f3157e263]
+            - textbox "search" [ref=f3157e270]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - generic [ref=f3157e271]:
+              - heading "Latest Updates" [level=3] [ref=f3157e272]
+              - list [ref=f3157e274]:
+                - listitem [ref=f3157e275]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f3157e277] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                - listitem [ref=f3157e278]:
+                  - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f3157e280]
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f3157e281] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                - listitem [ref=f3157e282]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f3157e284] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                - listitem [ref=f3157e285]:
+                  - img "Accenture Mega Off Campus Drive For Freshers - Associate Software Engineer" [ref=f3157e287]
+                  - link "Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)" [ref=f3157e288] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-entry-level-custom-software-engineer-python/
+                - listitem [ref=f3157e289]:
+                  - img "Cornerstone Off Campus Drive - Hiring Junior Engineer" [ref=f3157e291]
+                  - link "Cornerstone Hiring Entry Level Junior Engineer – Cloud Ops" [ref=f3157e292] [cursor=pointer]:
+                    - /url: https://jobsnet.in/cornerstone-hiring-entry-level-junior-engineer-cloud-ops/
+                - listitem [ref=f3157e293]:
+                  - link "Calix Off Campus Drive 2026 – Hiring Graduate Trainee – Test & QA" [ref=f3157e295] [cursor=pointer]:
+                    - /url: https://jobsnet.in/calix-off-campus-drive-hiring-graduate-trainee-test-qa/
+                - listitem [ref=f3157e296]:
+                  - link "HDFC Life Off Campus Drive 2026 – Graduate Trainee – Data Science & Analytics" [ref=f3157e298] [cursor=pointer]:
+                    - /url: https://jobsnet.in/hdfc-life-off-campus-drive-graduate-trainee-data-science-analytics/
+                - listitem [ref=f3157e299]:
+                  - img "Yash Technologies Hiring Freshers QA Trainee - Pune/Indore/Hyderabad" [ref=f3157e301]
+                  - link "Yash Technologies Off Campus Drive 2026 – AI/ML Trainee" [ref=f3157e302] [cursor=pointer]:
+                    - /url: https://jobsnet.in/yash-technologies-off-campus-drive-hiring-ai-ml-trainee/
+                - listitem [ref=f3157e303]:
+                  - img "White Twilio logo and four-dot icon on a red background." [ref=f3157e305]
+                  - link "Twilio Off Campus Drive 2026 – Associate Application Engineer- Remote" [ref=f3157e306] [cursor=pointer]:
+                    - /url: https://jobsnet.in/twilio-off-campus-drive-associate-application-engineer-remote/
+                - listitem [ref=f3157e307]:
+                  - img "Accenture Hiring Any Graduate Freshers As Network Associate" [ref=f3157e309]
+                  - link "Accenture Hiring Application Support Engineer – Any Graduate (0-2 Years)" [ref=f3157e310] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-application-support-engineer-any-graduate-0-2-years/
+            - generic [ref=f3157e312]:
+              - insertion:
+                - generic:
+                  - iframe
+    - insertion [ref=f3157e314]
+    - contentinfo [ref=f3157e316]:
+      - generic [ref=f3157e318]:
+        - paragraph [ref=f3157e321]: © 2026 Jobsnet.in
+        - navigation "footermenu" [ref=f3157e323]:
+          - list [ref=f3157e324]:
+            - listitem [ref=f3157e325]:
+              - link "Home" [ref=f3157e326] [cursor=pointer]:
+                - /url: https://jobsnet.in
+            - listitem [ref=f3157e327]:
+              - link "About us" [ref=f3157e328] [cursor=pointer]:
+                - /url: https://jobsnet.in/about-us/
+            - listitem [ref=f3157e329]:
+              - link "Contact Us" [ref=f3157e330] [cursor=pointer]:
+                - /url: https://jobsnet.in/contact/
+            - listitem [ref=f3157e331]:
+              - link "Advertise With Us" [ref=f3157e332] [cursor=pointer]:
+                - /url: https://jobsnet.in/advertise/
+            - listitem [ref=f3157e333]:
+              - link "Terms" [ref=f3157e334] [cursor=pointer]:
+                - /url: https://jobsnet.in/terms-and-conditions/
+            - listitem [ref=f3157e335]:
+              - link "Privacy" [ref=f3157e336] [cursor=pointer]:
+                - /url: https://jobsnet.in/privacy-policy/
+  - generic [ref=f3157e337]:
+    - generic [ref=f3157e338] [cursor=pointer]: CLOSE [X]
+    - insertion [ref=f3157e340]:
+      - iframe [ref=f3157e342]:
+        
+  - link "Join WhatsApp" [ref=f3157e344] [cursor=pointer]:
+    - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP

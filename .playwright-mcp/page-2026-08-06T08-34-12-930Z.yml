@@ -1,0 +1,349 @@
+- generic [active] [ref=f2935e1]:
+  - link "Skip to content" [ref=f2935e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f2935e3]:
+    - banner [ref=f2935e4]:
+      - generic [ref=f2935e7]:
+        - link [ref=f2935e11] [cursor=pointer]:
+          - /url: https://jobsnet.in/
+          - img "Jobsnet.in" [ref=f2935e12]
+        - generic [ref=f2935e14]:
+          - navigation "Main Menu" [ref=f2935e15]:
+            - list [ref=f2935e16]:
+              - listitem [ref=f2935e17]:
+                - link "Home" [ref=f2935e18] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - listitem [ref=f2935e19]:
+                - link "Internships" [ref=f2935e20] [cursor=pointer]:
+                  - /url: https://jobsnet.in/internships/
+              - listitem [ref=f2935e21]:
+                - link "Off Campus Drives" [ref=f2935e22] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+              - listitem [ref=f2935e23]:
+                - link [ref=f2935e24] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+              - listitem [ref=f2935e28]:
+                - link [ref=f2935e29] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+          - button "Search" [ref=f2935e33] [cursor=pointer]
+    - main [ref=f2935e36]:
+      - insertion [ref=f2935e38]:
+        - iframe [ref=f2935e40]:
+          
+      - generic [ref=f2935e41]:
+        - article [ref=f2935e42]:
+          - generic [ref=f2935e44]:
+            - navigation [ref=f2935e45]:
+              - link "Home" [ref=f2935e47] [cursor=pointer]:
+                - /url: https://jobsnet.in/
+              - link "Off Campus Drive" [ref=f2935e51] [cursor=pointer]:
+                - /url: https://jobsnet.in/off-campus-drive/
+              - generic [ref=f2935e55]:
+                - text: S&P Global Off Campus Drive 2026 | Associate Software
+                - link "Engineer" [ref=f2935e56] [cursor=pointer]:
+                  - /url: "#"
+                - text: "| Graduate Program"
+                - link "Software" [ref=f2935e59] [cursor=pointer]
+            - heading "S&P Global Off Campus Drive 2026 | Associate Software Engineer | Graduate Program" [level=1] [ref=f2935e63]
+            - list [ref=f2935e64]:
+              - listitem [ref=f2935e65]:
+                - text: By
+                - link "Anand Kumar" [ref=f2935e66] [cursor=pointer]:
+                  - /url: https://jobsnet.in/author/anand/
+                - text: /
+              - listitem [ref=f2935e67]:
+                - text: "On"
+                - time [ref=f2935e68]: February 19, 2026
+          - figure [ref=f2935e69]:
+            - img "S&P Global Off Campus Drive" [ref=f2935e71]
+          - generic [ref=f2935e72]:
+            - paragraph [ref=f2935e73]:
+              - text: S&P Global, a leading provider of financial information and analytics, is conducting an off-campus drive for the position of Associate Software Engineer. The drive is open to freshers from across India.
+              - link "Civil Engineering" [ref=f2935e74] [cursor=pointer]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - paragraph [ref=f2935e78]:
+              - strong [ref=f2935e79]: S&P Global Off Campus Drive 2026 Overview :-
+            - figure [ref=f2935e80]:
+              - table [ref=f2935e81]:
+                - rowgroup [ref=f2935e82]:
+                  - row [ref=f2935e83]:
+                    - cell [ref=f2935e84]:
+                      - strong [ref=f2935e85]: Company Name
+                    - cell "S&P Global" [ref=f2935e86]
+                  - row [ref=f2935e87]:
+                    - cell [ref=f2935e88]:
+                      - strong [ref=f2935e89]: Website
+                    - cell [ref=f2935e90]:
+                      - link "https://www.spglobal.com" [ref=f2935e91] [cursor=pointer]:
+                        - /url: https://www.spglobal.com
+                  - row [ref=f2935e92]:
+                    - cell [ref=f2935e93]:
+                      - strong [ref=f2935e94]: Job Profile
+                    - cell "Software Engineer" [ref=f2935e95]
+                  - row [ref=f2935e96]:
+                    - cell [ref=f2935e97]:
+                      - strong [ref=f2935e98]: Qualification
+                    - cell "BE/B.Tech/BS/MCA/MS/MTech or Any" [ref=f2935e99]
+                  - row [ref=f2935e100]:
+                    - cell [ref=f2935e101]:
+                      - strong [ref=f2935e102]: Experience
+                    - cell "Freshers" [ref=f2935e103]
+                  - row [ref=f2935e104]:
+                    - cell [ref=f2935e105]:
+                      - strong [ref=f2935e106]: Batch
+                    - cell "2026" [ref=f2935e107]
+                  - row [ref=f2935e108]:
+                    - cell [ref=f2935e109]:
+                      - strong [ref=f2935e110]: Salary
+                    - cell "As Per Industry Standard" [ref=f2935e111]
+                  - row [ref=f2935e112]:
+                    - cell [ref=f2935e113]:
+                      - strong [ref=f2935e114]: Job Location
+                    - cell [ref=f2935e115]:
+                      - strong [ref=f2935e116]: Hyderabad
+                  - row [ref=f2935e117]:
+                    - cell [ref=f2935e118]:
+                      - strong [ref=f2935e119]: Join Us On Telegram
+                    - cell [ref=f2935e120]:
+                      - emphasis [ref=f2935e121]:
+                        - strong [ref=f2935e122]:
+                          - link "Click Here" [ref=f2935e123] [cursor=pointer]:
+                            - /url: https://telegram.me/campusdrivejobs
+            - paragraph [ref=f2935e124]:
+              - strong [ref=f2935e125]: Job Description
+              - text: ":"
+              - strong
+            - generic [ref=f2935e128]:
+              - generic [ref=f2935e129]:
+                - generic [ref=f2935e130]: WhatsApp Channel
+                - link "Join Now" [ref=f2935e132] [cursor=pointer]:
+                  - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+              - generic [ref=f2935e133]:
+                - generic [ref=f2935e134]: Telegram Channel
+                - link "Join Now" [ref=f2935e136] [cursor=pointer]:
+                  - /url: https://telegram.me/campusdrivejobs
+            - paragraph [ref=f2935e137]:
+              - text: The program spans over 18 months and consists of three six-month rotations (3*6) across different departments like Full Stack Development, Data Science/AI-ML, Data Engineering/Data Virtualization, Cloud Engineering, Devops, Automation ( Test/Infrastructure), Agile Project Management & Product Development.
+              - link "Software" [ref=f2935e138] [cursor=pointer]
+            - paragraph [ref=f2935e142]:
+              - strong [ref=f2935e143]: "What’s in it for you:"
+            - generic [ref=f2935e144]:
+              - insertion:
+                - generic:
+                  - iframe
+            - list [ref=f2935e145]:
+              - listitem [ref=f2935e146]: As a Graduate Program Participant, you will quickly gain exposure to a wide range of technologies, frameworks and paradigms which will broaden and deepen your knowledge and provide a stimulating and challenging working environment.
+              - listitem [ref=f2935e147]:
+                - text: "Cross-functional Exposure: Explore various domains within the technology landscape, including"
+                - link "software" [ref=f2935e148] [cursor=pointer]:
+                  - /url: "#"
+                - text: development,
+                - link "data" [ref=f2935e151] [cursor=pointer]:
+                  - /url: "#"
+                - text: analytics, Data sciences, and more.
+              - listitem [ref=f2935e154]: "Structured Learning: Benefit from structured training sessions, workshops, and mentorship opportunities tailored to your development needs."
+              - listitem [ref=f2935e155]: "Hands-on Experience: Engage in real-world projects from day one, working alongside experienced professionals in cutting-edge technology environments."
+              - listitem [ref=f2935e156]: "Networking Opportunities: Connect with industry experts, build relationships with peers, and expand your professional network through networking events, seminars, and community initiatives."
+              - listitem [ref=f2935e157]: "Career Guidance: Receive personalized career guidance and support from program manager throughout your journey."
+              - listitem [ref=f2935e158]: "Continuous Feedback: Regular evaluations and feedback sessions to track progress and ensure continuous improvement."
+              - listitem [ref=f2935e159]: "Career Pathway: Upon successful completion of the program, participants will have the opportunity to transition into diverse roles within the organization, based on their interests, strengths, and business needs. What We’re Looking For:"
+            - paragraph [ref=f2935e160]:
+              - strong [ref=f2935e161]: "Basic Required Qualifications:"
+            - list [ref=f2935e162]:
+              - listitem [ref=f2935e163]: Fresher with bachelor’s degree in computer science, Engineering, or another analytical/technical subject (Passing year 2026)
+              - listitem [ref=f2935e164]: Excellent communication and time management skills.
+              - listitem [ref=f2935e165]: Willing to work in 24*5 rotational shift depending on the business requirement.
+              - listitem [ref=f2935e166]: Knowledge on Coding, Data structure & algorithms.
+              - listitem [ref=f2935e167]: A strong desire to pursue a career in software development and delivery and a demonstrable the ability to quickly understand and apply new technical concepts and frameworks.
+              - listitem [ref=f2935e168]: Strong critical thinking and problem-solving skills.
+              - listitem [ref=f2935e169]: An aptitude to learn and adapt quickly in a rapidly changing environment.
+              - listitem [ref=f2935e170]: The ability to build strong working relationships in a collaborative setting.
+              - listitem [ref=f2935e171]: Familiarity with database concepts.
+              - listitem [ref=f2935e172]: Good understanding of object-oriented programming, clean code principles, and design patterns.
+              - listitem [ref=f2935e173]: Knowledge of techniques like unit testing, pair programming, code reviews, etc.
+            - paragraph [ref=f2935e174]:
+              - text: "How To Apply For S&P Global :"
+              - link "Dictionaries & Encyclopedias" [ref=f2935e175] [cursor=pointer]
+            - paragraph [ref=f2935e179]: The interested and eligible graduates register for the same on the following application link.
+            - insertion [ref=f2935e181]
+            - paragraph [ref=f2935e183]:
+              - strong [ref=f2935e184]:
+                - text: "S&P Apply Link:"
+                - link "Click Here" [ref=f2935e185] [cursor=pointer]:
+                  - /url: https://careers.spglobal.com/jobs/320575?lang=en-us&utm_source=linkedin
+            - generic [ref=f2935e186]:
+              - strong [ref=f2935e187]: "Join Our Whatsapp Group:"
+              - link [ref=f2935e188] [cursor=pointer]:
+                - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+                - strong [ref=f2935e189]: Click Here
+              - link "Civil Engineering" [ref=f2935e190] [cursor=pointer]
+            - insertion [ref=f2935e195]
+          - generic [ref=f2935e197]:
+            - generic [ref=f2935e198]: You May like
+            - generic [ref=f2935e199]:
+              - link "# AWS" [ref=f2935e200] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/aws/
+              - link "# Java" [ref=f2935e201] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/java/
+              - link "# Jobs in Hyderabad" [ref=f2935e202] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-hyderabad/
+              - link "# Linux" [ref=f2935e203] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/linux/
+              - link "# Python" [ref=f2935e204] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/python/
+              - link "# QA" [ref=f2935e205] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/qa/
+              - link "# Testing" [ref=f2935e206] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/testing/
+          - generic [ref=f2935e208]:
+            - link "Facebook" [ref=f2935e209] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjobsnet.in%2Fsp-global-off-campus-drive-2026-associate-software-engineer-graduate-program%2F
+            - link "X (Twitter)" [ref=f2935e213] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fjobsnet.in%2Fsp-global-off-campus-drive-2026-associate-software-engineer-graduate-program%2F&text=S%26amp%3BP%20Global%20Off%20Campus%20Drive%202026%20%7C%20Associate%20Software%20Engineer%20%7C%20Graduate%20Program
+            - link "Reddit" [ref=f2935e217] [cursor=pointer]:
+              - /url: https://reddit.com/submit?url=https%3A%2F%2Fjobsnet.in%2Fsp-global-off-campus-drive-2026-associate-software-engineer-graduate-program%2F&title=S%26amp%3BP%20Global%20Off%20Campus%20Drive%202026%20%7C%20Associate%20Software%20Engineer%20%7C%20Graduate%20Program
+            - link "Telegram" [ref=f2935e221] [cursor=pointer]:
+              - /url: https://t.me/share/url?url=https%3A%2F%2Fjobsnet.in%2Fsp-global-off-campus-drive-2026-associate-software-engineer-graduate-program%2F&text=S%26amp%3BP%20Global%20Off%20Campus%20Drive%202026%20%7C%20Associate%20Software%20Engineer%20%7C%20Graduate%20Program
+            - link "WhatsApp" [ref=f2935e225] [cursor=pointer]:
+              - /url: whatsapp://send?text=https%3A%2F%2Fjobsnet.in%2Fsp-global-off-campus-drive-2026-associate-software-engineer-graduate-program%2F
+          - generic [ref=f2935e229]:
+            - link [ref=f2935e230] [cursor=pointer]:
+              - /url: https://jobsnet.in/author/anand/
+              - img "Anand Kumar" [ref=f2935e231]
+            - generic [ref=f2935e234]:
+              - heading "Anand Kumar" [level=5] [ref=f2935e235]
+              - paragraph [ref=f2935e237]:
+                - text: Career Expert & Founder of JobsNet.in. Serving the student community since 2019, I specialize in providing verified job updates and placement material for computer science, IT, engineering and management graduates. With a mission to simplify the job hunt, I have helped thousands of candidates secure roles in top MNCs over the last 7 years.
+                - link "Software" [ref=f2935e238] [cursor=pointer]
+              - generic [ref=f2935e243]:
+                - link "LinkedIn icon" [ref=f2935e244] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/amar-kumar-sd
+                - link "Website icon" [ref=f2935e247] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - 'link "Articles: 2394" [ref=f2935e250] [cursor=pointer]':
+                - /url: https://jobsnet.in/author/anand/
+          - navigation [ref=f2935e251]:
+            - 'link "Previous Post Zoho Off Campus Drive 2026 : Application Security Engineers (0-2 Years)" [ref=f2935e252] [cursor=pointer]':
+              - /url: https://jobsnet.in/zoho-off-campus-drive-hiring-application-security-engineers/
+              - figure [ref=f2935e253]
+              - generic [ref=f2935e256]:
+                - generic [ref=f2935e257]: Previous Post
+                - generic [ref=f2935e258]: "Zoho Off Campus Drive 2026 : Application Security Engineers (0-2 Years)"
+            - link "Next Post CGI Hiring Service Desk Engineers - BE/B.Tech | BSC/BCA Freshers" [ref=f2935e259] [cursor=pointer]:
+              - /url: https://jobsnet.in/cgi-hiring-service-desk-engineers/
+              - generic [ref=f2935e260]:
+                - generic [ref=f2935e261]: Next Post
+                - generic [ref=f2935e262]: CGI Hiring Service Desk Engineers - BE/B.Tech | BSC/BCA Freshers
+              - figure [ref=f2935e263]
+          - generic [ref=f2935e266]:
+            - heading "Related" [level=3] [ref=f2935e267]
+            - generic [ref=f2935e268]:
+              - article [ref=f2935e269]:
+                - generic [ref=f2935e270]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2935e271] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                  - paragraph [ref=f2935e272]:
+                    - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2935e273] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+              - article [ref=f2935e274]:
+                - generic [ref=f2935e275]:
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2935e276] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                    - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f2935e277]
+                  - paragraph [ref=f2935e278]:
+                    - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2935e279] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+              - article [ref=f2935e280]:
+                - generic [ref=f2935e281]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2935e282] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                  - paragraph [ref=f2935e283]:
+                    - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2935e284] [cursor=pointer]:
+                      - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+        - complementary [ref=f2935e285]:
+          - generic [ref=f2935e286]:
+            - heading "Search Jobs" [level=3] [ref=f2935e289]
+            - textbox "search" [ref=f2935e296]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - generic [ref=f2935e297]:
+              - heading "Latest Updates" [level=3] [ref=f2935e298]
+              - list [ref=f2935e300]:
+                - listitem [ref=f2935e301]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2935e303] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                - listitem [ref=f2935e304]:
+                  - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f2935e306]
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2935e307] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                - listitem [ref=f2935e308]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2935e310] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                - listitem [ref=f2935e311]:
+                  - img "Accenture Mega Off Campus Drive For Freshers - Associate Software Engineer" [ref=f2935e313]
+                  - link "Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)" [ref=f2935e314] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-entry-level-custom-software-engineer-python/
+                - listitem [ref=f2935e315]:
+                  - img "Cornerstone Off Campus Drive - Hiring Junior Engineer" [ref=f2935e317]
+                  - link "Cornerstone Hiring Entry Level Junior Engineer – Cloud Ops" [ref=f2935e318] [cursor=pointer]:
+                    - /url: https://jobsnet.in/cornerstone-hiring-entry-level-junior-engineer-cloud-ops/
+                - listitem [ref=f2935e319]:
+                  - link "Calix Off Campus Drive 2026 – Hiring Graduate Trainee – Test & QA" [ref=f2935e321] [cursor=pointer]:
+                    - /url: https://jobsnet.in/calix-off-campus-drive-hiring-graduate-trainee-test-qa/
+                - listitem [ref=f2935e322]:
+                  - link "HDFC Life Off Campus Drive 2026 – Graduate Trainee – Data Science & Analytics" [ref=f2935e324] [cursor=pointer]:
+                    - /url: https://jobsnet.in/hdfc-life-off-campus-drive-graduate-trainee-data-science-analytics/
+                - listitem [ref=f2935e325]:
+                  - img "Yash Technologies Hiring Freshers QA Trainee - Pune/Indore/Hyderabad" [ref=f2935e327]
+                  - link "Yash Technologies Off Campus Drive 2026 – AI/ML Trainee" [ref=f2935e328] [cursor=pointer]:
+                    - /url: https://jobsnet.in/yash-technologies-off-campus-drive-hiring-ai-ml-trainee/
+                - listitem [ref=f2935e329]:
+                  - img "White Twilio logo and four-dot icon on a red background." [ref=f2935e331]
+                  - link "Twilio Off Campus Drive 2026 – Associate Application Engineer- Remote" [ref=f2935e332] [cursor=pointer]:
+                    - /url: https://jobsnet.in/twilio-off-campus-drive-associate-application-engineer-remote/
+                - listitem [ref=f2935e333]:
+                  - img "Accenture Hiring Any Graduate Freshers As Network Associate" [ref=f2935e335]
+                  - link "Accenture Hiring Application Support Engineer – Any Graduate (0-2 Years)" [ref=f2935e336] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-application-support-engineer-any-graduate-0-2-years/
+            - generic [ref=f2935e338]:
+              - insertion:
+                - generic:
+                  - iframe
+    - insertion [ref=f2935e340]
+    - contentinfo [ref=f2935e342]:
+      - generic [ref=f2935e344]:
+        - paragraph [ref=f2935e347]: © 2026 Jobsnet.in
+        - navigation "footermenu" [ref=f2935e349]:
+          - list [ref=f2935e350]:
+            - listitem [ref=f2935e351]:
+              - link "Home" [ref=f2935e352] [cursor=pointer]:
+                - /url: https://jobsnet.in
+            - listitem [ref=f2935e353]:
+              - link "About us" [ref=f2935e354] [cursor=pointer]:
+                - /url: https://jobsnet.in/about-us/
+            - listitem [ref=f2935e355]:
+              - link "Contact Us" [ref=f2935e356] [cursor=pointer]:
+                - /url: https://jobsnet.in/contact/
+            - listitem [ref=f2935e357]:
+              - link "Advertise With Us" [ref=f2935e358] [cursor=pointer]:
+                - /url: https://jobsnet.in/advertise/
+            - listitem [ref=f2935e359]:
+              - link "Terms" [ref=f2935e360] [cursor=pointer]:
+                - /url: https://jobsnet.in/terms-and-conditions/
+            - listitem [ref=f2935e361]:
+              - link "Privacy" [ref=f2935e362] [cursor=pointer]:
+                - /url: https://jobsnet.in/privacy-policy/
+  - generic [ref=f2935e363]:
+    - generic [ref=f2935e364] [cursor=pointer]: CLOSE [X]
+    - insertion [ref=f2935e366]:
+      - iframe [ref=f2935e368]:
+        
+  - link "Join WhatsApp" [ref=f2935e370] [cursor=pointer]:
+    - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP

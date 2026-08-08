@@ -1,0 +1,350 @@
+- generic [active] [ref=f1768e1]:
+  - link "Skip to content" [ref=f1768e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f1768e3]:
+    - banner [ref=f1768e4]:
+      - generic [ref=f1768e7]:
+        - link [ref=f1768e11] [cursor=pointer]:
+          - /url: https://jobsnet.in/
+          - img "Jobsnet.in" [ref=f1768e12]
+        - generic [ref=f1768e14]:
+          - navigation "Main Menu" [ref=f1768e15]:
+            - list [ref=f1768e16]:
+              - listitem [ref=f1768e17]:
+                - link "Home" [ref=f1768e18] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - listitem [ref=f1768e19]:
+                - link "Internships" [ref=f1768e20] [cursor=pointer]:
+                  - /url: https://jobsnet.in/internships/
+              - listitem [ref=f1768e21]:
+                - link "Off Campus Drives" [ref=f1768e22] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+              - listitem [ref=f1768e23]:
+                - link [ref=f1768e24] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+              - listitem [ref=f1768e28]:
+                - link [ref=f1768e29] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+          - button "Search" [ref=f1768e33] [cursor=pointer]
+    - main [ref=f1768e36]:
+      - insertion [ref=f1768e38]:
+        - iframe [ref=f1768e40]:
+          
+      - generic [ref=f1768e41]:
+        - article [ref=f1768e42]:
+          - generic [ref=f1768e44]:
+            - navigation [ref=f1768e45]:
+              - link "Home" [ref=f1768e47] [cursor=pointer]:
+                - /url: https://jobsnet.in/
+              - link "Off Campus Drive" [ref=f1768e51] [cursor=pointer]:
+                - /url: https://jobsnet.in/off-campus-drive/
+              - generic [ref=f1768e54]: "BetaNXT Off Campus Drive 2026: Apprentice – Software Engineer"
+            - 'heading "BetaNXT Off Campus Drive 2026: Apprentice – Software Engineer" [level=1] [ref=f1768e56]'
+            - list [ref=f1768e57]:
+              - listitem [ref=f1768e58]:
+                - text: By
+                - link "Anand Kumar" [ref=f1768e59] [cursor=pointer]:
+                  - /url: https://jobsnet.in/author/anand/
+                - text: /
+              - listitem [ref=f1768e60]:
+                - text: "On"
+                - time [ref=f1768e61]: May 16, 2026
+          - figure [ref=f1768e62]:
+            - img "BetaNXT logo in white text on a dark background." [ref=f1768e64]
+          - generic [ref=f1768e65]:
+            - 'heading "BetaNXT Off Campus Drive 2026: Hiring Apprentice – Software Engineer | Apply Now" [level=1] [ref=f1768e66]'
+            - paragraph [ref=f1768e67]:
+              - text: Are you a budding tech enthusiast looking to kickstart your career in the high-growth world of Fintech? BetaNXT is officially inviting applications for its highly anticipated
+              - strong [ref=f1768e68]: BetaNXT Off Campus Drive 2026
+              - text: . This is a career-defining opportunity for the role of
+              - strong [ref=f1768e69]:
+                - text: Apprentice – Software
+                - link "Engineer" [ref=f1768e70] [cursor=pointer]:
+                  - /url: "#"
+              - text: based in the tech hub of Bangalore.
+              - link "Software" [ref=f1768e73] [cursor=pointer]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - paragraph [ref=f1768e77]:
+              - text: This initiative is perfect for passionate individuals eager to dive into fintech innovation, develop robust
+              - link "software" [ref=f1768e78] [cursor=pointer]:
+                - /url: "#"
+              - text: solutions, and learn from industry-leading experts in a collaborative and growth-oriented environment. If you belong to the 2024, 2025, or 2026 batches, this is your chance to join a global leader in wealth management technology.
+              - link "Engineering & Technology" [ref=f1768e81] [cursor=pointer]
+            - heading "BetaNXT Off Campus Drive 2026 Overview" [level=2] [ref=f1768e85]
+            - figure [ref=f1768e86]:
+              - table [ref=f1768e87]:
+                - rowgroup [ref=f1768e88]:
+                  - row [ref=f1768e89]:
+                    - cell [ref=f1768e90]:
+                      - strong [ref=f1768e91]: Company Name
+                    - cell "BetaNXT" [ref=f1768e92]
+                  - row [ref=f1768e93]:
+                    - cell [ref=f1768e94]:
+                      - strong [ref=f1768e95]: Job Role
+                    - cell "Apprentice – Software Developer" [ref=f1768e96]
+                  - row [ref=f1768e97]:
+                    - cell [ref=f1768e98]:
+                      - strong [ref=f1768e99]: Job Location
+                    - cell "Bangalore, India" [ref=f1768e100]
+                  - row [ref=f1768e101]:
+                    - cell [ref=f1768e102]:
+                      - strong [ref=f1768e103]: Salary
+                    - cell "Best in Industry" [ref=f1768e104]
+                  - row [ref=f1768e105]:
+                    - cell [ref=f1768e106]:
+                      - strong [ref=f1768e107]: Experience
+                    - cell "Freshers" [ref=f1768e108]
+                  - row [ref=f1768e109]:
+                    - cell [ref=f1768e110]:
+                      - strong [ref=f1768e111]: Qualification
+                    - cell "BE / B.Tech / BSc / MCA / MS / M.Tech" [ref=f1768e112]
+                  - row [ref=f1768e113]:
+                    - cell [ref=f1768e114]:
+                      - strong [ref=f1768e115]: Batch
+                    - cell "2024 / 2025 / 2026 or Any" [ref=f1768e116]
+            - heading "Detailed Job Description" [level=2] [ref=f1768e117]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - paragraph [ref=f1768e118]:
+              - text: As an Apprentice in the Finance and Insurance sector, you will embark on a comprehensive learning journey designed to develop your foundational knowledge and practical skills in technology on financial services products. This role aims to equip you with hands-on experience in development and support of the products, preparing you for a successful career in the industry.
+              - link "Software" [ref=f1768e119] [cursor=pointer]
+            - generic [ref=f1768e125]:
+              - generic [ref=f1768e126]:
+                - generic [ref=f1768e127]: WhatsApp Channel
+                - link "Join Now" [ref=f1768e129] [cursor=pointer]:
+                  - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+              - generic [ref=f1768e130]:
+                - generic [ref=f1768e131]: Telegram Channel
+                - link "Join Now" [ref=f1768e133] [cursor=pointer]:
+                  - /url: https://telegram.me/campusdrivejobs
+            - paragraph [ref=f1768e134]: You will work closely with experienced professionals to understand the intricacies of financial products, risk management, and regulatory frameworks. The ultimate goal is to enable you to contribute effectively to your team while continuously enhancing your expertise through structured training and real-world application.
+            - paragraph [ref=f1768e135]: This apprenticeship serves as a critical stepping stone towards becoming a proficient software professional in finance domain capable of supporting organizational objectives and client needs.
+            - insertion [ref=f1768e137]
+            - heading "Eligibility Criteria & Qualifications" [level=2] [ref=f1768e139]
+            - paragraph [ref=f1768e140]:
+              - text: To be eligible for the
+              - strong [ref=f1768e141]: BetaNXT Recruitment 2026
+              - text: ", candidates must meet the following minimum and preferred qualifications:"
+            - heading "Minimum Qualifications:" [level=3] [ref=f1768e142]
+            - list [ref=f1768e143]:
+              - listitem [ref=f1768e144]: Completion of graduation – Bachelor of Engineering (BE/B.Tech).
+              - listitem [ref=f1768e145]: Understanding of coding languages such as C, C++, .Net, Java, Angular, React, TypeScript, and NodeJS is required.
+              - listitem [ref=f1768e146]: Basic understanding of financial concepts and a genuine interest in the finance industry.
+              - listitem [ref=f1768e147]: Proficiency in English (Written and Verbal).
+              - listitem [ref=f1768e148]: Good numerical and analytical skills.
+              - listitem [ref=f1768e149]: Ability to commit to the full duration of the apprenticeship program.
+            - heading "Preferred Qualifications:" [level=3] [ref=f1768e150]
+            - list [ref=f1768e151]:
+              - listitem [ref=f1768e152]:
+                - text: Familiarity with
+                - link "computer" [ref=f1768e153] [cursor=pointer]:
+                  - /url: "#"
+                - text: applications such as MS Office (Excel, Word, PowerPoint).
+              - listitem [ref=f1768e156]: Strong communication and interpersonal skills.
+              - listitem [ref=f1768e157]: Demonstrated eagerness to learn and adapt in a dynamic work environment.
+            - heading "Key Responsibilities" [level=2] [ref=f1768e158]
+            - insertion [ref=f1768e160]
+            - paragraph [ref=f1768e162]:
+              - text: "During your tenure at BetaNXT, you will be responsible for the following tasks:"
+              - link "Engineering & Technology" [ref=f1768e163] [cursor=pointer]
+            - list [ref=f1768e167]:
+              - listitem [ref=f1768e168]: Participate in training sessions and workshops to build knowledge of software principles, financial products, and industry best practices.
+              - listitem [ref=f1768e169]: Work on real-life business solutions and contribute to live projects.
+              - listitem [ref=f1768e170]: Assist in the development and support of Financial products.
+            - heading "Required Skills" [level=2] [ref=f1768e171]
+            - paragraph [ref=f1768e172]:
+              - text: Candidates should possess a strong numerical aptitude. Exposure to coding languages such as C, C++, .Net, Java, Angular, React, TypeScript, and NodeJS is essential. Any basic financial knowledge will be considered a significant value add for this role.
+              - link "Computer Hardware" [ref=f1768e173] [cursor=pointer]
+            - insertion [ref=f1768e178]
+            - heading "Why Join BetaNXT?" [level=2] [ref=f1768e180]
+            - paragraph [ref=f1768e181]: BetaNXT is at the forefront of the wealth management industry, providing innovative solutions that power the financial world. By joining as an apprentice, you gain exposure to high-scale technology, mentorship from industry veterans, and a clear path toward becoming a full-time software professional in the fintech domain.
+            - heading "How to Apply for BetaNXT Off Campus Drive 2026" [level=2] [ref=f1768e182]
+            - paragraph [ref=f1768e183]:
+              - text: Interested and eligible graduates can register for the BetaNXT Off Campus Drive by clicking on the application link provided below. Ensure your resume highlights your technical skills and any projects related to the coding languages mentioned above.
+              - link "Software" [ref=f1768e184] [cursor=pointer]
+            - paragraph [ref=f1768e188]:
+              - strong [ref=f1768e189]: "Apply Link:"
+              - link [ref=f1768e190] [cursor=pointer]:
+                - /url: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=21b5e71b-5e64-4d33-b8de-26ea145e664a&ccId=19000101_000001&jobId=596830&lang=en_US
+                - strong [ref=f1768e191]: Click Here to Apply for BetaNXT Apprentice Role
+            - insertion [ref=f1768e193]
+            - paragraph [ref=f1768e195]:
+              - emphasis [ref=f1768e196]: "Note: Apply as soon as possible before the link expires. Shortlisted candidates will receive further communication regarding the interview process."
+            - generic [ref=f1768e197]:
+              - strong [ref=f1768e198]: "Join Our Whatsapp Group:"
+              - link [ref=f1768e199] [cursor=pointer]:
+                - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+                - strong [ref=f1768e200]: Click Here
+            - insertion [ref=f1768e202]
+          - generic [ref=f1768e204]:
+            - generic [ref=f1768e205]: You May like
+            - generic [ref=f1768e206]:
+              - link "# AWS" [ref=f1768e207] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/aws/
+              - link "# Jobs in Bangalore" [ref=f1768e208] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-bangalore/
+              - link "# Linux" [ref=f1768e209] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/linux/
+              - link "# Python" [ref=f1768e210] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/python/
+              - link "# QA" [ref=f1768e211] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/qa/
+              - link "# SQL" [ref=f1768e212] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/sql/
+              - link "# Testing" [ref=f1768e213] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/testing/
+          - generic [ref=f1768e215]:
+            - link "Facebook" [ref=f1768e216] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjobsnet.in%2Fbetanxt-off-campus-drive-apprentice-software-engineer%2F
+            - link "X (Twitter)" [ref=f1768e220] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fjobsnet.in%2Fbetanxt-off-campus-drive-apprentice-software-engineer%2F&text=BetaNXT%20Off%20Campus%20Drive%202026%3A%20Apprentice%20%26%238211%3B%20Software%20Engineer
+            - link "Reddit" [ref=f1768e224] [cursor=pointer]:
+              - /url: https://reddit.com/submit?url=https%3A%2F%2Fjobsnet.in%2Fbetanxt-off-campus-drive-apprentice-software-engineer%2F&title=BetaNXT%20Off%20Campus%20Drive%202026%3A%20Apprentice%20%26%238211%3B%20Software%20Engineer
+            - link "Telegram" [ref=f1768e228] [cursor=pointer]:
+              - /url: https://t.me/share/url?url=https%3A%2F%2Fjobsnet.in%2Fbetanxt-off-campus-drive-apprentice-software-engineer%2F&text=BetaNXT%20Off%20Campus%20Drive%202026%3A%20Apprentice%20%26%238211%3B%20Software%20Engineer
+            - link "WhatsApp" [ref=f1768e232] [cursor=pointer]:
+              - /url: whatsapp://send?text=https%3A%2F%2Fjobsnet.in%2Fbetanxt-off-campus-drive-apprentice-software-engineer%2F
+          - generic [ref=f1768e236]:
+            - link [ref=f1768e237] [cursor=pointer]:
+              - /url: https://jobsnet.in/author/anand/
+              - img "Anand Kumar" [ref=f1768e238]
+            - generic [ref=f1768e241]:
+              - heading "Anand Kumar" [level=5] [ref=f1768e242]
+              - paragraph [ref=f1768e244]:
+                - text: Career Expert & Founder of JobsNet.in. Serving the student community since 2019, I specialize in providing verified job updates and placement material for computer science, IT, engineering and management graduates. With a mission to simplify the job hunt, I have helped thousands of candidates secure roles in top MNCs over the last 7 years.
+                - link "Computer Science" [ref=f1768e245] [cursor=pointer]
+              - generic [ref=f1768e250]:
+                - link "LinkedIn icon" [ref=f1768e251] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/amar-kumar-sd
+                - link "Website icon" [ref=f1768e254] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - 'link "Articles: 2394" [ref=f1768e257] [cursor=pointer]':
+                - /url: https://jobsnet.in/author/anand/
+          - navigation [ref=f1768e258]:
+            - link "Previous Post Entrupy Off Campus Drive 2026 Hiring QA Engineer (0-2 Years)" [ref=f1768e259] [cursor=pointer]:
+              - /url: https://jobsnet.in/entrupy-off-campus-drive-hiring-qa-engineer-0-2-years/
+              - figure [ref=f1768e260]:
+                - img "Entrupy logo for QA Engineer Off Campus Drive 2026 hiring in Bangalore" [ref=f1768e261]
+              - generic [ref=f1768e264]:
+                - generic [ref=f1768e265]: Previous Post
+                - generic [ref=f1768e266]: Entrupy Off Campus Drive 2026 Hiring QA Engineer (0-2 Years)
+            - link "Next Post Amazon Off Campus Drive 2026 - University Talent Acquisition Drive Hiring For SDE-1" [ref=f1768e267] [cursor=pointer]:
+              - /url: https://jobsnet.in/amazon-university-talent-acquisition-drive-hiring-for-sde-1/
+              - generic [ref=f1768e268]:
+                - generic [ref=f1768e269]: Next Post
+                - generic [ref=f1768e270]: Amazon Off Campus Drive 2026 - University Talent Acquisition Drive Hiring For SDE-1
+              - figure [ref=f1768e271]:
+                - 'img "Amazon Hiring Freshers : Associate - Retail Process - Remote" [ref=f1768e272]'
+          - generic [ref=f1768e275]:
+            - heading "Related" [level=3] [ref=f1768e276]
+            - generic [ref=f1768e277]:
+              - article [ref=f1768e278]:
+                - generic [ref=f1768e279]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f1768e280] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                  - paragraph [ref=f1768e281]:
+                    - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f1768e282] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+              - article [ref=f1768e283]:
+                - generic [ref=f1768e284]:
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f1768e285] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                    - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f1768e286]
+                  - paragraph [ref=f1768e287]:
+                    - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f1768e288] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+              - article [ref=f1768e289]:
+                - generic [ref=f1768e290]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f1768e291] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                  - paragraph [ref=f1768e292]:
+                    - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f1768e293] [cursor=pointer]:
+                      - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+        - complementary [ref=f1768e294]:
+          - generic [ref=f1768e295]:
+            - heading "Search Jobs" [level=3] [ref=f1768e298]
+            - textbox "search" [ref=f1768e305]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - generic [ref=f1768e306]:
+              - heading "Latest Updates" [level=3] [ref=f1768e307]
+              - list [ref=f1768e309]:
+                - listitem [ref=f1768e310]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f1768e312] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                - listitem [ref=f1768e313]:
+                  - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f1768e315]
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f1768e316] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                - listitem [ref=f1768e317]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f1768e319] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                - listitem [ref=f1768e320]:
+                  - img "Accenture Mega Off Campus Drive For Freshers - Associate Software Engineer" [ref=f1768e322]
+                  - link "Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)" [ref=f1768e323] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-entry-level-custom-software-engineer-python/
+                - listitem [ref=f1768e324]:
+                  - img "Cornerstone Off Campus Drive - Hiring Junior Engineer" [ref=f1768e326]
+                  - link "Cornerstone Hiring Entry Level Junior Engineer – Cloud Ops" [ref=f1768e327] [cursor=pointer]:
+                    - /url: https://jobsnet.in/cornerstone-hiring-entry-level-junior-engineer-cloud-ops/
+                - listitem [ref=f1768e328]:
+                  - link "Calix Off Campus Drive 2026 – Hiring Graduate Trainee – Test & QA" [ref=f1768e330] [cursor=pointer]:
+                    - /url: https://jobsnet.in/calix-off-campus-drive-hiring-graduate-trainee-test-qa/
+                - listitem [ref=f1768e331]:
+                  - link "HDFC Life Off Campus Drive 2026 – Graduate Trainee – Data Science & Analytics" [ref=f1768e333] [cursor=pointer]:
+                    - /url: https://jobsnet.in/hdfc-life-off-campus-drive-graduate-trainee-data-science-analytics/
+                - listitem [ref=f1768e334]:
+                  - img "Yash Technologies Hiring Freshers QA Trainee - Pune/Indore/Hyderabad" [ref=f1768e336]
+                  - link "Yash Technologies Off Campus Drive 2026 – AI/ML Trainee" [ref=f1768e337] [cursor=pointer]:
+                    - /url: https://jobsnet.in/yash-technologies-off-campus-drive-hiring-ai-ml-trainee/
+                - listitem [ref=f1768e338]:
+                  - img "White Twilio logo and four-dot icon on a red background." [ref=f1768e340]
+                  - link "Twilio Off Campus Drive 2026 – Associate Application Engineer- Remote" [ref=f1768e341] [cursor=pointer]:
+                    - /url: https://jobsnet.in/twilio-off-campus-drive-associate-application-engineer-remote/
+                - listitem [ref=f1768e342]:
+                  - img "Accenture Hiring Any Graduate Freshers As Network Associate" [ref=f1768e344]
+                  - link "Accenture Hiring Application Support Engineer – Any Graduate (0-2 Years)" [ref=f1768e345] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-application-support-engineer-any-graduate-0-2-years/
+            - generic [ref=f1768e347]:
+              - insertion:
+                - generic:
+                  - iframe
+    - contentinfo [ref=f1768e348]:
+      - generic [ref=f1768e350]:
+        - paragraph [ref=f1768e353]: © 2026 Jobsnet.in
+        - navigation "footermenu" [ref=f1768e355]:
+          - list [ref=f1768e356]:
+            - listitem [ref=f1768e357]:
+              - link "Home" [ref=f1768e358] [cursor=pointer]:
+                - /url: https://jobsnet.in
+            - listitem [ref=f1768e359]:
+              - link "About us" [ref=f1768e360] [cursor=pointer]:
+                - /url: https://jobsnet.in/about-us/
+            - listitem [ref=f1768e361]:
+              - link "Contact Us" [ref=f1768e362] [cursor=pointer]:
+                - /url: https://jobsnet.in/contact/
+            - listitem [ref=f1768e363]:
+              - link "Advertise With Us" [ref=f1768e364] [cursor=pointer]:
+                - /url: https://jobsnet.in/advertise/
+            - listitem [ref=f1768e365]:
+              - link "Terms" [ref=f1768e366] [cursor=pointer]:
+                - /url: https://jobsnet.in/terms-and-conditions/
+            - listitem [ref=f1768e367]:
+              - link "Privacy" [ref=f1768e368] [cursor=pointer]:
+                - /url: https://jobsnet.in/privacy-policy/
+  - generic [ref=f1768e369]:
+    - generic [ref=f1768e370] [cursor=pointer]: CLOSE [X]
+    - insertion [ref=f1768e372]:
+      - iframe [ref=f1768e374]:
+        
+  - link "Join WhatsApp" [ref=f1768e376] [cursor=pointer]:
+    - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP

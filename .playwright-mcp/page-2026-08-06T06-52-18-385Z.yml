@@ -1,0 +1,166 @@
+- generic [active] [ref=f29e1]:
+  - navigation "Primary" [ref=f29e3]:
+    - generic [ref=f29e5]:
+      - generic [ref=f29e6]:
+        - generic [ref=f29e7]:
+          - button "Skip to main content" [ref=f29e8] [cursor=pointer]
+          - link "Indeed Home" [ref=f29e10] [cursor=pointer]:
+            - /url: /?from=gnav-viewjob
+          - list [ref=f29e14]:
+            - listitem [ref=f29e15]:
+              - link "Home" [ref=f29e17] [cursor=pointer]:
+                - /url: https://in.indeed.com/
+            - listitem [ref=f29e18]:
+              - link "Company reviews" [ref=f29e20] [cursor=pointer]:
+                - /url: https://in.indeed.com/companies
+            - listitem [ref=f29e21]:
+              - link "Salary guide" [ref=f29e23] [cursor=pointer]:
+                - /url: https://in.indeed.com/career/salaries
+        - generic [ref=f29e24]:
+          - list [ref=f29e25]:
+            - listitem [ref=f29e26]:
+              - link "My jobs" [ref=f29e28] [cursor=pointer]:
+                - /url: https://myjobs.indeed.com?from=gnav-util-viewjob&gnavTK=1jvatg5pohcd6800&tk=1jvatg5pm26pq001&co=IN&hl=en
+            - listitem [ref=f29e31]:
+              - link "Messages Unread count 0" [ref=f29e33] [cursor=pointer]:
+                - /url: https://messages.indeed.com?from=gnav-util-viewjob&gnavTK=1jvatg5pohcd6800&tk=1jvatg5pm26pq001&co=IN&hl=en
+            - listitem [ref=f29e40]:
+              - link "Notifications Unread count 0" [ref=f29e42] [cursor=pointer]:
+                - /url: https://in.indeed.com/notifications?from=gnav-util-viewjob&gnavTK=1jvatg5pohcd6800&tk=1jvatg5pm26pq001&hl=en
+            - listitem [ref=f29e45]:
+              - button "Account" [ref=f29e49] [cursor=pointer]:
+                - generic [ref=f29e53]:
+                  - text: "1"
+                  - generic [ref=f29e54]: new update
+          - link "Employers / Post Job" [ref=f29e59] [cursor=pointer]:
+            - /url: https://in.indeed.com/hire?co=IN&hl=en
+      - generic [ref=f29e60]: Start of main content
+  - main [ref=f29e63]:
+    - generic [ref=f29e67]:
+      - generic [ref=f29e68]:
+        - generic [ref=f29e69]: What
+        - 'textbox "What: job title, keywords or company" [ref=f29e71]':
+          - /placeholder: Job title, keywords, or company
+      - generic [ref=f29e72]:
+        - generic [ref=f29e73]: Where
+        - 'textbox "Where: city, county or postcode" [ref=f29e75]':
+          - /placeholder: City, state, or zip code
+      - button "Find Jobs" [ref=f29e76] [cursor=pointer]
+    - generic [ref=f29e81]:
+      - generic [ref=f29e82]:
+        - generic [ref=f29e83]:
+          - generic [ref=f29e84]:
+            - heading "MERN Stack Developer" [level=1] [ref=f29e86]
+            - generic [ref=f29e90]:
+              - generic [ref=f29e91]:
+                - link "Mobile Programming India Pvt Ltd (opens in a new tab)" [ref=f29e94] [cursor=pointer]:
+                  - /url: https://in.indeed.com/cmp/Mobile-Programming-India-Pvt-Ltd?campaignid=mobvjcmp&from=mobviewjob&tk=1jvatg5pm26pq001&fromjk=afb03bf3cdf4454b
+                  - text: Mobile Programming India Pvt Ltd
+                - generic [ref=f29e97]:
+                  - generic [ref=f29e98]: · 4.0
+                  - generic [ref=f29e99]: 4.0 out of 5 stars
+              - generic [ref=f29e102]: Hyderabad, Telangana
+          - generic [ref=f29e104]:
+            - button "Apply with Indeed" [ref=f29e112] [cursor=pointer]
+            - button "Save job" [ref=f29e118] [cursor=pointer]:
+              - img "save-icon" [ref=f29e119]
+            - button "Share Job" [ref=f29e121] [cursor=pointer]
+            - separator:
+              - generic [ref=f29e123]: "&nbsp;"
+        - generic [ref=f29e125]:
+          - generic [ref=f29e126]:
+            - generic [ref=f29e132]:
+              - generic [ref=f29e133]:
+                - generic [ref=f29e134]:
+                  - heading "Job details" [level=2] [ref=f29e135]
+                  - generic [ref=f29e136]:
+                    - text: Here’s how the job details align with your
+                    - link "job preferences (opens in a new window)" [ref=f29e137] [cursor=pointer]:
+                      - /url: https://profile.indeed.com/
+                      - text: profile
+                    - text: .
+                - group "Job type" [ref=f29e141]:
+                  - generic [ref=f29e145]:
+                    - heading "Job type" [level=3] [ref=f29e146]
+                    - list [ref=f29e148]:
+                      - listitem [ref=f29e149]:
+                        - button "Job type Full-time matching preference" [ref=f29e150]:
+                          - generic [ref=f29e153]:
+                            - generic [ref=f29e156]: Full-time
+                            - img "matching preference" [ref=f29e157]
+              - separator [ref=f29e159]:
+                - generic [ref=f29e160]: "&nbsp;"
+            - generic [ref=f29e161]:
+              - heading "Location" [level=2] [ref=f29e162]
+              - generic [ref=f29e163]: Hyderabad, Telangana
+              - separator [ref=f29e168]:
+                - generic [ref=f29e169]: "&nbsp;"
+            - heading "Full job description" [level=2] [ref=f29e171]
+            - generic [ref=f29e172]:
+              - paragraph [ref=f29e173]: Role- Mern Stack Engineer Location Hyderabad Experience - 5+only pl dont apply having less exp
+              - paragraph [ref=f29e174]: Need immediate and strong communication skills
+              - paragraph [ref=f29e175]: Skills
+              - paragraph [ref=f29e176]: "Tech Stack: AWS, Typescript, Node.js, React, React Native, GraphQL, DynamoDB, serverless event-driven architecture --"
+              - paragraph [ref=f29e177]: "Work Location: In person"
+            - separator [ref=f29e178]:
+              - generic [ref=f29e179]: "&nbsp;"
+          - button "Report job" [ref=f29e186] [cursor=pointer]
+      - generic [ref=f29e188]:
+        - separator [ref=f29e189]:
+          - generic [ref=f29e190]: "&nbsp;"
+        - generic [ref=f29e193]:
+          - link "Developer jobs in Hyderabad, Telangana" [ref=f29e195] [cursor=pointer]:
+            - /url: /q-developer-l-hyderabad,-telangana-jobs.html
+          - link "Jobs at Mobile Programming India in Hyderabad, Telangana" [ref=f29e197] [cursor=pointer]:
+            - /url: /q-mobile-programming-india-l-hyderabad,-telangana-jobs.html
+          - link "Developer salaries in Hyderabad, Telangana" [ref=f29e199] [cursor=pointer]:
+            - /url: /salary?from=vj&q1=Developer&l1=Hyderabad%2C+Telangana
+  - contentinfo [ref=f29e204]:
+    - generic [ref=f29e205]:
+      - list [ref=f29e206]:
+        - listitem [ref=f29e207]:
+          - link "Career advice" [ref=f29e209] [cursor=pointer]:
+            - /url: https://in.indeed.com/career-advice
+        - listitem [ref=f29e210]:
+          - link "Browse jobs" [ref=f29e212] [cursor=pointer]:
+            - /url: https://in.indeed.com/browsejobs
+        - listitem [ref=f29e213]:
+          - link "Browse companies" [ref=f29e215] [cursor=pointer]:
+            - /url: https://in.indeed.com/companies/browse-companies
+        - listitem [ref=f29e216]:
+          - link "Salaries" [ref=f29e218] [cursor=pointer]:
+            - /url: https://in.indeed.com/career/salaries
+        - listitem [ref=f29e219]:
+          - link "Indeed Events" [ref=f29e221] [cursor=pointer]:
+            - /url: https://www.indeedevents.com/en-in/
+        - listitem [ref=f29e222]:
+          - link "Work at Indeed" [ref=f29e224] [cursor=pointer]:
+            - /url: https://in.indeed.com/cmp/Indeed/about
+        - listitem [ref=f29e225]:
+          - link "Countries" [ref=f29e227] [cursor=pointer]:
+            - /url: https://in.indeed.com/countries
+        - listitem [ref=f29e228]:
+          - link "About" [ref=f29e230] [cursor=pointer]:
+            - /url: https://in.indeed.com/about
+        - listitem [ref=f29e231]:
+          - link "Help" [ref=f29e233] [cursor=pointer]:
+            - /url: https://in.indeed.com/help/job-seekers?hl=en&co=in
+        - listitem [ref=f29e234]:
+          - link "ESG at Indeed" [ref=f29e236] [cursor=pointer]:
+            - /url: https://in.indeed.com/esg?from=gnav-viewjob
+        - listitem [ref=f29e237]:
+          - link "Guidelines for safe job search" [ref=f29e239] [cursor=pointer]:
+            - /url: https://support.indeed.com/hc/en-in/articles/216354123-Guidelines-for-Safe-Job-Search
+      - list [ref=f29e240]:
+        - listitem [ref=f29e241]: © 2026 Indeed
+        - listitem [ref=f29e242]:
+          - link "Accessibility at Indeed" [ref=f29e244] [cursor=pointer]:
+            - /url: https://in.indeed.com/esg/accessibility?hl=en
+        - listitem [ref=f29e245]:
+          - link "Privacy Centre and Ad Choices" [ref=f29e247] [cursor=pointer]:
+            - /url: https://hrtechprivacy.com/brands/indeed#privacypolicy
+        - listitem [ref=f29e248]:
+          - link "Terms" [ref=f29e250] [cursor=pointer]:
+            - /url: https://in.indeed.com/legal?hl=en
+      - list:
+        - listitem

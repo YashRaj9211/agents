@@ -1,0 +1,330 @@
+- generic [active] [ref=f2651e1]:
+  - link "Skip to content" [ref=f2651e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f2651e3]:
+    - banner [ref=f2651e4]:
+      - generic [ref=f2651e7]:
+        - link [ref=f2651e11] [cursor=pointer]:
+          - /url: https://jobsnet.in/
+          - img "Jobsnet.in" [ref=f2651e12]
+        - generic [ref=f2651e14]:
+          - navigation "Main Menu" [ref=f2651e15]:
+            - list [ref=f2651e16]:
+              - listitem [ref=f2651e17]:
+                - link "Home" [ref=f2651e18] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - listitem [ref=f2651e19]:
+                - link "Internships" [ref=f2651e20] [cursor=pointer]:
+                  - /url: https://jobsnet.in/internships/
+              - listitem [ref=f2651e21]:
+                - link "Off Campus Drives" [ref=f2651e22] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+              - listitem [ref=f2651e23]:
+                - link [ref=f2651e24] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+              - listitem [ref=f2651e28]:
+                - link [ref=f2651e29] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+          - button "Search" [ref=f2651e33] [cursor=pointer]
+    - main [ref=f2651e36]:
+      - insertion [ref=f2651e38]:
+        - iframe [ref=f2651e40]:
+          
+      - generic [ref=f2651e41]:
+        - article [ref=f2651e42]:
+          - generic [ref=f2651e44]:
+            - navigation [ref=f2651e45]:
+              - link "Home" [ref=f2651e47] [cursor=pointer]:
+                - /url: https://jobsnet.in/
+              - link "Off Campus Drive" [ref=f2651e51] [cursor=pointer]:
+                - /url: https://jobsnet.in/off-campus-drive/
+              - generic [ref=f2651e54]: "MetLife Off Campus Drive 2026 – Junior Software Engineer : Freshers"
+            - 'heading "MetLife Off Campus Drive 2026 – Junior Software Engineer : Freshers" [level=1] [ref=f2651e56]'
+            - list [ref=f2651e57]:
+              - listitem [ref=f2651e58]:
+                - text: By
+                - link "Anand Kumar" [ref=f2651e59] [cursor=pointer]:
+                  - /url: https://jobsnet.in/author/anand/
+                - text: /
+              - listitem [ref=f2651e60]:
+                - text: "On"
+                - time [ref=f2651e61]: March 14, 2026
+          - figure [ref=f2651e62]
+          - generic [ref=f2651e64]:
+            - paragraph [ref=f2651e65]:
+              - text: MetLife is looking to hire the candidates for the role of
+              - strong [ref=f2651e66]:
+                - text: Junior
+                - link "Software" [ref=f2651e67] [cursor=pointer]:
+                  - /url: "#"
+                - text: Engineer
+              - text: across Pune Location in India. The details about the MetLife Off Campus Drive is described below.
+              - link "Software" [ref=f2651e70] [cursor=pointer]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - heading [level=2] [ref=f2651e74]:
+              - strong [ref=f2651e75]: MetLife Off Campus Drive 2025:-
+            - paragraph [ref=f2651e76]:
+              - strong [ref=f2651e77]: Job Title
+              - text: ": Jr. Software Engineer"
+            - paragraph [ref=f2651e78]:
+              - strong [ref=f2651e79]: "Job Type:"
+              - text: Full time
+            - generic [ref=f2651e82]:
+              - generic [ref=f2651e83]:
+                - generic [ref=f2651e84]: WhatsApp Channel
+                - link "Join Now" [ref=f2651e86] [cursor=pointer]:
+                  - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+              - generic [ref=f2651e87]:
+                - generic [ref=f2651e88]: Telegram Channel
+                - link "Join Now" [ref=f2651e90] [cursor=pointer]:
+                  - /url: https://telegram.me/campusdrivejobs
+            - paragraph [ref=f2651e91]:
+              - strong [ref=f2651e92]: Job Location
+              - text: ": Pune"
+            - paragraph [ref=f2651e93]:
+              - strong [ref=f2651e94]: "Salary:"
+              - text: Best in Industry
+              - link "Civil Engineering" [ref=f2651e95] [cursor=pointer]
+            - generic [ref=f2651e99]:
+              - insertion:
+                - generic:
+                  - iframe
+            - paragraph [ref=f2651e100]:
+              - strong [ref=f2651e101]: Experience
+              - text: ": Freshers/Early Careers"
+            - paragraph [ref=f2651e102]:
+              - strong [ref=f2651e103]: "Eligibility Criteria:"
+              - text: BE/B.Tech/BSC/MCA/ME/M.Tech or Related
+            - heading [level=2] [ref=f2651e104]:
+              - strong [ref=f2651e105]: "Job Description:"
+            - paragraph [ref=f2651e106]:
+              - text: As an Early Career Technologist, you will contribute to the development and support of
+              - link "software" [ref=f2651e107] [cursor=pointer]:
+                - /url: "#"
+              - text: applications and platforms that help people build a more confident future. This is an ideal opportunity for new college graduates and early-career technologists passionate about building scalable, secure, and intelligent solutions. You’ll work in a collaborative, agile environment and gain exposure to modern software engineering practices and AI-enabling technologies.
+              - link "Geographic Reference" [ref=f2651e110] [cursor=pointer]
+            - paragraph [ref=f2651e114]: ________________________________________
+            - paragraph [ref=f2651e115]: How You’ll Help Us Build a Confident Future (Key Responsibilities)
+            - paragraph [ref=f2651e116]: • Assist in gathering and refining product requirements and user stories.
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - paragraph [ref=f2651e117]:
+              - text: • Support the design, development, testing, and deployment of full stack software applications (UI, API,
+              - link "Data" [ref=f2651e118] [cursor=pointer]:
+                - /url: "#"
+              - text: ) while leveraging AI tools.
+              - link "Software" [ref=f2651e121] [cursor=pointer]
+            - paragraph [ref=f2651e125]: • Participate in peer reviews of code, solution designs, and configurations.
+            - paragraph [ref=f2651e126]: • Help investigate and resolve production incidents and service requests.
+            - paragraph [ref=f2651e127]: • Collaborate with cross-functional teams to identify innovative solutions.
+            - paragraph [ref=f2651e128]: • Contribute to the integration of AI capabilities into applications (e.g., GenAI APIs, ML models).
+            - paragraph [ref=f2651e129]: ________________________________________
+            - paragraph [ref=f2651e130]: What You Will Need to Succeed (Required Qualifications)
+            - paragraph [ref=f2651e131]:
+              - text: • A Bachelor’s degree in Computer Science, Information Systems, Engineering, or a closely related discipline is required.
+              - link "Civil Engineering" [ref=f2651e132] [cursor=pointer]
+            - insertion [ref=f2651e137]
+            - paragraph [ref=f2651e139]:
+              - text: • Internship or academic project experience in software development or AI/ML.
+              - link "Dictionaries & Encyclopedias" [ref=f2651e140] [cursor=pointer]
+            - paragraph [ref=f2651e144]: • Demonstrated ability to quickly learn and apply new skills to deliver high quality software as evidenced by academic or project experience.
+            - paragraph [ref=f2651e145]: • Proficiency in at least one programming language (e.g., Java, Python, C#, JavaScript/TypeScript, COBOL, etc.).
+            - insertion [ref=f2651e147]
+            - paragraph [ref=f2651e149]:
+              - text: • Basic understanding of software design principles and coding best practices
+              - link "Computer Science" [ref=f2651e150] [cursor=pointer]
+            - paragraph [ref=f2651e154]: • Familiarity with Database concepts, design, and development
+            - paragraph [ref=f2651e155]: • Familiarity with cloud-native technologies (e.g., Azure, AWS, GCP).
+            - paragraph [ref=f2651e156]: • Basic knowledge of secure coding practices and automated testing.
+            - paragraph [ref=f2651e157]: • Strong communication, collaboration, and problem-solving skills.
+            - heading [level=2] [ref=f2651e158]:
+              - strong [ref=f2651e159]: "How To Apply:"
+            - paragraph [ref=f2651e160]:
+              - text: Interested and eligible candidates can apply to the posts of MetLife Jr Software Engineer through online mode. Desirous candidates may apply ASAP.
+              - link "Internships" [ref=f2651e161] [cursor=pointer]
+            - insertion [ref=f2651e166]
+            - paragraph [ref=f2651e168]:
+              - strong [ref=f2651e169]: Metlife India Drive Apply Link
+              - text: ":"
+              - strong [ref=f2651e170]:
+                - link "Click Here" [ref=f2651e171] [cursor=pointer]:
+                  - /url: https://www.metlifecareers.com/en_US/ml/JobDetail/Junior-Software-Engineer/16291?&utm_source=linkedin.com&utm_medium=job_posting&utm_campaign=2016_media_gta&utm_content=&utm_term=#
+            - generic [ref=f2651e172]:
+              - strong [ref=f2651e173]: "Join Our Whatsapp Group:"
+              - link [ref=f2651e174] [cursor=pointer]:
+                - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+                - strong [ref=f2651e175]: Click Here
+              - link "Software" [ref=f2651e176] [cursor=pointer]
+            - insertion [ref=f2651e181]
+          - generic [ref=f2651e183]:
+            - generic [ref=f2651e184]: You May like
+            - generic [ref=f2651e185]:
+              - link "# Jobs in Bangalore" [ref=f2651e186] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-bangalore/
+              - link "# Jobs in Hyderabad" [ref=f2651e187] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/jobs-in-hyderabad/
+              - link "# Linux" [ref=f2651e188] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/linux/
+              - link "# Python" [ref=f2651e189] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/python/
+              - link "# QA" [ref=f2651e190] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/qa/
+              - link "# SQL" [ref=f2651e191] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/sql/
+              - link "# Testing" [ref=f2651e192] [cursor=pointer]:
+                - /url: https://jobsnet.in/tag/testing/
+          - generic [ref=f2651e194]:
+            - link "Facebook" [ref=f2651e195] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjobsnet.in%2Fmetlife-off-campus-drive-junior-software-engineer%2F
+            - link "X (Twitter)" [ref=f2651e199] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fjobsnet.in%2Fmetlife-off-campus-drive-junior-software-engineer%2F&text=MetLife%20Off%20Campus%20Drive%202026%20%26%238211%3B%20Junior%20Software%20Engineer%20%3A%20Freshers
+            - link "Reddit" [ref=f2651e203] [cursor=pointer]:
+              - /url: https://reddit.com/submit?url=https%3A%2F%2Fjobsnet.in%2Fmetlife-off-campus-drive-junior-software-engineer%2F&title=MetLife%20Off%20Campus%20Drive%202026%20%26%238211%3B%20Junior%20Software%20Engineer%20%3A%20Freshers
+            - link "Telegram" [ref=f2651e207] [cursor=pointer]:
+              - /url: https://t.me/share/url?url=https%3A%2F%2Fjobsnet.in%2Fmetlife-off-campus-drive-junior-software-engineer%2F&text=MetLife%20Off%20Campus%20Drive%202026%20%26%238211%3B%20Junior%20Software%20Engineer%20%3A%20Freshers
+            - link "WhatsApp" [ref=f2651e211] [cursor=pointer]:
+              - /url: whatsapp://send?text=https%3A%2F%2Fjobsnet.in%2Fmetlife-off-campus-drive-junior-software-engineer%2F
+          - generic [ref=f2651e215]:
+            - link [ref=f2651e216] [cursor=pointer]:
+              - /url: https://jobsnet.in/author/anand/
+              - img "Anand Kumar" [ref=f2651e217]
+            - generic [ref=f2651e220]:
+              - heading "Anand Kumar" [level=5] [ref=f2651e221]
+              - paragraph [ref=f2651e223]:
+                - text: Career Expert & Founder of JobsNet.in. Serving the student community since 2019, I specialize in providing verified job updates and placement material for computer science, IT, engineering and management graduates. With a mission to simplify the job hunt, I have helped thousands of candidates secure roles in top MNCs over the last 7 years.
+                - link "Civil Engineering" [ref=f2651e224] [cursor=pointer]
+              - generic [ref=f2651e229]:
+                - link "LinkedIn icon" [ref=f2651e230] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/amar-kumar-sd
+                - link "Website icon" [ref=f2651e233] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - 'link "Articles: 2394" [ref=f2651e236] [cursor=pointer]':
+                - /url: https://jobsnet.in/author/anand/
+          - navigation [ref=f2651e237]:
+            - 'link "Previous Post GoTo Off Campus Drive 2026 : Associate Quality Engineer - Freshers" [ref=f2651e238] [cursor=pointer]':
+              - /url: https://jobsnet.in/goto-off-campus-drive-associate-quality-engineer-freshers/
+              - figure [ref=f2651e239]:
+                - img "GoTo logo with black text and a tilted yellow bar underneath." [ref=f2651e240]
+              - generic [ref=f2651e243]:
+                - generic [ref=f2651e244]: Previous Post
+                - generic [ref=f2651e245]: "GoTo Off Campus Drive 2026 : Associate Quality Engineer - Freshers"
+            - link "Next Post Otis Recruitment 2026 | Associate Engineer | Software Testing | 0-2 Years" [ref=f2651e246] [cursor=pointer]:
+              - /url: https://jobsnet.in/otis-recruitment-associate-engineer-software-testing/
+              - generic [ref=f2651e247]:
+                - generic [ref=f2651e248]: Next Post
+                - generic [ref=f2651e249]: Otis Recruitment 2026 | Associate Engineer | Software Testing | 0-2 Years
+              - figure [ref=f2651e250]:
+                - img "Otis Recruitment 2021" [ref=f2651e251]
+          - generic [ref=f2651e254]:
+            - heading "Related" [level=3] [ref=f2651e255]
+            - generic [ref=f2651e256]:
+              - article [ref=f2651e257]:
+                - generic [ref=f2651e258]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2651e259] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                  - paragraph [ref=f2651e260]:
+                    - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2651e261] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+              - article [ref=f2651e262]:
+                - generic [ref=f2651e263]:
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2651e264] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                    - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f2651e265]
+                  - paragraph [ref=f2651e266]:
+                    - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2651e267] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+              - article [ref=f2651e268]:
+                - generic [ref=f2651e269]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2651e270] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                  - paragraph [ref=f2651e271]:
+                    - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2651e272] [cursor=pointer]:
+                      - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+        - complementary [ref=f2651e273]:
+          - generic [ref=f2651e274]:
+            - heading "Search Jobs" [level=3] [ref=f2651e277]
+            - textbox "search" [ref=f2651e284]
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - generic [ref=f2651e285]:
+              - heading "Latest Updates" [level=3] [ref=f2651e286]
+              - list [ref=f2651e288]:
+                - listitem [ref=f2651e289]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f2651e291] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                - listitem [ref=f2651e292]:
+                  - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f2651e294]
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f2651e295] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                - listitem [ref=f2651e296]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f2651e298] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                - listitem [ref=f2651e299]:
+                  - img "Accenture Mega Off Campus Drive For Freshers - Associate Software Engineer" [ref=f2651e301]
+                  - link "Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)" [ref=f2651e302] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-entry-level-custom-software-engineer-python/
+                - listitem [ref=f2651e303]:
+                  - img "Cornerstone Off Campus Drive - Hiring Junior Engineer" [ref=f2651e305]
+                  - link "Cornerstone Hiring Entry Level Junior Engineer – Cloud Ops" [ref=f2651e306] [cursor=pointer]:
+                    - /url: https://jobsnet.in/cornerstone-hiring-entry-level-junior-engineer-cloud-ops/
+                - listitem [ref=f2651e307]:
+                  - link "Calix Off Campus Drive 2026 – Hiring Graduate Trainee – Test & QA" [ref=f2651e309] [cursor=pointer]:
+                    - /url: https://jobsnet.in/calix-off-campus-drive-hiring-graduate-trainee-test-qa/
+                - listitem [ref=f2651e310]:
+                  - link "HDFC Life Off Campus Drive 2026 – Graduate Trainee – Data Science & Analytics" [ref=f2651e312] [cursor=pointer]:
+                    - /url: https://jobsnet.in/hdfc-life-off-campus-drive-graduate-trainee-data-science-analytics/
+                - listitem [ref=f2651e313]:
+                  - img "Yash Technologies Hiring Freshers QA Trainee - Pune/Indore/Hyderabad" [ref=f2651e315]
+                  - link "Yash Technologies Off Campus Drive 2026 – AI/ML Trainee" [ref=f2651e316] [cursor=pointer]:
+                    - /url: https://jobsnet.in/yash-technologies-off-campus-drive-hiring-ai-ml-trainee/
+                - listitem [ref=f2651e317]:
+                  - img "White Twilio logo and four-dot icon on a red background." [ref=f2651e319]
+                  - link "Twilio Off Campus Drive 2026 – Associate Application Engineer- Remote" [ref=f2651e320] [cursor=pointer]:
+                    - /url: https://jobsnet.in/twilio-off-campus-drive-associate-application-engineer-remote/
+                - listitem [ref=f2651e321]:
+                  - img "Accenture Hiring Any Graduate Freshers As Network Associate" [ref=f2651e323]
+                  - link "Accenture Hiring Application Support Engineer – Any Graduate (0-2 Years)" [ref=f2651e324] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-application-support-engineer-any-graduate-0-2-years/
+            - generic [ref=f2651e326]:
+              - insertion:
+                - generic:
+                  - iframe
+    - contentinfo [ref=f2651e327]:
+      - generic [ref=f2651e329]:
+        - paragraph [ref=f2651e332]: © 2026 Jobsnet.in
+        - navigation "footermenu" [ref=f2651e334]:
+          - list [ref=f2651e335]:
+            - listitem [ref=f2651e336]:
+              - link "Home" [ref=f2651e337] [cursor=pointer]:
+                - /url: https://jobsnet.in
+            - listitem [ref=f2651e338]:
+              - link "About us" [ref=f2651e339] [cursor=pointer]:
+                - /url: https://jobsnet.in/about-us/
+            - listitem [ref=f2651e340]:
+              - link "Contact Us" [ref=f2651e341] [cursor=pointer]:
+                - /url: https://jobsnet.in/contact/
+            - listitem [ref=f2651e342]:
+              - link "Advertise With Us" [ref=f2651e343] [cursor=pointer]:
+                - /url: https://jobsnet.in/advertise/
+            - listitem [ref=f2651e344]:
+              - link "Terms" [ref=f2651e345] [cursor=pointer]:
+                - /url: https://jobsnet.in/terms-and-conditions/
+            - listitem [ref=f2651e346]:
+              - link "Privacy" [ref=f2651e347] [cursor=pointer]:
+                - /url: https://jobsnet.in/privacy-policy/
+  - generic [ref=f2651e348]:
+    - generic [ref=f2651e349] [cursor=pointer]: CLOSE [X]
+    - insertion [ref=f2651e351]:
+      - iframe [ref=f2651e353]:
+        
+  - link "Join WhatsApp" [ref=f2651e355] [cursor=pointer]:
+    - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP

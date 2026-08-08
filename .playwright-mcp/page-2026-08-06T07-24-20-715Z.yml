@@ -1,0 +1,327 @@
+- generic [active] [ref=f3e1]:
+  - link "Skip to content" [ref=f3e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f3e3]:
+    - banner [ref=f3e4]:
+      - generic [ref=f3e7]:
+        - link [ref=f3e11] [cursor=pointer]:
+          - /url: https://jobsnet.in/
+          - img "Jobsnet.in" [ref=f3e12]
+        - generic [ref=f3e14]:
+          - navigation "Main Menu" [ref=f3e15]:
+            - list [ref=f3e16]:
+              - listitem [ref=f3e17]:
+                - link "Home" [ref=f3e18] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - listitem [ref=f3e19]:
+                - link "Internships" [ref=f3e20] [cursor=pointer]:
+                  - /url: https://jobsnet.in/internships/
+              - listitem [ref=f3e21]:
+                - link "Off Campus Drives" [ref=f3e22] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+              - listitem [ref=f3e23]:
+                - link [ref=f3e24] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+              - listitem [ref=f3e28]:
+                - link [ref=f3e29] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+          - button "Search" [ref=f3e33] [cursor=pointer]
+    - main [ref=f3e36]:
+      - generic [ref=f3e37]:
+        - generic [ref=f3e38]:
+          - heading "Search Results for software engineer" [level=1] [ref=f3e41]
+          - generic [ref=f3e42]:
+            - article [ref=f3e43]:
+              - heading [level=2] [ref=f3e44]:
+                - link "Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)" [ref=f3e45] [cursor=pointer]:
+                  - /url: https://jobsnet.in/accenture-hiring-entry-level-custom-software-engineer-python/
+              - paragraph [ref=f3e47]:
+                - text: Accenture is currently seeking passionate Entry-Level Custom Software
+                - link "Engineers" [ref=f3e48] [cursor=pointer]:
+                  - /url: "#"
+                - text: ", specializing in Python, to join our innovative…"
+                - link "Software" [ref=f3e51] [cursor=pointer]
+            - article [ref=f3e55]:
+              - heading [level=2] [ref=f3e56]:
+                - link "PowerSchool Hiring Entry-Level Associate Software Engineer – Full Stack" [ref=f3e57] [cursor=pointer]:
+                  - /url: https://jobsnet.in/powerschool-hiring-entry-level-associate-software-engineer/
+              - paragraph [ref=f3e59]: PowerSchool Group Off Campus Drive 2026 – Powerschool is hiring IT graduates for the role of…
+            - article [ref=f3e60]:
+              - heading [level=2] [ref=f3e61]:
+                - link "Unisys Hiring Entry-Level Associate Software Engineer (0-2 Years)" [ref=f3e62] [cursor=pointer]:
+                  - /url: https://jobsnet.in/unisys-hiring-entry-level-associate-software-engineer/
+              - paragraph [ref=f3e64]: Unisys, a global leader in IT services and solutions, is looking for entry level graduates for…
+            - article [ref=f3e65]:
+              - heading [level=2] [ref=f3e66]:
+                - link "Regal Rexnord Off Campus Drive 2026 – Hiring IT Software Engineers (0-5 Years)" [ref=f3e67] [cursor=pointer]:
+                  - /url: https://jobsnet.in/regal-rexnord-off-campus-drive-hiring-it-software-engineers/
+              - paragraph [ref=f3e69]:
+                - text: Regal Rexnord announces its highly anticipated Off Campus Drive for 2026, inviting aspiring IT Software Engineers…
+                - link "Engineering & Technology" [ref=f3e70] [cursor=pointer]
+            - article [ref=f3e74]:
+              - heading [level=2] [ref=f3e75]:
+                - link "CDK Global Hiring Associate Software Engineer (0-2 Years)" [ref=f3e76] [cursor=pointer]:
+                  - /url: https://jobsnet.in/cdk-global-hiring-associate-software-engineer-0-2-years/
+              - generic:
+                - insertion:
+                  - generic:
+                    - iframe
+              - paragraph [ref=f3e78]: CDK global hiring entry level graduates as a position of Associate Software Engineer for Hyderabad office…
+            - article [ref=f3e79]:
+              - heading [level=2] [ref=f3e80]:
+                - link "Cornerstone Off Campus Drive 2026 – Hiring Junior Software Engineer" [ref=f3e81] [cursor=pointer]:
+                  - /url: https://jobsnet.in/cornerstone-off-campus-drive-2026-hiring-junior-engineer/
+              - paragraph [ref=f3e83]: Cornerstone is officially announcing its Off Campus Drive 2026, seeking motivated fresher graduates for the role…
+            - article [ref=f3e84]:
+              - heading [level=2] [ref=f3e85]:
+                - link "Red Hat Internship Drive 2026 – Software Engineering Interns" [ref=f3e86] [cursor=pointer]:
+                  - /url: https://jobsnet.in/red-hat-internship-drive-2026-software-engineering-interns/
+              - paragraph [ref=f3e88]:
+                - text: Red Hat is currently seeking applications for Software Engineer Intern positions for the their Bangalore and…
+                - link "Enterprise Technology" [ref=f3e89] [cursor=pointer]
+            - article [ref=f3e93]:
+              - heading [level=2] [ref=f3e94]:
+                - link "Firstsource Off Campus Drive 2026 | Associate – Software Engineer (0-2 Years)" [ref=f3e95] [cursor=pointer]:
+                  - /url: https://jobsnet.in/firstsource-off-campus-drive-associate-software-engineer/
+              - paragraph [ref=f3e97]: Firstsource is excited to announce its Off Campus Drive 2026, seeking talented Freshers for the role…
+            - article [ref=f3e98]:
+              - heading [level=2] [ref=f3e99]:
+                - link "Lam Research Off Campus Drive 2026 | Freshers | Software Engineer" [ref=f3e100] [cursor=pointer]:
+                  - /url: https://jobsnet.in/lam-research-off-campus-drive-freshers-software-engineer/
+              - paragraph [ref=f3e102]: "Lam Research Off Campus 2026 : Hiring Freshers of BE, BCA, BSC, MCA engineering for the…"
+            - article [ref=f3e103]:
+              - heading [level=2] [ref=f3e104]:
+                - link "Monotype Off Campus Drive 2026 – Hiring Software Engineer Trainee" [ref=f3e105] [cursor=pointer]:
+                  - /url: https://jobsnet.in/monotype-off-campus-drive-hiring-software-engineer-trainee/
+              - paragraph [ref=f3e107]:
+                - text: Monotype Off Campus Drive 2026 – Monotype a global leader looking to hire fresh Software Engineer…
+                - link "Software" [ref=f3e108] [cursor=pointer]
+            - article [ref=f3e112]:
+              - heading [level=2] [ref=f3e113]:
+                - link "Wolters Kluwer Off Campus Drive 2026 – Hiring Associate Software Engineer" [ref=f3e114] [cursor=pointer]:
+                  - /url: https://jobsnet.in/wolters-kluwer-off-campus-drive-2026-hiring-associate-software-engineer/
+              - paragraph [ref=f3e116]: "Wolters Kluwer Careers Hiring Drive 2026 : Wolters Kluwer is looking for Associate Product Software Engineer…"
+            - article [ref=f3e117]:
+              - heading [level=2] [ref=f3e118]:
+                - 'link "American Express Off Campus Drive 2026 : Software Engineer 1 – Freshers" [ref=f3e119] [cursor=pointer]':
+                  - /url: https://jobsnet.in/american-express-off-campus-drive-software-engineer-1/
+              - insertion [ref=f3e121]
+              - paragraph [ref=f3e124]: American Express, a name synonymous with trust, innovation, and customer service, is opening its doors for…
+            - article [ref=f3e125]:
+              - heading [level=2] [ref=f3e126]:
+                - link "Wipro is Hiring Entry-Level Associate Software Engineer – Freshers" [ref=f3e127] [cursor=pointer]:
+                  - /url: https://jobsnet.in/wipro-is-hiring-entry-level-associate-software-engineer-freshers/
+              - paragraph [ref=f3e129]:
+                - text: Wipro currently hiring for Entry Level Associate Software Engineer role at the Bangalore office location. wipro…
+                - link "Civil Engineering" [ref=f3e130] [cursor=pointer]
+            - article [ref=f3e134]:
+              - heading [level=2] [ref=f3e135]:
+                - link "Baker Hughes Hiring Entry-Level Digital Technology Professional – Software Engineer" [ref=f3e136] [cursor=pointer]:
+                  - /url: https://jobsnet.in/baker-hughes-hiring-entry-level-digital-technology-professional-software-engineer/
+              - paragraph [ref=f3e138]: Baker Hughes is currently hiring for the position of Digital Technology Professional – Software Engineer. This…
+            - article [ref=f3e139]:
+              - heading [level=2] [ref=f3e140]:
+                - 'link "ReliaQuest Off Campus Drive 2026 : Associate Software Engineer : Freshers" [ref=f3e141] [cursor=pointer]':
+                  - /url: https://jobsnet.in/reliaquest-off-campus-drive-associate-software-engineer-freshers/
+              - paragraph [ref=f3e143]: ReliaQuest is thrilled to announce its highly anticipated Off Campus Drive 2026, specifically targeting freshers. This…
+            - article [ref=f3e144]:
+              - insertion [ref=f3e146]
+              - heading [level=2] [ref=f3e148]:
+                - link "Light & Wonder Off Campus Drive 2026 – For Associate Software Engineer" [ref=f3e149] [cursor=pointer]:
+                  - /url: https://jobsnet.in/light-wonder-off-campus-drive-for-associate-software-engineer/
+              - paragraph [ref=f3e151]:
+                - text: Light & Wonder, a pioneering global leader in cross-platform games and entertainment, is actively seeking bright,…
+                - link "Software" [ref=f3e152] [cursor=pointer]
+            - article [ref=f3e156]:
+              - heading [level=2] [ref=f3e157]:
+                - link "Accenture Hiring Entry-Level Custom Software Engineer – Cloud (0-2 Years)" [ref=f3e158] [cursor=pointer]:
+                  - /url: https://jobsnet.in/accenture-hiring-entry-level-custom-software-engineer-cloud/
+              - insertion [ref=f3e160]
+              - paragraph [ref=f3e163]: Accenture, a world-renowned professional services company, is initiating its Off-Campus Drive 2026. We are currently seeking…
+            - article [ref=f3e164]:
+              - heading [level=2] [ref=f3e165]:
+                - 'link "Siemens Digital Off Campus Drive 2026 : Software Engineer – AI" [ref=f3e166] [cursor=pointer]':
+                  - /url: https://jobsnet.in/siemens-digital-off-campus-drive-hiring-software-engineer-ai/
+              - insertion [ref=f3e168]
+              - paragraph [ref=f3e171]: Embark on an exciting career journey with the Siemens Digital Industries Software Off Campus Drive 2026!…
+            - article [ref=f3e172]:
+              - heading [level=2] [ref=f3e173]:
+                - link "HPE Off Campus Drive 2026 – Hiring Graduate Software Engineer (0-2 Yrs)" [ref=f3e174] [cursor=pointer]:
+                  - /url: https://jobsnet.in/hpe-off-campus-drive-hiring-graduate-software-engineer/
+              - paragraph [ref=f3e176]:
+                - text: HPE Off Campus Drive 2026 – Hiring graduates having 0-2 years experience in
+                - link "software" [ref=f3e177] [cursor=pointer]:
+                  - /url: "#"
+                - text: development, the…
+                - link "Civil Engineering" [ref=f3e180] [cursor=pointer]
+            - article [ref=f3e184]:
+              - heading [level=2] [ref=f3e185]:
+                - link "NEC Corporation Off Campus Drive 2026 – Trainee Software Engineer" [ref=f3e186] [cursor=pointer]:
+                  - /url: https://jobsnet.in/nec-corporation-off-campus-drive-trainee-software-engineer/
+              - paragraph [ref=f3e188]: NEC Corporation is thrilled to announce an exclusive off-campus drive for the role of Trainee Software…
+            - article [ref=f3e189]:
+              - heading [level=2] [ref=f3e190]:
+                - link "Rippling Off Campus Drive 2026 Hiring Software Engineer 1 (0-2 Years)" [ref=f3e191] [cursor=pointer]:
+                  - /url: https://jobsnet.in/rippling-off-campus-drive-hiring-software-engineer/
+              - paragraph [ref=f3e193]:
+                - text: "Rippling Careers 2026: Rippling is looking to hire the"
+                - link "Computer Science" [ref=f3e194] [cursor=pointer]:
+                  - /url: "#"
+                - text: and IT or related fresh…
+            - article [ref=f3e197]:
+              - heading [level=2] [ref=f3e198]:
+                - link "Optum Off Campus Drive 2026 Hiring Entry-Level Software Engineer" [ref=f3e199] [cursor=pointer]:
+                  - /url: https://jobsnet.in/optum-off-campus-drive-hiring-entry-level-software-engineer/
+              - paragraph [ref=f3e201]:
+                - text: "Optum Off Campus Drive 2026 : Optum a leading Unitedhealth Group company is looking to hire…"
+                - link "Software" [ref=f3e202] [cursor=pointer]
+            - article [ref=f3e206]:
+              - heading [level=2] [ref=f3e207]:
+                - link "Honeywell Aerospace Off Campus Drive 2026 -Software Engineer 1 (0-2 Years)" [ref=f3e208] [cursor=pointer]:
+                  - /url: https://jobsnet.in/honeywell-aerospace-off-campus-drive-software-engineer/
+              - paragraph [ref=f3e210]: Honeywell Aerospace is officially launching its Off Campus Drive 2026, seeking talented Software Engineer 1 candidates…
+            - article [ref=f3e211]:
+              - heading [level=2] [ref=f3e212]:
+                - link "Uber Off Campus Drive 2026 -Hiring For Software Engineer – New Grads" [ref=f3e213] [cursor=pointer]:
+                  - /url: https://jobsnet.in/uber-off-campus-drive-hiring-for-software-engineer-new-grads/
+              - paragraph [ref=f3e215]: Uber India organizing off campus drive to hire recent graduate fresh graduates for the role of…
+            - article [ref=f3e216]:
+              - heading [level=2] [ref=f3e217]:
+                - link "NIIT Off Campus Drive 2026 – Hiring Associate Software Engineer" [ref=f3e218] [cursor=pointer]:
+                  - /url: https://jobsnet.in/niit-off-campus-drive-hiring-associate-software-engineer/
+              - paragraph [ref=f3e220]:
+                - text: NIIT Technologies off campus recruitment drive for freshers of computer science and related IT Graduates for…
+                - link "Corporate Training" [ref=f3e221] [cursor=pointer]
+            - article [ref=f3e225]:
+              - heading [level=2] [ref=f3e226]:
+                - 'link "Kaleris Off Campus Drive 2026: Associate Software Engineer" [ref=f3e227] [cursor=pointer]':
+                  - /url: https://jobsnet.in/kaleris-off-campus-drive-hiring-associate-software-engineer/
+              - paragraph [ref=f3e229]: "Kaleris Off Campus Drive 2026: Associate Software Engineer Chennai, 0 – 2 Years Kaleris Off Campus…"
+            - article [ref=f3e230]:
+              - heading [level=2] [ref=f3e231]:
+                - link "Salesforce Off Campus Drive 2026 – Software Engineer – Futureforce University Hiring" [ref=f3e232] [cursor=pointer]:
+                  - /url: https://jobsnet.in/salesforce-off-campus-drive/
+              - paragraph [ref=f3e234]: The highly anticipated Salesforce Off Campus Drive 2026 is here! As a global leader in cloud-based…
+            - article [ref=f3e235]:
+              - heading [level=2] [ref=f3e236]:
+                - link "ACI Worldwide Hiring Entry-Level Associate Software Engineer (0-2 years)" [ref=f3e237] [cursor=pointer]:
+                  - /url: https://jobsnet.in/aci-worldwide-hiring-entry-level-associate-software-engineer/
+              - paragraph [ref=f3e239]:
+                - text: "ACI Worldwide Recruitment 2026: ACI Worldwide is hiring fresher graduate candidates for the role of Associate…"
+                - link "Computer Science" [ref=f3e240] [cursor=pointer]
+            - article [ref=f3e244]:
+              - heading [level=2] [ref=f3e245]:
+                - link "Heizen Hiring Entry-Level Software Engineer (Fullstack + React Native)" [ref=f3e246] [cursor=pointer]:
+                  - /url: https://jobsnet.in/heizen-hiring-entry-level-software-engineer-fullstack-react-native/
+              - paragraph [ref=f3e248]: Heizen is excited to announce an opening for an Entry-Level Software Engineer, specializing in Fullstack Development…
+            - article [ref=f3e249]:
+              - insertion [ref=f3e251]
+              - heading [level=2] [ref=f3e253]:
+                - link "Perceptive Off Campus Drive 2026 – Hiring Software Engineering Apprentice" [ref=f3e254] [cursor=pointer]:
+                  - /url: https://jobsnet.in/perceptive-off-campus-drive-hiring-software-engineering-apprentice/
+              - paragraph [ref=f3e256]: "Perceptive Off Campus Drive 2026: We are officially hiring for the position of Software Engineering Apprentice…"
+          - insertion [ref=f3e258]
+          - navigation "Search results pagination" [ref=f3e260]:
+            - generic [ref=f3e261]:
+              - generic [ref=f3e262]: "1"
+              - link "2" [ref=f3e263] [cursor=pointer]:
+                - /url: https://jobsnet.in/page/2/?s=software+engineer&ct_post_type=post%3Apage
+              - link "3" [ref=f3e264] [cursor=pointer]:
+                - /url: https://jobsnet.in/page/3/?s=software+engineer&ct_post_type=post%3Apage
+              - link "4" [ref=f3e265] [cursor=pointer]:
+                - /url: https://jobsnet.in/page/4/?s=software+engineer&ct_post_type=post%3Apage
+              - generic [ref=f3e266]: …
+              - link "58" [ref=f3e267] [cursor=pointer]:
+                - /url: https://jobsnet.in/page/58/?s=software+engineer&ct_post_type=post%3Apage
+            - link "Next" [ref=f3e268] [cursor=pointer]:
+              - /url: https://jobsnet.in/page/2/?s=software+engineer&ct_post_type=post%3Apage
+        - complementary [ref=f3e271]:
+          - generic [ref=f3e272]:
+            - generic [ref=f3e274]:
+              - insertion [ref=f3e276]:
+                - iframe [ref=f3e278]:
+                  
+              - generic:
+                - insertion:
+                  - generic:
+                    - iframe
+              - heading "Search Jobs" [level=3] [ref=f3e279]
+            - generic [ref=f3e280]:
+              - generic:
+                - insertion:
+                  - generic:
+                    - iframe
+              - textbox "search" [ref=f3e286]
+            - insertion [ref=f3e288]:
+              - iframe [ref=f3e290]:
+                
+            - generic [ref=f3e291]:
+              - heading "Latest Updates" [level=3] [ref=f3e292]
+              - list [ref=f3e294]:
+                - listitem [ref=f3e295]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f3e297] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                - listitem [ref=f3e298]:
+                  - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f3e300]
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f3e301] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                - listitem [ref=f3e302]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f3e304] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                - listitem [ref=f3e305]:
+                  - img "Accenture Mega Off Campus Drive For Freshers - Associate Software Engineer" [ref=f3e307]
+                  - link "Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)" [ref=f3e308] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-entry-level-custom-software-engineer-python/
+                - listitem [ref=f3e309]:
+                  - img "Cornerstone Off Campus Drive - Hiring Junior Engineer" [ref=f3e311]
+                  - link "Cornerstone Hiring Entry Level Junior Engineer – Cloud Ops" [ref=f3e312] [cursor=pointer]:
+                    - /url: https://jobsnet.in/cornerstone-hiring-entry-level-junior-engineer-cloud-ops/
+                - listitem [ref=f3e313]:
+                  - link "Calix Off Campus Drive 2026 – Hiring Graduate Trainee – Test & QA" [ref=f3e315] [cursor=pointer]:
+                    - /url: https://jobsnet.in/calix-off-campus-drive-hiring-graduate-trainee-test-qa/
+                - listitem [ref=f3e316]:
+                  - link "HDFC Life Off Campus Drive 2026 – Graduate Trainee – Data Science & Analytics" [ref=f3e318] [cursor=pointer]:
+                    - /url: https://jobsnet.in/hdfc-life-off-campus-drive-graduate-trainee-data-science-analytics/
+                - listitem [ref=f3e319]:
+                  - img "Yash Technologies Hiring Freshers QA Trainee - Pune/Indore/Hyderabad" [ref=f3e321]
+                  - link "Yash Technologies Off Campus Drive 2026 – AI/ML Trainee" [ref=f3e322] [cursor=pointer]:
+                    - /url: https://jobsnet.in/yash-technologies-off-campus-drive-hiring-ai-ml-trainee/
+                - listitem [ref=f3e323]:
+                  - img "White Twilio logo and four-dot icon on a red background." [ref=f3e325]
+                  - link "Twilio Off Campus Drive 2026 – Associate Application Engineer- Remote" [ref=f3e326] [cursor=pointer]:
+                    - /url: https://jobsnet.in/twilio-off-campus-drive-associate-application-engineer-remote/
+                - listitem [ref=f3e327]:
+                  - img "Accenture Hiring Any Graduate Freshers As Network Associate" [ref=f3e329]
+                  - link "Accenture Hiring Application Support Engineer – Any Graduate (0-2 Years)" [ref=f3e330] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-application-support-engineer-any-graduate-0-2-years/
+            - generic [ref=f3e332]:
+              - insertion:
+                - generic:
+                  - iframe
+    - contentinfo [ref=f3e333]:
+      - generic [ref=f3e335]:
+        - paragraph [ref=f3e338]: © 2026 Jobsnet.in
+        - navigation "footermenu" [ref=f3e340]:
+          - list [ref=f3e341]:
+            - listitem [ref=f3e342]:
+              - link "Home" [ref=f3e343] [cursor=pointer]:
+                - /url: https://jobsnet.in
+            - listitem [ref=f3e344]:
+              - link "About us" [ref=f3e345] [cursor=pointer]:
+                - /url: https://jobsnet.in/about-us/
+            - listitem [ref=f3e346]:
+              - link "Contact Us" [ref=f3e347] [cursor=pointer]:
+                - /url: https://jobsnet.in/contact/
+            - listitem [ref=f3e348]:
+              - link "Advertise With Us" [ref=f3e349] [cursor=pointer]:
+                - /url: https://jobsnet.in/advertise/
+            - listitem [ref=f3e350]:
+              - link "Terms" [ref=f3e351] [cursor=pointer]:
+                - /url: https://jobsnet.in/terms-and-conditions/
+            - listitem [ref=f3e352]:
+              - link "Privacy" [ref=f3e353] [cursor=pointer]:
+                - /url: https://jobsnet.in/privacy-policy/
+  - link "Join WhatsApp" [ref=f3e355] [cursor=pointer]:
+    - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP

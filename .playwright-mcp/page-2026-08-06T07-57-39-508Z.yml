@@ -1,0 +1,351 @@
+- generic [active] [ref=f548e1]:
+  - link "Skip to content" [ref=f548e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f548e3]:
+    - banner [ref=f548e4]:
+      - generic [ref=f548e7]:
+        - link [ref=f548e11] [cursor=pointer]:
+          - /url: https://jobsnet.in/
+          - img "Jobsnet.in" [ref=f548e12]
+        - generic [ref=f548e14]:
+          - navigation "Main Menu" [ref=f548e15]:
+            - list [ref=f548e16]:
+              - listitem [ref=f548e17]:
+                - link "Home" [ref=f548e18] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - listitem [ref=f548e19]:
+                - link "Internships" [ref=f548e20] [cursor=pointer]:
+                  - /url: https://jobsnet.in/internships/
+              - listitem [ref=f548e21]:
+                - link "Off Campus Drives" [ref=f548e22] [cursor=pointer]:
+                  - /url: https://jobsnet.in/off-campus-drive/
+              - listitem [ref=f548e23]:
+                - link [ref=f548e24] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+              - listitem [ref=f548e28]:
+                - link [ref=f548e29] [cursor=pointer]:
+                  - /url: "#"
+                - button "Expand dropdown menu"
+          - button "Search" [ref=f548e33] [cursor=pointer]
+    - main [ref=f548e36]:
+      - insertion [ref=f548e38]:
+        - iframe [ref=f548e40]:
+          
+      - generic [ref=f548e41]:
+        - article [ref=f548e42]:
+          - generic [ref=f548e44]:
+            - navigation [ref=f548e45]:
+              - link "Home" [ref=f548e47] [cursor=pointer]:
+                - /url: https://jobsnet.in/
+              - link "Off Campus Drive" [ref=f548e51] [cursor=pointer]:
+                - /url: https://jobsnet.in/off-campus-drive/
+              - generic [ref=f548e54]: Firstsource Off Campus Drive 2026 | Associate – Software Engineer (0-2 Years)
+            - heading "Firstsource Off Campus Drive 2026 | Associate – Software Engineer (0-2 Years)" [level=1] [ref=f548e56]
+            - list [ref=f548e57]:
+              - listitem [ref=f548e58]:
+                - text: By
+                - link "Anand Kumar" [ref=f548e59] [cursor=pointer]:
+                  - /url: https://jobsnet.in/author/anand/
+                - text: /
+              - listitem [ref=f548e60]:
+                - text: "On"
+                - time [ref=f548e61]: July 26, 2026
+          - figure [ref=f548e62]:
+            - img "Firstsource off campus drive" [ref=f548e64]
+          - generic [ref=f548e65]:
+            - paragraph [ref=f548e66]:
+              - text: Firstsource is excited to announce its
+              - strong [ref=f548e67]: Off Campus Drive 2026
+              - text: ", seeking talented"
+              - strong [ref=f548e68]: Freshers
+              - text: for the role of
+              - strong [ref=f548e69]: Associate Software Engineer
+              - text: . This exceptional opportunity is based out of our
+              - strong [ref=f548e70]: Chennai office location
+              - text: . We invite enthusiastic graduates with a
+              - strong [ref=f548e71]: BE/B.Tech, MCA, BSc, or equivalent degree
+              - text: ", possessing"
+              - strong [ref=f548e72]: 0-2 years of experience
+              - text: ", to apply for this dynamic position and kickstart their career with us."
+            - insertion [ref=f548e74]:
+              - iframe [ref=f548e76]:
+                - iframe [ref=f552e1]:
+                  - generic [ref=f556e1]:
+                    - generic [ref=f556e2]:
+                      - generic:
+                        - generic [ref=f556e3] [cursor=pointer]
+                        - button [ref=f556e8] [cursor=pointer]
+                    - insertion [ref=f556e16]:
+                      - link [ref=f556e19] [cursor=pointer]:
+                        - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstAA22lABt37QSGHxeJ2snW5-YyrKGYWw-01eH9qQSy7nPXmoQ5auKsdGesAS--XeYGHcfoO_94BCFRxlImc6hL1n-0Hyc8v2HH8LDV-renOIAkkJFJfbImvhHeqrPrVJiWw5rCVgB9xnE9iVkkfsbVAj4LRyXUXSajhgnEAmSKk94Y8NEMl_C0C1w36H6elMBwNgkcNDrCYNwdMtx93jYTPKvnxFfOXc8e7CqjrAuNsRI8BVsqMNJ9-Zgg4moH26Ll9tVtUf498t3gQK904R770bNmZKhf7PskTV2M_f4e1FSKwAeEpvHCz90FcJaTBHANrD2GLNfRE8KvaIKRk0RrG5_7gon_sQKZY18CfSKoWmzoqUqRDyhJG8mUwudWFjB4RoyFOciEOq6HjGF-8lVg7blILqecjsRSUXfg6Izi0B5c4rXMrTKf7VDx2MVMxFsaA8LnVHS5omaE-v7FGY_5RFXYaYYIQ8ZmpNQ8I4F1sQ&sai=AMfl-YSg0V9PCB9I0eaIPuPGAsZfvW0B3RfPjsmxXqqrASObQv0WPoQZc033sc4BB7v0kyRDdDaIZJAyQv3D009aK7sP-x_pgCknUJ5mliaSM2xwjZ0cArckEi4ik9oa2BhGdbxdXXKDPYpOZm0n5SZiB5iH4Q2PHxrnREpJaNEbO9625Zd3HaYAxndU5H_GiP_vAzTszPE0YT4nXpUmLl7DFgRF1ND7YZ39qvJMJTZ5WKVUJdxOGxtxCUbDu_HuKy7THBFzwFElc-XSeMNtoSOOWDewftPSqg_kbHWoeloUDYNqRiCoLYoNynlVcI7aqBrOWglIGpFdjzt7k2BFJCoBQwbUTrLu3I2lseRAeus&sig=Cg0ArKJSzPRqrGdYqZTP&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://googleads.g.doubleclick.net/dbm/clk%3Fsa%3DL%26ai%3DC2OsFcD50auiYOaP05t0P6qK1kAymw4WSiAGPlci25hXwLhABIImC8XRg5Zrpg-AOoAHu5d7iAcgBCakCe9ZWNhKTRj6oAwHIA5sEqgSBAk_QyLozwijbZrcIBC20kHzfNkmPHw9NZkd6bK-NOkL_OrH8qBGY5mqrkdNAHAujplvNwXZF2EJyserJYHDJtvzM5xpTfXm97nGaHkd7NctCWEv4y9FfA8u7wjg3j6afQosNlcbjjOGV4gOyOyAMSenvkHrHpth8yWRLZP1v-2rDat6GRGskFc6j4_O5Aqb1yfOtu2CCMMW4yoKSz8PNAOqDzSB19z9fXByISn2EBr7eAD3j4TTeVFAli7eKlLUbmjpRDNPnCZbWCp7l84qYxcSvNwr2TpGa010KmmzeilMG3PAfmjmq4cDFqYJ_Ry7mFAqlJLykI127no2-ha3nnjuKwATzi5_50wXgBAOIBfrrxaRXkAYBoAZNgAf6maGdAogHAZAHAqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAqgH59exAtgHANIINwgAEAIYmgMyCICAgICAgIAIOhSf0ICAgIAEgMCAgICgqIACqIGAEEi9_cE6WLrPme7Di5YDYAGACgGYCwHICwGADAGiDAwqCgoIjt-xApXisQKqDQJJTuoNEwjqlZvuw4uWAxUjurkFHWpRDcLwDQGIDgmwE_fLgCTYEw3YFAHQFQHKFgIKAPgWAYAXAbIXEBgCKgoyMTEzNzAzNzc5UAaqGBcJAAAAAOCB9UASCjIxMTM3MDM3NzkYAbIYCRIC-lMYTSIBANAZAQ%26ae%3D1%26num%3D1%26cid%3DCAQS-gEAEQoqgSZ6Gy_UJPg6kRDpeWt7AH2AhAbyooZiqJ8ipn4YZka0bOSepKfxiiJDW264LgxgdjBEf5Ioug7eob90cNNzmxJ_W8VYGZW3O48daL68CDHCi27sjUkrEuF-ns-vS_Wnb_NdmC_qydE_eYZTTZWZmAkoz2ZbIhG5VlX_Z7PiGwoe-4uOYsfCH86d29lhwukfwDKMMCmmfblN1W0wsT9Iqad6vIc-JrvtDWcz3KA0EiG9zG5yPHHEcsevtS2GnSCYbaZVt-3El1tCMoISGIGUAQCk6aDfpFEEvsM6gnEdDA1296p-Mv6B1WFvi77BJJLEIpvT9IxYGAE%26sig%3DAOD64_3v3S7RTgvHhkww8sGnhCpmiYDNjg%26client%3Dca-pub-9713759261380411%26dbm_c%3DAKAmf-CJ16IsGjQeq57AxTUAjf3ArzLuOwlNXdvjQlA5y8xRBXbQQ8fSjfn3We68rwAOCSKbPU4jxHcKQw7ETjzKlJQxtH0s798g8FDKQM7EDNyi1rU23b4BfCIQsb0AgTeQ1hqMIlqsp0IIKBNboH9PeeeOmpDeHeoF4zS7hvh09e3MAR3-1Dx32mtF1bHQM4aY_PtR1Mkkl6AAapWwulkyi8Lenu6Et94_z4DN6DwdKXq9HL6eXVgx2ABtoO0obCZSbFVDw8X_Tb-axvz7dAFAf5Mgbg3_Dv6W560WMFAu1Rb5igK_0SpWvwOGekySxNCbsD643m53%26cry%3D1%26dbm_d%3DAKAmf-DbcDFgCFBoAA3FyHwRovS_bAXXove28wwUJka0BkZ7HRR2vONApIJvem56S4yEvTwXLio2GwLT5xB5wd3VgDIxPvQgRZfVXE4pjiwlk6YCmwfm1rtDWw-8fnGLT26FdAnYc84213NP3_ataMtzUzZDRgTfnEPpqttKKaWxebOhMEl9RrLLol2N97n2wy5KAc7reVmmSvZL1akCPVkuAx0qu3KoL6pya945CX6Jo6pD3jsnKOUI_DDAlu0tj0uZFEvkGD6K33_FoiOxM2L5pFPTKuCF67mcypZy6yrJSngBubtZaseIK3NdZFstpZRMG9kJSWg7operw7sZIJtEXPXJK4qfrKdzVe9RXkWD90HsZkKkUgPwRS8fi6Tc4tKOl-GkilLy8HK0w10GiabR22LXs8mPoz79j07myMIRT1xFzXlObh2hIoOty8uWF01Mgoup1p_NR6fz5LUnMnUVFDhBf1-iTb2F2NsYHEW9K0hxInxF7sAq3ujT1SbXv3ZO9272LGRFnOZV-NC16_OYc_LXoh2rxngQpEj7oAUo1sDABYRmU3jiSc05EktrdGztIGpnw-UObMDXgXyHhzNtS-pHknNrLDByF0ryOSIwibqe-Pcy22WgE6EKY50SQ6w1Z4L-z2fVczeD0n0J6q8vBhoQDXNU1Ly3Z2HgGizJdhnYGx9c6J_7_L7X-hCR_himC2qiUewqshI8TC09BBevD3lljjCpoA4ciCmKr2T3WYtvBKQ6rLqary518z-WHl7EtcogAhM6PWvfEc2rxQqocVcD-dhwaygHl-kVrZULjusH8cFi-Nc%26adurl%3Dhttps://careers.unitedhealthgroup.com/india-billing-jobs%253Fsrc%253DUNS-19965%2526utm_source%253Dyoptima.com%2526utm_medium%253Ddisplay%2526utm_campaign%253DIndia%2526utm_content%253Dniche_site%2526utm_term%253D437132291%2526ss%253Dpaid%2526dclid%253D%2525edclid!%2526gad_source%253D7%2526gad_campaignid%253D23401693169
+                        - img "Advertisement" [ref=f556e20]
+            - heading [level=2] [ref=f548e77]:
+              - strong [ref=f548e78]: "Firstsource Off Campus Drive 2026 Overview:"
+            - paragraph [ref=f548e79]:
+              - strong [ref=f548e80]: "Job Title:"
+              - text: Associate Software Engineer
+            - paragraph [ref=f548e81]:
+              - strong [ref=f548e82]: "Job Location:"
+              - text: Chennai / Bengaluru / Mumbai / Hybrid
+            - generic [ref=f548e85]:
+              - generic [ref=f548e86]:
+                - generic [ref=f548e87]: WhatsApp Channel
+                - link "Join Now" [ref=f548e89] [cursor=pointer]:
+                  - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+              - generic [ref=f548e90]:
+                - generic [ref=f548e91]: Telegram Channel
+                - link "Join Now" [ref=f548e93] [cursor=pointer]:
+                  - /url: https://telegram.me/campusdrivejobs
+            - paragraph [ref=f548e94]:
+              - strong [ref=f548e95]: "Salary:"
+              - text: As per Industry Standard
+            - paragraph [ref=f548e96]:
+              - strong [ref=f548e97]: "Experience:"
+              - text: Freshers/0-2 Years
+            - insertion [ref=f548e99]:
+              - iframe [ref=f548e101]:
+                - generic [ref=f553e2]:
+                  - link [ref=f553e4] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsulmdtslMi0k_ka1s5FrsRNVunvUhC5lnUejtWhwqmCd_4vyf-wBmudl9JygIbS6J3T0BktMGz3YcEGimRX81rdMSO4RESbxWl9WOT2vQxc9aisTXJdnaOLeWtDXM1mwJZ6E5UnM-5InVxbotDhNBjcWWUzLmPv4BWry2aecLcXvQ4D6lfZGCqvsUiXrl2ysT84qF2z_nHykw-pO44dR02rgjuUZYzWb_kpN7nFTxk-kuR7k5GcQI6IxPOjFRhsqKhxk_oPO3zYGWI9_IO--hXRmrB6VBe0WBfZR1WVCOktcg8NMtdeWRQcw2yWd3w_XVMvR8nGg4w13j6bIGePZFCoNtMF0rkLSQWoGJ3IVAMdEZCS1GuOqAOmSK0xx2-GveWXGrSfVVTVK0Cvug0CB_1AAyLdZCpVyjSAM_uXuEu2VaNe8x9fQK3vA1fx_CpdQmGUOMTTf80G2CFtIegZdfajEfxp4ZgaCz0kpRCO0zXWGoq6IdJNYbpxu9l-gdYZC8MSBq96_6i8GdLE7W11h3ua8SSCunab_Qhx535uDnT50Fd6XT6KAPYGCJYWfoLIQJSwE9iBMk-Zp-dFGPT-r0cYKliMggNEZGPkmqOoIg03fq3_TtaRG-AobXmyDmaiKEVX5w4ST64g295bRfBzUElPD8C2lXNZcXpSwil21LNKJyq8TdUb13-WKrdH2_NlrZYRuWEYEun9XBMcPX04UwSL6rdtMd5ReLIYijmuZRXJpJeeZwHkN2Il02xoJOvO2LgCo19daZnEqB40lEHDU983rBKJ4Nl-CUEW54wCKxHYgsfRoB3holTi8RNjVBjS9oPRKScylj8i01Ie-G1-j9cTjfUjfpwwox_-QroSl7mE6tkkBqwMQS-hr3FzYyu1GcfwNhHQCURJkZ34MAOwZtIAy6ugoQAN5rnpwtvbOWx1G5QaQfVD_9l7yIFw6gSscVtDlf8rZIEqjepu8KkyEu7ygw0XGdvuez7-l5DJEgrBqR3jpyAjRqOtF3mlNxKBnFEIug5f9FE4PdeUUC2DjWAbrct0QbxbLj4fIjyMMqB5L0CvJmJHJPYLCSXz5Cpw7yKJ8etXMsmfRM0eAq4aL1B0pzMHwCr9WDF5rGg5smX2zqckf7XEZnj0i6HLoZMWJErVC4uei0mne7oJG08pUeWVsWtAexnvLE-7TZb3upihrT51G3PBkPjWPJN6ckM1ks_KnsRooFZTMdNnriQUmqNKggl1hY-zzJVIIYKbM7zK93T9tu0mCHhbu0HxU9ElC4SWVQb6jidy4hg-g8XRRseBJGtOqy0yH7PIF6Vk9JhIruqb5baGJpBPp7EIeuyOwhqXlopC0i7tOjDk7kLmkolCWiqEikuski9XRO1cHc8Asj6AX_79233mXXyqTIx22h22QAn0fewuvYJGruwYJCS5H8YbvqyuxRR5YZYW1JObtxq9EGy9tY3q1E_ZNDC7JHXHaGa2YLnBWz4CxG2FAo_7zqP6huNVrNXBmpT-uwm2lha1hSEcv8baX72sxWXBDD073lzTQDOgFtb2wjmYljdcv5v75PKjANhFgDGarPUy9_rXRHIekbmQhMAd4w2JjJszJntNkjY36CjFwu0Wss6-W5eTTuNCQUqrGgJtDEMmqhg_Kdbz937XpB75pbViigX8ltkXwMSAJIOvJqDARotMrfbm7Zug3aeSmQwTpIjh7QRO7dJvK9zLcne1hQicf5V1QmVoSqxAu7I5ELJRnB4DFYIhIR1YQB_DIOYBVNt29-dW-toeby1oR_f949LMRJm-h-IP6Uy6PmzNEkU1ZiGsZRFGdunoKzo_8YWy6ufWLhdgSRPezj38Hflq08BDYIkZ2Dv-e6Sgg9GLGV0RMJKFU1EFmXdXt6LbAzV1aapXTOAe3R1m1nqLrGOYipee7lFbRp_i4L_5c8YiO_TCoiPaMKeVK5Aww2KhcTRL-VAnSBBFRrFiGsCnC2-2ythD88byfLcX-_zaYtfYG7LlA1mTMVi5_zqFO3We7glAB982rfE&sai=AMfl-YTIinag0L2OsJf612hACCoZ_DYAdqGWnk9wlG31_Fa9LAvUPKIepem01N8tD3MwF3gguUcmuSGIprIhxaRzI1TV7BSdqcGl-ctn2hflvaDe5j0m-RlhINLNxIGsSba9OjnzUgNkUgyLJXZjeaMjdK4KsqzjD5BLUwZo2815c7IFrrlQWWw5_64mNP45fYJyXMonfgK5wrDwpWThuzSYphqyFpuFBre4UO0G3e2f7ocSqTIiDl29Dx4G3C4cClMZIyg4s9bQsHA5nSBX5JW_7jv7MkcbNdSIrAVOX0NsOVNZKcC00p-zr3XdKNwMQZAGEE48mPImpX5pIo498aEStqs50UrdvpFStEy8b9RumfsrOagZ7FhitU0pov6NOw2kj7RMNYJRA6YlOO7iCHzNKrAbzDEvN-z_R0yNuRENqfwzhHDL2O7sOlACFUsPDi5z5QeN357ttioPilzWX4oN0Jhy_wK_FeUq_aPHL9NABT7o4P7DUFK_N-uAVZttjNccwhKj4nhfUt5Y2SieoCtyWaXSE36rlpHC2vt9NDOmw6OVyNtp8fKLF7MEFuB7YTlH6w3K-bu_Au_Qh6TsCDSBrN0JAw4UvLuxrOhKBdVhaC9feBPmMGwjIy9gc2rN8eOcuFcl3rhiYYZVMUYX_xfSZX8N_wv84VqpPXpDlVlfeA4FdKMdC5CamY86Z5wuQjKx_lZ-9o9qnWGI1nE_q9uJEA0x_5rfnTpjDwLxU10SrK1p37YnNtm3UJG-IP78YGjWhCR4_VpImrI3n8MwTPml7s5-nuKrCVs5AxUE_lmS5fvhZDKaWNLAIgxhSTsdMB-WtUmfp3Km9UzEA-1yrQMoSCCUU7eS6OFSu8Mwlwmhmd0ji0X5acP--UlgJTWa_DDE59X5&sig=Cg0ArKJSzLP8xPLlxDQb&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://ads.google.com/intl/en_in/start/lg/test/sfa/%3Fsubid%3Din-en-adon-awa-dis-a-ahns!o3~AMsySZaqtaq5GJ1vl5U1ofMyamhp~437188663~630630012~244707247~OPTID-8073248%26utm_source%3Dawa%26utm_medium%3Ddv360%26dclid%3D%25edclid!%26gad_source%3D7%26gad_campaignid%3D23404342702
+                    - img "Advertisement" [ref=f553e5]
+                  - generic [ref=f553e6]:
+                    - generic:
+                      - generic [ref=f553e7] [cursor=pointer]
+                      - button [ref=f553e12] [cursor=pointer]
+            - paragraph [ref=f548e102]:
+              - strong [ref=f548e103]: "Degree Required:"
+              - text: BE/B.Tech/BCA/BSC/MCA or Related
+            - heading [level=2] [ref=f548e104]:
+              - strong [ref=f548e105]: Job Description
+            - paragraph [ref=f548e106]: We are looking for an Associate Software Engineer to join our engineering team at Firstsource. In this role you will build, test, and maintain application components and data services, working closely with senior engineers, business analysts, and product owners. This is a hands-on development role ideal for someone early in their career who is strong in Python, comfortable working with relational databases, and eager to grow their cloud skills on Microsoft Azure.
+            - heading "Key Responsibilities" [level=4] [ref=f548e107]
+            - list [ref=f548e108]:
+              - listitem [ref=f548e109]: Develop, test, and maintain application features and backend services using Python.
+              - listitem [ref=f548e110]: Write and optimise SQL queries, stored procedures, and schema changes against MySQL databases.
+              - listitem [ref=f548e111]: Build and consume APIs and integrate with internal and third-party services.
+              - listitem [ref=f548e112]: Deploy, monitor, and support applications and services on Microsoft Azure.
+              - listitem [ref=f548e113]: Debug, troubleshoot, and resolve defects across development, test, and production environments.
+              - listitem [ref=f548e114]: Participate in code reviews, follow coding standards, and contribute to clean, well-documented code.
+              - listitem [ref=f548e115]: Collaborate with cross-functional teams (product, QA, operations) in an Agile/Scrum setup.
+              - listitem [ref=f548e116]: Prepare and maintain technical documentation for the components you build.
+            - heading "Required Skills" [level=4] [ref=f548e117]
+            - list [ref=f548e118]:
+              - listitem [ref=f548e119]:
+                - strong [ref=f548e120]: Python
+                - text: — solid working knowledge of core Python, scripting, and at least one framework (e.g. Flask, FastAPI, or Django).
+              - listitem [ref=f548e121]:
+                - strong [ref=f548e122]: MySQL
+                - text: — ability to design tables, write efficient queries and joins, and understand indexing and basic query optimisation.
+              - listitem [ref=f548e123]:
+                - strong [ref=f548e124]: Microsoft Azure
+                - text: — foundational knowledge of Azure services (e.g. App Service, Azure SQL/Database, Storage, Functions) and cloud deployment concepts.
+              - listitem [ref=f548e125]: Understanding of REST APIs and JSON.
+              - listitem [ref=f548e126]: Familiarity with version control (Git).
+              - listitem [ref=f548e127]: Good problem-solving skills and attention to detail.
+              - listitem [ref=f548e128]: Strong written and verbal communication; ability to work in a team.
+            - heading "Good to Have" [level=4] [ref=f548e129]
+            - list [ref=f548e130]:
+              - listitem [ref=f548e131]: Exposure to CI/CD pipelines (e.g. Azure DevOps, GitHub Actions).
+              - listitem [ref=f548e132]: Basic knowledge of containerisation (Docker).
+              - listitem [ref=f548e133]: Understanding of Agile/Scrum ways of working.
+              - listitem [ref=f548e134]: Familiarity with unit testing frameworks (e.g. pytest).
+              - listitem [ref=f548e135]: Any Microsoft Azure certification (e.g. AZ-900) is a plus.
+            - heading "Qualifications" [level=4] [ref=f548e136]
+            - list [ref=f548e137]:
+              - listitem [ref=f548e138]: Bachelor’s degree in Computer Science, Information Technology, Engineering, or a related field.
+              - listitem [ref=f548e139]: 0–2 years of relevant software development experience (internships and academic projects count).
+            - heading "What We Offer" [level=4] [ref=f548e140]
+            - list [ref=f548e141]:
+              - listitem [ref=f548e142]: Structured onboarding and mentorship from senior engineers.
+              - listitem [ref=f548e143]: Exposure to enterprise-scale projects and modern cloud technology.
+              - listitem [ref=f548e144]: Clear career growth path within Firstsource’s technology function.
+              - listitem [ref=f548e145]: A collaborative, learning-focused work environment.
+            - paragraph [ref=f548e146]: The interested and eligible candidates register on the following Firstsource off campus drive application link.
+            - insertion [ref=f548e148]
+            - paragraph [ref=f548e150]:
+              - strong [ref=f548e151]:
+                - text: "First source Off Campus Apply Link:"
+                - link "Click Here" [ref=f548e152] [cursor=pointer]:
+                  - /url: https://careers.firstsource.com/job/Bangalore-Associate-Software-Engineer-KA/58224144/
+            - generic [ref=f548e153]:
+              - strong [ref=f548e154]: "Join Our Whatsapp Group:"
+              - link [ref=f548e155] [cursor=pointer]:
+                - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
+                - strong [ref=f548e156]: Click Here
+            - insertion [ref=f548e158]
+          - generic [ref=f548e161]:
+            - link "Facebook" [ref=f548e162] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjobsnet.in%2Ffirstsource-off-campus-drive-associate-software-engineer%2F
+            - link "X (Twitter)" [ref=f548e166] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fjobsnet.in%2Ffirstsource-off-campus-drive-associate-software-engineer%2F&text=Firstsource%20Off%20Campus%20Drive%202026%20%7C%20Associate%20%26%238211%3B%20Software%20Engineer%20(0-2%20Years)
+            - link "Reddit" [ref=f548e170] [cursor=pointer]:
+              - /url: https://reddit.com/submit?url=https%3A%2F%2Fjobsnet.in%2Ffirstsource-off-campus-drive-associate-software-engineer%2F&title=Firstsource%20Off%20Campus%20Drive%202026%20%7C%20Associate%20%26%238211%3B%20Software%20Engineer%20(0-2%20Years)
+            - link "Telegram" [ref=f548e174] [cursor=pointer]:
+              - /url: https://t.me/share/url?url=https%3A%2F%2Fjobsnet.in%2Ffirstsource-off-campus-drive-associate-software-engineer%2F&text=Firstsource%20Off%20Campus%20Drive%202026%20%7C%20Associate%20%26%238211%3B%20Software%20Engineer%20(0-2%20Years)
+            - link "WhatsApp" [ref=f548e178] [cursor=pointer]:
+              - /url: whatsapp://send?text=https%3A%2F%2Fjobsnet.in%2Ffirstsource-off-campus-drive-associate-software-engineer%2F
+          - generic [ref=f548e182]:
+            - link [ref=f548e183] [cursor=pointer]:
+              - /url: https://jobsnet.in/author/anand/
+              - img "Anand Kumar" [ref=f548e184]
+            - generic [ref=f548e187]:
+              - heading "Anand Kumar" [level=5] [ref=f548e188]
+              - paragraph [ref=f548e190]: Career Expert & Founder of JobsNet.in. Serving the student community since 2019, I specialize in providing verified job updates and placement material for computer science, IT, engineering and management graduates. With a mission to simplify the job hunt, I have helped thousands of candidates secure roles in top MNCs over the last 7 years.
+              - generic [ref=f548e192]:
+                - link "LinkedIn icon" [ref=f548e193] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/amar-kumar-sd
+                - link "Website icon" [ref=f548e196] [cursor=pointer]:
+                  - /url: https://jobsnet.in
+              - 'link "Articles: 2394" [ref=f548e199] [cursor=pointer]':
+                - /url: https://jobsnet.in/author/anand/
+          - insertion [ref=f548e201]
+          - navigation [ref=f548e203]:
+            - link "Previous Post Honeywell Off Campus Drive 2026 - Application Dev Specialist - Freshers" [ref=f548e204] [cursor=pointer]:
+              - /url: https://jobsnet.in/honeywell-off-campus-drive-application-dev-specialist-freshers/
+              - figure [ref=f548e205]
+              - generic [ref=f548e208]:
+                - generic [ref=f548e209]: Previous Post
+                - generic [ref=f548e210]: Honeywell Off Campus Drive 2026 - Application Dev Specialist - Freshers
+            - link "Next Post Deloitte Off Campus Drive 2026 - Hiring Graduate Engineer - Data/AI/ML/Java/Test Engineer" [ref=f548e211] [cursor=pointer]:
+              - /url: https://jobsnet.in/deloitte-off-campus-drive-hiring-graduate-engineer-data-ai-ml-java-test-engineer/
+              - generic [ref=f548e212]:
+                - generic [ref=f548e213]: Next Post
+                - generic [ref=f548e214]: Deloitte Off Campus Drive 2026 - Hiring Graduate Engineer - Data/AI/ML/Java/Test Engineer
+              - figure [ref=f548e215]:
+                - img "deloitte careers hiring freshers" [ref=f548e216]
+          - generic [ref=f548e219]:
+            - heading "Related" [level=3] [ref=f548e220]
+            - generic [ref=f548e221]:
+              - article [ref=f548e222]:
+                - generic [ref=f548e223]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f548e224] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                  - paragraph [ref=f548e225]:
+                    - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f548e226] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+              - article [ref=f548e227]:
+                - generic [ref=f548e228]:
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f548e229] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                    - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f548e230]
+                  - paragraph [ref=f548e231]:
+                    - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f548e232] [cursor=pointer]:
+                      - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+              - article [ref=f548e233]:
+                - generic [ref=f548e234]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f548e235] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                  - paragraph [ref=f548e236]:
+                    - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f548e237] [cursor=pointer]:
+                      - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+        - complementary [ref=f548e238]:
+          - generic [ref=f548e239]:
+            - heading "Search Jobs" [level=3] [ref=f548e242]
+            - textbox "search" [ref=f548e249]
+            - insertion [ref=f548e251]:
+              - iframe [ref=f548e253]:
+                - iframe [ref=f554e1]:
+                  - generic [ref=f558e2]:
+                    - link [ref=f558e4] [cursor=pointer]:
+                      - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstKjlq790tYv0mtb2WJdif3n4Pyt3U-0Gz4X6QUe0quKlr3G9Wa16gB0C__NX0Exv_AdY6p-enntXd0C_IZnf3cOBegbcMItIsMAz4zhxnmooq1bSPZkE3DHQVaaNi7U0utNmrF_Kub3xfxQ5DfWtBMw3uj2G9natgE2MpCE6NmwpwJGUXVKa67hKeGPer63CADW1wufK5xgtAgIUmDFxbPDED5m1jLNZLC6FscTasT-qeBqOJn4qYh9P17MMwoYiJxcrfyFZ-N1noYAoKoPi1KAi9ITX1prR7An4doVFlUZ2FfAa3N91STY5C-_rq31trBaS2nVXzYrYINoCS7mpb1xWONEKlXOSCazGM51ZqEkQrGrN9HQXwmRHCXPDM3dBoFb9WrGG56YBvkKOdf6m0H67RwMu9f8xDZSl7ChZR_nIEzAVrl3fg3VG8zvEU2I4NjESL1lCiMcBuIWzwui3Ee9l5JhqufhFuis2h5HywEXJuHokUCfL25K2Kk1s0d09RAzYqL6ODtjyprYIxzdEtOKztzfDS44KrcPw_vX2bqsiR76IRxQiTfafiYjpMfsDX6IePniRoWf7B_F1KEiS6KxZyiX_OxwnVqdbyz8JAEFB7gCPklkEmzvke0U4EgulOMpU_-B9_WrgJryO-5BTarl10ROyRX30kF1PYVqPY8_4g5_KkSjwJfx-TJFGOW_TGXHcf010AjwsAI_FqDJ0MViE59SKULIuyr9kQ8qaUa0HvlzENc9cDSbcwg4wc2s6UDiQka0zlsyBZp312_5YjS6ctkbpX4egV5C5lxm4t9YAN61OZq2DgDqfS9tBjQZxstS-NQNGlfLO2HO3OTTFp5cVWfjJ2cx67mY8mwChlvAGq8OUobC07ruNiLfB5CmEhFYxkMn4TqtPomsEvkl1eSzKbAtVV6UD-jEQCcDHM9kzz693DhN1SJQkYXthWF4Iy-jl351Y8mz9wfJpJWhmvUs_atfty0U-qr3tGsXwEF9mdvOicVey2z41pLHYzxDbL-DE3UoY-H3tt5bQOJwTAYKVpF5o8J9dff9N0UkiXGrU6IZXVLb1qI2dLBOfxMnHv4T39A7UOYH05ipa_VC8dXlMy9eftQdur-l_HNt9OuEj61poxItMYRncoYfIGsOp3L8Zi2IIs1Mf9Wmd_uH8BBrzKSLbiQnFq5w6HZP401Zi7aZoCaePq_Lau9oOj24cwmHC87kIyiuVsR4enWARoETTb-4WAfQn3OfdBmbMILKqfyCjrX9uu1wME6YJ--otc50HtUIODckRzfAFW-6srioIgD2lah2gfXOdo8ZeY4ZnJGUTvYlGjWYQf1nJiPAn8q2aS1muEBLuvuKub4K6urt4G2pVWxySX-2Oxe1mFhgaYBo6w8MA7zmuCYENZLt1ujqxrHSwnVSAJHUgibwWIP7VTgJWA4SCPW28-jwFlklsdeTZ4-FU02ZqTpVtaa9tJppLfFpy3F9e5x5gls_qTZYbsQJgAIoanfgB2GDo_2tO8BV_T4pGlHY9VTxEY8FEIF2UJMOGfnr3ByBgNikOF9IBLTp8wLhuGeI4zL_s4RziJtbH94wmzP9q6OiaeyNykESec66uOVd8M1xYQGnSnDMS1okl2px82vm5SjBTOCLd7vSz03rflBP3j4_d95ESXBuYgkrqc4LPO28yn3FArp5vaHkuB2fRmbMWQcf7-RG45KTAa1ltl33NOHRS6h8o9BBKWbY85amxqpwNIR2um0lBtilvCy8dziajQNrvZIkTEp2w4xqMuL1EGhedlGy8WtU1BCobQgtt3_jHSU7Rh3g8Bz4gSQj2nAvgmr1UNdyDJZCgkG8M1JMaskvoat1wk-orHRnsAPkRuFtGO2UfSSXxuO1xfiDZjOmRaF33arDixIV-mfZ7yx8mhclk2PFHYHO__KOJ549v5MgAglwsR_LRZZoWd57h5W4czO6_ODtN9j0uOYX8bhS6JREsV3EyjByP1CGTsReRH97f9AZ9abM_H4ygO6ARgvSbxCu4zRkMvg&sai=AMfl-YQchqv5askvj9RCTJtj6W9Pjklp7z4MseJ-5ndC7LY7XaorQ6LyLQMR8ima7uz-bdE7B-m0_U5Ua70tgpj9qgw1_adJRX1vnHEUU5JEta6ivv3y1q430_2jKj_khuFyQD_tOEtTOiOO0xBSsx5Ol9XktzF2ObEH9bL5o0yMqHc2NzH_LTjGDVmdrzy9ZIuH33OIK_0XKaFWrcr7YsU5uMrw4jXyYFd7PZthxrqYrXi5eA34koG9rSzyLXgZnlN1b5fwc9yj7XprK0Hr_E2M00KBRLBeU3e0C3yriYA6hApG2eFQGmaPJVguTHxso22UBmSWv9RugI_ZPs1T5198Hp4PfF8exzJMv2jc-Ij6H_1Tfwhz32MzAVM_JIPwfFfgOceTjwbGk4Q753GRtmi_hrIaQAmSoXOsP7ROkvZTO8LyelPAojC0Qv16_zKIHx1-Ovy5vT9jzjQUMtJ_xF_kEIR4i16_e8F8ilX49-beDGcxR5w8sitgYIR2Dmq-4Z7OuX-nqTRNxbWVWU83iXfnZseGgE-jfROwAEghBiTIhNIz3TLhFyJuM3r8fT9YtdXBKNKBkoXxOgAH0ULrcbSPeouOMFKluFL63aFqAFwFJ9PMglOWEHHEmrZ4-s4NgM35210_uOTiPmHSxaz2T9tmf5xkfuPM93URf1X8XhHU0lfj3bUDKsrojbE5WmP6DCsF4sqvygIbKq9epktCxXfBmPhuTqlFYh-34bxITECYk1yGEVRDjk9axirAChxJdT_-tXiBx7BSkyGm6gLQP-6wuVWPZBrTTADoLtDb2QsZeahaiST3AGGagL2EpAUYfFV0jPxU0k1Ej6NJknSMqGXiol0BZZRAUoGAuK4lYzBFZzNNWFmq74DzZxMurkRG3wC_TW0b&sig=Cg0ArKJSzMg-lz4IpkX1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://ads.google.com/intl/en_in/start/lg/test/sfa/%3Fsubid%3Din-en-adon-awa-dis-a-ahns!o3~AMsySZaqtaq5GJ1vl5U1ofMyamhp~437212507~630630012~244714190~OPTID-8073208%26utm_source%3Dawa%26utm_medium%3Ddv360%26dclid%3D%25edclid!%26gad_source%3D7%26gad_campaignid%3D23404342702
+                      - img "Advertisement" [ref=f558e5]
+                    - generic [ref=f558e6]:
+                      - generic:
+                        - generic [ref=f558e7] [cursor=pointer]
+                        - button [ref=f558e12] [cursor=pointer]
+            - generic [ref=f548e254]:
+              - heading "Latest Updates" [level=3] [ref=f548e255]
+              - list [ref=f548e257]:
+                - listitem [ref=f548e258]:
+                  - link "NTT Data Hiring Entry-Level Software Development Analyst" [ref=f548e260] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ntt-data-hiring-entry-level-software-development-analyst/
+                - listitem [ref=f548e261]:
+                  - img "IBM Hiring Any Graduate Freshers For Procurement Professional" [ref=f548e263]
+                  - link "IBM Recruitment 2026 – Hiring Entry-Level AIOps Developer" [ref=f548e264] [cursor=pointer]:
+                    - /url: https://jobsnet.in/ibm-recruitment-hiring-entry-level-aiops-developer/
+                - listitem [ref=f548e265]:
+                  - link "Siemens GBS Off Campus Drive 2026 – Graduate Trainee Engineer – Freshers" [ref=f548e267] [cursor=pointer]:
+                    - /url: https://jobsnet.in/siemens-gbs-off-campus-drive-graduate-trainee-engineer-freshers/
+                - listitem [ref=f548e268]:
+                  - img "Accenture Mega Off Campus Drive For Freshers - Associate Software Engineer" [ref=f548e270]
+                  - link "Accenture Hiring Entry-Level Custom Software Engineer – Python (0-2 Years)" [ref=f548e271] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-entry-level-custom-software-engineer-python/
+                - listitem [ref=f548e272]:
+                  - img "Cornerstone Off Campus Drive - Hiring Junior Engineer" [ref=f548e274]
+                  - link "Cornerstone Hiring Entry Level Junior Engineer – Cloud Ops" [ref=f548e275] [cursor=pointer]:
+                    - /url: https://jobsnet.in/cornerstone-hiring-entry-level-junior-engineer-cloud-ops/
+                - listitem [ref=f548e276]:
+                  - link "Calix Off Campus Drive 2026 – Hiring Graduate Trainee – Test & QA" [ref=f548e278] [cursor=pointer]:
+                    - /url: https://jobsnet.in/calix-off-campus-drive-hiring-graduate-trainee-test-qa/
+                - listitem [ref=f548e279]:
+                  - link "HDFC Life Off Campus Drive 2026 – Graduate Trainee – Data Science & Analytics" [ref=f548e281] [cursor=pointer]:
+                    - /url: https://jobsnet.in/hdfc-life-off-campus-drive-graduate-trainee-data-science-analytics/
+                - listitem [ref=f548e282]:
+                  - img "Yash Technologies Hiring Freshers QA Trainee - Pune/Indore/Hyderabad" [ref=f548e284]
+                  - link "Yash Technologies Off Campus Drive 2026 – AI/ML Trainee" [ref=f548e285] [cursor=pointer]:
+                    - /url: https://jobsnet.in/yash-technologies-off-campus-drive-hiring-ai-ml-trainee/
+                - listitem [ref=f548e286]:
+                  - img "White Twilio logo and four-dot icon on a red background." [ref=f548e288]
+                  - link "Twilio Off Campus Drive 2026 – Associate Application Engineer- Remote" [ref=f548e289] [cursor=pointer]:
+                    - /url: https://jobsnet.in/twilio-off-campus-drive-associate-application-engineer-remote/
+                - listitem [ref=f548e290]:
+                  - img "Accenture Hiring Any Graduate Freshers As Network Associate" [ref=f548e292]
+                  - link "Accenture Hiring Application Support Engineer – Any Graduate (0-2 Years)" [ref=f548e293] [cursor=pointer]:
+                    - /url: https://jobsnet.in/accenture-hiring-application-support-engineer-any-graduate-0-2-years/
+            - insertion [ref=f548e296]
+    - insertion [ref=f548e299]
+    - contentinfo [ref=f548e301]:
+      - generic [ref=f548e303]:
+        - paragraph [ref=f548e306]: © 2026 Jobsnet.in
+        - navigation "footermenu" [ref=f548e308]:
+          - list [ref=f548e309]:
+            - listitem [ref=f548e310]:
+              - link "Home" [ref=f548e311] [cursor=pointer]:
+                - /url: https://jobsnet.in
+            - listitem [ref=f548e312]:
+              - link "About us" [ref=f548e313] [cursor=pointer]:
+                - /url: https://jobsnet.in/about-us/
+            - listitem [ref=f548e314]:
+              - link "Contact Us" [ref=f548e315] [cursor=pointer]:
+                - /url: https://jobsnet.in/contact/
+            - listitem [ref=f548e316]:
+              - link "Advertise With Us" [ref=f548e317] [cursor=pointer]:
+                - /url: https://jobsnet.in/advertise/
+            - listitem [ref=f548e318]:
+              - link "Terms" [ref=f548e319] [cursor=pointer]:
+                - /url: https://jobsnet.in/terms-and-conditions/
+            - listitem [ref=f548e320]:
+              - link "Privacy" [ref=f548e321] [cursor=pointer]:
+                - /url: https://jobsnet.in/privacy-policy/
+  - generic [ref=f548e322]:
+    - generic [ref=f548e323] [cursor=pointer]: CLOSE [X]
+    - insertion [ref=f548e325]:
+      - iframe [ref=f548e327]:
+        - generic [ref=f555e1]:
+          - generic [ref=f555e6]:
+            - link [ref=f555e7] [cursor=pointer]:
+              - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CTN3ScT50asRRtIyzwg_nsYDJDMTpgtiIAeeCkaSAFr_hHhABIImC8XRg5Zrpg-AOoAHl_4uKA8gBCagDAcgDywSqBJQCT9DPM-9n4r9w5zx_G7p_RqVfg4my84sAZVcFuQkC_RKvIFlqRJxfrD7geshNh82kNHIKWuOyilGt3J9Qlq4BPPT7uBt-KYq9benXuKRA2ltQ_PPNHU4uH5Fu4fYHkR5yBZM0OtrXZ49O6ltg5oSKN2Snjs2VF1XhaDNPbm-LLx3YpsjNRFNycDD7h4JgsICEQZdQHxSheDGe7MDCGQ5ugt4_DCSyADzWnauffGoYiKaNFA_jUS2Rjr71TZVxE7arFxmGrpwWvLBWTONYoLJ2OgSW5gRSQzw9nCg5tvVBI5axPO_UZMBM0wU_zPLqRsTceVH0YKNvlYHOGZ4n1m2a_3cQ8oqMnFCG4hDGrM7Za9-T9PniwATJwsvo6AWIBev3yZtXkAYBoAYugAeDgPR1iAcBkAcCqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAef4bECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0gg3CAAQAhiaAzIIgICAgICAgAg6FJ_QgICAgASAwICAgKCogAKogYAQSL39wTpYre-d7sOLlgNgAbEJKgREQvAI47KACgGYCwHICwGADAGiDAwqCgoIjt-xApXisQKqDQJJTsgNAeoNEwiK1Z_uw4uWAxU0xkwCHecYIMnwDQKIDgnYEw3QFQHKFgIKAPgWAYAXAbIXEBgBKgoyNzY4NTMwNjU4UAa6FwI4AaoYFwkAAADAO4dUQRIKMjc2ODUzMDY1OBgBshgJEgK4UBguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSqcEa0jXG5HS6E3QI66pGvVZAs1DDvw7QFPRwfpUIwEe96rCCWUaJhoCG-8QAvD_BwE&num=1&cid=CAQS-gEAEQoqgRyf5Tm0Ex_HhprtVT-6ye5ElTggYSkLed96CywkavoWnGQH_wLUlx395JU17wn77N-kS_TO3pr9X5ROxO4eqv3nfA9T_1s2DqTqM8Kd92ulbyaR642oE65LyNiiE0HuqgpkvCkyfRAIK9ecF88UfdQk4iXJRIMWI4SMqUrOpR4p-hqeAxgTj3i1IRnMFGhccbIcgf5hgKhwzvACZS8obSRt62OL-lShmQKPNaC1J0C6o7jzFh3MXZWvrzB39J0HKCek1dgLyrweppbhgiCcq1rKNYUGuJP826m1DefiMUn0H9EQ1nUpyTZeW9vic6iRslh14FhhGAE&sig=AOD64_3LsuoMgkPktiAXPo4Yon17W_BfoQ&client=ca-pub-9713759261380411&rf=1&nb=9&adurl=https://www.gartner.com/en/conferences/calendar/all%3Futm_source%3Dgoogle%26utm_medium%3Ddisplay%26utm_campaign%3DEVT_IN_2026_GTR_PD_DS1_CALAOCPROSPECTING%26utm_adgroup%3D199935320393%26utm_term%3D%26ad%3D817327341995%26matchtype%3D%26gad_source%3D5%26gad_campaignid%3D23411719147%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSqcEa0jXG5HS6E3QI66pGvVZAs1DDvw7QFPRwfpUIwEe96rCCWUaJhoCG-8QAvD_BwE
+            - generic [ref=f555e10]:
+              - generic [ref=f555e13]:
+                - link "Business Conferences 2026" [ref=f555e17] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CTN3ScT50asRRtIyzwg_nsYDJDMTpgtiIAeeCkaSAFr_hHhABIImC8XRg5Zrpg-AOoAHl_4uKA8gBCagDAcgDywSqBJQCT9DPM-9n4r9w5zx_G7p_RqVfg4my84sAZVcFuQkC_RKvIFlqRJxfrD7geshNh82kNHIKWuOyilGt3J9Qlq4BPPT7uBt-KYq9benXuKRA2ltQ_PPNHU4uH5Fu4fYHkR5yBZM0OtrXZ49O6ltg5oSKN2Snjs2VF1XhaDNPbm-LLx3YpsjNRFNycDD7h4JgsICEQZdQHxSheDGe7MDCGQ5ugt4_DCSyADzWnauffGoYiKaNFA_jUS2Rjr71TZVxE7arFxmGrpwWvLBWTONYoLJ2OgSW5gRSQzw9nCg5tvVBI5axPO_UZMBM0wU_zPLqRsTceVH0YKNvlYHOGZ4n1m2a_3cQ8oqMnFCG4hDGrM7Za9-T9PniwATJwsvo6AWIBev3yZtXkAYBoAYugAeDgPR1iAcBkAcCqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAef4bECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0gg3CAAQAhiaAzIIgICAgICAgAg6FJ_QgICAgASAwICAgKCogAKogYAQSL39wTpYre-d7sOLlgNgAbEJKgREQvAI47KACgGYCwHICwGADAGiDAwqCgoIjt-xApXisQKqDQJJTsgNAeoNEwiK1Z_uw4uWAxU0xkwCHecYIMnwDQKIDgnYEw3QFQHKFgIKAPgWAYAXAbIXEBgBKgoyNzY4NTMwNjU4UAa6FwI4AaoYFwkAAADAO4dUQRIKMjc2ODUzMDY1OBgBshgJEgK4UBguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSqcEa0jXG5HS6E3QI66pGvVZAs1DDvw7QFPRwfpUIwEe96rCCWUaJhoCG-8QAvD_BwE&num=1&cid=CAQS-gEAEQoqgRyf5Tm0Ex_HhprtVT-6ye5ElTggYSkLed96CywkavoWnGQH_wLUlx395JU17wn77N-kS_TO3pr9X5ROxO4eqv3nfA9T_1s2DqTqM8Kd92ulbyaR642oE65LyNiiE0HuqgpkvCkyfRAIK9ecF88UfdQk4iXJRIMWI4SMqUrOpR4p-hqeAxgTj3i1IRnMFGhccbIcgf5hgKhwzvACZS8obSRt62OL-lShmQKPNaC1J0C6o7jzFh3MXZWvrzB39J0HKCek1dgLyrweppbhgiCcq1rKNYUGuJP826m1DefiMUn0H9EQ1nUpyTZeW9vic6iRslh14FhhGAE&sig=AOD64_3LsuoMgkPktiAXPo4Yon17W_BfoQ&client=ca-pub-9713759261380411&rf=1&nb=0&adurl=https://www.gartner.com/en/conferences/calendar/all%3Futm_source%3Dgoogle%26utm_medium%3Ddisplay%26utm_campaign%3DEVT_IN_2026_GTR_PD_DS1_CALAOCPROSPECTING%26utm_adgroup%3D199935320393%26utm_term%3D%26ad%3D817327341995%26matchtype%3D%26gad_source%3D5%26gad_campaignid%3D23411719147%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSqcEa0jXG5HS6E3QI66pGvVZAs1DDvw7QFPRwfpUIwEe96rCCWUaJhoCG-8QAvD_BwE
+                - link [ref=f555e21] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CTN3ScT50asRRtIyzwg_nsYDJDMTpgtiIAeeCkaSAFr_hHhABIImC8XRg5Zrpg-AOoAHl_4uKA8gBCagDAcgDywSqBJQCT9DPM-9n4r9w5zx_G7p_RqVfg4my84sAZVcFuQkC_RKvIFlqRJxfrD7geshNh82kNHIKWuOyilGt3J9Qlq4BPPT7uBt-KYq9benXuKRA2ltQ_PPNHU4uH5Fu4fYHkR5yBZM0OtrXZ49O6ltg5oSKN2Snjs2VF1XhaDNPbm-LLx3YpsjNRFNycDD7h4JgsICEQZdQHxSheDGe7MDCGQ5ugt4_DCSyADzWnauffGoYiKaNFA_jUS2Rjr71TZVxE7arFxmGrpwWvLBWTONYoLJ2OgSW5gRSQzw9nCg5tvVBI5axPO_UZMBM0wU_zPLqRsTceVH0YKNvlYHOGZ4n1m2a_3cQ8oqMnFCG4hDGrM7Za9-T9PniwATJwsvo6AWIBev3yZtXkAYBoAYugAeDgPR1iAcBkAcCqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAef4bECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0gg3CAAQAhiaAzIIgICAgICAgAg6FJ_QgICAgASAwICAgKCogAKogYAQSL39wTpYre-d7sOLlgNgAbEJKgREQvAI47KACgGYCwHICwGADAGiDAwqCgoIjt-xApXisQKqDQJJTsgNAeoNEwiK1Z_uw4uWAxU0xkwCHecYIMnwDQKIDgnYEw3QFQHKFgIKAPgWAYAXAbIXEBgBKgoyNzY4NTMwNjU4UAa6FwI4AaoYFwkAAADAO4dUQRIKMjc2ODUzMDY1OBgBshgJEgK4UBguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSqcEa0jXG5HS6E3QI66pGvVZAs1DDvw7QFPRwfpUIwEe96rCCWUaJhoCG-8QAvD_BwE&num=1&cid=CAQS-gEAEQoqgRyf5Tm0Ex_HhprtVT-6ye5ElTggYSkLed96CywkavoWnGQH_wLUlx395JU17wn77N-kS_TO3pr9X5ROxO4eqv3nfA9T_1s2DqTqM8Kd92ulbyaR642oE65LyNiiE0HuqgpkvCkyfRAIK9ecF88UfdQk4iXJRIMWI4SMqUrOpR4p-hqeAxgTj3i1IRnMFGhccbIcgf5hgKhwzvACZS8obSRt62OL-lShmQKPNaC1J0C6o7jzFh3MXZWvrzB39J0HKCek1dgLyrweppbhgiCcq1rKNYUGuJP826m1DefiMUn0H9EQ1nUpyTZeW9vic6iRslh14FhhGAE&sig=AOD64_3LsuoMgkPktiAXPo4Yon17W_BfoQ&client=ca-pub-9713759261380411&rf=1&nb=7&adurl=https://www.gartner.com/en/conferences/calendar/all%3Futm_source%3Dgoogle%26utm_medium%3Ddisplay%26utm_campaign%3DEVT_IN_2026_GTR_PD_DS1_CALAOCPROSPECTING%26utm_adgroup%3D199935320393%26utm_term%3D%26ad%3D817327341995%26matchtype%3D%26gad_source%3D5%26gad_campaignid%3D23411719147%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSqcEa0jXG5HS6E3QI66pGvVZAs1DDvw7QFPRwfpUIwEe96rCCWUaJhoCG-8QAvD_BwE
+                  - text: Access data-backed insights
+                  - generic [ref=f555e22]: "& attend sessionsaligned to your"
+                  - text: business priorities
+              - generic [ref=f555e25]:
+                - link:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CTN3ScT50asRRtIyzwg_nsYDJDMTpgtiIAeeCkaSAFr_hHhABIImC8XRg5Zrpg-AOoAHl_4uKA8gBCagDAcgDywSqBJQCT9DPM-9n4r9w5zx_G7p_RqVfg4my84sAZVcFuQkC_RKvIFlqRJxfrD7geshNh82kNHIKWuOyilGt3J9Qlq4BPPT7uBt-KYq9benXuKRA2ltQ_PPNHU4uH5Fu4fYHkR5yBZM0OtrXZ49O6ltg5oSKN2Snjs2VF1XhaDNPbm-LLx3YpsjNRFNycDD7h4JgsICEQZdQHxSheDGe7MDCGQ5ugt4_DCSyADzWnauffGoYiKaNFA_jUS2Rjr71TZVxE7arFxmGrpwWvLBWTONYoLJ2OgSW5gRSQzw9nCg5tvVBI5axPO_UZMBM0wU_zPLqRsTceVH0YKNvlYHOGZ4n1m2a_3cQ8oqMnFCG4hDGrM7Za9-T9PniwATJwsvo6AWIBev3yZtXkAYBoAYugAeDgPR1iAcBkAcCqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAef4bECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0gg3CAAQAhiaAzIIgICAgICAgAg6FJ_QgICAgASAwICAgKCogAKogYAQSL39wTpYre-d7sOLlgNgAbEJKgREQvAI47KACgGYCwHICwGADAGiDAwqCgoIjt-xApXisQKqDQJJTsgNAeoNEwiK1Z_uw4uWAxU0xkwCHecYIMnwDQKIDgnYEw3QFQHKFgIKAPgWAYAXAbIXEBgBKgoyNzY4NTMwNjU4UAa6FwI4AaoYFwkAAADAO4dUQRIKMjc2ODUzMDY1OBgBshgJEgK4UBguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSqcEa0jXG5HS6E3QI66pGvVZAs1DDvw7QFPRwfpUIwEe96rCCWUaJhoCG-8QAvD_BwE&num=1&cid=CAQS-gEAEQoqgRyf5Tm0Ex_HhprtVT-6ye5ElTggYSkLed96CywkavoWnGQH_wLUlx395JU17wn77N-kS_TO3pr9X5ROxO4eqv3nfA9T_1s2DqTqM8Kd92ulbyaR642oE65LyNiiE0HuqgpkvCkyfRAIK9ecF88UfdQk4iXJRIMWI4SMqUrOpR4p-hqeAxgTj3i1IRnMFGhccbIcgf5hgKhwzvACZS8obSRt62OL-lShmQKPNaC1J0C6o7jzFh3MXZWvrzB39J0HKCek1dgLyrweppbhgiCcq1rKNYUGuJP826m1DefiMUn0H9EQ1nUpyTZeW9vic6iRslh14FhhGAE&sig=AOD64_3LsuoMgkPktiAXPo4Yon17W_BfoQ&client=ca-pub-9713759261380411&rf=1&nb=8&adurl=https://www.gartner.com/en/conferences/calendar/all%3Futm_source%3Dgoogle%26utm_medium%3Ddisplay%26utm_campaign%3DEVT_IN_2026_GTR_PD_DS1_CALAOCPROSPECTING%26utm_adgroup%3D199935320393%26utm_term%3D%26ad%3D817327341995%26matchtype%3D%26gad_source%3D5%26gad_campaignid%3D23411719147%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSqcEa0jXG5HS6E3QI66pGvVZAs1DDvw7QFPRwfpUIwEe96rCCWUaJhoCG-8QAvD_BwE
+                - link "Gartner" [ref=f555e27] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CTN3ScT50asRRtIyzwg_nsYDJDMTpgtiIAeeCkaSAFr_hHhABIImC8XRg5Zrpg-AOoAHl_4uKA8gBCagDAcgDywSqBJQCT9DPM-9n4r9w5zx_G7p_RqVfg4my84sAZVcFuQkC_RKvIFlqRJxfrD7geshNh82kNHIKWuOyilGt3J9Qlq4BPPT7uBt-KYq9benXuKRA2ltQ_PPNHU4uH5Fu4fYHkR5yBZM0OtrXZ49O6ltg5oSKN2Snjs2VF1XhaDNPbm-LLx3YpsjNRFNycDD7h4JgsICEQZdQHxSheDGe7MDCGQ5ugt4_DCSyADzWnauffGoYiKaNFA_jUS2Rjr71TZVxE7arFxmGrpwWvLBWTONYoLJ2OgSW5gRSQzw9nCg5tvVBI5axPO_UZMBM0wU_zPLqRsTceVH0YKNvlYHOGZ4n1m2a_3cQ8oqMnFCG4hDGrM7Za9-T9PniwATJwsvo6AWIBev3yZtXkAYBoAYugAeDgPR1iAcBkAcCqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAef4bECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0gg3CAAQAhiaAzIIgICAgICAgAg6FJ_QgICAgASAwICAgKCogAKogYAQSL39wTpYre-d7sOLlgNgAbEJKgREQvAI47KACgGYCwHICwGADAGiDAwqCgoIjt-xApXisQKqDQJJTsgNAeoNEwiK1Z_uw4uWAxU0xkwCHecYIMnwDQKIDgnYEw3QFQHKFgIKAPgWAYAXAbIXEBgBKgoyNzY4NTMwNjU4UAa6FwI4AaoYFwkAAADAO4dUQRIKMjc2ODUzMDY1OBgBshgJEgK4UBguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSqcEa0jXG5HS6E3QI66pGvVZAs1DDvw7QFPRwfpUIwEe96rCCWUaJhoCG-8QAvD_BwE&num=1&cid=CAQS-gEAEQoqgRyf5Tm0Ex_HhprtVT-6ye5ElTggYSkLed96CywkavoWnGQH_wLUlx395JU17wn77N-kS_TO3pr9X5ROxO4eqv3nfA9T_1s2DqTqM8Kd92ulbyaR642oE65LyNiiE0HuqgpkvCkyfRAIK9ecF88UfdQk4iXJRIMWI4SMqUrOpR4p-hqeAxgTj3i1IRnMFGhccbIcgf5hgKhwzvACZS8obSRt62OL-lShmQKPNaC1J0C6o7jzFh3MXZWvrzB39J0HKCek1dgLyrweppbhgiCcq1rKNYUGuJP826m1DefiMUn0H9EQ1nUpyTZeW9vic6iRslh14FhhGAE&sig=AOD64_3LsuoMgkPktiAXPo4Yon17W_BfoQ&client=ca-pub-9713759261380411&rf=1&nb=1&adurl=https://www.gartner.com/en/conferences/calendar/all%3Futm_source%3Dgoogle%26utm_medium%3Ddisplay%26utm_campaign%3DEVT_IN_2026_GTR_PD_DS1_CALAOCPROSPECTING%26utm_adgroup%3D199935320393%26utm_term%3D%26ad%3D817327341995%26matchtype%3D%26gad_source%3D5%26gad_campaignid%3D23411719147%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSqcEa0jXG5HS6E3QI66pGvVZAs1DDvw7QFPRwfpUIwEe96rCCWUaJhoCG-8QAvD_BwE
+                - link "Learn More" [ref=f555e29] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CTN3ScT50asRRtIyzwg_nsYDJDMTpgtiIAeeCkaSAFr_hHhABIImC8XRg5Zrpg-AOoAHl_4uKA8gBCagDAcgDywSqBJQCT9DPM-9n4r9w5zx_G7p_RqVfg4my84sAZVcFuQkC_RKvIFlqRJxfrD7geshNh82kNHIKWuOyilGt3J9Qlq4BPPT7uBt-KYq9benXuKRA2ltQ_PPNHU4uH5Fu4fYHkR5yBZM0OtrXZ49O6ltg5oSKN2Snjs2VF1XhaDNPbm-LLx3YpsjNRFNycDD7h4JgsICEQZdQHxSheDGe7MDCGQ5ugt4_DCSyADzWnauffGoYiKaNFA_jUS2Rjr71TZVxE7arFxmGrpwWvLBWTONYoLJ2OgSW5gRSQzw9nCg5tvVBI5axPO_UZMBM0wU_zPLqRsTceVH0YKNvlYHOGZ4n1m2a_3cQ8oqMnFCG4hDGrM7Za9-T9PniwATJwsvo6AWIBev3yZtXkAYBoAYugAeDgPR1iAcBkAcCqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAef4bECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0gg3CAAQAhiaAzIIgICAgICAgAg6FJ_QgICAgASAwICAgKCogAKogYAQSL39wTpYre-d7sOLlgNgAbEJKgREQvAI47KACgGYCwHICwGADAGiDAwqCgoIjt-xApXisQKqDQJJTsgNAeoNEwiK1Z_uw4uWAxU0xkwCHecYIMnwDQKIDgnYEw3QFQHKFgIKAPgWAYAXAbIXEBgBKgoyNzY4NTMwNjU4UAa6FwI4AaoYFwkAAADAO4dUQRIKMjc2ODUzMDY1OBgBshgJEgK4UBguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSqcEa0jXG5HS6E3QI66pGvVZAs1DDvw7QFPRwfpUIwEe96rCCWUaJhoCG-8QAvD_BwE&num=1&cid=CAQS-gEAEQoqgRyf5Tm0Ex_HhprtVT-6ye5ElTggYSkLed96CywkavoWnGQH_wLUlx395JU17wn77N-kS_TO3pr9X5ROxO4eqv3nfA9T_1s2DqTqM8Kd92ulbyaR642oE65LyNiiE0HuqgpkvCkyfRAIK9ecF88UfdQk4iXJRIMWI4SMqUrOpR4p-hqeAxgTj3i1IRnMFGhccbIcgf5hgKhwzvACZS8obSRt62OL-lShmQKPNaC1J0C6o7jzFh3MXZWvrzB39J0HKCek1dgLyrweppbhgiCcq1rKNYUGuJP826m1DefiMUn0H9EQ1nUpyTZeW9vic6iRslh14FhhGAE&sig=AOD64_3LsuoMgkPktiAXPo4Yon17W_BfoQ&client=ca-pub-9713759261380411&rf=1&nb=8&adurl=https://www.gartner.com/en/conferences/calendar/all%3Futm_source%3Dgoogle%26utm_medium%3Ddisplay%26utm_campaign%3DEVT_IN_2026_GTR_PD_DS1_CALAOCPROSPECTING%26utm_adgroup%3D199935320393%26utm_term%3D%26ad%3D817327341995%26matchtype%3D%26gad_source%3D5%26gad_campaignid%3D23411719147%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSqcEa0jXG5HS6E3QI66pGvVZAs1DDvw7QFPRwfpUIwEe96rCCWUaJhoCG-8QAvD_BwE
+                - link [ref=f555e30] [cursor=pointer]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CTN3ScT50asRRtIyzwg_nsYDJDMTpgtiIAeeCkaSAFr_hHhABIImC8XRg5Zrpg-AOoAHl_4uKA8gBCagDAcgDywSqBJQCT9DPM-9n4r9w5zx_G7p_RqVfg4my84sAZVcFuQkC_RKvIFlqRJxfrD7geshNh82kNHIKWuOyilGt3J9Qlq4BPPT7uBt-KYq9benXuKRA2ltQ_PPNHU4uH5Fu4fYHkR5yBZM0OtrXZ49O6ltg5oSKN2Snjs2VF1XhaDNPbm-LLx3YpsjNRFNycDD7h4JgsICEQZdQHxSheDGe7MDCGQ5ugt4_DCSyADzWnauffGoYiKaNFA_jUS2Rjr71TZVxE7arFxmGrpwWvLBWTONYoLJ2OgSW5gRSQzw9nCg5tvVBI5axPO_UZMBM0wU_zPLqRsTceVH0YKNvlYHOGZ4n1m2a_3cQ8oqMnFCG4hDGrM7Za9-T9PniwATJwsvo6AWIBev3yZtXkAYBoAYugAeDgPR1iAcBkAcCqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAef4bECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0gg3CAAQAhiaAzIIgICAgICAgAg6FJ_QgICAgASAwICAgKCogAKogYAQSL39wTpYre-d7sOLlgNgAbEJKgREQvAI47KACgGYCwHICwGADAGiDAwqCgoIjt-xApXisQKqDQJJTsgNAeoNEwiK1Z_uw4uWAxU0xkwCHecYIMnwDQKIDgnYEw3QFQHKFgIKAPgWAYAXAbIXEBgBKgoyNzY4NTMwNjU4UAa6FwI4AaoYFwkAAADAO4dUQRIKMjc2ODUzMDY1OBgBshgJEgK4UBguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=CjwKCAjw4dDTBhAqEiwAkHYmSqcEa0jXG5HS6E3QI66pGvVZAs1DDvw7QFPRwfpUIwEe96rCCWUaJhoCG-8QAvD_BwE&num=1&cid=CAQS-gEAEQoqgRyf5Tm0Ex_HhprtVT-6ye5ElTggYSkLed96CywkavoWnGQH_wLUlx395JU17wn77N-kS_TO3pr9X5ROxO4eqv3nfA9T_1s2DqTqM8Kd92ulbyaR642oE65LyNiiE0HuqgpkvCkyfRAIK9ecF88UfdQk4iXJRIMWI4SMqUrOpR4p-hqeAxgTj3i1IRnMFGhccbIcgf5hgKhwzvACZS8obSRt62OL-lShmQKPNaC1J0C6o7jzFh3MXZWvrzB39J0HKCek1dgLyrweppbhgiCcq1rKNYUGuJP826m1DefiMUn0H9EQ1nUpyTZeW9vic6iRslh14FhhGAE&sig=AOD64_3LsuoMgkPktiAXPo4Yon17W_BfoQ&client=ca-pub-9713759261380411&rf=1&nb=8&adurl=https://www.gartner.com/en/conferences/calendar/all%3Futm_source%3Dgoogle%26utm_medium%3Ddisplay%26utm_campaign%3DEVT_IN_2026_GTR_PD_DS1_CALAOCPROSPECTING%26utm_adgroup%3D199935320393%26utm_term%3D%26ad%3D817327341995%26matchtype%3D%26gad_source%3D5%26gad_campaignid%3D23411719147%26gclid%3DCjwKCAjw4dDTBhAqEiwAkHYmSqcEa0jXG5HS6E3QI66pGvVZAs1DDvw7QFPRwfpUIwEe96rCCWUaJhoCG-8QAvD_BwE
+          - generic [ref=f555e40] [cursor=pointer]
+          - button [ref=f555e45] [cursor=pointer]
+          - iframe
+  - link "Join WhatsApp" [ref=f548e329] [cursor=pointer]:
+    - /url: https://chat.whatsapp.com/LD7u8YPDaP7JDTDrnpwNNP
