@@ -47,6 +47,7 @@ backend/storage/files/input/*
 backend/storage/files/output/*
 !backend/storage/files/output/.gitkeep
 backend/.playwright-mcp/
+.playwright-mcp/
 
 
 .fallow

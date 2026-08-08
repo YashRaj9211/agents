@@ -77,9 +77,9 @@ Output format:
 
 root_agent = LlmAgent(
     model=LiteLlm(
-        model="nvidia/nemotron-3-super-120b-a12b",
-        api_base=api_base_url,
-        api_key=os.getenv("BROWSER_MODEL_KEY"),
+        model=os.getenv("ROOT_AGENT"),
+        api_base=os.getenv("ROOT_AGENT_BASE_URL"),
+        api_key=os.getenv("ROOT_AGENT_KEY"),
         custom_llm_provider="openai",
     ),
     name="root_agent",
@@ -87,6 +87,7 @@ root_agent = LlmAgent(
     tools=[
         getCurrentTime,
         AgentTool(browser_agent),
+        docker_mcp_toolset,
     ] + BROWSER_PROFILE_TOOLS + FILE_TOOLS + CLI_TOOLS + SCHEDULE_TOOLS,
 )
 

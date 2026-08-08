@@ -79,6 +79,9 @@ def create_firecrawl_toolset(
         server_params=server_params,
         timeout=timeout,
     )
+    
+    print("Created Firecrawl toolset:)")
+    print("Firecrawl Tools:\n {mcp_servers.firecrawl.firecrawl_toolset.tools}")
     return McpToolset(connection_params=connection_params)
 
 

@@ -131,9 +131,9 @@ OUTPUT FORMAT
 
 browser_agent = LlmAgent(
     model=LiteLlm(
-        model="nvidia/nemotron-3-super-120b-a12b",
-        api_base=api_base_url,
-        api_key=os.getenv("BROWSER_MODEL_KEY"),
+        model=os.getenv("BROWSER_AGENT"),
+        api_base=os.getenv("BROWSER_AGENT_BASE_URL"),
+        api_key=os.getenv("BROWSER_AGENT_KEY"),
         custom_llm_provider="openai",
     ),
     name="browser_agent",
