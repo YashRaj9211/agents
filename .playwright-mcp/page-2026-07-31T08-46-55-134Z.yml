@@ -1,7 +1,0 @@
-- generic [active] [ref=f20e1]:
-  - generic [ref=f20e13]:
-    - img "error-page" [ref=f20e14]
-    - generic [ref=f20e15]: Oops! Something went wrong
-    - generic [ref=f20e16]: There was an error loading the page. Please reload to view the content
-    - generic [ref=f20e17] [cursor=pointer]: Reload
-  - alert [ref=f20e12]
