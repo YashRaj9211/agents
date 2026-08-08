@@ -48,7 +48,8 @@ backend/storage/files/output/*
 !backend/storage/files/output/.gitkeep
 backend/.playwright-mcp/
 .playwright-mcp/
+*.adk
 
-
+*.db
 .fallow
 .playwright
