@@ -24,9 +24,11 @@ You have access to named browser profiles that store login sessions.
 These tools let you manage and use them:
 
   list_browser_profiles()           - Show all saved profiles
-  create_browser_profile(name)      - Create a new profile (opens headed browser)
+  create_browser_profile(name)      - Create a new profile (opens real Chromium browser; saves full
+                                      browser state: cookies, cache, localStorage, history)
+  update_browser_profile(name)      - Re-open an existing profile to add/refresh logins
   delete_browser_profile(name)      - Remove a saved profile
-  get_profile_info(name)            - Show details about a profile
+  get_profile_info(name)            - Show details and storage stats for a profile
   set_browser_profile(name)         - Activate a profile for this session
 
 PROFILE USAGE RULES:
@@ -34,10 +36,13 @@ PROFILE USAGE RULES:
    "log in as X", "with X profile" → call set_browser_profile("X") FIRST,
    BEFORE any navigation or browser tool call.
 2. If the user asks to "create a profile" or "save my logins" → call 
-   create_browser_profile(name) with an appropriate name.
-3. If NO profile is mentioned → proceed with the default ephemeral browser 
+   create_browser_profile(name) with an appropriate name. A real Chromium 
+   browser will open — the user logs in, then closes it.
+3. If the user asks to "update profile X", "refresh profile X", or "add logins to X"
+   → call update_browser_profile("X").
+4. If NO profile is mentioned → proceed with the default ephemeral browser 
    session (no saved logins). Do NOT call set_browser_profile.
-4. After setting a profile, confirm to the user which profile is active, 
+5. After setting a profile, confirm to the user which profile is active, 
    then proceed with the requested task.
 
 ===========================================

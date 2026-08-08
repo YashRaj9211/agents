@@ -2,14 +2,30 @@
 Browser Profile Manager
 -----------------------
 ADK-compatible tools for creating, listing, and deleting named browser
-profiles.  Each profile stores a Playwright persistent-context directory
-under  <project_root>/browser_profiles/<profile_name>/.
+profiles.  Each profile stores a full Chromium user-data directory under
+<project_root>/browser_profiles/<profile_name>/.
+
+Unlike a simple JSON cookie export, a Chromium user-data directory contains
+EVERYTHING Chrome / Chromium stores locally:
+  - Cookies (Cookies SQLite database)
+  - LocalStorage / IndexedDB / SessionStorage
+  - Disk cache
+  - Browsing history
+  - Preferences and extension state
+
+When the Playwright MCP server is launched with
+  --user-data-dir <profile_dir>
+it picks up the entire saved state — the browser is already logged in to
+whatever sites the user visited during profile creation.
 
 Usage (agent):
-    list_browser_profiles()          – list saved profiles
-    create_browser_profile(name)     – open headed browser, user logs in
-    delete_browser_profile(name)     – remove a profile
-    get_profile_info(name)           – metadata for one profile
+    list_browser_profiles()            – list saved profiles
+    create_browser_profile(name)       – open headed Chromium, user logs in,
+                                         close browser → full profile saved
+    update_browser_profile(name)       – re-open an existing profile to add /
+                                         refresh logins
+    delete_browser_profile(name)       – remove a profile
+    get_profile_info(name)             – stats for one profile
 """
 
 from __future__ import annotations
@@ -17,7 +33,6 @@ from __future__ import annotations
 import json
 import os
 import shutil
-import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -49,15 +64,116 @@ def _read_metadata(profile_dir: Path) -> dict:
     return {"name": profile_dir.name, "created_at": "unknown", "description": ""}
 
 
-def _write_metadata(profile_dir: Path, name: str, description: str = "") -> None:
-    meta = {
+def _write_metadata(profile_dir: Path, name: str, description: str = "",
+                    existing_meta: dict | None = None) -> None:
+    now = datetime.utcnow().isoformat() + "Z"
+    meta = existing_meta.copy() if existing_meta else {}
+    meta.update({
         "name": name,
-        "created_at": datetime.utcnow().isoformat() + "Z",
-        "description": description,
-    }
+        "description": description or meta.get("description", ""),
+    })
+    if "created_at" not in meta:
+        meta["created_at"] = now
+    meta["last_updated"] = now
     (profile_dir / _METADATA_FILE).write_text(
         json.dumps(meta, indent=2), encoding="utf-8"
     )
+
+
+def _validate_name(profile_name: str) -> str | None:
+    """Returns an error string if invalid, else None."""
+    if not profile_name:
+        return "Error: profile_name cannot be empty."
+    if any(c in profile_name for c in r'/\\:*?"<>|'):
+        return f"Error: profile_name '{profile_name}' contains invalid characters."
+    return None
+
+
+def _count_profile_files(profile_dir: Path) -> tuple[int, float]:
+    """Returns (file_count, total_size_kb) for a profile directory."""
+    all_files = [f for f in profile_dir.rglob("*") if f.is_file()]
+    total_size = sum(f.stat().st_size for f in all_files)
+    return len(all_files), total_size / 1024
+
+
+def _launch_persistent_browser(profile_dir: Path, page_title: str, instructions: str) -> str:
+    """
+    Launches a headed Chromium browser using playwright's Python API with a
+    persistent context pointing at ``profile_dir``.
+
+    The browser stays open until the user closes it.  When they do, all
+    browser state (cookies, localStorage, cache, history, …) has already been
+    written to ``profile_dir`` by Chromium automatically.
+
+    Returns a status message string.
+    """
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        return (
+            "Error: The 'playwright' Python package is not installed.\n"
+            "Run: pip install playwright && playwright install chromium"
+        )
+
+    print(instructions)
+
+    try:
+        with sync_playwright() as p:
+            context = p.chromium.launch_persistent_context(
+                user_data_dir=str(profile_dir),
+                headless=False,
+                args=[
+                    "--no-first-run",
+                    "--no-default-browser-check",
+                    "--disable-blink-features=AutomationControlled",
+                ],
+                ignore_default_args=["--enable-automation"],
+                viewport={"width": 1280, "height": 800},
+            )
+
+            # Open a welcome page with instructions
+            page = context.pages[0] if context.pages else context.new_page()
+            page.set_content(f"""
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{page_title}</title>
+  <style>
+    body {{
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      max-width: 700px; margin: 60px auto; padding: 0 20px;
+      background: #f8f9fa; color: #333;
+    }}
+    h1 {{ color: #1a73e8; }}
+    .step {{ background: white; border-radius: 8px; padding: 16px 20px;
+             margin: 12px 0; box-shadow: 0 1px 3px rgba(0,0,0,.12); }}
+    .step b {{ color: #1a73e8; }}
+    .note {{ background: #fff3cd; border-left: 4px solid #ffc107;
+             padding: 10px 16px; border-radius: 4px; margin-top: 20px; }}
+  </style>
+</head>
+<body>
+  <h1>🔐 Browser Profile Setup</h1>
+  <div class="step"><b>Step 1:</b> Open any website in this browser (use the address bar above)</div>
+  <div class="step"><b>Step 2:</b> Log in to all the accounts you want saved in this profile</div>
+  <div class="step"><b>Step 3:</b> When you're done, <b>close this browser window</b></div>
+  <div class="note">
+    ℹ️ Everything you do here is automatically saved — cookies, history, 
+    localStorage, and cache — just like a real Chrome user profile.
+  </div>
+</body>
+</html>
+            """)
+
+            # Block until ALL pages/browser is closed by the user
+            context.wait_for_event("close", timeout=0)
+
+    except KeyboardInterrupt:
+        pass  # user Ctrl+C'd
+    except Exception as e:
+        return f"Error launching browser: {e}"
+
+    return "ok"
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -68,8 +184,8 @@ def list_browser_profiles() -> str:
     """
     Lists all saved browser profiles in the browser_profiles directory.
 
-    Returns a formatted string with profile names, creation dates, and
-    descriptions. If no profiles exist, returns a helpful message.
+    Returns a formatted string with profile names, creation dates, descriptions,
+    and storage size. If no profiles exist, returns a helpful message.
     """
     profiles = [p for p in PROFILES_DIR.iterdir() if p.is_dir()]
 
@@ -83,11 +199,15 @@ def list_browser_profiles() -> str:
     lines = [f"Found {len(profiles)} browser profile(s):\n"]
     for p in sorted(profiles):
         meta = _read_metadata(p)
+        file_count, size_kb = _count_profile_files(p)
         desc = f"  Description : {meta['description']}" if meta.get("description") else ""
         lines.append(
             f"• {meta['name']}\n"
             f"  Created     : {meta.get('created_at', 'unknown')}\n"
-            f"  Path        : {p}{chr(10) + desc if desc else ''}"
+            f"  Last update : {meta.get('last_updated', 'unknown')}\n"
+            f"  Storage     : {file_count} files, {size_kb:.1f} KB\n"
+            f"  Path        : {p}"
+            + (f"\n{desc}" if desc else "")
         )
 
     return "\n".join(lines)
@@ -95,93 +215,146 @@ def list_browser_profiles() -> str:
 
 def create_browser_profile(profile_name: str, description: str = "") -> str:
     """
-    Creates a new browser profile by launching a headed (visible) browser
-    session.  The user should log into the desired websites, then close
-    the browser.  The session state (cookies, localStorage) is automatically
-    saved to browser_profiles/<profile_name>/.
+    Creates a new browser profile by launching a headed (visible) Chromium
+    browser session.
+
+    A full Chromium user-data directory is saved — including cookies,
+    LocalStorage, IndexedDB, disk cache, history, and preferences — exactly
+    like a Chrome user profile on disk.  The user should:
+      1. Log into the desired websites in the opened browser.
+      2. Close the browser window when finished.
+
+    The entire session state is automatically persisted to
+    browser_profiles/<profile_name>/.  Subsequent browsing via Playwright MCP
+    with this profile will start already logged in.
 
     Args:
         profile_name: A short identifier for this profile (e.g. "work", "personal").
-        description:  Optional description of what accounts are saved here.
+        description:  Optional note describing what accounts are saved here.
 
     Returns:
         Instructions / status message.
     """
     profile_name = profile_name.strip()
-    if not profile_name:
-        return "Error: profile_name cannot be empty."
-
-    # Validate name (no path-traversal)
-    if any(c in profile_name for c in r'/\\:*?"<>|'):
-        return f"Error: profile_name '{profile_name}' contains invalid characters."
+    err = _validate_name(profile_name)
+    if err:
+        return err
 
     profile_dir = _profile_path(profile_name)
 
     if profile_dir.exists():
         return (
             f"Profile '{profile_name}' already exists at {profile_dir}.\n"
-            "To update it, log in again by using the same profile name -- "
-            "existing session data will be updated."
+            "To add/refresh logins, use update_browser_profile(profile_name) instead."
         )
 
     profile_dir.mkdir(parents=True, exist_ok=True)
     _write_metadata(profile_dir, profile_name, description)
 
-    # Launch headed Playwright MCP to let user log in
-    user_data_arg = str(profile_dir)
-    cmd = [
-        "npx", "-y", "@playwright/mcp@latest",
-        "--user-data-dir", user_data_arg,
-    ]
-
-    # On Windows, shell=True is needed to resolve npx from PATH
-    is_windows = sys.platform == "win32"
-
-    msg = (
-        f"Launching a browser for profile '{profile_name}'...\n\n"
-        f"  1. Log into all the websites you want saved in this profile.\n"
-        f"  2. When finished, close the browser window.\n"
-        f"  3. Your session will be saved to: {profile_dir}\n\n"
-        f"Starting browser now..."
+    instructions = (
+        f"\n{'='*60}\n"
+        f"  Creating profile: '{profile_name}'\n"
+        f"  Path: {profile_dir}\n"
+        f"{'='*60}\n"
+        "  1. Log into all the websites you want saved in this profile.\n"
+        "  2. When finished, CLOSE the browser window.\n"
+        "  Your full session (cookies, cache, history) will be auto-saved.\n"
+        f"{'='*60}\n"
     )
-    print(msg)
 
-    try:
-        subprocess.run(
-            cmd,
-            shell=is_windows,
-            check=False,   # Don't raise if user Ctrl+C's
-            env=os.environ.copy(),
-        )
-    except FileNotFoundError:
+    result = _launch_persistent_browser(
+        profile_dir=profile_dir,
+        page_title=f"Profile Setup — {profile_name}",
+        instructions=instructions,
+    )
+
+    if result != "ok":
         shutil.rmtree(profile_dir, ignore_errors=True)
-        return (
-            "Error: 'npx' not found. Please ensure Node.js/npm is installed "
-            "and available on PATH."
-        )
-    except KeyboardInterrupt:
-        pass   # User closed the browser
+        return result
 
-    # Check if any data was actually saved
-    saved_files = list(profile_dir.rglob("*"))
-    if len(saved_files) <= 1:   # only metadata.json
+    file_count, size_kb = _count_profile_files(profile_dir)
+
+    # Only metadata — browser wrote nothing
+    if file_count <= 1:
         return (
-            f"Warning: Profile '{profile_name}' was created but may be empty -- "
-            "the browser might have closed before any session data was saved. "
-            "Try creating the profile again and make sure to log in before closing."
+            f"⚠️  Warning: Profile '{profile_name}' appears empty.\n"
+            "The browser may have been closed before any data was saved.\n"
+            "Try create_browser_profile again and make sure to log in before closing."
         )
+
+    _write_metadata(profile_dir, profile_name, description)  # update last_updated
 
     return (
-        f"Profile '{profile_name}' saved successfully!\n"
-        f"   Path: {profile_dir}\n"
-        f"   Files saved: {len(saved_files)}\n\n"
-        f"To use this profile, say: 'Use the {profile_name} profile to ...'"
+        f"✅ Profile '{profile_name}' saved successfully!\n"
+        f"   Path        : {profile_dir}\n"
+        f"   Files saved : {file_count}\n"
+        f"   Size        : {size_kb:.1f} KB\n\n"
+        f"To use this profile: 'Use the {profile_name} profile to ...'"
+    )
+
+
+def update_browser_profile(profile_name: str) -> str:
+    """
+    Re-opens an existing browser profile so you can log into additional sites
+    or refresh existing login sessions.
+
+    The browser opens with all previously saved state loaded (you will already
+    be logged in to sites from the last session).  Log into any additional
+    sites, then close the browser — the updated state is saved automatically.
+
+    Args:
+        profile_name: The name of the existing profile to update.
+
+    Returns:
+        Status message.
+    """
+    profile_name = profile_name.strip()
+    profile_dir = _profile_path(profile_name)
+
+    if not profile_dir.exists():
+        available = [p.name for p in PROFILES_DIR.iterdir() if p.is_dir()]
+        return (
+            f"Profile '{profile_name}' does not exist.\n"
+            f"Available profiles: {available}\n"
+            "Use create_browser_profile(profile_name) to create a new one."
+        )
+
+    meta = _read_metadata(profile_dir)
+
+    instructions = (
+        f"\n{'='*60}\n"
+        f"  Updating profile: '{profile_name}'\n"
+        f"  Path: {profile_dir}\n"
+        f"{'='*60}\n"
+        "  You are already logged in to previously saved sites.\n"
+        "  Log into any additional sites or refresh sessions as needed.\n"
+        "  When finished, CLOSE the browser window.\n"
+        f"{'='*60}\n"
+    )
+
+    result = _launch_persistent_browser(
+        profile_dir=profile_dir,
+        page_title=f"Update Profile — {profile_name}",
+        instructions=instructions,
+    )
+
+    if result != "ok":
+        return result
+
+    file_count, size_kb = _count_profile_files(profile_dir)
+    _write_metadata(profile_dir, profile_name, meta.get("description", ""), existing_meta=meta)
+
+    return (
+        f"✅ Profile '{profile_name}' updated successfully!\n"
+        f"   Files : {file_count}\n"
+        f"   Size  : {size_kb:.1f} KB"
     )
 
 
 def delete_browser_profile(profile_name: str) -> str:
     """
-    Permanently deletes a saved browser profile and all its session data.
+    Permanently deletes a saved browser profile and all its session data
+    (cookies, cache, history, localStorage, etc.).
 
     Args:
         profile_name: The name of the profile to delete.
@@ -201,14 +374,14 @@ def delete_browser_profile(profile_name: str) -> str:
 
     try:
         shutil.rmtree(profile_dir)
-        return f"Profile '{profile_name}' deleted successfully."
+        return f"✅ Profile '{profile_name}' deleted successfully."
     except PermissionError as e:
         return f"Error deleting profile '{profile_name}': {e}"
 
 
 def get_profile_info(profile_name: str) -> str:
     """
-    Returns metadata and details about a specific saved browser profile.
+    Returns metadata and storage statistics about a specific saved browser profile.
 
     Args:
         profile_name: The name of the profile to inspect.
@@ -223,14 +396,21 @@ def get_profile_info(profile_name: str) -> str:
         return f"Profile '{profile_name}' does not exist."
 
     meta = _read_metadata(profile_dir)
-    all_files = list(profile_dir.rglob("*"))
-    total_size = sum(f.stat().st_size for f in all_files if f.is_file())
+    file_count, size_kb = _count_profile_files(profile_dir)
+
+    # Try to find the Cookies file to confirm real browser data exists
+    cookies_file = profile_dir / "Default" / "Cookies"
+    has_real_data = cookies_file.exists()
+    data_status = "✅ Full Chromium profile (cookies, cache, history saved)" \
+        if has_real_data else "⚠️  No browser data found — profile may be empty"
 
     return (
-        f"Profile: {meta.get('name', profile_name)}\n"
+        f"Profile : {meta.get('name', profile_name)}\n"
         f"Created : {meta.get('created_at', 'unknown')}\n"
+        f"Updated : {meta.get('last_updated', 'unknown')}\n"
         f"Description: {meta.get('description', '(none)')}\n"
         f"Path    : {profile_dir}\n"
-        f"Files   : {len(all_files)}\n"
-        f"Size    : {total_size / 1024:.1f} KB"
+        f"Files   : {file_count}\n"
+        f"Size    : {size_kb:.1f} KB\n"
+        f"Status  : {data_status}"
     )
