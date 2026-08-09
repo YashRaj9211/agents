@@ -6,6 +6,7 @@ from tools.utility_tools.getCurrTime import getCurrentTime
 from mcp_servers.docker_mcp import docker_mcp_toolset
 from mcp_servers.plawright import playwright_toolset
 from mcp_servers.firecrawl import firecrawl_toolset
+from mcp_servers.groww_mcp import groww_mcp_toolset
 from tools.browser_tools import BROWSER_PROFILE_TOOLS
 from tools import FILE_TOOLS, CLI_TOOLS, SCHEDULE_TOOLS
 
@@ -107,6 +108,7 @@ root_agent = LlmAgent(
         docker_mcp_toolset,
         playwright_toolset,
         firecrawl_toolset,
+        groww_mcp_toolset,
     ] + BROWSER_PROFILE_TOOLS + FILE_TOOLS + CLI_TOOLS + SCHEDULE_TOOLS,
 )
 
