@@ -98,17 +98,22 @@ def _count_profile_files(profile_dir: Path) -> tuple[int, float]:
 
 def _launch_persistent_browser(profile_dir: Path, page_title: str, instructions: str) -> str:
     """
-    Launches a headed Chromium browser using playwright's Python API with a
-    persistent context pointing at ``profile_dir``.
+    Launches a headed Chromium browser using playwright's async API inside a
+    dedicated background thread (with its own event loop).
 
-    The browser stays open until the user closes it.  When they do, all
-    browser state (cookies, localStorage, cache, history, …) has already been
-    written to ``profile_dir`` by Chromium automatically.
+    ADK tool functions are called from within an already-running asyncio event
+    loop, so using playwright.sync_api here would raise:
+        "Please use the Async API instead."
+    Running the async playwright code in a fresh thread+loop sidesteps this.
+
+    The browser stays open until the user closes it.  All browser state
+    (cookies, localStorage, cache, history, …) is written to ``profile_dir``
+    by Chromium automatically.
 
     Returns a status message string.
     """
     try:
-        from playwright.sync_api import sync_playwright
+        from playwright.async_api import async_playwright  # noqa: F401
     except ImportError:
         return (
             "Error: The 'playwright' Python package is not installed.\n"
@@ -117,23 +122,7 @@ def _launch_persistent_browser(profile_dir: Path, page_title: str, instructions:
 
     print(instructions)
 
-    try:
-        with sync_playwright() as p:
-            context = p.chromium.launch_persistent_context(
-                user_data_dir=str(profile_dir),
-                headless=False,
-                args=[
-                    "--no-first-run",
-                    "--no-default-browser-check",
-                    "--disable-blink-features=AutomationControlled",
-                ],
-                ignore_default_args=["--enable-automation"],
-                viewport={"width": 1280, "height": 800},
-            )
-
-            # Open a welcome page with instructions
-            page = context.pages[0] if context.pages else context.new_page()
-            page.set_content(f"""
+    PAGE_HTML = f"""
 <!DOCTYPE html>
 <html>
 <head>
@@ -158,20 +147,61 @@ def _launch_persistent_browser(profile_dir: Path, page_title: str, instructions:
   <div class="step"><b>Step 2:</b> Log in to all the accounts you want saved in this profile</div>
   <div class="step"><b>Step 3:</b> When you're done, <b>close this browser window</b></div>
   <div class="note">
-    ℹ️ Everything you do here is automatically saved — cookies, history, 
+    ℹ️ Everything you do here is automatically saved — cookies, history,
     localStorage, and cache — just like a real Chrome user profile.
   </div>
 </body>
 </html>
-            """)
+"""
 
-            # Block until ALL pages/browser is closed by the user
-            context.wait_for_event("close", timeout=0)
+    result_holder: list[str] = []
 
-    except KeyboardInterrupt:
-        pass  # user Ctrl+C'd
-    except Exception as e:
-        return f"Error launching browser: {e}"
+    async def _run() -> None:
+        from playwright.async_api import async_playwright
+        async with async_playwright() as p:
+            context = await p.chromium.launch_persistent_context(
+                user_data_dir=str(profile_dir),
+                headless=False,
+                args=[
+                    "--no-first-run",
+                    "--no-default-browser-check",
+                    "--disable-blink-features=AutomationControlled",
+                ],
+                ignore_default_args=["--enable-automation"],
+                viewport={"width": 1280, "height": 800},
+            )
+
+            page = context.pages[0] if context.pages else await context.new_page()
+            await page.set_content(PAGE_HTML)
+
+            # Block until the user closes all browser windows
+            await context.wait_for_event("close", timeout=0)
+
+        result_holder.append("ok")
+
+    import asyncio
+    import threading
+
+    error_holder: list[str] = []
+
+    def _thread_target() -> None:
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+        try:
+            loop.run_until_complete(_run())
+        except KeyboardInterrupt:
+            result_holder.append("ok")
+        except Exception as exc:
+            error_holder.append(f"Error launching browser: {exc}")
+        finally:
+            loop.close()
+
+    t = threading.Thread(target=_thread_target, daemon=True)
+    t.start()
+    t.join()  # wait for the user to close the browser
+
+    if error_holder:
+        return error_holder[0]
 
     return "ok"
 

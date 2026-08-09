@@ -53,3 +53,5 @@ backend/.playwright-mcp/
 *.db
 .fallow
 .playwright
+
+browser_profiles
