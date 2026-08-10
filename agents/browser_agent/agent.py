@@ -134,6 +134,9 @@ OUTPUT FORMAT
    - don't paper over gaps.
 """
 
+
+tools = playwright_toolset + BROWSER_PROFILE_TOOLS + firecrawl_toolset
+
 browser_agent = LlmAgent(
     model=LiteLlm(
         model=os.getenv("BROWSER_AGENT"),
@@ -143,5 +146,5 @@ browser_agent = LlmAgent(
     ),
     name="browser_agent",
     instruction=prompt,
-    tools=[playwright_toolset, firecrawl_toolset] + BROWSER_PROFILE_TOOLS,
+    tools=tools,
 )
