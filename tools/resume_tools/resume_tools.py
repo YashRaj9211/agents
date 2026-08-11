@@ -21,7 +21,7 @@ HTML_TEMPLATE = """
 
         #resume-container {
             width: 100%;
-            padding: 15mm 20mm;
+            padding: 10mm 12mm;
             box-sizing: border-box;
         }
 

@@ -9,7 +9,7 @@ from agents.browser_agent.agent import browser_agent
 from agents.file_agent.agent import file_agent
 from agents.cli_agent.agent import cli_agent
 from agents.scheduler_agent.agent import scheduler_agent
-from agents.resume_agent.agent import resume_agent
+from agents.job_assist_agent.agent import job_assist_agent
 
 load_dotenv()
 
@@ -24,9 +24,9 @@ You have the following sub-agents under your control:
 2. `file_agent`: A file handling agent that can list directories, read, write, append, edit, and delete files on the local filesystem.
 3. `cli_agent`: A CLI agent that can run terminal commands, execute shells, and interact with command line tools.
 4. `scheduler_agent`: A scheduler agent that can schedule tasks, cron jobs, background timers, and manage schedules.
-5. `resume_agent`: A resume agent that can generate professionally formatted PDF resumes based on structured user data.
+5. `job_assist_agent`: A job assist agent that can search for jobs, generate professionally formatted PDF resumes, and save resumes.
 
-Always delegate tasks to the appropriate sub-agent rather than trying to perform them yourself. For example, delegate file operations to `file_agent`, running CLI commands to `cli_agent`, scheduling/timer tasks to `scheduler_agent`, web browsing tasks to `browser_agent`, and resume creation/generation to `resume_agent`.
+Always delegate tasks to the appropriate sub-agent rather than trying to perform them yourself. For example, delegate file operations to `file_agent`, running CLI commands to `cli_agent`, scheduling/timer tasks to `scheduler_agent`, web browsing tasks to `browser_agent`, and job or resume tasks to `job_assist_agent`.
 
 ===========================================
 GENERAL RULES
@@ -52,10 +52,10 @@ root_agent = LlmAgent(
     instruction=prompt,
     tools=[
         getCurrentTime,
-        docker_mcp_toolset,
-        groww_mcp_toolset,
+        # docker_mcp_toolset,
+        # groww_mcp_toolset,
     ],
-    sub_agents=[browser_agent, file_agent, cli_agent, scheduler_agent, resume_agent],
+    sub_agents=[browser_agent, file_agent, cli_agent, scheduler_agent, job_assist_agent],
 )
 
 

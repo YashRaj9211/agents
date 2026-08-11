@@ -55,3 +55,5 @@ backend/.playwright-mcp/
 .playwright
 
 browser_profiles
+
+*.pdf
