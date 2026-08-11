@@ -20,18 +20,26 @@ Usage from agent code:
 from __future__ import annotations
 
 import os
+from dotenv import load_dotenv
 
 from google.adk.tools.mcp_tool import McpToolset, StdioConnectionParams
 from mcp import StdioServerParameters
+
+load_dotenv()
+
 
 # ── Defaults ──────────────────────────────────────────────────────────────────
 # Point at the locally running Firecrawl Docker Compose stack.
 # Override with the FIRECRAWL_API_URL env-var to use a different host or the
 # cloud API.
 _DEFAULT_LOCAL_URL = "http://localhost:3002"
+_DEFAULT_CLOUD_URL = "https://api.firecrawl.dev"
 
-FIRECRAWL_API_URL: str = os.getenv("FIRECRAWL_API_URL", _DEFAULT_LOCAL_URL)
 FIRECRAWL_API_KEY: str = os.getenv("FIRECRAWL_API_KEY", "")
+FIRECRAWL_API_URL: str = os.getenv(
+    "FIRECRAWL_API_URL", 
+    _DEFAULT_CLOUD_URL if FIRECRAWL_API_KEY else _DEFAULT_LOCAL_URL
+)
 
 
 def create_firecrawl_toolset(
@@ -52,7 +60,7 @@ def create_firecrawl_toolset(
         FIRECRAWL_API_KEY=fc-xxx                 → npx firecrawl-mcp
 
     Args:
-        api_url:  Firecrawl API base URL. Defaults to http://localhost:3002.
+        api_url:  Firecrawl API base URL. Defaults to https://api.firecrawl.dev (if key present) or http://localhost:3002.
         api_key:  Firecrawl API key. Leave empty for local/self-hosted.
         timeout:  MCP session connection timeout in seconds.
 
@@ -80,8 +88,7 @@ def create_firecrawl_toolset(
         timeout=timeout,
     )
     
-    print("Created Firecrawl toolset:)")
-    print("Firecrawl Tools:\n {mcp_servers.firecrawl.firecrawl_toolset.tools}")
+    print(f"Created Firecrawl toolset (URL: {api_url})")
     return McpToolset(connection_params=connection_params)
 
 

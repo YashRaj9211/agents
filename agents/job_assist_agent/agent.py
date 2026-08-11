@@ -3,8 +3,6 @@ from dotenv import load_dotenv
 from google.adk.agents import LlmAgent
 from google.adk.models.lite_llm import LiteLlm
 from tools import RESUME_TOOLS
-from agents.browser_agent import agent as browser_agent
-from agents.file_agent import agent as file_agent
 
 
 load_dotenv()
@@ -24,5 +22,4 @@ job_assist_agent = LlmAgent(
     description="A Job Assist agent that can assist users with job-related tasks.",
     instruction=prompt,
     tools=RESUME_TOOLS,
-    sub_agents=[browser_agent, file_agent],
 )
