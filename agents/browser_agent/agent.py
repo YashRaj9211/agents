@@ -135,7 +135,7 @@ OUTPUT FORMAT
 """
 
 
-tools = playwright_toolset + BROWSER_PROFILE_TOOLS + firecrawl_toolset
+tools = [playwright_toolset, firecrawl_toolset] + BROWSER_PROFILE_TOOLS
 
 browser_agent = LlmAgent(
     model=LiteLlm(
@@ -145,6 +145,7 @@ browser_agent = LlmAgent(
         custom_llm_provider="openai",
     ),
     name="browser_agent",
+    description="An autonomous web browsing agent that can navigate websites, search the web, interact with web pages, and manage browser profiles to complete tasks.",
     instruction=prompt,
     tools=tools,
 )
