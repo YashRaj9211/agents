@@ -1,20 +1,19 @@
 """
 firecrawl.py
 ------------
-Firecrawl MCP toolset factory — self-hosted mode.
+Firecrawl MCP toolset factory.
 
-By default this module connects to a **locally running** Firecrawl instance
-(Docker Compose at http://localhost:3002).  When FIRECRAWL_API_URL is set to a
-local address the firecrawl-mcp npm package skips cloud authentication
-entirely, so no FIRECRAWL_API_KEY is required.
-
-To switch to the cloud API, set FIRECRAWL_API_KEY in your environment (or
-.env) and leave FIRECRAWL_API_URL unset (or set it to
-https://api.firecrawl.dev).
+By default this module connects to the Firecrawl Cloud API when FIRECRAWL_API_KEY
+is set, or falls back to a locally running Firecrawl instance at http://localhost:3002.
 
 Usage from agent code:
-    from mcp_servers.firecrawl import firecrawl_toolset        # lazy singleton
-    from mcp_servers.firecrawl import create_firecrawl_toolset  # explicit factory
+    from mcp_servers.firecrawl import create_firecrawl_toolset
+
+    # Each agent should call this to get its own independent toolset instance:
+    toolset = create_firecrawl_toolset()
+
+Do NOT share a single McpToolset instance between agents — each agent must
+create its own instance to avoid async session conflicts.
 """
 
 from __future__ import annotations
@@ -92,7 +91,4 @@ def create_firecrawl_toolset(
     return McpToolset(connection_params=connection_params)
 
 
-# ── Lazy singleton ─────────────────────────────────────────────────────────────
-# Created once at import time using the current env values.
-# Call create_firecrawl_toolset() directly if you need custom settings.
-firecrawl_toolset = create_firecrawl_toolset()
+

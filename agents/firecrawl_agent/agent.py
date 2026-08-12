@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 from google.adk.agents import LlmAgent
 from google.adk.models.lite_llm import LiteLlm
-from mcp_servers.firecrawl import firecrawl_toolset
+from mcp_servers.firecrawl import create_firecrawl_toolset
 
 load_dotenv()
 
@@ -40,5 +40,5 @@ firecrawl_agent = LlmAgent(
     name="firecrawl_agent",
     description="A specialized web scraping, web search, sitemap mapping, crawling, and structured data extraction agent powered by Firecrawl MCP.",
     instruction=prompt,
-    tools=[firecrawl_toolset],
+    tools=[create_firecrawl_toolset()],
 )
