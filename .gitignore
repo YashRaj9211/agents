@@ -13,7 +13,7 @@ db.sqlite3
 *.sln
 *.sw?
 
-# Node / Frontend
+# Node / Frontend / UI
 node_modules/
 dist/
 dist-ssr/
@@ -31,6 +31,14 @@ env/
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Rust / Maturin Build Artifacts
+target/
+*.pdb
+*.pyd
+*.so
+*.dll
+*.dylib
 
 # Environment variables / Secrets
 .env

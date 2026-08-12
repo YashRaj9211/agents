@@ -9,6 +9,7 @@ from tools.file_tools import FILE_TOOLS
 from tools.cli_tools import CLI_TOOLS
 from tools.schedule_tools import SCHEDULE_TOOLS
 from tools.resume_tools import generate_resume_pdf
+from tools.docs_tool import DOCS_TOOLS
 
 RESUME_TOOLS = [generate_resume_pdf]
 
@@ -17,5 +18,7 @@ __all__ = [
     "CLI_TOOLS",
     "SCHEDULE_TOOLS",
     "RESUME_TOOLS",
+    "DOCS_TOOLS",
 ]
+
 
