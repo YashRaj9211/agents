@@ -10,23 +10,27 @@ import anydoc
 
 
 def convert_to_markdown(file_path: str) -> dict:
-    """Convert a document file to markdown format.
+    """Convert any document file (PDF, Word, Excel, PowerPoint, EPUB, RTF, CSV, ODF) to clean Markdown format.
     
-    Supported formats:
-    - PDF (.pdf)
-    - Word (.doc, .docx, .docm)
-    - PowerPoint (.ppt, .pps, .pot, .pptx, .pptm, .ppsx, .ppsm)
-    - Excel (.xls, .xlsx, .xlsm, .xlsb)
-    - OpenDocument (.odt, .ods, .odp)
-    - Rich Text Format (.rtf)
-    - EPUB (.epub)
-    - CSV (.csv)
+    Use this tool whenever you need to read, inspect, parse, or extract text content from documents, presentations, or spreadsheets.
+    
+    Supported file extensions:
+    - PDF: .pdf
+    - Word: .doc, .docx, .docm
+    - PowerPoint: .ppt, .pps, .pot, .pptx, .pptm, .ppsx, .ppsm
+    - Excel: .xls, .xlsx, .xlsm, .xlsb
+    - OpenDocument: .odt, .ods, .odp
+    - Rich Text Format: .rtf
+    - EPUB: .epub
+    - CSV: .csv
 
     Args:
-        file_path: Absolute or relative path to the document file.
+        file_path: Absolute or relative path to the document file on the filesystem.
 
     Returns:
-        A dict with keys 'content' (markdown string or None) and 'error' (str or None).
+        A dict containing:
+        - 'content': The extracted markdown string (or None if conversion failed).
+        - 'error': A string describing the error (or None if successful).
     """
     try:
         path = os.path.abspath(file_path)

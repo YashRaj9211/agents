@@ -11,7 +11,8 @@ from agents.cli_agent.agent import cli_agent
 from agents.scheduler_agent.agent import scheduler_agent
 from agents.job_assist_agent.agent import job_assist_agent
 from agents.firecrawl_agent.agent import firecrawl_agent
-from ag_ui_adk import ADKAgent, AGUIToolset, add_adk_fastapi_endpoint 
+from tools.docs_tool import DOCS_TOOLS
+# from google.adk.tools import google_search
 
 load_dotenv()
 
@@ -55,6 +56,8 @@ root_agent = LlmAgent(
     instruction=prompt,
     tools=[
         getCurrentTime,
+        *DOCS_TOOLS,
+        # google_search,
         # docker_mcp_toolset,
         # groww_mcp_toolset,
     ],

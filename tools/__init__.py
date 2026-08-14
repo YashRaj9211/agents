@@ -10,8 +10,7 @@ from tools.cli_tools import CLI_TOOLS
 from tools.schedule_tools import SCHEDULE_TOOLS
 from tools.resume_tools import generate_resume_pdf
 from tools.docs_tool import DOCS_TOOLS
-
-RESUME_TOOLS = [generate_resume_pdf]
+from tools.resume_tools import RESUME_TOOLS
 
 __all__ = [
     "FILE_TOOLS",

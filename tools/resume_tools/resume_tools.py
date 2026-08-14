@@ -214,3 +214,5 @@ def generate_resume_pdf(resume_data: Dict[str, Any], output_filename: str = "Gen
             
     except Exception as e:
         return f"Error generating PDF: {str(e)}"
+    
+RESUME_TOOLS = [generate_resume_pdf]
