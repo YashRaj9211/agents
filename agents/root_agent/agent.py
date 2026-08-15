@@ -1,13 +1,18 @@
 import os
 from dotenv import load_dotenv
 from google.adk.agents import LlmAgent
-from google.adk.tools.agent_tool import AgentTool
 from google.adk.models.lite_llm import LiteLlm
 from tools.utility_tools.getCurrTime import getCurrentTime
-from agents.browser_agent.agent import browser_agent
 from mcp_servers.docker_mcp import docker_mcp_toolset
-from tools.browser_tools import BROWSER_PROFILE_TOOLS
-from tools import FILE_TOOLS, CLI_TOOLS, SCHEDULE_TOOLS
+from mcp_servers.groww_mcp import groww_mcp_toolset
+from agents.browser_agent.agent import browser_agent
+from agents.file_agent.agent import file_agent
+from agents.cli_agent.agent import cli_agent
+from agents.scheduler_agent.agent import scheduler_agent
+from agents.job_assist_agent.agent import job_assist_agent
+from agents.firecrawl_agent.agent import firecrawl_agent
+from tools.docs_tool import DOCS_TOOLS
+# from google.adk.tools import google_search
 
 load_dotenv()
 
@@ -15,52 +20,17 @@ api_base_url = "https://integrate.api.nvidia.com/v1"
 model_name_at_endpoint = "nvidia/nemotron-3-super-120b-a12b"
 
 
-prompt = """Your are the main head agent you use other sub-agents to achieve the goal that is asked by user and then combine their results to produce the final result
+prompt = """You are the root agent. You coordinate specialized sub-agents to achieve the user's goals.
+You have direct access to time and Docker containers.
+You have the following sub-agents under your control:
+1. `browser_agent`: An autonomous web browsing agent that can navigate websites, search the web, interact with web pages, and manage browser profiles.
+2. `file_agent`: A file handling agent that can list directories, read, write, append, edit, and delete files on the local filesystem.
+3. `cli_agent`: A CLI agent that can run terminal commands, execute shells, and interact with command line tools.
+4. `scheduler_agent`: A scheduler agent that can schedule tasks, cron jobs, background timers, and manage schedules.
+5. `job_assist_agent`: A job assist agent that can search for jobs, generate professionally formatted PDF resumes, and save resumes.
+6. `firecrawl_agent`: A specialized web scraping, web search, crawling, sitemap mapping, and JSON extraction agent.
 
-Rules:
-1. First understand the user's request and break it down into smaller tasks
-2. Assign each task to the appropriate sub-agent
-3. Collect the results from all sub-agents
-4. Combine the results to produce the final result
-5. Return the final result in markdown format with tag <DONE>
-
-===========================================
-BROWSER PROFILE MANAGEMENT
-===========================================
-You can manage saved browser profiles directly. These profiles store login
-sessions so the browser agent can access sites without re-logging in.
-
-Available profile tools (you can call these directly):
-  list_browser_profiles()           - List all saved profiles
-  create_browser_profile(name)      - Create a new profile (opens browser for login)
-  delete_browser_profile(name)      - Remove a saved profile
-  get_profile_info(name)            - Show details about a specific profile
-  set_browser_profile(name)         - Activate a profile for browser tasks
-
-PROFILE ROUTING RULES:
-- "list profiles", "show my profiles", "what profiles do I have" 
-  → Call list_browser_profiles() directly.
-- "create a profile called X", "save my logins as X", "make a new profile X"
-  → Call create_browser_profile("X") directly.
-- "delete profile X", "remove profile X" 
-  → Call delete_browser_profile("X") directly.
-- "use profile X to ...", "with my X profile, ...", "log in as X and ..."
-  → Call set_browser_profile("X") first, THEN delegate the browsing task 
-    to the browser_agent. Include "Profile X is already active, proceed 
-    with the task" in the instruction to the browser_agent.
-- If NO profile is mentioned for a browser task → delegate directly to 
-  browser_agent without calling set_browser_profile (ephemeral session).
-
-Example:
-User: "Use my work profile to check my emails on Gmail"
-  Step 1: call set_browser_profile("work")
-  Step 2: delegate to browser_agent: "Go to gmail.com and check emails. 
-          The work profile is active with saved login."
-
-Example:
-User: "Create a browser profile called personal"
-  Step 1: call create_browser_profile("personal")
-  → A browser window will open for the user to log in.
+Always delegate tasks to the appropriate sub-agent rather than trying to perform them yourself. For example, delegate file operations to `file_agent`, running CLI commands to `cli_agent`, scheduling/timer tasks to `scheduler_agent`, web browsing tasks to `browser_agent`, job/resume tasks to `job_assist_agent`, and web scraping/crawling/extracting to `firecrawl_agent`.
 
 ===========================================
 GENERAL RULES
@@ -77,16 +47,23 @@ Output format:
 
 root_agent = LlmAgent(
     model=LiteLlm(
-        model="nvidia/nemotron-3-super-120b-a12b",
-        api_base=api_base_url,
-        api_key=os.getenv("BROWSER_MODEL_KEY"),
+        model=os.getenv("ROOT_AGENT"),
+        api_base=os.getenv("ROOT_AGENT_BASE_URL"),
+        api_key=os.getenv("ROOT_AGENT_KEY"),
         custom_llm_provider="openai",
     ),
     name="root_agent",
     instruction=prompt,
     tools=[
         getCurrentTime,
-        AgentTool(browser_agent),
-    ] + BROWSER_PROFILE_TOOLS + FILE_TOOLS + CLI_TOOLS + SCHEDULE_TOOLS,
+        *DOCS_TOOLS,
+        # google_search,
+        # docker_mcp_toolset,
+        # groww_mcp_toolset,
+    ],
+    sub_agents=[browser_agent, file_agent, cli_agent, scheduler_agent, job_assist_agent, firecrawl_agent],
 )
+
+
+
 

@@ -5,7 +5,6 @@ from google.adk.models.lite_llm import LiteLlm
 from mcp_servers.plawright import playwright_toolset
 from tools.utility_tools.getCurrTime import getCurrentTime
 from tools.browser_tools import BROWSER_PROFILE_TOOLS
-from mcp_servers.firecrawl import firecrawl_toolset
 
 load_dotenv()
 
@@ -24,9 +23,11 @@ You have access to named browser profiles that store login sessions.
 These tools let you manage and use them:
 
   list_browser_profiles()           - Show all saved profiles
-  create_browser_profile(name)      - Create a new profile (opens headed browser)
+  create_browser_profile(name)      - Create a new profile (opens real Chromium browser; saves full
+                                      browser state: cookies, cache, localStorage, history)
+  update_browser_profile(name)      - Re-open an existing profile to add/refresh logins
   delete_browser_profile(name)      - Remove a saved profile
-  get_profile_info(name)            - Show details about a profile
+  get_profile_info(name)            - Show details and storage stats for a profile
   set_browser_profile(name)         - Activate a profile for this session
 
 PROFILE USAGE RULES:
@@ -34,10 +35,13 @@ PROFILE USAGE RULES:
    "log in as X", "with X profile" → call set_browser_profile("X") FIRST,
    BEFORE any navigation or browser tool call.
 2. If the user asks to "create a profile" or "save my logins" → call 
-   create_browser_profile(name) with an appropriate name.
-3. If NO profile is mentioned → proceed with the default ephemeral browser 
+   create_browser_profile(name) with an appropriate name. A real Chromium 
+   browser will open — the user logs in, then closes it.
+3. If the user asks to "update profile X", "refresh profile X", or "add logins to X"
+   → call update_browser_profile("X").
+4. If NO profile is mentioned → proceed with the default ephemeral browser 
    session (no saved logins). Do NOT call set_browser_profile.
-4. After setting a profile, confirm to the user which profile is active, 
+5. After setting a profile, confirm to the user which profile is active, 
    then proceed with the requested task.
 
 ===========================================
@@ -129,14 +133,18 @@ OUTPUT FORMAT
    - don't paper over gaps.
 """
 
+
+tools = [playwright_toolset] + BROWSER_PROFILE_TOOLS
+
 browser_agent = LlmAgent(
     model=LiteLlm(
-        model="nvidia/nemotron-3-super-120b-a12b",
-        api_base=api_base_url,
-        api_key=os.getenv("BROWSER_MODEL_KEY"),
+        model=os.getenv("BROWSER_AGENT"),
+        api_base=os.getenv("BROWSER_AGENT_BASE_URL"),
+        api_key=os.getenv("BROWSER_AGENT_KEY"),
         custom_llm_provider="openai",
     ),
     name="browser_agent",
+    description="An autonomous web browsing agent that can navigate websites, search the web, interact with web pages, and manage browser profiles to complete tasks.",
     instruction=prompt,
-    tools=[playwright_toolset, firecrawl_toolset] + BROWSER_PROFILE_TOOLS,
+    tools=tools,
 )
