@@ -107,9 +107,21 @@ def create_playwright_toolset(
     return McpToolset(connection_params=connection_params)
 
 
-# ── Lazy singleton ─────────────────────────────────────────────────────────────
-# ``playwright_toolset`` is the default toolset used by the browser_agent.
-# It is created once at import time using whatever ``_active_profile`` is set.
-# Agents that need a different profile should call create_playwright_toolset()
-# directly or use the set_browser_profile tool first.
+# ── Dynamic toolset getter ────────────────────────────────────────────────────
+# Always returns a fresh McpToolset reflecting the *current* _active_profile.
+# This avoids the stale-singleton problem where a toolset built at import time
+# ignores any subsequent set_active_profile() calls.
+#
+# Usage in agent code:
+#   from mcp_servers.plawright import get_playwright_toolset
+#   tools = [get_playwright_toolset(), ...]
+#
+def get_playwright_toolset(timeout: float = 60.0) -> McpToolset:
+    """Returns a new McpToolset configured for the currently active profile."""
+    return create_playwright_toolset(timeout=timeout)
+
+
+# Back-compat: kept for any code that still imports `playwright_toolset`.
+# This is a module-level instance created at import time — it does NOT update
+# when set_active_profile() is called later.  Prefer get_playwright_toolset().
 playwright_toolset = create_playwright_toolset()

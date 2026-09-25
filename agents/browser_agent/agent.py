@@ -1,8 +1,9 @@
 import os
 from dotenv import load_dotenv
 from google.adk.agents import LlmAgent
+from google.adk.agents.callback_context import CallbackContext
 from google.adk.models.lite_llm import LiteLlm
-from mcp_servers.plawright import playwright_toolset
+from mcp_servers.plawright import get_playwright_toolset
 from tools.utility_tools.getCurrTime import getCurrentTime
 from tools.browser_tools import BROWSER_PROFILE_TOOLS
 
@@ -133,8 +134,35 @@ OUTPUT FORMAT
    - don't paper over gaps.
 """
 
+# ── Dynamic toolset via before_agent_callback ─────────────────────────────────
+# ADK agents freeze their `tools` list at construction time.  To support
+# profile switching at runtime we rebuild the McpToolset (which spawns a new
+# MCP/browser process with the correct --user-data-dir) at the start of every
+# agent turn via before_agent_callback.
+#
+# NOTE: The callback runs *before* the LLM is called for a turn, so the fresh
+# toolset (pointing at the currently-active profile) is in place by the time
+# any Playwright tool is actually invoked.
 
-tools = [playwright_toolset] + BROWSER_PROFILE_TOOLS
+def _rebuild_playwright_toolset(callback_context: CallbackContext) -> None:
+    """
+    Replaces the Playwright MCP toolset with a fresh one built from the
+    currently active browser profile.  Called automatically before every
+    agent turn.
+    """
+    from mcp_servers.plawright import get_active_profile
+    active = get_active_profile()
+    print(f"[browser_agent] before_agent_callback: rebuilding playwright toolset (profile={active!r})")
+
+    # Build a fresh toolset for the current profile
+    new_toolset = get_playwright_toolset()
+
+    # Swap out the first entry in the agent's tools list (the McpToolset)
+    # tools list is: [playwright_toolset, ...BROWSER_PROFILE_TOOLS]
+    browser_agent.tools[0] = new_toolset
+
+
+tools = [get_playwright_toolset()] + list(BROWSER_PROFILE_TOOLS)
 
 browser_agent = LlmAgent(
     model=LiteLlm(
@@ -147,4 +175,5 @@ browser_agent = LlmAgent(
     description="An autonomous web browsing agent that can navigate websites, search the web, interact with web pages, and manage browser profiles to complete tasks.",
     instruction=prompt,
     tools=tools,
+    before_agent_callback=_rebuild_playwright_toolset,
 )

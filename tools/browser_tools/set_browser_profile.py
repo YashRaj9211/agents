@@ -62,6 +62,16 @@ def set_browser_profile(profile_name: str) -> str:
         )
 
     pw_module.set_active_profile(profile_name)
+
+    # Immediately swap the live toolset so same-turn browser calls use the
+    # new profile right away (before_agent_callback only fires per-turn start).
+    try:
+        from agents.browser_agent.agent import browser_agent
+        from mcp_servers.plawright import get_playwright_toolset
+        browser_agent.tools[0] = get_playwright_toolset()
+    except Exception as _swap_err:
+        pass  # Non-fatal: next turn's before_agent_callback will catch it
+
     return (
         f"Active browser profile set to '{profile_name}'.\n"
         f"Profile path: {profile_dir}\n"
