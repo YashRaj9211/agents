@@ -5,8 +5,7 @@ Provides a tool to convert different document formats (PDF, Word, Excel, PowerPo
 """
 
 import os
-import pdf_inspector
-import anydoc
+
 
 
 def convert_to_markdown(file_path: str) -> dict:
@@ -58,16 +57,25 @@ def convert_to_markdown(file_path: str) -> dict:
         }
         
         if ext == ".pdf":
-            result = pdf_inspector.process_pdf(path)
-            if hasattr(result, "markdown") and result.markdown is not None:
-                return {"content": result.markdown, "error": None}
-            else:
-                return {"content": None, "error": "Failed to extract markdown from PDF."}
+            try:
+                import pdf_inspector
+                result = pdf_inspector.process_pdf(path)
+                if hasattr(result, "markdown") and result.markdown is not None:
+                    return {"content": result.markdown, "error": None}
+                else:
+                    return {"content": None, "error": "Failed to extract markdown from PDF."}
+            except ImportError:
+                return {"content": None, "error": "pdf_inspector library is not installed."}
         elif ext in supported_anydoc_exts:
-            markdown_content = anydoc.to_markdown(path)
-            return {"content": markdown_content, "error": None}
+            try:
+                import anydoc
+                markdown_content = anydoc.to_markdown(path)
+                return {"content": markdown_content, "error": None}
+            except ImportError:
+                return {"content": None, "error": "anydoc library is not installed."}
         else:
             return {"content": None, "error": f"Unsupported file extension '{ext}'."}
+
             
     except Exception as e:
         return {"content": None, "error": str(e)}

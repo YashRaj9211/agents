@@ -1,0 +1,6 @@
+FROM dxflrs/garage:v2.0.0 AS garage-binary
+FROM alpine:3.20
+COPY --from=garage-binary /garage /garage
+COPY init-garage.sh /init-garage.sh
+RUN chmod +x /init-garage.sh
+ENTRYPOINT ["/init-garage.sh"]

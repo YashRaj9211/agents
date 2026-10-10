@@ -195,9 +195,8 @@ def generate_resume_pdf(resume_data: Dict[str, Any], output_filename: str = "Gen
             # 3. Inject the Python dictionary into the browser context 
             page.evaluate("data => window.buildResume(data)", resume_data)
 
-            # 4. Generate and save the PDF
-            page.pdf(
-                path=output_filename,
+            # 4. Generate the PDF bytes directly in-memory (no local file on disk)
+            pdf_bytes = page.pdf(
                 format="A4",
                 print_background=True,
                 margin={
@@ -209,8 +208,27 @@ def generate_resume_pdf(resume_data: Dict[str, Any], output_filename: str = "Gen
             )
             
             browser.close()
-            
-            return f"Success: Resume PDF successfully generated and saved at {os.path.abspath(output_filename)}"
+
+            # 5. Store directly in Garage S3 object storage and record artifact in DB
+            from app.services.storage_service import store_agent_artifact_sync
+            clean_filename = output_filename if output_filename.endswith(".pdf") else f"{output_filename}.pdf"
+            artifact_record = store_agent_artifact_sync(
+                name=clean_filename,
+                content=pdf_bytes,
+                kind="pdf",
+                mime_type="application/pdf",
+                origin="agent_generated",
+                metadata={"generator": "job_assist_agent", "type": "resume_pdf"},
+            )
+
+            return (
+                f"Success: Resume PDF successfully generated and stored in Garage Object Storage!\n"
+                f"- Storage URI: {artifact_record['storage_uri']}\n"
+                f"- Artifact ID: {artifact_record['id']}\n"
+                f"- Download URL: {artifact_record['download_url']}\n"
+                f"- File Size: {artifact_record['size_bytes']} bytes"
+            )
+
             
     except Exception as e:
         return f"Error generating PDF: {str(e)}"

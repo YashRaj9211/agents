@@ -40,8 +40,8 @@ PROFILE USAGE RULES:
    browser will open — the user logs in, then closes it.
 3. If the user asks to "update profile X", "refresh profile X", or "add logins to X"
    → call update_browser_profile("X").
-4. If NO profile is mentioned → proceed with the default ephemeral browser 
-   session (no saved logins). Do NOT call set_browser_profile.
+4. If NO profile is explicitly mentioned or requested by the user → you MUST NOT use any profiles. Proceed with the default ephemeral browser 
+   session (no saved logins). Do NOT call set_browser_profile unless specifically asked.
 5. After setting a profile, confirm to the user which profile is active, 
    then proceed with the requested task.
 
@@ -121,7 +121,7 @@ TASK COMPLETION / STOPPING CRITERIA
 OUTPUT FORMAT
 ===========================================
 1. Give a direct, complete answer to the task first - no unnecessary 
-   preamble about your process. The final output need to be in markdown format, with tag <DONE>
+   preamble about your process. The final output needs to be in markdown format. You MUST wrap your ENTIRE final answer inside `<DONE>` and `</DONE>` tags. Do not put conversational filler (e.g., "Let's prepare the answer...") inside the tag.
 2. For factual/research answers, end with a "Sources" section listing:
    - Title/site name
    - URL
@@ -162,6 +162,15 @@ def _rebuild_playwright_toolset(callback_context: CallbackContext) -> None:
     browser_agent.tools[0] = new_toolset
 
 
+async def _close_playwright_toolset(callback_context: CallbackContext) -> None:
+    """
+    Closes the Playwright MCP toolset at the end of the agent's turn to clean up the browser.
+    """
+    if hasattr(browser_agent.tools[0], 'close'):
+        await browser_agent.tools[0].close()
+        print("[browser_agent] after_agent_callback: closed playwright toolset")
+
+
 tools = [get_playwright_toolset()] + list(BROWSER_PROFILE_TOOLS)
 
 browser_agent = LlmAgent(
@@ -176,4 +185,5 @@ browser_agent = LlmAgent(
     instruction=prompt,
     tools=tools,
     before_agent_callback=_rebuild_playwright_toolset,
+    after_agent_callback=_close_playwright_toolset,
 )

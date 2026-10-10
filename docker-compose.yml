@@ -1,0 +1,108 @@
+# ==============================================================================
+# Multi-Agent Orchestrator Platform - Infrastructure Services Only
+# ==============================================================================
+# Services:
+#   - postgres: PostgreSQL 16 + pgvector + citext (auto-seeds schema.sql) on port 5432
+#   - garage & garage-init: S3-compatible Garage distributed object storage on ports 3900, 3902, 3903
+#   - garage-webui: Web Management Console for Garage on port 3909
+#   - chroma: Local Vector Database on port 8001
+#
+# NOTE:
+#   Backend (FastAPI, port 8000) and Frontend (Vite/React, port 5173) are removed
+#   from docker compose so you can run, test, and iterate on them locally on the
+#   host machine with instant hot-reloading and fast debug cycles.
+# ==============================================================================
+
+services:
+  # ───────── 1. PostgreSQL with pgvector & citext ─────────
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: agents-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-agents}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./schema.sql:/docker-entrypoint-initdb.d/01_schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d agents"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    networks:
+      - agents-network
+
+  # ───────── 2. Garage S3 Object Storage (Deuxfleurs) ─────────
+  garage:
+    image: dxflrs/garage:v2.0.0
+    container_name: agents-garage
+    restart: unless-stopped
+    ports:
+      - "3900:3900"       # S3 API
+      - "3902:3902"       # S3 Web
+      - "3903:3903"       # Admin API
+    volumes:
+      - ./garage.toml:/etc/garage.toml:ro
+      - garage_meta:/var/lib/garage/meta
+      - garage_data:/var/lib/garage/data
+    networks:
+      - agents-network
+
+  # Helper service: Provision cluster layout, bucket, and S3 credentials
+  garage-init:
+    build:
+      context: .
+      dockerfile: Dockerfile.garage-init
+    container_name: agents-garage-init
+    depends_on:
+      - garage
+    volumes:
+      - ./garage.toml:/etc/garage.toml:ro
+      - garage_meta:/var/lib/garage/meta:ro
+    networks:
+      - agents-network
+
+  # ───────── 3. Garage Web Management Console ─────────
+  garage-webui:
+    image: khairul169/garage-webui:latest
+    container_name: agents-garage-webui
+    restart: unless-stopped
+    ports:
+      - "3909:3909"       # WebUI accessible at http://localhost:3909
+    environment:
+      API_BASE_URL: "http://garage:3903"
+      S3_ENDPOINT_URL: "http://garage:3900"
+    depends_on:
+      - garage
+    networks:
+      - agents-network
+
+  # ───────── 4. Chroma Vector Database ─────────
+  chroma:
+    image: chromadb/chroma:0.5.23
+    container_name: agents-chroma
+    restart: unless-stopped
+    environment:
+      IS_PERSISTENT: "TRUE"
+      ANONYMIZED_TELEMETRY: "FALSE"
+    ports:
+      - "${CHROMA_PORT:-8001}:8000"
+    volumes:
+      - chroma_data:/chroma/chroma
+    networks:
+      - agents-network
+
+networks:
+  agents-network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+  garage_meta:
+  garage_data:
+  chroma_data:

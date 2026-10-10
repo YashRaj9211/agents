@@ -221,10 +221,168 @@ def create_directory(path: str) -> dict:
 
 
 # ---------------------------------------------------------------------------
+# Garage S3 Object Storage Tools (Stored in Garage, NOT local file)
+# ---------------------------------------------------------------------------
+
+def save_to_garage(name: str, content: str, kind: str = "file") -> dict:
+    """Save an artifact, document, script, or report directly into Garage S3 object storage (not on local disk).
+    
+    Args:
+        name: Filename (e.g., 'analysis.txt', 'script.py', 'report.md').
+        content: The text/code content of the artifact.
+        kind: Kind of artifact ('file', 'code', 'report', 'image', 'pdf'). Default 'file'.
+        
+    Returns:
+        dict: Details of stored artifact in Garage S3 including artifact ID, storage URI, and download URL.
+    """
+    try:
+        from app.services.storage_service import store_agent_artifact_sync
+        res = store_agent_artifact_sync(
+            name=name,
+            content=content,
+            kind=kind,
+            origin="agent_generated",
+        )
+        return {
+            "success": True,
+            "message": f"Artifact '{name}' stored in Garage Object Storage.",
+            "artifact_id": res["id"],
+            "storage_uri": res["storage_uri"],
+            "download_url": res["download_url"],
+            "size_bytes": res["size_bytes"],
+            "sha256": res["sha256"],
+            "error": None,
+        }
+    except Exception as exc:
+        return {"success": False, "error": str(exc)}
+
+
+def read_from_garage(name_or_id: str) -> dict:
+    """Read the content of an artifact stored in Garage S3 object storage.
+    
+    Args:
+        name_or_id: The artifact ID or filename.
+        
+    Returns:
+        dict: 'content' (str) and 'error' (str or None).
+    """
+    try:
+        from app.services.storage_service import get_storage_service, run_coro_sync
+        from db.connection import async_session_scope
+        from db.repository import Repository
+        from app.controllers.agent_controller import parse_uuid_or_derive
+
+        async def _find():
+            async with async_session_scope() as db:
+                try:
+                    uuid_val = parse_uuid_or_derive(name_or_id)
+                    item = await Repository.get_artifact_with_latest_version(db, uuid_val)
+                    if item:
+                        return item
+                except Exception:
+                    pass
+                items = await Repository.list_artifacts(db, limit=200)
+                for it in items:
+                    if it["name"] == name_or_id:
+                        return it
+                return None
+
+        item = run_coro_sync(_find())
+
+        if not item or not item.get("storage_uri"):
+            return {"content": "", "error": f"Artifact '{name_or_id}' not found in Garage S3."}
+
+        storage = get_storage_service()
+        data, _, _ = storage.download_bytes(item["storage_uri"])
+        text = data.decode("utf-8", errors="replace")
+        return {"content": text, "artifact_id": item["id"], "name": item["name"], "error": None}
+    except Exception as exc:
+        return {"content": "", "error": str(exc)}
+
+
+def list_garage_artifacts() -> dict:
+    """List all artifacts currently stored in Garage S3 object storage.
+    
+    Returns:
+        dict: 'artifacts' (list of metadata dicts) and 'error' (str or None).
+    """
+    try:
+        from app.services.storage_service import run_coro_sync
+        from db.connection import async_session_scope
+        from db.repository import Repository
+
+        async def _list():
+            async with async_session_scope() as db:
+                return await Repository.list_artifacts(db, limit=100)
+
+        items = run_coro_sync(_list())
+
+        return {"artifacts": items, "count": len(items), "error": None}
+    except Exception as exc:
+        return {"artifacts": [], "count": 0, "error": str(exc)}
+
+
+def delete_from_garage(name_or_id: str) -> dict:
+    """Delete an artifact from Garage S3 object storage and remove from database.
+    
+    Args:
+        name_or_id: Artifact ID or name.
+        
+    Returns:
+        dict: 'success' (bool) and 'error' (str or None).
+    """
+    try:
+        from app.services.storage_service import get_storage_service, run_coro_sync
+        from db.connection import async_session_scope
+        from db.repository import Repository
+        from app.controllers.agent_controller import parse_uuid_or_derive
+
+        async def _del():
+            async with async_session_scope() as db:
+                try:
+                    uuid_val = parse_uuid_or_derive(name_or_id)
+                    item = await Repository.get_artifact_with_latest_version(db, uuid_val)
+                except Exception:
+                    item = None
+                if not item:
+                    items = await Repository.list_artifacts(db, limit=200)
+                    for it in items:
+                        if it["name"] == name_or_id:
+                            item = it
+                            uuid_val = parse_uuid_or_derive(it["id"])
+                            break
+                if item:
+                    await Repository.soft_delete_artifact(db, uuid_val)
+                    return item.get("storage_uri")
+                return None
+
+        storage_uri = run_coro_sync(_del())
+
+        if storage_uri:
+            get_storage_service().delete_object(storage_uri)
+            return {"success": True, "error": None}
+        return {"success": False, "error": f"Artifact '{name_or_id}' not found."}
+
+    except Exception as exc:
+        return {"success": False, "error": str(exc)}
+
+
+# ---------------------------------------------------------------------------
 # Convenience export list
 # ---------------------------------------------------------------------------
 
+GARAGE_TOOLS = [
+    save_to_garage,
+    read_from_garage,
+    list_garage_artifacts,
+    delete_from_garage,
+]
+
 FILE_TOOLS = [
+    save_to_garage,
+    read_from_garage,
+    list_garage_artifacts,
+    delete_from_garage,
     list_directory,
     read_file,
     write_file,
@@ -234,3 +392,4 @@ FILE_TOOLS = [
     delete_path,
     create_directory,
 ]
+

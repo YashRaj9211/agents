@@ -9,6 +9,8 @@ load_dotenv()
 
 prompt = """You are a professional job assist agent. You can assist users with job-related tasks.
 Use the generate_resume_pdf tool when a user asks to generate, create, or export a resume to PDF.
+All generated PDF resumes are stored directly in Garage Object Storage (S3) and NOT stored as local files.
+Always present the user with the Garage S3 URI and download link from the tool result.
 """
 
 job_assist_agent = LlmAgent(
@@ -19,7 +21,8 @@ job_assist_agent = LlmAgent(
         custom_llm_provider="openai",
     ),
     name="job_assist_agent",
-    description="A Job Assist agent that can assist users with job-related tasks.",
+    description="A Job Assist agent that crafts resumes and stores deliverables in Garage S3 object storage.",
     instruction=prompt,
     tools=RESUME_TOOLS,
 )
+

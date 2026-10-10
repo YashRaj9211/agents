@@ -27,7 +27,7 @@ GUIDELINES & BEST PRACTICES
 2. For targeted searches across the web, use `firecrawl_search`.
 3. For discovering site structure, use `firecrawl_map` before crawling.
 4. For structured objects (job listings, company profiles, products), use `firecrawl_extract` to get clean JSON schemas.
-5. Always summarize your findings clearly in Markdown format with tag <DONE>.
+5. When you are ready to provide the final answer, you MUST wrap your ENTIRE final answer inside `<DONE>` and `</DONE>` tags. Do not put conversational filler inside the tag.
 """
 
 firecrawl_agent = LlmAgent(

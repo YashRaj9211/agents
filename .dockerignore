@@ -1,0 +1,17 @@
+.git
+.github
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+target
+Cargo.lock
+agents.db
+.fallow
+.playwright-mcp
+node_modules
+ui/web/agents-ui/node_modules
+ui/web/agents-ui/dist
+*.log
