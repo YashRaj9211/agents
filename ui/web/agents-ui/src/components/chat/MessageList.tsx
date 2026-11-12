@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { BotIcon, SparkleIcon, TrashIcon } from '../icons/Icons';
+import { BotIcon, SparkleIcon, TrashIcon, CopyIcon, CheckIcon } from '../icons/Icons';
 import { Badge } from '../common';
 import { CollapsibleDetails } from './CollapsibleDetails';
 import type { TimelineEventItem } from '../../services/api';
@@ -27,6 +27,14 @@ interface MessageListProps {
 }
 
 export const MessageList: React.FC<MessageListProps> = ({ messages, isThinking, onDeleteMessage }) => {
+  const [copiedId, setCopiedId] = useState<string | null>(null);
+
+  const handleCopy = (id: string, text: string) => {
+    navigator.clipboard.writeText(text);
+    setCopiedId(id);
+    setTimeout(() => setCopiedId(null), 2000);
+  };
+
   return (
     <div className="message-list-container">
       {messages.map((msg) => {
@@ -37,17 +45,30 @@ export const MessageList: React.FC<MessageListProps> = ({ messages, isThinking, 
         let showPlaceholder = !msg.text;
 
         if (!isUser && msg.text) {
-          const doneMatch = msg.text.match(/<DONE>([\s\S]*?)(?:<\/DONE>|$)/i);
+          let text = msg.text;
+
+          // Strip <think>...</think> or <thought>...</thought> tags
+          const thinkMatches = text.match(/<(?:think|thought)>([\s\S]*?)<\/(?:think|thought)>/gi);
+          if (thinkMatches) {
+            for (const match of thinkMatches) {
+              const inner = match.replace(/<\/?(?:think|thought)>/gi, '').trim();
+              displayThoughts = (displayThoughts ? displayThoughts + '\n\n' : '') + inner;
+            }
+            text = text.replace(/<(?:think|thought)>[\s\S]*?<\/(?:think|thought)>/gi, '').trim();
+          }
+
+          // Strip <DONE> tags
+          const doneMatch = text.match(/<DONE>([\s\S]*?)(?:<\/DONE>|$)/i);
           if (doneMatch) {
             displayMain = doneMatch[1].trim();
-            const leftover = msg.text.replace(/<DONE>[\s\S]*?(?:<\/DONE>|$)/i, '').trim();
-            displayThoughts = leftover + (displayThoughts ? '\n\n' + displayThoughts : '');
-            showPlaceholder = !displayMain;
+            const leftover = text.replace(/<DONE>[\s\S]*?(?:<\/DONE>|$)/i, '').trim();
+            if (leftover) {
+              displayThoughts = (displayThoughts ? displayThoughts + '\n\n' : '') + leftover;
+            }
           } else {
-            // Fallback: if there's no DONE tag, display it as main so it's not hidden
-            displayMain = msg.text;
-            showPlaceholder = false;
+            displayMain = text;
           }
+          showPlaceholder = !displayMain;
         }
 
         return (
@@ -68,8 +89,19 @@ export const MessageList: React.FC<MessageListProps> = ({ messages, isThinking, 
                     <span className="message-agent-name">{msg.agentName || 'Root Agent'}</span>
                     <Badge variant="purple" size="sm">Active</Badge>
                   </div>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                     <span className="message-time">{msg.timestamp}</span>
+                    {displayMain && (
+                      <button
+                        type="button"
+                        className={`message-action-btn ${copiedId === msg.id ? 'message-action-btn-active' : ''}`}
+                        onClick={() => handleCopy(msg.id, displayMain)}
+                        title={copiedId === msg.id ? 'Copied to clipboard!' : 'Copy response'}
+                      >
+                        {copiedId === msg.id ? <CheckIcon size={13} /> : <CopyIcon size={13} />}
+                        <span className="btn-label-text">{copiedId === msg.id ? 'Copied' : 'Copy'}</span>
+                      </button>
+                    )}
                     {onDeleteMessage && (
                       <button
                         type="button"
@@ -84,9 +116,6 @@ export const MessageList: React.FC<MessageListProps> = ({ messages, isThinking, 
                 </div>
               )}
 
-              {/* Steps for this turn are shown in the docked RunStepsPanel above
-                  the input bar, so the bubble does not duplicate them here. */}
-
               {/* Chat Output Bubble with Markdown Rendering */}
               <div className={`message-bubble ${isUser ? 'bubble-user' : 'bubble-agent'}`} style={{ width: '100%' }}>
                 {!showPlaceholder ? (
@@ -97,11 +126,21 @@ export const MessageList: React.FC<MessageListProps> = ({ messages, isThinking, 
                       <ReactMarkdown
                         remarkPlugins={[remarkGfm]}
                         components={{
-                          // `node` is dropped (not destructured) so it is not passed
-                          // to the DOM element nor flagged as an unused binding.
                           a: ({ ...props }) => (
                             <a {...props} target="_blank" rel="noopener noreferrer" className="markdown-link" />
                           ),
+                          table: ({ children, ...props }) => (
+                            <div className="markdown-table-wrapper">
+                              <table className="markdown-table" {...props}>
+                                {children}
+                              </table>
+                            </div>
+                          ),
+                          thead: ({ children, ...props }) => <thead className="markdown-thead" {...props}>{children}</thead>,
+                          tbody: ({ children, ...props }) => <tbody className="markdown-tbody" {...props}>{children}</tbody>,
+                          tr: ({ children, ...props }) => <tr className="markdown-tr" {...props}>{children}</tr>,
+                          th: ({ children, ...props }) => <th className="markdown-th" {...props}>{children}</th>,
+                          td: ({ children, ...props }) => <td className="markdown-td" {...props}>{children}</td>,
                           code: ({ className, children, ...props }) => {
                             const isInline = !className && !String(children).includes('\n');
                             return isInline ? (
@@ -109,11 +148,13 @@ export const MessageList: React.FC<MessageListProps> = ({ messages, isThinking, 
                                 {children}
                               </code>
                             ) : (
-                              <pre className="markdown-pre">
-                                <code className="markdown-block-code" {...props}>
-                                  {children}
-                                </code>
-                              </pre>
+                              <div className="markdown-code-wrapper">
+                                <pre className="markdown-pre">
+                                  <code className="markdown-block-code" {...props}>
+                                    {children}
+                                  </code>
+                                </pre>
+                              </div>
                             );
                           }
                         }}
@@ -128,11 +169,12 @@ export const MessageList: React.FC<MessageListProps> = ({ messages, isThinking, 
                   </div>
                 )}
 
-                {/* 3. Collapsible Reasoning & Thought Logs */}                {!isUser && (displayThoughts || (msg.rawText && msg.rawText !== msg.text)) && (
+                {/* Collapsible Reasoning & Thought Logs */}
+                {!isUser && (displayThoughts || (msg.rawText && msg.rawText !== msg.text && msg.rawText !== displayMain)) && (
                   <CollapsibleDetails
                     thoughtProcess={displayThoughts}
-                    rawText={msg.rawText}
-                    title="View thought process & agent reasoning"
+                    rawText={msg.rawText !== displayMain ? msg.rawText : undefined}
+                    title="Thinking process & reasoning"
                   />
                 )}
               </div>

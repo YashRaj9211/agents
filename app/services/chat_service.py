@@ -79,23 +79,37 @@ def parse_final_response(raw_text: str) -> Tuple[str, str]:
     if not raw_text:
         return "", ""
 
-    if "<DONE>" in raw_text:
-        parts = raw_text.split("<DONE>")
+    import re
+
+    # Check for <think>...</think> or <thought>...</thought> tags
+    think_blocks = re.findall(r"<(?:think|thought)>([\s\S]*?)</(?:think|thought)>", raw_text, flags=re.IGNORECASE)
+    cleaned = re.sub(r"<(?:think|thought)>[\s\S]*?</(?:think|thought)>", "", raw_text, flags=re.IGNORECASE).strip()
+    thought_from_tags = "\n\n".join(b.strip() for b in think_blocks if b.strip())
+
+    if "<DONE>" in cleaned:
+        parts = cleaned.split("<DONE>")
         thought = "<DONE>".join(parts[:-1]).strip()
         ans = parts[-1].replace("</DONE>", "").strip()
         if not ans and len(parts) >= 2:
             ans = parts[-2].replace("</DONE>", "").strip()
         if ans:
-            return ans, thought
+            combined = (thought_from_tags + "\n\n" + thought).strip() if thought_from_tags else thought
+            return ans, combined
 
-    if "**Description:**" in raw_text:
-        idx = raw_text.find("**Description:**")
-        return raw_text[idx:].replace("<DONE>", "").replace("</DONE>", "").strip(), raw_text[:idx].strip()
-    if "Description:" in raw_text:
-        idx = raw_text.find("Description:")
-        return raw_text[idx:].replace("<DONE>", "").replace("</DONE>", "").strip(), raw_text[:idx].strip()
+    if "**Description:**" in cleaned:
+        idx = cleaned.find("**Description:**")
+        ans = cleaned[idx:].replace("<DONE>", "").replace("</DONE>", "").strip()
+        thought = cleaned[:idx].strip()
+        combined = (thought_from_tags + "\n\n" + thought).strip() if thought_from_tags else thought
+        return ans, combined
+    if "Description:" in cleaned:
+        idx = cleaned.find("Description:")
+        ans = cleaned[idx:].replace("<DONE>", "").replace("</DONE>", "").strip()
+        thought = cleaned[:idx].strip()
+        combined = (thought_from_tags + "\n\n" + thought).strip() if thought_from_tags else thought
+        return ans, combined
 
-    return raw_text.strip(), ""
+    return cleaned, thought_from_tags
 
 
 def get_agents() -> Dict[str, Any]:
@@ -298,6 +312,7 @@ class ChatService:
             return
 
         accumulated_full_text = ""
+        accumulated_thought = ""
         current_active_agent = handle.agent_id
         active_run_id = handle.run_id
         child_run_ids: List[uuid.UUID] = []
@@ -413,12 +428,22 @@ class ChatService:
 
                 # 4. Content chunks
                 text_piece = ""
+                thought_piece = ""
                 if hasattr(event, "content") and event.content:
                     for part in getattr(event.content, "parts", []):
-                        if hasattr(part, "text") and part.text:
-                            text_piece += part.text
+                        is_thought = getattr(part, "thought", False)
+                        p_text = getattr(part, "text", "") or ""
+                        if p_text:
+                            if is_thought:
+                                thought_piece += p_text
+                            else:
+                                text_piece += p_text
                 elif hasattr(event, "text") and event.text:
                     text_piece += event.text
+
+                if thought_piece:
+                    accumulated_thought += thought_piece
+                    manager.publish(handle.run_id, {"type": "thought", "text": thought_piece})
 
                 if text_piece:
                     accumulated_full_text += text_piece
@@ -457,7 +482,8 @@ class ChatService:
                 {"type": "error", "run_id": str(handle.run_id), "error": str(e)},
             )
             final_ans, thought = parse_final_response(accumulated_full_text)
-            handle.final_output = final_ans or accumulated_full_text
+            combined_thought = (accumulated_thought + ("\n\n" + thought if thought else "")).strip()
+            handle.final_output = final_ans or accumulated_full_text or combined_thought
             # A ``done`` frame keeps the client contract (``start`` ... ``done``)
             # and carries the error text the user should see; the run row itself
             # is marked failed by the run manager.
@@ -466,7 +492,7 @@ class ChatService:
                 {
                     "type": "done",
                     "final_output": handle.final_output,
-                    "thought_process": thought,
+                    "thought_process": combined_thought,
                     "raw_text": accumulated_full_text,
                     "run_id": str(handle.run_id),
                     "failed": True,
@@ -474,11 +500,13 @@ class ChatService:
             )
             return
 
-        final_ans, thought = parse_final_response(accumulated_full_text)
-        handle.final_output = final_ans or accumulated_full_text
+        final_ans, extracted_thought = parse_final_response(accumulated_full_text)
+        combined_thought = (accumulated_thought + ("\n\n" + extracted_thought if extracted_thought else "")).strip()
+        clean_output = final_ans or accumulated_full_text or combined_thought
+        handle.final_output = clean_output
         await ChatService._persist_turn_result(
             handle,
-            accumulated_full_text,
+            clean_output,
             current_active_agent,
             child_run_ids,
             open_tool_calls,
@@ -487,9 +515,9 @@ class ChatService:
             handle.run_id,
             {
                 "type": "done",
-                "final_output": final_ans,
-                "thought_process": thought,
-                "raw_text": accumulated_full_text,
+                "final_output": clean_output,
+                "thought_process": combined_thought,
+                "raw_text": (combined_thought + "\n\n" + clean_output).strip() if combined_thought else clean_output,
                 "run_id": str(handle.run_id),
             },
         )

@@ -10,7 +10,7 @@ import {
   TerminalIcon
 } from '../icons/Icons';
 import type { RunStep } from '../../store/chatStore';
-import { formatDuration } from '../../utils/time';
+import { formatDuration, cleanStepDetail } from '../../utils/steps';
 
 interface StepRowProps {
   step: RunStep;
@@ -78,8 +78,10 @@ export const StepRow: React.FC<StepRowProps> = ({ step, onToggle }) => {
 
         <span className="run-step-label">{step.label}</span>
 
-        {step.detail && !expanded && (
-          <code className="run-step-inline-detail">{step.detail}</code>
+        {cleanStepDetail(step.detail) && !expanded && (
+          <span className="run-step-inline-detail" title={cleanStepDetail(step.detail)}>
+            {cleanStepDetail(step.detail)}
+          </span>
         )}
 
         <span className="run-step-meta">

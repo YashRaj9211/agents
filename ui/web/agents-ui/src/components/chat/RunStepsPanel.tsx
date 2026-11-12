@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { ChevronDownIcon } from '../icons/Icons';
 import { StepRow } from './StepRow';
 import { formatElapsed } from '../../utils/time';
+import { cleanStepDetail } from '../../utils/steps';
 import type { RunStep } from '../../store/chatStore';
 
 interface RunStepsPanelProps {
@@ -75,18 +76,21 @@ export const RunStepsPanel: React.FC<RunStepsPanelProps> = ({
         ? 'running'
         : 'idle';
 
+  if (steps.length === 0 && !isRunning && !isWaitingForHuman) {
+    return null;
+  }
+
   const title = isWaitingForHuman
     ? 'Waiting for your input'
     : isRunning
       ? 'Running steps'
-      : steps.length === 0
-        ? 'Steps'
-        : `${steps.length} step${steps.length === 1 ? '' : 's'}`;
+      : `${steps.length} step${steps.length === 1 ? '' : 's'} completed`;
 
+  const cleanDetail = latest?.detail ? cleanStepDetail(latest.detail) : undefined;
   // Collapsed, the header still shows what is happening right now.
   const collapsedSummary =
     latest && !expanded
-      ? `${latest.label}${latest.detail ? ` · ${latest.detail}` : ''}`
+      ? `${latest.label}${cleanDetail ? ` · ${cleanDetail}` : ''}`
       : null;
 
   return (

@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import {
   ArrowUpIcon,
   PaperclipIcon,
-  SlidersIcon,
   MicIcon,
   SparkleIcon,
   CloseIcon,
@@ -161,7 +160,7 @@ export const ChatInputBar: React.FC<ChatInputBarProps> = ({
             value={inputText}
             onChange={(e) => setInputText(e.target.value)}
             onKeyDown={handleKeyDown}
-            placeholder={`Instruct ${activeAgent} or query backend tools...`}
+            placeholder={activeAgent ? `Message ${activeAgent.replace(/_/g, ' ')}...` : 'Ask a question or enter a command...'}
             className="chat-textarea"
             disabled={disabled}
           />
@@ -173,29 +172,13 @@ export const ChatInputBar: React.FC<ChatInputBarProps> = ({
               type="button"
               variant="secondary"
               size="sm"
-              icon={<PaperclipIcon size={15} />}
+              icon={<PaperclipIcon size={14} />}
               className="chat-pill-btn"
               onClick={handleAttachClick}
               disabled={disabled || isUploading}
+              title="Attach document or file"
             >
-              {isUploading ? 'Uploading...' : 'Attach to Garage'}
-            </Button>
-            <Button
-              type="button"
-              variant="secondary"
-              size="sm"
-              icon={<SlidersIcon size={15} />}
-              className="chat-pill-btn"
-            >
-              Settings
-            </Button>
-            <Button
-              type="button"
-              variant="secondary"
-              size="sm"
-              className="chat-pill-btn"
-            >
-              Options
+              {isUploading ? 'Uploading…' : 'Attach'}
             </Button>
           </div>
 

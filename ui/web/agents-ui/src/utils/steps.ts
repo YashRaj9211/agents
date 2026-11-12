@@ -48,6 +48,7 @@ export function describeToolCall(
   };
 
   const detail =
+    pick('request', 'prompt', 'message', 'task', 'instruction') ??
     pick('command', 'query') ??
     pick('script', 'code') ??
     pick('path', 'file_path', 'filename', 'name', 'output_filename') ??
@@ -63,7 +64,36 @@ export function describeToolCall(
       .replace(/_/g, ' ')
       .replace(/^\w/, (c) => c.toUpperCase());
 
-  return { label, detail };
+  return { label, detail: cleanStepDetail(detail) };
+}
+
+/** Cleans up raw JSON strings or extracts primary intent fields for friendly UI display. */
+export function cleanStepDetail(raw?: string): string | undefined {
+  if (!raw || !raw.trim()) return undefined;
+  const trimmed = raw.trim();
+  if ((trimmed.startsWith('{') && trimmed.endsWith('}')) || (trimmed.startsWith('{"') && trimmed.includes('}'))) {
+    try {
+      const parsed = JSON.parse(trimmed);
+      if (typeof parsed === 'object' && parsed !== null) {
+        const val =
+          parsed.request ||
+          parsed.prompt ||
+          parsed.query ||
+          parsed.command ||
+          parsed.message ||
+          parsed.task ||
+          parsed.instruction ||
+          parsed.url ||
+          parsed.path;
+        if (typeof val === 'string' && val.trim()) {
+          return val.trim();
+        }
+      }
+    } catch {
+      // fallback to original string
+    }
+  }
+  return trimmed;
 }
 
 /** Formats a settled step's duration compactly ("840ms", "3.2s", "1m 04s"). */
