@@ -91,7 +91,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 # Build and install Rust bindings in development mode
-maturin develop
+(cd native && maturin develop)
 ```
 
 ### 3. Environment Configuration
@@ -127,33 +127,29 @@ BROWSER_MODE="True"
 
 ```text
 agents/
-├── agents/                  # Agent implementations
-│   ├── root_agent/          # Orchestrator agent
-│   ├── browser_agent/       # Web a tomation agent
-│   ├── file_agent/          # Filesystem agent
-│   ├── cli_agent/           # Terminal execution agent
-│   ├── scheduler_agent/     # Task scheduling agent
-│   ├── job_assist_agent/    # Resume & job hunting agent
-│   ├── firecrawl_agent/     # Scraping & extraction agent
-│   └── a2ui_agent/          # Agent-to-UI agent
-├── mcp_servers/             # Model Context Protocol servers
-│   ├── plawright.py         # Playwright browser MCP toolset
-│   ├── firecrawl.py         # Firecrawl scraper toolset
-│   ├── docker_mcp.py        # Docker container tools
-│   └── groww_mcp.py         # Financial data tools
-├── tools/                   # Custom tool collections
-│   ├── browser_tools/       # Profile management tools
-│   ├── cli_tools/           # CLI execution utilities
-│   ├── docs_tool/           # Documentation indexing & retrieval
-│   ├── file_tools/          # Filesystem manipulation tools
-│   ├── resume_tools/        # PDF resume generator tools
-│   ├── schedule_tools/      # Task scheduling tools
-│   └── utility_tools/       # Time & general utilities
-├── src/                     # Rust PyO3 native module (lib.rs)
-├── Cargo.toml               # Rust package configuration
-├── pyproject.toml           # Maturin & Python packaging configuration
-├── requirements.txt         # Python dependencies
-└── README.md                # Project documentation
+├── backend/                 # Python backend (add backend/ to PYTHONPATH / run from it)
+│   ├── server.py            # Uvicorn entrypoint
+│   ├── app/                 # FastAPI: routes, controllers, services, schemas, core
+│   ├── adk_agents/          # Agent implementations (root, browser, file, cli, scheduler,
+│   │                        #   job_assist, firecrawl, portfolio, a2ui)
+│   ├── mcp_servers/         # MCP toolsets (playwright, firecrawl, docker, groww)
+│   ├── tools/               # Custom tool collections (browser, cli, file, resume, ...)
+│   ├── skills/              # Agent skills
+│   ├── db/                  # SQLAlchemy models, connection, repository
+│   ├── config/              # Service configs (chromadb)
+│   ├── scripts/             # One-off scripts (parse_resume.py)
+│   └── tests/
+├── native/                  # Rust PyO3 module (Cargo.toml, pyproject.toml, src/lib.rs)
+├── frontend/                # React/Vite UI
+├── infra/
+│   ├── docker/              # Dockerfile, Dockerfile.garage-init
+│   ├── garage/              # garage.toml, init-garage.sh
+│   └── db/                  # schema.sql
+├── docs/                    # database_schema.md
+├── data/                    # gitignored: SQLite DBs, browser_profiles, personal files
+├── docker-compose.yml
+├── requirements.txt
+└── README.md
 ```
 
 ---
@@ -163,7 +159,7 @@ agents/
 You can run and interact with the agents using the Google ADK runner:
 
 ```python
-from agents.root_agent.agent import root_agent
+from adk_agents.root_agent.agent import root_agent
 
 # Run the root agent with an instruction
 response = root_agent.run("Find 3 senior AI engineer roles in Berlin and generate a customized PDF resume for me.")
@@ -174,7 +170,7 @@ print(response)
 
 ## 🧑‍💻 Running the Web App Locally
 
-The FastAPI backend and the React UI (`ui/web/agents-ui`) run separately.
+The FastAPI backend and the React UI (`frontend`) run separately.
 
 ### 1. Backend (FastAPI)
 
@@ -183,17 +179,17 @@ The FastAPI backend and the React UI (`ui/web/agents-ui`) run separately.
 .venv/Scripts/python.exe -m uvicorn server:app --host 127.0.0.1 --port 8000
 ```
 
-`server.py` also honours `BACKEND_HOST`, `BACKEND_PORT` and `BACKEND_RELOAD`, so a
+`backend/server.py` also honours `BACKEND_HOST`, `BACKEND_PORT` and `BACKEND_RELOAD`, so a
 port clash can be resolved without editing code:
 
 ```bash
-BACKEND_PORT=8021 python server.py
+BACKEND_PORT=8021 python backend/server.py
 ```
 
 ### 2. Frontend (Vite + React)
 
 ```bash
-cd ui/web/agents-ui
+cd frontend
 npm install
 npm run dev
 ```
@@ -215,7 +211,7 @@ VITE_DEV_BACKEND_URL=http://127.0.0.1:8021 npm run dev
 With the backend up and the dev server proxying to it:
 
 ```bash
-python tools/dev/check_frontend_backend.py        # streams SSE through the proxy
+python backend/tools/dev/check_frontend_backend.py        # streams SSE through the proxy
 python tests/test_api_suite.py                     # full REST suite
 python tests/test_ui_contract.py                   # API shapes the UI depends on
 ```
@@ -224,7 +220,7 @@ python tests/test_ui_contract.py                   # API shapes the UI depends o
 
 ## 🧵 Parallel Runs, Agent Collaboration & Stopping a Run
 
-Agent execution is owned by `app/services/run_manager.py`, not by the HTTP
+Agent execution is owned by `backend/app/services/run_manager.py`, not by the HTTP
 request that started it. A run is a background task with a bounded event buffer
 and any number of viewers, which is what makes the following possible.
 
@@ -274,7 +270,7 @@ disconnects. Terminal frames per run are `done` (finished, successfully or not),
 | `RUN_CANCEL_TIMEOUT_SECONDS` | `10` | How long to wait for a cancelled run before marking it cancelled anyway |
 | `RUN_HEARTBEAT_SECONDS` | `15` | Keep-alive cadence for an idle stream |
 | `AGENT_REPLY_HOP_LIMIT` | `6` | Maximum hops in one peer conversation |
-| `ADK_SESSION_DB_URL` | `sqlite+aiosqlite:///./agents_adk_sessions.db` | ADK's own session/event store |
+| `ADK_SESSION_DB_URL` | `sqlite+aiosqlite:///./data/agents_adk_sessions.db` | ADK's own session/event store |
 
 ### Two operational notes
 
@@ -287,7 +283,7 @@ disconnects. Terminal frames per run are `done` (finished, successfully or not),
 * **Restart behaviour.** Runs cannot survive a process restart: startup marks any
   leftover `running` row as `interrupted`, and queued peer messages stay queued
   until that session next runs. Run the backend with `BACKEND_RELOAD=false`
-  (`BACKEND_RELOAD=false python server.py`) when you want runs to survive code
+  (`BACKEND_RELOAD=false python backend/server.py`) when you want runs to survive code
   edits, since autoreload restarts the worker.
 
 ### Backend test suites

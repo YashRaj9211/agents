@@ -65,3 +65,6 @@ backend/.playwright-mcp/
 browser_profiles
 
 *.pdf
+# Runtime data (DBs, browser profiles, personal files)
+data/*
+!data/.gitkeep
