@@ -1,4 +1,5 @@
 import os
+from tools.hitl_tools import HITL_TOOLS
 from dotenv import load_dotenv
 from google.adk.agents import LlmAgent
 from google.adk.agents.callback_context import CallbackContext
@@ -132,6 +133,13 @@ OUTPUT FORMAT
    rating).
 4. Flag any uncertainty, conflicting info, or partial completion clearly 
    - don't paper over gaps.
+ASKING THE USER:
+You have an `ask_user` tool that pauses and waits for the user's real answer. Use it instead of guessing:
+- kind="confirm" before submitting forms, purchases, posts/messages, deletions, or any irreversible action.
+- kind="text" when a login detail, profile name or required input is missing (never guess credentials).
+- kind="choice" when several search results/accounts/profiles match and the user should pick.
+Ask one short question at a time, list options for kind="choice", and put the recommended option first. Do not ask for
+things you can look up or that have a sensible default; state the assumption instead.
 """
 
 # ── Dynamic toolset via before_agent_callback ─────────────────────────────────
@@ -171,7 +179,7 @@ async def _close_playwright_toolset(callback_context: CallbackContext) -> None:
         print("[browser_agent] after_agent_callback: closed playwright toolset")
 
 
-tools = [get_playwright_toolset()] + list(BROWSER_PROFILE_TOOLS)
+tools = [get_playwright_toolset()] + list(BROWSER_PROFILE_TOOLS) + list(HITL_TOOLS)
 
 browser_agent = LlmAgent(
     model=LiteLlm(

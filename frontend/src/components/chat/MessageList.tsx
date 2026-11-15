@@ -140,7 +140,20 @@ export const MessageList: React.FC<MessageListProps> = ({ messages, isThinking, 
                           tbody: ({ children, ...props }) => <tbody className="markdown-tbody" {...props}>{children}</tbody>,
                           tr: ({ children, ...props }) => <tr className="markdown-tr" {...props}>{children}</tr>,
                           th: ({ children, ...props }) => <th className="markdown-th" {...props}>{children}</th>,
-                          td: ({ children, ...props }) => <td className="markdown-td" {...props}>{children}</td>,
+                          td: ({ children, ...props }) => {
+                            const t = typeof children === 'string' ? children.trim().toLowerCase() : '';
+                            const tone = ['ok', 'success', 'done', 'passed'].includes(t) ? 'ok'
+                              : ['failed', 'error', 'fail'].includes(t) ? 'bad'
+                              : ['warning', 'pending', 'partial', 'skipped'].includes(t) ? 'warn' : '';
+                            return (
+                              <td className="markdown-td" {...props}>
+                                {tone ? <span className={`status-badge status-${tone}`}>{children}</span> : children}
+                              </td>
+                            );
+                          },
+                          blockquote: ({ children, ...props }) => (
+                            <blockquote className="md-callout" {...props}>{children}</blockquote>
+                          ),
                           code: ({ className, children, ...props }) => {
                             const isInline = !className && !String(children).includes('\n');
                             return isInline ? (

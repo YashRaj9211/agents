@@ -1,4 +1,5 @@
 import os
+from tools.hitl_tools import HITL_TOOLS
 from dotenv import load_dotenv
 from google.adk.agents import LlmAgent
 from google.adk.models.lite_llm import LiteLlm
@@ -28,6 +29,13 @@ GUIDELINES & BEST PRACTICES
 3. For discovering site structure, use `firecrawl_map` before crawling.
 4. For structured objects (job listings, company profiles, products), use `firecrawl_extract` to get clean JSON schemas.
 5. When you are ready to provide the final answer, you MUST wrap your ENTIRE final answer inside `<DONE>` and `</DONE>` tags. Do not put conversational filler inside the tag.
+ASKING THE USER:
+You have an `ask_user` tool that pauses and waits for the user's real answer. Use it instead of guessing:
+- kind="text" when the target URL, scope or fields to extract are unclear.
+- kind="confirm" before large crawls (many pages) that cost credits.
+- kind="choice" when there are several plausible sources.
+Ask one short question at a time, list options for kind="choice", and put the recommended option first. Do not ask for
+things you can look up or that have a sensible default; state the assumption instead.
 """
 
 firecrawl_agent = LlmAgent(
@@ -40,5 +48,5 @@ firecrawl_agent = LlmAgent(
     name="firecrawl_agent",
     description="A specialized web scraping, web search, sitemap mapping, crawling, and structured data extraction agent powered by Firecrawl MCP.",
     instruction=prompt,
-    tools=[create_firecrawl_toolset()],
+    tools=[create_firecrawl_toolset(), *HITL_TOOLS],
 )
