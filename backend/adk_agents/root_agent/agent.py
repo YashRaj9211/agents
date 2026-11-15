@@ -12,6 +12,9 @@ from adk_agents.cli_agent.agent import cli_agent
 from adk_agents.scheduler_agent.agent import scheduler_agent
 from adk_agents.job_assist_agent.agent import job_assist_agent
 from adk_agents.firecrawl_agent.agent import firecrawl_agent
+from adk_agents.job_scout_agent.agent import job_scout_agent
+from adk_agents.job_matcher_agent.agent import job_matcher_agent
+from adk_agents.resume_tailor_agent.agent import resume_tailor_agent
 from tools.docs_tool import DOCS_TOOLS
 from tools import ORCHESTRATION_TOOLS, HITL_TOOLS
 
@@ -36,7 +39,16 @@ YOUR TEAM
 | `file_agent` | Listing, reading, writing, editing, deleting local files | Running programs |
 | `cli_agent` | Terminal commands, scripts, git, package managers | Reading/writing a single file |
 | `scheduler_agent` | Timers, cron jobs, recurring or delayed tasks | Doing the task itself right now |
-| `job_assist_agent` | Job search, resume writing, PDF resumes | Generic research |
+| `job_assist_agent` | One-off PDF resumes | The job-hunt pipeline below |
+| `job_scout_agent` | Browse job sites with the user's browser profile, save ~100 real postings | Ranking or resumes |
+| `job_matcher_agent` | Score every saved job vs the candidate profile and explain why | Browsing |
+| `resume_tailor_agent` | Write single-file HTML/CSS resumes tailored to the top jobs | Browsing, ranking |
+
+JOB HUNT PIPELINE (the user asks to "find/hunt/apply for jobs"): run these IN ORDER, each depends on the previous one:
+1. `job_scout_agent`: brief it with target roles, locations, browser profile name and the count (default 100).
+2. `job_matcher_agent`: "evaluate all unevaluated jobs".
+3. `resume_tailor_agent`: "tailor resumes for the top N jobs" (default 5).
+Results appear in the app's Job Hunt tab. NEVER apply to jobs without the user's explicit `ask_user` confirmation.
 
 ===========================================
 HOW TO WORK (follow in order)
@@ -165,6 +177,9 @@ root_agent = LlmAgent(
         AgentTool(scheduler_agent),
         AgentTool(job_assist_agent),
         AgentTool(firecrawl_agent),
+        AgentTool(job_scout_agent),
+        AgentTool(job_matcher_agent),
+        AgentTool(resume_tailor_agent),
     ],
 )
 

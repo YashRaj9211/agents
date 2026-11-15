@@ -44,6 +44,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
     { id: 'home', label: 'Home', icon: <HomeIcon /> },
     { id: 'orchestrator', label: 'Orchestrator', icon: <StudioIcon /> },
     { id: 'agents', label: 'Agent Fleet', icon: <UsersIcon /> },
+    { id: 'jobs', label: 'Job Hunt', icon: <SparkleIcon size={18} /> },
     { id: 'artifacts', label: 'Artifacts', icon: <FolderIcon /> },
     { id: 'logs', label: 'Run Logs', icon: <GridIcon /> },
     { id: 'notifications', label: 'Notifications', icon: <BellIcon />, badge: 3 },

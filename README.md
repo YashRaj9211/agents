@@ -42,6 +42,17 @@ graph TD
 | **`scheduler_agent`**| Task scheduling, timer registration, cron jobs, and background schedule management. | `SCHEDULE_TOOLS` |
 | **`job_assist_agent`**| Job hunting assistant with automated professional PDF resume generation. | `RESUME_TOOLS` (`generate_resume_pdf`) |
 | **`firecrawl_agent`**| Fast web scraping, domain sitemap crawling, web search, and structured schema JSON extraction. | `Firecrawl MCP` |
+| **`job_scout_agent`** | Browses job sites with a saved browser profile and saves ~100 real postings. | `Playwright MCP`, `JOB_SCOUT_TOOLS` |
+| **`job_matcher_agent`** | Scores each job on skills, experience, role fit, location, pay, growth, company and explains why. | `JOB_MATCHER_TOOLS` |
+| **`resume_tailor_agent`** | Writes a truthful, job-specific resume as ONE self-contained HTML+CSS file (`modern` / `classic`). | `RESUME_TAILOR_TOOLS` |
+
+### 🎯 Job Hunt pipeline
+
+`scout -> match -> tailor`, driven by `root_agent` or step by step from the **Job Hunt** tab (dock menu -> Job Hunt).
+Data lives in `data/jobhunt/` (git-ignored; override with `JOBHUNT_DIR`). The tab shows pipeline progress, ranked jobs with
+score breakdowns, and a print-ready resume preview (Print / Save PDF). Optional per-agent model env vars:
+`JOB_SCOUT_AGENT`, `JOB_MATCHER_AGENT`, `RESUME_TAILOR_AGENT` (each with `_BASE_URL` / `_KEY`), falling back to the browser / root models.
+"Preview with sample data" loads clearly labelled sample jobs so you can see the UI without running agents.
 
 ---
 

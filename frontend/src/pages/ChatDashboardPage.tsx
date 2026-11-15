@@ -11,6 +11,7 @@ import { RunStepsPanel } from '../components/chat/RunStepsPanel';
 import { HumanInputCard } from '../components/chat/HumanInputCard';
 import { RunningAgentsPanel } from '../components/runs/RunningAgentsPanel';
 import { ArtifactsView } from '../components/artifacts/ArtifactsView';
+import { JobHuntView } from '../components/jobs/JobHuntView';
 
 export const ChatDashboardPage: React.FC = () => {
   // Store subscriptions
@@ -112,7 +113,9 @@ export const ChatDashboardPage: React.FC = () => {
 
       {/* 2. Main Center Panel */}
       <main className="chat-center-panel">
-        {activeTab === 'artifacts' ? (
+        {activeTab === 'jobs' ? (
+          <JobHuntView />
+        ) : activeTab === 'artifacts' ? (
           <ArtifactsView />
         ) : (
           <>
@@ -219,17 +222,19 @@ export const ChatDashboardPage: React.FC = () => {
 
 
       {/* 4. Right Chat History Sidebar */}
-      <ChatHistorySidebar
-        sessions={sessions}
-        activeSessionId={activeSessionId}
-        onSelectSession={selectSession}
-        onNewChat={createNewChat}
-        searchQuery={searchQuery}
-        onSearchChange={setSearchQuery}
-        onRenameSession={renameSession}
-        onDeleteSession={deleteSession}
-        onRefresh={loadSessions}
-      />
+      {activeTab !== 'jobs' && (
+        <ChatHistorySidebar
+          sessions={sessions}
+          activeSessionId={activeSessionId}
+          onSelectSession={selectSession}
+          onNewChat={createNewChat}
+          searchQuery={searchQuery}
+          onSearchChange={setSearchQuery}
+          onRenameSession={renameSession}
+          onDeleteSession={deleteSession}
+          onRefresh={loadSessions}
+        />
+      )}
     </div>
   );
 };

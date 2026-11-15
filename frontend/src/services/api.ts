@@ -661,3 +661,103 @@ export async function fetchPendingHumanInput(
  * re-exported here so callers can keep importing UI helpers from the API layer.
  */
 export { describeToolCall } from '../utils/steps';
+
+/* ── Job Hunt ─────────────────────────────────────────────────────────────── */
+
+export type JobVerdict = 'strong' | 'good' | 'stretch' | 'skip';
+export type JobStatus = 'new' | 'shortlisted' | 'tailored' | 'applied' | 'rejected';
+
+export interface JobParameter {
+  score: number;
+  note: string;
+}
+
+export interface JobEvaluation {
+  overall: number;
+  verdict: JobVerdict;
+  parameters: Record<string, JobParameter>;
+  why: string[];
+  gaps: string[];
+  red_flags: string[];
+  evaluated_at: string;
+}
+
+export interface JobItem {
+  id: string;
+  title: string;
+  company: string;
+  location: string;
+  url: string;
+  source: string;
+  salary: string;
+  posted: string;
+  work_mode: string;
+  experience_level: string;
+  description: string;
+  skills: string[];
+  status: JobStatus;
+  scraped_at: string;
+  evaluation: JobEvaluation | null;
+  resume: { template: string; generated_at: string; notes: string[] } | null;
+  has_resume?: boolean;
+}
+
+export interface JobStats {
+  total: number;
+  evaluated: number;
+  strong: number;
+  good: number;
+  tailored: number;
+  by_status: Record<string, number>;
+  has_profile: boolean;
+  average_score: number;
+}
+
+export interface JobProfile {
+  name?: string;
+  headline?: string;
+  target_roles?: string[];
+  locations?: string[];
+  years_experience?: number;
+  sample?: boolean;
+  skills?: { category: string; items: string[] | string }[];
+}
+
+export async function fetchJobHunt(): Promise<{ jobs: JobItem[]; stats: JobStats; profile: JobProfile; weights: Record<string, number> }> {
+  const [jobsRes, overviewRes] = await Promise.all([
+    fetch(apiUrl('/api/jobhunt/jobs')),
+    fetch(apiUrl('/api/jobhunt/overview')),
+  ]);
+  if (!jobsRes.ok || !overviewRes.ok) throw new Error('Failed to load job hunt data');
+  const jobs = await jobsRes.json();
+  const overview = await overviewRes.json();
+  return { jobs: jobs.jobs, stats: jobs.stats, profile: overview.profile, weights: overview.weights };
+}
+
+export async function setJobStatus(jobId: string, status: JobStatus): Promise<void> {
+  const res = await fetch(apiUrl(`/api/jobhunt/jobs/${encodeURIComponent(jobId)}/status`), {
+    method: 'PATCH',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ status }),
+  });
+  if (!res.ok) throw new Error('Failed to update job status');
+}
+
+export async function deleteJob(jobId: string): Promise<void> {
+  const res = await fetch(apiUrl(`/api/jobhunt/jobs/${encodeURIComponent(jobId)}`), { method: 'DELETE' });
+  if (!res.ok) throw new Error('Failed to delete job');
+}
+
+export async function loadSampleJobs(): Promise<void> {
+  const res = await fetch(apiUrl('/api/jobhunt/sample'), { method: 'POST' });
+  if (!res.ok) throw new Error('Failed to load sample data');
+}
+
+export async function clearSampleJobs(): Promise<void> {
+  const res = await fetch(apiUrl('/api/jobhunt/sample'), { method: 'DELETE' });
+  if (!res.ok) throw new Error('Failed to clear sample data');
+}
+
+export function getJobResumeUrl(jobId: string, download = false): string {
+  return apiUrl(`/api/jobhunt/jobs/${encodeURIComponent(jobId)}/resume${download ? '?download=true' : ''}`);
+}

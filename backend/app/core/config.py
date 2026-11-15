@@ -73,6 +73,9 @@ class Settings:
         {"id": "scheduler_agent", "name": "Scheduler Agent", "description": "Task scheduling, cron jobs, and background timers", "kind": "scheduler"},
         {"id": "job_assist_agent", "name": "Job Assist Agent", "description": "Job hunting and professional PDF resume generation", "kind": "worker"},
         {"id": "firecrawl_agent", "name": "Firecrawl Agent", "description": "Web scraping, crawling, and structured JSON extraction", "kind": "worker"},
+        {"id": "job_scout_agent", "name": "Job Scout", "description": "Browses job sites with a saved profile and collects ~100 real postings", "kind": "worker"},
+        {"id": "job_matcher_agent", "name": "Job Matcher", "description": "Scores and explains how well each job fits your profile", "kind": "worker"},
+        {"id": "resume_tailor_agent", "name": "Resume Tailor", "description": "Writes a job-specific single-file HTML/CSS resume", "kind": "worker"},
     ]
 
     DEFAULT_QUICK_ACTIONS: List[Dict[str, Any]] = [
@@ -102,6 +105,15 @@ class Settings:
             "prompt": "Generate an updated resume PDF tailored for an AI Research Engineer position",
             "colorScheme": "green",
             "target_agent_id": "job_assist_agent",
+        },
+        {
+            "id": "job_hunt",
+            "emoji": "🎯",
+            "title": "Find me jobs",
+            "description": "Scout ~100 jobs, rank them, tailor resumes",
+            "prompt": "Run the full job hunt: scout about 100 jobs for me, match them to my profile, then tailor resumes for the top 5.",
+            "colorScheme": "purple",
+            "target_agent_id": "root_agent",
         },
         {
             "id": "cli_diagnostics",

@@ -123,8 +123,14 @@ def get_agents() -> Dict[str, Any]:
             from adk_agents.scheduler_agent.agent import scheduler_agent
             from adk_agents.job_assist_agent.agent import job_assist_agent
             from adk_agents.firecrawl_agent.agent import firecrawl_agent
+            from adk_agents.job_scout_agent.agent import job_scout_agent
+            from adk_agents.job_matcher_agent.agent import job_matcher_agent
+            from adk_agents.resume_tailor_agent.agent import resume_tailor_agent
 
             _agents_map = {
+                "job_scout_agent": job_scout_agent,
+                "job_matcher_agent": job_matcher_agent,
+                "resume_tailor_agent": resume_tailor_agent,
                 "root_agent": root_agent,
                 "browser_agent": browser_agent,
                 "cli_agent": cli_agent,
