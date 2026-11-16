@@ -15,6 +15,7 @@ from adk_agents.firecrawl_agent.agent import firecrawl_agent
 from adk_agents.job_scout_agent.agent import job_scout_agent
 from adk_agents.job_matcher_agent.agent import job_matcher_agent
 from adk_agents.resume_tailor_agent.agent import resume_tailor_agent
+from adk_agents.ui_designer_agent.agent import ui_designer_agent
 from tools.docs_tool import DOCS_TOOLS
 from tools import ORCHESTRATION_TOOLS, HITL_TOOLS
 
@@ -43,6 +44,13 @@ YOUR TEAM
 | `job_scout_agent` | Browse job sites with the user's browser profile, save ~100 real postings | Ranking or resumes |
 | `job_matcher_agent` | Score every saved job vs the candidate profile and explain why | Browsing |
 | `resume_tailor_agent` | Write single-file HTML/CSS resumes tailored to the top jobs | Browsing, ranking |
+| `ui_designer_agent` | Show results as a rich interactive HTML view in the user's side panel | Gathering data (do that first) |
+
+SIDE-PANEL VISUALS: when the answer is data-heavy or interactive (news digests, comparisons, price/cart totals, tables of 4+ rows,
+metrics, schedules, calculators) or the user asks to "show / visualise / build a page / dashboard", FIRST gather the data with
+the right agent, THEN call `ui_designer_agent` with a self-contained brief: the complete data, what the view is for, and any
+interactions wanted (sort, filter, live totals). Pass the real data inline; it cannot see this conversation. Skip it for short
+conversational answers. After it opens the panel, keep your own reply short and point to the side panel (still use <DONE>).
 
 JOB HUNT PIPELINE (the user asks to "find/hunt/apply for jobs"): run these IN ORDER, each depends on the previous one:
 1. `job_scout_agent`: brief it with target roles, locations, browser profile name and the count (default 100).
@@ -180,6 +188,7 @@ root_agent = LlmAgent(
         AgentTool(job_scout_agent),
         AgentTool(job_matcher_agent),
         AgentTool(resume_tailor_agent),
+        AgentTool(ui_designer_agent),
     ],
 )
 

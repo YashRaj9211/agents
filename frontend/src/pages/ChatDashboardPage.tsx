@@ -12,6 +12,7 @@ import { HumanInputCard } from '../components/chat/HumanInputCard';
 import { RunningAgentsPanel } from '../components/runs/RunningAgentsPanel';
 import { ArtifactsView } from '../components/artifacts/ArtifactsView';
 import { JobHuntView } from '../components/jobs/JobHuntView';
+import { UiPanel } from '../components/panel/UiPanel';
 
 export const ChatDashboardPage: React.FC = () => {
   // Store subscriptions
@@ -71,6 +72,13 @@ export const ChatDashboardPage: React.FC = () => {
   const sessionRunId = useChatStore((s) => s.sessionRunId);
   const stoppingRunIds = useChatStore((s) => s.stoppingRunIds);
 
+  const uiPanels = useChatStore((s) => s.uiPanels);
+  const activePanelId = useChatStore((s) => s.activePanelId);
+  const panelOpen = useChatStore((s) => s.panelOpen);
+  const openPanel = useChatStore((s) => s.openPanel);
+  const closePanel = useChatStore((s) => s.closePanel);
+  const removePanel = useChatStore((s) => s.removePanel);
+
   useEffect(() => {
     checkHealth();
     loadAgents();
@@ -119,6 +127,11 @@ export const ChatDashboardPage: React.FC = () => {
           <ArtifactsView />
         ) : (
           <>
+            {uiPanels.length > 0 && !panelOpen && (
+              <button className="ui-panel-toggle" onClick={() => openPanel()}>
+                Views ({uiPanels.length})
+              </button>
+            )}
             {/* Chat Header with Session Details & Actions */}
             <ChatHeader
               sessionTitle={activeSession?.title || (messages.length > 0 ? 'Conversation' : 'New Conversation')}
@@ -220,6 +233,16 @@ export const ChatDashboardPage: React.FC = () => {
         )}
       </main>
 
+      {/* Agent-generated HTML views, beside the chat */}
+      {activeTab !== 'jobs' && activeTab !== 'artifacts' && panelOpen && uiPanels.length > 0 && (
+        <UiPanel
+          panels={uiPanels}
+          activeId={activePanelId}
+          onSelect={openPanel}
+          onClose={closePanel}
+          onDelete={(id) => void removePanel(id)}
+        />
+      )}
 
       {/* 4. Right Chat History Sidebar */}
       {activeTab !== 'jobs' && (

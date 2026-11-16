@@ -71,6 +71,7 @@ export interface StreamEventPayload {
     | 'run_status'
     | 'heartbeat'
     | 'human_input_request'
+    | 'ui_panel'
     | 'done'
     | 'cancelled'
     | 'error';
@@ -115,6 +116,10 @@ export interface StreamEventPayload {
   kind?: HumanInputKind;
   question?: string;
   options?: HumanInputOption[];
+  /** `ui_panel`: an agent opened or updated an HTML view for the side panel. */
+  panel_id?: string;
+  title?: string;
+  version?: number;
 }
 
 export interface ChatResponsePayload {
@@ -760,4 +765,40 @@ export async function clearSampleJobs(): Promise<void> {
 
 export function getJobResumeUrl(jobId: string, download = false): string {
   return apiUrl(`/api/jobhunt/jobs/${encodeURIComponent(jobId)}/resume${download ? '?download=true' : ''}`);
+}
+
+// ───────── Agent-generated UI panels (side panel next to the chat) ─────────
+
+export interface UiPanelMeta {
+  id: string;
+  session_id?: string | null;
+  title: string;
+  kind: string;
+  version: number;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface UiPanel extends UiPanelMeta {
+  html: string;
+}
+
+export async function fetchUiPanels(sessionId: string): Promise<UiPanelMeta[]> {
+  const res = await fetch(apiUrl(`/api/ui-panels?session_id=${encodeURIComponent(sessionId)}`));
+  if (!res.ok) return [];
+  const data = await res.json();
+  return data.panels || [];
+}
+
+export async function fetchUiPanel(panelId: string): Promise<UiPanel | null> {
+  const res = await fetch(apiUrl(`/api/ui-panels/${encodeURIComponent(panelId)}`));
+  return res.ok ? res.json() : null;
+}
+
+export async function deleteUiPanel(panelId: string): Promise<void> {
+  await fetch(apiUrl(`/api/ui-panels/${encodeURIComponent(panelId)}`), { method: 'DELETE' });
+}
+
+export function getUiPanelRawUrl(panelId: string): string {
+  return apiUrl(`/api/ui-panels/${encodeURIComponent(panelId)}/raw`);
 }

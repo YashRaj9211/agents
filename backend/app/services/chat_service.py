@@ -301,6 +301,10 @@ class ChatService:
         session_id_str = str(handle.session_id)
         adk_session_id = adk_session_id_for(session_id_str, handle.agent_id)
 
+        from app.services.run_context import current_session_id
+
+        current_session_id.set(handle.session_id)
+
         if not runner:
             text = f"Agent {handle.agent_id} ready."
             handle.final_output = text

@@ -4,10 +4,26 @@ Application Configuration settings loaded from environment.
 from __future__ import annotations
 
 import os
+from pathlib import Path
 from typing import List, Dict, Any
 from dotenv import load_dotenv
 
 load_dotenv()
+
+_REPO_ROOT = Path(__file__).resolve().parents[3]
+
+
+def _resolve_sqlite_url(url: str) -> str:
+    """Makes relative sqlite file paths absolute (against the repo root) and
+    ensures the parent directory exists. Non-sqlite / in-memory URLs pass through."""
+    prefix, sep, path = url.partition(":///")
+    if not sep or not prefix.startswith("sqlite") or not path or path.startswith(":memory:"):
+        return url
+    p = Path(path)
+    if not p.is_absolute():
+        p = _REPO_ROOT / p
+    p.parent.mkdir(parents=True, exist_ok=True)
+    return f"{prefix}:///{p.as_posix()}"
 
 
 class Settings:
@@ -61,8 +77,10 @@ class Settings:
     # ADK's v1 schema declares a `sessions` table (plus `events`, `app_states`,
     # `user_states`, `adk_internal_metadata`) that collides with this app's
     # `sessions` table, and create_all(checkfirst=True) would silently skip it.
-    ADK_SESSION_DB_URL: str = os.getenv(
-        "ADK_SESSION_DB_URL", "sqlite+aiosqlite:///./data/agents_adk_sessions.db"
+    # The default is anchored to the repo root (not the process CWD) so starting
+    # the server from backend/ doesn't hit "unable to open database file".
+    ADK_SESSION_DB_URL: str = _resolve_sqlite_url(
+        os.getenv("ADK_SESSION_DB_URL", "sqlite+aiosqlite:///./data/agents_adk_sessions.db")
     )
 
     # Default catalog seeds

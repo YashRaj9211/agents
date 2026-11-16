@@ -188,6 +188,7 @@ export const MessageList: React.FC<MessageListProps> = ({ messages, isThinking, 
                     thoughtProcess={displayThoughts}
                     rawText={msg.rawText !== displayMain ? msg.rawText : undefined}
                     title="Thinking process & reasoning"
+                    defaultExpanded={Boolean(msg.isStreaming || !displayMain)}
                   />
                 )}
               </div>

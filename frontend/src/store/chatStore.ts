@@ -19,6 +19,9 @@ import {
   cancelSessionRun as cancelSessionRunApi,
   fetchActiveRuns,
   streamRunEvents,
+  fetchUiPanels,
+  deleteUiPanel,
+  type UiPanelMeta,
   type AgentInfo,
   type TimelineEventItem,
   type StreamEventPayload,
@@ -110,6 +113,16 @@ export interface ChatStoreState {
   stoppingRunIds: string[];
   /** Live turns for sessions that are not on screen (see SessionRunSnapshot). */
   sessionRuns: Record<string, SessionRunSnapshot>;
+
+  /** HTML views agents rendered for the active session (side panel tabs). */
+  uiPanels: UiPanelMeta[];
+  activePanelId: string | null;
+  panelOpen: boolean;
+  openPanel: (panelId?: string) => void;
+  closePanel: () => void;
+  removePanel: (panelId: string) => Promise<void>;
+  /** Reloads the panel list; `reveal` opens the given (or newest) panel. */
+  refreshPanels: (sessionId: string, reveal?: string | boolean) => Promise<void>;
 
   setActiveTab: (tab: string) => void;
   setSelectedAgentId: (agentId: string) => void;
@@ -391,6 +404,9 @@ export const useChatStore = create<ChatStoreState>((set, get) => {
   quickActions: INITIAL_QUICK_ACTIONS,
   activeTimeline: [],
   showTimelineDrawer: false,
+  uiPanels: [],
+  activePanelId: null,
+  panelOpen: false,
   runSteps: [],
   runStartedAt: null,
   stepsExpanded: true,
@@ -454,8 +470,44 @@ export const useChatStore = create<ChatStoreState>((set, get) => {
     }
   },
 
+  openPanel: (panelId) => {
+    const { uiPanels, activePanelId } = get();
+    const id = panelId || activePanelId || uiPanels[0]?.id || null;
+    if (id) set({ activePanelId: id, panelOpen: true });
+  },
+
+  closePanel: () => set({ panelOpen: false }),
+
+  removePanel: async (panelId) => {
+    await deleteUiPanel(panelId);
+    set((s) => {
+      const uiPanels = s.uiPanels.filter((p) => p.id !== panelId);
+      const activePanelId = s.activePanelId === panelId ? uiPanels[0]?.id ?? null : s.activePanelId;
+      return { uiPanels, activePanelId, panelOpen: s.panelOpen && uiPanels.length > 0 };
+    });
+  },
+
+  refreshPanels: async (sessionId, reveal) => {
+    const panels = await fetchUiPanels(sessionId);
+    // Ignore a late answer for a conversation the user has already left.
+    if (get().activeSessionId !== sessionId) return;
+    set((s) => {
+      const revealId = typeof reveal === 'string' ? reveal : reveal ? panels[0]?.id : undefined;
+      const stillThere = panels.some((p) => p.id === s.activePanelId);
+      return {
+        uiPanels: panels,
+        activePanelId: revealId || (stillThere ? s.activePanelId : panels[0]?.id ?? null),
+        panelOpen: revealId ? true : s.panelOpen && panels.length > 0
+      };
+    });
+  },
+
   selectSession: async (sessionId: string) => {
     const { sessions } = get();
+    if (get().activeSessionId !== sessionId) {
+      set({ uiPanels: [], activePanelId: null, panelOpen: false });
+    }
+    void get().refreshPanels(sessionId);
     set({
       activeSessionId: sessionId,
       isSyncing: true,
@@ -807,6 +859,7 @@ export const useChatStore = create<ChatStoreState>((set, get) => {
 
     let currentTimeline: TimelineEventItem[] = [];
     let streamedChunkText = '';
+    let streamedThoughtText = '';
     let doneReceived = false;
     // Tool calls are tracked per-name through their lifecycle. The result event
     // carries no call id, so a FIFO queue per tool name resolves concurrent or
@@ -993,6 +1046,10 @@ export const useChatStore = create<ChatStoreState>((set, get) => {
                 questionId: request.question_id
               }
             ];
+          } else if (evt.type === 'ui_panel') {
+            if (get().activeSessionId === sessionId) void get().refreshPanels(sessionId, evt.panel_id || true);
+          } else if (evt.type === 'thought') {
+            streamedThoughtText += evt.text || '';
           } else if (evt.type === 'chunk') {
             streamedChunkText += evt.text || '';
           } else if (evt.type === 'done' || evt.type === 'cancelled') {
@@ -1001,7 +1058,7 @@ export const useChatStore = create<ChatStoreState>((set, get) => {
             const finalAns = cancelled
               ? evt.final_output || streamedChunkText || '(stopped by user)'
               : evt.final_output || streamedChunkText;
-            const thought = evt.thought_process || '';
+            const thought = evt.thought_process || streamedThoughtText || '';
             const raw = evt.raw_text || streamedChunkText;
 
             applyForSession(sessionId, (state) => ({
@@ -1055,6 +1112,7 @@ export const useChatStore = create<ChatStoreState>((set, get) => {
                   ? {
                       ...m,
                       text: streamedChunkText,
+                      thoughtProcess: streamedThoughtText,
                       timelineEvents: currentTimeline
                     }
                   : m
@@ -1180,13 +1238,32 @@ export const useChatStore = create<ChatStoreState>((set, get) => {
           });
           return;
         }
-        if (evt.type === 'chunk') {
+        if (evt.type === 'chunk' || evt.type === 'thought') {
+          const isChunk = evt.type === 'chunk';
           const existing = get().sessionRuns[sessionId];
+          const newChunkText = (existing?.chunkText || '') + (isChunk ? (evt.text || '') : '');
           cacheSessionRun(sessionId, {
             runId,
             agentName: existing?.agentName || 'Agent',
-            chunkText: (existing?.chunkText || '') + (evt.text || '')
+            chunkText: newChunkText
           });
+          if (get().activeSessionId === sessionId) {
+            set((state) => ({
+              messages: state.messages.map((m, idx) =>
+                idx === state.messages.length - 1 && m.sender === 'agent'
+                  ? {
+                      ...m,
+                      text: isChunk ? (m.text + (evt.text || '')) : m.text,
+                      thoughtProcess: !isChunk ? ((m.thoughtProcess || '') + (evt.text || '')) : m.thoughtProcess
+                    }
+                  : m
+              )
+            }));
+          }
+          return;
+        }
+        if (evt.type === 'ui_panel') {
+          if (get().activeSessionId === sessionId) void get().refreshPanels(sessionId, evt.panel_id || true);
           return;
         }
         if (evt.type === 'human_input_request') {

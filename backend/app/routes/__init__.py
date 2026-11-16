@@ -13,6 +13,7 @@ from app.routes.artifacts import router as artifacts_router
 from app.routes.runs import router as runs_router
 from app.routes.hitl import router as hitl_router
 from app.routes.jobhunt import router as jobhunt_router
+from app.routes.ui_panels import router as ui_panels_router
 
 api_router = APIRouter(prefix="/api")
 
@@ -27,5 +28,6 @@ api_router.include_router(artifacts_router)
 api_router.include_router(runs_router)
 api_router.include_router(hitl_router)
 api_router.include_router(jobhunt_router)
+api_router.include_router(ui_panels_router)
 
 __all__ = ["api_router"]

@@ -20,6 +20,14 @@ logger = logging.getLogger("app.main")
 async def lifespan(app: FastAPI):
     """Initializes the database, the run manager and the agent catalog."""
     try:
+        import os
+        import litellm
+        litellm.drop_params = True
+        litellm.request_timeout = int(os.getenv("LLM_TIMEOUT", "60"))
+    except Exception as exc:
+        logger.warning("Could not configure litellm defaults: %s", exc)
+
+    try:
         await init_db()
         async with async_session_scope() as db:
             await Repository.get_or_create_default_identity(db)
