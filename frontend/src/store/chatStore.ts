@@ -48,6 +48,8 @@ export interface RunStep {
   stepKey: string;
   type: TimelineEventItem['type'];
   label: string;
+  /** Raw tool/function name as the agent called it (e.g. `list_directory`). */
+  tool?: string;
   /** What is actually running ("git status", "/tmp/out.pdf"). */
   detail?: string;
   output?: string;
@@ -173,6 +175,7 @@ export function timelineRowToStep(t: PersistedTimelineRow, idx: number): RunStep
     stepKey: t.step_key || `${isRun ? 'run' : 'tool'}:${name}:${idx}`,
     type: isRun ? 'agent_transfer' : 'tool_call',
     label: described.label,
+    tool: isRun ? undefined : name,
     detail: t.detail || described.detail,
     output: t.output ? String(t.output) : undefined,
     status:
@@ -201,39 +204,7 @@ export function reconcileSteps(live: RunStep[], persisted: RunStep[]): RunStep[]
   return [...live, ...persisted.filter((s) => !seen.has(s.stepKey))];
 }
 
-export const INITIAL_CHAT_SESSIONS: ChatSession[] = [
-  {
-    id: 's-1',
-    title: 'Visual exploration',
-    preview: 'Exploring visual styles, moods, and generative art agents...',
-    timeAgo: '2h ago',
-    agent: 'Root Agent',
-    avatars: ['AL', 'RA']
-  },
-  {
-    id: 's-2',
-    title: 'Image generation & vision',
-    preview: 'Creating a futuristic portrait using vision subagents and local models...',
-    timeAgo: '3h ago',
-    agent: 'Browser Agent',
-    thumbnail: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=400&auto=format&fit=crop&q=60'
-  },
-  {
-    id: 's-3',
-    title: 'Team session orchestration',
-    preview: 'Collaborative prompt editing and subagent task chaining...',
-    timeAgo: '3h ago',
-    agent: 'CLI Agent',
-    avatars: ['YR', 'BA', 'CA']
-  },
-  {
-    id: 's-4',
-    title: 'Visualisation & charts',
-    preview: 'Creating interactive performance graphs from backend logs...',
-    timeAgo: '5h ago',
-    agent: 'Job Assist Agent'
-  }
-];
+export const INITIAL_CHAT_SESSIONS: ChatSession[] = [];
 
 // Offline fallbacks. These intentionally mirror the backend seed catalog in
 // app/core/config.py (DEFAULT_QUICK_ACTIONS) so the UI looks identical whether or
@@ -409,7 +380,7 @@ export const useChatStore = create<ChatStoreState>((set, get) => {
   panelOpen: false,
   runSteps: [],
   runStartedAt: null,
-  stepsExpanded: true,
+  stepsExpanded: false,
   pendingHumanInput: null,
   isWaitingForHuman: false,
   isSubmittingAnswer: false,
@@ -556,6 +527,21 @@ export const useChatStore = create<ChatStoreState>((set, get) => {
           rawText: typeof m.metadata?.raw_text === 'string' ? m.metadata.raw_text : undefined,
           timestamp: m.created_at ? new Date(m.created_at).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : 'Just now'
         }));
+        // A turn still running in the backend has no saved agent reply yet. Add a
+        // live placeholder so streamed chunks (from this tab's stream or a
+        // re-attach) have a message to render into; otherwise the dots spin forever.
+        const stillRunning = Boolean(get().sessionRuns[sessionId] || get().sessionRunId[sessionId]);
+        const last = mappedMessages[mappedMessages.length - 1];
+        if (stillRunning && (!last || last.sender === 'user')) {
+          mappedMessages.push({
+            id: `live-${sessionId}`,
+            sender: 'agent',
+            agentName: get().sessionRuns[sessionId]?.agentName || 'Agent',
+            text: get().sessionRuns[sessionId]?.chunkText || '',
+            timestamp: 'Just now',
+            isStreaming: true
+          });
+        }
         set({ messages: mappedMessages, isSyncing: false });
         // Restore this session's execution history and any question it is still
         // blocked on (the run outlives the page, so the card must survive a reload).
@@ -610,6 +596,8 @@ export const useChatStore = create<ChatStoreState>((set, get) => {
 
   createNewChat: () => {
     set({
+      // A fresh conversation always starts with the root orchestrator selected.
+      selectedAgentId: 'root_agent',
       activeSessionId: '',
       messages: [],
       error: null,
@@ -861,6 +849,24 @@ export const useChatStore = create<ChatStoreState>((set, get) => {
     let streamedChunkText = '';
     let streamedThoughtText = '';
     let doneReceived = false;
+    let runStarted = false;
+
+    // The stream can drop (proxy timeout, long human wait) while the run keeps
+    // going or has already finished server-side. Re-sync from the backend rather
+    // than reporting failure: re-attach if it is still live, else load the saved
+    // transcript, which holds the finished answer.
+    const recoverFromDrop = async (): Promise<boolean> => {
+      if (!runStarted) return false;
+      try {
+        const live = (await get().loadActiveRuns()).some((r) => r.session_id === sessionId);
+        if (!live) clearSessionRun(sessionId);
+        if (get().activeSessionId === sessionId) await get().selectSession(sessionId);
+        else if (!live) void get().loadSessions();
+        return true;
+      } catch {
+        return false;
+      }
+    };
     // Tool calls are tracked per-name through their lifecycle. The result event
     // carries no call id, so a FIFO queue per tool name resolves concurrent or
     // repeated calls correctly -- the old substring match could not.
@@ -877,6 +883,7 @@ export const useChatStore = create<ChatStoreState>((set, get) => {
           const nowStr = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
 
           if (evt.type === 'start') {
+            runStarted = true;
             // The backend echoes the authoritative session UUID here. If it differs
             // from what we sent (e.g. the request omitted one), adopt its id so the
             // follow-up session/timeline fetches address the row that was created.
@@ -952,6 +959,7 @@ export const useChatStore = create<ChatStoreState>((set, get) => {
               stepKey,
               type: 'tool_call',
               label,
+              tool: toolName,
               detail: evt.detail || detail,
               status: 'running',
               timestamp: nowStr
@@ -1063,7 +1071,7 @@ export const useChatStore = create<ChatStoreState>((set, get) => {
 
             applyForSession(sessionId, (state) => ({
               messages: state.messages.map((m) =>
-                m.id === agentMsgId
+                m.id === agentMsgId || m.id === `live-${sessionId}`
                   ? {
                       ...m,
                       text: finalAns,
@@ -1100,7 +1108,15 @@ export const useChatStore = create<ChatStoreState>((set, get) => {
             // Sync sessions, the fleet and the timeline with the backend.
             void get().loadSessions();
             void get().loadActiveRuns();
-            if (get().activeSessionId === sessionId) get().loadTimeline(sessionId);
+            if (get().activeSessionId === sessionId) {
+              // If the user left and came back mid-run, the transcript on screen is
+              // the saved one; reload it so the finished reply appears.
+              if (!get().messages.some((m) => m.id === agentMsgId || m.id === `live-${sessionId}`)) {
+                void get().selectSession(sessionId);
+              } else {
+                get().loadTimeline(sessionId);
+              }
+            }
             return;
           }
 
@@ -1108,7 +1124,7 @@ export const useChatStore = create<ChatStoreState>((set, get) => {
           if (!doneReceived) {
             applyForSession(sessionId, (state) => ({
               messages: state.messages.map((m) =>
-                m.id === agentMsgId
+                m.id === agentMsgId || m.id === `live-${sessionId}`
                   ? {
                       ...m,
                       text: streamedChunkText,
@@ -1132,7 +1148,9 @@ export const useChatStore = create<ChatStoreState>((set, get) => {
         artifactIds
       );
 
+      if (!doneReceived) await recoverFromDrop();
     } catch (err) {
+      if (await recoverFromDrop()) return;
       applyForSession(sessionId, (state) => ({
         messages: state.messages.map((m) =>
           m.id === agentMsgId
@@ -1160,7 +1178,7 @@ export const useChatStore = create<ChatStoreState>((set, get) => {
     } finally {
       // Only the session that owns this run may lose its "thinking" flag; a run
       // finishing in the background must not re-enable/disable another session.
-      applyForSession(sessionId, () => ({ isThinking: false }));
+      if (!get().sessionRunId[sessionId]) applyForSession(sessionId, () => ({ isThinking: false }));
     }
   },
 

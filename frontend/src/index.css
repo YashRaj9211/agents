@@ -1,66 +1,61 @@
 :root {
-  /* Color Palette - Clean, warm glassmorphic aesthetic inspired by modern design */
-  --color-page-bg-start: #f8f6f7;
-  --color-page-bg-end: #f4ece9;
-  
-  --color-card-bg: rgba(255, 255, 255, 0.92);
-  --color-card-bg-subtle: rgba(255, 255, 255, 0.65);
-  --color-card-border: rgba(230, 226, 228, 0.85);
-  --color-card-border-hover: rgba(200, 190, 195, 0.9);
+  /* Surfaces — light page, deep green-charcoal accents (see reference) */
+  --color-page-bg-start: #eaebeb;
+  --color-page-bg-end: #eaebeb;
 
-  /* Sidebar and panels */
-  --color-sidebar-bg: #faf8f9;
-  --color-sidebar-border: #ede7ea;
+  --color-card-bg: #eaebeb;
+  --color-card-bg-subtle: #f1f2f2;
+  --color-card-border: rgba(42, 51, 49, 0.12);
+  --color-card-border-hover: rgba(42, 51, 49, 0.28);
 
-  /* Text Colors */
-  --color-text-primary: #18141e;
-  --color-text-secondary: #6e6779;
-  --color-text-muted: #9c94a6;
-  --color-text-inverted: #ffffff;
+  --color-sidebar-bg: #eaebeb;
+  --color-sidebar-border: rgba(42, 51, 49, 0.12);
 
-  /* Accents & Brand */
-  --color-brand-primary: #18141e;
-  --color-brand-hover: #2d2638;
-  --color-accent-peach: #f48a66;
-  --color-accent-purple: #9b72cf;
-  --color-accent-gradient: linear-gradient(135deg, #f8a07e 0%, #d896ff 50%, #89b4fa 100%);
-  --color-accent-glow: rgba(248, 160, 126, 0.25);
+  /* Ink */
+  --color-text-primary: #1f2826;
+  --color-text-secondary: #4d5a57;
+  --color-text-muted: #8a9693;
+  --color-text-inverted: #f1f3f2;
 
-  /* Status Colors */
-  --color-status-online: #22c55e;
-  --color-status-idle: #f59e0b;
-  --color-status-busy: #6366f1;
+  /* Brand: single dark tone, no gradients */
+  --color-ink: #2a3331;
+  --color-ink-soft: #343f3c;
+  --color-brand-primary: #2a3331;
+  --color-brand-hover: #1f2826;
+  --color-accent-peach: #c98b70;
+  --color-accent-purple: #2a3331;
+  --color-accent-gradient: none;
+  --color-accent-glow: transparent;
 
-  /* Interactive / States */
-  --color-interactive-hover: #f1ecf0;
-  --color-interactive-active: #e6e0e5;
-  --color-focus-ring: rgba(155, 114, 207, 0.35);
+  --color-status-online: #3f9b7a;
+  --color-status-idle: #c9a24b;
+  --color-status-busy: #2a3331;
 
-  /* Shadows */
-  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.02), 0 1px 2px rgba(0, 0, 0, 0.03);
-  --shadow-md: 0 8px 24px -4px rgba(40, 25, 45, 0.06), 0 3px 10px -2px rgba(40, 25, 45, 0.03);
-  --shadow-lg: 0 20px 45px -12px rgba(40, 25, 45, 0.12), 0 8px 18px -6px rgba(40, 25, 45, 0.04);
-  --shadow-glow: 0 0 40px rgba(248, 160, 126, 0.18);
+  --color-interactive-hover: rgba(42, 51, 49, 0.06);
+  --color-interactive-active: rgba(42, 51, 49, 0.12);
+  --color-focus-ring: rgba(42, 51, 49, 0.25);
 
-  /* Radii */
+  --shadow-sm: 0 1px 2px rgba(31, 40, 38, 0.05);
+  --shadow-md: 0 8px 24px -8px rgba(31, 40, 38, 0.18);
+  --shadow-lg: 0 24px 48px -16px rgba(31, 40, 38, 0.28);
+  --shadow-glow: none;
+
   --radius-xs: 6px;
-  --radius-sm: 10px;
-  --radius-md: 16px;
-  --radius-lg: 24px;
-  --radius-xl: 32px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
   --radius-full: 9999px;
 
-  /* Typography */
-  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Instrument Serif', 'Times New Roman', serif;
   --font-mono: 'JetBrains Mono', monospace;
 
-  /* Transitions */
   --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
   --transition-base: 220ms cubic-bezier(0.4, 0, 0.2, 1);
   --transition-smooth: 350ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* Base resets & typography */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -69,8 +64,7 @@
 
 body {
   font-family: var(--font-sans);
-  background: radial-gradient(circle at 10% 20%, #fae8e0 0%, #f7eff4 35%, #f2eff7 70%, #ebdce4 100%);
-  background-attachment: fixed;
+  background: var(--color-page-bg-start);
   color: var(--color-text-primary);
   min-height: 100vh;
   margin: 0;
@@ -90,27 +84,18 @@ button {
   background: none;
   cursor: pointer;
   outline: none;
+  color: inherit;
 }
 
-input, textarea {
+input, textarea, select {
   font-family: inherit;
   border: none;
   outline: none;
   background: none;
+  color: inherit;
 }
 
-/* Scrollbars */
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-::-webkit-scrollbar-thumb {
-  background: rgba(180, 170, 185, 0.4);
-  border-radius: var(--radius-full);
-}
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(140, 130, 150, 0.6);
-}
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(42, 51, 49, 0.25); border-radius: var(--radius-full); }
+::-webkit-scrollbar-thumb:hover { background: rgba(42, 51, 49, 0.45); }

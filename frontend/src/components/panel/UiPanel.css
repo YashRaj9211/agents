@@ -109,11 +109,16 @@
 }
 
 .ui-panel-toggle {
+  /* Sits on the top row, just left of the 32px Activity toggle (right: 12px) so they never overlap. */
   position: absolute;
-  top: 14px;
-  right: 16px;
-  z-index: 5;
-  padding: 7px 14px;
+  top: 10px;
+  right: 56px;
+  z-index: 15;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  padding: 0 14px;
   border: 1px solid var(--color-card-border);
   border-radius: var(--radius-full);
   background: #ffffff;

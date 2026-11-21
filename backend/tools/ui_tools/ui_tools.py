@@ -43,13 +43,14 @@ def render_ui(
     if not html or "<" not in html:
         return {"success": False, "error": "html must be a complete HTML document"}
 
-    caller = _caller_identity(tool_context)
-    session_uuid = caller["session_uuid"] if caller else None
-    if session_uuid is None:
-        # Inside an AgentTool sub-agent the ADK session is not ours; fall back to the run's.
-        from app.services.run_context import current_session_id
+    # The run's own session wins: inside an AgentTool sub-agent the ADK session id is a
+    # random UUID that parses as valid but is NOT the user's conversation.
+    from app.services.run_context import current_session_id
 
-        session_uuid = current_session_id.get()
+    session_uuid = current_session_id.get()
+    if session_uuid is None:
+        caller = _caller_identity(tool_context)
+        session_uuid = caller["session_uuid"] if caller else None
     session_id = str(session_uuid) if session_uuid else None
     try:
         record = ui_store.save_panel(

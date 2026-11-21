@@ -2,10 +2,9 @@ import React, { useState, useRef, useEffect } from 'react';
 import {
   ArrowUpIcon,
   PaperclipIcon,
-  MicIcon,
-  SparkleIcon,
   CloseIcon,
-  FileIcon
+  FileIcon,
+  StopIcon
 } from '../icons/Icons';
 import { Button } from '../common';
 import { uploadArtifactToGarage, type ApiArtifactItem } from '../../services/api';
@@ -13,14 +12,18 @@ import { uploadArtifactToGarage, type ApiArtifactItem } from '../../services/api
 interface ChatInputBarProps {
   onSendMessage: (text: string, attachedArtifacts?: ApiArtifactItem[]) => void;
   disabled?: boolean;
-  activeAgent: string;
+  /** True while a run is in flight; swaps the send button for a stop button. */
+  isRunning?: boolean;
+  onStop?: () => void;
+  activeAgent?: string;
   sessionId?: string;
 }
 
 export const ChatInputBar: React.FC<ChatInputBarProps> = ({
   onSendMessage,
   disabled = false,
-  activeAgent,
+  isRunning = false,
+  onStop,
   sessionId
 }) => {
   const [inputText, setInputText] = useState('');
@@ -122,9 +125,6 @@ export const ChatInputBar: React.FC<ChatInputBarProps> = ({
                   {art.name}
                 </span>
                 <span style={{ opacity: 0.7, fontSize: '11px' }}>({formatSize(art.size_bytes)})</span>
-                <span style={{ fontSize: '10px', background: 'rgba(34,197,94,0.2)', color: '#86efac', padding: '1px 5px', borderRadius: '4px' }}>
-                  Garage S3
-                </span>
                 <button
                   type="button"
                   onClick={() => handleRemoveAttachment(art.id)}
@@ -141,7 +141,7 @@ export const ChatInputBar: React.FC<ChatInputBarProps> = ({
         {/* Uploading Status / Error Indicator */}
         {isUploading && (
           <div style={{ padding: '6px 14px', fontSize: '12px', color: '#60a5fa' }}>
-            Uploading artifact directly to Garage S3 Object Storage...
+            Uploading…
           </div>
         )}
         {uploadError && (
@@ -151,16 +151,13 @@ export const ChatInputBar: React.FC<ChatInputBarProps> = ({
         )}
 
         <div className="chat-input-row">
-          <span className="chat-input-prefix-icon">
-            <SparkleIcon size={16} />
-          </span>
           <textarea
             ref={textareaRef}
             rows={1}
             value={inputText}
             onChange={(e) => setInputText(e.target.value)}
             onKeyDown={handleKeyDown}
-            placeholder={activeAgent ? `Message ${activeAgent.replace(/_/g, ' ')}...` : 'Ask a question or enter a command...'}
+            placeholder="Ask anything…"
             className="chat-textarea"
             disabled={disabled}
           />
@@ -183,21 +180,26 @@ export const ChatInputBar: React.FC<ChatInputBarProps> = ({
           </div>
 
           <div className="chat-input-right-buttons">
-            <button
-              type="button"
-              className="chat-icon-action-btn"
-              title="Voice input"
-            >
-              <MicIcon size={18} />
-            </button>
-            <button
-              type="submit"
-              disabled={(!inputText.trim() && attachedArtifacts.length === 0) || disabled || isUploading}
-              className={`chat-submit-btn ${inputText.trim() || attachedArtifacts.length > 0 ? 'chat-submit-btn-ready' : ''}`}
-              title="Send message"
-            >
-              <ArrowUpIcon size={16} />
-            </button>
+            {isRunning && onStop ? (
+              <button
+                type="button"
+                onClick={onStop}
+                className="chat-submit-btn chat-submit-btn-ready chat-stop-btn"
+                title="Stop response"
+                aria-label="Stop response"
+              >
+                <StopIcon size={14} />
+              </button>
+            ) : (
+              <button
+                type="submit"
+                disabled={(!inputText.trim() && attachedArtifacts.length === 0) || disabled || isUploading}
+                className={`chat-submit-btn ${inputText.trim() || attachedArtifacts.length > 0 ? 'chat-submit-btn-ready' : ''}`}
+                title="Send message"
+              >
+                <ArrowUpIcon size={16} />
+              </button>
+            )}
           </div>
         </div>
       </div>

@@ -313,6 +313,8 @@ async def spawn_agents(
                 user_id=user.id,
                 title=title or f"{agent_id} · {prompt[:40]}",
                 primary_agent_id=agent_id,
+                # Hidden from the sidebar: results come back into the parent chat.
+                status="spawned",
             )
             planned.append(
                 {

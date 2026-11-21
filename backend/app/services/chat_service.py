@@ -374,7 +374,7 @@ class ChatService:
                     fn_name = getattr(fc, "name", "tool")
                     fn_args = getattr(fc, "args", {})
                     if "transfer" in fn_name.lower():
-                        target = fn_args.get("agent_name") or fn_name
+                        target = (fn_args.get("agent_name") if isinstance(fn_args, dict) else None) or fn_name
                         manager.publish(
                             handle.run_id,
                             {

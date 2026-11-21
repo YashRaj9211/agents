@@ -1,10 +1,23 @@
 """ADK tool functions for the job-hunt pipeline (scout -> matcher -> resume tailor)."""
 from __future__ import annotations
 
+import json
 from typing import Any, Dict, List, Optional
 
 from tools.job_tools import job_store
 from tools.job_tools.resume_renderer import TEMPLATES, render_resume_html
+
+
+def _coerce(value: Any, kind: type) -> Any:
+    """LLMs sometimes pass structured args as a JSON string; decode it so tools don't crash."""
+    if isinstance(value, str):
+        try:
+            value = json.loads(value)
+        except ValueError:
+            return None
+    if kind is list and isinstance(value, dict):
+        value = [value]
+    return value if isinstance(value, kind) else None
 
 
 def get_candidate_profile() -> dict:
@@ -32,7 +45,10 @@ def save_candidate_profile(profile: Dict[str, Any]) -> dict:
     Returns:
         dict with the merged 'profile'.
     """
-    return {"profile": job_store.save_profile(profile)}
+    data = _coerce(profile, dict)
+    if data is None:
+        return {"ok": False, "error": "profile must be a JSON object (dict), not plain text"}
+    return {"profile": job_store.save_profile(data)}
 
 
 def save_scraped_jobs(jobs: List[Dict[str, Any]], source: str = "") -> dict:
@@ -50,7 +66,10 @@ def save_scraped_jobs(jobs: List[Dict[str, Any]], source: str = "") -> dict:
     Returns:
         dict with added, duplicates_merged, skipped_invalid, total_jobs.
     """
-    return job_store.add_jobs(jobs, source=source)
+    items = _coerce(jobs, list)
+    if items is None:
+        return {"ok": False, "error": "jobs must be a list of job objects"}
+    return job_store.add_jobs(items, source=source)
 
 
 def list_jobs_to_evaluate(limit: int = 10) -> dict:
@@ -97,7 +116,10 @@ def save_job_evaluations(evaluations: List[Dict[str, Any]]) -> dict:
     Returns:
         dict with saved count and any unknown_job_ids.
     """
-    return job_store.save_evaluations(evaluations)
+    items = _coerce(evaluations, list)
+    if items is None:
+        return {"ok": False, "error": "evaluations must be a list of evaluation objects"}
+    return job_store.save_evaluations(items)
 
 
 def get_top_jobs(limit: int = 10, min_score: int = 65) -> dict:
@@ -132,6 +154,31 @@ def get_job_details(job_id: str) -> dict:
     return {"job": job} if job else {"error": f"No job with id {job_id}"}
 
 
+def _words(value) -> int:
+    if isinstance(value, str):
+        return len(value.split())
+    if isinstance(value, dict):
+        return sum(_words(v) for v in value.values())
+    if isinstance(value, list):
+        return sum(_words(v) for v in value)
+    return 0
+
+
+def _density_problem(resume: Dict[str, Any]) -> Optional[str]:
+    """The resume must fill ONE A4 page (~95%+): reject content that is too thin or too long."""
+    bullets = sum(len(x.get("bullets") or []) for k in ("experience", "projects")
+                  for x in (resume.get(k) or []) if isinstance(x, dict))
+    words = _words({k: v for k, v in resume.items() if k not in ("name", "contact")})
+    if words < 330 or bullets < 10:
+        return (f"Resume is too thin to fill a full page ({words} words, {bullets} bullets; need >= 330 words "
+                f"and >= 10 bullets). Re-read the vault profile (profile/Yash-Job-Profile.md) and include EVERY "
+                f"relevant role, project, skill group, certification and achievement, with 3-4 bullets per role/project.")
+    if words > 650 or bullets > 20:
+        return (f"Resume is too long for one page ({words} words, {bullets} bullets; max 650 words / 20 bullets). "
+                f"Tighten wording and drop the least relevant bullets.")
+    return None
+
+
 def build_tailored_resume(job_id: str, resume: Dict[str, Any], template: str = "modern",
                           change_notes: Optional[List[str]] = None) -> dict:
     """Render a tailored resume for a job as ONE self-contained HTML+CSS file and save it.
@@ -155,14 +202,29 @@ def build_tailored_resume(job_id: str, resume: Dict[str, Any], template: str = "
     job = job_store.get_job(job_id)
     if not job:
         return {"ok": False, "error": f"No job with id {job_id}"}
-    if not isinstance(resume, dict) or not resume.get("name"):
+    resume = _coerce(resume, dict)
+    if not resume or not resume.get("name"):
         return {"ok": False, "error": "resume must be a dict containing at least 'name'"}
     if template not in TEMPLATES:
         template = "modern"
+    problem = _density_problem(resume)
+    if problem:
+        return {"ok": False, "error": problem}
     html = render_resume_html(resume, template=template, target=f'{job["title"]} @ {job["company"]}')
     job_store.save_resume_html(job_id, html, template, [str(n) for n in (change_notes or [])])
-    return {"ok": True, "job_id": job_id, "template": template, "bytes": len(html.encode("utf-8")),
-            "preview_url": f"/api/jobhunt/jobs/{job_id}/resume"}
+    result = {"ok": True, "job_id": job_id, "template": template, "bytes": len(html.encode("utf-8")),
+              "preview_url": f"/api/jobhunt/jobs/{job_id}/resume"}
+    # Also register the resume in the Artifacts tab (Garage S3 + DB); best-effort, the local copy is the source of truth.
+    try:
+        from app.services.storage_service import store_agent_artifact_sync
+        safe = "".join(c if c.isalnum() else "_" for c in f'{job["company"]}_{job["title"]}')[:80]
+        art = store_agent_artifact_sync(
+            name=f"Resume_{safe}_{job_id}.html", content=html, kind="document", mime_type="text/html",
+            metadata={"job_id": job_id, "template": template, "source": "job_hunt"})
+        result["artifact_id"] = art.get("id")
+    except Exception as e:  # noqa: BLE001
+        result["artifact_warning"] = f"Saved locally but not added to Artifacts: {e}"
+    return result
 
 
 JOB_SCOUT_TOOLS = [get_candidate_profile, save_candidate_profile, save_scraped_jobs]

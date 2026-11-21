@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect, useLayoutEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { BotIcon, SparkleIcon, TrashIcon, CopyIcon, CheckIcon } from '../icons/Icons';
@@ -34,6 +34,19 @@ export const MessageList: React.FC<MessageListProps> = ({ messages, isThinking, 
     setCopiedId(id);
     setTimeout(() => setCopiedId(null), 2000);
   };
+
+  const bottomRef = useRef<HTMLDivElement>(null);
+  const firstId = messages[0]?.id;
+
+  // Jump to the latest message when a chat is opened/switched.
+  useLayoutEffect(() => {
+    bottomRef.current?.scrollIntoView({ block: 'end' });
+  }, [firstId]);
+
+  // Follow new messages as they arrive.
+  useEffect(() => {
+    bottomRef.current?.scrollIntoView({ block: 'end', behavior: 'smooth' });
+  }, [messages.length, isThinking]);
 
   return (
     <div className="message-list-container">
@@ -188,7 +201,7 @@ export const MessageList: React.FC<MessageListProps> = ({ messages, isThinking, 
                     thoughtProcess={displayThoughts}
                     rawText={msg.rawText !== displayMain ? msg.rawText : undefined}
                     title="Thinking process & reasoning"
-                    defaultExpanded={Boolean(msg.isStreaming || !displayMain)}
+                    defaultExpanded={false}
                   />
                 )}
               </div>
@@ -225,6 +238,7 @@ export const MessageList: React.FC<MessageListProps> = ({ messages, isThinking, 
           </div>
         </div>
       )}
+      <div ref={bottomRef} />
     </div>
   );
 };

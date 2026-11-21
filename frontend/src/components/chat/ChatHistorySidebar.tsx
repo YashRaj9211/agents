@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { SearchIcon, PlusIcon, TrashIcon, EditIcon, CheckIcon, CloseIcon, RefreshIcon } from '../icons/Icons';
-import { TextInput, Button } from '../common';
+import { SearchIcon, TrashIcon, EditIcon, CheckIcon, CloseIcon } from '../icons/Icons';
+import { TextInput } from '../common';
 
 export interface ChatSession {
   id: string;
@@ -23,24 +23,20 @@ interface ChatHistorySidebarProps {
   sessions: ChatSession[];
   activeSessionId: string;
   onSelectSession: (id: string) => void;
-  onNewChat: () => void;
   searchQuery: string;
   onSearchChange: (query: string) => void;
   onRenameSession?: (id: string, newTitle: string) => void;
   onDeleteSession?: (id: string) => void;
-  onRefresh?: () => void;
 }
 
 export const ChatHistorySidebar: React.FC<ChatHistorySidebarProps> = ({
   sessions,
   activeSessionId,
   onSelectSession,
-  onNewChat,
   searchQuery,
   onSearchChange,
   onRenameSession,
-  onDeleteSession,
-  onRefresh
+  onDeleteSession
 }) => {
   const [editingId, setEditingId] = useState<string | null>(null);
   const [editTitle, setEditTitle] = useState('');
@@ -89,31 +85,6 @@ export const ChatHistorySidebar: React.FC<ChatHistorySidebarProps> = ({
 
   return (
     <aside className="chat-history-sidebar">
-      {/* Header */}
-      <div className="history-header">
-        <h3 className="history-title">Chat history</h3>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-          {onRefresh && (
-            <button
-              type="button"
-              onClick={onRefresh}
-              className="history-header-btn"
-              title="Refresh sessions from backend"
-            >
-              <RefreshIcon size={14} />
-            </button>
-          )}
-          <button
-            type="button"
-            onClick={onNewChat}
-            className="history-header-btn"
-            title="New conversation"
-          >
-            <PlusIcon size={16} />
-          </button>
-        </div>
-      </div>
-
       {/* Search Input */}
       <div className="history-search-container">
         <TextInput
@@ -210,12 +181,6 @@ export const ChatHistorySidebar: React.FC<ChatHistorySidebarProps> = ({
                 <p className="history-card-preview">{session.preview}</p>
               )}
 
-              {/* Optional image preview */}
-              {session.thumbnail && !isEditing && (
-                <div className="history-card-media">
-                  <img src={session.thumbnail} alt={session.title} />
-                </div>
-              )}
 
               {/* Avatars row or Agent badge */}
               <div className="history-card-footer">
@@ -225,15 +190,6 @@ export const ChatHistorySidebar: React.FC<ChatHistorySidebarProps> = ({
                     <span className="run-status-dot dot-live" />
                     Running
                   </span>
-                )}
-                {session.avatars && (
-                  <div className="history-card-avatars">
-                    {session.avatars.map((initial, idx) => (
-                      <span key={idx} className="avatar-chip">
-                        {initial}
-                      </span>
-                    ))}
-                  </div>
                 )}
               </div>
             </div>
@@ -247,18 +203,6 @@ export const ChatHistorySidebar: React.FC<ChatHistorySidebarProps> = ({
         )}
       </div>
 
-      {/* Create New Chat primary action button */}
-      <div className="history-footer">
-        <Button
-          variant="primary"
-          size="lg"
-          fullWidth
-          onClick={onNewChat}
-          className="create-chat-button"
-        >
-          Create new chat
-        </Button>
-      </div>
     </aside>
   );
 };

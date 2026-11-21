@@ -73,6 +73,8 @@ def get_profile() -> Dict[str, Any]:
 
 
 def save_profile(profile: Dict[str, Any]) -> Dict[str, Any]:
+    if not isinstance(profile, dict):
+        profile = {}
     with _LOCK:
         current = get_profile()
         if current.get("sample") and not (profile or {}).get("sample"):
@@ -114,6 +116,9 @@ def add_jobs(jobs: List[Dict[str, Any]], source: str = "") -> Dict[str, Any]:
     with _LOCK:
         store = _load_jobs()
         for raw in jobs or []:
+            if not isinstance(raw, dict):
+                skipped += 1
+                continue
             title = str(raw.get("title") or "").strip()
             company = str(raw.get("company") or "").strip()
             if not title or not company:
@@ -182,13 +187,16 @@ def save_evaluations(evaluations: List[Dict[str, Any]]) -> Dict[str, Any]:
     with _LOCK:
         store = _load_jobs()
         for ev in evaluations or []:
+            if not isinstance(ev, dict):
+                continue
             jid = str(ev.get("job_id") or "")
             if jid not in store:
                 unknown.append(jid)
                 continue
             params: Dict[str, Dict[str, Any]] = {}
             for name in PARAMETER_WEIGHTS:
-                p = (ev.get("parameters") or {}).get(name)
+                raw_params = ev.get("parameters")
+                p = (raw_params if isinstance(raw_params, dict) else {}).get(name)
                 if isinstance(p, dict):
                     try:
                         score = max(0, min(100, int(round(float(p.get("score"))))))

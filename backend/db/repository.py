@@ -197,6 +197,7 @@ class Repository:
         title: Optional[str] = "New Conversation",
         primary_agent_id: Optional[str] = "root_agent",
         session_id: Optional[uuid.UUID] = None,
+        status: str = "active",
     ) -> Session:
         sid = session_id or generate_uuid()
         sess = Session(
@@ -206,7 +207,7 @@ class Repository:
             primary_agent_id=primary_agent_id,
             title=title,
             preview_text="Started a new conversation...",
-            status="active",
+            status=status,
             last_message_at=utc_now(),
             created_at=utc_now(),
         )
@@ -229,9 +230,15 @@ class Repository:
     async def list_user_sessions(
         db: AsyncSession, user_id: uuid.UUID, limit: int = 50
     ) -> List[Session]:
+        # Sessions created by spawn_agents exist only to host a child run; their
+        # output is returned to the parent chat, so they never get a sidebar row.
         stmt = (
             select(Session)
-            .where(Session.user_id == user_id, Session.deleted_at.is_(None))
+            .where(
+                Session.user_id == user_id,
+                Session.deleted_at.is_(None),
+                Session.status != "spawned",
+            )
             .order_by(Session.last_message_at.desc())
             .limit(limit)
         )

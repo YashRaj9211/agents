@@ -75,17 +75,19 @@ export const RunningAgentsPanel: React.FC<RunningAgentsPanelProps> = ({
       <header className="running-agents-header">
         <span className="running-agents-title">
           <span className="run-status-dot dot-live" />
-          Active Agent Fleet
+          Active agents
           <span className="running-agents-count">
             {runs.length}
             {limit > 0 ? ` / ${limit}` : ''}
           </span>
         </span>
-        {onRefresh && (
-          <button type="button" className="running-agents-refresh" onClick={onRefresh} title="Refresh running agents">
-            Refresh
-          </button>
-        )}
+        <span className="fleet-header-actions">
+          {onRefresh && (
+            <button type="button" className="running-agents-refresh" onClick={onRefresh} title="Refresh">
+              Refresh
+            </button>
+          )}
+        </span>
       </header>
 
       <ul className="running-agents-list">
@@ -110,7 +112,7 @@ export const RunningAgentsPanel: React.FC<RunningAgentsPanelProps> = ({
                 </span>
               </div>
               <span className="running-agent-elapsed">{elapsedLabel(run)}</span>
-              {run.session_id && !isActiveSession && (
+              {run.session_id && !isActiveSession && run.origin !== 'spawn' && (
                 <button
                   type="button"
                   className="running-agent-open"

@@ -77,6 +77,7 @@ export const StepRow: React.FC<StepRowProps> = ({ step, onToggle }) => {
         </span>
 
         <span className="run-step-label">{step.label}</span>
+        {step.tool && <code className="run-step-tool">{step.tool}</code>}
 
         {cleanStepDetail(step.detail) && !expanded && (
           <span className="run-step-inline-detail" title={cleanStepDetail(step.detail)}>
@@ -99,6 +100,12 @@ export const StepRow: React.FC<StepRowProps> = ({ step, onToggle }) => {
 
       {expanded && (
         <div className="run-step-detail" id={`step-detail-${step.stepKey}`}>
+          {step.tool && (
+            <div className="run-step-detail-block">
+              <span className="run-step-detail-title">Tool</span>
+              <pre className="run-step-code">{step.tool}</pre>
+            </div>
+          )}
           {step.detail && (
             <div className="run-step-detail-block">
               <span className="run-step-detail-title">Input</span>

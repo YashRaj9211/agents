@@ -76,6 +76,12 @@ export const ArrowUpIcon: React.FC<IconProps> = ({ size = 16, ...props }) => (
   </svg>
 );
 
+export const StopIcon: React.FC<IconProps> = ({ size = 16, ...props }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" {...props}>
+    <rect x="6" y="6" width="12" height="12" rx="2" />
+  </svg>
+);
+
 export const MicIcon: React.FC<IconProps> = ({ size = 18, ...props }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
     <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
@@ -223,3 +229,17 @@ export const CopyIcon: React.FC<IconProps> = ({ size = 16, ...props }) => (
 );
 
 
+
+export const ClockIcon: React.FC<IconProps> = ({ size = 16, ...props }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+    <circle cx="12" cy="12" r="9" />
+    <polyline points="12 7 12 12 15.5 14" />
+  </svg>
+);
+
+export const PanelLeftIcon: React.FC<IconProps> = ({ size = 16, ...props }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+    <rect x="3" y="4" width="18" height="16" rx="2" />
+    <line x1="9" y1="4" x2="9" y2="20" />
+  </svg>
+);

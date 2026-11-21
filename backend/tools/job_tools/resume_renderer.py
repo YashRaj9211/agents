@@ -1,6 +1,6 @@
 """
-Deterministic renderer: structured resume JSON -> ONE self-contained HTML file (inline CSS, no JS,
-no external assets). The tailoring agent only supplies content; layout and styling live here so every
+Deterministic renderer: structured resume JSON -> ONE self-contained, exactly-one-page A4 HTML file (inline CSS,
+one tiny inline fit-to-page script that scales type so the page is ~97% full, no external assets). The tailoring agent only supplies content; layout and styling live here so every
 resume is consistent, print-ready (A4) and ATS-friendly.
 """
 from __future__ import annotations
@@ -19,9 +19,10 @@ body { font-family: 'Segoe UI', Calibri, Helvetica, Arial, sans-serif; color: #1
 a { color: inherit; text-decoration: none; }
 ul { margin: 4px 0 0; padding-left: 18px; }
 li { margin: 0 0 2px; }
-.page { width: 210mm; min-height: 297mm; margin: 14px auto; background: #fff; box-shadow: 0 6px 30px rgba(20,10,40,.15); }
-@media print { body { background: #fff; } .page { margin: 0; box-shadow: none; width: 100%; min-height: auto; } }
-.item { margin-bottom: 11px; break-inside: avoid; }
+.page { width: 210mm; height: 297mm; overflow: hidden; margin: 14px auto; background: #fff; box-shadow: 0 6px 30px rgba(20,10,40,.15); }
+.fill { zoom: var(--z, 1); }
+@media print { body { background: #fff; } .page { margin: 0; box-shadow: none; } html, body { width: 210mm; height: 297mm; overflow: hidden; } }
+.item { margin-bottom: 9px; break-inside: avoid; }
 .row { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
 .muted { color: #5d5b6b; }
 """
@@ -52,6 +53,7 @@ main section { margin-bottom: 15px; }
 
 _CLASSIC_CSS = """
 .page { padding: 13mm 14mm; font-size: 11.5px; font-family: Georgia, 'Times New Roman', serif; }
+.page > .fill { width: 100%; }
 header { text-align: center; margin-bottom: 8px; }
 header h1 { margin: 0; font-size: 24px; letter-spacing: 2px; text-transform: uppercase; }
 header .headline { font-size: 12.5px; margin-top: 2px; font-style: italic; }
@@ -66,6 +68,34 @@ h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 1.4px; margin: 
 .skill-line { margin-bottom: 3px; }
 .tech { font-size: 11px; color: #444; }
 """
+
+_FIT_JS = """<script>
+(function(){
+  var TARGET = 0.97;
+  function fit(){
+    var page = document.querySelector('.page'); if(!page) return;
+    var fills = [].slice.call(page.querySelectorAll('.fill'));
+    var cs = getComputedStyle(page), H = page.clientHeight;
+    var zs = fills.map(function(f){
+      var host = f.parentElement, hs = getComputedStyle(host);
+      var avail = (host === page ? H - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom)
+                                 : H - parseFloat(hs.paddingTop) - parseFloat(hs.paddingBottom)) * TARGET;
+      var lo = 0.7, hi = 1.7;
+      for (var i = 0; i < 14; i++) {
+        var mid = (lo + hi) / 2; f.style.setProperty('--z', mid);
+        if (f.getBoundingClientRect().height <= avail) lo = mid; else hi = mid;
+      }
+      f.style.setProperty('--z', lo);
+      return lo;
+    });
+    if (fills.length === 2) {  // modern: sidebar never bigger than the main column
+      fills[0].style.setProperty('--z', Math.min(zs[0], zs[1]));
+    }
+  }
+  window.addEventListener('load', fit);
+  window.addEventListener('beforeprint', fit);
+})();
+</script>"""
 
 
 def _e(value: Any) -> str:
@@ -167,12 +197,12 @@ def _modern(resume: Dict[str, Any]) -> str:
     if add:
         side_extra = f"<h2>Additional</h2><div style='font-size:11px'>{add}</div>"
     return (
-        f'<div class="page"><aside><h1>{_e(resume.get("name"))}</h1>'
+        f'<div class="page"><aside><div class="fill"><h1>{_e(resume.get("name"))}</h1>'
         f'<div class="headline">{_e(resume.get("headline"))}</div>'
         f'<h2>Contact</h2><div class="contact">{contact_html}</div>'
-        f'<h2>Skills</h2>{skills}{side_extra}</aside>'
-        f'<main>{_section("Profile", summary)}{_section("Experience", _experience(resume))}'
-        f'{_section("Projects", _projects(resume))}{_section("Education", _education(resume))}</main></div>'
+        f'<h2>Skills</h2>{skills}{side_extra}</div></aside>'
+        f'<main><div class="fill">{_section("Profile", summary)}{_section("Experience", _experience(resume))}'
+        f'{_section("Projects", _projects(resume))}{_section("Education", _education(resume))}</div></main></div>'
     )
 
 
@@ -187,11 +217,11 @@ def _classic(resume: Dict[str, Any]) -> str:
             skills += f'<div class="skill-line"><b>{_e(g.get("category"))}:</b> {_e(items)}</div>'
     summary = f"<p>{_e(resume.get('summary'))}</p>" if resume.get("summary") else ""
     return (
-        f'<div class="page"><header><h1>{_e(resume.get("name"))}</h1>'
+        f'<div class="page"><div class="fill"><header><h1>{_e(resume.get("name"))}</h1>'
         f'<div class="headline">{_e(resume.get("headline"))}</div><div class="contact">{contact_html}</div></header>'
         f'{_section("Summary", summary)}{_section("Technical Skills", skills)}'
         f'{_section("Experience", _experience(resume))}{_section("Projects", _projects(resume))}'
-        f'{_section("Education", _education(resume))}{_section("Additional", _additional(resume))}</div>'
+        f'{_section("Education", _education(resume))}{_section("Additional", _additional(resume))}</div></div>'
     )
 
 
@@ -204,5 +234,5 @@ def render_resume_html(resume: Dict[str, Any], template: str = "modern", target:
     return (
         '<!DOCTYPE html>\n<html lang="en"><head><meta charset="utf-8">'
         '<meta name="viewport" content="width=device-width, initial-scale=1">'
-        f"<title>{title}</title><style>{css}</style></head><body>{body}</body></html>"
+        f"<title>{title}</title><style>{css}</style></head><body>{body}{_FIT_JS}</body></html>"
     )
