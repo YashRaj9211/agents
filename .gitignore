@@ -65,3 +65,11 @@ backend/.playwright-mcp/
 browser_profiles
 
 *.pdf
+# Runtime data (DBs, browser profiles, personal files)
+data/*
+!data/.gitkeep
+
+.hid.*
+.env.*
+# Self-hosted Firecrawl checkout (clone of github.com/firecrawl/firecrawl)
+infra/firecrawl/

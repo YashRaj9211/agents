@@ -1,0 +1,17 @@
+.git
+.github
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+target
+Cargo.lock
+data/*.db
+.fallow
+.playwright-mcp
+node_modules
+frontend/node_modules
+frontend/dist
+*.log
